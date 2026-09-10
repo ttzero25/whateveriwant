@@ -5,11 +5,19 @@ const robotics=JSON.parse(await fs.readFile(new URL('../dist/robotics-security.j
 assert.deepEqual(robotics.sources.map(s=>s.id),['ros','robotics','autonomy']);
 assert.ok(robotics.items.length,'No saved robotics updates to publish');
 for(const item of robotics.items)assert.ok(item.tags.every(tag=>['security','ros','autonomy','sensors'].includes(tag)));
+assert.ok(robotics.archive.items.length,'Conference archive is empty');
+assert.equal(new Set(robotics.archive.items.map(i=>i.id)).size,robotics.archive.items.length);
+for(const [index,item] of robotics.archive.items.entries()){
+ assert.ok(robotics.archive.sources.some(s=>s.id===item.venue&&s.year===item.year));
+ assert.ok(item.tags.length&&item.tags.every(t=>['autonomy','vehicle','ros','physical'].includes(t)));
+ assert.equal(item.date,undefined,'Do not invent paper publication dates');
+ if(index)assert.ok(robotics.archive.items[index-1].year>=item.year);
+}
 const expected=['openai','anthropic','arxiv'];
 assert.deepEqual(data.sources.map(s=>s.id),expected);
 assert.equal(data.conferences.length,5);
 assert.ok(data.items.length,'No saved news to publish');
-for(const item of [...data.items,...robotics.items,...data.conferences.flatMap(c=>c.items)]){
+for(const item of [...data.items,...robotics.items,...robotics.archive.items,...data.conferences.flatMap(c=>c.items)]){
  assert.ok(item.title&&item.url,'Publication metadata missing');
  assert.equal(new URL(item.url).protocol,'https:');
  assert.equal(typeof item.tldr?.ko,'string');

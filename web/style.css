@@ -170,3 +170,7 @@
 .conference-paper h3 a:hover{color:var(--accent)}
 .conference-more{margin-top:12px}
 @media(max-width:600px){.conference-watch{padding:18px}.research-tldr{font-size:12px}}
+
+.archive-filters{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:20px}.archive-filters label{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12px}.archive-filters select{background:var(--white);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px;max-width:100%}.archive-sources{margin-top:24px;color:var(--muted);font-size:12px;line-height:1.8}.archive-sources summary{cursor:pointer}.archive-sources a{text-decoration:underline}.archive-paper .research-tags{margin-bottom:14px}#archive-count{margin-left:8px}#conference-watch>.section-head{flex-wrap:wrap;gap:12px}
+
+#archive-search{padding-right:18px}

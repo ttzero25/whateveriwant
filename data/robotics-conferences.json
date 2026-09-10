@@ -1,0 +1,1367 @@
+{
+  "attempted_at": "2026-09-10T13:21:20.125Z",
+  "sources": [
+    {
+      "id": "acm-ccs",
+      "name": "ACM CCS",
+      "year": 2026,
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "status": "ok",
+      "attempted_at": "2026-09-10T13:21:20.125Z",
+      "last_success": "2026-09-10T13:21:20.125Z",
+      "matched_count": 3
+    },
+    {
+      "id": "ieee-sp",
+      "name": "IEEE S&P",
+      "year": 2026,
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "status": "ok",
+      "attempted_at": "2026-09-10T13:21:20.125Z",
+      "last_success": "2026-09-10T13:21:20.125Z",
+      "matched_count": 1
+    },
+    {
+      "id": "ndss",
+      "name": "NDSS",
+      "year": 2026,
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "status": "ok",
+      "attempted_at": "2026-09-10T13:21:20.125Z",
+      "last_success": "2026-09-10T13:21:20.125Z",
+      "matched_count": 6
+    },
+    {
+      "id": "usenix-security",
+      "name": "USENIX Security",
+      "year": 2026,
+      "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "status": "ok",
+      "attempted_at": "2026-09-10T13:21:20.125Z",
+      "last_success": "2026-09-10T13:21:20.125Z",
+      "matched_count": 3
+    },
+    {
+      "id": "vehiclesec",
+      "name": "VehicleSec",
+      "year": 2026,
+      "url": "https://www.usenix.org/conference/vehiclesec26/technical-sessions",
+      "status": "ok",
+      "attempted_at": "2026-09-10T13:21:20.125Z",
+      "last_success": "2026-09-10T13:21:20.125Z",
+      "matched_count": 26
+    },
+    {
+      "id": "acm-ccs",
+      "name": "ACM CCS",
+      "year": 2025,
+      "url": "https://www.sigsac.org/ccs/CCS2025/accepted-papers/",
+      "feed": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "status": "ok",
+      "attempted_at": "2026-09-10T13:21:20.125Z",
+      "last_success": "2026-09-10T13:21:20.125Z",
+      "matched_count": 6
+    },
+    {
+      "id": "ieee-sp",
+      "name": "IEEE S&P",
+      "year": 2025,
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html",
+      "status": "ok",
+      "attempted_at": "2026-09-10T13:21:20.125Z",
+      "last_success": "2026-09-10T13:21:20.125Z",
+      "matched_count": 1
+    },
+    {
+      "id": "ndss",
+      "name": "NDSS",
+      "year": 2025,
+      "url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
+      "status": "ok",
+      "attempted_at": "2026-09-10T13:21:20.125Z",
+      "last_success": "2026-09-10T13:21:20.125Z",
+      "matched_count": 7
+    },
+    {
+      "id": "usenix-security",
+      "name": "USENIX Security",
+      "year": 2025,
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "status": "ok",
+      "attempted_at": "2026-09-10T13:21:20.125Z",
+      "last_success": "2026-09-10T13:21:20.125Z",
+      "matched_count": 6
+    },
+    {
+      "id": "vehiclesec",
+      "name": "VehicleSec",
+      "year": 2025,
+      "url": "https://www.usenix.org/conference/vehiclesec25/technical-sessions",
+      "status": "ok",
+      "attempted_at": "2026-09-10T13:21:20.125Z",
+      "last_success": "2026-09-10T13:21:20.125Z",
+      "matched_count": 28
+    },
+    {
+      "id": "ndss",
+      "name": "NDSS",
+      "year": 2024,
+      "url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
+      "status": "ok",
+      "attempted_at": "2026-09-10T13:21:20.125Z",
+      "last_success": "2026-09-10T13:21:20.125Z",
+      "matched_count": 6
+    }
+  ],
+  "items": [
+    {
+      "id": "acm-ccs:2026:56b25413d5fbc064",
+      "title": "Effects of Explanations on Driver Situation Awareness Under Physical Adversarial Attacks in Automated Driving: A Driving Simulator Study",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "acm-ccs:2026:f6a4f0bf0f3c2a0c",
+      "title": "Head Unit at Risk: Cross-Domain Attacks via In-Vehicle Infotainment Systems",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "acm-ccs:2026:b4c69636ce44a5ab",
+      "title": "SlowPerception: Physical-World Latency Attack against Camera-based Perception in Autonomous Driving",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ieee-sp:2026:07447361e8ead545",
+      "title": "BACHunter: Detecting Broken Access Control Vulnerabilities in Intelligent Connected Vehicles",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-154",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ndss:2026:7ad4aa8c2e4993f6",
+      "title": "ADGFUZZ: Assignment Dependency-Guided Fuzzing for Robotic Vehicles",
+      "url": "https://www.ndss-symposium.org/ndss-paper/adgfuzz-assignment-dependency-guided-fuzzing-for-robotic-vehicles/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ndss:2026:70c0cc5f8937d546",
+      "title": "Automating Function-Level TARA for Automotive Full-Lifecycle Security",
+      "url": "https://www.ndss-symposium.org/ndss-paper/automating-function-level-tara-for-automotive-full-lifecycle-security/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ndss:2026:bbeaea8a4b5a148a",
+      "title": "FlyTrap: Physical Distance-Pulling Attack Towards Camera-based Autonomous Target Tracking Systems",
+      "url": "https://www.ndss-symposium.org/ndss-paper/flytrap-physical-distance-pulling-attack-towards-camera-based-autonomous-target-tracking-systems/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:21:20.125Z"
+    },
+    {
+      "id": "ndss:2026:c810a436f48e9a00",
+      "title": "PhyFuzz: Detecting Sensor Vulnerabilities with Physical Signal Fuzzing",
+      "url": "https://www.ndss-symposium.org/ndss-paper/phyfuzz-detecting-sensor-vulnerabilities-with-physical-signal-fuzzing/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:21:20.125Z"
+    },
+    {
+      "id": "ndss:2026:22b8fd9a3cef8cd5",
+      "title": "SECV: Securing Connected Vehicles with Hardware Trust Anchors",
+      "url": "https://www.ndss-symposium.org/ndss-paper/secv-securing-connected-vehicles-with-hardware-trust-anchors/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ndss:2026:2d5abf8dd726a6af",
+      "title": "The Heat is On: Understanding and Mitigating Vulnerabilities of Thermal Image Perception in Autonomous Systems",
+      "url": "https://www.ndss-symposium.org/ndss-paper/the-heat-is-on-understanding-and-mitigating-vulnerabilities-of-thermal-image-perception-in-autonomous-systems/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:21:20.125Z"
+    },
+    {
+      "id": "usenix-security:2026:3800fab2d2dcbfed",
+      "title": "BLE Theft Auto: Evaluating the Security of Aftermarket BLE-based Automotive Remote Control Systems",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/yu-jerry",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Vehicles are increasingly remotely controllable from smartphone apps that function like keyfobs: unlocking a vehicle's doors and even starting its engine.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "usenix-security:2026:811789d8f2799543",
+      "title": "FIRA: Enabling Automatic Forensic Investigation of Unmanned Aerial Vehicles",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-yizhi",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "In dynamic environments, unmanned aerial vehicles (UAVs) often utilize online learning to refine their machine learning (ML) model's decision boundaries for improved performance.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "usenix-security:2026:0ed769e1b3be0424",
+      "title": "TAT: Attesting Trajectory Integrity of Industrial Robotic Arms",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/yao-chengtao",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "physical"
+      ],
+      "excerpt": "Industrial robotic arms are central to modern manufacturing, with broad deployment in critical domains.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:8380492512edf99f",
+      "title": "A Study on Extending the TARA Methodology for Physical AI: A Case Study of ADS",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/woo",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "Automated Driving Systems (ADS) integrate complex Physical AI, rendering traditional software-centric threat modeling inadequate against emerging AI and physical-layer vulnerabilities.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:0132407b43fea2da",
+      "title": "AutoHack: A Physically Verified Multi-Bus CAN Dataset for Intrusion Detection System Evaluation",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/song",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "This paper presents the AutoHack Dataset, a high-fidelity vehicle cybersecurity dataset collected from a 2023 Hyundai vehicle in real-world driving environments.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:63f509dcd547790d",
+      "title": "Beyond Classical PKI: A Quantum-Safe Authentication Framework for Automotive OTA Updates",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/lin",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "The automotive industry is transitioning to software-defined architectures, making Over-the-Air (OTA) updates essential for managing the long-term lifecycles of modern vehicles, which often exceed a…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:8e01f7575cab9008",
+      "title": "Blind Spot in Sensor Fusion: Exploiting an Architectural Vulnerability to Hijack and Precisely Control UAVs",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/han",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "To achieve nimble real-time control while remaining robust to error accumulation, PX4 and ArduPilot UAV control pipelines typically combine high-rate IMU-based attitude controls with low-rate…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:180a82c93673c5cf",
+      "title": "Bridging Two TARAs: Integrating MITRE CTSA/CRRA Prioritization into ISO/SAE 21434 for Automotive Security",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/park",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Threat Analysis and Risk Assessment (TARA) in ISO/SAE 21434 primarily focuses on threat identification, which makes it difficult to quantitatively prioritize countermeasures and can lead…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:c47b786dcf1de9ea",
+      "title": "CANBERT+: An Optimized Multi-Layer BERT-Based Intrusion Detection for CAN Bus",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/won",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Controller Area Network (CAN) buses in modern vehicles lack fundamental security mechanisms, leaving them vulnerable to message-injection attacks.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:375486847098e282",
+      "title": "Charge It to My Neighbor: A Relay Attack on ISO 15118 Plug and Charge Payment",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/low",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "ISO 15118, the leading standard for DC fast charging in Europe, includes a plug-and-charge mechanism that allows electric vehicles to handle payment automatically via contract…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:c91e247cdd79f600",
+      "title": "CIAplates: Covert, Intelligent, Adversarial Attack on Automated License Plate Recognition Systems using Digital License Plates",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/asavisanu",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Digital license plates are increasingly being introduced as an option for motorists and fleet operators alike.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:2571b82d975be295",
+      "title": "Digital Eyes on the Road: Using Street Cameras to Verify Traffic Integrity and Detect Sybil Attacks at City Scale",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/tavori",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Crowdsourced navigation platforms infer congestion from GPS-derived telemetry, enabling real-time traffic estimation and control at city scale.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:87de957636af5cd0",
+      "title": "E-Trojans: Ransomware, Tracking, DoS, and Data Leaks on the Xiaomi E-Scooter Ecosystem",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/casagrande",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "The popularity of electric scooters has grown in recent years, both for personal use and through rental apps.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:448f9284503bbfe3",
+      "title": "MIRAGE: Detecting Fake Emergency Electronic Brake Light Attacks in V2X Networks via Event-Gated Behavioral Analysis",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/ka",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "The emergency electronic brake light (EEBL) application in Vehicle-to-Everything (V2X) networks warns upstream vehicles of hard braking.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:44f350d6fa3a4bb4",
+      "title": "Perspective-Shift Attacks Against Optical Perception Sensors: A Novel Attack Vector on LiDAR and Camera",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/calipari",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "autonomy",
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "Autonomous vehicles rely heavily on optical perception sensors, such as LiDARs and cameras, to understand their environment.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:da0a280595ec2fc2",
+      "title": "RAIL: Risk-Aware Human-in-the-Loop Framework with Adaptive Intrusion Response for Autonomous Vehicles",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/wasif-rail",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "autonomy",
+        "vehicle"
+      ],
+      "excerpt": "Autonomous vehicles must remain safe and effective when encountering rare long-tailed scenarios or cyber–physical intrusions during driving.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:69ae4869d766202a",
+      "title": "Reversing a Brake ECU Firmware Update",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/gardiner",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "This paper presents a reverse engineering analysis of a firmware update for the Bendix EC80 Brake ECU, a critical component in heavy-duty vehicles.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:ce15007fa44e4dc8",
+      "title": "RVDebloater: Mode-based Adaptive Firmware Debloating for Robotic Vehicles",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/salehi",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "Embedded firmware is becoming increasingly larger, thereby expanding its attack surface.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:8c8ce1a63f14fe8d",
+      "title": "Seeing is Deceiving: Systematic Vulnerability Analysis of LiDAR-Based Autonomous Driving to Mirror-Induced Perception Failures",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/yahia",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "autonomy",
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "Autonomous vehicles rely heavily on LiDAR for accurate 3D perception; however, this sensing modality remains vulnerable to several physical-world failure modes.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:b34a05f3fd0b9b82",
+      "title": "SHIELD: Secure Human-Machine Interaction with Evidential Learning and Dynamic Trust for Drone Swarm Control",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/wasif-shield",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "Drone swarms face a dual challenge: human operators cannot effectively supervise more than a dozen Unmanned Aerial Vehicles (UAVs) before situational awareness degrades, yet fully…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:78a18670952e6ae5",
+      "title": "Short: CARdea: Two-Phase Plausibility-Based Vehicle-to-Vehicle Anomaly Detection System",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/pese",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Ensuring secure vehicle-to-vehicle (V2V) communication is vital to the development of connected and automated vehicles (CAVs).",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:9a66723a5b7edb42",
+      "title": "Short: Investigating Stealthy Latency Attacks Against Camera-Based Object Detection Systems",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/xia",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Object detection (OD) systems are fundamental to safety-critical applications such as autonomous driving and indoor mobile robots, yet remain vulnerable to latency-based attacks that degrade…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:538645c5619e6f85",
+      "title": "Short: Is Your ECU Really Yours?",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/ali",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Vehicular networks rely on embedded devices (Electronic Control Units (ECUs), CAN bus nodes, and sensor modules) that communicate via digital ON/OFF switching signals.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:dc989d22e7a809b0",
+      "title": "Short: Race to Charge: Concurrency Bugs and State Integrity Violations in EV Charging Infrastructure",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/lee",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Electric vehicle (EV) charging infrastructure must juggle hardware control, communication protocols, and cloud-based management all at once, relying on complex event-driven multithreaded software underneath.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:38d673cb935a9e34",
+      "title": "Short: VIN2VICTIM: From Vehicle Identification to Targeted Tracking via Data Broker Exploitation",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/pasandi",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Connected vehicles relay GPS telemetry to manufacturers, who routinely sell it to data brokers.We present VIN2VICTIM, an attack pipeline that converts a single Vehicle Identification…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:23b08409e5160ca7",
+      "title": "SLEIGHT: Real-time Closed-Loop Attack Analytics Framework for Holistic Intrusion Detection Systems in Unmanned Aerial Vehicles",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/asif",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "Unmanned aerial vehicles (UAVs) are increasingly secured by advanced intrusion detection systems (IDSs) that monitor the holistic sensor–control–actuator pipeline.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:81da3bb387222a8d",
+      "title": "WIP: A Benchmark for Security Evaluation of Adversarial Manoeuvre Attacks in Autonomous Driving",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/emamy",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "autonomy",
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "This paper presents a simulation-only benchmark for security evaluation of autonomous driving agents under adversarial manoeuvre attacks.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:dbe4f86c4b22f574",
+      "title": "WIP: On the Real-World Applicability of Automotive CAN Intrusion Detection Systems",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/lazeski",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Machine Learning (ML)-based Controller Area Network (CAN) Intrusion Detection Systems (IDS) are widely studied and used to detect and mitigate attacks on in-vehicle communication.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2026:4424eb184bb414c0",
+      "title": "WIP: SNFuzz: Gateway-Centric State-Oriented Fuzzing for MQTT-SN",
+      "url": "https://www.usenix.org/conference/vehiclesec26/presentation/de-la-pena",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Modern vehicles are increasingly evolving into complex IoT systems that rely on lightweight messaging protocols for Vehicle-to-Everything (V2X) communication.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "acm-ccs:2025:822f2f7ed189d797",
+      "title": "Asymmetry Vulnerability and Physical Attacks on Online Map Construction for Autonomous Driving",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765092",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "acm-ccs:2025:798d1bd35fbf5686",
+      "title": "ControlLoc: Physical-World Hijacking Attack on Camera-based Perception in Autonomous Driving",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744842",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "acm-ccs:2025:7329b45a14c49b38",
+      "title": "Security-Aware Sensor Fusion with MATE: the Multi-Agent Trust Estimator",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765193",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "acm-ccs:2025:3be1d353c69eddbb",
+      "title": "The Odyssey of robots.txt Governance: Measuring Convention Implications of Web Bots in Large Language Model Services",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765063",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "acm-ccs:2025:0e3f5bc7379f7a8c",
+      "title": "Threat from Windshield: Vehicle Windows as Involuntary Attack Sources on Automotive Voice Assistants",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765171",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "acm-ccs:2025:e7697d8816c5577f",
+      "title": "Towards Real-Time Defense Against Object-Based LiDAR Attacks in Autonomous Driving",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765227",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ieee-sp:2025:9c5705606c4e52b9",
+      "title": "Investigating Physical Latency Attacks against Camera-based Perception",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-137",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:21:20.125Z"
+    },
+    {
+      "id": "ndss:2025:c8e31faef94698b9",
+      "title": "ERW-Radar: An Adaptive Detection System against Evasive Ransomware by Contextual Behavior Detection and Fine-grained Content Analysis",
+      "url": "https://www.ndss-symposium.org/ndss-paper/erw-radar-an-adaptive-detection-system-against-evasive-ransomware-by-contextual-behavior-detection-and-fine-grained-content-analysis/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ndss:2025:cc7f6fbc74a79107",
+      "title": "Interventional Root Cause Analysis of Failures in Multi-Sensor Fusion Perception Systems",
+      "url": "https://www.ndss-symposium.org/ndss-paper/interventional-root-cause-analysis-of-failures-in-multi-sensor-fusion-perception-systems/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ndss:2025:963e05a466665089",
+      "title": "L-HAWK: A Controllable Physical Adversarial Patch Against a Long-Distance Target",
+      "url": "https://www.ndss-symposium.org/ndss-paper/l-hawk-a-controllable-physical-adversarial-patch-against-a-long-distance-target/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ndss:2025:e8192cf878bcdcac",
+      "title": "On the Realism of LiDAR Spoofing Attacks against Autonomous Driving Vehicle at High Speed and Long Distance",
+      "url": "https://www.ndss-symposium.org/ndss-paper/on-the-realism-of-lidar-spoofing-attacks-against-autonomous-driving-vehicle-at-high-speed-and-long-distance/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ndss:2025:1a114a794532921c",
+      "title": "PhantomLiDAR: Cross-modality Signal Injection Attacks against LiDAR",
+      "url": "https://www.ndss-symposium.org/ndss-paper/phantomlidar-cross-modality-signal-injection-attacks-against-lidar/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ndss:2025:6457f3e8b44d893a",
+      "title": "RadSee: See Your Handwriting Through Walls Using FMCW Radar",
+      "url": "https://www.ndss-symposium.org/ndss-paper/radsee-see-your-handwriting-through-walls-using-fmcw-radar/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ndss:2025:17f71c563d7cf1e6",
+      "title": "Revisiting Physical-World Adversarial Attack on Traffic Sign Recognition: A Commercial Systems Perspective",
+      "url": "https://www.ndss-symposium.org/ndss-paper/revisiting-physical-world-adversarial-attack-on-traffic-sign-recognition-a-commercial-systems-perspective/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "usenix-security:2025:3d30a35f4cdf6a2b",
+      "title": "Automated Discovery of Semantic Attacks in Multi-Robot Navigation Systems",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/yeke",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "physical"
+      ],
+      "excerpt": "Finding collision-free paths is crucial for autonomous multi-robots (AMRs) to complete assigned missions, ranging from search operations to military tasks.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "usenix-security:2025:1015880b58573abd",
+      "title": "EchoLLM: LLM-Augmented Acoustic Eavesdropping Attack on Bone Conduction Headphones with mmWave Radar",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/yao-xin",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "physical"
+      ],
+      "excerpt": "Bone conduction headphones have gained popularity due to their comfort and versatility, as they transmit sound via vibrations through the user's skull bones rather than…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "usenix-security:2025:df450ec896de5718",
+      "title": "GNSS-WASP: GNSS Wide Area SPoofing",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/tibaldo",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "physical"
+      ],
+      "excerpt": "In this paper, we propose GNSS-WASP, a novel wide-area spoofing attack carried by a constellation of strategically-located synchronized transmitters.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "usenix-security:2025:3f3f190793629001",
+      "title": "Harness: Transparent and Lightweight Protection of Vehicle Control on Untrusted Android Automotive Operating System",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/gong-haochen",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "As modern in-vehicle infotainment (IVI) systems become more advanced and feature-rich, their complexity increases, expanding the attack surface.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "usenix-security:2025:f30d1827a137be56",
+      "title": "Invisible but Detected: Physical Adversarial Shadow Attack and Defense on LiDAR Object Detection",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/kobayashi",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "This paper introduces \"Shadow Hack,\" the first adversarial attack exploiting naturally occurring object shadows in LiDAR point clouds to target object detection models in autonomous…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "usenix-security:2025:30578a7e489313d0",
+      "title": "The Ghost Navigator: Revisiting the Hidden Vulnerability of Localization in Autonomous Driving",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-junqi",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "Localization is crucial for Autonomous Driving (AD), which serves as a critical foundation impacting the performance of downstream modules.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:1ef56615212ba812",
+      "title": "Beyond the Glow: Understanding Luminescent Marker Behavior Against Autonomous Vehicle Perception Systems",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/mitra",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "vehicle"
+      ],
+      "excerpt": "Autonomous driving (AD) systems rely heavily on accurate lane marker detection for safe navigation, particularly during nighttime or low-light conditions.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:5c9e643d883b8f5f",
+      "title": "CANdid - An Open-Access Annotated Dataset of Vehicle CAN Bus Traffic",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/howson",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "The data formats used by controller area networks (CAN) to transmit information are not strictly defined and vary across vehicle manufacturers; the same information differs…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:143619e8b86988e4",
+      "title": "CarPlay at Risk: Unveiling Security Threats of Third-Party Infotainment Adapters",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/won",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Modern vehicles offer extensive functionality through smartphone integration, enabling users to stream music, make calls, and access various applications.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:1be8fbb727a9e845",
+      "title": "ConfuSense: Sensor Reconfiguration Attacks for Stealthy UAV Manipulation",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/erba",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "Unmanned Aerial Vehicles autonomously perform tasks using state-of-the-art control algorithms.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:c772e7778b9e0887",
+      "title": "DrainDead: Emptying Batteries of Parked Electric Vehicles",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/low",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "In recent years, sales of electric vehicles have skyrocketed.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:c50661a32cba9260",
+      "title": "EmuOCPP: Effective and Scalable OCPP Security and Privacy Testing",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/boussaha",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "The Open Charge Point Protocol (OCPP) is the de facto standard for communication between electric vehicle charging stations (CS) and charging station management systems (CSMS).",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:e8c114352902e347",
+      "title": "Human Drivers' Awareness of Utility and Privacy Risks of Vehicle-to-Everything Communication: A Driving Simulator Study",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/cai",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "With recent progress in vehicle-to-everything (V2X) communication, increasing studies have been conducted to enhance its safety, security, and privacy from a technical perspective.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:58f6f96fb00d8658",
+      "title": "Lightweight Deep Learning for Cyber-Resilient Heavy Vehicles: Efficient Signal Reconstruction on Embedded Systems",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/bar-on",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Modern heavy vehicles rely on insecure protocols (CAN and SAE-J1939) to facilitate communication between the embedded devices that control their various subsystems.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:2bce5fe65be78338",
+      "title": "Oblivious Plug&Charge: A Privacy-Preserving EV Charging Scheme based on ORAM",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/lauser",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "In the rapidly developing Electric Vehicle (EV) charging infrastructure, ensuring user privacy during charging and billing processes has become a concern.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:620db9f6496a5b7c",
+      "title": "Secure FLOATING - Scalable Federated Learning Framework for Real-time Trust in Mobility Data using Secure Multi-Party Computation and Blockchain",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/khan",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "The safety of Connected and Autonomous Vehicles (CAVs), Micromobility devices (e-scooter, e-bikes) and smartphone users rely on trusting the trajectory data they generate for navigation…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:1206dad762d671e5",
+      "title": "Short: APSFUZZ: Simulation-Based Fuzzing Testing for Automated Parking Systems",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/bu",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Automated Parking System (APS) is a modern vehicle-equipped AI system that automates the process of parking vehicles.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:1583e34852052a6b",
+      "title": "Short: Breaking the Charge: Exploiting State Manipulation in EV Charging",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/zhou",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Electric vehicles (EVs) have become one of the promising solutions to the ever-evolving environmental and energy crisis.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:a4f5d1769a1ba5ae",
+      "title": "Short: PIBuster: Exploiting a Common Misconfiguration in CCS EV Chargers",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/szakaly",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "This paper presents PIBuster, a new attack vector against the EV charging infrastructure.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:5b2cbb8d78fa64d1",
+      "title": "Short: Unencrypted Flying Objects: Security Lessons from University Small Satellite Developers and Their Code",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/mcamis",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Small satellites face unique security challenges, especially when built by budget-constrained university teams with limited security expertise.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:75c0f54230368888",
+      "title": "SoK: Stealing Cars Since Remote Keyless Entry Introduction and How to Defend From It",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/bianchi",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Remote Keyless Entry (RKE) systems have been the target of thieves since their introduction in the automotive industry.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:2df4f7c5806d26e6",
+      "title": "Stateful Behavior Inference and Runtime Enforcement for Vehicle Network Security",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/desai",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "As cars are turning into computers with wheels, or \"software-defined vehicles\", computer security concerns are becoming increasingly critical.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:55d41b8697e3ddd0",
+      "title": "Threat Analysis and Detection in In-Vehicle Infotainment System Leveraging MITRE ATT&CK and Suricata",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/kang",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "In-vehicle infotainment (IVI) systems have served as central consoles that offer a variety of convenient features and facilitate comprehensive vehicle management.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:7818f2c82ff4e383",
+      "title": "WIP: A Black Box System for Automotive Digital Forensics",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/setiadji",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Modern vehicles through increased connectivity are growingly susceptible to cybersecurity threats.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:1e96b8f8cd271867",
+      "title": "WIP: Blurred Lines -- A GDPR-Compliant Framework for Anonymising Automotive Video Data",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/vinod",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "Protecting personally identifiable information (PII) is now a mandatory requirement, in the automotive domain, as this information can be used to potentially identify, track, or…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:05569073182047ea",
+      "title": "WIP: Evaluating the End-to-End Impact of False Localization Attacks on vSLAM-Based Autonomous Drones",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/ebine",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "Visual Simultaneous Localization and Mapping (vSLAM) is critical for autonomous navigation in self-driving vehicles, robotics, and drones, yet its security vulnerabilities remain largely unexplored.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:62460f70a7f5f3e2",
+      "title": "WIP: Evaluation of Threats and Impacts of HD Map Tampering Attacks in Autonomous Driving",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/sato",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "High-definition (HD) maps are essential for autonomous vehicle (AV) navigation, providing detailed road and lane structure information.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:b7801545418485b1",
+      "title": "WIP: From Detection to Explanation: Using LLMs for Adversarial Scenario Analysis in Vehicles",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/fernandez",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "We propose a framework that leverages Large Language Models (LLMs) for adversarial scenario analysis in Autonomous Vehicles (AVs), generating interpretable explanations for anomalies and bridging…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:2bf4d3e3596cd9d9",
+      "title": "WIP: Hijacking Attacks on UAV Follow-Me Systems in Realistic Scenarios",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/li-jiarui",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "Modern vision-based object tracking is a vital component of Unmanned Aerial Vehicle (UAV) systems.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:7f748f4c3ceb3e1a",
+      "title": "WIP: Intrusion Detection and Localization for CAN by Extracting Propagation Delay Features from Message Intervals",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/tang",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "The Controller Area Network (CAN bus) is a critical communication protocol used in vehicles.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:16d0eabc60459915",
+      "title": "WIP: Learning Adversarial Attacks on Adaptive Traffic Signal Control Systems Under Cooperative Perception",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/li-wangzhi",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "vehicle"
+      ],
+      "excerpt": "Significant advancements in traffic control systems, such as integration with sensing and communication technologies, have led to increased system complexity.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:e3f1f832f67f0a47",
+      "title": "WIP: QKSAN: Towards Multiple Sanitizers for In-vehicle COTS OS Kernels",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/zou",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "With the rise of smart vehicles, increasingly intelligent in-vehicle systems are also exposing security issues, where traditional software vulnerabilities are demonstrating greater harm.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:524ba2dd1248361b",
+      "title": "WIP: Understanding the Mechanisms Behind NDT-Based Localization Vulnerabilities in Autonomous Driving",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/tanaka",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "autonomy",
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "Accurate localization is critical for autonomous driving (AD), yet its security risks remain insufficiently explored, particularly in driving scenarios involving sensor fusion.",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "vehiclesec:2025:a9507c5eb2485912",
+      "title": "You Can Drive But You Cannot Hide: Detection of Hidden Cellular GPS Vehicle Trackers",
+      "url": "https://www.usenix.org/conference/vehiclesec25/presentation/satt",
+      "basis": "abstract",
+      "venue": "vehiclesec",
+      "year": 2025,
+      "tags": [
+        "vehicle",
+        "physical"
+      ],
+      "excerpt": "Cyberstalking poses a significant international threat due to the large number of individuals affected worldwide and the severe nature of many incidents, which can be…",
+      "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "ndss:2024:9849470b79eb2899",
+      "title": "Decentralized Information-Flow Control for ROS2",
+      "url": "https://www.ndss-symposium.org/ndss-paper/decentralized-information-flow-control-for-ros2/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "ros"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:21:20.125Z"
+    },
+    {
+      "id": "ndss:2024:64e4b3130b8cffc2",
+      "title": "Efficient and Timely Revocation of V2X Credentials",
+      "url": "https://www.ndss-symposium.org/ndss-paper/efficient-and-timely-revocation-of-v2x-credentials/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:21:20.125Z"
+    },
+    {
+      "id": "ndss:2024:e771508cb42f845f",
+      "title": "Invisible Reflections: Leveraging Infrared Laser Reflections to Target Traffic Sign Perception",
+      "url": "https://www.ndss-symposium.org/ndss-paper/invisible-reflections-leveraging-infrared-laser-reflections-to-target-traffic-sign-perception/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "autonomy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:21:20.125Z"
+    },
+    {
+      "id": "ndss:2024:864c654f89f7cb4b",
+      "title": "LiDAR Spoofing Meets the New-Gen: Capability Improvements, Broken Assumptions, and New Attack Strategies",
+      "url": "https://www.ndss-symposium.org/ndss-paper/lidar-spoofing-meets-the-new-gen-capability-improvements-broken-assumptions-and-new-attack-strategies/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:21:20.125Z"
+    },
+    {
+      "id": "ndss:2024:0a9ae6beffb709ca",
+      "title": "MadRadar: A Black-Box Physical Layer Attack Framework on mmWave Automotive FMCW Radars",
+      "url": "https://www.ndss-symposium.org/ndss-paper/madradar-a-black-box-physical-layer-attack-framework-on-mmwave-automotive-fmcw-radars/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:21:20.125Z"
+    },
+    {
+      "id": "ndss:2024:201be68e66752a05",
+      "title": "When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications",
+      "url": "https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:21:20.125Z"
+    }
+  ]
+}

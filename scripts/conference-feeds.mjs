@@ -9,10 +9,12 @@ export const conferences=[
 ];
 const clean=s=>String(s||'').replace(/\s+/g,' ').trim();
 const relevant=/\b(LLMs?|language models?|AI agents?|agentic|machine learning|deep learning|neural|prompt injection|jailbreak\w*|model (?:safety|security)|membership inference|unlearning)\b/i;
-export function parseConference(source,text){
+export function parseConference(source,text,{matches=title=>relevant.test(title),limit=8,allowEmpty=false}={}){
+ let candidates=0;
  const items=[],$=source.id==='icml'?null:load(text);
  function add(title,url,description='',basis='title'){
-  title=clean(title);if(!title||!relevant.test(title))return;
+  title=clean(title);if(!title)return;
+  candidates++;if(!matches(title))return;
   let link;try{link=new URL(url,source.url);if(link.protocol!=='https:'||link.hostname!==new URL(source.url).hostname)return;}catch{return;}
   const id=createHash('sha256').update(title.toLowerCase()).digest('hex').slice(0,16);
   items.push({id:source.id+':'+source.year+':'+id,title,url:link.href,basis,description:clean(description)});
@@ -31,8 +33,8 @@ export function parseConference(source,text){
   for(const row of data.results)if(/^Accept/.test(row.decision||''))add(row.name,row.virtualsite_url);
  }
  const unique=[...new Map(items.map(i=>[i.id,i])).values()].sort((a,b)=>a.title.localeCompare(b.title,'en'));
- if(!unique.length)throw Error('No matching conference papers; source layout may have changed');
- return {matched_count:unique.length,items:unique.slice(0,8)};
+ if(!unique.length&&(!allowEmpty||!candidates))throw Error('No matching conference papers; source layout may have changed');
+ return {matched_count:unique.length,items:unique.slice(0,limit)};
 }
 export function articleDescription(html,source){
  const $=load(html);let body='';
