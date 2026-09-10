@@ -86,7 +86,9 @@
  .concept-diagram,.article blockquote{border-radius:20px}
 }
 
-.research-link{margin-top:20px;border:1px solid var(--line)}
+.robotics-link,.research-link{border:1px solid var(--line);flex-shrink:0}
+.robotics-link{margin-top:20px}
+.research-link{margin-top:8px}
 .research-intro h1{font-size:32px;letter-spacing:-1px;margin:14px 0}
 .research-intro p{color:var(--muted);line-height:1.9;margin-bottom:14px}
 .research-intro>small{color:var(--muted);font-size:10px;line-height:1.8;display:block}
