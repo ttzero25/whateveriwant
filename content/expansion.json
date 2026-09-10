@@ -1,0 +1,131 @@
+[
+  {
+    "topic": "cs",
+    "slug": "discrete-mathematics",
+    "englishTitle": "Discrete mathematics and logic",
+    "level": "기초"
+  },
+  {
+    "topic": "cs",
+    "slug": "graphs-search",
+    "englishTitle": "Graphs, traversal and dependencies",
+    "level": "핵심"
+  },
+  {
+    "topic": "cs",
+    "slug": "language-execution",
+    "englishTitle": "Compilers, interpreters and runtime execution",
+    "level": "핵심"
+  },
+  {
+    "topic": "cs",
+    "slug": "distributed-systems",
+    "englishTitle": "Distributed systems and partial failure",
+    "level": "핵심"
+  },
+  {
+    "topic": "security",
+    "slug": "logging-incident-response",
+    "englishTitle": "Security logging and incident response",
+    "level": "응용"
+  },
+  {
+    "topic": "security",
+    "slug": "secure-development",
+    "englishTitle": "Secure development and code review",
+    "level": "응용"
+  },
+  {
+    "topic": "security",
+    "slug": "software-supply-chain",
+    "englishTitle": "Software supply chain security",
+    "level": "핵심"
+  },
+  {
+    "topic": "security",
+    "slug": "cloud-identity-secrets",
+    "englishTitle": "Cloud IAM and secrets management",
+    "level": "응용"
+  },
+  {
+    "topic": "ai",
+    "slug": "probability-statistics",
+    "englishTitle": "Probability, statistics and uncertainty",
+    "level": "기초",
+    "track": "ml"
+  },
+  {
+    "topic": "ai",
+    "slug": "model-selection-features",
+    "englishTitle": "Cross-validation and feature pipelines",
+    "level": "핵심",
+    "track": "ml"
+  },
+  {
+    "topic": "ai",
+    "slug": "ensembles",
+    "englishTitle": "Ensembles: bagging, forests and boosting",
+    "level": "핵심",
+    "track": "ml"
+  },
+  {
+    "topic": "ai",
+    "slug": "dimensionality-reduction",
+    "englishTitle": "Dimensionality reduction and PCA",
+    "level": "핵심",
+    "track": "ml"
+  },
+  {
+    "topic": "ai",
+    "slug": "backpropagation",
+    "englishTitle": "Backpropagation and automatic differentiation",
+    "level": "핵심",
+    "track": "dl"
+  },
+  {
+    "topic": "ai",
+    "slug": "training-stability",
+    "englishTitle": "Initialization, normalization and residual learning",
+    "level": "핵심",
+    "track": "dl"
+  },
+  {
+    "topic": "ai",
+    "slug": "llm-training-lifecycle",
+    "englishTitle": "Pretraining, supervised fine-tuning and preference learning",
+    "level": "핵심",
+    "track": "llm"
+  },
+  {
+    "topic": "ai",
+    "slug": "context-retrieval",
+    "englishTitle": "Context, memory and retrieval pipelines",
+    "level": "응용",
+    "track": "llm"
+  },
+  {
+    "topic": "ai",
+    "slug": "llm-evaluation-tools",
+    "englishTitle": "LLM evaluation and tool-use boundaries",
+    "level": "응용",
+    "track": "llm"
+  },
+  {
+    "topic": "ai-for-security",
+    "slug": "detection-engineering",
+    "englishTitle": "Detection engineering lifecycle",
+    "level": "응용"
+  },
+  {
+    "topic": "ai-for-security",
+    "slug": "phishing-classification",
+    "englishTitle": "A defensive phishing classification case study",
+    "level": "응용"
+  },
+  {
+    "topic": "ai-for-security",
+    "slug": "model-operations",
+    "englishTitle": "Security model monitoring, retraining and rollback",
+    "level": "응용"
+  }
+]

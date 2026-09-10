@@ -60,3 +60,17 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | Dropout | 학습 중 일부 활성화 제거 | [정규화](regularization.md) |
 
 정의와 출처는 각 상세 문서에서 확인할 수 있습니다.
+
+## 확장 개념 찾아보기
+
+| 용어 | 의미 | 해설 |
+|---|---|---|
+| 조건부 확률 / Conditional probability | 관측 조건을 반영한 사건의 확률 | [개념 보기](probability-statistics.md) |
+| 교차 검증 / Cross-validation | 분할을 바꿔 모델·파이프라인을 평가 | [개념 보기](model-selection-features.md) |
+| 배깅·부스팅 / Bagging, boosting | 다른 학습·결합 방식의 앙상블 | [개념 보기](ensembles.md) |
+| 주성분 분석 / PCA | 분산 보존 방향을 이용한 선형 차원 축소 | [개념 보기](dimensionality-reduction.md) |
+| 자동 미분 / Automatic differentiation | 연산의 미분을 연결해 기울기 계산 | [개념 보기](backpropagation.md) |
+| 잔차 연결 / Residual connection | 입력에 학습한 변환을 더하는 경로 | [개념 보기](training-stability.md) |
+| 지도 미세조정 / SFT | 입력·바람직한 응답 예시로 후학습 | [개념 보기](llm-training-lifecycle.md) |
+| 재순위화 / Reranking | 검색 후보를 더 정밀하게 재정렬 | [개념 보기](context-retrieval.md) |
+| 도구 호출 / Tool calling | 외부 기능에 구조화된 실행 요청 제안 | [개념 보기](llm-evaluation-tools.md) |

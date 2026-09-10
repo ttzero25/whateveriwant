@@ -36,3 +36,9 @@ A가 락 X를 가진 채 Y를 기다리고 B가 Y를 가진 채 X를 기다린�
 추가 출처: [Microsoft — About synchronization](https://learn.microsoft.com/en-us/windows/win32/sync/about-synchronization).
 
 [OS 학습 가이드](index.md)
+
+## 보호할 불변 조건과 조건 변수
+
+잔여 수량이 음수가 되지 않으려면 수량 확인과 감소를 함께 보호해야 합니다. 각각의 읽기·쓰기가 안전해도 그 사이에 상태가 바뀌면 전체 결정은 틀릴 수 있습니다. 어떤 락이 어떤 상태를 보호하는지 문서화합니다.
+
+조건 변수의 알림은 깨어난 순간 조건이 계속 참이라는 보장이 아닙니다. 다른 소비자가 먼저 항목을 가져갈 수 있으므로 락을 다시 가진 상태에서 조건을 재검사합니다. 교착, 계속 선택받지 못하는 기아, 활동하지만 진전이 없는 livelock도 구별해야 합니다. [OSTEP Concurrency Bugs](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf)

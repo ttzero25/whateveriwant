@@ -33,3 +33,9 @@ A와 B가 동시에 준비되어 있고 각각 CPU 4ms가 필요하다고 합시
 공식 참고: [Microsoft · Scheduling](https://learn.microsoft.com/en-us/windows/win32/procthread/scheduling). 영어 보기는 이 자료의 관련 개념을 짧게 인용합니다.
 
 [OS 학습 가이드](index.md)
+
+## 반환 시간과 응답 시간의 계산 예시
+
+A·B가 동시에 도착하고 CPU를 각각 8ms·2ms 사용한다고 가정합니다. 전환 비용을 무시하고 A부터 끝내면 완료 시각은 8ms·10ms로 평균 반환 시간은 9ms입니다. B부터 끝내면 2ms·10ms로 평균은 6ms입니다. 이 예시는 작업 길이를 알고 있다는 가정에 의존합니다.
+
+Round Robin은 긴 작업이 끝나기 전에 다른 작업에도 CPU를 주어 첫 응답을 빠르게 할 수 있습니다. 시간 조각을 너무 줄이면 문맥 교환 비용이 커집니다. 공정성·처리량·첫 응답·꼬리 지연 중 어떤 목표를 우선하는지 명시해야 합니다. [OSTEP CPU Scheduling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)

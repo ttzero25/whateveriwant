@@ -37,3 +37,9 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 추가 출처: [Linux Kernel — Page cache](https://docs.kernel.org/admin-guide/mm/concepts.html#page-cache).
 
 [OS 학습 가이드](index.md)
+
+## 원자성과 내구성의 차이
+
+파일 이름 교체가 원자적이라는 성질과 전원 손실 후에도 변경이 남는다는 성질은 다릅니다. 쓰기가 커널 캐시에서 완료되었을 수 있으므로 필요한 동기화와 저장 장치의 보장을 확인해야 합니다. 저널링이 있다고 애플리케이션의 여러 파일 변경이 자동으로 하나의 트랜잭션이 되지는 않습니다.
+
+문서 저장에서는 부분 쓰기, 프로세스 종료, 정전 때 어떤 상태를 허용할지 정의합니다. 임시 파일 작성과 이름 교체를 사용할 때도 파일·디렉터리 동기화의 세부 보장은 OS와 파일시스템별로 확인합니다. [OSTEP Files and Directories](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf)

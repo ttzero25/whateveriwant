@@ -58,11 +58,13 @@ for(const [i,slug] of order.entries()){
   enType='original';enSummary='Selected original definitions from Google’s Machine Learning Glossary.';
   const unique=[...new Map(Object.values(originals.concepts).flat().map(s=>[s.url,s])).values()].sort((a,b)=>a.heading.localeCompare(b.heading));
   enHTML=`<p>${escape(enSummary)}</p>`+unique.map(sectionHTML).join('')+attribution;
+ }else if(slug!=='index'){
+  enType='korean';enSummary=summary;enHTML=ko.html;
  }else{
   enType='navigation';enSummary='Explore machine learning, deep learning, and LLM applications.';
-  enHTML='<h2>Learning path</h2><p>Site navigation created for whateveriwant. Each concept opens selected original English definitions from Google.</p><ol>'+order.filter(s=>!['index','glossary'].includes(s)).map((s,j)=>`<li><a href="#/ai/${s}">${englishTitles[j]}</a></li>`).join('')+'</ol><h2>Suggested routes</h2><p>Foundations: 1 → 2 → 3 → 4 → 5<br>Language models: 4 → 6 → 7 → 8<br>Document-based applications: 6 → 8 → 9 → 10<br>ML models: 2 → 11 → 12 → 13 → 14 → 5<br>Deep learning: 4 → 15 → 3 → 18 → 16 → 17</p>';
+  enHTML='<h2>Learning path</h2><p>Site navigation created for whateveriwant. Existing concepts include selected English source excerpts; expanded articles display a Korean-article notice.</p><ol>'+order.filter(s=>!['index','glossary'].includes(s)).map((s,j)=>`<li><a href="#/ai/${s}">${englishTitles[j]}</a></li>`).join('')+'</ol><h2>Suggested routes</h2><p>Foundations: 1 → 2 → 3 → 4 → 5<br>Language models: 4 → 6 → 7 → 8<br>Document-based applications: 6 → 8 → 9 → 10<br>ML models: 2 → 11 → 12 → 13 → 14 → 5<br>Deep learning: 4 → 15 → 3 → 18 → 16 → 17</p>';
  }
- const en={title:englishTitles[i],summary:enSummary,...finalize(enHTML),source:sections?sections.map(s=>s.blocks.map(b=>b.text||b.items.join(' ')).join(' ')).join(' '):enSummary,type:enType,date:originals.checked_on};
+ const en={title:englishTitles[i],summary:enSummary,...(enType==='korean'?ko:finalize(enHTML)),source:enType==='korean'?source:sections?sections.map(s=>s.blocks.map(b=>b.text||b.items.join(' ')).join(' ')).join(' '):enSummary,type:enType,date:originals.checked_on};
  docs.push({topic:'ai',slug,title,summary:summary||(slug==='glossary'?'한영 용어를 빠르게 찾아보고 관련 개념으로 이동하세요.':'AI 기초부터 LLM 활용까지, 나에게 맞는 학습 순서를 찾아보세요.'),level:levels[i],track:catalog[i].track,...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10',en});
 }
 const collections=JSON.parse(await fs.readFile(path.join(root,'content/collections.json'),'utf8'));

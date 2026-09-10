@@ -44,3 +44,12 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 출처는 각 상세 문서에서 확인할 수 있습니다.
 
 [CS 학습 가이드](index.md)
+
+## 확장 개념 찾아보기
+
+| 용어 | 의미 | 해설 |
+|---|---|---|
+| 불변식 / Invariant | 실행 단계에서 유지해야 할 성질 | [개념 보기](discrete-mathematics.md) |
+| 위상 정렬 / Topological ordering | 방향 비순환 그래프의 의존 순서 | [개념 보기](graphs-search.md) |
+| JIT | 실행 도중 코드를 컴파일하는 방식 | [개념 보기](language-execution.md) |
+| 멱등성 / Idempotency | 반복 요청의 효과를 정한 범위에서 동일하게 유지 | [개념 보기](distributed-systems.md) |

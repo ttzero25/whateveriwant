@@ -40,6 +40,26 @@
     "level": "핵심"
   },
   {
+    "slug": "discrete-mathematics",
+    "englishTitle": "Discrete mathematics and logic",
+    "level": "기초"
+  },
+  {
+    "slug": "graphs-search",
+    "englishTitle": "Graphs, traversal and dependencies",
+    "level": "핵심"
+  },
+  {
+    "slug": "language-execution",
+    "englishTitle": "Compilers, interpreters and runtime execution",
+    "level": "핵심"
+  },
+  {
+    "slug": "distributed-systems",
+    "englishTitle": "Distributed systems and partial failure",
+    "level": "핵심"
+  },
+  {
     "slug": "glossary",
     "englishTitle": "CS glossary",
     "level": "참고"

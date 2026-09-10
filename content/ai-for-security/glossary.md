@@ -57,3 +57,13 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | 사람의 검토 | Human-in-the-loop | 중요한 판단과 실행에 사람의 검토를 포함 |
 
 관련 해설과 출처: [보안 관제의 LLM](llm-security-operations.md) · [AI 시스템 보호](securing-ai-systems.md) · [학습 가이드](index.md)
+
+## 확장 개념 찾아보기
+
+| 용어 | 의미 | 해설 |
+|---|---|---|
+| 확률 보정 / Calibration | 예측 확률과 실제 빈도의 일치 확인 | [개념 보기](detection-evaluation.md) |
+| 능동학습 / Active learning | 검토할 사례를 선택해 라벨 수집 | [개념 보기](security-data.md) |
+| 경보 상관분석 / Alert correlation | 관련 관측을 사건 맥락으로 연결 | [개념 보기](log-anomaly-detection.md) |
+| 탐지 엔지니어링 / Detection engineering | 가설·데이터·검증·운영을 유지 | [개념 보기](detection-engineering.md) |
+| 롤백 / Rollback | 검증한 이전 배포 상태로 복원 | [개념 보기](model-operations.md) |

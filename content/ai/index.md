@@ -49,3 +49,19 @@
 | [정규화](regularization.md) | L2, dropout, 조기 종료는 어떻게 다를까? |
 
 ML과 DL은 별개의 배타적 분야가 아닙니다. DL은 ML에 포함되며, 이 백과의 분류는 학습 경로를 쉽게 탐색하기 위한 구분입니다.
+
+## 확장 학습: 기초에서 설계와 운영으로
+
+| 새 개념 | 수준 |
+|---|---|
+| [확률과 통계: 조건부 확률·추정·불확실성](probability-statistics.md) | 기초 |
+| [교차 검증과 특징 공학: 비교 가능한 실험](model-selection-features.md) | 핵심 |
+| [앙상블: 배깅·랜덤 포레스트·부스팅](ensembles.md) | 핵심 |
+| [차원 축소와 PCA: 표현을 줄이는 기준](dimensionality-reduction.md) | 핵심 |
+| [역전파와 자동 미분: 손실에서 기울기까지](backpropagation.md) | 핵심 |
+| [학습 안정성: 초기화·정규화 층·잔차 연결](training-stability.md) | 핵심 |
+| [LLM의 사전학습과 후학습: SFT·선호 학습](llm-training-lifecycle.md) | 핵심 |
+| [컨텍스트·메모리와 검색: 청킹·재순위화](context-retrieval.md) | 응용 |
+| [LLM 평가와 도구 호출: 성공 기준·스키마·권한](llm-evaluation-tools.md) | 응용 |
+
+학습 경로: 확률·통계 → 모델 선택 → 앙상블·차원 축소 / 최적화 → 역전파 → 학습 안정성 / Transformer → 사전·후학습 → 검색·메모리 → LLM 평가.

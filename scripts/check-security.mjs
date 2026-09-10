@@ -7,7 +7,8 @@ const topic=process.argv[3]||'security';
 assert.ok(['security','ai-for-security'].includes(topic));
 const security=docs.filter(d=>d.topic===topic);
 await fs.mkdir('.preview',{recursive:true});
-assert.equal(security.length,8);
+const catalog=JSON.parse(await fs.readFile('content/collections.json','utf8')).find(c=>c.topic===topic);
+assert.equal(security.length,catalog.entries.length);
 const routes=new Set(docs.map(d=>`#/${d.topic}/${d.slug}`));
 assert.equal(routes.size,docs.length);
 for(const doc of docs){
@@ -26,13 +27,13 @@ try{
   page.on('pageerror',e=>errors.push(e.message));
   await page.goto(base+'#/'+topic);
   await page.waitForSelector('.doc-card');
-  assert.equal(await page.locator('.doc-card').count(),8);
+  assert.equal(await page.locator('.doc-card').count(),security.length);
   assert.equal(await page.locator('.doc-card[href^="#/ai/"]').count(),0);
   assert.equal(await page.locator('.'+topic+'-link.active').count(),1);
   assert.equal(await page.locator('.track-tabs').isVisible(),false);
   await page.locator('#search').fill(topic==='security'?'RBAC':'기저율');
   assert.ok(await page.locator('.doc-card').count()>0);
-  assert.ok(await page.locator('.doc-card').count()<8);
+  assert.ok(await page.locator('.doc-card').count()<security.length);
   await page.locator('#search').fill('');
   await page.getByRole('button',{name:'기초',exact:true}).click();
   assert.equal(await page.locator('.doc-card').count(),security.filter(d=>d.level==='기초').length);
@@ -83,5 +84,5 @@ try{
   await page.waitForSelector('.empty');
   assert.match(await page.locator('h1').innerText(),/Document not found/);
   assert.deepEqual(errors,[]);
-  console.log(topic+': PASS: unique routes, all internal article links, eight collection articles, topic isolation, search, filters, navigation, Korean fallback, mobile overflow and missing article.');
+  console.log(topic+': PASS: unique routes, all internal article links, collection articles, topic isolation, search, filters, navigation, Korean fallback, mobile overflow and missing article.');
 }finally{await browser.close();}

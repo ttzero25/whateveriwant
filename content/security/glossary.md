@@ -63,3 +63,12 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | 침입 탐지·방지 시스템 | IDS / IPS | 의심 활동을 탐지하거나 차단 |
 
 관련 해설과 출처: [웹 보안](web-security.md) · [시스템 보안](system-security.md) · [네트워크 보안](network-security.md) · [목차](index.md)
+
+## 확장 개념 찾아보기
+
+| 용어 | 의미 | 해설 |
+|---|---|---|
+| 사고 대응 / Incident response | 검증·억제·복구·개선으로 사고 처리 | [개념 보기](logging-incident-response.md) |
+| SAST·DAST·SCA | 정적·동적·의존성 분석 | [개념 보기](secure-development.md) |
+| SBOM | 소프트웨어 구성 요소 목록 | [개념 보기](software-supply-chain.md) |
+| 워크로드 신원 / Workload identity | 실행 중인 서비스·작업의 신원 | [개념 보기](cloud-identity-secrets.md) |

@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "title": "MIT Mathematics for Computer Science",
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/cs/discrete-mathematics.md"
+      ]
+    },
+    {
+      "title": "Python graphlib",
+      "url": "https://docs.python.org/3/library/graphlib.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/cs/graphs-search.md"
+      ]
+    },
+    {
+      "title": "공식 실행 모델",
+      "url": "https://docs.python.org/3/reference/executionmodel.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/cs/language-execution.md"
+      ]
+    },
+    {
+      "title": "PostgreSQL: Standby servers",
+      "url": "https://www.postgresql.org/docs/current/warm-standby.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/cs/distributed-systems.md"
+      ]
+    },
+    {
+      "title": "OWASP Logging",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/logging-incident-response.md",
+        "content/ai-for-security/security-data.md"
+      ]
+    },
+    {
+      "title": "NIST SP 800-61 Rev.3",
+      "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/logging-incident-response.md"
+      ]
+    },
+    {
+      "title": "OWASP Secure Code Review",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secure_Code_Review_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/secure-development.md"
+      ]
+    },
+    {
+      "title": "OWASP Software Supply Chain Security",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/software-supply-chain.md"
+      ]
+    },
+    {
+      "title": "OWASP Secure Cloud Architecture",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secure_Cloud_Architecture_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/cloud-identity-secrets.md"
+      ]
+    },
+    {
+      "title": "OWASP Secrets Management",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/cloud-identity-secrets.md"
+      ]
+    },
+    {
+      "title": "MIT Introduction to Probability and Statistics",
+      "url": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/probability-statistics.md"
+      ]
+    },
+    {
+      "title": "scikit-learn: Cross-validation",
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/model-selection-features.md"
+      ]
+    },
+    {
+      "title": "scikit-learn: Preprocessing",
+      "url": "https://scikit-learn.org/stable/modules/preprocessing.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/model-selection-features.md"
+      ]
+    },
+    {
+      "title": "scikit-learn: Ensembles",
+      "url": "https://scikit-learn.org/stable/modules/ensemble.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/ensembles.md"
+      ]
+    },
+    {
+      "title": "scikit-learn: Decomposition",
+      "url": "https://scikit-learn.org/stable/modules/decomposition.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/dimensionality-reduction.md"
+      ]
+    },
+    {
+      "title": "PyTorch: Automatic Differentiation",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/backpropagation.md"
+      ]
+    },
+    {
+      "title": "Layer Normalization 논문",
+      "url": "https://arxiv.org/abs/1607.06450",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/training-stability.md"
+      ]
+    },
+    {
+      "title": "ResNet 논문",
+      "url": "https://arxiv.org/abs/1512.03385",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/training-stability.md"
+      ]
+    },
+    {
+      "title": "Training language models to follow instructions",
+      "url": "https://arxiv.org/abs/2203.02155",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/llm-training-lifecycle.md"
+      ]
+    },
+    {
+      "title": "Direct Preference Optimization",
+      "url": "https://arxiv.org/abs/2305.18290",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/llm-training-lifecycle.md"
+      ]
+    },
+    {
+      "title": "Sentence Transformers: Retrieve & Re-Rank",
+      "url": "https://www.sbert.net/examples/sentence_transformer/applications/retrieve_rerank/README.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/context-retrieval.md"
+      ]
+    },
+    {
+      "title": "OWASP AI Agent Security",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai/llm-evaluation-tools.md"
+      ]
+    },
+    {
+      "title": "MITRE ATT&CK",
+      "url": "https://attack.mitre.org/",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/detection-engineering.md"
+      ]
+    },
+    {
+      "title": "imbalanced-learn: Common pitfalls",
+      "url": "https://imbalanced-learn.org/stable/common_pitfalls.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/phishing-classification.md",
+        "content/ai-for-security/security-data.md"
+      ]
+    },
+    {
+      "title": "OWASP Secure AI Model Ops",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secure_AI_Model_Ops_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/model-operations.md",
+        "content/ai-for-security/log-anomaly-detection.md",
+        "content/ai-for-security/securing-ai-systems.md"
+      ]
+    },
+    {
+      "title": "NIST AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/fundamentals.md"
+      ]
+    },
+    {
+      "title": "scikit-learn: Common pitfalls",
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/security-data.md"
+      ]
+    },
+    {
+      "title": "Google ML Crash Course: Classification metrics",
+      "url": "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/detection-evaluation.md"
+      ]
+    },
+    {
+      "title": "scikit-learn: Probability calibration",
+      "url": "https://scikit-learn.org/stable/modules/calibration.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/detection-evaluation.md"
+      ]
+    },
+    {
+      "title": "scikit-learn: Novelty and Outlier Detection",
+      "url": "https://scikit-learn.org/stable/modules/outlier_detection.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/log-anomaly-detection.md"
+      ]
+    },
+    {
+      "title": "scikit-learn: Permutation importance",
+      "url": "https://scikit-learn.org/stable/modules/permutation_importance.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/log-anomaly-detection.md"
+      ]
+    },
+    {
+      "title": "OWASP RAG Security",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/RAG_Security_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/llm-security-operations.md"
+      ]
+    },
+    {
+      "title": "OWASP LLM Prompt Injection Prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/llm-security-operations.md",
+        "content/ai-for-security/securing-ai-systems.md"
+      ]
+    },
+    {
+      "title": "Microsoft · Scheduling",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/procthread/scheduling",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/os/cpu-scheduling.md"
+      ]
+    },
+    {
+      "title": "OSTEP CPU Scheduling",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/os/cpu-scheduling.md"
+      ]
+    },
+    {
+      "title": "Microsoft · Virtual address space",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/memory/virtual-address-space",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/os/virtual-memory.md"
+      ]
+    },
+    {
+      "title": "Linux Kernel — Memory concepts",
+      "url": "https://docs.kernel.org/admin-guide/mm/concepts.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/os/virtual-memory.md"
+      ]
+    },
+    {
+      "title": "OSTEP Paging",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/os/virtual-memory.md"
+      ]
+    },
+    {
+      "title": "Microsoft · Synchronization",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/sync/synchronization",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/os/synchronization.md"
+      ]
+    },
+    {
+      "title": "Microsoft — About synchronization",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/sync/about-synchronization",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/os/synchronization.md"
+      ]
+    },
+    {
+      "title": "OSTEP Concurrency Bugs",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/os/synchronization.md"
+      ]
+    },
+    {
+      "title": "Linux Kernel · Virtual File System",
+      "url": "https://docs.kernel.org/filesystems/vfs.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/os/filesystems.md"
+      ]
+    },
+    {
+      "title": "Linux Kernel — Page cache",
+      "url": "https://docs.kernel.org/admin-guide/mm/concepts.html#page-cache",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/os/filesystems.md"
+      ]
+    },
+    {
+      "title": "OSTEP Files and Directories",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/os/filesystems.md"
+      ]
+    }
+  ]
+}

@@ -35,3 +35,9 @@ TLB miss는 변환 캐시에 항목이 없다는 뜻이며 페이지 폴트와 �
 추가 출처: [Linux Kernel — Memory concepts](https://docs.kernel.org/admin-guide/mm/concepts.html).
 
 [OS 학습 가이드](index.md)
+
+## 상주 집합과 메모리 압박
+
+예약된 가상 주소 공간과 실제 물리 메모리에 상주한 페이지 수는 다릅니다. 자주 접근하는 페이지 집합이 메모리에 비해 커지면 페이지 교체가 빈번해져 유효한 작업보다 대기에 많은 시간을 쓸 수 있습니다. 이를 thrashing이라고 합니다.
+
+모델 파일을 메모리 매핑했다고 모든 바이트가 즉시 RAM에 올라간다는 뜻은 아닙니다. 첫 접근의 페이지 준비 비용과 이미 캐시된 상태의 비용을 구분해 측정합니다. [OSTEP Paging](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf)

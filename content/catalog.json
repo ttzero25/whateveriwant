@@ -108,6 +108,60 @@
     "track": "dl"
   },
   {
+    "slug": "probability-statistics",
+    "englishTitle": "Probability, statistics and uncertainty",
+    "level": "기초",
+    "track": "ml"
+  },
+  {
+    "slug": "model-selection-features",
+    "englishTitle": "Cross-validation and feature pipelines",
+    "level": "핵심",
+    "track": "ml"
+  },
+  {
+    "slug": "ensembles",
+    "englishTitle": "Ensembles: bagging, forests and boosting",
+    "level": "핵심",
+    "track": "ml"
+  },
+  {
+    "slug": "dimensionality-reduction",
+    "englishTitle": "Dimensionality reduction and PCA",
+    "level": "핵심",
+    "track": "ml"
+  },
+  {
+    "slug": "backpropagation",
+    "englishTitle": "Backpropagation and automatic differentiation",
+    "level": "핵심",
+    "track": "dl"
+  },
+  {
+    "slug": "training-stability",
+    "englishTitle": "Initialization, normalization and residual learning",
+    "level": "핵심",
+    "track": "dl"
+  },
+  {
+    "slug": "llm-training-lifecycle",
+    "englishTitle": "Pretraining, supervised fine-tuning and preference learning",
+    "level": "핵심",
+    "track": "llm"
+  },
+  {
+    "slug": "context-retrieval",
+    "englishTitle": "Context, memory and retrieval pipelines",
+    "level": "응용",
+    "track": "llm"
+  },
+  {
+    "slug": "llm-evaluation-tools",
+    "englishTitle": "LLM evaluation and tool-use boundaries",
+    "level": "응용",
+    "track": "llm"
+  },
+  {
     "slug": "glossary",
     "englishTitle": "AI glossary",
     "level": "참고",

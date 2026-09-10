@@ -33,6 +33,26 @@
         "level": "핵심"
       },
       {
+        "slug": "logging-incident-response",
+        "englishTitle": "Security logging and incident response",
+        "level": "응용"
+      },
+      {
+        "slug": "secure-development",
+        "englishTitle": "Secure development and code review",
+        "level": "응용"
+      },
+      {
+        "slug": "software-supply-chain",
+        "englishTitle": "Software supply chain security",
+        "level": "핵심"
+      },
+      {
+        "slug": "cloud-identity-secrets",
+        "englishTitle": "Cloud IAM and secrets management",
+        "level": "응용"
+      },
+      {
         "slug": "glossary",
         "englishTitle": "Security glossary",
         "level": "참고"
@@ -75,6 +95,21 @@
       {
         "slug": "securing-ai-systems",
         "englishTitle": "Securing AI systems",
+        "level": "응용"
+      },
+      {
+        "slug": "detection-engineering",
+        "englishTitle": "Detection engineering lifecycle",
+        "level": "응용"
+      },
+      {
+        "slug": "phishing-classification",
+        "englishTitle": "A defensive phishing classification case study",
+        "level": "응용"
+      },
+      {
+        "slug": "model-operations",
+        "englishTitle": "Security model monitoring, retraining and rollback",
         "level": "응용"
       },
       {

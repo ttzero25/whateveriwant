@@ -25,14 +25,14 @@ try {
   assert.equal(await page.locator('.doc-card').count(),documents.filter(d=>d.level==='응용').length);
   await page.getByRole('button',{name:'전체',exact:true}).click();
   await page.locator('.track-tabs a[href="#/ml"]').click();
-  await page.waitForFunction(()=>/^(6개의 문서|6 documents)$/.test(document.querySelector('#result-count')?.textContent||''));
+  await page.waitForFunction(n=>document.querySelector('#result-count')?.textContent===`${n}개의 문서`,catalog.filter(d=>d.track==='ml').length);
   assert.equal(await page.locator('.doc-card').count(),catalog.filter(d=>d.track==='ml').length);
   await page.reload();
   await page.waitForSelector('.doc-card');
-  assert.equal(await page.locator('.doc-card').count(),6);
+  assert.equal(await page.locator('.doc-card').count(),catalog.filter(d=>d.track===new URL(page.url()).hash.slice(2)).length);
   await page.locator('.track-tabs a[href="#/dl"]').click();
   await page.waitForSelector('.doc-card[href="#/ai/cnn"]');
-  assert.equal(await page.locator('.doc-card').count(),6);
+  assert.equal(await page.locator('.doc-card').count(),catalog.filter(d=>d.track===new URL(page.url()).hash.slice(2)).length);
   await page.screenshot({path:'.preview/dl-library.png',fullPage:true});
   await page.locator('.track-tabs a[href="#/ai"]').click();
   await page.locator('.doc-card[href="#/ai/transformer"]').click();
