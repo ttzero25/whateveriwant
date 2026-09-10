@@ -21,7 +21,8 @@ try {
   await page.locator('#search').fill('검색결과없는단어12345');
   assert.equal(await page.locator('.doc-card').count(),0);
   await page.locator('#search').fill('');
-  await page.locator('.ai-link').click();
+  if(await page.locator('.ai-link').getAttribute('aria-expanded')==='false')await page.locator('.ai-link').click();
+  await page.locator('#ai-subnav a[href="#/ai"]').click();
   await page.waitForSelector('.doc-card');
   await page.getByRole('button',{name:'응용',exact:true}).click();
   assert.equal(await page.locator('.doc-card').count(),documents.filter(d=>d.topic==='ai'&&d.level==='응용').length);
@@ -54,7 +55,8 @@ try {
   await mobile.screenshot({path:'.preview/mobile.png',fullPage:true});
   await mobile.locator('#menu-toggle').click();
   assert.equal(await mobile.locator('#menu-toggle').getAttribute('aria-expanded'),'true');
-  await mobile.locator('.ai-link').click();
+  if(await mobile.locator('.ai-link').getAttribute('aria-expanded')==='false')await mobile.locator('.ai-link').click();
+  await mobile.locator('#ai-subnav a[href="#/ai"]').click();
   await mobile.locator('.doc-card[href="#/ai/transformer"]').click();
   await mobile.waitForSelector('.article');
   assert.equal(await mobile.locator('#menu-toggle').getAttribute('aria-expanded'),'false');

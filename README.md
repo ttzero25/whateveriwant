@@ -44,7 +44,7 @@ ROS & Autonomous Security Watch (`#/robotics-security`)는 AI Research Watch와 
 - 매일 실행되는 `update:research`와 Pages 배포에 포함됩니다. 수집 실패 시 이전 목록을 유지합니다.
 - 검증: `node --test scripts/robotics-feeds.test.mjs`, 빌드·미리보기 후 `node scripts/check-robotics.mjs`
 
-ROS Watch의 **보안 학회 아카이브**는 IEEE S&P, USENIX Security, ACM CCS, NDSS, VehicleSec의 2025년 이후 목록과 NDSS 2024를 추적합니다. 자율주행·차량·ROS·Physical AI 관련 제목을 선별해 상한 없이 보관하며, 학회 연도 내림차순(동년은 학회·제목순)으로 표시합니다. 개별 게시일은 추정하지 않습니다. 학회/연도/주제 필터와 검색은 뉴스 필터와 독립적입니다.
+ROS Watch의 **보안 학회 아카이브**는 IEEE S&P, USENIX Security, ACM CCS, NDSS, VehicleSec의 2025년 이후 목록과 NDSS 2024를 추적합니다. 자율주행·차량·ROS·Physical AI 관련 제목을 선별해 상한 없이 보관하며, 학회 연도 내림차순(동년은 학회·제목순)으로 표시합니다. 개별 게시일은 추정하지 않습니다. 동향과 학회 논문은 하나의 카드 목록에서 통합 검색하며, 출처·학회/연도/주제/유형 필터를 함께 적용합니다. 같은 연도에서는 게시일이 있는 동향이 먼저 표시되고, 개별 날짜가 없는 학회 논문은 학회·제목순으로 표시됩니다.
 
 - `data/robotics-conferences.json`: 누적 아카이브, 최초 수집 시각, 출처 상태
 - `node scripts/update-robotics-conferences.mjs`: 수동 갱신. `update:research`의 일일 작업에도 포함됩니다.

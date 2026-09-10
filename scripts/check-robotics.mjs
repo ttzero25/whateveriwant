@@ -10,14 +10,10 @@ try{
  assert.match(await page.locator('h1').innerText(),/ROS & Autonomous/);
  assert.equal(await page.locator('.robotics-link.active').count(),1);
  assert.equal(await page.locator('.research-source').count(),3);
- await page.locator('#research-period').selectOption('all');
- for(const source of ['ros','robotics','autonomy']){
-  await page.locator(`[data-source=${source}]`).click();assert.ok(await page.locator('.research-item').count()>0);
- }
- await page.locator('[data-source=all]').click();
- await page.locator('[data-topic=ros]').click();assert.ok(await page.locator('.research-item').count()>0);
- await page.locator('#research-search').fill('no-such-title-xyz');assert.equal(await page.locator('.research-item').count(),0);
- await page.locator('#research-search').fill('');await page.locator('[data-topic=all]').click();
+ await page.locator('#feed-source').selectOption('ros');assert.ok(await page.locator('.research-item').count()>0);
+ await page.locator('#feed-reset').click();
+ await page.locator('#feed-search').fill('no-such-title-xyz');assert.equal(await page.locator('.research-item').count(),0);
+ await page.locator('#feed-reset').click();
  await page.locator('[data-language=en]').click();await page.waitForSelector('.research-item');
  assert.match(await page.locator('.research-intro').innerText(),/autonomous driving security/);
  await page.locator('[data-language=ko]').click();await page.waitForSelector('.research-item');

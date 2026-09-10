@@ -11,13 +11,13 @@ const t=(ko,en)=>lang==='en'?en:ko;
 let aiExpanded=true;
 try{aiExpanded=localStorage.getItem('whateveriwant-ai-expanded')!=='false';}catch{}
 function updateAIExpansion(){
- const button=document.querySelector('#ai-expand');
+ const button=document.querySelector('.ai-link');
  document.querySelector('#ai-subnav').hidden=!aiExpanded;
  button.setAttribute('aria-expanded',String(aiExpanded));
- const label=aiExpanded?t('AI 하위 메뉴 접기','Collapse AI subtopics'):t('AI 하위 메뉴 펼치기','Expand AI subtopics');
+ const label=aiExpanded?t('Artificial Intelligence 하위 메뉴 접기','Artificial Intelligence: collapse subtopics'):t('Artificial Intelligence 하위 메뉴 펼치기','Artificial Intelligence: expand subtopics');
  button.setAttribute('aria-label',label);button.title=label;
 }
-document.querySelector('#ai-expand').addEventListener('click',()=>{
+document.querySelector('.ai-link').addEventListener('click',()=>{
  aiExpanded=!aiExpanded;
  try{localStorage.setItem('whateveriwant-ai-expanded',String(aiExpanded));}catch{}
  updateAIExpansion();
@@ -49,7 +49,7 @@ function localizeShell(){
  document.querySelector('.home-link').innerHTML=`<span>▦</span> ${'Home'} <span class="nav-count">${documents.length}</span>`;
  document.querySelector('.ai-link .nav-count').textContent=count('ai');
  for(const topic of Object.keys(topics))document.querySelector('.'+topic+'-link .nav-count').textContent=topicCount(topic);
- document.querySelector('#ai-subnav').innerHTML=['ml','dl','llm'].map(track=>`<a href="#/${track}" class="${currentTrack()===track?'selected':''}">${trackName(track)}<small>${count(track)}</small></a>`).join('');
+ document.querySelector('#ai-subnav').innerHTML=['ai','ml','dl','llm'].map(track=>`<a href="#/${track}" class="${activeTopic()==='ai'&&currentTrack()===track?'selected':''}">${trackName(track)}<small>${count(track)}</small></a>`).join('');
  document.querySelectorAll('.upcoming small').forEach(el=>el.textContent=t('준비 중','Coming soon'));
  document.querySelector('.sidebar-bottom small').textContent=t('배운 것을, 나의 언어로.','Learn. Connect. Remember.');
  document.querySelector('footer').innerHTML=`whateveriwant <span>${t('하나씩 배우고, 연결하고, 쌓아가기.','One concept at a time.')}</span><span>${t('공식 자료 기반 · 한국어 해설','Official references · learning notes')}</span>`;
