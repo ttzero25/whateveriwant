@@ -62,3 +62,25 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | ICMP | IP 통신의 오류·제어 정보 전달 프로토콜 |
 
 해설: [성능·MTU](performance-mtu.md) · [진단](troubleshooting.md) · [학습 가이드](index.md)
+
+## 차량·임베디드 통신
+
+| 용어 | 의미 |
+|---|---|
+| CAN / Controller Area Network | 차량·산업 제어기 등의 메시지 기반 네트워크 |
+| ECU / Electronic Control Unit | 센서 처리·장치 제어 등을 수행하는 전자 제어기 |
+| CAN ID | 프레임 식별·우선순위에 쓰는 값; 그 자체로 송신자 인증은 아님 |
+| Arbitration / 중재 | 동시 전송 시 버스 사용 순서를 정하는 과정 |
+| Dominant / Recessive | 중재에서 우세하게 관측되는 상태 / 이에 양보하는 상태 |
+| Bus-off | 오류 누적으로 CAN 노드가 버스 송신에서 이탈한 상태 |
+| CAN FD / Flexible Data Rate | 최대 64바이트와 선택적 비트율 전환을 지원하는 CAN 세대 |
+| BRS / Bit Rate Switch | CAN FD의 데이터 구간 비트율 전환 표시 |
+| DLC / Data Length Code | 프레임 데이터 길이의 코드; 항상 바이트 수와 같지는 않음 |
+| CAN XL | 최대 2,048바이트 데이터 필드를 지원하는 CAN 세대 |
+| ISO-TP | CAN 위에서 메시지 분할·재조립과 흐름 제어를 다루는 전송 프로토콜 |
+| UDS / Unified Diagnostic Services | 차량 진단 서비스의 의미와 동작을 정의하는 상위 규칙 |
+| LIN / Local Interconnect Network | commander가 스케줄을 관리하는 저비용 제어 네트워크 |
+| 100BASE-T1 / 1000BASE-T1 | 단일 꼬임쌍의 100 Mbit/s / 1 Gbit/s급 Ethernet 물리 계층 |
+| TSN / Time-Sensitive Networking | 시간 동기화·트래픽 제어 등 시간 제약을 다루는 기술군 |
+
+해설: [CAN](can-bus.md) · [CAN FD·XL](can-fd.md) · [LIN](lin.md) · [차량용 Ethernet](automotive-ethernet.md)

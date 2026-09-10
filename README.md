@@ -116,3 +116,5 @@ AI 9개, CS 4개, Security 4개, AI for Security 3개의 개념 글을 추가했
 - 영어 보기에서는 한국어 본문 제공 안내를 표시합니다.
 
 검증: `node scripts/check-network.mjs` (공개 사이트 URL을 인자로 전달할 수 있습니다).
+
+차량·임베디드 통신 확장으로 CAN, CAN FD·XL, LIN, 차량용 Ethernet 네 문서를 추가해 Network는 총 16개 문서입니다. CAN 중재·오류 처리·ISO-TP, LIN 스케줄, T1·게이트웨이·시간 제약을 다루며 용어집과 학습 가이드로 연결합니다. CAN 구성과 LIN 교환 도식 두 개를 추가해 네트워크 도식은 총 다섯 개입니다.

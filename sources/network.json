@@ -271,6 +271,97 @@
       "documents": [
         "content/network/ip-subnetting.md"
       ]
+    },
+    {
+      "title": "CiA: Classical CAN",
+      "url": "https://www.can-cia.org/can-knowledge/can-cc",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/can-bus.md"
+      ]
+    },
+    {
+      "title": "Linux: SocketCAN",
+      "url": "https://docs.kernel.org/networking/can.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/can-bus.md",
+        "content/network/can-fd.md"
+      ]
+    },
+    {
+      "title": "Linux: ISO-TP",
+      "url": "https://docs.kernel.org/networking/iso15765-2.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/can-bus.md"
+      ]
+    },
+    {
+      "title": "CiA: CAN data link layer generations",
+      "url": "https://www.can-cia.org/can-knowledge/can-data-link-layer-generations",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/can-fd.md"
+      ]
+    },
+    {
+      "title": "CiA: CAN XL",
+      "url": "https://www2.can-cia.org/canxl",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/can-fd.md"
+      ]
+    },
+    {
+      "title": "CiA: CAN FD",
+      "url": "https://can-cia.org/can-knowledge/can-fd-the-basic-idea",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/can-fd.md"
+      ]
+    },
+    {
+      "title": "NXP: LIN introduction",
+      "url": "https://community.nxp.com/t5/NXP-Tech-Blog/101-Local-Interconnect-Network-LIN/ba-p/1284877",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/lin.md"
+      ]
+    },
+    {
+      "title": "TI: Ethernet PHYs",
+      "url": "https://www.ti.com/product-category/interface/ethernet-ics/ethernet-phys/overview.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/automotive-ethernet.md"
+      ]
+    },
+    {
+      "title": "NXP: Service-oriented gateway",
+      "url": "https://www.nxp.com/applications/SERVICE-ORIENTED-GATEWAY",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/automotive-ethernet.md"
+      ]
     }
   ]
 }

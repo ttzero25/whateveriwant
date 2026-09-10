@@ -178,6 +178,26 @@
         "level": "응용"
       },
       {
+        "slug": "can-bus",
+        "englishTitle": "CAN bus: identifiers, arbitration and error handling",
+        "level": "핵심"
+      },
+      {
+        "slug": "can-fd",
+        "englishTitle": "CAN FD and CAN XL: payloads, bit rates and compatibility",
+        "level": "핵심"
+      },
+      {
+        "slug": "lin",
+        "englishTitle": "LIN: scheduled communication for simple control",
+        "level": "핵심"
+      },
+      {
+        "slug": "automotive-ethernet",
+        "englishTitle": "Automotive Ethernet: T1, gateways and timing",
+        "level": "응용"
+      },
+      {
         "slug": "glossary",
         "englishTitle": "Network glossary",
         "level": "참고"

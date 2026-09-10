@@ -4,8 +4,8 @@ import {chromium} from 'playwright';
 
 const docs=JSON.parse(await fs.readFile('dist/documents.json','utf8'));
 const network=docs.filter(d=>d.topic==='network');
-assert.equal(network.length,12);
-const diagramSlugs=['layers-packets','routing-nat','dns-dhcp'];
+assert.equal(network.length,16);
+const diagramSlugs=['layers-packets','routing-nat','dns-dhcp','can-bus','lin'];
 const routes=new Set(docs.map(d=>`#/${d.topic}/${d.slug}`));
 assert.equal(routes.size,docs.length);
 for(const doc of docs)for(const view of [doc,doc.en]){
@@ -29,10 +29,10 @@ try{
   assert.equal(await page.locator('.topic').count(),6);
   await page.locator('.topic[href="#/network"]').click();
   await page.waitForFunction(()=>document.querySelector('.network-link.active'));
-  assert.equal(await page.locator('.doc-card').count(),12);
+  assert.equal(await page.locator('.doc-card').count(),16);
   assert.equal(await page.locator('.ai-link.active').count(),0);
   assert.equal(await page.locator('.track-tabs').isVisible(),false);
-  assert.equal(await page.locator('.network-link .nav-count').innerText(),'12');
+  assert.equal(await page.locator('.network-link .nav-count').innerText(),'16');
   for(const level of ['기초','핵심','응용','참고','가이드']){
     await page.locator(`[data-filter="${level}"]`).click();
     assert.equal(await page.locator('.doc-card').count(),network.filter(d=>d.level===level).length);
@@ -41,6 +41,8 @@ try{
   await page.locator('#search').fill('CIDR');
   assert.ok(await page.locator('.doc-card[href="#/network/ip-subnetting"]').count());
   assert.equal(await page.locator('.doc-card:not([href^="#/network/"])').count(),0);
+  await page.locator('#search').fill('CAN');
+  for(const slug of ['can-bus','can-fd'])assert.equal(await page.locator(`.doc-card[href="#/network/${slug}"]`).count(),1);
   await page.locator('#search').fill('no-result-11223344');
   assert.equal(await page.locator('.doc-card').count(),0);
   await page.locator('#search').fill('');
@@ -73,7 +75,7 @@ try{
   await page.locator('.network-link').click();
   await page.waitForSelector('.doc-card');
   assert.equal(await page.locator('#menu-toggle').getAttribute('aria-expanded'),'false');
-  assert.equal(await page.locator('.doc-card').count(),12);
+  assert.equal(await page.locator('.doc-card').count(),16);
   await page.goto(base+'#/cs/networking');
   await page.waitForSelector('.article');
   await page.locator('[data-language="ko"]').click();
@@ -84,5 +86,5 @@ try{
   await page.goto(base+'#/network/missing');
   await page.waitForSelector('.empty');
   assert.deepEqual(errors,[]);
-  console.log('PASS: Network navigation, 12 documents, three bilingual diagrams, filters, search, language persistence, all internal links, legacy cross-links and mobile layouts.');
+  console.log('PASS: Network navigation, 16 documents, five bilingual diagrams, filters, search, language persistence, all internal links, legacy cross-links and mobile layouts.');
 }finally{await browser.close();}
