@@ -22,7 +22,7 @@ try{
    assert.deepEqual(await page.locator('.update-card .research-item-meta>span:first-child').allTextContents(),['OpenAI','Anthropic','arXiv']);
    assert.equal(await page.locator('.topic-grid').count(),0);
    assert.equal(await page.locator('#home-search-results').isVisible(),false);
-   assert.ok(await page.evaluate(()=>document.querySelector('#search').closest('.search-wrap').nextElementSibling.id==='home-updates'));
+   assert.ok(await page.evaluate(()=>document.querySelector('#search').closest('.search-wrap').nextElementSibling.id==='home-today'));
    for(const href of await page.locator('.update-concepts a').evaluateAll(as=>as.map(a=>a.getAttribute('href'))))assert.ok(docs.some(d=>href===`#/${d.topic}/${d.slug}`));
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   }

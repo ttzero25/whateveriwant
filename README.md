@@ -50,3 +50,5 @@ ROS Watch의 **보안 학회 아카이브**는 IEEE S&P, USENIX Security, ACM CC
 - `node scripts/update-robotics-conferences.mjs`: 수동 갱신. `update:research`의 일일 작업에도 포함됩니다.
 - 일시적으로 목록에서 빠지거나 수집이 실패해도 기존 논문을 유지합니다. 제목 키워드 선별이므로 완전한 분야 목록을 보장하지 않습니다. 출처 상태를 화면에서 확인할 수 있습니다.
 - 원문 초록이 제공된 경우 짧은 발췌를 표시하고, 한국어 요약은 별도로 작성된 항목만 표시합니다.
+
+홈의 **오늘 업데이트**는 한국 시간(KST)을 기준으로 AI 동향, ROS·자율주행 동향, 보안 학회 아카이브를 함께 표시합니다. 오늘 게시·공고된 글과 오늘 새로 수집/변경된 글을 구분하며, 과거 학회 논문을 오늘 추가한 경우 학회 연도를 따로 표시합니다. 수집기는 `first_seen`과 `updated_at`을 보존하고, 기존 글의 알 수 없는 최초 수집일은 임의로 채우지 않습니다. 검증: `node --test scripts/daily-updates.test.mjs`, 미리보기 후 `node scripts/check-daily-updates.mjs`.

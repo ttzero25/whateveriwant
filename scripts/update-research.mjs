@@ -1,3 +1,4 @@
+import {stampCollected} from './collection-metadata.mjs';
 import {load} from 'cheerio';
 import {excerpt} from './research-summaries.mjs';
 import fs from 'node:fs/promises';
@@ -26,7 +27,8 @@ for(const [i,result] of results.entries()){
  const fresh=result.status==='fulfilled'?result.value.items:[];
  const needs=[];
  for(const item of fresh){
-  const cached=retained.find(old=>old.url===item.url&&old.title===item.title);
+  const previousItem=retained.find(old=>old.url===item.url);
+  const cached=previousItem?.title===item.title?previousItem:null;
   if(!item.excerpt&&cached?.excerpt)item.excerpt=cached.excerpt;
   if(source.id==='anthropic'&&!item.excerpt)needs.push(item);
  }
@@ -36,6 +38,7 @@ for(const [i,result] of results.entries()){
   if(!description||description.startsWith('Anthropic is an AI safety'))description=$('main p').map((_,e)=>$(e).text().trim()).get().find(s=>s.length>100)||'';
   item.excerpt=excerpt(description);
  }catch{ /* A missing excerpt does not discard valid publication metadata. */ }}}));
+ for(const item of fresh)Object.assign(item,stampCollected(item,retained.find(old=>old.url===item.url),attempted_at));
  const merged=[...new Map([...retained,...fresh].map(item=>[item.url,item])).values()];
  // Retain previous announcements across daily RSS rollovers and outages.
  merged.sort((a,b)=>(b.published_at||b.date).localeCompare(a.published_at||a.date)||Number(b.tags.includes('security'))-Number(a.tags.includes('security'))||a.title.localeCompare(b.title));

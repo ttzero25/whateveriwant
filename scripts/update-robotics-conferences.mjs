@@ -1,3 +1,4 @@
+import {stampCollected} from './collection-metadata.mjs';
 import fs from 'node:fs/promises';
 import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
@@ -12,7 +13,7 @@ await Promise.all(Array.from({length:3},async()=>{while(queue.length){
  const source=queue.shift(),previous=old.sources.find(s=>s.id===source.id&&s.year===source.year);
  try{
   const {stdout}=await run('curl',['--fail','--location','--silent','--show-error','--max-time','40',source.feed||source.url],{maxBuffer:20*1024*1024});
-  const items=parseArchive(source,stdout).map(item=>{const result={...item,excerpt:excerpt(item.description),first_seen:old.items.find(i=>i.id===item.id)?.first_seen||attempted_at};delete result.description;return result;});
+  const items=parseArchive(source,stdout).map(item=>{const result={...item,excerpt:excerpt(item.description)};delete result.description;return stampCollected(result,old.items.find(i=>i.id===item.id),attempted_at);});
   fresh.push(...items);statuses.push({...source,status:'ok',attempted_at,last_success:attempted_at,matched_count:items.length});
   console.log(source.name,source.year,items.length+' matching papers');
  }catch(e){statuses.push({...source,status:'error',attempted_at,last_success:previous?.last_success||null,matched_count:previous?.matched_count||0});console.warn(source.name,source.year,e.message.slice(0,200));}

@@ -8,7 +8,7 @@ import {buildExcerpts} from './excerpt-build.mjs';
 const root=path.resolve(import.meta.dirname,'..'),output=path.join(root,'dist');
 await fs.mkdir(output,{recursive:true});
 // Version the complete module graph together so cached modules cannot mix deployments.
-const webFiles=['index.html','style.css','app.js','diagrams.js','theme.js','research.js','robotics.js','robotics-archive.js','home-updates.js','research-tldr.js'];
+const webFiles=['index.html','style.css','app.js','diagrams.js','theme.js','research.js','robotics.js','robotics-archive.js','daily-updates.js','home-updates.js','research-tldr.js'];
 const webContents=new Map(await Promise.all(webFiles.map(async file=>[file,await fs.readFile(path.join(root,'web',file),'utf8')])));
 const revision=createHash('sha256').update([...webContents.values()].join('\0')).digest('hex').slice(0,12);
 const assetNames=new Map(webFiles.filter(file=>file!=='index.html').map(file=>[file,file.replace(/(\.[^.]+)$/,`.${revision}$1`)]));

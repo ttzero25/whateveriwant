@@ -30,7 +30,7 @@ jobs:
         if: github.event_name != 'push'
         run: npm run update:research
       - name: Validate source parsers and summary fallbacks
-        run: node --test scripts/research-feeds.test.mjs scripts/conference-feeds.test.mjs scripts/robotics-feeds.test.mjs scripts/robotics-conferences.test.mjs
+        run: node --test scripts/research-feeds.test.mjs scripts/conference-feeds.test.mjs scripts/robotics-feeds.test.mjs scripts/robotics-conferences.test.mjs scripts/daily-updates.test.mjs
       - name: Commit research snapshot
         if: github.event_name != 'push'
         run: |

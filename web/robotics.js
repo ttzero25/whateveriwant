@@ -1,6 +1,6 @@
 import {setupRoboticsArchive} from './robotics-archive.js';
 import {createResearchWatch} from './research.js';
-export const {renderResearch:renderRobotics}=createResearchWatch({
+export const {renderResearch:renderRobotics,loadResearch:loadRobotics}=createResearchWatch({
  setupArchive:setupRoboticsArchive,
  route:'#/robotics-security',file:'./robotics-security.json',
  title:'ROS & Autonomous Security Watch',
