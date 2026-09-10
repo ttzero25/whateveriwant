@@ -18,7 +18,7 @@ try{
  await page.waitForSelector('.doc-card');
  assert.equal(await page.locator('.doc-card').count(),cs.length);
  assert.equal(await page.locator('.cs-link.active').count(),1);
- assert.equal(await page.locator('.topic[href="#/cs"]').count(),1);
+ assert.equal(await page.locator('.cs-link').count(),1);
  assert.equal(await page.locator('.track-tabs').isVisible(),false);
  await page.locator('#search').fill('ACID');
  assert.ok(await page.locator('.doc-card').count()>0);

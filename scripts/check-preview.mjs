@@ -11,9 +11,9 @@ try {
   const errors=[];
   page.on('pageerror',error=>errors.push(error.message));
   await page.goto(baseURL);
-  await page.waitForSelector('.doc-card');
+  await page.waitForSelector('.update-card');
   await page.evaluate(()=>document.fonts.ready);
-  assert.equal(await page.locator('.doc-card').count(),documents.length);
+  assert.equal(await page.locator('.doc-card').count(),0);
   await page.screenshot({path:'.preview/desktop.png',fullPage:true});
   await page.locator('#search').fill('LoRA');
   assert.ok(await page.locator('.doc-card').count()>0);
@@ -21,8 +21,10 @@ try {
   await page.locator('#search').fill('검색결과없는단어12345');
   assert.equal(await page.locator('.doc-card').count(),0);
   await page.locator('#search').fill('');
+  await page.locator('.ai-link').click();
+  await page.waitForSelector('.doc-card');
   await page.getByRole('button',{name:'응용',exact:true}).click();
-  assert.equal(await page.locator('.doc-card').count(),documents.filter(d=>d.level==='응용').length);
+  assert.equal(await page.locator('.doc-card').count(),documents.filter(d=>d.topic==='ai'&&d.level==='응용').length);
   await page.getByRole('button',{name:'전체',exact:true}).click();
   await page.locator('.track-tabs a[href="#/ml"]').click();
   await page.waitForFunction(n=>document.querySelector('#result-count')?.textContent===`${n}개의 문서`,catalog.filter(d=>d.track==='ml').length);
@@ -46,7 +48,7 @@ try {
   assert.equal(new URL(page.url()).hash,'#/ai/transformer');
   const mobile=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1,isMobile:true,hasTouch:true});
   await mobile.goto(baseURL);
-  await mobile.waitForSelector('.doc-card');
+  await mobile.waitForSelector('.update-card');
   await mobile.evaluate(()=>document.fonts.ready);
   assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   await mobile.screenshot({path:'.preview/mobile.png',fullPage:true});
@@ -80,7 +82,7 @@ try {
     assert.ok(await page.locator('.attribution a[href="https://creativecommons.org/licenses/by/4.0/"]').count());
   }
   await page.goto(baseURL+'#/');
-  await page.waitForSelector('.doc-card');
+  await page.waitForSelector('#search');
   await page.locator('#search').fill('경사하강법');
   assert.ok(await page.locator('.doc-card').count()>0);
   await mobile.getByRole('button',{name:'English',exact:true}).click();

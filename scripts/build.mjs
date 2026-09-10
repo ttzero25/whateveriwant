@@ -5,7 +5,7 @@ import katex from 'katex';
 import {buildExcerpts} from './excerpt-build.mjs';
 const root=path.resolve(import.meta.dirname,'..'),output=path.join(root,'dist');
 await fs.mkdir(output,{recursive:true});
-for(const file of ['index.html','style.css','app.js','diagrams.js','theme.js','research.js']) await fs.copyFile(path.join(root,'web',file),path.join(output,file));
+for(const file of ['index.html','style.css','app.js','diagrams.js','theme.js','research.js','home-updates.js']) await fs.copyFile(path.join(root,'web',file),path.join(output,file));
 await fs.mkdir(path.join(output,'assets'),{recursive:true});
 await fs.cp(path.join(root,'node_modules/katex/dist'),path.join(output,'assets/katex'),{recursive:true});
 const originals=JSON.parse(await fs.readFile(path.join(root,'content/en/originals.json'),'utf8'));

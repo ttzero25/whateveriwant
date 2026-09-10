@@ -25,9 +25,9 @@ try{
   const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
   page.on('pageerror',e=>errors.push(e.message));
   await page.goto(base);
-  await page.waitForSelector('.doc-card');
-  assert.equal(await page.locator('.topic').count(),6);
-  await page.locator('.topic[href="#/network"]').click();
+  await page.waitForSelector('#search');
+  assert.equal(await page.locator('.topic').count(),0);
+  await page.locator('.network-link').click();
   await page.waitForFunction(()=>document.querySelector('.network-link.active'));
   assert.equal(await page.locator('.doc-card').count(),16);
   assert.equal(await page.locator('.ai-link.active').count(),0);

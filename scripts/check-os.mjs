@@ -17,7 +17,7 @@ try{
  await page.waitForSelector('.doc-card');
  assert.equal(await page.locator('.doc-card').count(),10);
  assert.equal(await page.locator('.os-link.active').count(),1);
- assert.equal(await page.locator('.topic[href="#/os"]').count(),1);
+ assert.equal(await page.locator('.os-link').count(),1);
  assert.equal(await page.locator('.track-tabs').isVisible(),false);
  await page.locator('#search').fill('페이지 폴트');
  assert.ok(await page.locator('.doc-card').count()>0);

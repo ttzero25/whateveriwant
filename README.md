@@ -132,3 +132,7 @@ AI 9개, CS 4개, Security 4개, AI for Security 3개의 개념 글을 추가했
 - 검증: `node --test scripts/research-feeds.test.mjs`, `node scripts/check-research.mjs [사이트 URL]`
 
 자동화 연결 전에는 `npm run update:research`와 빌드·배포를 수동으로 실행합니다. 연결 후에도 예약 실행은 지연될 수 있으므로 페이지의 마지막 수집 성공 시각을 확인하세요. `data/research.json`의 automation_enabled는 Actions에서 실제 수집이 실행된 뒤 true가 됩니다.
+
+## Home 최신 이슈
+
+홈 검색창 아래에서 연구 동향과 같은 수집 데이터의 보안·안전성·평가 글 최신 3건을 표시합니다. 출처의 게시·공고일을 표시하고 제목·태그 규칙으로 기존 개념 문서 두 개를 연결합니다. 전체 동향으로 이동할 수 있으며 갱신 실패·빈 목록·재시도를 처리합니다. 홈의 문서 결과는 검색어를 입력할 때 표시하고 분야별 탐색은 사이드바에서 제공합니다. 검증: `node scripts/check-home.mjs` (배포 URL 지정 가능).
