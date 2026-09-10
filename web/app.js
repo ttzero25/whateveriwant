@@ -22,6 +22,7 @@ document.addEventListener('click',event=>{if(!sidebar.contains(event.target)&&!m
 document.addEventListener('keydown',event=>{if(event.key==='Escape')closeMenu();if((event.ctrlKey||event.metaKey)&&event.key==='k'){const input=document.querySelector('#search');if(input){event.preventDefault();input.focus();}}});
 function localizeShell(){
  document.documentElement.lang=lang;
+ window.updateThemeControl?.();
  document.querySelector('.brand').setAttribute('aria-label',t('홈','Home'));
  document.querySelector('.home-link').innerHTML=`<span>▦</span> ${t('지식 라이브러리','Knowledge library')} <span class="nav-count">${documents.length}</span>`;
  document.querySelector('.ai-link .nav-count').textContent=count('ai');
