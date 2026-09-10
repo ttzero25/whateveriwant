@@ -36,7 +36,7 @@ try{
  await page.locator('.breadcrumb a').click();await page.waitForSelector('.update-card');
  await page.locator('.updates-all').click();await page.waitForSelector('.research-item');
  await page.goto(base+'#/network');await page.waitForSelector('.doc-card');
- assert.equal(await page.locator('.doc-card').count(),24);
+ assert.equal(await page.locator('.doc-card').count(),docs.filter(d=>d.topic==='network').length);
  assert.equal(await page.locator('.section-head').count(),0);
  assert.deepEqual(errors,[]);
  // Exercise empty, failed and delayed data independently of the live feed.

@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-export async function buildExcerpts({root,md,finalize,escape,topic}){
+export async function buildExcerpts({root,md,finalize,escape,topic,docDate=()=>'2026-09-10'}){
  const catalog=JSON.parse(await fs.readFile(path.join(root,'content',topic,'catalog.json'),'utf8'));
  const sources=JSON.parse(await fs.readFile(path.join(root,'sources',topic+'.json'),'utf8')).sources;
  const result=[];
@@ -22,7 +22,7 @@ export async function buildExcerpts({root,md,finalize,escape,topic}){
    type='navigation';enSummary=slug==='index'?`A learning path through ${catalog.filter(d=>!['index','glossary'].includes(d.slug)).length} core ${topic.toUpperCase()} topics.`:`Browse ${topic.toUpperCase()} topics and their original references.`;
    html=`<blockquote><p><strong>TL;DR</strong></p><p>${enSummary}</p></blockquote><h2>${slug==='index'?'Learning path':'Topic directory'}</h2><p>Site navigation authored for whateveriwant. Expanded articles are currently available in Korean and are labeled accordingly.</p><ol>${catalog.filter(d=>!['index','glossary'].includes(d.slug)).map(d=>`<li><a href="#/${topic}/${d.slug}">${escape(d.englishTitle)}</a></li>`).join('')}</ol>`;
   }
-  result.push({topic,slug,title,summary,level,...ko,source,date:'2026-09-10',minutes:Math.max(2,Math.ceil(source.length/650)),en:{title:englishTitle,summary:enSummary,...(type==='korean'?ko:finalize(html)),source:type==='korean'?source:original?.quote||enSummary,provider:original?.title,type,date:'2026-09-10'}});
+  result.push({topic,slug,title,summary,level,...ko,source,date:docDate(topic,slug),minutes:Math.max(2,Math.ceil(source.length/650)),en:{title:englishTitle,summary:enSummary,...(type==='korean'?ko:finalize(html)),source:type==='korean'?source:original?.quote||enSummary,provider:original?.title,type,date:docDate(topic,slug)}});
  }
  return result;
 }

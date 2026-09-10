@@ -74,3 +74,23 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | 지도 미세조정 / SFT | 입력·바람직한 응답 예시로 후학습 | [개념 보기](llm-training-lifecycle.md) |
 | 재순위화 / Reranking | 검색 후보를 더 정밀하게 재정렬 | [개념 보기](context-retrieval.md) |
 | 도구 호출 / Tool calling | 외부 기능에 구조화된 실행 요청 제안 | [개념 보기](llm-evaluation-tools.md) |
+
+## 확장 개념 용어
+
+| 용어 | 영어 | 의미 |
+|---|---|---|
+| 강화학습 | Reinforcement learning | 보상으로 정책을 학습하는 패러다임 |
+| 정책·가치 | Policy / Value | 행동 규칙과 기대 누적 보상 |
+| Q-러닝 | Q-learning | 시간차 갱신으로 행동 가치를 학습 |
+| 탐험·활용 | Exploration / Exploitation | 새 행동 시도와 최선 선택의 균형 |
+| 생성적 적대 신경망 | GAN | 생성기·판별기를 경쟁시키는 생성 모델 |
+| 확산 모델 | Diffusion model | 노이즈를 점진적으로 제거해 생성 |
+| 그래프 신경망 | GNN | 이웃 정보를 집계하는 메시지 전달 학습 |
+| 서포트 벡터 머신 | SVM | 최대 여백 경계와 커널 기반 분류 |
+| 커널 트릭 | Kernel trick | 고차원 내적으로 비선형 경계를 효율적으로 |
+| 오토인코더 | Autoencoder | 병목으로 압축·복원하는 표현 학습 |
+| 멀티모달 | Multimodal | 여러 모달리티를 공통 표현으로 연결 |
+| 협업 필터링 | Collaborative filtering | 유사 사용자·항목으로 선호 예측 |
+| 행렬 분해 | Matrix factorization | 잠재 벡터의 내적으로 선호를 근사 |
+
+관련 문서: [강화학습](reinforcement-learning.md) · [생성 모델](generative-models.md) · [그래프 신경망](graph-neural-networks.md) · [서포트 벡터 머신](support-vector-machines.md) · [오토인코더](autoencoders.md) · [멀티모달 모델](multimodal-models.md) · [추천 시스템](recommender-systems.md)

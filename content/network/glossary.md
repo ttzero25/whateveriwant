@@ -84,3 +84,24 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | TSN / Time-Sensitive Networking | 시간 동기화·트래픽 제어 등 시간 제약을 다루는 기술군 |
 
 해설: [CAN](can-bus.md) · [CAN FD·XL](can-fd.md) · [LIN](lin.md) · [차량용 Ethernet](automotive-ethernet.md)
+
+## 확장 개념 용어
+
+| 용어 | 의미 |
+|---|---|
+| 웹소켓 / WebSocket | HTTP 업그레이드로 만든 양방향 지속 연결 |
+| 소켓 / Socket | 애플리케이션이 전송 계층을 다루는 종단점 |
+| 로드 밸런싱 / Load balancing | 요청을 여러 서버로 분산 |
+| 리버스 프록시 / Reverse proxy | 백엔드 앞단에서 라우팅·TLS 종료·캐싱 |
+| BGP / Border Gateway Protocol | 자율 시스템 간 경로를 광고·선택 |
+| 자율 시스템 / AS | 한 조직이 관리하는 라우팅 도메인 |
+| RPKI | 프리픽스를 광고할 정당한 AS를 암호학적으로 검증 |
+| VPN / 터널링 | 신뢰할 수 없는 망 위의 암호화 터널 |
+| IPsec / WireGuard | 대표적 L3 VPN 프로토콜 |
+| gRPC / RPC | 원격 함수 호출과 그 HTTP/2 기반 구현 |
+| Protocol Buffers | 스키마 기반 이진 직렬화 |
+| 멀티캐스트 / Multicast | 가입한 그룹에 한 번의 전송으로 배포 |
+| IGMP | 멀티캐스트 그룹 가입을 알리는 프로토콜 |
+| NTP / PTP | 시간 동기화 프로토콜(광역 / 정밀) |
+
+해설: [웹소켓](websockets.md) · [소켓 프로그래밍](socket-programming.md) · [로드 밸런싱](load-balancing.md) · [BGP](bgp.md) · [VPN·터널링](vpn-tunneling.md) · [gRPC/RPC](grpc-rpc.md) · [멀티캐스트](multicast.md) · [시간 동기화](time-sync.md)

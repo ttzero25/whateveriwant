@@ -4,7 +4,6 @@ import fs from 'node:fs/promises';
 const docs=JSON.parse(await fs.readFile('dist/documents.json','utf8'));
 const os=docs.filter(d=>d.topic==='os');
 const sources=JSON.parse(await fs.readFile('sources/os.json','utf8')).sources;
-assert.equal(os.length,16);
 const routes=new Set(docs.map(d=>`#/${d.topic}/${d.slug}`));
 assert.equal(routes.size,docs.length);
 for(const doc of docs)for(const html of [doc.html,doc.en.html])for(const [,href] of html.matchAll(/href="(#[^"]+)"/g))assert.ok(href==='#/'||routes.has(href),`${doc.topic}/${doc.slug}: ${href}`);
@@ -15,7 +14,7 @@ try{
  page.on('pageerror',e=>errors.push(e.message));
  await page.goto(base+'#/os');
  await page.waitForSelector('.doc-card');
- assert.equal(await page.locator('.doc-card').count(),16);
+ assert.equal(await page.locator('.doc-card').count(),os.length);
  assert.equal(await page.locator('.os-link.active').count(),1);
  assert.equal(await page.locator('.os-link').count(),1);
  assert.equal(await page.locator('.track-tabs').isVisible(),false);
@@ -68,7 +67,7 @@ try{
  assert.equal(await page.locator('#menu-toggle').getAttribute('aria-expanded'),'true');
  await page.locator('.os-link').click();
  await page.waitForSelector('.doc-card');
- assert.equal(await page.locator('.doc-card').count(),16);
+ assert.equal(await page.locator('.doc-card').count(),os.length);
  assert.equal(await page.locator('#menu-toggle').getAttribute('aria-expanded'),'false');
  assert.deepEqual(errors,[]);
  console.log('OS PASS: ten documents, eight diagrams, source excerpts, links, topic isolation, search, filters, language persistence and mobile layouts.');

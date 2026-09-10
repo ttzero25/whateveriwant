@@ -4,7 +4,6 @@ import {chromium} from 'playwright';
 
 const docs=JSON.parse(await fs.readFile('dist/documents.json','utf8'));
 const network=docs.filter(d=>d.topic==='network');
-assert.equal(network.length,24);
 const diagramSlugs=['layers-packets','routing-nat','dns-dhcp','can-bus','lin'];
 const routes=new Set(docs.map(d=>`#/${d.topic}/${d.slug}`));
 assert.equal(routes.size,docs.length);
@@ -29,10 +28,10 @@ try{
   assert.equal(await page.locator('.topic').count(),0);
   await page.locator('.network-link').click();
   await page.waitForFunction(()=>document.querySelector('.network-link.active'));
-  assert.equal(await page.locator('.doc-card').count(),24);
+  assert.equal(await page.locator('.doc-card').count(),network.length);
   assert.equal(await page.locator('.ai-link.active').count(),0);
   assert.equal(await page.locator('.track-tabs').isVisible(),false);
-  assert.equal(await page.locator('.network-link .nav-count').innerText(),'24');
+  assert.equal(await page.locator('.network-link .nav-count').innerText(),String(network.length));
   for(const level of ['기초','핵심','응용','참고','가이드']){
     await page.locator(`[data-filter="${level}"]`).click();
     assert.equal(await page.locator('.doc-card').count(),network.filter(d=>d.level===level).length);
@@ -75,7 +74,7 @@ try{
   await page.locator('.network-link').click();
   await page.waitForSelector('.doc-card');
   assert.equal(await page.locator('#menu-toggle').getAttribute('aria-expanded'),'false');
-  assert.equal(await page.locator('.doc-card').count(),24);
+  assert.equal(await page.locator('.doc-card').count(),network.length);
   await page.goto(base+'#/cs/networking');
   await page.waitForSelector('.article');
   await page.locator('[data-language="ko"]').click();

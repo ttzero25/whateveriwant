@@ -29,8 +29,8 @@ jobs:
       - name: Refresh official sources
         if: github.event_name != 'push'
         run: npm run update:research
-      - name: Validate source parsers and summary fallbacks
-        run: node --test scripts/research-feeds.test.mjs scripts/conference-feeds.test.mjs scripts/robotics-feeds.test.mjs scripts/robotics-conferences.test.mjs scripts/daily-updates.test.mjs scripts/unified-robotics.test.mjs scripts/security-news-feeds.test.mjs
+      - name: Validate source parsers and worked examples
+        run: node --test scripts/research-feeds.test.mjs scripts/conference-feeds.test.mjs scripts/robotics-feeds.test.mjs scripts/robotics-conferences.test.mjs scripts/daily-updates.test.mjs scripts/examples.test.mjs scripts/unified-robotics.test.mjs scripts/security-news-feeds.test.mjs
       - name: Commit research snapshot
         if: github.event_name != 'push'
         run: |
@@ -43,6 +43,8 @@ jobs:
             git push origin HEAD:main
           fi
       - run: npm run build
+      - name: Validate content integrity
+        run: node scripts/check-content.mjs
       - name: Validate deployable research data
         run: node scripts/check-research-data.mjs
       - uses: actions/upload-pages-artifact@v4

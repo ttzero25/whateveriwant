@@ -67,3 +67,22 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | 경보 상관분석 / Alert correlation | 관련 관측을 사건 맥락으로 연결 | [개념 보기](log-anomaly-detection.md) |
 | 탐지 엔지니어링 / Detection engineering | 가설·데이터·검증·운영을 유지 | [개념 보기](detection-engineering.md) |
 | 롤백 / Rollback | 검증한 이전 배포 상태로 복원 | [개념 보기](model-operations.md) |
+
+## 확장 개념 용어
+
+| 용어 | 영어 | 의미 |
+|---|---|---|
+| 적대적 예제 | Adversarial example | 오분류를 유도하도록 미세 조작한 입력 |
+| 회피 공격 | Evasion | 추론 시 탐지를 우회하는 조작 |
+| 데이터 오염 | Poisoning | 학습 데이터에 악성 샘플 주입 |
+| 프롬프트 인젝션 | Prompt injection | 콘텐츠에 숨긴 지시가 모델 지시를 덮어씀 |
+| 간접 주입 | Indirect injection | 모델이 읽는 외부 콘텐츠에 숨긴 주입 |
+| 정적·동적 특징 | Static / Dynamic features | 실행 없이 / 샌드박스 실행으로 뽑은 특징 |
+| UEBA | User & Entity Behavior Analytics | 주체별 기준선 대비 이탈 탐지 |
+| 그래프 기반 탐지 | Graph-based detection | 관계 그래프로 경로·군집 탐지 |
+| SOAR | Security Orchestration, Automation, Response | 대응 절차의 자동화 |
+| 플레이북 | Playbook | 자동화된 탐지·대응 절차 정의 |
+| 위협 인텔리전스 | Threat intelligence | 지표에 맥락·신뢰도를 붙인 정보 |
+| TTP | Tactics, Techniques, Procedures | 공격자의 전술·기법·절차 |
+
+관련 문서: [적대적 머신러닝](adversarial-ml.md) · [LLM 프롬프트 인젝션 방어](llm-prompt-injection.md) · [악성코드 분류](malware-classification.md) · [UEBA·그래프 탐지](ueba-graph-detection.md) · [SOAR](soar-automation.md) · [위협 인텔 보강](threat-intel-enrichment.md)

@@ -72,3 +72,26 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | SAST·DAST·SCA | 정적·동적·의존성 분석 | [개념 보기](secure-development.md) |
 | SBOM | 소프트웨어 구성 요소 목록 | [개념 보기](software-supply-chain.md) |
 | 워크로드 신원 / Workload identity | 실행 중인 서비스·작업의 신원 | [개념 보기](cloud-identity-secrets.md) |
+
+## 확장 개념 용어
+
+| 용어 | 영어 | 의미 |
+|---|---|---|
+| OIDC | OpenID Connect | OAuth 2.0 위에 정의된 인증(로그인) 계층 |
+| JWT | JSON Web Token | 서명된 클레임을 담아 전달하는 토큰 형식 |
+| PKCE | Proof Key for Code Exchange | 인가 코드 탈취를 막는 확장 |
+| 발신자 정책 | SPF | 도메인의 정식 발신 IP를 선언 |
+| 도메인 키 서명 | DKIM | 메일 메시지의 무결성 서명 |
+| 메일 인증 정책 | DMARC | SPF·DKIM 정렬 검사와 실패 정책 |
+| 제로 트러스트 | Zero Trust | 위치가 아닌 매 요청 검증에 기반한 접근 모델 |
+| 마이크로세분화 | Microsegmentation | 워크로드 간 통신을 기본 차단하고 필요한 것만 허용 |
+| 가명화 | Pseudonymization | 식별자를 되돌릴 수 있는 대체값으로 치환 |
+| 레이트 리밋 | Rate limiting | 요청 속도를 제한해 남용·과부하 완화 |
+| 서비스 거부 | DoS / DDoS | 자원을 고갈시켜 정상 이용을 막는 공격 |
+| 신뢰 플랫폼 모듈 | TPM | 키 보관·부팅 측정·증명을 담당하는 하드웨어 |
+| 신뢰 실행 환경 | TEE | 일반 OS와 격리된 보호 실행 환경 |
+| 하드웨어 보안 모듈 | HSM | 키를 외부로 내보내지 않는 전용 암호 장치 |
+| 보안 부팅 | Secure Boot | 각 부팅 단계의 서명을 검증하는 신뢰 사슬 |
+| 원격 증명 | Remote attestation | 부팅·구성 상태를 서명으로 원격 검증 |
+
+관련 문서: [API 보안](api-security.md) · [이메일 인증](email-authentication.md) · [제로 트러스트](zero-trust.md) · [데이터 프라이버시](data-privacy.md) · [가용성·DoS](availability-dos.md) · [하드웨어 보안](hardware-security.md)

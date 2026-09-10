@@ -5,8 +5,23 @@ import path from 'node:path';
 import MarkdownIt from 'markdown-it';
 import katex from 'katex';
 import {buildExcerpts} from './excerpt-build.mjs';
+import {execFile} from 'node:child_process';
+import {promisify} from 'node:util';
 const root=path.resolve(import.meta.dirname,'..'),output=path.join(root,'dist');
 await fs.mkdir(output,{recursive:true});
+// Per-file last-commit date (one git call), so article dates reflect real edits
+// instead of a frozen constant. Uncommitted/new files fall back to today.
+const today=new Date().toISOString().slice(0,10);
+const gitDates=new Map();
+try{
+ const {stdout}=await promisify(execFile)('git',['-C',root,'log','--format=%cs','--name-only'],{maxBuffer:64*1024*1024});
+ let cur=today;
+ for(const line of stdout.split('\n')){
+  if(/^\d{4}-\d{2}-\d{2}$/.test(line))cur=line;
+  else if(line&&!gitDates.has(line))gitDates.set(line,cur);
+ }
+}catch{/* not a git checkout: every doc uses today */}
+const docDate=(topic,slug)=>gitDates.get(`content/${topic}/${slug}.md`)||today;
 // Version the complete module graph together so cached modules cannot mix deployments.
 const webFiles=['index.html','style.css','app.js','diagrams.js','theme.js','research.js','robotics.js','robotics-archive.js','daily-updates.js','security-news.js','home-updates.js','research-tldr.js'];
 const webContents=new Map(await Promise.all(webFiles.map(async file=>[file,await fs.readFile(path.join(root,'web',file),'utf8')])));
@@ -78,8 +93,8 @@ for(const [i,slug] of order.entries()){
   enType='navigation';enSummary='Explore machine learning, deep learning, and LLM applications.';
   enHTML='<h2>Learning path</h2><p>Site navigation created for whateveriwant. Existing concepts include selected English source excerpts; expanded articles display a Korean-article notice.</p><ol>'+order.filter(s=>!['index','glossary'].includes(s)).map((s,j)=>`<li><a href="#/ai/${s}">${englishTitles[j]}</a></li>`).join('')+'</ol><h2>Suggested routes</h2><p>Foundations: 1 → 2 → 3 → 4 → 5<br>Language models: 4 → 6 → 7 → 8<br>Document-based applications: 6 → 8 → 9 → 10<br>ML models: 2 → 11 → 12 → 13 → 14 → 5<br>Deep learning: 4 → 15 → 3 → 18 → 16 → 17</p>';
  }
- const en={title:englishTitles[i],summary:enSummary,...(enType==='korean'?ko:finalize(enHTML)),source:enType==='korean'?source:sections?sections.map(s=>s.blocks.map(b=>b.text||b.items.join(' ')).join(' ')).join(' '):enSummary,type:enType,date:originals.checked_on};
- docs.push({topic:'ai',slug,title,summary:summary||(slug==='glossary'?'한영 용어를 빠르게 찾아보고 관련 개념으로 이동하세요.':'AI 기초부터 LLM 활용까지, 나에게 맞는 학습 순서를 찾아보세요.'),level:levels[i],track:catalog[i].track,...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10',en});
+ const en={title:englishTitles[i],summary:enSummary,...(enType==='korean'?ko:finalize(enHTML)),source:enType==='korean'?source:sections?sections.map(s=>s.blocks.map(b=>b.text||b.items.join(' ')).join(' ')).join(' '):enSummary,type:enType,date:enType==='korean'?docDate('ai',slug):originals.checked_on};
+ docs.push({topic:'ai',slug,title,summary:summary||(slug==='glossary'?'한영 용어를 빠르게 찾아보고 관련 개념으로 이동하세요.':'AI 기초부터 LLM 활용까지, 나에게 맞는 학습 순서를 찾아보세요.'),level:levels[i],track:catalog[i].track,...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:docDate('ai',slug),en});
 }
 const collections=JSON.parse(await fs.readFile(path.join(root,'content/collections.json'),'utf8'));
 for(const {topic,entries} of collections){
@@ -89,10 +104,19 @@ for(const {topic,entries} of collections){
   const summary=source.split('\n').filter(l=>l.startsWith('> ')&&!l.includes('TL;DR')).map(l=>l.slice(2)).join(' ');
   const body=source.replace(/^# .+\n/,'').replace(/^AI 작성 해설.*\n/m,'');
   const ko=finalize(md.render(body,{topic}));
-  docs.push({topic,slug,title,summary,level,...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10',en:{title:englishTitle,summary,...ko,source,type:'korean',date:'2026-09-10'}});
+  docs.push({topic,slug,title,summary,level,...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:docDate(topic,slug),en:{title:englishTitle,summary,...ko,source,type:'korean',date:docDate(topic,slug)}});
  }
 }
-for(const topic of ['cs','os'])docs.push(...await buildExcerpts({root,md,finalize,escape,topic}));
+for(const topic of ['cs','os'])docs.push(...await buildExcerpts({root,md,finalize,escape,topic,docDate}));
+// Fail the build (and therefore the deploy) on any dead internal link or duplicate route,
+// so a mistyped relative link can never ship. This is the deploy gate the QA scripts are not.
+const routes=new Set(docs.map(d=>`#/${d.topic}/${d.slug}`));
+if(routes.size!==docs.length)throw new Error('Duplicate document routes detected.');
+const deadLinks=[];
+for(const doc of docs)for(const html of [doc.html,doc.en?.html])for(const [,href] of (html||'').matchAll(/href="(#[^"]+)"/g))
+ if(href!=='#/'&&!routes.has(href))deadLinks.push(`${doc.topic}/${doc.slug} -> ${href}`);
+if(deadLinks.length)throw new Error(`Dead internal links (${deadLinks.length}):\n  `+deadLinks.join('\n  '));
+console.log(`Verified ${routes.size} routes and all internal links.`);
 await fs.writeFile(path.join(output,'documents.json'),JSON.stringify(docs));
 console.log(`Built ${docs.length} documents across ${new Set(docs.map(d=>d.topic)).size} topics.`);
 

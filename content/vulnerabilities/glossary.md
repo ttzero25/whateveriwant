@@ -69,3 +69,14 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 - [권한 우회 / Authorization bypass](authorization-bypass.md): 허용되지 않은 작업이 정책 검사를 제대로 거치지 않는 문제.
 - 수평 권한: 같은 역할 사이의 자원 접근 범위. 수직 권한: 역할·권한 수준 사이의 경계.
 - BFLA / Broken Function Level Authorization: 기능 수준 인가 실패.
+
+## 확장 개념 용어
+
+- [XXE / XML External Entity](xxe.md): XML 파서가 외부 엔터티를 확장해 파일 노출·SSRF로 이어지는 문제.
+- [SSTI / Server-Side Template Injection](ssti.md): 사용자 입력이 템플릿 코드로 평가되어 코드 실행에 이르는 문제.
+- [오픈 리다이렉트 / Open redirect](open-redirect.md): 검증 없는 리다이렉트 대상으로 피싱·토큰 탈취를 돕는 문제.
+- [HTTP 요청 스머글링 / Request smuggling](request-smuggling.md): 프론트·백엔드의 요청 경계 해석 불일치를 악용.
+- [클릭재킹 / Clickjacking](clickjacking.md): 투명 프레임으로 사용자의 클릭을 가로채는 UI 위장.
+- [프로토타입 오염 / Prototype pollution](prototype-pollution.md): 입력의 `__proto__` 등으로 공유 원형을 오염.
+- [정수 오버플로 / Integer overflow](integer-overflow.md): 산술이 표현 범위를 넘어 감싸며 검사·할당을 무너뜨림.
+- ReDoS / Regular expression DoS: 중첩 수량자 정규식의 지수적 백트래킹을 악용한 서비스 거부.

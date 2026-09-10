@@ -4,7 +4,7 @@ import {chromium} from 'playwright';
 
 const docs=JSON.parse(await fs.readFile('dist/documents.json','utf8'));
 const added=JSON.parse(await fs.readFile('content/expansion.json','utf8'));
-assert.equal(added.length,67);
+assert.ok(added.length>=67);  // floor tripwire; check-content.mjs verifies the real invariants
 const routes=new Map(docs.map(d=>[`#/${d.topic}/${d.slug}`,d]));
 assert.equal(routes.size,docs.length);
 for(const doc of docs){

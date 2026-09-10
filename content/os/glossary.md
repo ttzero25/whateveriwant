@@ -44,3 +44,22 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 출처와 플랫폼별 차이는 각 상세 문서에서 확인하세요.
 
 [OS 학습 가이드](index.md)
+
+## 확장 개념 용어
+
+| 용어 | 영어 | 의미 |
+|---|---|---|
+| 시그널 | Signal | 커널이 프로세스에 보내는 비동기 알림 |
+| 네임스페이스 | Namespace | 프로세스가 보는 커널 자원의 뷰를 격리 |
+| 제어 그룹 | cgroups | 프로세스 그룹의 자원 사용을 제한·측정 |
+| 컨테이너 | Container | 네임스페이스·cgroups로 격리된 프로세스 |
+| 힙 할당자 | malloc / allocator | 힙 메모리를 잘라 나눠 주는 라이브러리 |
+| 단편화 | Fragmentation | 빈 공간이 흩어져 큰 할당을 못 받는 상태 |
+| 실시간 운영체제 | RTOS | 마감 시간을 보장하도록 설계된 OS |
+| 우선순위 역전 | Priority inversion | 저우선순위가 쥔 락으로 고우선순위가 지연 |
+| 펌웨어 | UEFI / BIOS | 전원 후 하드웨어를 초기화하는 첫 코드 |
+| 초기 램디스크 | initramfs | 루트 마운트에 필요한 임시 루트 |
+| 디바이스 드라이버 | Device driver | 하드웨어를 OS 인터페이스로 변환하는 커널 코드 |
+| 커널 모듈 | Kernel module | 실행 중 적재·제거 가능한 커널 확장 |
+
+관련 문서: [시그널](signals.md) · [컨테이너: 네임스페이스와 cgroups](containers-namespaces.md) · [메모리 할당자](memory-allocation.md) · [실시간 스케줄링](realtime-scheduling.md) · [부팅 과정](boot-process.md) · [디바이스 드라이버](device-drivers.md)

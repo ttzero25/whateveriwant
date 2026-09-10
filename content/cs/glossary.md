@@ -53,3 +53,22 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | 위상 정렬 / Topological ordering | 방향 비순환 그래프의 의존 순서 | [개념 보기](graphs-search.md) |
 | JIT | 실행 도중 코드를 컴파일하는 방식 | [개념 보기](language-execution.md) |
 | 멱등성 / Idempotency | 반복 요청의 효과를 정한 범위에서 동일하게 유지 | [개념 보기](distributed-systems.md) |
+
+## 확장 개념 용어
+
+| 용어 | 영어 | 의미 |
+|---|---|---|
+| 동적 계획법 | Dynamic programming | 겹치는 부분 문제의 답을 저장해 재사용 |
+| 메모이제이션 | Memoization | 재귀 결과를 캐시해 재계산을 피함 |
+| 최적 부분 구조 | Optimal substructure | 큰 문제의 최적해가 부분 최적해로 구성됨 |
+| 유한 오토마타 | DFA / NFA | 정규 언어를 인식하는 상태 기계 |
+| 정규 언어 | Regular language | 유한 상태로 인식 가능한 언어 부류 |
+| 캐시 라인 | Cache line | 캐시가 한 번에 옮기는 연속 메모리 단위 |
+| 지역성 | Locality | 시간적·공간적으로 가까운 접근 경향 |
+| 부동소수점 | IEEE 754 | 이진 근사로 실수를 표현하는 표준 |
+| SOLID | SOLID | 변경에 강한 객체지향 설계 5원칙 |
+| 의존 역전 | Dependency inversion | 구체가 아닌 추상에 의존 |
+| 타입 시스템 | Type system | 값에 규칙을 부여해 오류를 사전 차단 |
+| 정적·동적 타입 | Static / Dynamic typing | 타입 검사 시점의 차이 |
+
+관련 문서: [동적 계획법](dynamic-programming.md) · [정규 표현식과 오토마타](automata-regex.md) · [캐시·메모리 계층](cache-memory-hierarchy.md) · [부동소수점](floating-point.md) · [소프트웨어 설계](software-design.md) · [타입 시스템](type-systems.md)
