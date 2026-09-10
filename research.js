@@ -1,14 +1,17 @@
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const labels={security:['AI 보안','AI security'],safety:['안전성·정렬','Safety & alignment'],evaluation:['평가·신뢰성','Evaluation'],research:['일반 연구','Research']};
 let request,source='all',topic='security',days='30',query='';
+export function loadResearch(){
+ request??=fetch('./research.json').then(r=>{if(!r.ok)throw Error('Load failed');return r.json();}).catch(e=>{request=null;throw e;});
+ return request;
+}
 export async function renderResearch(main,lang){
  const t=(ko,en)=>lang==='en'?en:ko;
  document.title=t('AI 보안 & 연구 동향','AI security & research')+' — whateveriwant';
  document.querySelector('#breadcrumb').textContent=t('AI 보안 & 연구 동향','AI security & research');
  main.innerHTML=`<p class="loading">${t('연구 동향을 불러오는 중…','Loading research updates…')}</p>`;
  try{
-  request??=fetch('./research.json').then(r=>{if(!r.ok)throw Error('Load failed');return r.json();}).catch(e=>{request=null;throw e;});
-  const data=await request;
+  const data=await loadResearch();
   if(location.hash!=='#/research'||document.documentElement.lang!==lang)return;
   const date=value=>value?new Intl.DateTimeFormat(lang==='en'?'en-GB':'ko-KR',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Seoul'}).format(new Date(value)):t('아직 없음','Not yet');
   main.innerHTML=`<section class="research-intro"><div class="eyebrow">RESEARCH WATCH</div><h1>${t('AI 보안 & 연구 동향','AI security & research')}</h1><p>${t('새로운 보안 이슈부터 모델 안전성·평가 연구까지, 공식 출처에서 이어 읽어보세요.','Follow security developments, model safety and evaluation through original sources.')}</p><small>${data.automation_enabled?t('매일 08:17 KST 갱신 예정 · 실행이 지연될 수 있어요.','Scheduled daily at 08:17 KST; runs may be delayed.'):t('자동 갱신 연결 대기 · 마지막으로 수집한 목록입니다.','Automatic updates pending setup; showing the last collected snapshot.')} ${t('마지막 수집 시도','Last collection attempt')}: ${escape(date(data.attempted_at))}</small></section><div class="research-sources">${data.sources.map(s=>{
