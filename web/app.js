@@ -31,7 +31,7 @@ const trackName=track=>track==='security'?'Security':trackLabels[track||'ai'][la
 const count=track=>documents.filter(d=>d.topic==='ai'&&(track==='ai'||d.track===track)).length;
 const level=value=>lang==='en'?levelNames[value]:value;
 const topics={vulnerabilities:{name:'Vulnerabilities',icon:'⬡'},network:{name:'Network',icon:'⇄'},os:{name:'Operating Systems',icon:'▤'},cs:{name:'Computer Science',icon:'⌘'},ai:{name:'Artificial Intelligence',icon:'✳'},security:{name:'Security',icon:'◇'},'ai-for-security':{name:'AI for Security',icon:'⛨'},crypto:{name:'Cryptography',icon:'◆'},algorithms:{name:'Algorithms & Data Structures',icon:'∑'},'security-for-ai':{name:'Security for AI',icon:'⬢'}};
-const topicName=topic=>topic==='vulnerabilities'?t('대표 취약점','Vulnerabilities'):topic==='crypto'?t('암호학','Cryptography'):topic==='algorithms'?t('알고리즘 · 자료구조','Algorithms & Data Structures'):topic==='security-for-ai'?t('AI 시스템 보안','Security for AI'):topics[topic]?.name||topic;
+const topicName=topic=>topic==='vulnerabilities'?t('대표 취약점','Vulnerabilities'):topic==='crypto'?t('암호학','Cryptography'):topic==='algorithms'?t('알고리즘 · 자료구조','Algorithms & Data Structures'):topics[topic]?.name||topic;
 const topicCount=topic=>documents.filter(d=>d.topic===topic).length;
 const docURL=doc=>'#/'+doc.topic+'/'+doc.slug;
 const activeTopic=()=>{const part=location.hash.split('/')[1];return topics[part]?part:['ml','dl','llm'].includes(part)?'ai':null;};
