@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "kernel-system-calls",
+    "englishTitle": "Operating systems, kernels and system calls",
+    "level": "기초"
+  },
+  {
+    "slug": "processes-threads",
+    "englishTitle": "Processes, threads and execution states",
+    "level": "기초"
+  },
+  {
+    "slug": "cpu-scheduling",
+    "englishTitle": "CPU scheduling and context switches",
+    "level": "기초"
+  },
+  {
+    "slug": "virtual-memory",
+    "englishTitle": "Virtual memory, paging and page faults",
+    "level": "핵심"
+  },
+  {
+    "slug": "filesystems",
+    "englishTitle": "Filesystems, paths and file descriptors",
+    "level": "기초"
+  },
+  {
+    "slug": "io-interrupts",
+    "englishTitle": "I/O, interrupts and asynchronous operations",
+    "level": "핵심"
+  },
+  {
+    "slug": "synchronization",
+    "englishTitle": "Synchronization, mutexes and deadlocks",
+    "level": "핵심"
+  },
+  {
+    "slug": "ipc",
+    "englishTitle": "IPC: pipes, sockets and shared memory",
+    "level": "핵심"
+  },
+  {
+    "slug": "glossary",
+    "englishTitle": "OS glossary",
+    "level": "참고"
+  },
+  {
+    "slug": "index",
+    "englishTitle": "OS learning guide",
+    "level": "가이드"
+  }
+]

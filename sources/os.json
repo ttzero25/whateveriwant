@@ -1,0 +1,76 @@
+{
+  "sources": [
+    {
+      "slug": "kernel-system-calls",
+      "title": "Linux man-pages · System calls",
+      "url": "https://man7.org/linux/man-pages/man2/syscalls.2.html",
+      "quote": "The system call is the fundamental interface between an application and the Linux kernel.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "processes-threads",
+      "title": "Microsoft · Processes and threads",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/procthread/about-processes-and-threads",
+      "quote": "A thread is the entity within a process that can be scheduled for execution.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "cpu-scheduling",
+      "title": "Microsoft · Scheduling",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/procthread/scheduling",
+      "quote": "The system scheduler controls multitasking by determining which of the competing threads receives the next processor time slice.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "virtual-memory",
+      "title": "Microsoft · Virtual address space",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/memory/virtual-address-space",
+      "quote": "The virtual address space for a process is the set of virtual memory addresses that it can use.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "filesystems",
+      "title": "Linux Kernel · Virtual File System",
+      "url": "https://docs.kernel.org/filesystems/vfs.html",
+      "quote": "The file structure is placed into the file descriptor table for the process.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "io-interrupts",
+      "title": "Microsoft · Interrupt service routines",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-interrupt-service-routines",
+      "quote": "The system calls the ISR each time it receives that interrupt.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "synchronization",
+      "title": "Microsoft · Synchronization",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/sync/synchronization",
+      "quote": "There are a variety of ways to coordinate multiple threads of execution.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "ipc",
+      "title": "Microsoft · Interprocess communications",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/ipc/interprocess-communications",
+      "quote": "The Windows operating system provides mechanisms for facilitating communications and data sharing between applications.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    }
+  ]
+}

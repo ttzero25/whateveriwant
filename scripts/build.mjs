@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import MarkdownIt from 'markdown-it';
 import katex from 'katex';
-import {buildCS} from './cs-build.mjs';
+import {buildExcerpts} from './excerpt-build.mjs';
 const root=path.resolve(import.meta.dirname,'..'),output=path.join(root,'dist');
 await fs.mkdir(output,{recursive:true});
 for(const file of ['index.html','style.css','app.js','diagrams.js']) await fs.copyFile(path.join(root,'web',file),path.join(output,file));
@@ -76,6 +76,6 @@ for(const {topic,entries} of collections){
   docs.push({topic,slug,title,summary,level,...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10',en:{title:englishTitle,summary,...ko,source,type:'korean',date:'2026-09-10'}});
  }
 }
-docs.push(...await buildCS({root,md,finalize,escape}));
+for(const topic of ['cs','os'])docs.push(...await buildExcerpts({root,md,finalize,escape,topic}));
 await fs.writeFile(path.join(output,'documents.json'),JSON.stringify(docs));
 console.log(`Built ${docs.length} documents across ${new Set(docs.map(d=>d.topic)).size} topics.`);

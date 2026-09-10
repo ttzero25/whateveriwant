@@ -71,8 +71,20 @@ CS에 8개 개념, 30개 항목 용어집, 학습 가이드를 제공합니다. 
 
 - `content/cs/`: 한국어 해설과 문서 목록 `catalog.json`
 - `sources/cs.json`: Python·PostgreSQL·NIST·Arm·MDN의 짧은 영어 원문 발췌, 출처와 확인일
-- `scripts/cs-build.mjs`: CS의 한국어 문서와 영어 원문 보기 생성
+- `scripts/excerpt-build.mjs`: CS의 한국어 문서와 영어 원문 보기 생성
 
 CS 영어 보기는 한국어 본문의 번역이 아닌, 관련 공식 개념의 짧은 원문 인용과 전체 문서 링크입니다. 영어 학습 가이드와 분야 목록은 사이트 자체 작성입니다.
 
 CS 검증: `node scripts/check-cs.mjs` (배포 사이트 URL을 인자로 전달할 수 있습니다).
+
+## Operating Systems
+
+OS 핵심 개념 8개, 용어집 30개 항목, 학습 가이드를 제공합니다. 커널·시스템 콜, 프로세스·스레드, CPU 스케줄링, 가상 메모리, 파일 시스템, I/O·인터럽트, 동기화·교착, IPC를 다룹니다. 각 개념에 TL;DR과 한영 SVG 도식이 있으며, Linux·Windows 구현 차이를 구분합니다.
+
+- `content/os/`: 한국어 문서와 목록 `catalog.json`
+- `sources/os.json`: Microsoft Learn·Linux Kernel·Linux man-pages의 짧은 영어 원문 인용과 확인일
+- `scripts/excerpt-build.mjs`: CS·OS 공통 문서 빌더
+
+영어 본문은 한국어 해설의 번역이 아닌 관련 개념의 원문 발췌입니다. 전체 자료는 문서 안의 공식 출처 링크에서 확인합니다.
+
+OS 검증: `node scripts/check-os.mjs` (배포 URL을 인자로 전달할 수 있습니다). 원문 대조: `node scripts/check-os-sources.mjs`.
