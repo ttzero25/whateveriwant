@@ -123,5 +123,70 @@
         "level": "가이드"
       }
     ]
+  },
+  {
+    "topic": "network",
+    "entries": [
+      {
+        "slug": "layers-packets",
+        "englishTitle": "Network layers and packet delivery",
+        "level": "기초"
+      },
+      {
+        "slug": "ethernet-switching",
+        "englishTitle": "Ethernet, Wi-Fi, switching and neighbor discovery",
+        "level": "기초"
+      },
+      {
+        "slug": "ip-subnetting",
+        "englishTitle": "IP addressing, IPv6 and subnetting",
+        "level": "기초"
+      },
+      {
+        "slug": "routing-nat",
+        "englishTitle": "Routing, longest prefixes and NAT",
+        "level": "핵심"
+      },
+      {
+        "slug": "tcp-udp",
+        "englishTitle": "TCP, UDP and transport behavior",
+        "level": "핵심"
+      },
+      {
+        "slug": "dns-dhcp",
+        "englishTitle": "DNS resolution, caching and DHCP leases",
+        "level": "핵심"
+      },
+      {
+        "slug": "http-caching",
+        "englishTitle": "HTTP semantics, caching, proxies and CDNs",
+        "level": "핵심"
+      },
+      {
+        "slug": "tls-quic",
+        "englishTitle": "TLS, HTTP/2, QUIC and HTTP/3",
+        "level": "핵심"
+      },
+      {
+        "slug": "performance-mtu",
+        "englishTitle": "Network performance, RTT, queues and MTU",
+        "level": "응용"
+      },
+      {
+        "slug": "troubleshooting",
+        "englishTitle": "Layered network troubleshooting",
+        "level": "응용"
+      },
+      {
+        "slug": "glossary",
+        "englishTitle": "Network glossary",
+        "level": "참고"
+      },
+      {
+        "slug": "index",
+        "englishTitle": "Network learning guide",
+        "level": "가이드"
+      }
+    ]
   }
 ]

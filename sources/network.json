@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "automatic_sync_enabled": false,
+  "sources": [
+    {
+      "title": "MDN: How does the Internet work?",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/layers-packets.md"
+      ]
+    },
+    {
+      "title": "IETF RFC 1122",
+      "url": "https://www.rfc-editor.org/rfc/rfc1122",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/layers-packets.md"
+      ]
+    },
+    {
+      "title": "TCP: RFC 9293",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/tcp-udp.md"
+      ]
+    },
+    {
+      "title": "UDP: RFC 768",
+      "url": "https://www.rfc-editor.org/rfc/rfc768",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/tcp-udp.md"
+      ]
+    },
+    {
+      "title": "Cisco: How does a switch work?",
+      "url": "https://www.cisco.com/site/us/en/learn/topics/small-business/network-switch-how.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/ethernet-switching.md"
+      ]
+    },
+    {
+      "title": "RFC 826",
+      "url": "https://www.rfc-editor.org/rfc/rfc826",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/ethernet-switching.md"
+      ]
+    },
+    {
+      "title": "RFC 4861",
+      "url": "https://datatracker.ietf.org/doc/html/rfc4861",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/ethernet-switching.md"
+      ]
+    },
+    {
+      "title": "RFC 8446: TLS 1.3",
+      "url": "https://www.rfc-editor.org/rfc/rfc8446",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/tls-quic.md"
+      ]
+    },
+    {
+      "title": "RFC 9114",
+      "url": "https://www.rfc-editor.org/rfc/rfc9114",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/tls-quic.md"
+      ]
+    },
+    {
+      "title": "RFC 9000",
+      "url": "https://www.rfc-editor.org/rfc/rfc9000",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/tls-quic.md"
+      ]
+    },
+    {
+      "title": "RFC 9110: HTTP Semantics",
+      "url": "https://datatracker.ietf.org/doc/html/rfc9110",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/http-caching.md"
+      ]
+    },
+    {
+      "title": "RFC 9111",
+      "url": "https://www.rfc-editor.org/rfc/rfc9111",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/http-caching.md"
+      ]
+    },
+    {
+      "title": "MDN: Proxy servers and tunneling",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Proxy_servers_and_tunneling",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/http-caching.md"
+      ]
+    },
+    {
+      "title": "RFC 6349",
+      "url": "https://www.rfc-editor.org/rfc/rfc6349",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/performance-mtu.md"
+      ]
+    },
+    {
+      "title": "RFC 1191",
+      "url": "https://www.rfc-editor.org/rfc/rfc1191",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/performance-mtu.md"
+      ]
+    },
+    {
+      "title": "MDN: HTTP connection management",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Connection_management_in_HTTP_1.x",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/performance-mtu.md"
+      ]
+    },
+    {
+      "title": "RFC 1812",
+      "url": "https://www.rfc-editor.org/rfc/rfc1812",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/routing-nat.md"
+      ]
+    },
+    {
+      "title": "OSPF: RFC 2328",
+      "url": "https://www.rfc-editor.org/rfc/rfc2328",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/routing-nat.md"
+      ]
+    },
+    {
+      "title": "BGP: RFC 4271",
+      "url": "https://www.rfc-editor.org/rfc/rfc4271",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/routing-nat.md"
+      ]
+    },
+    {
+      "title": "RFC 3022",
+      "url": "https://www.rfc-editor.org/rfc/rfc3022",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/routing-nat.md"
+      ]
+    },
+    {
+      "title": "RFC 1034",
+      "url": "https://www.rfc-editor.org/rfc/rfc1034",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/dns-dhcp.md"
+      ]
+    },
+    {
+      "title": "RFC 2131",
+      "url": "https://datatracker.ietf.org/doc/html/rfc2131",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/dns-dhcp.md"
+      ]
+    },
+    {
+      "title": "RFC 4632: CIDR",
+      "url": "https://www.rfc-editor.org/rfc/rfc4632",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/ip-subnetting.md"
+      ]
+    },
+    {
+      "title": "RFC 3021",
+      "url": "https://www.rfc-editor.org/rfc/rfc3021",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/ip-subnetting.md"
+      ]
+    },
+    {
+      "title": "RFC 8200",
+      "url": "https://www.rfc-editor.org/rfc/rfc8200",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/ip-subnetting.md"
+      ]
+    },
+    {
+      "title": "RFC 5737",
+      "url": "https://www.rfc-editor.org/rfc/rfc5737",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/ip-subnetting.md"
+      ]
+    },
+    {
+      "title": "RFC 3849",
+      "url": "https://www.rfc-editor.org/rfc/rfc3849",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/network/ip-subnetting.md"
+      ]
+    }
+  ]
+}

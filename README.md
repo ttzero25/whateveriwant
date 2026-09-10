@@ -103,3 +103,16 @@ AI 9개, CS 4개, Security 4개, AI for Security 3개의 개념 글을 추가했
 - AI for Security: 탐지 엔지니어링, 피싱 분류 설계 사례, 모델 운영·재학습·롤백
 
 확장 글의 본문은 공식 자료를 참고한 한국어 해설이며 영어 보기에서도 이를 표시합니다. 기존 영어 원문 발췌는 유지합니다. `content/expansion.json`은 이번 추가 목록, `sources/expansion.json`은 참고 링크와 확인 기록입니다. 각 분야의 학습 가이드와 용어집에서 새 개념으로 이동할 수 있습니다.
+
+## Network
+
+[Network 학습 가이드](content/network/index.md): 네트워크를 별도 분야로 탐색할 수 있습니다. 계층·캡슐화, Ethernet·Wi-Fi·VLAN, IP·서브넷, 라우팅·NAT, TCP·UDP, DNS·DHCP, HTTP·캐시·프록시·CDN, TLS·QUIC·HTTP/3, 성능·MTU, 계층별 진단의 10개 개념과 용어집을 제공합니다.
+
+- `content/network/`: 한국어 해설·예시·확인 질문
+- `content/collections.json`: Network 문서 순서·수준·영문 제목
+- `sources/network.json`: IETF·MDN·Cisco 참고 출처와 확인일
+- 계층·홉별 전달·DNS 조회의 자체 제작 한영 도식 3개를 제공합니다.
+- 기존 CS 네트워크 개요와 Security 네트워크 보안 글에서 새 컬렉션으로 연결합니다.
+- 영어 보기에서는 한국어 본문 제공 안내를 표시합니다.
+
+검증: `node scripts/check-network.mjs` (공개 사이트 URL을 인자로 전달할 수 있습니다).

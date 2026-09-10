@@ -48,3 +48,7 @@ IDS는 의심스러운 활동을 탐지하고, IPS는 배치와 정책에 따라
 VPN 안의 모든 서비스가 하나의 관리자 비밀번호를 공유한다면 연결 암호화만으로 피해 범위를 제한할 수 있을까요? 네트워크 연결 권한과 서비스 사용 권한을 나누어 보세요.
 
 관련: [암호학](cryptography.md) · [인증과 인가](authentication-authorization.md) · [시스템 보안](system-security.md) · [목차](index.md)
+
+## 통신 원리부터 이해하려면
+
+[Network 학습 가이드](../network/index.md)에서 [라우팅·NAT](../network/routing-nat.md), [TLS·QUIC](../network/tls-quic.md), [계층별 진단](../network/troubleshooting.md)을 읽고 이 문서의 보호 정책으로 연결해 보세요.

@@ -35,3 +35,7 @@ Latency는 한 작업이 끝나기까지 걸리는 지연, throughput은 단위 
 DNS는 모든 URL 전체를 IP로 바꾸는 장치가 아닙니다. 경로와 쿼리는 보통 이름 해석 이후 애플리케이션에서 사용합니다. 포트 번호만으로 실제 실행 서비스나 안전성을 확정할 수 없고, TCP 자체가 통신을 암호화하는 것도 아닙니다.
 
 관련: [데이터 표현](data-representation.md) · [동시성](concurrency.md) · [네트워크 보안](../security/network-security.md) · [목차](index.md)
+
+## Network에서 이어 읽기
+
+네트워크를 별도 분야로 확장했습니다. [Network 학습 가이드](../network/index.md)에서 링크·서브넷·라우팅·전송·DNS·HTTP·성능·진단을 순서대로 읽을 수 있습니다. 이 문서는 CS 관점의 빠른 개요로 사용하세요.
