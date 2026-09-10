@@ -151,3 +151,5 @@
 .research-source-latest time{display:block;color:var(--muted);font-size:10px;margin-bottom:5px}
 .research-source-latest a{display:block;font-size:12px;line-height:1.75;overflow-wrap:anywhere}
 .research-source-latest a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+
+.vulnerability-intro{display:flex;align-items:center;justify-content:space-between;gap:24px;background:var(--green-bg);border:1px solid var(--line);border-radius:22px;padding:24px;margin:0 0 24px}.vulnerability-intro h2{font-size:23px;margin:9px 0;letter-spacing:-.6px}.vulnerability-intro p{font-size:12px;line-height:1.8;color:var(--muted);margin:0}@media(max-width:760px){.vulnerability-intro{align-items:flex-start;flex-direction:column;padding:20px}.vulnerability-intro h2{font-size:21px}}
