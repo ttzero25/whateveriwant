@@ -44,6 +44,7 @@ AI 작성 해설
 | [부동소수점과 수치 오차](floating-point.md) | 핵심 |
 | [소프트웨어 설계: OOP·SOLID·디자인 패턴](software-design.md) | 핵심 |
 | [타입 시스템](type-systems.md) | 핵심 |
+| [계산 이론: 계산 가능성과 P·NP](computability-complexity.md) | 핵심 |
 
 학습 경로: 논리 → 오토마타·언어 실행 → 타입 시스템·소프트웨어 설계 / 컴퓨터 구조 → 캐시·메모리 계층 / 데이터 표현 → 부동소수점 / 네트워크·트랜잭션 → 분산 시스템. 알고리즘·자료구조는 [별도 섹션](../algorithms/index.md)에서 다룹니다.
 

@@ -70,6 +70,11 @@
     "level": "핵심"
   },
   {
+    "slug": "computability-complexity",
+    "englishTitle": "Computability and P vs NP",
+    "level": "핵심"
+  },
+  {
     "slug": "glossary",
     "englishTitle": "CS glossary",
     "level": "참고"

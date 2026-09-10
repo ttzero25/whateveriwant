@@ -418,6 +418,16 @@
         "level": "응용"
       },
       {
+        "slug": "nosql-ldap-injection",
+        "englishTitle": "NoSQL and LDAP injection",
+        "level": "핵심"
+      },
+      {
+        "slug": "mass-assignment",
+        "englishTitle": "Mass assignment",
+        "level": "응용"
+      },
+      {
         "slug": "glossary",
         "englishTitle": "Vulnerability glossary",
         "level": "참고"
@@ -575,6 +585,21 @@
       {
         "slug": "string-matching",
         "englishTitle": "String matching",
+        "level": "응용"
+      },
+      {
+        "slug": "union-find",
+        "englishTitle": "Union-find (disjoint set)",
+        "level": "핵심"
+      },
+      {
+        "slug": "two-pointers",
+        "englishTitle": "Two pointers and sliding window",
+        "level": "핵심"
+      },
+      {
+        "slug": "bit-manipulation",
+        "englishTitle": "Bit manipulation",
         "level": "응용"
       },
       {

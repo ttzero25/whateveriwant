@@ -548,5 +548,55 @@
     "slug": "string-matching",
     "englishTitle": "String matching",
     "level": "응용"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "union-find",
+    "englishTitle": "Union-find (disjoint set)",
+    "level": "핵심"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "two-pointers",
+    "englishTitle": "Two pointers and sliding window",
+    "level": "핵심"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "bit-manipulation",
+    "englishTitle": "Bit manipulation",
+    "level": "응용"
+  },
+  {
+    "topic": "cs",
+    "slug": "computability-complexity",
+    "englishTitle": "Computability and P vs NP",
+    "level": "핵심"
+  },
+  {
+    "topic": "ai",
+    "slug": "model-efficiency",
+    "englishTitle": "Model efficiency",
+    "level": "응용",
+    "track": "dl"
+  },
+  {
+    "topic": "ai",
+    "slug": "ai-agents",
+    "englishTitle": "AI agents and tool orchestration",
+    "level": "응용",
+    "track": "llm"
+  },
+  {
+    "topic": "vulnerabilities",
+    "slug": "nosql-ldap-injection",
+    "englishTitle": "NoSQL and LDAP injection",
+    "level": "핵심"
+  },
+  {
+    "topic": "vulnerabilities",
+    "slug": "mass-assignment",
+    "englishTitle": "Mass assignment",
+    "level": "응용"
   }
 ]

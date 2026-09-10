@@ -204,6 +204,18 @@
     "track": "ml"
   },
   {
+    "slug": "model-efficiency",
+    "englishTitle": "Model efficiency: quantization, pruning, distillation",
+    "level": "응용",
+    "track": "dl"
+  },
+  {
+    "slug": "ai-agents",
+    "englishTitle": "AI agents and tool orchestration",
+    "level": "응용",
+    "track": "llm"
+  },
+  {
     "slug": "glossary",
     "englishTitle": "AI glossary",
     "level": "참고",
