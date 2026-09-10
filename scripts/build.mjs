@@ -6,7 +6,7 @@ import katex from 'katex';
 import {buildExcerpts} from './excerpt-build.mjs';
 const root=path.resolve(import.meta.dirname,'..'),output=path.join(root,'dist');
 await fs.mkdir(output,{recursive:true});
-for(const file of ['index.html','style.css','app.js','diagrams.js','theme.js','research.js','home-updates.js','research-tldr.js']) await fs.copyFile(path.join(root,'web',file),path.join(output,file));
+for(const file of ['index.html','style.css','app.js','diagrams.js','theme.js','research.js','robotics.js','home-updates.js','research-tldr.js']) await fs.copyFile(path.join(root,'web',file),path.join(output,file));
 await fs.mkdir(path.join(output,'assets'),{recursive:true});
 await fs.cp(path.join(root,'node_modules/katex/dist'),path.join(output,'assets/katex'),{recursive:true});
 const originals=JSON.parse(await fs.readFile(path.join(root,'content/en/originals.json'),'utf8'));
@@ -86,3 +86,6 @@ console.log(`Built ${docs.length} documents across ${new Set(docs.map(d=>d.topic
 const research=JSON.parse(await fs.readFile(path.join(root,'data/research.json'),'utf8'));
 research.conferences=JSON.parse(await fs.readFile(path.join(root,'data/conferences.json'),'utf8'));
 await fs.writeFile(path.join(output,'research.json'),JSON.stringify(await attachSummaries(research)));
+
+const robotics=JSON.parse(await fs.readFile(path.join(root,'data/robotics-security.json'),'utf8'));
+await fs.writeFile(path.join(output,'robotics-security.json'),JSON.stringify(await attachSummaries(robotics)));

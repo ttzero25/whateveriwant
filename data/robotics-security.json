@@ -1,0 +1,1338 @@
+{
+  "automation_enabled": true,
+  "attempted_at": "2026-09-10T12:59:51.983Z",
+  "sources": [
+    {
+      "id": "ros",
+      "name": "ROS Discourse",
+      "url": "https://discourse.openrobotics.org/tag/security.rss",
+      "home": "https://discourse.openrobotics.org/tag/security",
+      "description": [
+        "Open Robotics 커뮤니티 · security 태그",
+        "Open Robotics community · security tag"
+      ],
+      "attempted_at": "2026-09-10T12:59:51.983Z",
+      "last_success": "2026-09-10T12:59:51.983Z",
+      "status": "ok",
+      "endpoints": [
+        {
+          "url": "https://discourse.openrobotics.org/tag/security.rss",
+          "status": "ok",
+          "last_success": "2026-09-10T12:59:51.983Z"
+        }
+      ],
+      "count": 30
+    },
+    {
+      "id": "robotics",
+      "name": "arXiv · Robotics Security",
+      "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
+      "home": "https://arxiv.org/list/cs.RO/recent",
+      "description": [
+        "ROS·로봇 보안 관련 프리프린트",
+        "Preprints on ROS and robotics security"
+      ],
+      "attempted_at": "2026-09-10T12:59:51.983Z",
+      "last_success": "2026-09-10T12:59:51.983Z",
+      "status": "ok",
+      "endpoints": [
+        {
+          "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
+          "status": "ok",
+          "last_success": "2026-09-10T12:59:51.983Z"
+        }
+      ],
+      "count": 25
+    },
+    {
+      "id": "autonomy",
+      "name": "arXiv · Autonomous Security",
+      "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
+      "home": "https://arxiv.org/list/cs.CR/recent",
+      "description": [
+        "자율주행·차량·센서 보안 프리프린트",
+        "Preprints on autonomous vehicles and sensor security"
+      ],
+      "attempted_at": "2026-09-10T12:59:51.983Z",
+      "last_success": "2026-09-10T12:59:51.983Z",
+      "status": "ok",
+      "endpoints": [
+        {
+          "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
+          "status": "ok",
+          "last_success": "2026-09-10T12:59:51.983Z"
+        }
+      ],
+      "count": 29
+    }
+  ],
+  "items": [
+    {
+      "source": "autonomy",
+      "title": "Wicked Problem, Parsimonious Solution: Securing Electric Vehicle Charging Station Software",
+      "url": "https://arxiv.org/abs/2609.10502v1",
+      "date": "2026-09-09",
+      "published_at": "2026-09-09T17:37:14.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Electric vehicle charging infrastructure presents a suite of novel cyber-physical threats."
+    },
+    {
+      "source": "autonomy",
+      "title": "Mitigating Degradation Attacks in Cooperative Autonomous Driving via Intention Sharing: A Vehicle-in-the-Loop Study",
+      "url": "https://arxiv.org/abs/2609.10232v1",
+      "date": "2026-09-09",
+      "published_at": "2026-09-09T14:27:10.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Communication delays induced by cyber attacks present a critical challenge to the safe operation of connected autonomous driving."
+    },
+    {
+      "source": "autonomy",
+      "title": "Lightweight Zero Trust via Automotive SDN",
+      "url": "https://arxiv.org/abs/2609.09817v1",
+      "date": "2026-09-09",
+      "published_at": "2026-09-09T07:20:26.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Zonal in-vehicle networks ship Ethernet, MACsec, and TSN, but treat the network itself as trusted: once configured at the factory, there is no standardized runtime…"
+    },
+    {
+      "source": "autonomy",
+      "title": "LLMSec-AV: A Vulnerability Taxonomy and LLM-Driven Software Weakness Discovery Framework for Autonomous Vehicles",
+      "url": "https://arxiv.org/abs/2609.09386v1",
+      "date": "2026-09-08",
+      "published_at": "2026-09-08T19:39:25.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Automated vehicles rely on millions of lines of safety-critical software, yet general-purpose analyzers do not understand which code can affect vehicle motion."
+    },
+    {
+      "source": "robotics",
+      "title": "Seeing is Not Believing: Breaking the Physical-to-Digital Trust Boundary in Robotics",
+      "url": "https://arxiv.org/abs/2609.08280v1",
+      "date": "2026-09-08",
+      "published_at": "2026-09-08T05:50:58.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "ros",
+        "sensors"
+      ],
+      "excerpt": "In multi-robot collaboration, task handovers rely on downstream verifiers performing remote attestation, which inspects sensor telemetry to ensure a robot's physical behavior strictly matches its…"
+    },
+    {
+      "source": "autonomy",
+      "title": "Practical Zero-Trust for Mission-Critical Robotic Fleets via Hardware Attestation and Packet Timing Watermarking",
+      "url": "https://arxiv.org/abs/2609.05741v1",
+      "date": "2026-09-04",
+      "published_at": "2026-09-04T21:39:46.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "ros",
+        "autonomy"
+      ],
+      "excerpt": "Autonomous unmanned vehicles are vital to tactical missions, mission-critical public-safety operations like search and rescue and disaster response."
+    },
+    {
+      "source": "robotics",
+      "title": "Practical Zero-Trust for Mission-Critical Robotic Fleets via Hardware Attestation and Packet Timing Watermarking",
+      "url": "https://arxiv.org/abs/2609.05741v1",
+      "date": "2026-09-04",
+      "published_at": "2026-09-04T21:39:46.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Autonomous unmanned vehicles are vital to tactical missions, mission-critical public-safety operations like search and rescue and disaster response."
+    },
+    {
+      "source": "autonomy",
+      "title": "Resilient Control Loops in Autonomous Vehicles Under Adversarial Jamming via Spectral Perception and Network-Layer Failover",
+      "url": "https://arxiv.org/abs/2609.05739v1",
+      "date": "2026-09-04",
+      "published_at": "2026-09-04T21:39:31.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "ros",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "The operational integrity of autonomous mobile robots relies on the continuous availability of wireless control loops, making them highly attractive targets for adversarial intentional electromagnetic…"
+    },
+    {
+      "source": "robotics",
+      "title": "Seeing Less Is Not Seeing Safely: Privacy Leakage from Task-Scoped Robot Perception Exports",
+      "url": "https://arxiv.org/abs/2609.03055v1",
+      "date": "2026-09-02",
+      "published_at": "2026-09-02T18:29:08.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Domestic robots rely on rich perception to operate in private homes, but privacy risk persists even when raw sensor data remain local."
+    },
+    {
+      "source": "autonomy",
+      "title": "SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective",
+      "url": "https://arxiv.org/abs/2609.02741v2",
+      "date": "2026-09-02",
+      "published_at": "2026-09-02T15:46:55.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Signal Phase and Timing (SPaT) messages are a cornerstone of connected vehicle (CV) safety, enabling CVs to perceive and respond to intersection state through Vehicle-to-Infrastructure…"
+    },
+    {
+      "source": "autonomy",
+      "title": "Zonotope-Based Active Exposure of Stealthy Deception Attacks in Sensor-Fusion Systems",
+      "url": "https://arxiv.org/abs/2609.02587v1",
+      "date": "2026-09-02",
+      "published_at": "2026-09-02T13:31:45.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "This paper investigates the stealthy attack detection for sensor-fusion cyber-physical systems with unknown-but-bounded noises through the control channel."
+    },
+    {
+      "source": "autonomy",
+      "title": "Privacy Leakage in Federated Learning: Gradient-Based Client Identity Inference and Defenses for Inertial Sensing in Vehicular Edge Networks",
+      "url": "https://arxiv.org/abs/2609.02971v2",
+      "date": "2026-09-02",
+      "published_at": "2026-09-02T09:49:39.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "As vehicular networks move toward 5G/6G edge intelligence, federated learning (FL) is widely promoted as a privacy-preserving way for vehicles and infrastructure to train shared…"
+    },
+    {
+      "source": "autonomy",
+      "title": "MultiGait: A Multi-Sensor Multi-Perspective Multi-Session Biometric Inference Benchmark and its Dataset",
+      "url": "https://arxiv.org/abs/2609.01036v1",
+      "date": "2026-09-01",
+      "published_at": "2026-09-01T10:35:25.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "A lack of suitable datasets has limited the research into the privacy risks of novel smart city sensors, such as thermal cameras, depth cameras, and…"
+    },
+    {
+      "source": "autonomy",
+      "title": "Physical Adversarial Examples for Person Detectors in Thermal Images Based on 3D Modeling",
+      "url": "https://arxiv.org/abs/2608.30839v1",
+      "date": "2026-08-31",
+      "published_at": "2026-08-31T14:09:41.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Thermal Infrared detection is widely used in autonomous driving, medical AI, etc., but its security has only attracted attention recently."
+    },
+    {
+      "source": "autonomy",
+      "title": "Adversarial Calibration Attack on Autonomous Vehicles",
+      "url": "https://arxiv.org/abs/2608.28778v1",
+      "date": "2026-08-28",
+      "published_at": "2026-08-28T18:35:54.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Autonomous vehicles (AVs) rely on accurate camera-LiDAR calibration for multimodal sensor fusion."
+    },
+    {
+      "source": "autonomy",
+      "title": "Securing Cooperative Sensing in UAV Swarms Against Conformity-Driven Byzantine Attacks",
+      "url": "https://arxiv.org/abs/2608.28017v1",
+      "date": "2026-08-28",
+      "published_at": "2026-08-28T07:33:15.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "In integrated sensing and communication (ISAC) enabled 6G unmanned aerial vehicle (UAV) swarm networks, the widely adopted imitation-based conformity cooperation mechanism can be exploited by…"
+    },
+    {
+      "source": "autonomy",
+      "title": "FlyBlind: Cross-Slice Timeliness Attacks on UAV Situational Awareness over 5G",
+      "url": "https://arxiv.org/abs/2608.27604v1",
+      "date": "2026-08-27",
+      "published_at": "2026-08-27T18:37:12.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Beyond Visual Line of Sight (BVLOS) Uncrewed Aerial Systems (UAS) operating over 5G Standalone (SA) networks use a shared User Plane for both command-and-control (C2)…"
+    },
+    {
+      "source": "autonomy",
+      "title": "Phantom Navigator: Stealthy and Precise Unmanned Aerial Vehicle Redirection with Real-Time Tracking and GPS Spoofing",
+      "url": "https://arxiv.org/abs/2608.26011v1",
+      "date": "2026-08-26",
+      "published_at": "2026-08-26T16:53:54.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Redirecting unmanned aerial vehicles (UAVs) from their intended mission trajectories has been an active area of research."
+    },
+    {
+      "source": "autonomy",
+      "title": "SonicNudge: Controlled Displacement of Hovering UAVs via Estimator-Controller Coupling",
+      "url": "https://arxiv.org/abs/2608.25319v2",
+      "date": "2026-08-26",
+      "published_at": "2026-08-26T03:03:32.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "UAV displacement attacks have traditionally relied on spoofing sensors that directly report position or translational motion, such as GNSS and optical flow."
+    },
+    {
+      "source": "ros",
+      "title": "Should robot software have execution authorization separate from deployment?",
+      "url": "https://discourse.openrobotics.org/t/should-robot-software-have-execution-authorization-separate-from-deployment/57585",
+      "date": "2026-08-21",
+      "published_at": "2026-08-21T16:49:48.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "I built RLSOK, an open-source execution-authorization layer for robots."
+    },
+    {
+      "source": "autonomy",
+      "title": "Secrecy Rate Maximization for UAV-Mounted Six-Dimensional Movable IRS-Assisted ISAC Systems",
+      "url": "https://arxiv.org/abs/2608.20278v1",
+      "date": "2026-08-20",
+      "published_at": "2026-08-20T17:13:10.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Integrated sensing and communication (ISAC) is a key enabling technology for 6G wireless networks, but its broadcast nature raises a physical-layer security concern when the…"
+    },
+    {
+      "source": "autonomy",
+      "title": "Autonomous Cyber Defense in Connected Vehicles: A Multi-Agent Approach to V2X Security",
+      "url": "https://arxiv.org/abs/2608.19135v1",
+      "date": "2026-08-19",
+      "published_at": "2026-08-19T17:28:32.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "A connected vehicle has roughly 100 milliseconds to decide whether an incoming Basic Safety Message is real or fabricated."
+    },
+    {
+      "source": "autonomy",
+      "title": "Digital Twin-Based Intrusion Detection for Vehicle Powertrain CAN Bus Systems",
+      "url": "https://arxiv.org/abs/2608.17093v1",
+      "date": "2026-08-17",
+      "published_at": "2026-08-17T20:00:21.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Existing automotive intrusion detection systems (IDSs) for the Controller Area Network (CAN) largely target discrepancies in message timing, frequency, or sequencing and cannot detect attacks…"
+    },
+    {
+      "source": "autonomy",
+      "title": "Structured Driving-State Narratives for Small Language Model-Based GNSS Spoofing Detection",
+      "url": "https://arxiv.org/abs/2608.17092v1",
+      "date": "2026-08-17",
+      "published_at": "2026-08-17T19:59:20.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Autonomous vehicles (AVs) depend on reliable Global Navigation Satellite System (GNSS) positioning."
+    },
+    {
+      "source": "autonomy",
+      "title": "AdROD: HyperNetwork-based Adversarially Robust Object Detection for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2608.16031v1",
+      "date": "2026-08-17",
+      "published_at": "2026-08-17T02:52:01.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Camera-based object detectors are vulnerable to physical adversarial attacks designed to suppress detections."
+    },
+    {
+      "source": "robotics",
+      "title": "Benchmarking Identity-Sensitive LLM Outputs for Surveillance and Security Robots",
+      "url": "https://arxiv.org/abs/2608.16030v1",
+      "date": "2026-08-17",
+      "published_at": "2026-08-17T02:51:43.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Large language models (LLMs) are increasingly used to generate textual robot design specifications, interaction policies, and risk assessments during early-stage robot development."
+    },
+    {
+      "source": "autonomy",
+      "title": "A Temporal Barrier Framework for Collision Avoidance in Multi-Agent Autonomous Aerial Vehicles",
+      "url": "https://arxiv.org/abs/2608.14239v1",
+      "date": "2026-08-14",
+      "published_at": "2026-08-14T12:15:00.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Operating teams of autonomous aircraft in dynamic, uncertain, and potentially adversarial environments requires safety protocols that are reliable yet selective, and allow agents to fly…"
+    },
+    {
+      "source": "autonomy",
+      "title": "LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles",
+      "url": "https://arxiv.org/abs/2608.13450v1",
+      "date": "2026-08-13",
+      "published_at": "2026-08-13T16:33:44.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Autonomous vehicles depend on large safety-critical software stacks, where weaknesses reachable from adversarial inputs may affect steering, braking, or other control decisions."
+    },
+    {
+      "source": "autonomy",
+      "title": "High-Order Liquid Evidence Encoding for Gradual GNSS Spoofing Detection in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2608.11790v1",
+      "date": "2026-08-12",
+      "published_at": "2026-08-12T08:30:17.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Accurate Global Navigation Satellite System (GNSS)-based localization is essential for safe and reliable autonomous driving."
+    },
+    {
+      "source": "autonomy",
+      "title": "A Runtime Decentralized Attestation and Coordinated Repair Framework for Securing Automotive ECUs",
+      "url": "https://arxiv.org/abs/2608.11489v1",
+      "date": "2026-08-11",
+      "published_at": "2026-08-11T23:02:49.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "The evolution of automotive technology increasingly integrates components, transforming vehicles into interconnected systems of systems."
+    },
+    {
+      "source": "autonomy",
+      "title": "Benchmarking Cyberattack Detection in Electric Vehicle Charging Infrastructure with Benign User Updates",
+      "url": "https://arxiv.org/abs/2608.11286v1",
+      "date": "2026-08-11",
+      "published_at": "2026-08-11T14:50:24.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Cyberattack detection in electric vehicle charging infrastructure is complicated by legitimate post-activation revisions to requested energy and departure time."
+    },
+    {
+      "source": "autonomy",
+      "title": "Conversational versus Dashboard Explainable AI for UAV Intrusion Detection: An Empirical Study of Operator Trust and Reliance",
+      "url": "https://arxiv.org/abs/2608.10434v1",
+      "date": "2026-08-11",
+      "published_at": "2026-08-11T03:31:59.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Machine learning-based Intrusion Detection Systems (IDS) have demonstrated superior performance in securing Unmanned Aerial Vehicle (UAV) networks."
+    },
+    {
+      "source": "robotics",
+      "title": "Hidden in Plain Sight: Diffusion-Based Unrestricted Robotic Attacks on Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2608.10393v1",
+      "date": "2026-08-11",
+      "published_at": "2026-08-11T02:41:08.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Vision-Language-Action (VLA) models have shown strong capabilities in controlling robots across diverse manipulation tasks."
+    },
+    {
+      "source": "autonomy",
+      "title": "VUPER: Verified ASN.1 UPER Parser",
+      "url": "https://arxiv.org/abs/2608.09094v1",
+      "date": "2026-08-10",
+      "published_at": "2026-08-10T03:47:38.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "ASN.1 is a widely used interface description language, and UPER (Unaligned Packed Encoding Rules) is one of its key encoding rules, particularly popular in security-critical…"
+    },
+    {
+      "source": "autonomy",
+      "title": "Distilling Vision-Language Models for Robust Traffic Sign Perception in Autonomous Vehicles",
+      "url": "https://arxiv.org/abs/2608.08815v1",
+      "date": "2026-08-09",
+      "published_at": "2026-08-09T17:05:00.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Traffic sign recognition (TSR) models based on deep neural networks achieve strong clean-data performance but remain vulnerable to physically realizable adversarial attacks, including shadow perturbations,…"
+    },
+    {
+      "source": "robotics",
+      "title": "When Coordination Becomes a Threat: Communication Attacks in LLM-Controlled Multi-Robot Systems",
+      "url": "https://arxiv.org/abs/2608.06830v1",
+      "date": "2026-08-07",
+      "published_at": "2026-08-07T05:39:27.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Large Language Models (LLMs) are increasingly used as high-level planners in embodied multi-robot systems, enabling robots to interpret natural language instructions and coordinate executable actions."
+    },
+    {
+      "source": "robotics",
+      "title": "Structure-Aware Robust Fine-Tuning: Defending Vision-Language-Action Robots Against Physical Attention Hijacking",
+      "url": "https://arxiv.org/abs/2608.03231v1",
+      "date": "2026-08-04",
+      "published_at": "2026-08-04T07:03:05.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Vision-Language-Action (VLA) policies promise general robotic manipulation, but their robustness against physical-world attacks remains fragile."
+    },
+    {
+      "source": "robotics",
+      "title": "D-MUTRA: DLT-based MUTual Remote Attestation for Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2608.01938v1",
+      "date": "2026-08-03",
+      "published_at": "2026-08-03T09:10:31.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Multi-agent systems (MAS) comprise autonomous software agents that collaborate to perform complex tasks in critical cyber-physical domains, including multi-robot coordination and the Industrial Internet of…"
+    },
+    {
+      "source": "robotics",
+      "title": "VLAGuard: A Framework for Evaluating and Mitigating Physical Attention Hijacking in Vision-Language-Action Robots within Wireless Sensor Networks",
+      "url": "https://arxiv.org/abs/2608.01028v1",
+      "date": "2026-08-02",
+      "published_at": "2026-08-02T06:06:28.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Deploying Vision-Language-Action (VLA) robots as mobile edge nodes within wireless sensor networks (WSNs) requires robust protection against physical adversarial threats."
+    },
+    {
+      "source": "robotics",
+      "title": "When Prompts Control Robots: Prompt Injection Attacks in Multi-Agent Robotic Systems",
+      "url": "https://arxiv.org/abs/2608.00747v2",
+      "date": "2026-08-01",
+      "published_at": "2026-08-01T16:31:00.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Large language models are increasingly integrated into autonomous robotic systems for task planning and control, but this integration exposes them to prompt injection attacks that…"
+    },
+    {
+      "source": "ros",
+      "title": "RoboShield: A Low-Latency Out-of-Band RTPS Watchdog in Rust",
+      "url": "https://discourse.openrobotics.org/t/roboshield-a-low-latency-out-of-band-rtps-watchdog-in-rust/56538",
+      "date": "2026-07-13",
+      "published_at": "2026-07-13T14:59:39.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hey everyone!"
+    },
+    {
+      "source": "robotics",
+      "title": "Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors",
+      "url": "https://arxiv.org/abs/2607.10815v1",
+      "date": "2026-07-12",
+      "published_at": "2026-07-12T16:05:56.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Humanoid roller-skating is difficult because the robot must coordinate whole-body balance, rolling contacts, and velocity-dependent posture regulation."
+    },
+    {
+      "source": "robotics",
+      "title": "Idiobionics: The Unification of Privacy and Intelligent Robotic Prostheses",
+      "url": "https://arxiv.org/abs/2607.07775v1",
+      "date": "2026-07-08",
+      "published_at": "2026-07-08T17:18:57.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "The human body is at the center of a growing family of technologies designed to tightly and persistently couple biological and digital systems."
+    },
+    {
+      "source": "robotics",
+      "title": "Overthink-Triggered Slowdown Attacks on LVLM-Based Robotic Systems",
+      "url": "https://arxiv.org/abs/2607.01518v1",
+      "date": "2026-07-01",
+      "published_at": "2026-07-01T22:31:10.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Large Vision-Language Models (LVLMs) have been increasingly integrated into robotic systems."
+    },
+    {
+      "source": "robotics",
+      "title": "RIPA: Sensory-Vector Prompt Injection Attacks on LLM-Controlled ROS 2 Robots",
+      "url": "https://arxiv.org/abs/2606.28649v1",
+      "date": "2026-06-26",
+      "published_at": "2026-06-26T23:31:59.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "ros",
+        "sensors"
+      ],
+      "excerpt": "We present RIPA, the first systematic multi-channel empirical study of prompt injection attacks delivered through the sensory pipeline of a ROS 2-based LLM-controlled robotic system."
+    },
+    {
+      "source": "ros",
+      "title": "Security Advisory: Arbitrary File Read Vulnerability in WebsocketServer (Issue gz-sim#3589)",
+      "url": "https://discourse.openrobotics.org/t/security-advisory-arbitrary-file-read-vulnerability-in-websocketserver-issue-gz-sim-3589/55558",
+      "date": "2026-06-18",
+      "published_at": "2026-06-18T16:49:14.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Posting on behalf of @arjo129 , maintainer of the gz-sim repo."
+    },
+    {
+      "source": "robotics",
+      "title": "SoK: Security and Privacy of Foundation-Model-Powered Robots",
+      "url": "https://arxiv.org/abs/2606.16788v1",
+      "date": "2026-06-15",
+      "published_at": "2026-06-15T14:32:08.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Foundation models are reshaping robotics by enabling robots to interpret open-ended instructions, reason over multimodal contexts, and operate in complex, open-world environments."
+    },
+    {
+      "source": "robotics",
+      "title": "Adversarial Attacks on Learned Policies for Surgical Robotic Tasks",
+      "url": "https://arxiv.org/abs/2606.11535v1",
+      "date": "2026-06-10",
+      "published_at": "2026-06-10T00:37:03.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Learning-based policies are being considered to augment the dexterity of human surgeons in robot-assisted surgery."
+    },
+    {
+      "source": "robotics",
+      "title": "Test-time Adversarial Takeover: A Real-time Hijacking Interface against Robotic Diffusion Policies",
+      "url": "https://arxiv.org/abs/2606.10371v1",
+      "date": "2026-06-09",
+      "published_at": "2026-06-09T03:31:09.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Diffusion-based action generation has become a foundational component of embodied AI, but its reliance on visual conditioning leaves deployed visuomotor policies vulnerable to adversarial manipulation."
+    },
+    {
+      "source": "robotics",
+      "title": "Learning of Robot Safety Policies via Adversarial Synthetic Scenarios",
+      "url": "https://arxiv.org/abs/2606.05952v1",
+      "date": "2026-06-04",
+      "published_at": "2026-06-04T09:51:57.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "In this work, we propose an agentic gamification framework for hazard-informed learning of robot safety policies through synthetic scenarios."
+    },
+    {
+      "source": "robotics",
+      "title": "Partially Observable Adversarial Patch Attacks on Vision-Language-Action Models in Robotics",
+      "url": "https://arxiv.org/abs/2606.03556v1",
+      "date": "2026-06-02",
+      "published_at": "2026-06-02T12:19:28.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Vision-language-action (VLA) models are gaining attention in robotics, yet their robustness to adversarial attacks remains largely unexplored."
+    },
+    {
+      "source": "robotics",
+      "title": "Adversarial Attacks on Robot Localization Systems via Deep Feature Perturbation",
+      "url": "https://arxiv.org/abs/2606.01892v1",
+      "date": "2026-06-01",
+      "published_at": "2026-06-01T08:36:13.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Robot localization systems are critical for autonomous navigation and safety."
+    },
+    {
+      "source": "robotics",
+      "title": "When Agents Control Robots: A Zero Trust Policy Model for Agentic Cyber-Physical Systems",
+      "url": "https://arxiv.org/abs/2605.25653v1",
+      "date": "2026-05-25",
+      "published_at": "2026-05-25T10:00:34.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Multi-agent systems powered by large foundation models (LFMs) are increasingly deployed to control industrial robots through natural language, creating deployments in which security failures produce…"
+    },
+    {
+      "source": "robotics",
+      "title": "PIMbot: A Self-Adaptive Attack Framework for Adversarial Manipulation of Multi-Robot Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2605.23027v1",
+      "date": "2026-05-21",
+      "published_at": "2026-05-21T20:50:47.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Recent research has demonstrated the potential of reinforcement learning in effective multi-robot collaboration, particularly in social dilemmas where robots face a trade-off between self-interest and…"
+    },
+    {
+      "source": "robotics",
+      "title": "RoboJailBench: Benchmarking Adversarial Attacks and Defenses in Embodied Robotic Agents",
+      "url": "https://arxiv.org/abs/2605.19328v1",
+      "date": "2026-05-19",
+      "published_at": "2026-05-19T04:07:24.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Recent advances in Vision-Language Models (VLMs) facilitate a new class of embodied AI systems, where these models are integrated into physical platforms, e.g."
+    },
+    {
+      "source": "robotics",
+      "title": "Not What You Asked For: Typographic Attacks in Household Robot Manipulation",
+      "url": "https://arxiv.org/abs/2605.18593v1",
+      "date": "2026-05-18",
+      "published_at": "2026-05-18T16:06:29.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Open-vocabulary embodied AI agents increasingly rely on vision-language models such as CLIP for object perception and task grounding."
+    },
+    {
+      "source": "robotics",
+      "title": "Active Defense Against False Data Injection Attacks in Robotic Manipulators",
+      "url": "https://arxiv.org/abs/2605.17950v3",
+      "date": "2026-05-18",
+      "published_at": "2026-05-18T07:06:36.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Robotic systems are vulnerable to False Data Injection Attacks (FDIAs), where adversaries corrupt sensor signals to gain malicious control."
+    },
+    {
+      "source": "ros",
+      "title": "Enhancing ROS 2 Network Visibility and Attribution with eBPF Kernel Probes",
+      "url": "https://discourse.openrobotics.org/t/enhancing-ros-2-network-visibility-and-attribution-with-ebpf-kernel-probes/54344",
+      "date": "2026-04-27",
+      "published_at": "2026-04-27T15:54:04.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "In many robotic deployments, the network is treated as a trusted zone, or security is handled at the transport layer (SROS2/VPNs)."
+    },
+    {
+      "source": "ros",
+      "title": "Notice: tj-actions/changed-files 3rd party GitHub Action compromised",
+      "url": "https://discourse.openrobotics.org/t/notice-tj-actions-changed-files-3rd-party-github-action-compromised/42540",
+      "date": "2025-03-15",
+      "published_at": "2025-03-15T03:46:19.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hi folks, Not the most enjoyable news to receive on a Friday night but security notices are best acted on quickly."
+    },
+    {
+      "source": "ros",
+      "title": "Expose secure communication only with specified entities",
+      "url": "https://discourse.openrobotics.org/t/expose-secure-communication-only-with-specified-entities/40957",
+      "date": "2024-12-04",
+      "published_at": "2024-12-04T22:10:01.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hi ROS developers, Asking thoughts and ideas!"
+    },
+    {
+      "source": "ros",
+      "title": "ROS 2 Security Enclaves with Kubernetes ConfigMap",
+      "url": "https://discourse.openrobotics.org/t/ros-2-security-enclaves-with-kubernetes-configmap/37403",
+      "date": "2024-04-26",
+      "published_at": "2024-04-26T07:35:40.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hi ROS 2 developers and users, Do you have problems and burden how to manage the ROS 2 security enclaves with scaled robotics and robot…"
+    },
+    {
+      "source": "ros",
+      "title": "Low Level hacked support for non EDU Unitree go1 dogs (Air, Pro, Max)",
+      "url": "https://discourse.openrobotics.org/t/low-level-hacked-support-for-non-edu-unitree-go1-dogs-air-pro-max/31849",
+      "date": "2023-06-09",
+      "published_at": "2023-06-09T18:47:08.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Unitree go1 Air, Pro, and MAX have had their inner MIT Cheetah released!"
+    },
+    {
+      "source": "ros",
+      "title": "Inquiry about use of security code scanning in ROS projects",
+      "url": "https://discourse.openrobotics.org/t/inquiry-about-use-of-security-code-scanning-in-ros-projects/29713",
+      "date": "2023-02-09",
+      "published_at": "2023-02-09T15:27:54.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hello, I’d like to gather some perspectives from the community regarding the use of code scanning tools such as SAST (Static Application Security Testing), DAST…"
+    },
+    {
+      "source": "ros",
+      "title": "Robotics Engineering Manager @ Canonical (remote)",
+      "url": "https://discourse.openrobotics.org/t/robotics-engineering-manager-canonical-remote/26926",
+      "date": "2022-08-15",
+      "published_at": "2022-08-15T17:40:00.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "We are looking for an engineering manager with a passion for open source robotics to lead our dedicated team working on ROS and related open…"
+    },
+    {
+      "source": "ros",
+      "title": "SROS2: Usable Cyber Security Tools for ROS 2",
+      "url": "https://discourse.openrobotics.org/t/sros2-usable-cyber-security-tools-for-ros-2/24719",
+      "date": "2022-03-17",
+      "published_at": "2022-03-17T07:07:18.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Cyber security is a two-way street where both vendors and researchers must act responsibly and over the last few years we learned that doing security…"
+    },
+    {
+      "source": "ros",
+      "title": "Cybersecurity in the ROS 2 communication middleware, targeting the top 6 DDS implementations",
+      "url": "https://discourse.openrobotics.org/t/cybersecurity-in-the-ros-2-communication-middleware-targeting-the-top-6-dds-implementations/23254",
+      "date": "2021-11-26",
+      "published_at": "2021-11-26T08:24:22.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Dear all, I’m happy to share the results of a cybersecurity research project I’ve been involved in for the past months and which results from…"
+    },
+    {
+      "source": "ros",
+      "title": "Robot cybersecurity, a review",
+      "url": "https://discourse.openrobotics.org/t/robot-cybersecurity-a-review/21531",
+      "date": "2021-07-24",
+      "published_at": "2021-07-24T15:40:25.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hi, For those of you caring about security in ROS and in robotics in general, the following article might be of interest: robot cybersecurity, a…"
+    },
+    {
+      "source": "ros",
+      "title": "Software Engineer - Robotics @ Canonical (Remote)",
+      "url": "https://discourse.openrobotics.org/t/software-engineer-robotics-canonical-remote/20807",
+      "date": "2021-06-07",
+      "published_at": "2021-06-07T15:41:48.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "This is an exciting opportunity for a software engineer passionate about open source software, Linux, security and robotics."
+    },
+    {
+      "source": "ros",
+      "title": "ROS Security WG Breakout Meeting | Invited Talk on Privaros",
+      "url": "https://discourse.openrobotics.org/t/ros-security-wg-breakout-meeting-invited-talk-on-privaros/17848",
+      "date": "2020-12-10",
+      "published_at": "2020-12-10T21:31:31.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hello folks, The next ROS Security Working Group meeting will be: Tue, Dec 15, 2020 2:00 PM UTC Google Workspace Google Meet: Online Web and…"
+    },
+    {
+      "source": "ros",
+      "title": "Red teaming ROS and ROS-Industrial packages",
+      "url": "https://discourse.openrobotics.org/t/red-teaming-ros-and-ros-industrial-packages/16448",
+      "date": "2020-09-17",
+      "published_at": "2020-09-17T18:01:00.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "![ros_readteaming_scenario](upload://fQGKmIvzcouKV1drsOymMQBg4Q7.png) TL;DR, we challenge the cyber security status of ROS and ROS-Industrial packages within Melodic experimentally by a) constructing a synthetic industrial scenario, b) hardening…"
+    },
+    {
+      "source": "ros",
+      "title": "Security ramifications of global parameter_events",
+      "url": "https://discourse.openrobotics.org/t/security-ramifications-of-global-parameter-events/15924",
+      "date": "2020-08-14",
+      "published_at": "2020-08-14T21:54:15.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hey folks."
+    },
+    {
+      "source": "ros",
+      "title": "Matching the dynamic nature of ROS to the static nature of DDS security",
+      "url": "https://discourse.openrobotics.org/t/matching-the-dynamic-nature-of-ros-to-the-static-nature-of-dds-security/15653",
+      "date": "2020-07-28",
+      "published_at": "2020-07-28T22:13:16.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "We had the regularly-sheduled security WG meeting today."
+    },
+    {
+      "source": "ros",
+      "title": "ROS Security Benchmark open for public comment",
+      "url": "https://discourse.openrobotics.org/t/ros-security-benchmark-open-for-public-comment/15456",
+      "date": "2020-07-17",
+      "published_at": "2020-07-17T13:14:00.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "I’m pleased to announce that the Center for Internet Security (CIS) has publicly released the ROS Security Benchmark for community discussion."
+    },
+    {
+      "source": "ros",
+      "title": "Secure development lifecycle process on Autoware",
+      "url": "https://discourse.openrobotics.org/t/secure-development-lifecycle-process-on-autoware/15087",
+      "date": "2020-06-26",
+      "published_at": "2020-06-26T20:35:22.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "During a TSC last year (minutes) Apex and TierIV proposed doing a threat modelling of the Autoware project."
+    },
+    {
+      "source": "ros",
+      "title": "ROS 2 Security Working Group Meeting (04-28-2020)",
+      "url": "https://discourse.openrobotics.org/t/ros-2-security-working-group-meeting-04-28-2020/13837",
+      "date": "2020-04-27",
+      "published_at": "2020-04-27T12:33:16.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hello folks, The next ROS 2 Security Working Group meeting will be Tue, Apr 28, 2020 4:00 PM UTC → Tue, Apr 28, 2020 4:30…"
+    },
+    {
+      "source": "ros",
+      "title": "ROS2 Security Working Group Meeting (4/14/2020)",
+      "url": "https://discourse.openrobotics.org/t/ros2-security-working-group-meeting-4-14-2020/13636",
+      "date": "2020-04-13",
+      "published_at": "2020-04-13T21:05:15.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hello all, The next ROS 2 Security Working Group will be Tue, Apr 14, 2020 9:00 PM UTC, via Hangouts Meet or by phone at…"
+    },
+    {
+      "source": "ros",
+      "title": "ROS 2 Security Working Group Meeting (03-31-2020)",
+      "url": "https://discourse.openrobotics.org/t/ros-2-security-working-group-meeting-03-31-2020/13455",
+      "date": "2020-03-31",
+      "published_at": "2020-03-31T15:09:19.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hey everyone."
+    },
+    {
+      "source": "ros",
+      "title": "ROS 2 Security Working Group Meeting (03-09-2020)",
+      "url": "https://discourse.openrobotics.org/t/ros-2-security-working-group-meeting-03-09-2020/13143",
+      "date": "2020-03-09",
+      "published_at": "2020-03-09T15:57:38.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hey everyone."
+    },
+    {
+      "source": "ros",
+      "title": "CS4R workshops announcement in European Robotics Forum 2020",
+      "url": "https://discourse.openrobotics.org/t/cs4r-workshops-announcement-in-european-robotics-forum-2020/12993",
+      "date": "2020-02-26",
+      "published_at": "2020-02-26T09:07:48.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hey folk roboticists, Are you planning to be in Málaga (Spain) for European Robotics Forum from 3r March on?"
+    },
+    {
+      "source": "ros",
+      "title": "Workshop on Security and Privacy in Robotics - Call for contributions",
+      "url": "https://discourse.openrobotics.org/t/workshop-on-security-and-privacy-in-robotics-call-for-contributions/12780",
+      "date": "2020-02-15",
+      "published_at": "2020-02-15T09:27:25.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros",
+        "sensors"
+      ],
+      "excerpt": "======================================================================== Call for Demos and Work-in-Progress Workshop on Security and Privacy in Robotics co-located with ICRA 2020 (http://icra2020.org/) https://www.icra2020.org/program/workshops-and-tutorials Paris, France May 31, 2020 ========================================================================…"
+    },
+    {
+      "source": "ros",
+      "title": "ROS 2 Security Working Group Meeting",
+      "url": "https://discourse.openrobotics.org/t/ros-2-security-working-group-meeting/12674",
+      "date": "2020-02-07",
+      "published_at": "2020-02-07T20:14:58.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hey everyone."
+    },
+    {
+      "source": "ros",
+      "title": "ROS 2 Security Working Group January Meeting",
+      "url": "https://discourse.openrobotics.org/t/ros-2-security-working-group-january-meeting/12481",
+      "date": "2020-01-24",
+      "published_at": "2020-01-24T23:37:21.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hey everyone."
+    },
+    {
+      "source": "ros",
+      "title": "wolfSSL and wolfCrypt for ROS",
+      "url": "https://discourse.openrobotics.org/t/wolfssl-and-wolfcrypt-for-ros/12266",
+      "date": "2020-01-11",
+      "published_at": "2020-01-11T00:50:02.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Hi!"
+    },
+    {
+      "source": "ros",
+      "title": "Robot Security Survey updates and first results",
+      "url": "https://discourse.openrobotics.org/t/robot-security-survey-updates-and-first-results/11556",
+      "date": "2019-11-19",
+      "published_at": "2019-11-19T13:55:50.000Z",
+      "date_kind": "published",
+      "kind": "community",
+      "channel": "news",
+      "tags": [
+        "security",
+        "ros",
+        "sensors"
+      ],
+      "excerpt": "Dear roboticists, For those of you awaiting Survey Results, attached below a blogpost summarizing some of the preliminary results and first conclusions out of the…"
+    }
+  ]
+}

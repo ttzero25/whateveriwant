@@ -30,13 +30,13 @@ jobs:
         if: github.event_name != 'push'
         run: npm run update:research
       - name: Validate source parsers and summary fallbacks
-        run: node --test scripts/research-feeds.test.mjs scripts/conference-feeds.test.mjs
+        run: node --test scripts/research-feeds.test.mjs scripts/conference-feeds.test.mjs scripts/robotics-feeds.test.mjs
       - name: Commit research snapshot
         if: github.event_name != 'push'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/research.json data/conferences.json
+          git add data/research.json data/conferences.json data/robotics-security.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update official AI research snapshot'
             git pull --rebase origin main

@@ -36,3 +36,10 @@ npm run preview
 `.github/workflows/pages.yml`은 매일 08:17 KST에 공식 출처를 수집하고, 스냅샷을 `main`에 커밋한 뒤 GitHub Pages에 배포하도록 구성되어 있습니다. GitHub 실행 상황에 따라 지연될 수 있습니다. 저장소의 Pages 게시 소스를 **GitHub Actions**로 설정해야 활성화됩니다. Actions의 **Refresh research and deploy → Run workflow**로 바로 실행할 수도 있습니다.
 
 새 글의 원문 제목·짧은 발췌와 수집 상태는 자동으로 갱신됩니다. 한국어 TL;DR은 별도 작성 자료이며 자동 생성하지 않습니다. 일부 출처 수집에 실패하면 기존 목록을 보존하고 화면에 상태를 표시합니다.
+
+ROS & Autonomous Security Watch (`#/robotics-security`)는 AI Research Watch와 같은 검색·출처·주제·기간 필터, 한영 TL;DR, 모바일·다크 모드를 제공합니다. Open Robotics Discourse의 security 태그(커뮤니티 게시물)와 arXiv의 로봇·자율주행 보안 검색 결과를 별도 수집합니다. arXiv는 최초 제출일 기준이며, 보안 키워드로 선별하므로 포괄적인 취약점 목록은 아닙니다.
+
+- `data/robotics-security.json`: 별도 동향 스냅샷과 출처 상태
+- `node scripts/update-research.mjs --robotics`: 해당 동향만 갱신
+- 매일 실행되는 `update:research`와 Pages 배포에 포함됩니다. 수집 실패 시 이전 목록을 유지합니다.
+- 검증: `node --test scripts/robotics-feeds.test.mjs`, 빌드·미리보기 후 `node scripts/check-robotics.mjs`
