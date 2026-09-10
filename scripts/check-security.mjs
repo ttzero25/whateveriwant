@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 
 const docs=JSON.parse(await fs.readFile('dist/documents.json','utf8'));
 const topic=process.argv[3]||'security';
-assert.ok(['security','ai-for-security'].includes(topic));
+assert.ok(['security','ai-for-security','vulnerabilities'].includes(topic));
 const security=docs.filter(d=>d.topic===topic);
 await fs.mkdir('.preview',{recursive:true});
 const catalog=JSON.parse(await fs.readFile('content/collections.json','utf8')).find(c=>c.topic===topic);
@@ -27,11 +27,18 @@ try{
   page.on('pageerror',e=>errors.push(e.message));
   await page.goto(base+'#/'+topic);
   await page.waitForSelector('.doc-card');
+  if(topic==='vulnerabilities'){
+    assert.equal(security.length,14);
+    await page.locator('.vulnerability-intro a').click();
+    await page.waitForSelector('.article');
+    await page.locator('.back-link').click();
+    await page.waitForSelector('.doc-card');
+  }
   assert.equal(await page.locator('.doc-card').count(),security.length);
   assert.equal(await page.locator('.doc-card[href^="#/ai/"]').count(),0);
   assert.equal(await page.locator('.'+topic+'-link.active').count(),1);
   assert.equal(await page.locator('.track-tabs').isVisible(),false);
-  await page.locator('#search').fill(topic==='security'?'RBAC':'기저율');
+  await page.locator('#search').fill(topic==='security'?'RBAC':topic==='vulnerabilities'?'IDOR':'기저율');
   assert.ok(await page.locator('.doc-card').count()>0);
   assert.ok(await page.locator('.doc-card').count()<security.length);
   await page.locator('#search').fill('');
@@ -44,6 +51,7 @@ try{
     await page.waitForSelector('.article');
     assert.equal(await page.locator('h1').innerText(),doc.title);
     assert.equal(await page.locator('.article').getAttribute('lang'),'ko');
+    if(topic==='vulnerabilities')assert.equal(await page.locator('.concept-diagram').count(),['sql-injection','access-control'].includes(doc.slug)?1:0);
     assert.match(await page.locator('.article blockquote').first().innerText(),/TL;DR/);
     assert.equal(await page.locator('.back-link').getAttribute('href'),'#/'+topic);
     assert.equal(await page.locator('.article-next a[href^="#/ai/"]').count(),0);
@@ -76,6 +84,13 @@ try{
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),doc.slug);
   }
   await page.screenshot({path:'.preview/'+topic+'-mobile.png',fullPage:true});
+  if(topic==='vulnerabilities'){
+    await page.locator('#menu-toggle').click();
+    await page.locator('.vulnerabilities-link').click();
+    await page.waitForSelector('.doc-card');
+    assert.equal(await page.locator('.doc-card').count(),14);
+    assert.equal(await page.locator('#menu-toggle').getAttribute('aria-expanded'),'false');
+  }
   await page.goto(base+'#/ai');
   await page.waitForSelector('.doc-card');
   assert.equal(await page.locator('.doc-card').count(),docs.filter(d=>d.topic==='ai').length);

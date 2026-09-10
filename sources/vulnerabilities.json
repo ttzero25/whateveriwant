@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "automatic_sync_enabled": false,
+  "sources": [
+    {
+      "title": "OWASP: SQL Injection Prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/sql-injection.md"
+      ]
+    },
+    {
+      "title": "OWASP: XSS Prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/xss.md"
+      ]
+    },
+    {
+      "title": "OWASP: CSRF Prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/csrf.md"
+      ]
+    },
+    {
+      "title": "OWASP: Authorization",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/access-control.md"
+      ]
+    },
+    {
+      "title": "OWASP: Authentication",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/authentication-session.md"
+      ]
+    },
+    {
+      "title": "OWASP: Session Management",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/authentication-session.md"
+      ]
+    },
+    {
+      "title": "OWASP: SSRF Prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/ssrf.md"
+      ]
+    },
+    {
+      "title": "OWASP: File Upload",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/file-handling.md"
+      ]
+    },
+    {
+      "title": "CWE-22: Path Traversal",
+      "url": "https://cwe.mitre.org/data/definitions/22.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/file-handling.md"
+      ]
+    },
+    {
+      "title": "OWASP: OS Command Injection Defense",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/command-injection.md"
+      ]
+    },
+    {
+      "title": "OWASP: Deserialization",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/deserialization.md"
+      ]
+    },
+    {
+      "title": "CWE-787: Out-of-bounds Write",
+      "url": "https://cwe.mitre.org/data/definitions/787.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/memory-safety.md"
+      ]
+    },
+    {
+      "title": "CWE-416: Use After Free",
+      "url": "https://cwe.mitre.org/data/definitions/416.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/memory-safety.md"
+      ]
+    },
+    {
+      "title": "CWE-362: Race Condition",
+      "url": "https://cwe.mitre.org/data/definitions/362.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/race-conditions.md"
+      ]
+    },
+    {
+      "title": "OWASP: Top 10",
+      "url": "https://owasp.org/Top10/",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/misconfiguration.md",
+        "content/vulnerabilities/index.md"
+      ]
+    },
+    {
+      "title": "CWE-209: Sensitive Error Messages",
+      "url": "https://cwe.mitre.org/data/definitions/209.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/misconfiguration.md"
+      ]
+    },
+    {
+      "title": "CWE",
+      "url": "https://cwe.mitre.org/",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/index.md"
+      ]
+    },
+    {
+      "title": "CVE",
+      "url": "https://www.cve.org/",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/index.md"
+      ]
+    },
+    {
+      "title": "FIRST: CVSS",
+      "url": "https://www.first.org/cvss/",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/index.md"
+      ]
+    }
+  ]
+}

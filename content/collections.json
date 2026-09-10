@@ -208,5 +208,80 @@
         "level": "가이드"
       }
     ]
+  },
+  {
+    "topic": "vulnerabilities",
+    "entries": [
+      {
+        "slug": "sql-injection",
+        "englishTitle": "SQL injection: separating data from queries",
+        "level": "기초"
+      },
+      {
+        "slug": "xss",
+        "englishTitle": "XSS: browser output contexts",
+        "level": "기초"
+      },
+      {
+        "slug": "csrf",
+        "englishTitle": "CSRF: session credentials versus user intent",
+        "level": "기초"
+      },
+      {
+        "slug": "access-control",
+        "englishTitle": "Broken access control: IDOR and BOLA",
+        "level": "기초"
+      },
+      {
+        "slug": "authentication-session",
+        "englishTitle": "Authentication and session lifecycle failures",
+        "level": "핵심"
+      },
+      {
+        "slug": "ssrf",
+        "englishTitle": "SSRF: constraining server-side requests",
+        "level": "핵심"
+      },
+      {
+        "slug": "file-handling",
+        "englishTitle": "File handling: path traversal and uploads",
+        "level": "핵심"
+      },
+      {
+        "slug": "command-injection",
+        "englishTitle": "OS command and argument injection",
+        "level": "핵심"
+      },
+      {
+        "slug": "deserialization",
+        "englishTitle": "Unsafe deserialization and object reconstruction",
+        "level": "응용"
+      },
+      {
+        "slug": "memory-safety",
+        "englishTitle": "Memory safety: bounds and object lifetime",
+        "level": "응용"
+      },
+      {
+        "slug": "race-conditions",
+        "englishTitle": "Race conditions, TOCTOU and business invariants",
+        "level": "응용"
+      },
+      {
+        "slug": "misconfiguration",
+        "englishTitle": "Misconfiguration and sensitive error information",
+        "level": "핵심"
+      },
+      {
+        "slug": "glossary",
+        "englishTitle": "Vulnerability glossary",
+        "level": "참고"
+      },
+      {
+        "slug": "index",
+        "englishTitle": "Vulnerability learning guide",
+        "level": "가이드"
+      }
+    ]
   }
 ]
