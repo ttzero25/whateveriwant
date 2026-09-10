@@ -33,9 +33,14 @@ test('English excerpts are bounded and strip arXiv metadata',()=>{
  assert.equal(excerpt('arXiv:2609.12345v1 Announce Type: new\nAbstract: We test models. More text.'),'We test models.');
  assert.ok(excerpt(Array(100).fill('word').join(' ')).split(/\s+/).length<=25);
 });
-test('all current rows have Korean summaries, changed publications do not inherit stale ones',async()=>{
+test('saved summaries load while new and changed publications use honest excerpt fallbacks',async()=>{
  const fs=await import('node:fs/promises');const data=JSON.parse(await fs.readFile('data/research.json'));data.conferences=JSON.parse(await fs.readFile('data/conferences.json'));
  await attachSummaries(data);
- for(const i of [...data.items,...data.conferences.flatMap(c=>c.items)]){assert.ok(i.tldr.ko,i.title);assert.ok(!i.tldr.en||i.tldr.en.split(/\s+/).length<=25,i.title);}
+ for(const i of [...data.items,...data.conferences.flatMap(c=>c.items)]){assert.equal(typeof i.tldr.ko,'string');assert.ok(!i.tldr.en||i.tldr.en.split(/\s+/).length<=25,i.title);}
+ const summaries=JSON.parse(await fs.readFile('data/research-summaries.json'));
+ const [url,saved]=Object.entries(summaries).find(([,s])=>s.source_date);
+ const known={url,title:saved.title,date:saved.source_date,excerpt:saved.en};
+ const fresh={url:'https://arxiv.org/abs/9999.00001',title:'A newly collected paper',excerpt:'An original description of new research.'};
+ await attachSummaries({items:[known,fresh]});assert.equal(known.tldr.ko,saved.ko);assert.equal(fresh.tldr.ko,'');assert.equal(fresh.tldr.en,fresh.excerpt);
  const changed={...data.items[0],excerpt:'A changed source description.',tldr:undefined};await attachSummaries({items:[changed]});assert.equal(changed.tldr.ko,'');assert.equal(changed.tldr.en,changed.excerpt);
 });
