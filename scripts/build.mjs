@@ -1,12 +1,25 @@
 import {attachSummaries} from './research-summaries.mjs';
 import fs from 'node:fs/promises';
+import {createHash} from 'node:crypto';
 import path from 'node:path';
 import MarkdownIt from 'markdown-it';
 import katex from 'katex';
 import {buildExcerpts} from './excerpt-build.mjs';
 const root=path.resolve(import.meta.dirname,'..'),output=path.join(root,'dist');
 await fs.mkdir(output,{recursive:true});
-for(const file of ['index.html','style.css','app.js','diagrams.js','theme.js','research.js','robotics.js','home-updates.js','research-tldr.js']) await fs.copyFile(path.join(root,'web',file),path.join(output,file));
+// Version the complete module graph together so cached modules cannot mix deployments.
+const webFiles=['index.html','style.css','app.js','diagrams.js','theme.js','research.js','robotics.js','home-updates.js','research-tldr.js'];
+const webContents=new Map(await Promise.all(webFiles.map(async file=>[file,await fs.readFile(path.join(root,'web',file),'utf8')])));
+const revision=createHash('sha256').update([...webContents.values()].join('\0')).digest('hex').slice(0,12);
+const assetNames=new Map(webFiles.filter(file=>file!=='index.html').map(file=>[file,file.replace(/(\.[^.]+)$/,`.${revision}$1`)]));
+for(const [file,original] of webContents){
+ let content=original;
+ for(const [name,versioned] of assetNames){
+  for(const quote of ["'",'"'])content=content.replaceAll(quote+'./'+name+quote,quote+'./'+versioned+quote);
+ }
+ await fs.writeFile(path.join(output,assetNames.get(file)||file),content);
+}
+
 await fs.mkdir(path.join(output,'assets'),{recursive:true});
 await fs.cp(path.join(root,'node_modules/katex/dist'),path.join(output,'assets/katex'),{recursive:true});
 const originals=JSON.parse(await fs.readFile(path.join(root,'content/en/originals.json'),'utf8'));

@@ -5,7 +5,8 @@ const browser=await chromium.launch({channel:'chrome',headless:true});
 try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
  page.on('pageerror',e=>errors.push(e.message));
- await page.goto(base+'#/robotics-security');await page.waitForSelector('.research-item');
+ await page.goto(base+'#/');await page.waitForSelector('#search');
+ await page.locator('.robotics-link').click();await page.waitForSelector('.research-item');
  assert.match(await page.locator('h1').innerText(),/ROS & Autonomous/);
  assert.equal(await page.locator('.robotics-link.active').count(),1);
  assert.equal(await page.locator('.research-source').count(),3);
@@ -22,7 +23,14 @@ try{
  await page.locator('[data-language=ko]').click();await page.waitForSelector('.research-item');
  await page.screenshot({path:'.preview/robotics-desktop.png',fullPage:true});
  await page.locator('#theme-toggle').click();
- for(const width of [390,320]){await page.setViewportSize({width,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));}
+ for(const width of [390,320]){
+  await page.setViewportSize({width,height:568});
+  await page.goto(base+'#/');await page.waitForSelector('#search');
+  await page.locator('#menu-toggle').click();await page.locator('.robotics-link').click();
+  await page.waitForSelector('.research-item');
+  assert.equal(await page.locator('#menu-toggle').getAttribute('aria-expanded'),'false');
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ }
  await page.screenshot({path:'.preview/robotics-mobile.png',fullPage:true});
  await page.goto(base+'#/research');await page.waitForSelector('.research-item');
  assert.match(await page.locator('h1').innerText(),/^AI Research/);
