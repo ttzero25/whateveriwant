@@ -11,7 +11,6 @@
   const label=english?(dark?'Switch to light mode':'Switch to dark mode'):(dark?'라이트 모드로 전환':'다크 모드로 전환');
   button.setAttribute('aria-label',label);button.title=label;
   button.querySelector('[data-theme-icon]').textContent=dark?'☾':'☀';
-  button.querySelector('[data-theme-label]').textContent=english?(dark?'Dark':'Light'):(dark?'다크':'라이트');
  };
  function apply(){
   const theme=preference||(system.matches?'dark':'light');
