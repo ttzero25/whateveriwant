@@ -11,3 +11,39 @@
 #ai-subnav{display:grid;margin:0 0 12px 24px;border-left:1px solid #e1e9e3;padding-left:9px;gap:2px}#ai-subnav a{display:flex;justify-content:space-between;gap:5px;padding:8px;font-size:10px;color:#7d8b81;border-radius:5px}#ai-subnav a.selected{background:#eaf2ec;color:#426b51}#ai-subnav small{font-size:9px;color:#95a69a}.track-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}.track-tabs a{display:flex;align-items:center;gap:9px;border:1px solid #e1e8e3;border-radius:7px;background:white;padding:10px 13px;font-size:11px;color:#75867a}.track-tabs a.active{background:#e8f1ea;border-color:#bfD3c4;color:#416a50;font-weight:600}.track-tabs small{font-size:9px;color:#819d88}.sidebar .brand{flex-shrink:0}.sidebar-bottom{flex-shrink:0}@media(max-width:760px){.track-tabs{display:grid;grid-template-columns:1fr 1fr}.track-tabs a{justify-content:space-between;font-size:10px}}
 
 .track-tabs[hidden]{display:none}
+
+/* Theme selection is applied in the head, before the first paint. */
+#theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:34px;padding:6px 10px;margin-right:18px;border:1px solid var(--line);border-radius:7px;background:var(--white);color:var(--accent);font-size:10px;flex-shrink:0}
+#theme-toggle:hover{background:var(--green-bg)}
+[data-theme-icon]{font-size:17px;line-height:1}
+:root[data-theme=dark]{--bg:#151b21;--white:#1d252d;--ink:#e5ecef;--muted:#a1afbc;--line:#34414b;--accent:#abd1b7;--green-bg:#293e34;color-scheme:dark}
+[data-theme=dark] .sidebar,[data-theme=dark] .topic,[data-theme=dark] .doc-card,[data-theme=dark] .empty,[data-theme=dark] .article table,[data-theme=dark] .article .katex-display,[data-theme=dark] .concept-diagram{background:var(--white)}
+[data-theme=dark] .topbar{background:#1b232beb}
+[data-theme=dark] .search-wrap input{background:var(--white);border-color:var(--line)}
+[data-theme=dark] .breadcrumb b,[data-theme=dark] .article{color:#bcc9d3}
+[data-theme=dark] .side-label,[data-theme=dark] #quick-links a,[data-theme=dark] .github-link,[data-theme=dark] .intro-date,[data-theme=dark] .section-head span,[data-theme=dark] .chip,[data-theme=dark] .result-count,[data-theme=dark] .doc-card p,[data-theme=dark] .doc-meta,[data-theme=dark] .article-meta,[data-theme=dark] .toc,[data-theme=dark] footer span,[data-theme=dark] .article-next small,[data-theme=dark] .search-wrap input::placeholder,[data-theme=dark] .breadcrumb{color:var(--muted)}
+[data-theme=dark] .nav-link.active,[data-theme=dark] .article a,[data-theme=dark] .article-next,[data-theme=dark] .toc .source-link,[data-theme=dark] .back-link,[data-theme=dark] .eyebrow,[data-theme=dark] .topic.available small,[data-theme=dark] .doc-meta span:last-child,[data-theme=dark] #menu-toggle{color:var(--accent)}
+[data-theme=dark] .nav-count,[data-theme=dark] .level,[data-theme=dark] .available .topic-icon{background:var(--green-bg);color:#b0cbb8}
+[data-theme=dark] #quick-links a:hover,[data-theme=dark] #quick-links a.selected,[data-theme=dark] .chip.active,[data-theme=dark] #ai-subnav a.selected,[data-theme=dark] .track-tabs a.active,[data-theme=dark] .language-switch button.active{background:var(--green-bg);color:#c3e5ce;border-color:#526d5c}
+[data-theme=dark] .topic.available,[data-theme=dark] .concept-diagram,[data-theme=dark] .language-switch,[data-theme=dark] .search-wrap kbd,[data-theme=dark] #ai-subnav,[data-theme=dark] .track-tabs a,[data-theme=dark] .attribution{border-color:var(--line)}
+[data-theme=dark] .doc-card:hover{border-color:#759b81;box-shadow:0 7px 20px #0003}
+[data-theme=dark] .doc-meta{border-color:var(--line)}
+[data-theme=dark] .doc-top,[data-theme=dark] .toc strong,[data-theme=dark] footer,[data-theme=dark] .concept-diagram figcaption,[data-theme=dark] .attribution,[data-theme=dark] #ai-subnav a,[data-theme=dark] #ai-subnav small,[data-theme=dark] .track-tabs small,[data-theme=dark] .language-switch button{color:#aabeb0}
+[data-theme=dark] .language-switch,[data-theme=dark] .track-tabs a{background:var(--white);color:#b7c9bd}
+[data-theme=dark] .article blockquote{background:#24382e;border-color:#415c4b;color:#c1ddca}
+[data-theme=dark] .article th{background:#293c32;color:#d0e3d6}
+[data-theme=dark] .article code,[data-theme=dark] .article pre{background:#27333d;color:#c9dae4}
+[data-theme=dark] .article .source-quote,[data-theme=dark] .source-notice{background:#23322b;color:#bcd4c3;border-color:#71927b}
+[data-theme=dark] .diagram-heading{color:#c1ddca}
+[data-theme=dark] .concept-diagram figcaption span{color:#a1b2a6}
+[data-theme=dark] .avatar{background:#3b372d;color:#d7c5a4}
+[data-theme=dark] .search-icon,[data-theme=dark] .search-wrap kbd{color:#a6b9ad}
+/* Recolor inline diagrams; downloaded SVGs keep their standalone light palette. */
+[data-theme=dark] .diagram-scroll svg text{fill:#c6dfce}
+[data-theme=dark] .diagram-scroll svg .diagram-sub{fill:#b2c4b8}
+[data-theme=dark] .diagram-scroll svg rect{fill:#2c4035;stroke:#597460}
+[data-theme=dark] .diagram-scroll svg rect[fill="#f5eee3"]{fill:#49402c;stroke:#89784e}
+[data-theme=dark] .diagram-scroll svg rect[fill="#52745e"]{fill:#426b50}
+[data-theme=dark] .diagram-scroll svg circle{fill:#375443;stroke:#8fae99}
+[data-theme=dark] .diagram-scroll svg text[fill="white"]{fill:#fff}
+@media(max-width:760px){#theme-toggle{width:34px;min-height:34px;padding:5px;margin-right:0}#theme-toggle [data-theme-label]{display:none}.language-switch{margin-right:0}.topbar{gap:7px}}
