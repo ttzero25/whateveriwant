@@ -1,0 +1,348 @@
+[
+  {
+    "id": "ieee-sp",
+    "name": "IEEE S&P",
+    "group": "security",
+    "year": 2026,
+    "url": "https://sp2026.ieee-security.org/accepted-papers.html",
+    "matched_count": 42,
+    "items": [
+      {
+        "id": "ieee-sp:2026:049e90b0ea13230a",
+        "title": "Agentic Concolic Execution",
+        "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-2",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "ieee-sp:2026:708058fc93edc7f5",
+        "title": "Are LLM-Enhanced Graph Neural Networks Robust against Poisoning Attacks?",
+        "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-219",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "ieee-sp:2026:530d58107169abea",
+        "title": "AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption",
+        "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-203",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "ieee-sp:2026:65583cb921ea85fd",
+        "title": "Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs",
+        "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-167",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "ieee-sp:2026:7fb811d32eb72dd2",
+        "title": "Can Foundation LLMs Accurately Estimate Password Strength and Provide Appropriate Password Feedback?",
+        "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-183",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "ieee-sp:2026:50815b43d0993a7c",
+        "title": "Cottontail: Large Language Model-Driven Concolic Execution for Highly Structured Test Input Generation",
+        "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-112",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "ieee-sp:2026:96e4bdce2627ba01",
+        "title": "deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses",
+        "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-61",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "ieee-sp:2026:9716862c40dc72c9",
+        "title": "Detecting Privilege Escalation in Polyglot Microservices via Agentic Program Analysis",
+        "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-122",
+        "basis": "title",
+        "excerpt": ""
+      }
+    ],
+    "status": "ok",
+    "attempted_at": "2026-09-10T11:34:53.014Z",
+    "last_success": "2026-09-10T11:34:53.014Z"
+  },
+  {
+    "id": "usenix-security",
+    "name": "USENIX Security",
+    "group": "security",
+    "year": 2026,
+    "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+    "matched_count": 55,
+    "items": [
+      {
+        "id": "usenix-security:2026:de5f382d9788aa08",
+        "title": "A Distortion-minimization Watermarking Framework for Large Language Models: Larger Capacity, Stronger Robustness and Higher Quality",
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhai",
+        "basis": "abstract",
+        "excerpt": "Large language model (LLM) watermarking provides verifiable source identification for generated text, and its practical deployment requires large watermark capacity, strong robustness against attacks, and…"
+      },
+      {
+        "id": "usenix-security:2026:e25d59f2b889121a",
+        "title": "A Large-Scale Study of Personalized Phishing using Large Language Models",
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/czybik",
+        "basis": "abstract",
+        "excerpt": "Large Language Models (LLMs) can generate fluent and persuasive text, making them valuable tools for communication."
+      },
+      {
+        "id": "usenix-security:2026:9bde3f9b5f88f492",
+        "title": "Assessing LLM Response Quality in the Context of Technology-Facilitated Abuse",
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/prakash",
+        "basis": "abstract",
+        "excerpt": "Technology-facilitated abuse (TFA) is a pervasive form of intimate partner violence (IPV) that leverages digital tools to control, surveil, or harm survivors."
+      },
+      {
+        "id": "usenix-security:2026:b3dcb9916e963039",
+        "title": "AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations",
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/he-yu",
+        "basis": "abstract",
+        "excerpt": "LLM agents are highly vulnerable to Indirect Prompt Injection (IPI), where adversaries embed malicious directives in untrusted tool outputs to hijack execution."
+      },
+      {
+        "id": "usenix-security:2026:61ea4841b8478cc7",
+        "title": "Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents",
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/luo",
+        "basis": "abstract",
+        "excerpt": "LLM-based agents have recently attracted significant attention."
+      },
+      {
+        "id": "usenix-security:2026:cb7b9af155224509",
+        "title": "BenchChecker: Assessing the Credibility of Bug-Fixing Benchmarks for LLMs",
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wu-di",
+        "basis": "abstract",
+        "excerpt": "While Large Language Models (LLMs) show promise for Automatic Program Repair (APR), existing benchmarks suffer from data contamination, in which test samples appear in training…"
+      },
+      {
+        "id": "usenix-security:2026:16be2459a717ffc4",
+        "title": "Certification of Machine Learning Models via Directional Sharpness",
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/tan",
+        "basis": "abstract",
+        "excerpt": "In machine learning, model certification has been identified as an important method for gaining assurance about a model's trustworthiness and quality."
+      },
+      {
+        "id": "usenix-security:2026:dbdea5d4e96541a5",
+        "title": "COGNITION: From Evaluation to Defense against Multimodal LLM CAPTCHA Solvers",
+        "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wang-junyu",
+        "basis": "abstract",
+        "excerpt": "This paper studies how multimodal large language models (MLLMs) undermine the security guarantees of visual CAPTCHA."
+      }
+    ],
+    "status": "ok",
+    "attempted_at": "2026-09-10T11:34:53.014Z",
+    "last_success": "2026-09-10T11:34:53.014Z"
+  },
+  {
+    "id": "acm-ccs",
+    "name": "ACM CCS",
+    "group": "security",
+    "year": 2026,
+    "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+    "matched_count": 20,
+    "items": [
+      {
+        "id": "acm-ccs:2026:097c038738c404ff",
+        "title": "Auditing Data Provenance in LLM Fine-tuning via Intrinsic Distributional Fingerprints",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "acm-ccs:2026:a35fefe40158901d",
+        "title": "BACAgent: LLM-Powered Detection of Broken-Access-Control Vulnerabilities in Web Applications",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "acm-ccs:2026:29cc736c6a35dfcc",
+        "title": "Can Small Language Models Reliably Resist Jailbreak Attacks? A Comprehensive Evaluation",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "acm-ccs:2026:75f76917fcffae47",
+        "title": "CVE-Genie: An LLM-Based Multi-Agent Framework for Reproducing CVEs",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "acm-ccs:2026:0795006c8c07f9dc",
+        "title": "DeepProve: Verifiable End-to-End Large Language Model Inference",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "acm-ccs:2026:646389b93bbec37e",
+        "title": "DRIP: Defending Prompt Injection via Token-wise Representation Editing and Residual Fusion",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "acm-ccs:2026:b59d93d08162b528",
+        "title": "From Documentation to Zero-day Vulnerabilities: LLM-Driven Fuzzing of JavaScript Engines in PDF Readers",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "acm-ccs:2026:7f90f59a860ba8ff",
+        "title": "MMAligner: Safeguarding Multimodal Large Language Models through Representation Calibration",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      }
+    ],
+    "status": "ok",
+    "attempted_at": "2026-09-10T11:34:53.014Z",
+    "last_success": "2026-09-10T11:34:53.014Z"
+  },
+  {
+    "id": "ndss",
+    "name": "NDSS",
+    "group": "security",
+    "year": 2026,
+    "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+    "matched_count": 46,
+    "items": [
+      {
+        "id": "ndss:2026:f519116af5336b21",
+        "title": "A Causal Perspective for Enhancing Jailbreak Attack and Defense",
+        "url": "https://www.ndss-symposium.org/ndss-paper/a-causal-perspective-for-enhancing-jailbreak-attack-and-defense/",
+        "basis": "abstract",
+        "excerpt": "Uncovering the mechanisms behind \"jailbreaks\" in large language models (LLMs) is crucial for enhancing their safety and reliability, yet these mechanisms remain poorly understood."
+      },
+      {
+        "id": "ndss:2026:a95c113fbc2ef057",
+        "title": "A Unified Defense Framework Against Membership Inference in Federated Learning via Distillation and Contribution-Aware Aggregation",
+        "url": "https://www.ndss-symposium.org/ndss-paper/a-unified-defense-framework-against-membership-inference-in-federated-learning-via-distillation-and-contribution-aware-aggregation/",
+        "basis": "abstract",
+        "excerpt": "Federated learning enables decentralized model training without exposing raw data, making it a promising paradigm for privacy-preserving machine learning."
+      },
+      {
+        "id": "ndss:2026:4501fbaf5152d061",
+        "title": "ACE: A Security Architecture for LLM-Integrated App Systems",
+        "url": "https://www.ndss-symposium.org/ndss-paper/ace-a-security-architecture-for-llm-integrated-app-systems/",
+        "basis": "abstract",
+        "excerpt": "LLM-integrated app systems extend the utility of Large Language Models (LLMs) with third-party apps that are invoked by a system LLM using interleaved planning and…"
+      },
+      {
+        "id": "ndss:2026:5c3d5947a9f83292",
+        "title": "Achieving Zen: Combining Mathematical and Programmatic Deep Learning Model Representations for Attribution and Reuse",
+        "url": "https://www.ndss-symposium.org/ndss-paper/achieving-zen-combining-mathematical-and-programmatic-deep-learning-model-representations-for-attribution-and-reuse/",
+        "basis": "abstract",
+        "excerpt": "Prior work has developed techniques capable of extracting deep learning (DL) models in universal formats from system memory or program binaries for security analysis."
+      },
+      {
+        "id": "ndss:2026:2486d97a38e1ce10",
+        "title": "An LLM-Driven Fuzzing Framework for Detecting Logic Instruction Bugs in PLCs",
+        "url": "https://www.ndss-symposium.org/ndss-paper/an-llm-driven-fuzzing-framework-for-detecting-logic-instruction-bugs-in-plcs/",
+        "basis": "abstract",
+        "excerpt": "Programmable Logic Controllers (PLCs) automate industrial operations using vendor-supplied logic instruction libraries compiled into device firmware."
+      },
+      {
+        "id": "ndss:2026:f5a3a83edc32c6b3",
+        "title": "Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs",
+        "url": "https://www.ndss-symposium.org/ndss-paper/attention-is-all-you-need-to-defend-against-indirect-prompt-injection-attacks-in-llms/",
+        "basis": "abstract",
+        "excerpt": "Large Language Models (LLMs) have been integrated into many applications (e.g., web agents) to perform more sophisticated tasks."
+      },
+      {
+        "id": "ndss:2026:494f67c86dfffcb4",
+        "title": "Automated Code Annotation with LLMs for Establishing TEE Boundaries",
+        "url": "https://www.ndss-symposium.org/ndss-paper/automated-code-annotation-with-llms-for-establishing-tee-boundaries/",
+        "basis": "abstract",
+        "excerpt": "Modern systems increasingly rely on Trusted Execution Environments (TEEs), such as Intel SGX and ARM TrustZone, to securely isolate sensitive code and reduce the Trusted…"
+      },
+      {
+        "id": "ndss:2026:5cc64ac384614566",
+        "title": "Beyond Jailbreak: Unveiling Risks in LLM Applications Arising from Blurred Capability Boundaries",
+        "url": "https://www.ndss-symposium.org/ndss-paper/beyond-jailbreak-unveiling-risks-in-llm-applications-arising-from-blurred-capability-boundaries/",
+        "basis": "abstract",
+        "excerpt": "LLM applications (i.e., LLM apps) leverage the powerful capabilities of LLMs to provide users with customized services, revolutionizing traditional application development."
+      }
+    ],
+    "status": "ok",
+    "attempted_at": "2026-09-10T11:34:53.014Z",
+    "last_success": "2026-09-10T11:34:53.014Z"
+  },
+  {
+    "id": "icml",
+    "name": "ICML",
+    "group": "ml",
+    "year": 2026,
+    "url": "https://icml.cc/virtual/2026/papers.html",
+    "feed": "https://icml.cc/static/virtual/data/icml-2026-orals-posters.json",
+    "matched_count": 1534,
+    "items": [
+      {
+        "id": "icml:2026:96ef676bf5463818",
+        "title": "“very likely” Means “uncertain”? How LLMs Diverge from Humans in Linguistic Uncertainty Quantification",
+        "url": "https://icml.cc/virtual/2026/poster/62029",
+        "basis": "abstract",
+        "excerpt": "Humans express uncertainty verbally via markers (e.g., \"possible\", \"likely\"), yet most LLM uncertainty quantification (UQ) relies on costing likelihood- or consistency-based signals."
+      },
+      {
+        "id": "icml:2026:ceca748742ef84c1",
+        "title": "``Someone Hid It!'': Query-Agnostic Black-Box Attacks on LLM-Based Retrieval",
+        "url": "https://icml.cc/virtual/2026/poster/62909",
+        "basis": "abstract",
+        "excerpt": "Large language models (LLMs) have been serving as effective backbones for retrieval systems, including Retrieval-Augmentation-Generation (RAG), Dense Information Retriever (IR), and Agent Memory Retrieval."
+      },
+      {
+        "id": "icml:2026:e539c55037d861c8",
+        "title": "$\\texttt{FlashSchNet}$: Fast and Accurate Coarse-Grained Neural Network Molecular Dynamics",
+        "url": "https://icml.cc/virtual/2026/poster/62916",
+        "basis": "abstract",
+        "excerpt": "Graph neural network (GNN) potentials such as SchNet improve the accuracy and transferability of molecular dynamics (MD) simulation by learning many-body interactions, but remain slower…"
+      },
+      {
+        "id": "icml:2026:bf189e39e64c26bc",
+        "title": "$\\texttt{Multi}^2$: Hierarchical Multi-Agent Decision-Making with LLM-Based Agents in Interactive Environments",
+        "url": "https://icml.cc/virtual/2026/poster/65074",
+        "basis": "abstract",
+        "excerpt": "A central goal of large language model (LLM) research is to build agentic systems that can plan, act, and adapt through sustained interaction with dynamic…"
+      },
+      {
+        "id": "icml:2026:b189a9a12c5f063e",
+        "title": "$\\texttt{PRISM}$:A 3D Probabilistic Neural Representation for Interpretable Shape Modeling",
+        "url": "https://icml.cc/virtual/2026/poster/63964",
+        "basis": "abstract",
+        "excerpt": "Understanding how anatomical shapes evolve in response to developmental covariates—and quantifying their spatially varying uncertainties—is critical in healthcare research."
+      },
+      {
+        "id": "icml:2026:dde515512f6afda2",
+        "title": "$A_2$DEPT: Large Language Model–Driven Automated Algorithm Design via Evolutionary Program Trees",
+        "url": "https://icml.cc/virtual/2026/poster/64869",
+        "basis": "abstract",
+        "excerpt": "Designing heuristics for combinatorial optimization problems (COPs) is a fundamental yet challenging task that traditionally requires extensive domain expertise."
+      },
+      {
+        "id": "icml:2026:6b69bad889430d01",
+        "title": "$f$-Divergence Self-Play for Tabular Anomaly Detection via Large Language Models",
+        "url": "https://icml.cc/virtual/2026/poster/63240",
+        "basis": "abstract",
+        "excerpt": "Anomaly detection in tabular data poses significant challenges due to heterogeneous feature types—mixing numerical, categorical, and textual attributes, which complicate learning meaningful representations of normality."
+      },
+      {
+        "id": "icml:2026:a4ee575b2dcc713f",
+        "title": "$f$-Trajectory Balance: A Loss Family for Tuning GFlowNets, Generative Models, and LLMs with Off- and On-Policy Data",
+        "url": "https://icml.cc/virtual/2026/poster/61247",
+        "basis": "abstract",
+        "excerpt": "In GFlowNets and variational inference, it has been shown that the mean square error between target and model log probabilities is an effective, low variance,…"
+      }
+    ],
+    "status": "ok",
+    "attempted_at": "2026-09-10T11:34:53.014Z",
+    "last_success": "2026-09-10T11:34:53.014Z"
+  }
+]

@@ -1,3 +1,4 @@
+import {excerpt} from './research-summaries.mjs';
 import {load} from 'cheerio';
 export const sources=[
  {id:'openai',name:'OpenAI',url:'https://openai.com/news/rss.xml',home:'https://openai.com/news/'},
@@ -17,7 +18,7 @@ export function parseFeed(source,text,feedURL=sources.find(s=>s.id===source).url
   if(!title||!link||!Number.isFinite(time)||time>Date.now()+86400000)return;
   const tags=classify(title+' '+categories);
   if(source==='arxiv'&&(/\bcs\.CR\b/.test(categories)||/\b(prompt injection|jailbreaks?|data poisoning|backdoors?|membership inference|model extraction|cybersecurity|malware|phishing)\b/i.test(hint))&&!tags.includes('security'))tags.unshift('security');
-  items.push({source,title:clean(title),url:link,published_at:new Date(time).toISOString(),category:clean(categories),channel:source==='arxiv'?'papers':source==='anthropic'?(feedURL.includes('/news')?'news':'research'):(/research/i.test(categories)?'research':'news'),date:new Date(time).toISOString().slice(0,10),date_kind:source==='arxiv'?'announced':'published',kind:source==='arxiv'?'preprint':'official',tags:tags.length?tags:['research']});
+  items.push({source,title:clean(title),url:link,published_at:new Date(time).toISOString(),category:clean(categories),channel:source==='arxiv'?'papers':source==='anthropic'?(feedURL.includes('/news')?'news':'research'):(/research/i.test(categories)?'research':'news'),date:new Date(time).toISOString().slice(0,10),date_kind:source==='arxiv'?'announced':'published',kind:source==='arxiv'?'preprint':'official',tags:tags.length?tags:['research'],excerpt:excerpt(hint)});
  }
  if(source==='anthropic'){
   $('a').has('time').each((_,a)=>{
@@ -31,9 +32,9 @@ export function parseFeed(source,text,feedURL=sources.find(s=>s.id===source).url
   $('item').each((_,item)=>{
    const el=$(item),title=el.find('title').first().text(),categories=el.find('category').map((_,e)=>$(e).text()).get().join(' ');
    const hint=el.find('description').text();
-   // Abstracts are used only for tagging, never stored or rendered.
+   // Keep only a short original excerpt; never persist the full abstract.
    const before=items.length;
-   add(title,el.find('link').text(),el.find('pubDate').text(),categories,source==='arxiv'?hint:'');
+   add(title,el.find('link').text(),el.find('pubDate').text(),categories,hint);
    if(source==='arxiv'&&items.length>before)items.at(-1).announcement=el.find('arxiv\\:announce_type').text()||'unspecified';
   });
   if($('item').length&&!items.length)throw Error('No usable dated entries');

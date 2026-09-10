@@ -22,7 +22,11 @@ npm run preview
 - `content/`: 개념 문서
 - `web/`: 화면과 스타일
 - `sources/`: 참고 출처
-- `data/research.json`: 수집한 AI 소식과 연구
+- `data/research.json`: OpenAI · Anthropic · arXiv 소식과 짧은 원문 발췌
+- `data/conferences.json`: IEEE S&P · USENIX Security · ACM CCS · NDSS · ICML 논문
+- `data/research-summaries.json`: 출처를 확인해 작성한 한국어 TL;DR
 - `npm run update:research`: 동향 수동 갱신 후 다시 빌드
 
 문서는 AI 작성 해설과 공식 자료의 일부 원문 발췌를 포함합니다. 출처와 이용 조건은 각 문서에 표시합니다.
+
+학회는 2026 공식 목록에서 AI 관련 제목을 알파벳순 8건씩 선별합니다. 전체 논문은 각 학회의 공식 목록 링크에서 볼 수 있습니다. 새 글의 한국어 요약은 확인 후 추가하며, 아직 없으면 짧은 영어 원문 발췌를 표시합니다. 학회 연도·수집 주소는 `scripts/conference-feeds.mjs`에서 관리합니다.

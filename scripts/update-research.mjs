@@ -1,3 +1,5 @@
+import {load} from 'cheerio';
+import {excerpt} from './research-summaries.mjs';
 import fs from 'node:fs/promises';
 import {sources,parseFeed} from './research-feeds.mjs';
 const filename=new URL('../data/research.json',import.meta.url);
@@ -19,6 +21,18 @@ for(const [i,result] of results.entries()){
  const source=sources[i],previous=old.sources.find(s=>s.id===source.id);
  const retained=old.items.filter(item=>item.source===source.id);
  const fresh=result.status==='fulfilled'?result.value.items:[];
+ const needs=[];
+ for(const item of fresh){
+  const cached=retained.find(old=>old.url===item.url&&old.title===item.title);
+  if(!item.excerpt&&cached?.excerpt)item.excerpt=cached.excerpt;
+  if(source.id==='anthropic'&&!item.excerpt)needs.push(item);
+ }
+ await Promise.all(Array.from({length:3},async()=>{while(needs.length){const item=needs.shift();try{
+  const r=await fetch(item.url,{signal:AbortSignal.timeout(20000)});if(!r.ok)continue;
+  const $=load(await r.text());let description=$('meta[property="og:description"]').attr('content')||$('meta[name="description"]').attr('content')||'';
+  if(!description||description.startsWith('Anthropic is an AI safety'))description=$('main p').map((_,e)=>$(e).text().trim()).get().find(s=>s.length>100)||'';
+  item.excerpt=excerpt(description);
+ }catch{ /* A missing excerpt does not discard valid publication metadata. */ }}}));
  const merged=[...new Map([...retained,...fresh].map(item=>[item.url,item])).values()];
  // Retain previous announcements across daily RSS rollovers and outages.
  merged.sort((a,b)=>(b.published_at||b.date).localeCompare(a.published_at||a.date)||Number(b.tags.includes('security'))-Number(a.tags.includes('security'))||a.title.localeCompare(b.title));

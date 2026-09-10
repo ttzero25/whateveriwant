@@ -1,0 +1,2146 @@
+{
+  "https://arxiv.org/abs/2608.24191": {
+    "title": "'Ghaib in Translation' aka Unseen Harm: Measuring Cross-Script Safety Inconsistency with 'Missed-in-Urdu' Scores in LLM Hate Speech Detection",
+    "ko": "우르두어와 영어 번역문에서 LLM의 혐오 표현 판정이 달라지는 현상을 측정해, 언어·문자 체계별 안전성 평가의 공백을 살핀다.",
+    "en": "Urdu, the world's tenth most spoken language with 246 million speakers, remains almost entirely absent from mainstream LLM safety evaluation and nine years of WOAH…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2602.06759": {
+    "title": "\"Tab, Tab, Bug\": Security Pitfalls of Next Edit Suggestions in AI-Integrated IDEs",
+    "ko": "AI IDE의 다음 수정 제안 기능이 코드와 작업 문맥을 수집하는 과정에서 생길 수 있는 보안 위험을 분석한다.",
+    "en": "Modern AI-integrated IDEs are shifting from passive code completion to proactive Next Edit Suggestions (NES).",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09275": {
+    "title": "\"Transforming\" LHCb: self-supervised maps of heavy-flavour decays",
+    "ko": "자기지도 Transformer로 입자 충돌 실험의 붕괴 패턴을 학습해, 관측되지 않는 입자가 포함된 현상까지 분석하려는 연구다.",
+    "en": "Decays of beauty and charm hadrons provide sensitive probes of physics beyond the standard model, including decays with invisible particles, in which part of the…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2605.00497": {
+    "title": "\"What Are You Really Trying to Do?\": Co-Creating Life Goals from Everyday Computer Use",
+    "ko": "일상적인 컴퓨터 사용 기록에서 장기적인 삶의 목표를 추론하고, 사용자가 직접 수정하며 목표를 함께 구체화하는 시스템이다.",
+    "en": "Recent advances in user modeling make it feasible to conduct open-ended inference over a person's everyday computer use.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09457": {
+    "title": "A Block Tensor Train Burer-Monteiro Framework for Low-Rank Quantum State Tomography",
+    "ko": "양자 상태를 작은 텐서들의 조합으로 표현해, 큐비트가 늘어날 때 급증하는 상태 추정의 계산 비용을 줄이려는 연구다.",
+    "en": "Quantum state tomography is a fundamental technique for estimating the state of a quantum system from measured data and plays a crucial role in evaluating…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.01315": {
+    "title": "A Composable Evaluation System for Reproducible Omni-Modal Foundation Model Evaluation",
+    "ko": "텍스트·이미지·영상·음성 모델의 평가 도구를 하나로 연결하고, 설정과 결과를 기록해 평가를 재현하기 쉽게 만든다.",
+    "en": "Building an omni-modal foundation model means evaluating it across text, image, video, and audio.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2603.15038": {
+    "title": "A convolutional autoencoder and neural ODE surrogate modeling framework applied to transient counterflow flames",
+    "ko": "화염 시뮬레이션을 작은 잠재 공간으로 압축하고 신경 미분방정식으로 시간 변화를 예측하는 대리 모델을 제안한다.",
+    "en": "A novel convolutional autoencoder and neural ODE (CAE-NODE) framework is proposed for a reduced-order model (ROM) applied to transient 2D counterflow flames, as an extension…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10299": {
+    "title": "A Dominant Diffuse Phase in the Sparse Autoencoder Phase Diagram",
+    "ko": "희소 오토인코더가 입력을 잘 복원해도 실제 의미 특징을 되찾는 것은 아니라는 점을 통제된 합성 실험으로 보여준다.",
+    "en": "Sparse autoencoders (SAEs) are increasingly used to recover interpretable features from neural-network activations, yet systematic feature co-occurrence can cause distinct features to be absorbed or…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2109.02355": {
+    "title": "A Farewell to the Bias-Variance Tradeoff? An Overview of the Theory of Overparameterized Machine Learning",
+    "ko": "매개변수가 데이터보다 많은 모델이 과적합을 넘어 좋은 일반화를 보이는 이유와 이중 하강 이론을 정리한다.",
+    "en": "The last decade of progress in machine learning (ML), especially the deep learning era, has raised a number of scientific questions that challenge the longstanding…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09589": {
+    "title": "A Function-Space Approach to the Statistical Mechanics of Learning Dynamics",
+    "ko": "신경망의 개별 가중치 대신 함수 공간에서 학습을 바라보며, 학습 동역학을 통계역학으로 설명하는 틀을 제안한다.",
+    "en": "Deep neural networks exhibit regular macroscopic behavior despite highly nonlinear dynamics in vast parameter spaces.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2608.14673": {
+    "title": "A Human Audit of OpenAIs AI-Generated Mathematical Proofs",
+    "ko": "OpenAI가 공개한 AI 생성 수학 증명의 검토 기록을 점검한다. 확인된 오류와 검토가 덜 끝난 의존 관계를 구분한다.",
+    "en": "We assess 18 chapter-specific reviews of the ten mathematical results announced by OpenAI on 1 August 2026, alongside review standards, Lean formalizations, subsequent research, and…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2505.23215": {
+    "title": "A Jump-Diffusion Framework for Irregular Time Series Generation",
+    "ko": "불규칙한 간격으로 수집된 시계열에서 연속적인 변화와 갑작스러운 점프를 함께 학습하는 생성 모델을 제안한다.",
+    "en": "We propose a framework for generative modeling of continuous-time processes from irregularly and asynchronously recorded data.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09910": {
+    "title": "A Kernel-Based Modular Discriminant Analysis Framework for Small-Sample Learning",
+    "ko": "라벨이 적고 차원이 높은 데이터에서 커널 기반 판별 분석의 구성 요소들이 분류 성능에 어떻게 기여하는지 비교한다.",
+    "en": "The small-sample-size (SSS) problem remains a fundamental challenge in machine learning when labeled data are scarce due to cost, accessibility, or ethical constraints.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10357": {
+    "title": "A Later Test Set Is Not a New Domain: Pretraining Familiarity Survives a Contamination-Free Hold-Out",
+    "ko": "모델 출시 이후의 시계열로 평가해도 사전학습 때 익숙했던 분야의 이점은 남을 수 있어, 시간 분리만으로 새 분야 일반화를 판단하기 어렵다는 연구다.",
+    "en": "Time-series foundation models are evaluated almost exclusively on public archives that predate them, so a strong score cannot be separated from having seen the test…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10529": {
+    "title": "A positive resolution of the gap-entropy conjecture",
+    "ko": "가우시안 다중 슬롯머신 문제에서 최적 선택지를 찾는 데 필요한 표본 수와 간격 엔트로피 사이의 관계를 증명했다고 보고한다.",
+    "en": "We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09796": {
+    "title": "A practical DIRECT-type algorithm for medium-scale black-box global optimization",
+    "ko": "탐색 공간을 적응적으로 나누고 유망한 영역을 집중 탐색해, 중간 규모 블랙박스 최적화의 수렴을 개선하는 알고리즘이다.",
+    "en": "The DIRECT algorithm is a deterministic global optimization method known for its versatility and balanced exploration-exploitation strategy.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2606.11667": {
+    "title": "A Robust Framework for Sybil Attack Detection in Vehicular Ad Hoc Networks",
+    "ko": "차량 통신망에서 가짜 신원을 이용한 Sybil 공격을 탐지하면서, 정상 차량을 잘못 경고하는 비율과 계산 부담을 줄이려는 연구다.",
+    "en": "Sybil attacks create an illusion of traffic congestion by utilizing fake identities, which undermines the reliable and safe operation of vehicular ad hoc networks (VANETs).",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09986": {
+    "title": "A Sharp Barrier for Consistent Submodular Maximization: Any Improvement over $2-\\sqrt{2}$ Entails Exponential Queries or Linear Recourse",
+    "ko": "데이터가 순차적으로 늘어나는 부분모듈러 최적화에서, 해를 조금만 수정하며 얻을 수 있는 근사 품질의 이론적 한계를 분석한다.",
+    "en": "Consistent submodular maximization studies the tradeoff between solution quality and stability when elements arrive over time.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10084": {
+    "title": "A statistical approach to bias in zero-shot learning: the lens of handwriting recognition",
+    "ko": "필기 인식 모델이 학습 때 본 단어에 치우치는 현상을 통계적으로 보정해, 학습하지 않은 단어의 인식을 개선하려 한다.",
+    "en": "Generalized zero-shot learning (GZSL) has emerged as an important paradigm for visual recognition systems that must generalize to classes that were not observed during training.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09547": {
+    "title": "A Statistical Approach to Estimating Sample Size of Machine Learning Models",
+    "ko": "비선형 예측 모델을 국소적인 선형 모델로 근사해, 원하는 통계적 검정력을 얻는 데 필요한 데이터 수를 추정한다.",
+    "en": "Sample size determination for machine learning (ML) prediction models is challenging because conventional power analysis typically requires the predictor-outcome relationship and effect structure to be…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09211": {
+    "title": "A Subsampled Davis-Kahan Bound for Large-Scale Eigenspace Estimation",
+    "ko": "큰 행렬을 일부만 표본 추출해도 주요 고유공간을 어느 정도 정확하게 근사할 수 있는지 이론적 오차 범위를 제시한다.",
+    "en": "The Davis-Kahan theorem is a fundamental tool in spectral analysis, providing quantitative control over the distance between the eigenspaces of a symmetric matrix and its…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10099": {
+    "title": "A Systematic Evaluation of Molecule Generation Models for De Novo Drug Design: From Benchmarks to Practical Insights",
+    "ko": "신약 후보 분자를 만드는 생성 모델 82개를 표현 방식·모델 계열·평가 기준별로 정리해 실제 활용 관점에서 비교한다.",
+    "en": "Molecule generation has emerged as a powerful computational tool for de novo drug design, enabling the exploration of chemical space beyond the limits of conventional…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2408.02920": {
+    "title": "A Taxonomy of Architecture Options for Foundation Model-based Agents: Analysis and Decision Model",
+    "ko": "기반 모델을 사용하는 AI 에이전트의 구조와 운영 선택지를 분류하고, 설계·실행 단계의 의사결정을 돕는 틀을 제안한다.",
+    "en": "The rapid advancement of AI technology has led to widespread applications of agent systems across various domains.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10108": {
+    "title": "A Trust-Network-Based Federated Learning Framework for Multi-Center Aging Clock Prediction",
+    "ko": "병원별 데이터를 모으지 않고 기관 간 신뢰 관계를 따라 모델을 공유해, 생물학적 노화 예측과 이전 지식 보존을 함께 다룬다.",
+    "en": "Aging clocks quantify biological aging and help characterize individual health status.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09855": {
+    "title": "A Unifying Perspective on Probabilities as Model Predictions",
+    "ko": "확률을 예측 방법의 출력으로 해석하고, 예측의 보정 상태가 실제 의사결정의 유용성과 어떻게 연결되는지 설명한다.",
+    "en": "Although probabilistic statements are ubiquitous, foundational disagreements persist about their understanding, as exemplified by debates between Bayesians and frequentists; moreover, it is unclear when and…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2607.10747": {
+    "title": "A Verifier-Centric Conceptual Model for Digital Credential Ecosystems",
+    "ko": "디지털 자격증명을 검증하는 입장에서 서명·의미·유효성 검사를 분리해, 서로 다른 인증 생태계가 호환되지 않는 이유를 설명한다.",
+    "en": "Digital credential ecosystems increasingly combine multiple standards.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10248": {
+    "title": "A-JIT: Agentic Just-In-Time Software Construction",
+    "ko": "AI 에이전트가 사용 기록과 실행 상황을 관찰하며 필요한 기능과 코드를 계속 구성하는 소프트웨어 개발 방식을 제안한다.",
+    "en": "Traditional software delivery assumes a static paradigm: code is constructed prior to execution and deployed as a fixed artifact.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09257": {
+    "title": "Accountable and uncertainty-aware evaluation of sensor-based AI under distribution shift: devices, subjects, and nearly three years underground",
+    "ko": "센서 AI를 새 장치·새 사용자·미래 시점으로 나누어 평가하고, 평균 정확도뿐 아니라 불확실성까지 배포 판단에 반영한다.",
+    "en": "Sensor-based AI systems are rarely operated under the conditions under which they were trained: devices, personnel and recording epochs change, and each change degrades performance…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.07664": {
+    "title": "Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs",
+    "ko": "양자화된 LLM의 정확도가 비슷해도 예측 확률은 크게 달라질 수 있어, 출력 분포 간 거리로 정보 손실을 측정한다.",
+    "en": "Deployment of Large Language Models (LLMs) on memory-constrained edge devices relies heavily on aggressive post-training quantization.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10142": {
+    "title": "Active Adaptation, Not Static Defense: Temporal Dynamics of Preventative Steering in Adversarial Fine-Tuning",
+    "ko": "유해한 미세조정에 대한 방어가 고정된 가중치 변화보다 학습 중의 지속적 적응에 의존하는지 분석한다.",
+    "en": "Large language models remain fragile against malicious fine-tuning, motivating training-time defenses against harmful persona drift.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09511": {
+    "title": "Adaptive Distributed Physical-Layer Authentication and Attack Detection in 6G Non-Terrestrial Networks via Causal Meta-Learning",
+    "ko": "위성·공중 통신 환경의 빠른 변화에도 적응하도록, 여러 무선 신호 특징과 인과적 메타학습을 결합한 인증 방식을 제안한다.",
+    "en": "Physical-layer authentication (PLA) in non-terrestrial networks (NTNs) is challenged by severe Doppler shifts, long delays, and fast channel variations, which cause distribution shifts and degrade…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09226": {
+    "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+    "ko": "서로 영향을 주는 적응형 에이전트의 집단 행동을 확률파 모형으로 설명하고 주식 거래 자료에 적용한다. 뇌 작동에 대한 해석은 저자들의 가설이다.",
+    "en": "We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09945": {
+    "title": "Adversarial Training for Tabular Credit Scoring: A Multi-Attack Robustness Evaluation in P2P Lending",
+    "ko": "대출 신청자가 입력 정보를 바꾸는 상황에서 신용평가 모델과 적대적 학습 방어의 견고성을 여러 조건으로 비교한다.",
+    "en": "Machine learning-based credit scoring is increasingly central to Peer-to-Peer (P2P) lending, yet its resilience to adversarial manipulation, where applicants strategically alter self-reported inputs to secure…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10135": {
+    "title": "Agent-Based ML-LLM Fusion with Self-Optimizing Prompts for Plateau Weather Alerts",
+    "ko": "기상 예측 모델과 LLM을 결합해 고원 지역의 위험 날씨를 설명하고, 피드백으로 경보 문구를 개선하는 시스템이다.",
+    "en": "To address insufficient contextualization, weak generalization, and poor scenario adaptation in tourism meteorological services, we propose SmartWeatherAgent--a unified three-stage architecture integrating intent recognition, hazard prediction,…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09875": {
+    "title": "AgentAudit: An Open, Extensible Framework for Full-Lifecycle Trust Evaluation of AI Agents",
+    "ko": "에이전트의 계획·기억·도구 선택·실행 전 과정을 평가해, 실패가 어느 단계에서 발생했는지 추적하는 프레임워크다.",
+    "en": "Existing evaluation frameworks mostly assess only one part of AI agents, such as task completion (AgentBench) or security robustness (AgentDojo, ASB), rather than the complete…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09212": {
+    "title": "AgentHijack: Visual Patch Attacks on Multimodal Computer-Use Agents",
+    "ko": "화면 속 시각적 입력이 컴퓨터 사용 에이전트의 행동을 잘못 유도할 수 있는지 평가하며, 인식부터 실행까지의 위험을 살핀다.",
+    "en": "This paper presents an end-to-end evaluation framework for image-triggered command injection against computer-use agents (CUAs).",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09187": {
+    "title": "AgenticGen: Reward-Guided Agentic Video Generation for Advertising",
+    "ko": "상품 광고의 전략 수립과 영상 초안 생성을 분리하고, 실제 온라인 성과와 품질 피드백으로 생성 과정을 개선한다.",
+    "en": "Advertising video generation is not only a video synthesis task, but also a product-conditioned reasoning problem whose success is measured by online business metrics.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09884": {
+    "title": "Albedo Estimation via Latent Bridge Matching",
+    "ko": "이미지의 조명과 물체 고유 반사 특성을 분리할 때, 물리적 일관성과 계산 효율을 함께 높이는 잠재 공간 모델을 제안한다.",
+    "en": "Recent advances in Intrinsic Image Decomposition (IID) have increasingly relied on generative models.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.06197": {
+    "title": "Algorithmic Optimality Guarantees for Nonsmooth $H_\\infty$ Output-Feedback Policy Search",
+    "ko": "외부 교란을 견디는 제어 정책을 직접 최적화할 때, 비매끄러운 문제에서도 얻을 수 있는 수렴·최적성 보장을 분석한다.",
+    "en": "We study continuous-time full-order dynamic output-feedback $H_\\infty$ policy search, a nonconvex and nonsmooth problem.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10428": {
+    "title": "Algorithmic stability via ensembling",
+    "ko": "여러 모델의 출력을 평균내는 앙상블이 입력 데이터 변화에 대한 민감도를 얼마나 줄이는지 일반적인 수학적 조건을 제시한다.",
+    "en": "Algorithmic stability refers to the property of an algorithm being insensitive to perturbations of the input data, where the type of perturbation may vary depending…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09685": {
+    "title": "ALIGN-HOLD: Experience Alignment for Real-Time Hold Control in Large-Scale Ride-Hailing Matching at DiDi",
+    "ko": "차량 호출에서 즉시 배차할지 잠시 기다릴지를 사용자 행동에서 학습해, 승객과 운전자의 전체 경험을 개선하려 한다.",
+    "en": "Real-time hold control is a high-leverage mechanism in large-scale ride-hailing systems: by selectively deferring driver-order pairs, the platform can wait for better matching opportunities and…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09374": {
+    "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+    "ko": "북극 항로를 설계할 때 운항 효율뿐 아니라 해빙·생태계·지역사회 영향을 함께 고려하고 사람이 검토하는 다중 에이전트 시스템이다.",
+    "en": "Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introducing substantial operational, environmental, and community risks.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09551": {
+    "title": "An Efficient and Effective Agentic Group Shilling Attack on Recommender Systems",
+    "ko": "가짜 사용자 활동으로 추천 순위를 왜곡하는 에이전트 기반 조작의 위험을 분석하며, 추천 시스템의 방어 평가에 시사점을 제공한다.",
+    "en": "Recommender systems have become core infrastructure for modern online platforms, personalizing content at scale and strongly influencing what users see, click on, and purchase.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10294": {
+    "title": "An Empirical Analysis of ReDoS Vulnerabilities and ReDoS Detection Tools",
+    "ko": "정규표현식 때문에 서비스가 느려지는 ReDoS 취약점과 탐지 도구를 비교해, 도구 간 판정 불일치와 탐지 한계를 살핀다.",
+    "en": "ReDoS vulnerabilities are a type of denial of service software weakness that occurs when a regex is used to validate user-supplied input.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09404": {
+    "title": "An Experimental Evaluation of Multimodal Prompt Injection Attacks on Agentic AI Frameworks",
+    "ko": "이미지에 포함된 지시가 AI 에이전트의 인식·계획·도구 실행으로 얼마나 전달되는지 평가해, 방어가 작동하거나 실패하는 단계를 측정한다.",
+    "en": "Agentic AI frameworks let a language model plan, keep memory, and call tools that reach real files, mail, and services.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10012": {
+    "title": "An Explainable Machine Learning Framework for Predicting Blood-Brain Barrier Permeability Using Molecular Descriptors",
+    "ko": "분자 특성으로 혈액뇌장벽 투과성을 예측하는 여러 ML 모델을 비교하고, 각 특성이 예측에 기여하는 정도를 설명한다.",
+    "en": "Blood-brain barrier (BBB) permeability is a critical determinant in the development of central nervous system therapeutics because it directly influences the ability of drug candidates…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10196": {
+    "title": "An Exponential Deterministic--Randomized Gap in ERM-Oracle Complexity for Thresholds on an Unknown Order",
+    "ko": "순서가 알려지지 않은 임계값 학습에서 무작위화가 필요한 질의 수를 크게 줄일 수 있는지 이론적으로 분석한다.",
+    "en": "Attias, Hanneke and Ramaswami (NeurIPS 2025) asked whether randomization provably reduces the oracle calls needed for online learning when the class is accessible only through…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09429": {
+    "title": "Applying foundation model embeddings towards urban livability evaluation",
+    "ko": "위성·지리 정보 기반 모델의 임베딩이 어떤 도시 환경 특징을 담고 있는지 분석하고, 생활 여건 예측에 활용한다.",
+    "en": "While accurate measurement of socioeconomic indicators remains challenging in data-scarce regions, which limits policy interventions and resource allocation, high-resolution geospatial data is widely available and…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09553": {
+    "title": "Arbitrary Cipher Attacks Against Large Language Models Do Not Require Fine-Tuning",
+    "ko": "암호화된 의사소통이 LLM의 안전성 판단에 주는 영향을 분석하며, 미세조정 없이도 나타날 수 있는 방어 공백을 살핀다.",
+    "en": "Large language model safety and security research is preoccupied with, among other things, detecting and preventing jailbreak attacks: alignment bypasses that allow an adversarial user…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10260": {
+    "title": "Are Unreachable Nodes Truly Safe? Fully Eclipsing Monero's P2P Network!",
+    "ko": "외부에서 직접 연결할 수 없는 Monero 노드도 네트워크 고립 위험에서 자유롭지 않을 수 있음을 분석한다.",
+    "en": "Eclipse attacks isolate a blockchain node by monopolizing its network connections.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10193": {
+    "title": "Are You Learning Biological Signal or Shortcuts? Auditing and Mitigating Bias in Protein-Protein Interaction Datasets",
+    "ko": "단백질 상호작용 예측 모델이 생물학적 규칙 대신 데이터 수집 편향을 학습하는지 점검하고 데이터 구성의 영향을 분석한다.",
+    "en": "Protein-protein interaction (PPI) databases do not faithfully reflect biological realities.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2608.20172": {
+    "title": "Ask Self, Ask Others: Relation Is All You Need",
+    "ko": "토큰 간 관계를 정하는 단계와 정보를 전달하는 단계를 분리해, 기존 어텐션과 다른 정보 흐름을 학습하는 구조를 제안한다.",
+    "en": "Attention dominates token mixing, but it collapses relation formation and flow allocation into a single score-to-flow step.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2608.30107": {
+    "title": "AtlasNLP: A Country-Aware Atlas of Dataset Representation in NLP",
+    "ko": "1만 3천여 NLP 데이터셋의 국가별 대표성을 정리해, 특정 언어를 지원한다는 사실이 다양한 지역을 고르게 반영한다는 뜻은 아님을 보여준다.",
+    "en": "Understanding which countries are represented in NLP datasets is essential for identifying gaps, targeting data collection, measuring progress, and informing AI policy.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09489": {
+    "title": "Audio Deepfake Detection Using Temporal Coherence Analysis",
+    "ko": "음성·음악 구간의 시간적 일관성을 분석해, 비교적 가벼운 분류기로 실제 오디오와 AI 생성 오디오를 구별한다.",
+    "en": "The proliferation of AI-generated audio (so-called \"deepfake\" audio) poses significant threats to information integrity, from voice cloning fraud to synthetic music copyright disputes.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09356": {
+    "title": "Auditable Emergency Triage for Maternal and Newborn Care in India",
+    "ko": "의료 상담 메시지의 응급 분류 과정을 의료진이 이해하고 검토하기 쉽도록 만드는 연구다. 모델 출력만으로 진료를 대체한다는 의미는 아니다.",
+    "en": "At Noora Health, our nurses answer more than 50,000 medical queries per month on our WhatsApp-based service that provides caregivers with on-demand support.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2603.23723": {
+    "title": "Autoregressive Guidance of Deep Spatially Selective Filters using Bayesian Tracking for Efficient Extraction of Moving Speakers",
+    "ko": "이동하는 화자의 위치를 가볍게 추적하면서 음성 분리 결과를 다시 활용해, 실시간 잡음 제거의 정확도와 효율을 높인다.",
+    "en": "Deep spatially selective filters achieve high-quality enhancement with real-time capable architectures for stationary speakers of known directions.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10057": {
+    "title": "AutoTrans: AI-Assisted Automatic Translation of Security Assertions for RISC-V Processors",
+    "ko": "RISC-V 프로세서 간 보안 검증 규칙을 AI로 옮길 때 존재하지 않는 신호를 만들어내는 오류를 줄이는 자동화 도구다.",
+    "en": "Reusing a set of verified security assertions across RISC-V processor targets remains one of the most expensive bottlenecks in hardware security verification.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.08103": {
+    "title": "AVP-Inspect: Coordinated Cyber-Physical Testing for Privacy Analysis of COTS Apple Vision Pro Applications",
+    "ko": "Apple Vision Pro 앱의 동작과 통신을 함께 관찰해, XR 기기에서 발생할 수 있는 개인정보 유출을 분석한다.",
+    "en": "XR devices introduce substantial privacy concerns due to their comprehensive data collection capabilities that surpass traditional computing platforms.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2606.03504": {
+    "title": "BaltiVoice: A Speech Corpus and Fine-tuned Whisper ASR System for the Balti Language",
+    "ko": "발티어 음성 데이터셋을 공개하고 Whisper를 미세조정해, 학습 자료가 적은 언어의 음성 인식을 개선한다.",
+    "en": "We present BaltiVoice, a 16.8-hour read-speech corpus for Balti (ISO 639-3: bft), a Tibetic language spoken in Gilgit-Baltistan, Pakistan, with no prior publicly available ASR…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2603.04199": {
+    "title": "Bayesian Adversarial Privacy",
+    "ko": "공개된 정보로 상대방이 어떤 판단을 할 수 있는지 베이지안 의사결정 관점에서 모델링해, 상황별 개인정보 위험을 정량화한다.",
+    "en": "Theoretical and applied research into privacy encompasses an incredibly broad swathe of differing approaches, emphases and aims.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09246": {
+    "title": "Bayesian deep learning integration of geophysical and drilling data for 3D prediction of copper mineralization and drill targeting: a case study from the Kogodai prospect, Rudny Altai",
+    "ko": "시추·지구물리 자료를 베이지안 딥러닝으로 결합해, 구리 광물의 3차원 분포와 예측 불확실성을 함께 추정한다.",
+    "en": "Exploration drill targeting in structurally complex terranes is hindered by sparse sampling, heterogeneous datasets, and the ambiguity of geophysical inversions.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10036": {
+    "title": "Belief-State Engine: Augmenting LLMs for Principled Planning Under Partial Observability",
+    "ko": "환경을 완전히 볼 수 없는 LLM 에이전트에 숨은 상태에 대한 믿음을 명시적으로 관리하는 장치를 더해 계획 오류를 줄이려 한다.",
+    "en": "Large language model agents produce fluent action sequences across a wide range of tasks, yet they fail in characteristic ways once the environment becomes partially…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10026": {
+    "title": "Beyond Contact Sensors: Deep learning with Pseudo-Labeling for remote Photoplethysmography",
+    "ko": "영상에서 비접촉으로 심박 신호를 추정할 때 의사 라벨을 활용해, 정밀하게 동기화된 접촉 센서 데이터 의존도를 낮춘다.",
+    "en": "Heart rate is a critical biomarker of health, and remote photoplethysmography (rPPG) enables its contactless estimation from video data for telemedicine applications.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09904": {
+    "title": "Beyond Conventional Federated Learning via High-Order Regularization",
+    "ko": "연합학습에서 일부 참여자의 모델 변화가 지나치게 커지는 문제를 고차 정규화로 제어하는 방법을 제안한다.",
+    "en": "Federated clients that perform several local optimization steps can return parameter displacements with widely different magnitudes.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2511.13893": {
+    "title": "Beyond One-Size-Fits-All: Neural Networks for Differentially Private Tabular Data Synthesis",
+    "ko": "변수 간 상관관계가 복잡한 표 데이터를 생성할 때, 차등 개인정보보호를 적용한 신경망이 갖는 장점과 한계를 살핀다.",
+    "en": "In differentially private (DP) tabular data synthesis, the consensus is that statistical models are better than neural network (NN)-based methods.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10346": {
+    "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
+    "ko": "이미지마다 적절한 시각 토큰 제거 전략을 선택해, 멀티모달 모델의 추론 비용과 정확도 사이 균형을 개선한다.",
+    "en": "Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.05736": {
+    "title": "Beyond Prompts: Measuring and Optimizing LLM Tool-Agent Harnesses",
+    "ko": "모델을 재학습하지 않고 도구 인터페이스·프롬프트·실행 보조 계층을 바꾸었을 때 에이전트 성능이 얼마나 개선되는지 평가한다.",
+    "en": "LLM tool agents can be improved without retraining by modifying the runtime harness around a fixed model: prompts, tool interfaces, middleware, state handling, and recovery…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10177": {
+    "title": "Beyond Surface Imitation: Contrastive Modeling for Reasoning Path Alignment in Multimodal In-Context Learning",
+    "ko": "멀티모달 예시를 표면적으로 따라 하는 데서 벗어나, 입력에 맞는 추론 경로를 대조 학습으로 정렬하는 방식을 제안한다.",
+    "en": "In-context learning (ICL) is widely used in multimodal large language models (MLLMs) and achieves strong performance across a wide range of multimodal tasks.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10105": {
+    "title": "Beyond Training: A Feasibility Taxonomy for Inference-Time AI Governance",
+    "ko": "AI 관리 기준을 학습 단계에서 추론·배포 단계로 확장할 때 사용할 수 있는 제도·기술적 수단의 실행 가능성을 분류한다.",
+    "en": "Compute governance today is a governance of training: the thresholds, reporting requirements, and frontier-AI regimes now in force attach to training compute and treat the…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2608.15475": {
+    "title": "Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability",
+    "ko": "로봇 행동 모델의 가중치 비트 오류에 대한 취약성이 행동 출력 구조마다 달라질 수 있음을 비교한다.",
+    "en": "Quantized Vision-Language-Action (VLA) models expose a weight-fault surface: Rowhammer-style faults can corrupt deployed INT8 bits.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09647": {
+    "title": "Black-Box Red Teaming of Agentic AI: A Taxonomy-Driven Framework for Automated Risk Discovery",
+    "ko": "여러 단계에 걸쳐 도구를 쓰는 AI 에이전트의 위험을 분류하고, 단일 대화 평가가 놓치는 실패 유형을 체계적으로 평가한다.",
+    "en": "Agentic systems are rapidly moving to production, where they read untrusted inputs, call tools with real permissions, and act autonomously, expanding the security surface beyond…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2512.15275": {
+    "title": "Bounty Hunter: Autonomous, Comprehensive Emulation of Multi-Faceted Adversaries",
+    "ko": "보안 평가용 공격자 모사의 자동화 범위와 한계를 다루는 연구로, 다양한 위협 행동을 평가 환경에서 모델링하는 접근을 제안한다.",
+    "en": "Adversary emulation is an essential procedure for cybersecurity assessments such as evaluating an organization's security posture or facilitating structured training and research in dedicated environments.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09783": {
+    "title": "BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL",
+    "ko": "비동기 강화학습에서 오래된 정책으로 수집한 데이터가 가치 평가를 왜곡하는 문제를 보정하는 방법을 제안한다.",
+    "en": "Asynchronous reinforcement learning has become the standard way to scale training for language models, but the resulting policy lag biases the critic toward the stale…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2603.15203": {
+    "title": "Bridging Theory and Data: Correcting Nuclear Mass Models with Interpretable Machine Learning",
+    "ko": "해석 가능한 KAN 모델로 기존 핵질량 예측의 오차를 보정하고, 어떤 물리적 특성이 예측에 중요한지 분석한다.",
+    "en": "Nuclear mass prediction is one of the core issues in nuclear physics research, yet it faces the challenge of small-sample datasets with high complexity.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2604.10701": {
+    "title": "Bringing Value Models Back: Generative Critics for Value Modeling in LLM Reinforcement Learning",
+    "ko": "LLM 강화학습의 가치 평가를 단번에 점수화하는 대신 생성형 평가자로 표현해, 학습 신호를 개선하려는 연구다.",
+    "en": "Credit assignment is a central challenge in reinforcement learning (RL).",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2408.10608": {
+    "title": "BTBR: A Bayesian-Theory-Driven Probabilistic-Fuzzy Framework for Implicit Bias Removal in Large Language Models",
+    "ko": "특정 인구집단의 역할을 부여할 때 달라지는 모델 성능을 잠재 편향으로 보고, 이를 확률적으로 측정·완화하는 방법을 제안한다.",
+    "en": "Large language models (LLMs) may encode biased associations from heterogeneous training corpora that are not immediately visible under ordinary prompting, but can surface when the…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2607.03215": {
+    "title": "Builder, Defender, Breaker: Measurable Independence and Bounded Autonomy When Generative Models Build, Defend and Test Software",
+    "ko": "코드 작성·방어·검증을 같은 계열의 AI가 맡을 때 오류가 함께 발생할 수 있어, 역할 간 독립성과 자율성의 범위를 측정해야 한다는 논의다.",
+    "en": "Generative models now write application code, harden and monitor it, and probe it for exploitable flaws, so that one family of models increasingly plays builder,…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09468": {
+    "title": "Building the Harness Automatically: Self-Play in Code Distills a Text Harness for Black-Box Optimization",
+    "ko": "에이전트가 최적화 코드를 반복 실험하며 얻은 전략을 짧은 텍스트 지침으로 압축해, 새 블랙박스 최적화 문제에 적용한다.",
+    "en": "Can an agent learn a numerical search strategy through executable practice and then transfer that strategy as text?",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10181": {
+    "title": "Can AI Agents Deliver Verifiable Network-Wide Outcomes Across Authority Boundaries?",
+    "ko": "서로 다른 관리 권한을 가진 네트워크 에이전트들이 협력할 때, 전체 망의 목표 달성을 어떤 증거로 검증할 수 있는지 살핀다.",
+    "en": "AI agents are increasingly involved in network automation, where they can initiate configuration changes through mediated operational interfaces and assess the resulting state.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09849": {
+    "title": "Can AI Agents Detect and Repair Artifact Drift in Network Experiments?",
+    "ko": "AI 에이전트가 네트워크 실험 자료를 수정할 때 주장·증거·변경 이력의 일관성을 유지하고 어긋난 부분을 고칠 수 있는지 평가한다.",
+    "en": "In recent years, AI agents have evolved into capable assistants that carry out multi-step tasks in digital environments.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09735": {
+    "title": "Can Artificial Intelligence Support Healthcare and Mental Health Through Early Cyberbullying Detection ? The Impact of Emotion-Aware AI on Proactive Online Safety",
+    "ko": "감정과 문맥을 고려하는 언어 모델로 사이버 괴롭힘 징후를 조기에 분류하는 시스템을 제안한다.",
+    "en": "Healthcare systems, mental health, and public well-being are increasingly affected by cyberbullying and harmful online interactions.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10410": {
+    "title": "Can Foundation Models Moderate Online Content? Evaluating Instruction- vs. Example-Driven Policy Operationalization",
+    "ko": "콘텐츠 검토 정책을 규칙 설명으로 전달하는 방식과 사례로 가르치는 방식을 비교해, 멀티모달 모델의 정책 적용 일관성을 평가한다.",
+    "en": "The growing complexity of content moderation policies presents a critical challenge for their consistent operationalization.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2608.12944": {
+    "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
+    "ko": "심전도·맥파·심음의 시간 차이를 고려해 서로 다른 센서에서 공통으로 사용할 수 있는 심장 활동 표현을 학습한다.",
+    "en": "Electrocardiography (ECG), photoplethysmography (PPG), and phonocardiography (PCG) provide complementary views of the same cardiac cycle, yet existing cardiac foundation models are trained for a single…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09659": {
+    "title": "Cascading Gradient Inversion via LT-Code Inspired Peeling in Federated Learning",
+    "ko": "연합학습의 모델 업데이트에서도 학습 데이터가 복원될 수 있는 개인정보 위험을 분석한다. 원본을 공유하지 않는 것만으로 보호가 완성되지는 않는다는 연구다.",
+    "en": "Federated learning shares model updates rather than raw data, yet these updates can be inverted to reconstruct the clients' training data.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09255": {
+    "title": "CAST: Canonical Approximate Schur Tree for Approximate Cholesky on Graphs",
+    "ko": "그래프 계산에서 반복적으로 푸는 선형 시스템의 비용을 줄이기 위해, 희소 근사 행렬 분해를 효율적으로 만드는 방법을 제안한다.",
+    "en": "Graph-data workloads such as diffusion estimation, ranking, semi-supervised learning, and network optimization often solve many Laplacian or symmetric diagonally dominant M-matrix (SDDM) systems with the…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2602.08751": {
+    "title": "Central Dogma Transformer II: An AI Microscope for Understanding Cellular Regulatory Mechanisms",
+    "ko": "DNA와 RNA의 관계를 반영한 Transformer 구조로 유전자 조절 메커니즘을 예측하고, 내부 표현을 생물학적으로 해석하려 한다.",
+    "en": "Motivation: Interpretability is not optional in biology: understanding gene regulation requires models whose learned structure can be directly interrogated, not merely accurate predictors whose internals…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10347": {
+    "title": "CertiFlash: A Formal Verification Framework for Flash Translation Layers in Computational Solid State Drives",
+    "ko": "SSD 내부의 주소 변환·가비지 수집 로직을 형식 검증해, 저장장치 내 계산에서 데이터 격리와 무결성을 확인하는 프레임워크다.",
+    "en": "Data-intensive applications move large amounts of data from storage to the compute unit, incurring significant data movement overhead.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2608.15407": {
+    "title": "Chameleon: An Adaptive AI-Driven Honeypot Architecture Using Threat-Calibrated Particle Swarm Optimization and Semantic Deception Rapidly-Exploring Random Trees",
+    "ko": "위협 관찰 결과에 따라 반응을 조정하는 AI 기반 허니팟을 제안해, 고정된 행동을 보이는 기만 시스템의 한계를 보완하려 한다.",
+    "en": "Traditional honeypots share an invariant behavioral profile: a skilled adversary can confirm the presence of a deception environment within a few diagnostic commands, limiting their…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10525": {
+    "title": "Characterizing Language Generation in the Limit: Finite Witnesses and a Separation-Width Hierarch",
+    "ko": "무한한 언어의 예시를 점차 관찰하면서 유효한 새 표현을 생성할 수 있는 조건을 수학적으로 규정한다.",
+    "en": "Language generation in the limit asks for valid unseen elements from every exhaustive positive presentation of an unknown infinite language.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.05702": {
+    "title": "Characterizing Privacy Risks of Quantum Machine Learning with Emergent Quantum-Native Access",
+    "ko": "양자 머신러닝 모델에 양자 방식으로 접근할 수 있을 때, 기존의 고전적 접근 가정과 다른 개인정보 위험이 생기는지 살핀다.",
+    "en": "Quantum Machine Learning (QML) has shown rapid advances by utilizing quantum computing for machine learning tasks.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2604.25512": {
+    "title": "CoGReV: A Confidence-Gated Post-Hoc Non-Monotonic Belief Revision Framework for Phishing Website Classification",
+    "ko": "피싱 분류기의 확신이 낮고 사이트 메타데이터가 있는 경우에 한해 추가 추론으로 판정을 재검토해, 잘못된 경고를 줄이려 한다.",
+    "en": "In phishing detection, machine learning classifiers act as a first line of defense, but the false positives they produce are triaged by human analysts.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09229": {
+    "title": "Compute-Bounded Security Assurance - Coverage, Verification, and Response under Resource Constraints",
+    "ko": "계산 자원이 제한된 보안 평가에서 반복 성공·서로 다른 문제의 탐지·검증된 증거·실제 보호 효과를 구분해 측정한다.",
+    "en": "Additional inference compute can increase the number of correctly resolved security-assurance tasks, but repeated success, unique coverage, accepted evidence, and operational protection are different quantities.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09442": {
+    "title": "Concept drift mitigation through community and spectral graph analysis for the detectionof cyberattacks in network traffic",
+    "ko": "시간에 따라 네트워크 트래픽이 달라져 탐지 성능이 떨어지는 문제를, 학습 전 안정적인 특징을 선택하는 방식으로 줄이려 한다.",
+    "en": "In network traffic, legitimate behaviours and attack techniques evolve jointly - the phenomenon known as 'concept drift' [1].",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09345": {
+    "title": "Cross User/App Network Attacks - Hijacking TCP Connections and DNS Cache Poisoning via a Malicious User/App (Extended Version)",
+    "ko": "클라이언트의 악성 앱과 외부 공격자가 결합될 때 TCP·DNS 보호 가정이 깨질 수 있는 위험을 분석한다.",
+    "en": "Off-path network attacks against TCP and DNS (over UDP) client-server connections are generally considered impractical nowadays, due to built-in security features in these protocols, e.g.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09963": {
+    "title": "CrossLink: Breaking Location Privacy by Linking Device Identifiers Across Protocols",
+    "ko": "LTE·Wi-Fi·BLE의 임시 식별자를 따로 바꾸더라도, 프로토콜 간 갱신 시점 차이로 위치 추적 위험이 남을 수 있음을 분석한다.",
+    "en": "Smartphones simultaneously transmit temporary identifiers over LTE, WiFi, and BLE.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09798": {
+    "title": "CS-Guard: Benchmarking LLM Guardrails for Code Generation Security",
+    "ko": "코드 생성 모델의 가드레일이 유해한 코드 작성 요청과 코드 수정 상황에서 얼마나 일관되게 작동하는지 평가한다.",
+    "en": "Large language models (LLMs) have been ex- ploited to generate malware, but the effective- ness of guardrails for code generation secu- rity remains unclear.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10350": {
+    "title": "Cyber-Financial Contagion: Modeling the Propagation of an AI Vendor Compromise Through the Banking System",
+    "ko": "공통 AI 공급자의 보안 사고가 은행 업무와 금융기관 간 연결을 따라 확산되는 경로를 네트워크 모델로 분석한다.",
+    "en": "The banking system now depends on a small set of shared artificial intelligence vendors for fraud screening, credit decisioning, anti-money-laundering triage, customer analytics, and internal…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2604.04369": {
+    "title": "DAO to (Anonymous) DAO Transactions",
+    "ko": "여러 참여자가 공동 승인하는 조직 간 블록체인 송금에서, 수신자 익명성과 분산된 자금 통제를 함께 지원하는 방식을 제안한다.",
+    "en": "Blockchain assets are increasingly controlled by organizations rather than individuals.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09961": {
+    "title": "Decentralized network congestion control for DAG-based distributed ledger system",
+    "ko": "DAG 기반 분산원장에서 노드 행동에 따라 작업증명 부담을 조절해, 중앙 관리자 없이 네트워크 혼잡을 완화하려 한다.",
+    "en": "We propose a variable and behavior-based node-specific proof-of-work (PoW) model for a directed acyclic graph (DAG)-based distributed ledger technology (DLT) network to mitigate decentralized network…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09983": {
+    "title": "Dependency-Aware ROM/CBD Correctness Bounds for ML-KEM-768 at the Heuristic Failure Scale",
+    "ko": "명시적으로 가정한 확률 모형 안에서 ML-KEM-768의 정상 복호화 실패 확률 상한을 분석한다. 실제 SHAKE 구현 전체에 대한 보장과는 구분한다.",
+    "en": "We certify an honest-decapsulation failure upper bound for ML-KEM-768 in an explicit random-function/centered-binomial (ROM/CBD) abstraction.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09536": {
+    "title": "Differentially Private Average Treatment Effect Estimation by Propensity Score Blocking",
+    "ko": "관찰 연구에서 집단 간 평균 처치 효과를 추정할 때, 성향점수와 차등 개인정보보호를 결합해 민감한 데이터를 보호하는 방법이다.",
+    "en": "Average treatment effect (ATE) estimation in observational studies is a fundamental statistical tool used frequently in social science, medicine, and other fields.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10104": {
+    "title": "Distributed and Private Textual Data Synthesis from Embeddings",
+    "ko": "사용자의 원문을 한곳에 모으지 않고 임베딩·암호 기술·차등 개인정보보호를 결합해 합성 텍스트를 만드는 방식을 제안한다.",
+    "en": "We revisit differentially private (DP) text synthesis in the realistic setting of distributed users, where privacy concerns preclude a trusted curator with access to raw…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2604.26964": {
+    "title": "Dont Just Teach, Explain! A Gamified 20Q Recommender for Cybersecurity Education",
+    "ko": "스무고개 형식의 게임과 설명 가능한 AI를 결합해, 정답 암기보다 위협을 판단하는 이유를 배우도록 돕는 보안 교육 방식이다.",
+    "en": "The escalating complexity of modern cyber threats demands innovative approaches to security education that transcend traditional pedagogical methods.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09420": {
+    "title": "DuplexJail: Safety Alignment Breaks Under Spoken Interruption in Full-Duplex Models",
+    "ko": "말하는 중에도 입력을 받는 양방향 음성 모델에서 끼어드는 발화가 안전성 판단에 미치는 영향을 평가한다.",
+    "en": "Full-duplex speech models accept user speech while generating responses, creating an underexplored attack surface.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09582": {
+    "title": "ECDSA.Fail: Open Autoresearch for Optimizing Elliptic-Curve Point Addition in Shor's Algorithm",
+    "ko": "사람과 AI가 공개 평가로 개선안을 검증하며, 양자 알고리즘의 타원곡선 연산 회로에 필요한 자원을 줄이는 연구 플랫폼이다.",
+    "en": "We propose Open Autoresearch, a paradigm in which humans and AI agents publish evaluator-verified improvements to a public leaderboard.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09357": {
+    "title": "Encrypt What Matters: When Selective Homomorphic Inference Is Efficient",
+    "ko": "입력의 민감한 부분만 동형암호로 처리할 때, 전체 암호화와 같은 계산 결과를 유지하면서 비용을 줄일 수 있는 조건을 분석한다.",
+    "en": "Fully homomorphic encryption (FHE) enables inference on private data without revealing it to the server, but evaluating an entire input under FHE is expensive.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09334": {
+    "title": "Execution-transcript privacy for fault-tolerant surface-code memories",
+    "ko": "오류 정정 양자 컴퓨터의 실행 로그가 입력 정보를 얼마나 드러내는지, 명시된 이론적 가정 아래에서 분석한다.",
+    "en": "A fault-tolerant quantum computer runs behind a telemetry stream logging syndromes, decoder actions, resets and timing separately from the answer.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09423": {
+    "title": "FPGA Acceleration of Fully Homomorphic Encryption with Adaptive Key Switching",
+    "ko": "동형암호의 키 전환 연산을 상황에 맞게 선택하는 FPGA 가속 구조로, 계산·메모리 비용의 균형을 개선하려 한다.",
+    "en": "Fully Homomorphic Encryption (FHE) enables privacy-preserving cloud services but incurs substantial computation overhead, making hardware acceleration essential.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.07783": {
+    "title": "Grid Trouble in Paradise: Uncovering Vulnerable Distributed Energy Resources and Their Grid-Level Risks",
+    "ko": "인터넷에 연결된 태양광 인버터 등 분산 에너지 장치의 노출과 취약성을 조사하고, 전력망 전체에 미칠 수 있는 위험을 살핀다.",
+    "en": "Grid-connected solar distributed energy resources (DERs), such as solar inverters and monitoring platforms, have been deployed at unprecedented scale over the past few years, with…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.08306": {
+    "title": "HoneyRoute: Honeypot-Model Routing for Adversarial LLM Serving",
+    "ko": "의심스러운 LLM 요청을 별도의 허니팟 모델로 분기해 운영 모델을 보호하고, 관찰 정보를 탐지 개선에 활용하는 구조다.",
+    "en": "We introduce HoneyRoute, an inference-serving layer that detects whether an incoming request is malicious and, if so, routes it to a dedicated honeypot model, shielding…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2608.01454": {
+    "title": "How Benchmarks and Evaluation Protocols Shape Conclusions in Provenance-Based Intrusion Detection",
+    "ko": "시스템 행위 이력 기반 침입 탐지기의 성능 결론이 데이터셋·시간 분리·임곗값 설정 등 평가 방식에 따라 얼마나 달라지는지 분석한다.",
+    "en": "Provenance-based intrusion detection systems (PIDS) frequently report strong performance, but the conclusions drawn from these results can be highly sensitive to benchmarking choices and evaluation…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09793": {
+    "title": "How Fragile Is Safety Alignment at Frontier Scale? A Single-Direction Attack on a 320B MoE",
+    "ko": "대규모 전문가 혼합 모델에서도 안전성 정렬이 일부 내부 표현 변화에 민감할 수 있는지 평가한다.",
+    "en": "Directional ablation removes an aligned language model's ability to refuse by projecting a single \"refusal direction\" out of the weights that write the residual stream.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09243": {
+    "title": "In RAG We Trust? Measuring Robustness of Retrieval-Augmented Generation Under Document Poisoning",
+    "ko": "RAG가 검색한 문서의 사실 정보가 오염되었을 때 답변 정확도가 얼마나 떨어지는지, 오염 범위별로 비교한다.",
+    "en": "Retrieval-augmented generation (RAG) grounds a language model in retrieved documents, which reduces hallucination but creates a new attack surface: if retrieved text is tampered with,…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2607.20890": {
+    "title": "Information-Theoretically Secure Aggregation for Lightweight Federated Learning: Resilient to Dropouts and Adversaries",
+    "ko": "1비트 모델 업데이트를 쓰는 경량 연합학습에서, 참여자 이탈과 악의적 행동을 고려한 안전한 집계 방식을 제안한다.",
+    "en": "On-device federated learning (FL) enables privacy-preserving and personalized model training on resource-constrained devices such as smartphones and IoT nodes.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10144": {
+    "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
+    "ko": "여러 AI 에이전트가 공유하는 기억의 검색과 개인정보 통제를 개별 에이전트가 아닌 공통 시스템 계층에서 관리한다.",
+    "en": "AI systems become more useful when they can adapt to the people using them, but in multi-agent systems, useful context learned by one agent often…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10298": {
+    "title": "Learning Intrusion Response Strategies for OT Systems",
+    "ko": "산업 제어 환경을 부분 관측 의사결정 문제로 모델링해, 제한된 탐지 정보로도 적절한 침입 대응 전략을 학습하려 한다.",
+    "en": "Cyberattacks against Operational Technology (OT) systems, which monitor and control industrial processes, pose an increasing threat to essential societal services.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09817": {
+    "title": "Lightweight Zero Trust via Automotive SDN",
+    "ko": "차량 네트워크의 기존 SDN 관리 기능을 활용해, 실행 중 접근 취소·키 변경·침해 장치 격리를 지원하는 제로 트러스트 구조를 제안한다.",
+    "en": "Zonal in-vehicle networks ship Ethernet, MACsec, and TSN, but treat the network itself as trusted: once configured at the factory, there is no standardized runtime…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09386": {
+    "title": "LLMSec-AV: A Vulnerability Taxonomy and LLM-Driven Software Weakness Discovery Framework for Autonomous Vehicles",
+    "ko": "자율주행 소프트웨어의 취약점 유형을 정리하고, 차량 특화 보안 지식을 제공한 LLM이 코드의 약점을 더 잘 찾는지 평가한다.",
+    "en": "Automated vehicles rely on millions of lines of safety-critical software, yet general-purpose analyzers do not understand which code can affect vehicle motion.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2602.18934": {
+    "title": "LoMime: Query-Efficient Membership Inference using Model Extraction in Label-Only Settings",
+    "ko": "모델이 반환하는 분류 라벨만으로도 학습 데이터 포함 여부가 추정될 수 있는 개인정보 위험과 질의 비용을 분석한다.",
+    "en": "Membership inference attacks (MIAs) threaten the privacy of machine learning models by revealing whether a data point was used during training.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10264": {
+    "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
+    "ko": "대형 언어 모델의 계산 일부를 외부에 맡기면서도 입력의 비밀성과 결과의 올바름을 함께 확인하는 추론 방식을 제안한다.",
+    "en": "Open-source large language models (LLMs) are increasingly competitive with closed-source models while offering transparency and the ability to run inference without exposing user inputs to…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10246": {
+    "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
+    "ko": "밈 코인 생성 플랫폼에서 반복적·대규모 조작 활동이 어떻게 나타나는지 분석해, 이용자가 마주하는 시장 위험을 살핀다.",
+    "en": "Once complex, creating and deploying a new cryptocurrency has become trivial.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09907": {
+    "title": "Meta-LinEXP3: Online-within-Online Learning for Adversarial Linear Contextual Bandits",
+    "ko": "연속되는 적대적 문맥 밴딧 과제에서 과거 과제의 지식을 다음 과제로 전달하는 이중 온라인 학습 알고리즘을 제안한다.",
+    "en": "Meta-learning has emerged as an effective paradigm for transferring knowledge across sequential bandit tasks.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09591": {
+    "title": "Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G",
+    "ko": "6G로 연결된 로봇이 시각·언어·행동 모델을 함께 학습할 때, 모달리티별 분리로 개인정보와 통신 비용 문제를 다룬다.",
+    "en": "Sixth-generation (6G) wireless networks are expected to provide a key infrastructure for large-scale embodied intelligence, where heterogeneous robots collaborate through low-latency connectivity, edge intelligence, and…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2509.22857": {
+    "title": "PAPER: Privacy-Preserving Convolutional Neural Networks using Low-Degree Polynomial Approximations and Structural Optimizations on Leveled FHE",
+    "ko": "낮은 차수의 다항식과 모델 구조 최적화를 활용해, 동형암호 위에서 CNN 추론을 수행하는 비용을 줄이려 한다.",
+    "en": "Recent work using Fully Homomorphic Encryption (FHE) has made non-interactive privacy-preserving inference of deep Convolutional Neural Networks (CNNs) possible.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2504.14957": {
+    "title": "Parallel Kac's Walk Generates PRU",
+    "ko": "병렬 Kac 보행이 양자 암호에 필요한 의사난수 유니터리를 구성할 수 있는지, 적응적 질의에 대한 안전성을 분석한다.",
+    "en": "Ma and Huang recently proved that the PFC construction, introduced by Metger, Poremba, Sinha and Yuen [MPSY24], gives an adaptive-secure pseudorandom unitary family PRU.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2607.02875": {
+    "title": "Permissions on the Loose: Measuring Overprivilege in Real-World Serverless Applications",
+    "ko": "실제 서버리스 애플리케이션의 권한이 업무에 필요한 범위보다 얼마나 넓게 부여되는지 측정한다.",
+    "en": "Serverless computing has seen rapid adoption in cloud deployments, yet the security implications of its service-oriented programming model remain poorly understood.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.03893": {
+    "title": "Practice Makes (Im)Perfect: A Look Back at Benchmarking Practices for Microarchitectural Side-Channel Attacks",
+    "ko": "마이크로아키텍처 부채널 연구의 오래된 성능 비교 관행을 돌아보고, 서로 다른 결과를 비교할 때 필요한 평가 기준을 논의한다.",
+    "en": "Microarchitectural side-channel research has grown at an exceptional pace in recent years, increasing the need for rigorous and meaningful benchmarking.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09794": {
+    "title": "Privacy-Preserving Split Learning for Federated LLM Fine-Tuning",
+    "ko": "사용자가 전체 LLM을 보유하기 어려운 환경에서 모델을 서버와 나누어 미세조정하며, 기관별 데이터의 개인정보보호를 다룬다.",
+    "en": "Fine-tuning large language models (LLMs) on domain-specific data is essential for downstream adaptation.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09697": {
+    "title": "PrivAudit: A Dual-Lens Auditing Framework for Website Privacy Practices under the CCPA",
+    "ko": "웹사이트의 개인정보 안내와 실제 사용자 추적 행동을 함께 비교하는 자동 감사 프레임워크다.",
+    "en": "Five years after the enforcement of the California Consumer Privacy Act (CCPA), understanding how website privacy practices evolve at scale in response to regulation remains…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09838": {
+    "title": "Proximity Gaps for Gabidulin Codes and Applications",
+    "ko": "랭크 거리 오류정정부호의 근접성 간격을 분석해, 대화형 증명과 다항식 커밋의 건전성 연구에 연결한다.",
+    "en": "Proximity gaps are central to the soundness of interactive oracle proofs of proximity (IOPPs) and polynomial commitment schemes (PCSs).",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09807": {
+    "title": "Quantifying IIoT Sensor Node Criticality by Fusing its Data Criticality and Security Vulnerability",
+    "ko": "산업용 IoT 센서가 다루는 데이터의 중요도와 보안 취약성을 함께 평가해, 우선 보호해야 할 노드를 정하는 방법이다.",
+    "en": "The integration of the Industrial Internet of Things (IIoT) into manufacturing has transformed industrial operations by optimising production management and ensuring product quality through smart…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2602.16268": {
+    "title": "Quantum Oracle Distribution Switching and Applications to Falcon and Ring Signatures",
+    "ko": "양자 환경에서 서로 비슷한 오라클 출력 분포를 구별하는 한계를 분석하고, Falcon과 링 서명의 보안 증명에 적용한다.",
+    "en": "Motivated by digital signature algorithms ranging from Falcon to fully-anonymous ring signatures used in Signal-style key exchange, such as Gandalf, we revisit a fundamental problem…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09564": {
+    "title": "Robust Industrial Cyber Physical Classification Using Neuromorphic Temporal Embeddings and Hybrid SNN XGBoost Under Machine Unlearning Attacks",
+    "ko": "스파이킹 신경망과 XGBoost를 결합해 산업망의 침입을 효율적으로 분류하고, 학습 데이터 삭제에 따른 성능 저하도 평가한다.",
+    "en": "The digitalisation of electrical distribution networks has increased the exposure of power-grid infrastructure to cyber attacks.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09623": {
+    "title": "Scalable Composition of Byzantine Agreements under Reorder Attacks",
+    "ko": "여러 비잔틴 합의 실행의 메시지 순서가 뒤섞일 때 발생하는 안전성 문제를 분석하고, 합성 가능한 보장 조건을 연구한다.",
+    "en": "Byzantine agreement (BA) is a foundational building block in distributed systems, and the security analysis of BA protocols under multi-instance executions has attracted increasing attention.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09668": {
+    "title": "Session Attestation for Unmodified TLS Services in Confidential Virtual Machines",
+    "ko": "애플리케이션이나 TLS 구현을 바꾸지 않고도 연결 상대가 기밀 가상머신 안에서 동작함을 확인하는 세션 증명 방식이다.",
+    "en": "Confidential virtual machines simplify the migration of existing services into trusted execution environments, yet attesting their network connections often requires changing applications, TLS implementations, or…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09161": {
+    "title": "SMCC-Empowered Digital Twins for Sensorless Monitoring in Large-Scale AI-Driven IoT Systems",
+    "ko": "감지·기억·통신·계산을 통합해, 많은 센서를 설치하지 않고도 물리 환경과 디지털 트윈을 동기화하려는 연구다.",
+    "en": "The deployment of AI-driven Digital Twins (DTs) in large-scale Internet-of-Things (IoT) ecosystems demands continuous, high-fidelity synchronization between the physical environment and its virtual replica.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10149": {
+    "title": "Sound Debloating of Redundant Checks in Zero-Knowledge Machine-Learning Circuits",
+    "ko": "영지식 ML 증명 회로의 중복 검사를 제거하되, 잘못된 결과를 허용하지 않는다는 근거를 유지해 증명 비용을 줄인다.",
+    "en": "Zero-knowledge (ZK) proof systems for neural-network inference compile the model into a system of arithmetic constraints.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09848": {
+    "title": "Subgroup Membership Inference Audits of Differentially Private Synthetic Text",
+    "ko": "차등 개인정보보호를 적용한 합성 텍스트에서도 평균 위험만 보면 취약한 하위 집단의 노출을 놓칠 수 있어, 집단별 감사를 제안한다.",
+    "en": "Synthetic data releases are increasingly proposed in the literature as a means of sharing realistic data replicas in lieu of sensitive private datasets.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2502.03682": {
+    "title": "Towards On-Device Evidence Gathering for Intimate Partner Infiltration: A Feasibility Study for Joint Identity-Action Detection",
+    "ko": "가까운 관계의 사람이 스마트폰에 접근해 사생활을 침해하는 상황에서, 기기 안에서 관련 행위의 증거를 식별할 수 있는지 살핀다.",
+    "en": "Intimate Partner Infiltration (IPI) refers to phone-side privacy infiltration in intimate or close relationships, often enabled by physical access to a person's smartphone and discussed…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10412": {
+    "title": "Towards Scalable and Cost-Efficient Vulnerability Detection: A Study on Automatic Query Generation",
+    "ko": "LLM이 생성한 정적 분석 질의의 유용성과 비용을 평가해, 취약점 탐지를 확장할 때 필요한 검증 과정을 살핀다.",
+    "en": "Static analysis remains a cornerstone of software security, yet the effectiveness of tools such as CodeQL is often limited by the substantial manual effort required…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10537": {
+    "title": "Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning",
+    "ko": "업무 규칙과 위협 가정을 형식 논리로 모델링해, 일반적인 코드 검사로 찾기 어려운 애플리케이션 논리 결함을 분석하려 한다.",
+    "en": "Logic flaws pose significant challenges in the design and implementation of modern, semantically rich systems and applications, impacting security, privacy, and trust.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10416": {
+    "title": "TrajMark: Ownership Attribution and Segment-Level Tamper Localization for Coding-Agent Trajectories",
+    "ko": "코딩 에이전트의 최종 코드뿐 아니라 작업 경로에도 워터마크를 넣어, 출처와 기록의 부분적 변조 위치를 확인하려 한다.",
+    "en": "Watermarking the final patch produced by a coding agent provides provenance evidence for the submitted artifact, but does not authenticate the visible process that produced…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2608.00375": {
+    "title": "Trimming: Decoupling Multiplicative Depth from Modulus Chains in RNS-CKKS via Rational Levels",
+    "ko": "CKKS 동형암호의 연산 단계와 모듈러스 체인을 더 세밀하게 관리해, 계산 깊이와 정밀도 제약을 완화하는 방법이다.",
+    "en": "Recent work on Grafting decouples scale factors from ciphertext moduli, enabling more flexible precision management in RNS-CKKS.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.03247": {
+    "title": "Trust Me, I'm Your Developer: Self-Issued Authentication in Large Language Models",
+    "ko": "LLM이 스스로 만든 질문으로 사용자의 개발자 신분을 검증하려 할 때 생기는 신뢰 오류를 여러 모델에서 비교한다.",
+    "en": "Large language model (LLM) security has largely focused on role-playing jailbreaks, with less attention to what happens when a user asks an LLM to verify…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10117": {
+    "title": "Understanding the Security Boundary of Obfuscation-based On-Device LLM Protection",
+    "ko": "기기 내 LLM의 일부 연산을 신뢰 실행 환경 밖으로 보내면서 난독화로 보호할 때, 실제로 지켜지는 보안 경계를 분석한다.",
+    "en": "Trusted Execution Environments (TEEs) offer a promising mechanism for safeguarding the intellectual property of on-device Large Language Models (LLMs).",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09604": {
+    "title": "Watermarks Without Verification: AI Text Watermarking After the EU AI Act",
+    "ko": "AI 생성 텍스트에 워터마크를 넣는 것과 이용자가 이를 검증할 수 있게 하는 것은 별개의 문제라는 관점에서 투명성을 논의한다.",
+    "en": "On August 2, 2026, the obligations of Article 50 of the EU AI Act took effect, requiring generative AI providers to mark the content their…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10002": {
+    "title": "What Makes Adversarial Examples Transfer Across Deepfake Detectors?",
+    "ko": "딥페이크 탐지기 60개를 비교해, 한 모델에서 생긴 적대적 입력이 다른 모델에도 영향을 주는 데 구조와 학습 방식이 어떻게 기여하는지 살핀다.",
+    "en": "Deepfake detectors remain vulnerable to transfer-based black-box attacks, in which adversarial examples are generated on a source surrogate model and transferred to a target model,…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09574": {
+    "title": "When Ad Networks Misbehave: Understanding Risks of Semi-Drive-By Splash Ads",
+    "ko": "앱 시작 시 나타나는 전면 광고에서 터치·센서 신호가 잘못된 참여로 기록될 수 있는 생태계 차원의 위험을 분석한다.",
+    "en": "We investigate the mobile splash ads ecosystem, i.e., full-screen advertisements shown at app launch, where monetization relies on interaction signals that are difficult to verify…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.10502": {
+    "title": "Wicked Problem, Parsimonious Solution: Securing Electric Vehicle Charging Station Software",
+    "ko": "전기차 충전기의 소프트웨어 위험을 체계적으로 파악하기 위해, 소프트웨어 품질 보증과 검증 기법을 적용하자는 연구다.",
+    "en": "Electric vehicle charging infrastructure presents a suite of novel cyber-physical threats.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://arxiv.org/abs/2609.09402": {
+    "title": "X-amine509: Predicting the Practical Risk Level of Enterprise X.509 Certificates",
+    "ko": "대규모 X.509 인증서 목록을 ML로 먼저 위험도순 분류한 뒤, 우선순위가 높은 항목을 정밀 검사하는 두 단계 점검 방식이다.",
+    "en": "Enterprises managing large X.509 certificate inventories face a prioritization problem: deterministic analysis tools that precisely identify standards violations are indispensable for remediation, but applying them…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-10"
+  },
+  "https://openai.com/index/paul-christiano-joins-openai-foundation-board": {
+    "title": "Paul Christiano joins OpenAI Foundation Board",
+    "ko": "AI 정렬 연구자 Paul Christiano가 OpenAI 재단 이사회와 안전·보안위원회에 합류한다는 인사 발표다.",
+    "en": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-09"
+  },
+  "https://openai.com/index/ai-policy-window": {
+    "title": "The AI policy window is open. We need to act.",
+    "ko": "AI 능력이 높아지는 만큼 안전성 근거·공통 기준·지속 가능한 정책을 강화해야 한다는 OpenAI의 정책 제언이다.",
+    "en": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-09"
+  },
+  "https://openai.com/index/gpt-6-astra-next-generation-work": {
+    "title": "GPT-6 Astra: The next generation in intelligence for work",
+    "ko": "추론·컴퓨터 사용·글쓰기·디자인 역량을 업무에 활용하도록 소개하는 GPT-6 Astra 제품 발표다.",
+    "en": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-09"
+  },
+  "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents": {
+    "title": "An alignment assessment of recent cybersecurity incidents",
+    "ko": "Claude가 실제 외부 시스템에 무단 접근한 네 사건을 모델 정렬 관점에서 평가한 Anthropic의 분석이다.",
+    "en": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-09"
+  },
+  "https://openai.com/index/codex-quantum-computing-experiments": {
+    "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+    "ko": "MIT 연구자가 Codex와 GPT-5.6 Sol을 양자 실험 실행·결과 분석·큐비트 보정에 활용한 사례다.",
+    "en": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-08"
+  },
+  "https://openai.com/index/the-work-now-within-reach": {
+    "title": "The Work Now Within Reach",
+    "ko": "더 유능하고 저렴한 AI가 개인과 기업이 수행할 수 있는 업무 범위를 어떻게 넓힐지 설명한다.",
+    "en": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-08"
+  },
+  "https://openai.com/index/introducing-chatgpt-images-2-5": {
+    "title": "Introducing ChatGPT Images 2.5",
+    "ko": "스케치와 참고 사진을 활용해 의도에 더 맞는 이미지를 생성하도록 개선한 ChatGPT Images 2.5 발표다.",
+    "en": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-08"
+  },
+  "https://openai.com/index/navier-stokes-solution": {
+    "title": "On the Navier–Stokes Millennium Prize Problem",
+    "ko": "OpenAI가 AI로 생성한 나비에–스토크스 문제의 해법과 Lean 형식 증명을 공개했다는 발표다. 확정된 학계 검증 결과와는 구분해 읽어야 한다.",
+    "en": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-08"
+  },
+  "https://openai.com/index/teen-development-research-grants": {
+    "title": "Funding grants for new research into AI and teen development",
+    "ko": "생성형 AI가 청소년의 발달·웰빙·안전에 미치는 영향을 독립적으로 연구하도록 지원하는 연구비 프로그램이다.",
+    "en": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-08"
+  },
+  "https://openai.com/index/1password": {
+    "title": "1Password increases engineering productivity 21% with Codex",
+    "ko": "1Password가 보안 정책을 유지하면서 Codex로 기능과 내부 도구 개발을 가속했다고 소개하는 고객 사례다.",
+    "en": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-08"
+  },
+  "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms": {
+    "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+    "ko": "학생·교사·기자·언론사를 대상으로 AI 도구, 교육, 협력을 확대하는 저널리즘 지원 발표다.",
+    "en": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-08"
+  },
+  "https://openai.com/index/supporting-independent-journalism-in-ukraine": {
+    "title": "Supporting independent journalism in Ukraine",
+    "ko": "우크라이나 언론사의 혁신과 회복력, 독립적인 보도 활동을 지원하기 위한 AI 협력 프로그램이다.",
+    "en": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-07"
+  },
+  "https://openai.com/index/an-alien-mind": {
+    "title": "An Alien Mind",
+    "ko": "AI의 능력이 커질수록 인간의 의도와 계속 정렬시키기 어려워지는 문제와 국제 협력의 필요성을 논의한다.",
+    "en": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-06"
+  },
+  "https://openai.com/index/research-acceleration-view-inside-openai": {
+    "title": "Research acceleration: The view inside OpenAI",
+    "ko": "OpenAI 내부에서 코딩 에이전트가 연구 실험의 속도와 수행 가능한 과제의 복잡성에 미치는 영향을 살핀다.",
+    "en": "Inside OpenAI, coding agents are reshaping AI research.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-06"
+  },
+  "https://www.anthropic.com/research/formalizing-fermats-last-theorem": {
+    "title": "Formalizing Fermat's Last Theorem",
+    "ko": "Claude를 활용해 페르마의 마지막 정리를 Lean으로 형식화하고 컴퓨터로 검증한 과정을 소개한다.",
+    "en": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-04"
+  },
+  "https://openai.com/index/daybreak-for-frontline-defenders": {
+    "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+    "ko": "필수 서비스를 운영하는 조직의 방어 역량을 높이기 위해 보안 AI·교육·지원을 제공하는 10억 달러 규모 약정이다.",
+    "en": "OpenAI introduces Daybreak for Frontline Defenders.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-03"
+  },
+  "https://openai.com/index/legora-financial-statement-review-with-astra": {
+    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+    "ko": "Legora가 GPT-6 Astra로 재무 검토 문서 41개를 빠르게 검토하고 삽입된 오류를 찾았다고 보고하는 고객 사례다.",
+    "en": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-03"
+  },
+  "https://openai.com/index/playco-game-prototyping-with-astra": {
+    "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+    "ko": "Playco가 공통 게임 원형에서 여러 테마의 프로토타입을 만들며 수동 수정 작업을 줄였다고 소개하는 사례다.",
+    "en": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-03"
+  },
+  "https://openai.com/index/gpt-6-astra": {
+    "title": "GPT-6 Astra: A new generation of intelligence",
+    "ko": "컴퓨터 사용·코딩·보안·과학 역량과 정렬 개선을 강조한 GPT-6 Astra의 공식 모델 소개다.",
+    "en": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-03"
+  },
+  "https://openai.com/index/safety-overview-gpt-6-astra": {
+    "title": "Safety overview: GPT-6 Astra",
+    "ko": "OpenAI가 GPT-6 Astra의 능력과 배포 시 안전장치를 설명하고, 자사 기준의 사이버보안 역량 평가를 공개한다.",
+    "en": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-03"
+  },
+  "https://openai.com/index/atv-big-air-tour": {
+    "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+    "ko": "행사 운영사가 ChatGPT를 마케팅·상품 관리·웹사이트 제작에 활용해 작업 시간을 줄였다고 소개하는 사례다.",
+    "en": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-02"
+  },
+  "https://openai.com/index/ai-native-company-workflows": {
+    "title": "How AI-native companies turn workflows into operating capability",
+    "ko": "여러 AI 중심 기업이 에이전트를 온보딩·고객 관리·개발자 연동에 적용해 업무 운영 역량으로 확장한 사례를 정리한다.",
+    "en": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-01"
+  },
+  "https://openai.com/index/path-to-astra": {
+    "title": "Path to Astra: critical capabilities and frontier safeguards",
+    "ko": "GPT-6 Astra가 OpenAI의 고도 사이버 역량 기준에 도달했다는 평가와, 공개 과정에서 강화한 안전장치를 설명한다.",
+    "en": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-01"
+  },
+  "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources": {
+    "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+    "ko": "의료기관이 ChatGPT에 전자의무기록과 의료 데이터를 연결해 환자 문맥과 연구 자료를 활용하도록 하는 기능 발표다.",
+    "en": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-01"
+  },
+  "https://openai.com/index/gilbert-tobin": {
+    "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+    "ko": "로펌 Gilbert + Tobin이 경영진 지원·관리 체계·사람의 책임을 바탕으로 ChatGPT Enterprise와 Codex를 확대 도입한 사례다.",
+    "en": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-01"
+  },
+  "https://www.anthropic.com/news/enterprise-frontier-safeguards": {
+    "title": "Developing Enterprise Frontier Safeguards with our customers",
+    "ko": "고객이 통제하는 클라우드에 데이터를 보관하면서 오용을 탐지하도록 설계한 Anthropic의 기업용 안전장치 EFS 발표다.",
+    "en": "Today we’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention (ZDR) with state-of-the-art safeguards for detecting misuse.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-01"
+  },
+  "https://www.anthropic.com/claude-fable-and-mythos-5-1": {
+    "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+    "ko": "코딩과 지식 업무, 과학 연구 활용을 강조한 Claude Fable 5.1·Mythos 5.1 모델 발표다.",
+    "en": "Our most advanced models for coding and knowledge work.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-09-01"
+  },
+  "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety": {
+    "title": "OpenAI supports California’s bill to advance youth AI safety",
+    "ko": "청소년의 AI 이용에 연령별 보호 조치를 강화하는 캘리포니아 법안에 대한 OpenAI의 지지 입장을 설명한다.",
+    "en": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-31"
+  },
+  "https://openai.com/index/polimill": {
+    "title": "Polimill builds Japan's next-generation public AI infrastructure",
+    "ko": "Polimill이 일본 지자체의 행정 지식 검색과 서비스 개발에 GPT 모델과 Codex를 활용하는 사례다.",
+    "en": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-31"
+  },
+  "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads": {
+    "title": "A milestone in expanding access to AI",
+    "ko": "ChatGPT 광고 사업의 매출 규모와 글로벌 확장을 공개하며, 무료·저비용 AI 접근을 지원하는 재원으로 설명한다.",
+    "en": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-31"
+  },
+  "https://www.anthropic.com/news/improving-alignment-security-efforts": {
+    "title": "Improving our alignment and security efforts",
+    "ko": "Claude의 외부 시스템 무단 접근 사건 이후 진행한 분석과 정렬·보안 개선, 독립 검토 계획을 소개한다.",
+    "en": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-31"
+  },
+  "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex": {
+    "title": "Our decision on Cursor following its acquisition by SpaceX",
+    "ko": "SpaceX의 Cursor 인수 이후 OpenAI 모델 제공 계약을 단계적으로 종료하기로 한 결정을 설명한다.",
+    "en": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-28"
+  },
+  "https://openai.com/index/supporting-next-generation-ai-startups-thailand": {
+    "title": "Supporting Thailand’s next generation of AI startups",
+    "ko": "태국의 건강·웰니스·교육 스타트업이 AI 시제품을 신뢰할 수 있는 제품으로 발전시키도록 돕는 8주 지원 프로그램이다.",
+    "en": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-28"
+  },
+  "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures": {
+    "title": "Automated researchers can reliably mitigate alignment failures",
+    "ko": "Claude가 여러 정렬 실패 평가에서 개선 방법을 자동으로 찾았다는 실험이다. 벤치마크 개선이 모든 실제 위험 해결을 뜻하지는 않는다.",
+    "en": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-28"
+  },
+  "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training": {
+    "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+    "ko": "학생 1천여 명의 과제 수행 실험을 통해 ChatGPT와 비판적 사고 교육이 성과·독창성에 미치는 영향을 비교한다.",
+    "en": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-27"
+  },
+  "https://openai.com/index/expanding-our-presence-in-brazil": {
+    "title": "Expanding OpenAI’s presence in Brazil",
+    "ko": "브라질의 개발자·기업·지역사회와 협력을 넓혀 AI 도입을 지원한다는 OpenAI의 사업 확대 소식이다.",
+    "en": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-27"
+  },
+  "https://www.anthropic.com/news/expanding-support-for-scientists": {
+    "title": "Expanding our support for scientists",
+    "ko": "과학자를 위한 Claude 이용 지원과 연구 크레딧을 확대하고, 지원 분야를 더 넓히겠다는 Anthropic의 발표다.",
+    "en": "As Claude becomes increasingly capable at scientific research, we are focusing on building products and programs to support the research community.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-27"
+  },
+  "https://www.anthropic.com/news/model-hardware-standard-research-preview": {
+    "title": "Previewing the Model Hardware Standard",
+    "ko": "AI 에이전트가 물리 장치를 안전하게 다루도록 하는 공통 규격 Model Hardware Standard의 초기 연구 공개다.",
+    "en": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a…",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-27"
+  },
+  "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts": {
+    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+    "ko": "미국 교육구에 교사용 ChatGPT와 교육·지원을 확대해, 더 많은 교직원이 업무에 활용하도록 하는 발표다.",
+    "en": "ChatGPT for Teachers is expanding to 55 U.S.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-26"
+  },
+  "https://openai.com/index/learning-never-stops": {
+    "title": "Learning never stops: How AI makes learning continuous",
+    "ko": "학생과 교사가 교실 밖에서도 ChatGPT를 활용해 지속적으로 학습하는 방식을 조사한 보고서다.",
+    "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-26"
+  },
+  "https://www.anthropic.com/research/enabling-independent-research": {
+    "title": "Enabling independent research on how people use Claude",
+    "ko": "외부 연구진이 개인정보를 보호하는 집계 분석 도구로 실제 Claude 사용 양상을 연구한 시범 사업의 결과다.",
+    "en": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-26"
+  },
+  "https://openai.com/index/loveholidays": {
+    "title": "How loveholidays is making everyone a builder with Codex",
+    "ko": "여행 기업 loveholidays가 개발 부서 밖의 직원도 Codex로 아이디어를 소프트웨어로 구현하도록 지원한 사례다.",
+    "en": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-26"
+  },
+  "https://openai.com/index/hugging-face-incident-and-the-road-ahead": {
+    "title": "The Hugging Face incident and the road ahead",
+    "ko": "Hugging Face 관련 보안 사건의 조사 내용과 모델 보안·모니터링·정렬 강화를 위한 OpenAI의 대응을 설명한다.",
+    "en": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-26"
+  },
+  "https://openai.com/index/the-full-stack-behind-abundant-intelligence": {
+    "title": "The full stack behind abundant intelligence",
+    "ko": "칩·컴퓨팅 인프라·모델·제품의 개선이 함께 작용해 AI의 비용과 활용 규모를 바꾸는 과정을 설명한다.",
+    "en": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-25"
+  },
+  "https://openai.com/index/jalapeno-first-results": {
+    "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+    "ko": "OpenAI의 추론 전용 칩 Jalapeño가 처리량·지연시간·전력 효율을 개선했다는 초기 성능 발표다.",
+    "en": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-25"
+  },
+  "https://www.anthropic.com/news/wellbeing-research-grants": {
+    "title": "Funding better evaluations of AI’s impact on wellbeing",
+    "ko": "AI가 이용자의 웰빙에 미치는 영향을 독립적으로 평가하는 연구에 Anthropic이 500만 달러를 지원한다.",
+    "en": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-25"
+  },
+  "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia": {
+    "title": "Disrupting a new covert influence campaign from Russia",
+    "ko": "가짜 싱크탱크와 지표를 홍보하는 러시아발 영향력 활동에 OpenAI 서비스가 사용된 사례와 계정 차단 조치를 설명한다.",
+    "en": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-25"
+  },
+  "https://openai.com/index/introducing-admin-plugin": {
+    "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+    "ko": "ChatGPT Work와 Codex에서 사용 현황·구성원·권한·한도를 관리하도록 돕는 관리자 플러그인 발표다.",
+    "en": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-25"
+  },
+  "https://openai.com/index/gpt-5-6-in-kiro": {
+    "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+    "ko": "개발 도구 Kiro에서 GPT-5.6을 사용해 소프트웨어 기획·구현·검토·테스트를 수행할 수 있다는 연동 소식이다.",
+    "en": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-24"
+  },
+  "https://openai.com/index/introducing-intelligence-age": {
+    "title": "Introducing Intelligence Age",
+    "ko": "AI가 권력·정치·경제·개인의 자유에 미칠 영향을 논의하는 OpenAI의 새 블로그 Intelligence Age를 소개한다.",
+    "en": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-20"
+  },
+  "https://openai.com/index/stampli": {
+    "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+    "ko": "Stampli가 ChatGPT Work와 Codex로 제품 출시 준비 작업을 단축했다고 소개하는 고객 사례다.",
+    "en": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-20"
+  },
+  "https://openai.com/index/offering-zero-data-retention-for-frontier-models": {
+    "title": "Offering Zero Data Retention for frontier models",
+    "ko": "적격 API 고객의 데이터 미보관 정책을 재확인하고, 개인정보와 고도 안전성 검사를 함께 고려하는 처리 방식을 예고한다.",
+    "en": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-19"
+  },
+  "https://openai.com/index/replit": {
+    "title": "Replit expands access to software creation with GPT-5.6 Luna",
+    "ko": "Replit이 GPT-5.6 Luna 기반 무료 모드를 제공해, 아이디어를 소프트웨어로 구현하는 접근성을 넓힌다는 발표다.",
+    "en": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-19"
+  },
+  "https://openai.com/index/chatgpt-ads-expands-across-europe": {
+    "title": "ChatGPT Ads expands across Europe",
+    "ko": "ChatGPT 광고를 유럽 31개 시장으로 확대하는 사업 소식과 광고 활용 방식을 소개한다.",
+    "en": "ChatGPT Ads is expanding to 31 European markets.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-18"
+  },
+  "https://openai.com/index/strengthening-democratic-oversight-in-national-security": {
+    "title": "Strengthening democratic oversight in national security",
+    "ko": "국가안보 분야의 AI 활용에 민주적 감독이 작동하도록 정부 기관에 도구·교육·전문지식을 지원하는 계획이다.",
+    "en": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-18"
+  },
+  "https://openai.com/index/chatgpt-for-teens": {
+    "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+    "ko": "학습·비판적 사고를 돕고 이용 보호 조치와 보호자 통제를 강화한 청소년용 ChatGPT를 소개한다.",
+    "en": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-18"
+  },
+  "https://openai.com/index/pacing-model-development-cyber-capabilities": {
+    "title": "Pacing model development in an era of cyber-critical capabilities",
+    "ko": "고도 사이버 역량을 가진 모델의 개발 속도를 정할 때 모니터링·정렬·보안 조치를 어떻게 반영하는지 설명한다.",
+    "en": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-18"
+  },
+  "https://openai.com/index/partnering-with-codeai": {
+    "title": "Partnering with CodeAI to prepare the first AI generation",
+    "ko": "학생들이 AI를 비판적으로 이해하고 책임 있게 활용하도록 OpenAI와 CodeAI가 교육 협력을 추진한다.",
+    "en": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-18"
+  },
+  "https://openai.com/index/asana": {
+    "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+    "ko": "Asana가 Codex로 오래된 테스트 시스템을 교체하는 작업을 단축했다고 보고하는 개발 자동화 사례다.",
+    "en": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-18"
+  },
+  "https://www.anthropic.com/research/Claude-accelerates-protein-design": {
+    "title": "How Claude is accelerating protein design and analytical chemistry",
+    "ko": "Claude를 단백질 결합체 설계와 NMR·LC-MS 자료 분석에 활용해 생명과학 연구를 가속한 사례를 소개한다.",
+    "en": "Two results show how Claude helps life sciences researchers speed up their work: designing protein binders from scratch and analyzing NMR and LC-MS data to…",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-18"
+  },
+  "https://openai.com/index/nvidia/chatgpt-work": {
+    "title": "How NVIDIA scales expertise with ChatGPT Work",
+    "ko": "NVIDIA 팀이 ChatGPT Work로 반복 업무를 줄이고 전문지식과 성공적인 업무 절차를 조직 안에 확산한 사례다.",
+    "en": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-18"
+  },
+  "https://openai.com/index/the-defenders-window": {
+    "title": "The Defender’s Window",
+    "ko": "AI가 공격·방어 역량을 동시에 바꾸는 상황에서, OpenAI의 방어 강화와 보안팀의 대응 방향을 설명한다.",
+    "en": "AI is reshaping cybersecurity for attackers and defenders alike.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-17"
+  },
+  "https://openai.com/index/openai-joins-ports-pike-project": {
+    "title": "OpenAI joins PORTS-Pike project",
+    "ko": "OpenAI가 PORTS-Pike 프로젝트에 참여해 지역 투자와 미국 오하이오 남부의 일자리 지원을 확대한다는 소식이다.",
+    "en": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-17"
+  },
+  "https://openai.com/index/new-policy-ideas-for-the-intelligence-age": {
+    "title": "New policy ideas for the Intelligence Age",
+    "ko": "AI 시대의 경제적 기회와 사회적 회복력을 높이는 정책 아이디어를 연구하는 독립 프로젝트 14개를 지원한다.",
+    "en": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-17"
+  },
+  "https://www.anthropic.com/news/claude-text-watermark": {
+    "title": "How Claude’s text watermark works",
+    "ko": "Claude의 텍스트 워터마크가 작동하는 방식과 생성 결과에 미치는 영향에 관한 Anthropic의 설명이다.",
+    "en": "Future Claude models will generate text that contains a watermark to comply with the EU AI Act.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-14"
+  },
+  "https://openai.com/index/builders-guide-to-gpt-5-6": {
+    "title": "The builder’s guide to GPT‑5.6",
+    "ko": "스타트업이 GPT-5.6 모델 선택과 API 기능을 활용해 에이전트의 개발 속도와 비용 효율을 높이는 방법을 소개한다.",
+    "en": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-13"
+  },
+  "https://openai.com/index/previewing-ultrafast": {
+    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    "ko": "GPT-5.6 Sol의 출력 속도를 높이는 Cerebras 기반 Ultrafast API 서비스 등급의 초기 공개다.",
+    "en": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-13"
+  },
+  "https://openai.com/index/dali-rajic-chief-revenue-officer": {
+    "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+    "ko": "Dali Rajic을 최고매출책임자로 선임해 글로벌 매출 조직과 기업 고객 지원을 이끌게 한다는 인사 발표다.",
+    "en": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-13"
+  },
+  "https://www.anthropic.com/research/multiagent-systems": {
+    "title": "Patterns and problems in emerging multiagent systems",
+    "ko": "여러 Claude 에이전트가 협력하는 실험에서 조정 실패·공모·방해 행동을 관찰하고, 다중 에이전트 안전성의 쟁점을 살핀다.",
+    "en": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-13"
+  },
+  "https://openai.com/index/how-enterprises-put-ai-to-work": {
+    "title": "From assistance to execution: How enterprises put AI to work",
+    "ko": "기업이 단순한 AI 보조를 넘어 에이전트에게 업무 실행을 맡기는 방식과 도입 수준에 따른 차이를 조사한다.",
+    "en": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-12"
+  },
+  "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs": {
+    "title": "Reviewing the evidence on worker retraining programs",
+    "ko": "근로자 재교육 프로그램의 효과에 관한 기존 근거를 Anthropic 경제연구팀이 검토한 보고서다.",
+    "en": "An evidence review from Anthropic's Economic Research team",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-12"
+  },
+  "https://openai.com/index/ringcentral": {
+    "title": "How RingCentral builds AI-native work from engineering to ops",
+    "ko": "RingCentral이 ChatGPT Work와 Codex를 제품 개발부터 운영까지 활용해 업무 지식을 통합하고 개발을 가속한 사례다.",
+    "en": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-12"
+  },
+  "https://openai.com/index/daybreak-models-are-now-available-on-aws": {
+    "title": "Daybreak models are now available on AWS",
+    "ko": "AWS의 Amazon Bedrock을 통해 Daybreak의 사이버보안 기능을 기업 보안 업무에서 이용할 수 있다는 발표다.",
+    "en": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-11"
+  },
+  "https://openai.com/index/testing-ads-in-chatgpt": {
+    "title": "Testing ads in ChatGPT",
+    "ko": "ChatGPT의 무료 접근을 지원하기 위한 광고 시험 운영과 광고 표시·답변 독립성·개인정보 통제 원칙을 설명한다.",
+    "en": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-11"
+  },
+  "https://www.anthropic.com/research/riemann-zeta": {
+    "title": "Learning more about Claude's mathematical capabilities",
+    "ko": "미공개 Claude 모델이 리만 제타 함수 영점에 관한 수학적 하한을 개선했다고 소개하는 Anthropic의 연구 발표다.",
+    "en": "An unreleased Claude model improved the lower bound for the fraction of zeroes of the Riemann zeta function that satisfy the hypothesis, raising it from…",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-10"
+  },
+  "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards": {
+    "title": "Improving Fable 5's biology safeguards",
+    "ko": "Claude Fable 5의 생물학 관련 안전장치를 조정하면서 불필요한 대체 응답을 줄이는 개선을 설명한다.",
+    "en": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-07"
+  },
+  "https://www.anthropic.com/news/tino-cuellar": {
+    "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+    "ko": "Tino Cuéllar가 Anthropic의 글로벌 정책·국제 협력·정부 관계를 이끄는 책임자로 합류한다는 인사 소식이다.",
+    "en": "Former California Supreme Court Justice Tino Cuéllar joins Anthropic to lead policy, international engagement, and government relations worldwide.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-08-04"
+  },
+  "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
+    "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+    "ko": "사이버보안 평가 중 Claude가 외부 실제 시스템에 접근한 세 사건과 평가 환경·보안 조치의 개선 내용을 공개한다.",
+    "en": "We found three cases where a Claude model reached the internet from an evaluation environment and accessed real systems.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-07-30"
+  },
+  "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": {
+    "title": "Discovering cryptographic weaknesses with Claude",
+    "ko": "Claude Mythos Preview를 활용해 암호 알고리즘의 약점을 찾은 연구 사례를 소개한다.",
+    "en": "Anthropic researchers find weaknesses in cryptographic algorithms with Claude Mythos Preview",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-07-28"
+  },
+  "https://www.anthropic.com/news/position-open-weights-models": {
+    "title": "Our position on open-weights models",
+    "ko": "공개 가중치 모델에 대한 Anthropic CEO의 입장을 설명하는 글로, 모델 공개를 둘러싼 정책 논의에 해당한다.",
+    "en": "Anthropic CEO Dario Amodei on open-weights models",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-07-27"
+  },
+  "https://www.anthropic.com/news/claude-opus-5": {
+    "title": "Introducing Claude Opus 5",
+    "ko": "장시간 작업하는 에이전트와 코딩·전문 업무의 성능 개선을 강조한 Claude Opus 5 모델 발표다.",
+    "en": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-07-24"
+  },
+  "https://www.anthropic.com/research/project-pilot": {
+    "title": "Project Pilot: Can AI control a drone?",
+    "ko": "AI 모델의 드론 조종 능력을 평가하는 Drone-Bench를 소개하고, 물리 환경에서의 자율 행동을 실험한다.",
+    "en": "We worked with Andon Labs on Drone-Bench, a new benchmark testing whether AI models can autonomously fly a drone to locate and follow a person.",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-07-24"
+  },
+  "https://www.anthropic.com/features/making-of-claude-code": {
+    "title": "The Making of Claude Code",
+    "ko": "내부 명령줄 도구가 Claude Code라는 코딩 에이전트로 발전한 과정을 연구자·엔지니어·초기 사용자의 경험으로 소개한다.",
+    "en": "The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early users who built…",
+    "basis": "description",
+    "checked_on": "2026-09-10",
+    "source_date": "2026-07-06"
+  },
+  "ieee-sp:2026:049e90b0ea13230a": {
+    "title": "Agentic Concolic Execution",
+    "ko": "AI 에이전트를 구체 실행과 기호 실행을 결합한 프로그램 분석에 활용하는 연구다. 공식 목록의 제목을 바탕으로 정리했다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "ieee-sp:2026:708058fc93edc7f5": {
+    "title": "Are LLM-Enhanced Graph Neural Networks Robust against Poisoning Attacks?",
+    "ko": "LLM으로 강화한 그래프 신경망이 학습 데이터 오염에 얼마나 견고한지 평가하는 연구다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "ieee-sp:2026:530d58107169abea": {
+    "title": "AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption",
+    "ko": "프롬프트 주입과 지식 오염이 모델에 미치는 영향을 문맥에 따라 추적하고 귀속시키는 연구다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "ieee-sp:2026:65583cb921ea85fd": {
+    "title": "Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs",
+    "ko": "LLM API를 통해 모델이나 정보가 추출될 위험을 어떻게 측정할지 다루는 연구다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "ieee-sp:2026:7fb811d32eb72dd2": {
+    "title": "Can Foundation LLMs Accurately Estimate Password Strength and Provide Appropriate Password Feedback?",
+    "ko": "LLM이 비밀번호의 강도를 정확히 판단하고 적절한 개선 피드백을 제공할 수 있는지 평가한다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "ieee-sp:2026:50815b43d0993a7c": {
+    "title": "Cottontail: Large Language Model-Driven Concolic Execution for Highly Structured Test Input Generation",
+    "ko": "구조가 복잡한 프로그램 입력을 만들기 위해 LLM과 구체·기호 실행을 결합하는 테스트 생성 연구다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "ieee-sp:2026:96e4bdce2627ba01": {
+    "title": "deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses",
+    "ko": "LLM으로 보완한 테스트 하네스를 퍼징에 활용해 Rust의 메모리 안전성 결함을 탐지하는 연구다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "ieee-sp:2026:9716862c40dc72c9": {
+    "title": "Detecting Privilege Escalation in Polyglot Microservices via Agentic Program Analysis",
+    "ko": "여러 언어로 작성된 마이크로서비스에서 권한 상승 문제를 에이전트 기반 프로그램 분석으로 탐지한다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "usenix-security:2026:de5f382d9788aa08": {
+    "title": "A Distortion-minimization Watermarking Framework for Large Language Models: Larger Capacity, Stronger Robustness and Higher Quality",
+    "ko": "생성 텍스트 워터마크의 정보량·변조 저항성·문장 품질을 하나의 최적화 문제로 묶어 균형을 맞추는 방법이다.",
+    "en": "Large language model (LLM) watermarking provides verifiable source identification for generated text, and its practical deployment requires large watermark capacity, strong robustness against attacks, and…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "usenix-security:2026:e25d59f2b889121a": {
+    "title": "A Large-Scale Study of Personalized Phishing using Large Language Models",
+    "ko": "7,700명 대상 실험에서 LLM 기반 개인화 피싱의 영향을 비교해, 일반 피싱보다 커질 수 있는 이용자 위험을 분석한다.",
+    "en": "Large Language Models (LLMs) can generate fluent and persuasive text, making them valuable tools for communication.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "usenix-security:2026:9bde3f9b5f88f492": {
+    "title": "Assessing LLM Response Quality in the Context of Technology-Facilitated Abuse",
+    "ko": "디지털 감시와 통제 등 기술을 이용한 관계 내 학대에 대해 LLM이 얼마나 적절하고 안전하게 답하는지 전문가가 평가한다.",
+    "en": "Technology-facilitated abuse (TFA) is a pervasive form of intimate partner violence (IPV) that leverages digital tools to control, surveil, or harm survivors.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "usenix-security:2026:b3dcb9916e963039": {
+    "title": "AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations",
+    "ko": "도구 호출이 사용자 의도에서 나왔는지 외부의 불신 입력에서 비롯됐는지 인과적으로 확인해, 간접 프롬프트 주입을 방어한다.",
+    "en": "LLM agents are highly vulnerable to Indirect Prompt Injection (IPI), where adversaries embed malicious directives in untrusted tool outputs to hijack execution.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "usenix-security:2026:61ea4841b8478cc7": {
+    "title": "Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents",
+    "ko": "LLM 에이전트의 자율적인 동작이 자원 낭비와 서비스 거부 위험으로 이어지는 상황을 탐지하는 연구다.",
+    "en": "LLM-based agents have recently attracted significant attention.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "usenix-security:2026:cb7b9af155224509": {
+    "title": "BenchChecker: Assessing the Credibility of Bug-Fixing Benchmarks for LLMs",
+    "ko": "코드 수정 벤치마크가 이미 모델 학습에 포함되어 성능이 부풀려졌는지, 저장소 이력과 모델 출력으로 점검한다.",
+    "en": "While Large Language Models (LLMs) show promise for Automatic Program Repair (APR), existing benchmarks suffer from data contamination, in which test samples appear in training…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "usenix-security:2026:16be2459a717ffc4": {
+    "title": "Certification of Machine Learning Models via Directional Sharpness",
+    "ko": "학습 과정이 달라져도 일반화 품질을 더 효율적이고 신뢰성 있게 가늠하도록 방향별 샤프니스 지표를 제안한다.",
+    "en": "In machine learning, model certification has been identified as an important method for gaining assurance about a model's trustworthiness and quality.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "usenix-security:2026:dbdea5d4e96541a5": {
+    "title": "COGNITION: From Evaluation to Defense against Multimodal LLM CAPTCHA Solvers",
+    "ko": "멀티모달 LLM이 시각 CAPTCHA를 얼마나 해결하는지 유형별로 평가하고, 상대적으로 어려운 과제의 특성에서 방어 방향을 찾는다.",
+    "en": "This paper studies how multimodal large language models (MLLMs) undermine the security guarantees of visual CAPTCHA.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "acm-ccs:2026:097c038738c404ff": {
+    "title": "Auditing Data Provenance in LLM Fine-tuning via Intrinsic Distributional Fingerprints",
+    "ko": "데이터 분포의 고유한 특징을 이용해 LLM 미세조정에 사용된 데이터의 출처를 감사하는 연구다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "acm-ccs:2026:a35fefe40158901d": {
+    "title": "BACAgent: LLM-Powered Detection of Broken-Access-Control Vulnerabilities in Web Applications",
+    "ko": "LLM을 활용해 웹 애플리케이션의 접근 제어가 잘못된 부분을 탐지하는 연구다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "acm-ccs:2026:29cc736c6a35dfcc": {
+    "title": "Can Small Language Models Reliably Resist Jailbreak Attacks? A Comprehensive Evaluation",
+    "ko": "작은 언어 모델이 안전장치 우회 요청에 얼마나 안정적으로 대응하는지 종합적으로 평가한다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "acm-ccs:2026:75f76917fcffae47": {
+    "title": "CVE-Genie: An LLM-Based Multi-Agent Framework for Reproducing CVEs",
+    "ko": "공개된 CVE를 여러 LLM 에이전트로 재현하는 접근을 다룬 논문으로, 취약점 검증 자동화가 연구 주제다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "acm-ccs:2026:0795006c8c07f9dc": {
+    "title": "DeepProve: Verifiable End-to-End Large Language Model Inference",
+    "ko": "LLM의 전체 추론 과정이 올바르게 실행되었는지 검증할 수 있도록 하는 연구다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "acm-ccs:2026:646389b93bbec37e": {
+    "title": "DRIP: Defending Prompt Injection via Token-wise Representation Editing and Residual Fusion",
+    "ko": "토큰별 내부 표현을 조정하는 방식으로 프롬프트 주입을 방어하는 연구다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "acm-ccs:2026:b59d93d08162b528": {
+    "title": "From Documentation to Zero-day Vulnerabilities: LLM-Driven Fuzzing of JavaScript Engines in PDF Readers",
+    "ko": "문서와 LLM을 활용한 퍼징으로 PDF 리더의 JavaScript 엔진 결함을 찾는 소프트웨어 보안 연구다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "acm-ccs:2026:7f90f59a860ba8ff": {
+    "title": "MMAligner: Safeguarding Multimodal Large Language Models through Representation Calibration",
+    "ko": "멀티모달 LLM의 내부 표현을 보정해 안전성을 높이는 방식을 연구한다.",
+    "en": "",
+    "basis": "title",
+    "checked_on": "2026-09-10"
+  },
+  "ndss:2026:f519116af5336b21": {
+    "title": "A Causal Perspective for Enhancing Jailbreak Attack and Defense",
+    "ko": "프롬프트의 해석 가능한 특징과 안전장치 우회 사이의 인과 관계를 분석해, 모델의 안전성 평가와 방어에 활용한다.",
+    "en": "Uncovering the mechanisms behind \"jailbreaks\" in large language models (LLMs) is crucial for enhancing their safety and reliability, yet these mechanisms remain poorly understood.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "ndss:2026:a95c113fbc2ef057": {
+    "title": "A Unified Defense Framework Against Membership Inference in Federated Learning via Distillation and Contribution-Aware Aggregation",
+    "ko": "지식 증류와 참여자 기여도를 반영한 집계로, 연합학습 데이터에 특정 기록이 포함됐는지 추정하는 공격을 완화한다.",
+    "en": "Federated learning enables decentralized model training without exposing raw data, making it a promising paradigm for privacy-preserving machine learning.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "ndss:2026:4501fbaf5152d061": {
+    "title": "ACE: A Security Architecture for LLM-Integrated App Systems",
+    "ko": "신뢰된 정보로 계획을 세우는 단계와 외부 앱을 실행하는 단계를 분리해, LLM 앱의 계획·실행 무결성을 보호한다.",
+    "en": "LLM-integrated app systems extend the utility of Large Language Models (LLMs) with third-party apps that are invoked by a system LLM using interleaved planning and…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "ndss:2026:5c3d5947a9f83292": {
+    "title": "Achieving Zen: Combining Mathematical and Programmatic Deep Learning Model Representations for Attribution and Reuse",
+    "ko": "딥러닝 모델의 수학적 구조와 프로그램 표현을 함께 복원해, 기반 모델의 출처를 식별하고 재사용할 수 있게 하는 연구다.",
+    "en": "Prior work has developed techniques capable of extracting deep learning (DL) models in universal formats from system memory or program binaries for security analysis.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "ndss:2026:2486d97a38e1ce10": {
+    "title": "An LLM-Driven Fuzzing Framework for Detecting Logic Instruction Bugs in PLCs",
+    "ko": "산업용 PLC의 논리 명령어를 대상으로 LLM 기반 테스트 생성과 퍼징을 결합해 펌웨어 결함을 탐지한다.",
+    "en": "Programmable Logic Controllers (PLCs) automate industrial operations using vendor-supplied logic instruction libraries compiled into device firmware.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "ndss:2026:f5a3a83edc32c6b3": {
+    "title": "Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs",
+    "ko": "모델의 어텐션 특징으로 외부 데이터에 섞인 악성 지시를 토큰 단위로 식별하고 제거하는 방어 방식을 제안한다.",
+    "en": "Large Language Models (LLMs) have been integrated into many applications (e.g., web agents) to perform more sophisticated tasks.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "ndss:2026:494f67c86dfffcb4": {
+    "title": "Automated Code Annotation with LLMs for Establishing TEE Boundaries",
+    "ko": "LLM이 보안상 민감한 코드 영역을 표시하도록 학습해, 신뢰 실행 환경 안에 넣어야 할 코드의 경계를 찾는다.",
+    "en": "Modern systems increasingly rely on Trusted Execution Environments (TEEs), such as Intel SGX and ARM TrustZone, to securely isolate sensitive code and reduce the Trusted…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "ndss:2026:5cc64ac384614566": {
+    "title": "Beyond Jailbreak: Unveiling Risks in LLM Applications Arising from Blurred Capability Boundaries",
+    "ko": "LLM 앱이 허용된 기능의 범위를 모호하게 다룰 때 생기는 기능 확대·축소 위험을 정의하고 평가한다.",
+    "en": "LLM applications (i.e., LLM apps) leverage the powerful capabilities of LLMs to provide users with customized services, revolutionizing traditional application development.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "icml:2026:96ef676bf5463818": {
+    "title": "“very likely” Means “uncertain”? How LLMs Diverge from Humans in Linguistic Uncertainty Quantification",
+    "ko": "LLM이 말하는 ‘가능성이 높다’가 사람이 이해하는 확률과 다를 수 있어, 불확실성 표현과 실제 정답률의 관계를 학습한다.",
+    "en": "Humans express uncertainty verbally via markers (e.g., \"possible\", \"likely\"), yet most LLM uncertainty quantification (UQ) relies on costing likelihood- or consistency-based signals.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "icml:2026:ceca748742ef84c1": {
+    "title": "``Someone Hid It!'': Query-Agnostic Black-Box Attacks on LLM-Based Retrieval",
+    "ko": "검색 문서의 조작이 RAG 등 LLM 기반 검색 결과에 미치는 영향을 분석해, 질의와 모델 내부를 모르는 상황의 위험도 살핀다.",
+    "en": "Large language models (LLMs) have been serving as effective backbones for retrieval systems, including Retrieval-Augmentation-Generation (RAG), Dense Information Retriever (IR), and Agent Memory Retrieval.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "icml:2026:e539c55037d861c8": {
+    "title": "$\\texttt{FlashSchNet}$: Fast and Accurate Coarse-Grained Neural Network Molecular Dynamics",
+    "ko": "GPU의 메모리 입출력을 고려해 그래프 신경망 기반 분자 동역학 시뮬레이션의 처리 속도와 효율을 개선한다.",
+    "en": "Graph neural network (GNN) potentials such as SchNet improve the accuracy and transferability of molecular dynamics (MD) simulation by learning many-body interactions, but remain slower…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "icml:2026:bf189e39e64c26bc": {
+    "title": "$\\texttt{Multi}^2$: Hierarchical Multi-Agent Decision-Making with LLM-Based Agents in Interactive Environments",
+    "ko": "상위 에이전트는 하위 목표를 만들고 하위 에이전트는 행동을 실행하도록 나누어, 긴 작업에서 목표가 흐려지는 문제를 줄인다.",
+    "en": "A central goal of large language model (LLM) research is to build agentic systems that can plan, act, and adapt through sustained interaction with dynamic…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "icml:2026:b189a9a12c5f063e": {
+    "title": "$\\texttt{PRISM}$:A 3D Probabilistic Neural Representation for Interpretable Shape Modeling",
+    "ko": "공변량에 따른 3차원 형태의 변화를 확률적으로 표현해, 평균 모양뿐 아니라 위치별 불확실성도 분석한다.",
+    "en": "Understanding how anatomical shapes evolve in response to developmental covariates—and quantifying their spatially varying uncertainties—is critical in healthcare research.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "icml:2026:dde515512f6afda2": {
+    "title": "$A_2$DEPT: Large Language Model–Driven Automated Algorithm Design via Evolutionary Program Trees",
+    "ko": "LLM이 고정된 알고리즘 틀의 일부만 바꾸는 대신, 트리 구조의 진화 탐색으로 전체 알고리즘을 설계하도록 한다.",
+    "en": "Designing heuristics for combinatorial optimization problems (COPs) is a fundamental yet challenging task that traditionally requires extensive domain expertise.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "icml:2026:6b69bad889430d01": {
+    "title": "$f$-Divergence Self-Play for Tabular Anomaly Detection via Large Language Models",
+    "ko": "표 데이터를 텍스트로 표현한 뒤 자기 대결식 학습으로 정상 데이터의 분포를 더 잘 학습해 이상 탐지를 개선한다.",
+    "en": "Anomaly detection in tabular data poses significant challenges due to heterogeneous feature types—mixing numerical, categorical, and textual attributes, which complicate learning meaningful representations of normality.",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  },
+  "icml:2026:a4ee575b2dcc713f": {
+    "title": "$f$-Trajectory Balance: A Loss Family for Tuning GFlowNets, Generative Models, and LLMs with Off- and On-Policy Data",
+    "ko": "현재 정책과 다른 정책에서 나온 데이터 모두를 활용할 수 있도록, 생성 모델과 LLM 학습의 손실함수를 일반화한다.",
+    "en": "In GFlowNets and variational inference, it has been shown that the mean square error between target and model log probabilities is an effective, low variance,…",
+    "basis": "abstract",
+    "checked_on": "2026-09-10"
+  }
+}
