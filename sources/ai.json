@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "automatic_sync_enabled": false,
+  "sources": [
+    {
+      "title": "Google — Overfitting",
+      "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/data-and-generalization.md"
+      ]
+    },
+    {
+      "title": "Google — Accuracy, recall, precision",
+      "url": "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/evaluation.md"
+      ]
+    },
+    {
+      "title": "Hu et al. — LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/fine-tuning.md"
+      ]
+    },
+    {
+      "title": "Google Machine Learning Crash Course",
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/fundamentals.md"
+      ]
+    },
+    {
+      "title": "Google Machine Learning Glossary",
+      "url": "https://developers.google.com/machine-learning/glossary",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/glossary.md"
+      ]
+    },
+    {
+      "title": "Hugging Face — Text generation",
+      "url": "https://huggingface.co/docs/transformers/llm_tutorial",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/llm-inference.md",
+        "content/ai/tokens-and-embeddings.md"
+      ]
+    },
+    {
+      "title": "Google — Neural networks",
+      "url": "https://developers.google.com/machine-learning/crash-course/neural-networks",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/neural-networks.md"
+      ]
+    },
+    {
+      "title": "Lewis et al. — Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/rag.md"
+      ]
+    },
+    {
+      "title": "Google — Embeddings",
+      "url": "https://developers.google.com/machine-learning/crash-course/embeddings",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/tokens-and-embeddings.md"
+      ]
+    },
+    {
+      "title": "PyTorch — Optimizing Model Parameters",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/training.md"
+      ]
+    },
+    {
+      "title": "Vaswani et al. — Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/transformer.md"
+      ]
+    }
+  ]
+}
