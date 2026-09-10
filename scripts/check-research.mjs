@@ -9,6 +9,9 @@ try{
  assert.equal(await page.locator('#quick-links').count(),0);
  assert.equal(await page.locator('.research-link.active').count(),1);
  assert.equal(await page.locator('.research-source').count(),3);
+ assert.equal(await page.locator('[data-topic=all]').getAttribute('aria-pressed'),'true');
+ assert.equal(await page.locator('.research-source-latest li').count(),9);
+ assert.equal((await page.locator('.research-link').innerText()).replace(/\s+/g,' '),'◉ AI Research Watch');
  await page.locator('[data-topic="all"]').click();
  await page.locator('#research-period').selectOption('all');
  for(const source of ['openai','anthropic','arxiv']){
@@ -23,7 +26,7 @@ try{
  await page.locator('#research-period').selectOption('30');
  await page.screenshot({path:'.preview/research-light.png',fullPage:true});
  await page.locator('[data-language="en"]').click();await page.waitForSelector('.research-item');
- assert.match(await page.locator('h1').innerText(),/AI security/);
+ assert.match(await page.locator('h1').innerText(),/AI Research Watch/);
  await page.locator('#theme-toggle').click();
  for(const width of [390,320]){
   await page.setViewportSize({width,height:844});

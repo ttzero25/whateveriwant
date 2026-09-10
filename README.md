@@ -119,16 +119,16 @@ AI 9개, CS 4개, Security 4개, AI for Security 3개의 개념 글을 추가했
 
 차량·임베디드 통신 확장으로 CAN, CAN FD·XL, LIN, 차량용 Ethernet 네 문서를 추가해 Network는 총 16개 문서입니다. CAN 중재·오류 처리·ISO-TP, LIN 스케줄, T1·게이트웨이·시간 제약을 다루며 용어집과 학습 가이드로 연결합니다. CAN 구성과 LIN 교환 도식 두 개를 추가해 네트워크 도식은 총 다섯 개입니다.
 
-## AI 보안 & 연구 동향
+## AI Research Watch
 
-사이드바의 전용 메뉴 `#/research`에서 OpenAI RSS, Anthropic Research, arXiv cs.CR·cs.AI·cs.LG 알림을 모아 봅니다. AI QUICK LINKS는 제거했습니다. 출처·주제·기간·제목 검색을 제공하며 주제는 제목·분류·arXiv 초록의 키워드로 자동 분류합니다. 보안 필터는 관련 발표와 연구 후보이며 확인된 사고 목록이나 중요도 순위가 아닙니다.
+사이드바의 AI Research Watch 메뉴 `#/research`에서 OpenAI 전체 뉴스 RSS, Anthropic Newsroom·Research, arXiv cs.CR·cs.AI·cs.LG 알림을 모아 봅니다. AI QUICK LINKS는 제거했습니다. 출처·주제·기간·제목 검색을 제공하며 주제는 제목·분류·arXiv 초록의 키워드로 자동 분류합니다. 보안 필터는 관련 발표와 연구 후보이며 확인된 사고 목록이나 중요도 순위가 아닙니다.
 
 - 저장: `data/research.json` (원문 제목·링크·출처·날짜·태그만 저장, 초록이나 기사 전문은 저장하지 않음)
 - 수집: `npm run update:research`, 이후 `npm run build`
 - 준비된 자동화: 매일 23:17 UTC / 다음 날 08:17 KST 및 Actions 수동 실행. 권한 승인과 설정 업로드 후 수집 결과를 `main`에 커밋·푸시하고 Pages에 배포
 - 보존: OpenAI·Anthropic 각 최대 60개, arXiv 최대 150개. arXiv 날짜는 RSS 공고일이며 같은 논문의 새 알림은 URL 기준 갱신
 - 장애: 실패한 출처는 이전 목록과 마지막 성공 시각을 유지하고 상태를 표시. 48시간 이상 수집 성공이 없으면 확인 필요 표시
-- 한계: Anthropic 현재 게시판에 노출된 날짜 있는 항목만 수집. 전체 문헌 검색이나 포괄적인 보안 사고 추적은 아님. arXiv는 동료 심사를 보장하지 않는 프리프린트
+- 한계: Anthropic Newsroom·Research에 노출된 날짜 있는 항목만 수집. 전체 문헌 검색이나 포괄적인 보안 사고 추적은 아님. arXiv는 동료 심사를 보장하지 않는 프리프린트
 - 검증: `node --test scripts/research-feeds.test.mjs`, `node scripts/check-research.mjs [사이트 URL]`
 
 자동화 연결 전에는 `npm run update:research`와 빌드·배포를 수동으로 실행합니다. 연결 후에도 예약 실행은 지연될 수 있으므로 페이지의 마지막 수집 성공 시각을 확인하세요. `data/research.json`의 automation_enabled는 Actions에서 실제 수집이 실행된 뒤 true가 됩니다.
@@ -136,3 +136,7 @@ AI 9개, CS 4개, Security 4개, AI for Security 3개의 개념 글을 추가했
 ## Home 최신 이슈
 
 홈 검색창 아래에서 연구 동향과 같은 수집 데이터의 보안·안전성·평가 글 최신 3건을 표시합니다. 출처의 게시·공고일을 표시하고 제목·태그 규칙으로 기존 개념 문서 두 개를 연결합니다. 전체 동향으로 이동할 수 있으며 갱신 실패·빈 목록·재시도를 처리합니다. 홈의 문서 결과는 검색어를 입력할 때 표시하고 분야별 탐색은 사이드바에서 제공합니다. 검증: `node scripts/check-home.mjs` (배포 URL 지정 가능).
+
+Research Watch는 기본으로 전체 주제를 보여주고, 상단 출처 카드마다 최근 글 3개를 따로 표시합니다. OpenAI 제품·회사 발표도 포함하며, Anthropic의 날짜와 제목이 서로 다른 링크에 있는 대표 뉴스 카드도 수집합니다. 원문 게시 시각으로 정렬하고 arXiv는 신규·수정 공고를 구분합니다.
+
+Home의 최신 소식도 출처별 1건씩 표시해 arXiv 글만 노출되는 문제를 방지합니다. 전체 뉴스·제품 발표는 Research Watch에서 확인할 수 있습니다.

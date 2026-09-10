@@ -40,7 +40,7 @@ document.addEventListener('keydown',event=>{if(event.key==='Escape')closeMenu();
 function localizeShell(){
  document.documentElement.lang=lang;
  updateAIExpansion();
- document.querySelector('.research-link').innerHTML='<span>◉</span> '+t('AI 보안 & 연구 동향','AI security & research');
+ document.querySelector('.research-link').innerHTML='<span>◉</span> '+t('AI Research Watch','AI Research Watch');
  window.updateThemeControl?.();
  document.querySelector('.brand').setAttribute('aria-label',t('홈','Home'));
  document.querySelector('.home-link').innerHTML=`<span>▦</span> ${'Home'} <span class="nav-count">${documents.length}</span>`;

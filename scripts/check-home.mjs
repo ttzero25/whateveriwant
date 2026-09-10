@@ -19,6 +19,7 @@ try{
    await page.locator(`[data-language="${language}"]`).click();
    await page.waitForSelector('.update-card');
    assert.equal(await page.locator('.update-card').count(),3);
+   assert.deepEqual(await page.locator('.update-card .research-item-meta>span:first-child').allTextContents(),['OpenAI','Anthropic','arXiv']);
    assert.equal(await page.locator('.topic-grid').count(),0);
    assert.equal(await page.locator('#home-search-results').isVisible(),false);
    assert.ok(await page.evaluate(()=>document.querySelector('#search').closest('.search-wrap').nextElementSibling.id==='home-updates'));
