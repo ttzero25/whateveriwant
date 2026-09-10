@@ -42,6 +42,38 @@ try {
   await mobile.waitForSelector('.article');
   assert.equal(await mobile.locator('#menu-toggle').getAttribute('aria-expanded'),'false');
   assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  const originals=JSON.parse(await fs.readFile('content/en/originals.json','utf8'));
+  await page.goto('http://127.0.0.1:4173/#/ai/transformer');
+  await page.waitForSelector('.concept-diagram svg');
+  await page.getByRole('button',{name:'English',exact:true}).click();
+  assert.equal(await page.locator('html').getAttribute('lang'),'en');
+  assert.equal(new URL(page.url()).hash,'#/ai/transformer');
+  assert.equal(await page.locator('.original-text .source-paragraph').first().innerText(),originals.concepts.transformer[0].blocks[0].text);
+  assert.match(await page.locator('.source-notice').innerText(),/not a translation/);
+  await page.screenshot({path:'.preview/english-article.png',fullPage:true});
+  await page.reload();
+  await page.waitForSelector('.original-text');
+  assert.equal(await page.locator('html').getAttribute('lang'),'en');
+  await page.locator('.article-next a').last().click();
+  await page.waitForSelector('.original-text');
+  assert.equal(await page.locator('html').getAttribute('lang'),'en');
+  for(const slug of Object.keys(originals.concepts)){
+    await page.goto('http://127.0.0.1:4173/#/ai/'+slug);
+    await page.waitForSelector('.concept-diagram svg');
+    assert.equal(await page.locator('.concept-diagram svg').count(),1);
+    assert.equal(await page.locator('.original-text .source-paragraph').first().innerText(),originals.concepts[slug][0].blocks[0].text);
+    assert.ok(await page.locator('.attribution a[href="https://creativecommons.org/licenses/by/4.0/"]').count());
+  }
+  await page.goto('http://127.0.0.1:4173/#/');
+  await page.waitForSelector('.doc-card');
+  await page.locator('#search').fill('경사하강법');
+  assert.ok(await page.locator('.doc-card').count()>0);
+  await mobile.getByRole('button',{name:'English',exact:true}).click();
+  assert.equal(await mobile.locator('html').getAttribute('lang'),'en');
+  assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  await mobile.screenshot({path:'.preview/mobile-english.png',fullPage:true});
+  await mobile.getByRole('button',{name:'한국어',exact:true}).click();
+  assert.match(await mobile.locator('.article blockquote').first().innerText(),/TL;DR/);
   assert.deepEqual(errors,[]);
-  console.log('PASS: 12 documents, search, empty state, filters, article, TL;DR, math, reload, table of contents, mobile navigation and overflow.');
+  console.log('PASS: search, filters, math, navigation; 10 bilingual diagrams, verbatim original openings, attribution, language persistence, cross-language search and mobile overflow.');
 } finally {await browser.close();}

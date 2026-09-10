@@ -2,38 +2,68 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import MarkdownIt from 'markdown-it';
 import katex from 'katex';
-
-const root=path.resolve(import.meta.dirname,'..');
-const output=path.join(root,'dist');
+const root=path.resolve(import.meta.dirname,'..'),output=path.join(root,'dist');
 await fs.mkdir(output,{recursive:true});
-for (const file of ['index.html','style.css','app.js']) await fs.copyFile(path.join(root,'web',file),path.join(output,file));
+for(const file of ['index.html','style.css','app.js','diagrams.js']) await fs.copyFile(path.join(root,'web',file),path.join(output,file));
 await fs.mkdir(path.join(output,'assets'),{recursive:true});
 await fs.cp(path.join(root,'node_modules/katex/dist'),path.join(output,'assets/katex'),{recursive:true});
+const originals=JSON.parse(await fs.readFile(path.join(root,'content/en/originals.json'),'utf8'));
 const order=['fundamentals','data-and-generalization','training','neural-networks','evaluation','tokens-and-embeddings','transformer','llm-inference','rag','fine-tuning','glossary','index'];
 const levels=['기초','기초','기초','기초','기초','핵심','핵심','핵심','응용','응용','참고','가이드'];
-const md=new MarkdownIt({html:false,linkify:true,typographer:false});
-const defaultLink=md.renderer.rules.link_open || ((tokens,idx,opts,env,self)=>self.renderToken(tokens,idx,opts));
+const englishTitles=['AI, ML and learning paradigms','Data splits and generalization','Loss and optimization','Neural networks and tensors','Classification metrics','Tokens and embeddings','Attention and Transformers','LLM generation and inference','Retrieval-augmented generation','Fine-tuning and LoRA','AI glossary','AI learning guide'];
+const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const md=new MarkdownIt({html:false,linkify:true});
+const defaultLink=md.renderer.rules.link_open||((tokens,idx,opts,env,self)=>self.renderToken(tokens,idx,opts));
 md.renderer.rules.link_open=(tokens,idx,opts,env,self)=>{
-  const token=tokens[idx],href=token.attrGet('href');
-  if(href==='../../README.md') token.attrSet('href','#/');
-  else if(href?.endsWith('.md') && !href.startsWith('http')) token.attrSet('href','#/ai/'+path.basename(href,'.md'));
-  else if(href?.startsWith('https://')) {token.attrSet('target','_blank');token.attrSet('rel','noopener noreferrer');}
-  return defaultLink(tokens,idx,opts,env,self);
+ const token=tokens[idx],href=token.attrGet('href');
+ if(href==='../../README.md')token.attrSet('href','#/');
+ else if(href?.endsWith('.md')&&!href.startsWith('http'))token.attrSet('href','#/ai/'+path.basename(href,'.md'));
+ else if(href?.startsWith('https://')){token.attrSet('target','_blank');token.attrSet('rel','noopener noreferrer');}
+ return defaultLink(tokens,idx,opts,env,self);
 };
+function mathText(text){
+ const re=/\$\$([\s\S]*?)\$\$|\\\(([\s\S]*?)\\\)/g;
+ let html='',last=0;
+ for(const match of text.matchAll(re)){html+=escape(text.slice(last,match.index));html+=katex.renderToString((match[1]??match[2]).replace(/(?<!\\)%/g, "\\%"),{displayMode:match[1]!==undefined,throwOnError:true,trust:false});last=match.index+match[0].length;}
+ return html+escape(text.slice(last));
+}
+function finalize(html){
+ html=html.replace(/<table>/g,'<div class="table-scroll"><table>').replace(/<\/table>/g,'</table></div>');
+ const headings=[];
+ html=html.replace(/<h2>(.*?)<\/h2>/g,(_,heading)=>{const id='section-'+headings.length;headings.push({id,title:heading.replace(/<[^>]*>/g,'')});return `<h2 id="${id}">${heading}</h2>`;});
+ return {html,headings};
+}
+function sectionHTML(section){return `<h2>${escape(section.heading)}</h2><div class="original-text" lang="en">`+section.blocks.map(block=>{
+ if(block.type==='ul'||block.type==='ol')return `<${block.type}>${block.items.map(item=>`<li>${mathText(item)}</li>`).join('')}</${block.type}>`;
+ if(block.type==='pre')return `<pre><code>${escape(block.text)}</code></pre>`;
+ if(block.type==='quote')return `<blockquote class="source-quote">${mathText(block.text)}</blockquote>`;
+ return `<div class="source-paragraph">${mathText(block.text)}</div>`;
+}).join('')+`</div><p class="original-reference"><a href="${escape(section.url)}" target="_blank" rel="noopener noreferrer">Google · ${escape(section.heading)} ↗</a></p>`;}
+const attribution=`<aside class="attribution"><strong>Source &amp; license</strong><p>Text excerpts from <a href="${originals.source_url}" target="_blank" rel="noopener noreferrer">Google’s Machine Learning Glossary</a>, used under <a href="${originals.license_url}" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>. Wording is unchanged; whitespace and layout are normalized. Selected introductory paragraphs are reproduced; later text and source figures are omitted. Any code samples remain under <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener noreferrer">Apache 2.0</a>. <a href="${originals.policy_url}" target="_blank" rel="noopener noreferrer">Google site policies</a>.</p><p>Source checked ${originals.checked_on}. Site titles, navigation, and explanatory diagrams are created for whateveriwant and are not part of the quoted source.</p></aside>`;
 const docs=[];
-for(const [i,slug] of order.entries()) {
-  const source=await fs.readFile(path.join(root,'content/ai',slug+'.md'),'utf8');
-  const title=source.match(/^# (.+)/m)[1];
-  const summary=source.split('\n').filter(line=>line.startsWith('> ')&&!line.includes('TL;DR')).map(line=>line.slice(2)).join(' ');
-  const maths=[];
-  let body=source.replace(/^# .+\n/,'').replace(/^AI 작성 해설.*\n/m,'');
-  body=body.replace(/\$\$([\s\S]*?)\$\$/g,(_,tex)=>{const index=maths.push(katex.renderToString(tex,{displayMode:true,throwOnError:true,trust:false}))-1;return `\n\nMATHPLACEHOLDER${index}END\n\n`;});
-  let html=md.render(body);
-  html=html.replace(/<p>MATHPLACEHOLDER(\d+)END<\/p>/g,(_,i)=>maths[Number(i)]);
-  html=html.replace(/<table>/g,'<div class="table-scroll"><table>').replace(/<\/table>/g,'</table></div>');
-  const headings=[];
-  html=html.replace(/<h2>(.*?)<\/h2>/g,(_,heading)=>{const id='section-'+headings.length;headings.push({id,title:heading.replace(/<[^>]*>/g,'')});return `<h2 id="${id}">${heading}</h2>`;});
-  docs.push({slug,title,summary:summary|| (slug==='glossary'?'30개의 한영 용어를 빠르게 찾아보고 관련 개념으로 이동하세요.':'AI 기초부터 LLM 활용까지, 나에게 맞는 학습 순서를 찾아보세요.'),level:levels[i],html,headings,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10'});
+for(const [i,slug] of order.entries()){
+ const source=await fs.readFile(path.join(root,'content/ai',slug+'.md'),'utf8');
+ const title=source.match(/^# (.+)/m)[1];
+ const summary=source.split('\n').filter(l=>l.startsWith('> ')&&!l.includes('TL;DR')).map(l=>l.slice(2)).join(' ');
+ const maths=[];
+ let body=source.replace(/^# .+\n/,'').replace(/^AI 작성 해설.*\n/m,'');
+ body=body.replace(/\$\$([\s\S]*?)\$\$/g,(_,tex)=>{const i=maths.push(katex.renderToString(tex,{displayMode:true,throwOnError:true,trust:false}))-1;return `\n\nMATHPLACEHOLDER${i}END\n\n`;});
+ const ko=finalize(md.render(body).replace(/<p>MATHPLACEHOLDER(\d+)END<\/p>/g,(_,i)=>maths[Number(i)]));
+ const sections=originals.concepts[slug];
+ let enHTML,enSummary,enType='original';
+ if(sections){
+  enSummary=sections[0].blocks.find(b=>b.type==='p').text;
+  enHTML=`<blockquote class="tldr-original"><p><strong>TL;DR · ORIGINAL EXCERPT</strong></p><p>${mathText(enSummary)}</p></blockquote>`+sections.map(sectionHTML).join('')+attribution;
+ }else if(slug==='glossary'){
+  enType='original';enSummary='Selected original definitions from Google’s Machine Learning Glossary.';
+  const unique=[...new Map(Object.values(originals.concepts).flat().map(s=>[s.url,s])).values()].sort((a,b)=>a.heading.localeCompare(b.heading));
+  enHTML=`<p>${escape(enSummary)}</p>`+unique.map(sectionHTML).join('')+attribution;
+ }else{
+  enType='navigation';enSummary='Explore ten core concepts, from machine learning fundamentals to LLM applications.';
+  enHTML='<h2>Learning path</h2><p>Site navigation created for whateveriwant. Each concept opens selected original English definitions from Google.</p><ol>'+order.slice(0,10).map((s,j)=>`<li><a href="#/ai/${s}">${englishTitles[j]}</a></li>`).join('')+'</ol><h2>Suggested routes</h2><p>Foundations: 1 → 2 → 3 → 4 → 5<br>Language models: 4 → 6 → 7 → 8<br>Document-based applications: 6 → 8 → 9 → 10</p>';
+ }
+ const en={title:englishTitles[i],summary:enSummary,...finalize(enHTML),source:sections?sections.map(s=>s.blocks.map(b=>b.text||b.items.join(' ')).join(' ')).join(' '):enSummary,type:enType,date:originals.checked_on};
+ docs.push({slug,title,summary:summary||(slug==='glossary'?'30개의 한영 용어를 빠르게 찾아보고 관련 개념으로 이동하세요.':'AI 기초부터 LLM 활용까지, 나에게 맞는 학습 순서를 찾아보세요.'),level:levels[i],...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10',en});
 }
 await fs.writeFile(path.join(output,'documents.json'),JSON.stringify(docs));
-console.log(`Built ${docs.length} documents; all math expressions rendered.`);
+console.log(`Built ${docs.length} bilingual documents with licensed original excerpts and math.`);

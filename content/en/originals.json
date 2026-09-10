@@ -1,0 +1,605 @@
+{
+  "provider": "Google",
+  "title": "Machine Learning Glossary",
+  "source_url": "https://developers.google.com/machine-learning/glossary?hl=en",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "policy_url": "https://developers.google.com/terms/site-policies",
+  "checked_on": "2026-09-10",
+  "source_sha256": "53cff87999c0b8b455c520fa60e8af99781833980123265e3690a413cd90f029",
+  "scope": "Selected introductory paragraphs and immediately following lists. Text is unchanged except whitespace normalization. Media and later paragraphs are omitted.",
+  "concepts": {
+    "fundamentals": [
+      {
+        "heading": "artificial intelligence",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#artificial-intelligence",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A non-human program or model that can solve sophisticated tasks. For example, a program or model that translates text or a program or model that identifies diseases from radiologic images both exhibit artificial intelligence."
+          },
+          {
+            "type": "p",
+            "text": "Formally, machine learning is a sub-field of artificial intelligence. However, in recent years, some organizations have begun using the terms artificial intelligence and machine learning interchangeably."
+          }
+        ]
+      },
+      {
+        "heading": "machine learning",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#machine-learning",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A program or system that trains a model from input data. The trained model can make useful predictions from new (never-before-seen) data drawn from the same distribution as the one used to train the model."
+          },
+          {
+            "type": "p",
+            "text": "Machine learning also refers to the field of study concerned with these programs or systems."
+          }
+        ]
+      },
+      {
+        "heading": "deep model",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#deep-model",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A neural network containing more than one hidden layer."
+          },
+          {
+            "type": "p",
+            "text": "A deep model is also called a deep neural network."
+          }
+        ]
+      },
+      {
+        "heading": "supervised machine learning",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#supervised-machine-learning",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Training a model from features and their corresponding labels. Supervised machine learning is analogous to learning a subject by studying a set of questions and their corresponding answers. After mastering the mapping between questions and answers, a student can then provide answers to new (never-before-seen) questions on the same topic."
+          },
+          {
+            "type": "p",
+            "text": "Compare with unsupervised machine learning."
+          }
+        ]
+      },
+      {
+        "heading": "unsupervised machine learning",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#unsupervised-machine-learning",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Training a model to find patterns in a dataset, typically an unlabeled dataset."
+          },
+          {
+            "type": "p",
+            "text": "The most common use of unsupervised machine learning is to cluster data into groups of similar examples. For example, an unsupervised machine learning algorithm can cluster songs based on various properties of the music. The resulting clusters can become an input to other machine learning algorithms (for example, to a music recommendation service). Clustering can help when useful labels are scarce or absent. For example, in domains such as anti-abuse and fraud, clusters can help humans better understand the data."
+          }
+        ]
+      }
+    ],
+    "data-and-generalization": [
+      {
+        "heading": "generalization",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#generalization",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A model's ability to make correct predictions on new, previously unseen data. A model that can generalize is the opposite of a model that is overfitting."
+          },
+          {
+            "type": "p",
+            "text": "See Generalization in Machine Learning Crash Course for more information."
+          }
+        ]
+      },
+      {
+        "heading": "overfitting",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#overfitting",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Creating a model that matches the training data so closely that the model fails to make correct predictions on new data."
+          },
+          {
+            "type": "p",
+            "text": "Regularization can reduce overfitting. Training on a large and diverse training set can also reduce overfitting."
+          }
+        ]
+      },
+      {
+        "heading": "training set",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#training-set",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The subset of the dataset used to train a model."
+          },
+          {
+            "type": "p",
+            "text": "Traditionally, examples in the dataset are divided into the following three distinct subsets:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "a training set",
+              "a validation set",
+              "a test set"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "validation set",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#validation-set",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The subset of the dataset that performs initial evaluation against a trained model. Typically, you evaluate the trained model against the validation set several times before evaluating the model against the test set."
+          },
+          {
+            "type": "p",
+            "text": "Traditionally, you divide the examples in the dataset into the following three distinct subsets:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "a training set",
+              "a validation set",
+              "a test set"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "test set",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#test-set",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A subset of the dataset reserved for testing a trained model."
+          },
+          {
+            "type": "p",
+            "text": "Traditionally, you divide examples in the dataset into the following three distinct subsets:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "a training set",
+              "a validation set",
+              "a test set"
+            ]
+          }
+        ]
+      }
+    ],
+    "training": [
+      {
+        "heading": "training",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#training",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The process of determining the ideal parameters (weights and biases) comprising a model. During training, a system reads in examples and gradually adjusts parameters. Training uses each example anywhere from a few times to billions of times."
+          },
+          {
+            "type": "p",
+            "text": "See Supervised Learning in the Introduction to ML course for more information."
+          }
+        ]
+      },
+      {
+        "heading": "loss",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#loss",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "During the training of a supervised model, a measure of how far a model's prediction is from its label."
+          },
+          {
+            "type": "p",
+            "text": "A loss function calculates the loss."
+          }
+        ]
+      },
+      {
+        "heading": "gradient descent",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#gradient-descent",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A mathematical technique to minimize loss. Gradient descent iteratively adjusts weights and biases, gradually finding the best combination to minimize loss."
+          },
+          {
+            "type": "p",
+            "text": "Gradient descent is older—much, much older—than machine learning."
+          }
+        ]
+      },
+      {
+        "heading": "backpropagation",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#backpropagation",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The algorithm that implements gradient descent in neural networks."
+          },
+          {
+            "type": "p",
+            "text": "Training a neural network involves many iterations of the following two-pass cycle:"
+          },
+          {
+            "type": "ol",
+            "items": [
+              "During the forward pass, the system processes a batch of examples to yield prediction(s). The system compares each prediction to each label value. The difference between the prediction and the label value is the loss for that example. The system aggregates the losses for all the examples to compute the total loss for the current batch.",
+              "During the backward pass (backpropagation), the system reduces loss by adjusting the weights of all the neurons in all the hidden layer(s)."
+            ]
+          }
+        ]
+      }
+    ],
+    "neural-networks": [
+      {
+        "heading": "neural network",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#neural-network",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A model containing at least one hidden layer. A deep neural network is a type of neural network containing more than one hidden layer. For example, the following diagram shows a deep neural network containing two hidden layers."
+          },
+          {
+            "type": "p",
+            "text": "Each neuron in a neural network connects to all of the nodes in the next layer. For example, in the preceding diagram, notice that each of the three neurons in the first hidden layer separately connect to both of the two neurons in the second hidden layer."
+          }
+        ]
+      },
+      {
+        "heading": "Tensor",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#tensor",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The primary data structure in TensorFlow programs. Tensors are N-dimensional (where N could be very large) data structures, most commonly scalars, vectors, or matrixes. The elements of a Tensor can hold integer, floating-point, or string values."
+          }
+        ]
+      },
+      {
+        "heading": "Tensor shape",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#tensor-shape",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The number of elements a Tensor contains in various dimensions. For example, a [5, 10] Tensor has a shape of 5 in one dimension and 10 in another."
+          }
+        ]
+      }
+    ],
+    "evaluation": [
+      {
+        "heading": "accuracy",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#accuracy",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The number of correct classification predictions divided by the total number of predictions. That is:"
+          },
+          {
+            "type": "p",
+            "text": "$$\\text{Accuracy} = \\frac{\\text{correct predictions}} {\\text{correct predictions + incorrect predictions }}$$"
+          },
+          {
+            "type": "p",
+            "text": "For example, a model that made 40 correct predictions and 10 incorrect predictions would have an accuracy of:"
+          },
+          {
+            "type": "p",
+            "text": "$$\\text{Accuracy} = \\frac{\\text{40}} {\\text{40 + 10}} = \\text{80%}$$"
+          }
+        ]
+      },
+      {
+        "heading": "precision",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#precision",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A metric for classification models that answers the following question:"
+          },
+          {
+            "type": "quote",
+            "text": "When the model predicted the positive class, what percentage of the predictions were correct?"
+          },
+          {
+            "type": "p",
+            "text": "Here is the formula:"
+          },
+          {
+            "type": "p",
+            "text": "$$\\text{Precision} = \\frac{\\text{true positives}} {\\text{true positives} + \\text{false positives}}$$"
+          }
+        ]
+      },
+      {
+        "heading": "recall",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#recall",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A metric for classification models that answers the following question:"
+          },
+          {
+            "type": "quote",
+            "text": "When ground truth was the positive class, what percentage of predictions did the model correctly identify as the positive class?"
+          },
+          {
+            "type": "p",
+            "text": "Here is the formula:"
+          }
+        ]
+      },
+      {
+        "heading": "false positive (FP)",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#false-positive-fp",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "An example in which the model mistakenly predicts the positive class. For example, the model predicts that a particular email message is spam (the positive class), but that email message is actually not spam."
+          },
+          {
+            "type": "p",
+            "text": "See Thresholds and the confusion matrix in Machine Learning Crash Course for more information."
+          }
+        ]
+      },
+      {
+        "heading": "false negative (FN)",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#false-negative-fn",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "An example in which the model mistakenly predicts the negative class. For example, the model predicts that a particular email message is not spam (the negative class), but that email message actually is spam."
+          }
+        ]
+      }
+    ],
+    "tokens-and-embeddings": [
+      {
+        "heading": "token",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#token",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "In a language model, the atomic unit that the model is training on and making predictions on. A token is typically one of the following:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "a word—for example, the phrase \"dogs like cats\" consists of three word tokens: \"dogs\", \"like\", and \"cats\".",
+              "a character—for example, the phrase \"bike fish\" consists of nine character tokens. (Note that the blank space counts as one of the tokens.)",
+              "subwords—in which a single word can be a single token or multiple tokens. A subword consists of a root word, a prefix, or a suffix. For example, a language model that uses subwords as tokens might view the word \"dogs\" as two tokens (the root word \"dog\" and the plural suffix \"s\"). That same language model might view the single word \"taller\" as two subwords (the root word \"tall\" and the suffix \"er\")."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "In domains outside of language models, tokens can represent other kinds of atomic units. For example, in computer vision, a token might be a subset of an image."
+          }
+        ]
+      },
+      {
+        "heading": "tokenizer",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#tokenizer",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A system or algorithm that translates a sequence of input data into tokens."
+          },
+          {
+            "type": "p",
+            "text": "Most modern foundation models are multimodal. A tokenizer for a multimodal system must translate each input type into the appropriate format. For example, given input data consisting of both text and graphics, the tokenizer might translate input text into subwords and input images into small patches. The tokenizer must then convert all the tokens into a single unified embedding space, which enables the model to \"understand\" a stream of multimodal input."
+          }
+        ]
+      },
+      {
+        "heading": "embedding vector",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#embedding-vector",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Broadly speaking, an array of floating-point numbers taken from any hidden layer that describe the inputs to that hidden layer. Often, an embedding vector is the array of floating-point numbers trained in an embedding layer. For example, suppose an embedding layer must learn an embedding vector for each of the 73,000 tree species on Earth. Perhaps the following array is the embedding vector for a baobab tree:"
+          },
+          {
+            "type": "p",
+            "text": "An embedding vector is not a bunch of random numbers. An embedding layer determines these values through training, similar to the way a neural network learns other weights during training. Each element of the array is a rating along some characteristic of a tree species. Which element represents which tree species' characteristic? That's very hard for humans to determine."
+          }
+        ]
+      }
+    ],
+    "transformer": [
+      {
+        "heading": "Transformer",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#transformer",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A neural network architecture developed at Google that relies on self-attention mechanisms to transform a sequence of input embeddings into a sequence of output embeddings without relying on convolutions or recurrent neural networks. A Transformer can be viewed as a stack of self-attention layers."
+          },
+          {
+            "type": "p",
+            "text": "A Transformer can include any of the following:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "an encoder",
+              "a decoder",
+              "both an encoder and decoder"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "attention",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#attention",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A mechanism used in a neural network that indicates the importance of a particular word or part of a word. Attention compresses the amount of information a model needs to predict the next token/word. A typical attention mechanism might consist of a weighted sum over a set of inputs, where the weight for each input is computed by another part of the neural network."
+          },
+          {
+            "type": "p",
+            "text": "Refer also to self-attention and multi-head self-attention, which are the building blocks of Transformers."
+          }
+        ]
+      },
+      {
+        "heading": "self-attention (also called self-attention layer)",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#self-attention-also-called-self-attention-layer",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A neural network layer that transforms a sequence of embeddings (for example, token embeddings) into another sequence of embeddings. Each embedding in the output sequence is constructed by integrating information from the elements of the input sequence through an attention mechanism."
+          },
+          {
+            "type": "p",
+            "text": "The self part of self-attention refers to the sequence attending to itself rather than to some other context. Self-attention is one of the main building blocks for Transformers and uses dictionary lookup terminology, such as \"query\", \"key\", and \"value\"."
+          }
+        ]
+      }
+    ],
+    "llm-inference": [
+      {
+        "heading": "large language model",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#large-language-model",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "At a minimum, a language model having a very high number of parameters. More informally, any Transformer-based language model, such as Gemini or GPT."
+          },
+          {
+            "type": "p",
+            "text": "See Large language models (LLMs) in Machine Learning Crash Course for more information."
+          }
+        ]
+      },
+      {
+        "heading": "inference",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#inference",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "In traditional machine learning, the process of making predictions by applying a trained model to unlabeled examples. See Supervised Learning in the Intro to ML course to learn more."
+          },
+          {
+            "type": "p",
+            "text": "In large language models, inference is the process of using a trained model to generate a response to an input prompt."
+          }
+        ]
+      },
+      {
+        "heading": "context window",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#context-window",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The number of tokens a model can process in a given prompt. The larger the context window, the more information the model can use to provide coherent and consistent responses to the prompt."
+          }
+        ]
+      },
+      {
+        "heading": "temperature",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#temperature",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A hyperparameter that controls the degree of randomness of a model's output. Higher temperatures result in more random output, while lower temperatures result in less random output."
+          },
+          {
+            "type": "p",
+            "text": "Choosing the best temperature depends on the specific application and or string values."
+          }
+        ]
+      }
+    ],
+    "rag": [
+      {
+        "heading": "retrieval-augmented generation (RAG)",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#retrieval-augmented-generation-rag",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A technique for improving the quality of large language model (LLM) output by grounding it with sources of knowledge retrieved after the model was trained. RAG improves the accuracy of LLM responses by providing the trained LLM with access to information retrieved from trusted knowledge bases or documents."
+          },
+          {
+            "type": "p",
+            "text": "Common motivations to use retrieval-augmented generation include:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Increasing the factual accuracy of a model's generated responses.",
+              "Giving the model access to knowledge it was not trained on.",
+              "Changing the knowledge that the model uses.",
+              "Enabling the model to cite sources."
+            ]
+          }
+        ]
+      }
+    ],
+    "fine-tuning": [
+      {
+        "heading": "fine-tuning",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#fine-tuning",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A second, task-specific training pass performed on a pre-trained model to refine its parameters for a specific use case. For example, the full training sequence for some large language models is as follows:"
+          },
+          {
+            "type": "ol",
+            "items": [
+              "Pre-training: Train a large language model on a vast general dataset, such as all the English language Wikipedia pages.",
+              "Fine-tuning: Train the pre-trained model to perform a specific task, such as responding to medical queries. Fine-tuning typically involves hundreds or thousands of examples focused on the specific task."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "As another example, the full training sequence for a large image model is as follows:"
+          },
+          {
+            "type": "ol",
+            "items": [
+              "Pre-training: Train a large image model on a vast general image dataset, such as all the images in Wikimedia commons.",
+              "Fine-tuning: Train the pre-trained model to perform a specific task, such as generating images of orcas."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Low-Rank Adaptability (LoRA)",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#low-rank-adaptability-lora",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A parameter-efficient technique for fine tuning that \"freezes\" the model's pre-trained weights (such that they can no longer be modified) and then inserts a small set of trainable weights into the model. This set of trainable weights (also known as \"update matrixes\") is considerably smaller than the base model and is therefore much faster to train."
+          },
+          {
+            "type": "p",
+            "text": "LoRA provides the following benefits:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Improves the quality of a model's predictions for the domain where the fine tuning is applied.",
+              "Fine-tunes faster than techniques that require fine-tuning all of a model's parameters.",
+              "Reduces the computational cost of inference by enabling concurrent serving of multiple specialized models sharing the same base model."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -4,7 +4,8 @@
   "description": "Security · CS · OS · AI · AI for Security를 연결하는 개인 지식백과.",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist"
+    "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "import:english": "node scripts/import-english.mjs"
   },
   "repository": {
     "type": "git",
@@ -12,7 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/ttzero25/whateveriwant/issues"
   },
@@ -23,6 +24,7 @@
     "markdown-it": "^15.0.1"
   },
   "devDependencies": {
+    "cheerio": "^1.2.0",
     "playwright": "^1.63.0"
   }
 }

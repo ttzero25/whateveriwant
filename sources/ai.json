@@ -123,6 +123,21 @@
       "documents": [
         "content/ai/transformer.md"
       ]
+    },
+    {
+      "title": "Google Machine Learning Glossary — English excerpts",
+      "url": "https://developers.google.com/machine-learning/glossary?hl=en",
+      "checked_on": "2026-09-10",
+      "usage": "verbatim_selected_text_excerpts",
+      "full_text_imported": false,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "code_license": "Apache-2.0",
+      "redistribution_review": "Google site policy and page license notice checked; media excluded",
+      "policy_url": "https://developers.google.com/terms/site-policies",
+      "documents": [
+        "content/en/originals.json"
+      ]
     }
   ]
 }
