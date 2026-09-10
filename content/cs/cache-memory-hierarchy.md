@@ -4,7 +4,7 @@
 >
 > 메모리는 빠르고 작은 것(레지스터·캐시)부터 느리고 큰 것(RAM·디스크)까지 계층을 이룹니다. 프로그램 성능은 이 계층에서 데이터를 얼마나 가까이 두느냐, 즉 지역성에 크게 좌우됩니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 왜 계층이 존재하는가
 
@@ -44,7 +44,7 @@ for (int j = 0; j < N; j++)
         sum += a[i][j];
 ```
 
-(A)와 (B)는 결과가 같지만, 큰 배열에서 (B)가 몇 배 느릴 수 있습니다. 연결 리스트가 배열보다 순회가 느린 것도 노드가 메모리에 흩어져 지역성이 낮기 때문입니다. 자료구조 선택은 [자료구조](data-structures.md), 복잡도의 상수 인자는 [알고리즘과 Big-O](algorithms-complexity.md)와 함께 봐야 합니다.
+(A)와 (B)는 결과가 같지만, 큰 배열에서 (B)가 몇 배 느릴 수 있습니다. 연결 리스트가 배열보다 순회가 느린 것도 노드가 메모리에 흩어져 지역성이 낮기 때문입니다. 자료구조 선택은 [자료구조](../algorithms/data-structures.md), 복잡도의 상수 인자는 [알고리즘과 Big-O](../algorithms/algorithms-complexity.md)와 함께 봐야 합니다.
 
 ## 실무 함의
 
@@ -60,4 +60,4 @@ for (int j = 0; j < N; j++)
 
 [What Every Programmer Should Know About Memory (Drepper)](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
 
-관련: [CPU·메모리·저장장치](computer-architecture.md) · [자료구조](data-structures.md) · [알고리즘과 Big-O](algorithms-complexity.md) · [목차](index.md)
+관련: [CPU·메모리·저장장치](computer-architecture.md) · [자료구조](../algorithms/data-structures.md) · [알고리즘과 Big-O](../algorithms/algorithms-complexity.md) · [목차](index.md)

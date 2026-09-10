@@ -4,7 +4,7 @@
 >
 > 배포물의 신뢰는 소스 코드뿐 아니라 의존성, 빌드 환경과 배포 권한에 달려 있습니다. 무엇이 들어갔는지와 어디서 어떻게 만들어졌는지를 추적해야 합니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 소스에서 배포물까지
 
@@ -31,4 +31,4 @@ SBOM과 잠금 파일로 영향 제품과 버전을 찾습니다. 사용 위치�
 
 아티팩트의 해시가 다운로드 페이지의 값과 같더라도 그 페이지와 배포 경로를 모두 신뢰할 수 없다면 무엇을 추가로 확인해야 할까요?
 
-관련: [암호학](cryptography.md) · [시큐어 개발](secure-development.md) · [AI 시스템 보호](../ai-for-security/securing-ai-systems.md) · [목차](index.md)
+관련: [암호학](../crypto/foundations.md) · [시큐어 개발](secure-development.md) · [AI 시스템 보호](../ai-for-security/securing-ai-systems.md) · [목차](index.md)

@@ -4,7 +4,7 @@
 >
 > CPU는 명령어를 실행하고, 메모리는 실행 중 필요한 데이터를 보관하며, 저장장치는 데이터를 지속적으로 보관합니다. 성능은 CPU 속도 하나가 아니라 데이터 이동과 대기에도 좌우됩니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 주요 구성 요소
 
@@ -32,4 +32,4 @@ CPU 정의 참고: [Arm — CPU](https://www.arm.com/glossary/cpu).
 
 RAM을 늘린다고 모든 계산이 빨라지지는 않습니다. 필요한 작업 공간이 충분한 경우 병목은 계산이나 I/O에 있을 수 있습니다. CPU 클록만으로 서로 다른 아키텍처의 성능을 비교하기도 어렵습니다. 또한 SSD도 RAM을 완전히 대체하지는 않습니다.
 
-관련: [데이터 표현](data-representation.md) · [동시성](concurrency.md) · [복잡도](algorithms-complexity.md) · [목차](index.md)
+관련: [데이터 표현](data-representation.md) · [동시성](concurrency.md) · [복잡도](../algorithms/algorithms-complexity.md) · [목차](index.md)

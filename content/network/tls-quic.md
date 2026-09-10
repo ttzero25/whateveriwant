@@ -4,7 +4,7 @@
 >
 > TLS는 통신을 보호하고 HTTP/2·HTTP/3는 요청을 전달하는 방식을 개선합니다. QUIC은 UDP 위에 보안과 신뢰성 있는 스트림 등을 구성하며, UDP 자체와 같은 보장 수준으로 해석하면 안 됩니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## TLS와 인증서
 
@@ -32,4 +32,4 @@ QUIC은 UDP 위에서 TLS 기반 보안, 연결 관리, 신뢰성 있는 스트�
 
 HTTP/3가 UDP 기반이라는 이유로 응답의 순서·신뢰성이 전혀 없다고 결론 내릴 수 있을까요?
 
-관련: [TCP·UDP](tcp-udp.md) · [HTTP](http-caching.md) · [암호학](../security/cryptography.md) · [목차](index.md)
+관련: [TCP·UDP](tcp-udp.md) · [HTTP](http-caching.md) · [암호학](../crypto/foundations.md) · [목차](index.md)

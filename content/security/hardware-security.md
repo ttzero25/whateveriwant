@@ -4,7 +4,7 @@
 >
 > 소프트웨어만으로는 자신을 실행하는 토대가 신뢰할 수 있는지 증명하기 어렵습니다. TPM·TEE·HSM 같은 하드웨어 신뢰 뿌리는 키를 격리하고, 부팅 무결성을 측정하며, 민감 연산을 분리된 환경에서 수행합니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 신뢰의 뿌리(Root of Trust)
 
@@ -18,7 +18,7 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | TEE | 일반 OS와 격리된 실행 환경(ARM TrustZone, Intel SGX 등) |
 | HSM | 키를 절대 밖으로 내보내지 않는 전용 암호 장치 |
 
-공통점은 **키·연산을 일반 소프트웨어에서 격리**한다는 것입니다. 키가 프로세스 메모리에 노출되지 않으므로, 침해된 OS라도 키 자체를 빼내기 어렵습니다. 암호 원리는 [암호학](cryptography.md)에서 다룹니다.
+공통점은 **키·연산을 일반 소프트웨어에서 격리**한다는 것입니다. 키가 프로세스 메모리에 노출되지 않으므로, 침해된 OS라도 키 자체를 빼내기 어렵습니다. 암호 원리는 [암호학](../crypto/foundations.md)에서 다룹니다.
 
 ## 측정 부팅과 증명
 
@@ -55,4 +55,4 @@ TPM·TEE가 있다고 시스템이 자동으로 안전해지지 않습니다. �
 
 [TCG: TPM 2.0 개요](https://trustedcomputinggroup.org/resource/tpm-library-specification/) · [NIST SP 800-193: 플랫폼 펌웨어 복원력](https://csrc.nist.gov/pubs/sp/800/193/final)
 
-관련: [시스템 보안](system-security.md) · [부팅 과정](../os/boot-process.md) · [암호학](cryptography.md) · [소프트웨어 공급망 보안](software-supply-chain.md) · [목차](index.md)
+관련: [시스템 보안](system-security.md) · [부팅 과정](../os/boot-process.md) · [암호학](../crypto/foundations.md) · [소프트웨어 공급망 보안](software-supply-chain.md) · [목차](index.md)

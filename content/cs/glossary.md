@@ -4,7 +4,7 @@
 >
 > CS 기본 용어 30개를 빠르게 확인하고 관련 문서에서 예시와 한계를 읽습니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 용어 찾아보기
 
@@ -17,15 +17,15 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | Register / 레지스터 | CPU의 작은 저장 공간 | [개념 보기](computer-architecture.md) |
 | Cache / 캐시 | 재사용할 데이터의 사본 | [개념 보기](computer-architecture.md) |
 | RAM | 실행 중 데이터의 주기억장치 | [개념 보기](computer-architecture.md) |
-| Array / 배열 | 인덱스로 접근하는 구조 | [개념 보기](data-structures.md) |
-| Stack / 스택 | 마지막 입력을 먼저 꺼내는 구조 | [개념 보기](data-structures.md) |
-| Queue / 큐 | 먼저 입력한 값을 먼저 꺼내는 구조 | [개념 보기](data-structures.md) |
-| Hash table / 해시 테이블 | 키를 해시해 조회하는 구조 | [개념 보기](data-structures.md) |
-| Tree / 트리 | 계층적 연결 구조 | [개념 보기](data-structures.md) |
-| Graph / 그래프 | 노드와 간선으로 관계 표현 | [개념 보기](data-structures.md) |
-| Algorithm / 알고리즘 | 문제를 푸는 계산 절차 | [개념 보기](algorithms-complexity.md) |
-| Big-O | 점근적 증가율의 상한 | [개념 보기](algorithms-complexity.md) |
-| Binary search / 이진 탐색 | 범위를 절반씩 좁히는 탐색 | [개념 보기](algorithms-complexity.md) |
+| Array / 배열 | 인덱스로 접근하는 구조 | [개념 보기](../algorithms/data-structures.md) |
+| Stack / 스택 | 마지막 입력을 먼저 꺼내는 구조 | [개념 보기](../algorithms/data-structures.md) |
+| Queue / 큐 | 먼저 입력한 값을 먼저 꺼내는 구조 | [개념 보기](../algorithms/data-structures.md) |
+| Hash table / 해시 테이블 | 키를 해시해 조회하는 구조 | [개념 보기](../algorithms/data-structures.md) |
+| Tree / 트리 | 계층적 연결 구조 | [개념 보기](../algorithms/data-structures.md) |
+| Graph / 그래프 | 노드와 간선으로 관계 표현 | [개념 보기](../algorithms/data-structures.md) |
+| Algorithm / 알고리즘 | 문제를 푸는 계산 절차 | [개념 보기](../algorithms/algorithms-complexity.md) |
+| Big-O | 점근적 증가율의 상한 | [개념 보기](../algorithms/algorithms-complexity.md) |
+| Binary search / 이진 탐색 | 범위를 절반씩 좁히는 탐색 | [개념 보기](../algorithms/algorithms-complexity.md) |
 | IP | 패킷 전달과 주소 지정 | [개념 보기](networking.md) |
 | Port / 포트 | 전송 계층 통신 끝점 구분 | [개념 보기](networking.md) |
 | DNS | 이름의 레코드 조회 | [개념 보기](networking.md) |
@@ -50,7 +50,7 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | 용어 | 의미 | 해설 |
 |---|---|---|
 | 불변식 / Invariant | 실행 단계에서 유지해야 할 성질 | [개념 보기](discrete-mathematics.md) |
-| 위상 정렬 / Topological ordering | 방향 비순환 그래프의 의존 순서 | [개념 보기](graphs-search.md) |
+| 위상 정렬 / Topological ordering | 방향 비순환 그래프의 의존 순서 | [개념 보기](../algorithms/graphs-search.md) |
 | JIT | 실행 도중 코드를 컴파일하는 방식 | [개념 보기](language-execution.md) |
 | 멱등성 / Idempotency | 반복 요청의 효과를 정한 범위에서 동일하게 유지 | [개념 보기](distributed-systems.md) |
 
@@ -71,4 +71,4 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | 타입 시스템 | Type system | 값에 규칙을 부여해 오류를 사전 차단 |
 | 정적·동적 타입 | Static / Dynamic typing | 타입 검사 시점의 차이 |
 
-관련 문서: [동적 계획법](dynamic-programming.md) · [정규 표현식과 오토마타](automata-regex.md) · [캐시·메모리 계층](cache-memory-hierarchy.md) · [부동소수점](floating-point.md) · [소프트웨어 설계](software-design.md) · [타입 시스템](type-systems.md)
+관련 문서: [동적 계획법](../algorithms/dynamic-programming.md) · [정규 표현식과 오토마타](automata-regex.md) · [캐시·메모리 계층](cache-memory-hierarchy.md) · [부동소수점](floating-point.md) · [소프트웨어 설계](software-design.md) · [타입 시스템](type-systems.md)

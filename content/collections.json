@@ -13,11 +13,6 @@
         "level": "기초"
       },
       {
-        "slug": "cryptography",
-        "englishTitle": "Cryptography and key management",
-        "level": "기초"
-      },
-      {
         "slug": "web-security",
         "englishTitle": "Web security",
         "level": "핵심"
@@ -430,6 +425,141 @@
       {
         "slug": "index",
         "englishTitle": "Vulnerability learning guide",
+        "level": "가이드"
+      }
+    ]
+  },
+  {
+    "topic": "crypto",
+    "entries": [
+      {
+        "slug": "foundations",
+        "englishTitle": "Cryptography overview",
+        "level": "기초"
+      },
+      {
+        "slug": "symmetric-encryption",
+        "englishTitle": "Symmetric encryption: AES and modes",
+        "level": "핵심"
+      },
+      {
+        "slug": "asymmetric-encryption",
+        "englishTitle": "Asymmetric encryption: RSA and ECC",
+        "level": "핵심"
+      },
+      {
+        "slug": "hashing",
+        "englishTitle": "Cryptographic hash functions",
+        "level": "핵심"
+      },
+      {
+        "slug": "mac-and-signatures",
+        "englishTitle": "MAC and digital signatures",
+        "level": "핵심"
+      },
+      {
+        "slug": "key-exchange",
+        "englishTitle": "Key exchange and forward secrecy",
+        "level": "핵심"
+      },
+      {
+        "slug": "password-storage",
+        "englishTitle": "Password storage",
+        "level": "핵심"
+      },
+      {
+        "slug": "pki-and-certificates",
+        "englishTitle": "PKI and certificates",
+        "level": "응용"
+      },
+      {
+        "slug": "randomness",
+        "englishTitle": "Randomness and entropy",
+        "level": "핵심"
+      },
+      {
+        "slug": "key-management",
+        "englishTitle": "Key management and lifecycle",
+        "level": "응용"
+      },
+      {
+        "slug": "glossary",
+        "englishTitle": "Cryptography glossary",
+        "level": "참고"
+      },
+      {
+        "slug": "index",
+        "englishTitle": "Cryptography learning guide",
+        "level": "가이드"
+      }
+    ]
+  },
+  {
+    "topic": "algorithms",
+    "entries": [
+      {
+        "slug": "data-structures",
+        "englishTitle": "Data structures",
+        "level": "기초"
+      },
+      {
+        "slug": "algorithms-complexity",
+        "englishTitle": "Algorithms and Big-O",
+        "level": "기초"
+      },
+      {
+        "slug": "sorting",
+        "englishTitle": "Sorting algorithms",
+        "level": "핵심"
+      },
+      {
+        "slug": "searching",
+        "englishTitle": "Searching: binary and hash",
+        "level": "핵심"
+      },
+      {
+        "slug": "hash-tables",
+        "englishTitle": "Hash tables",
+        "level": "핵심"
+      },
+      {
+        "slug": "trees-and-bst",
+        "englishTitle": "Trees and binary search trees",
+        "level": "핵심"
+      },
+      {
+        "slug": "heaps-priority-queues",
+        "englishTitle": "Heaps and priority queues",
+        "level": "핵심"
+      },
+      {
+        "slug": "graphs-search",
+        "englishTitle": "Graphs, traversal and dependencies",
+        "level": "핵심"
+      },
+      {
+        "slug": "dynamic-programming",
+        "englishTitle": "Dynamic programming and algorithm design",
+        "level": "핵심"
+      },
+      {
+        "slug": "greedy",
+        "englishTitle": "Greedy algorithms",
+        "level": "핵심"
+      },
+      {
+        "slug": "backtracking",
+        "englishTitle": "Backtracking and exhaustive search",
+        "level": "응용"
+      },
+      {
+        "slug": "glossary",
+        "englishTitle": "Algorithms & data structures glossary",
+        "level": "참고"
+      },
+      {
+        "slug": "index",
+        "englishTitle": "Algorithms & data structures guide",
         "level": "가이드"
       }
     ]

@@ -4,7 +4,7 @@
 >
 > 네트워크 보안은 통신 상대와 경로를 검증하고, 허용되는 연결을 제한하며, 이상 징후를 관측하는 일입니다. 암호화된 연결에서도 애플리케이션의 인가는 별도로 필요합니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 계층마다 다른 보호
 
@@ -47,7 +47,7 @@ IDS는 의심스러운 활동을 탐지하고, IPS는 배치와 정책에 따라
 
 VPN 안의 모든 서비스가 하나의 관리자 비밀번호를 공유한다면 연결 암호화만으로 피해 범위를 제한할 수 있을까요? 네트워크 연결 권한과 서비스 사용 권한을 나누어 보세요.
 
-관련: [암호학](cryptography.md) · [인증과 인가](authentication-authorization.md) · [시스템 보안](system-security.md) · [목차](index.md)
+관련: [암호학](../crypto/foundations.md) · [인증과 인가](authentication-authorization.md) · [시스템 보안](system-security.md) · [목차](index.md)
 
 ## 통신 원리부터 이해하려면
 

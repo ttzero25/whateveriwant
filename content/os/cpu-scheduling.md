@@ -4,7 +4,7 @@
 >
 > 스케줄러는 실행 가능한 작업 중 누가 CPU를 사용할지 정합니다. 응답 시간·공정성·처리량 사이의 균형이 필요하며, 문맥 교환에도 상태 저장과 복구 비용이 듭니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 스케줄링이 필요한 이유
 
@@ -28,7 +28,7 @@ A와 B가 동시에 준비되어 있고 각각 CPU 4ms가 필요하다고 합시
 
 응답 시간은 첫 반응까지, 반환 시간은 작업 도착부터 완료까지, 처리량은 단위 시간에 끝낸 작업 수입니다. 문맥 교환 때 레지스터 등 실행 상태를 저장·복구하며 캐시나 주소 변환 캐시에도 간접 비용이 생길 수 있습니다. CPU 사용률만 높다고 사용자가 빠르다고 느끼는 것은 아닙니다.
 
-관련: [실행 상태](processes-threads.md) · [I/O와 인터럽트](io-interrupts.md) · [CS 복잡도](../cs/algorithms-complexity.md)
+관련: [실행 상태](processes-threads.md) · [I/O와 인터럽트](io-interrupts.md) · [CS 복잡도](../algorithms/algorithms-complexity.md)
 
 공식 참고: [Microsoft · Scheduling](https://learn.microsoft.com/en-us/windows/win32/procthread/scheduling). 영어 보기는 이 자료의 관련 개념을 짧게 인용합니다.
 

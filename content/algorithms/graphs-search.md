@@ -4,7 +4,7 @@
 >
 > 그래프는 대상과 관계를 정점·간선으로 표현합니다. BFS·DFS·위상 정렬은 각각 거리, 구조 탐색, 의존 순서를 다루며 문제의 간선 의미에 맞게 선택해야 합니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 같은 대상도 다른 그래프가 된다
 
@@ -30,4 +30,4 @@ A에서 B로, B에서 A로 이어지는 그래프에서는 이미 방문한 정�
 
 가장 적은 환승 횟수와 가장 짧은 이동 시간은 같은 최단 경로 문제일까요? 간선 비용을 각각 정의해 보세요.
 
-관련: [자료구조](data-structures.md) · [복잡도](algorithms-complexity.md) · [분산 시스템](distributed-systems.md) · [목차](index.md)
+관련: [자료구조](data-structures.md) · [복잡도](algorithms-complexity.md) · [분산 시스템](../cs/distributed-systems.md) · [목차](index.md)

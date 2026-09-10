@@ -6,7 +6,7 @@
     "level": "기초"
   },
   {
-    "topic": "cs",
+    "topic": "algorithms",
     "slug": "graphs-search",
     "englishTitle": "Graphs, traversal and dependencies",
     "level": "핵심"
@@ -153,7 +153,7 @@
     "level": "응용"
   },
   {
-    "topic": "cs",
+    "topic": "algorithms",
     "slug": "dynamic-programming",
     "englishTitle": "Dynamic programming and algorithm design",
     "level": "핵심"
@@ -416,5 +416,107 @@
     "englishTitle": "Recommender systems",
     "level": "핵심",
     "track": "ml"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "sorting",
+    "englishTitle": "Sorting algorithms",
+    "level": "핵심"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "searching",
+    "englishTitle": "Searching: binary and hash",
+    "level": "핵심"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "hash-tables",
+    "englishTitle": "Hash tables",
+    "level": "핵심"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "trees-and-bst",
+    "englishTitle": "Trees and binary search trees",
+    "level": "핵심"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "heaps-priority-queues",
+    "englishTitle": "Heaps and priority queues",
+    "level": "핵심"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "greedy",
+    "englishTitle": "Greedy algorithms",
+    "level": "핵심"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "backtracking",
+    "englishTitle": "Backtracking and exhaustive search",
+    "level": "응용"
+  },
+  {
+    "topic": "crypto",
+    "slug": "foundations",
+    "englishTitle": "Cryptography overview",
+    "level": "기초"
+  },
+  {
+    "topic": "crypto",
+    "slug": "symmetric-encryption",
+    "englishTitle": "Symmetric encryption: AES and modes",
+    "level": "핵심"
+  },
+  {
+    "topic": "crypto",
+    "slug": "asymmetric-encryption",
+    "englishTitle": "Asymmetric encryption: RSA and ECC",
+    "level": "핵심"
+  },
+  {
+    "topic": "crypto",
+    "slug": "hashing",
+    "englishTitle": "Cryptographic hash functions",
+    "level": "핵심"
+  },
+  {
+    "topic": "crypto",
+    "slug": "mac-and-signatures",
+    "englishTitle": "MAC and digital signatures",
+    "level": "핵심"
+  },
+  {
+    "topic": "crypto",
+    "slug": "key-exchange",
+    "englishTitle": "Key exchange and forward secrecy",
+    "level": "핵심"
+  },
+  {
+    "topic": "crypto",
+    "slug": "password-storage",
+    "englishTitle": "Password storage",
+    "level": "핵심"
+  },
+  {
+    "topic": "crypto",
+    "slug": "pki-and-certificates",
+    "englishTitle": "PKI and certificates",
+    "level": "응용"
+  },
+  {
+    "topic": "crypto",
+    "slug": "randomness",
+    "englishTitle": "Randomness and entropy",
+    "level": "핵심"
+  },
+  {
+    "topic": "crypto",
+    "slug": "key-management",
+    "englishTitle": "Key management and lifecycle",
+    "level": "응용"
   }
 ]

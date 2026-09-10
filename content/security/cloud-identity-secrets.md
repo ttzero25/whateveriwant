@@ -4,7 +4,7 @@
 >
 > 클라우드에서는 사용자뿐 아니라 워크로드에도 신원과 권한이 있습니다. 자격 증명의 수명을 줄이고 자원별 접근과 비밀의 생성·교체·폐기를 함께 관리해야 합니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 사용자와 워크로드의 신원
 
@@ -35,4 +35,4 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 
 서비스 계정 키를 교체했는데 이전 키가 계속 유효하다면 어떤 단계가 끝나지 않은 것일까요?
 
-관련: [인증·인가](authentication-authorization.md) · [키 관리](cryptography.md) · [AI 관제](../ai-for-security/llm-security-operations.md) · [목차](index.md)
+관련: [인증·인가](authentication-authorization.md) · [키 관리](../crypto/foundations.md) · [AI 관제](../ai-for-security/llm-security-operations.md) · [목차](index.md)

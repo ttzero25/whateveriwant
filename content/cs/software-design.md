@@ -4,7 +4,7 @@
 >
 > 좋은 설계는 변경이 한 곳에 머물게 하고, 의존성을 한 방향으로 흐르게 합니다. 객체지향의 캡슐화·다형성, SOLID 원칙, 검증된 디자인 패턴은 모두 "변할 것을 격리하고 인터페이스에 의존하라"는 한 아이디어의 표현입니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 무엇을 위한 설계인가
 
@@ -70,4 +70,4 @@ Checkout(Card()).run(1000)                # 새 결제수단은 클래스 추가
 
 [Refactoring Guru: Design Patterns](https://refactoring.guru/design-patterns) · [SOLID (개요)](https://en.wikipedia.org/wiki/SOLID)
 
-관련: [언어 실행: 컴파일러·인터프리터·런타임](language-execution.md) · [타입 시스템](type-systems.md) · [자료구조](data-structures.md) · [목차](index.md)
+관련: [언어 실행: 컴파일러·인터프리터·런타임](language-execution.md) · [타입 시스템](type-systems.md) · [자료구조](../algorithms/data-structures.md) · [목차](index.md)

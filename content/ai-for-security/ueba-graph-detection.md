@@ -4,7 +4,7 @@
 >
 > UEBA는 사용자·엔티티의 평소 행동 기준선을 학습해 이탈을 탐지하고, 그래프 기반 탐지는 계정·호스트·자원을 노드로 연결해 개별 이벤트로는 안 보이는 경로(횡적 이동 등)를 드러냅니다. 둘 다 "이상 ≠ 악성"을 전제로 맥락을 붙여야 합니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 왜 행위 기준선인가
 
@@ -38,7 +38,7 @@ score = robust_z(today_bytes, past_30_days_bytes)
 - **권한 상승 경로**: 저권한에서 고권한 자원까지 이어지는 도달 가능 경로.
 - **공유 인프라**: 여러 의심 계정이 같은 IP·자원을 공유하는 군집.
 
-그래프 탐색·최단 경로·연결 요소는 [그래프와 탐색](../cs/graphs-search.md)의 알고리즘을 그대로 씁니다. 그래프 신경망(GNN)으로 노드를 분류하기도 합니다.
+그래프 탐색·최단 경로·연결 요소는 [그래프와 탐색](../algorithms/graphs-search.md)의 알고리즘을 그대로 씁니다. 그래프 신경망(GNN)으로 노드를 분류하기도 합니다.
 
 ## "이상"에 맥락을 붙인다
 
@@ -52,4 +52,4 @@ score = robust_z(today_bytes, past_30_days_bytes)
 
 [MITRE ATT&CK: Lateral Movement](https://attack.mitre.org/tactics/TA0008/) · [NIST SP 800-53: 감사·모니터링](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
 
-관련: [로그 이상 탐지와 드리프트](log-anomaly-detection.md) · [탐지 지표와 경보 예산](detection-evaluation.md) · [그래프와 탐색](../cs/graphs-search.md) · [목차](index.md) · [용어집](glossary.md)
+관련: [로그 이상 탐지와 드리프트](log-anomaly-detection.md) · [탐지 지표와 경보 예산](detection-evaluation.md) · [그래프와 탐색](../algorithms/graphs-search.md) · [목차](index.md) · [용어집](glossary.md)

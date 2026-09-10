@@ -4,11 +4,11 @@
 >
 > 프라이버시는 개인정보를 필요한 만큼만 수집하고, 목적에 맞게 쓰며, 저장·전송·삭제 전 구간에서 보호하는 문제입니다. 암호화만으로는 부족하고, 데이터 분류·최소화·가명화·수명 관리가 함께 필요합니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 보안과 프라이버시의 관계
 
-보안은 무단 접근을 막고, 프라이버시는 "정당한 접근이라도 무엇을 수집·보관·공유해도 되는가"를 다룹니다. 겹치지만 같지 않습니다. 암호화 도구는 [암호학](cryptography.md)에서, 접근 통제는 [인증과 인가](authentication-authorization.md)에서 다룹니다.
+보안은 무단 접근을 막고, 프라이버시는 "정당한 접근이라도 무엇을 수집·보관·공유해도 되는가"를 다룹니다. 겹치지만 같지 않습니다. 암호화 도구는 [암호학](../crypto/foundations.md)에서, 접근 통제는 [인증과 인가](authentication-authorization.md)에서 다룹니다.
 
 ## 데이터 분류가 먼저
 
@@ -57,4 +57,4 @@ def pseudonymize(user_email: str, secret_key: bytes) -> str:
 
 [NIST Privacy Framework](https://www.nist.gov/privacy-framework) · [ENISA: Pseudonymisation](https://www.enisa.europa.eu/publications/pseudonymisation-techniques-and-best-practices)
 
-관련: [암호학](cryptography.md) · [로깅·사고 대응](logging-incident-response.md) · [클라우드 IAM과 시크릿](cloud-identity-secrets.md) · [목차](index.md)
+관련: [암호학](../crypto/foundations.md) · [로깅·사고 대응](logging-incident-response.md) · [클라우드 IAM과 시크릿](cloud-identity-secrets.md) · [목차](index.md)

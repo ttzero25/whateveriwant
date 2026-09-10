@@ -4,11 +4,11 @@
 >
 > 그래프 신경망은 노드와 간선으로 이뤄진 데이터에서 학습합니다. 각 노드가 이웃의 정보를 모아 자기 표현을 갱신하는 메시지 전달로, 관계 구조 자체를 특징으로 활용합니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 왜 그래프인가
 
-이미지는 격자, 텍스트는 순열이지만, 소셜 네트워크·분자·지식 그래프·인프라는 **관계**가 본질입니다. 노드를 표 형태로 펼치면 "누가 누구와 연결됐는가"라는 핵심 정보가 사라집니다. GNN은 연결 구조를 그대로 입력으로 씁니다. 그래프 자료구조·탐색은 [그래프와 탐색](../cs/graphs-search.md), 신경망 기초는 [신경망과 텐서](neural-networks.md)와 이어집니다.
+이미지는 격자, 텍스트는 순열이지만, 소셜 네트워크·분자·지식 그래프·인프라는 **관계**가 본질입니다. 노드를 표 형태로 펼치면 "누가 누구와 연결됐는가"라는 핵심 정보가 사라집니다. GNN은 연결 구조를 그대로 입력으로 씁니다. 그래프 자료구조·탐색은 [그래프와 탐색](../algorithms/graphs-search.md), 신경망 기초는 [신경망과 텐서](neural-networks.md)와 이어집니다.
 
 ## 메시지 전달
 
@@ -56,4 +56,4 @@ def gnn_layer(H, adj, W):
 
 [Kipf & Welling, GCN (2017)](https://arxiv.org/abs/1609.02907) · [Distill: A Gentle Introduction to GNNs](https://distill.pub/2021/gnn-intro/)
 
-관련: [신경망과 텐서](neural-networks.md) · [그래프와 탐색](../cs/graphs-search.md) · [UEBA와 그래프 기반 탐지](../ai-for-security/ueba-graph-detection.md) · [목차](index.md) · [용어집](glossary.md)
+관련: [신경망과 텐서](neural-networks.md) · [그래프와 탐색](../algorithms/graphs-search.md) · [UEBA와 그래프 기반 탐지](../ai-for-security/ueba-graph-detection.md) · [목차](index.md) · [용어집](glossary.md)

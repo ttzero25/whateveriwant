@@ -4,7 +4,7 @@
 >
 > 명제와 집합은 조건을 정확히 표현하고, 관계와 불변식은 구조와 알고리즘의 성질을 설명합니다. 예시가 몇 번 맞는 것과 모든 입력에서 성립함을 보이는 것은 다릅니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 조건을 명제로 표현하기
 
@@ -33,4 +33,4 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 
 읽기 권한이 있으면 수정 권한도 있다고 결론 내리려면 어떤 추가 규칙이 필요할까요?
 
-관련: [알고리즘](algorithms-complexity.md) · [그래프](graphs-search.md) · [인증·인가](../security/authentication-authorization.md) · [목차](index.md)
+관련: [알고리즘](../algorithms/algorithms-complexity.md) · [그래프](../algorithms/graphs-search.md) · [인증·인가](../security/authentication-authorization.md) · [목차](index.md)

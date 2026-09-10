@@ -4,7 +4,7 @@
 >
 > 실수를 이진 부동소수점으로 표현하면 대부분의 소수를 정확히 담을 수 없습니다. 그래서 `0.1 + 0.2`가 정확히 `0.3`이 아니며, 등호 비교·누적 합·금액 계산에서 오차를 다루는 방법을 알아야 합니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## IEEE 754의 구조
 
@@ -55,4 +55,4 @@ Decimal("0.1") + Decimal("0.2") == Decimal("0.3")   # True (십진 기반)
 
 [What Every Computer Scientist Should Know About Floating-Point (Goldberg)](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html) · [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754)
 
-관련: [비트·바이트와 데이터 표현](data-representation.md) · [관계형 데이터베이스와 SQL](databases.md) · [알고리즘과 Big-O](algorithms-complexity.md) · [목차](index.md)
+관련: [비트·바이트와 데이터 표현](data-representation.md) · [관계형 데이터베이스와 SQL](databases.md) · [알고리즘과 Big-O](../algorithms/algorithms-complexity.md) · [목차](index.md)

@@ -4,7 +4,7 @@
 >
 > 정규 표현식은 정규 언어를 기술하고, 유한 오토마타(DFA/NFA)는 그것을 인식하는 기계입니다. 이 대응을 이해하면 정규식이 무엇을 할 수 있는지, 왜 어떤 패턴은 폭발적으로 느려지는지(ReDoS)를 설명할 수 있습니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 언어와 기계의 대응
 
@@ -67,4 +67,4 @@ GOOD = re.compile(r"^a+$")
 
 [Russ Cox: Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) · [OWASP: ReDoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS)
 
-관련: [컴파일러·인터프리터·런타임 실행](language-execution.md) · [이산수학과 논리](discrete-mathematics.md) · [알고리즘과 Big-O](algorithms-complexity.md) · [목차](index.md)
+관련: [컴파일러·인터프리터·런타임 실행](language-execution.md) · [이산수학과 논리](discrete-mathematics.md) · [알고리즘과 Big-O](../algorithms/algorithms-complexity.md) · [목차](index.md)

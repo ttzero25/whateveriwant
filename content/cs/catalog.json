@@ -10,16 +10,6 @@
     "level": "기초"
   },
   {
-    "slug": "data-structures",
-    "englishTitle": "Data structures",
-    "level": "기초"
-  },
-  {
-    "slug": "algorithms-complexity",
-    "englishTitle": "Algorithms and Big-O",
-    "level": "기초"
-  },
-  {
     "slug": "networking",
     "englishTitle": "Networking fundamentals",
     "level": "기초"
@@ -45,11 +35,6 @@
     "level": "기초"
   },
   {
-    "slug": "graphs-search",
-    "englishTitle": "Graphs, traversal and dependencies",
-    "level": "핵심"
-  },
-  {
     "slug": "language-execution",
     "englishTitle": "Compilers, interpreters and runtime execution",
     "level": "핵심"
@@ -57,11 +42,6 @@
   {
     "slug": "distributed-systems",
     "englishTitle": "Distributed systems and partial failure",
-    "level": "핵심"
-  },
-  {
-    "slug": "dynamic-programming",
-    "englishTitle": "Dynamic programming and algorithm design",
     "level": "핵심"
   },
   {

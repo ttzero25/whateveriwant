@@ -4,7 +4,7 @@
 >
 > 데이터 표현 → 실행 구조 → 자료구조와 알고리즘 → 네트워크·데이터베이스 순서로 CS의 기본 연결을 익힙니다.
 
-AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
+AI 작성 해설
 
 ## 학습 순서
 
@@ -12,19 +12,19 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 |---|---|
 | 1 | [비트·바이트와 데이터 표현](data-representation.md) |
 | 2 | [CPU·메모리·저장장치: 프로그램이 실행되는 곳](computer-architecture.md) |
-| 3 | [자료구조: 배열·스택·큐·해시·트리·그래프](data-structures.md) |
-| 4 | [알고리즘과 Big-O: 입력이 커질 때의 비용](algorithms-complexity.md) |
-| 5 | [네트워크 기초: IP·TCP·UDP·DNS·HTTP](networking.md) |
-| 6 | [관계형 데이터베이스와 SQL](databases.md) |
-| 7 | [트랜잭션·ACID·인덱스](transactions-indexes.md) |
-| 8 | [동시성·병렬성·동기화](concurrency.md) |
+| 3 | [네트워크 기초: IP·TCP·UDP·DNS·HTTP](networking.md) |
+| 4 | [관계형 데이터베이스와 SQL](databases.md) |
+| 5 | [트랜잭션·ACID·인덱스](transactions-indexes.md) |
+| 6 | [동시성·병렬성·동기화](concurrency.md) |
+
+> 자료구조와 알고리즘은 별도 섹션으로 분리했습니다 → [알고리즘 · 자료구조 학습 가이드](../algorithms/index.md)
 
 ## 목적별 경로
 
-- 프로그래밍 기초: 데이터 표현 → 자료구조 → 알고리즘과 복잡도
+- 프로그래밍 기초: 데이터 표현 → [자료구조·알고리즘](../algorithms/index.md)
 - 시스템 이해: 컴퓨터 구조 → 동시성 → 네트워크
 - 백엔드 기초: 네트워크 → 데이터베이스 → 트랜잭션·인덱스
-- AI 연결: [복잡도](algorithms-complexity.md) → [AI 학습](../ai/training.md)
+- AI 연결: [복잡도](../algorithms/algorithms-complexity.md) → [AI 학습](../ai/training.md)
 
 ## 찾아보기
 
@@ -37,17 +37,15 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | 새 개념 | 수준 |
 |---|---|
 | [이산수학과 논리: 명제·집합·관계·불변식](discrete-mathematics.md) | 기초 |
-| [그래프와 탐색: BFS·DFS·위상 정렬](graphs-search.md) | 핵심 |
 | [컴파일러와 인터프리터: 소스에서 실행까지](language-execution.md) | 핵심 |
 | [분산 시스템: 복제·부분 장애·일관성](distributed-systems.md) | 핵심 |
-| [동적 계획법과 알고리즘 설계 기법](dynamic-programming.md) | 핵심 |
 | [정규 표현식과 오토마타](automata-regex.md) | 핵심 |
 | [캐시와 메모리 계층·지역성](cache-memory-hierarchy.md) | 핵심 |
 | [부동소수점과 수치 오차](floating-point.md) | 핵심 |
 | [소프트웨어 설계: OOP·SOLID·디자인 패턴](software-design.md) | 핵심 |
 | [타입 시스템](type-systems.md) | 핵심 |
 
-학습 경로: 논리 → 자료구조 → 그래프 → 알고리즘 설계(동적 계획법) → 오토마타·언어 실행 → 타입 시스템·소프트웨어 설계 / 컴퓨터 구조 → 캐시·메모리 계층 / 데이터 표현 → 부동소수점 / 네트워크·트랜잭션 → 분산 시스템.
+학습 경로: 논리 → 오토마타·언어 실행 → 타입 시스템·소프트웨어 설계 / 컴퓨터 구조 → 캐시·메모리 계층 / 데이터 표현 → 부동소수점 / 네트워크·트랜잭션 → 분산 시스템. 알고리즘·자료구조는 [별도 섹션](../algorithms/index.md)에서 다룹니다.
 
 ## 네트워크 전용 컬렉션
 
