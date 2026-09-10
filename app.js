@@ -1,3 +1,4 @@
+import {renderHomeUpdates} from './home-updates.js';
 import {renderResearch} from './research.js';
 import {diagram} from './diagrams.js';
 const main=document.querySelector('#main'),sidebar=document.querySelector('#sidebar'),menu=document.querySelector('#menu-toggle');
@@ -5,6 +6,21 @@ const E=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':
 let documents=[],filter='전체',query='',lang='ko';
 try{lang=localStorage.getItem('whateveriwant-language')==='en'?'en':'ko';}catch{}
 const t=(ko,en)=>lang==='en'?en:ko;
+let aiExpanded=true;
+try{aiExpanded=localStorage.getItem('whateveriwant-ai-expanded')!=='false';}catch{}
+function updateAIExpansion(){
+ const button=document.querySelector('#ai-expand');
+ document.querySelector('#ai-subnav').hidden=!aiExpanded;
+ button.setAttribute('aria-expanded',String(aiExpanded));
+ const label=aiExpanded?t('AI 하위 메뉴 접기','Collapse AI subtopics'):t('AI 하위 메뉴 펼치기','Expand AI subtopics');
+ button.setAttribute('aria-label',label);button.title=label;
+}
+document.querySelector('#ai-expand').addEventListener('click',()=>{
+ aiExpanded=!aiExpanded;
+ try{localStorage.setItem('whateveriwant-ai-expanded',String(aiExpanded));}catch{}
+ updateAIExpansion();
+});
+updateAIExpansion();
 const levelNames={'전체':'All','기초':'Foundations','핵심':'Core','응용':'Applied','참고':'Reference','가이드':'Guide'};
 const trackLabels={ai:['전체 AI','All AI'],ml:['머신러닝 · ML','Machine Learning'],dl:['딥러닝 · DL','Deep Learning'],llm:['언어 모델 · LLM','Language Models']};
 const currentTrack=()=>['#/ml','#/dl','#/llm'].includes(location.hash)?location.hash.slice(2):'ai';
@@ -23,6 +39,7 @@ document.addEventListener('click',event=>{if(!sidebar.contains(event.target)&&!m
 document.addEventListener('keydown',event=>{if(event.key==='Escape')closeMenu();if((event.ctrlKey||event.metaKey)&&event.key==='k'){const input=document.querySelector('#search');if(input){event.preventDefault();input.focus();}}});
 function localizeShell(){
  document.documentElement.lang=lang;
+ updateAIExpansion();
  document.querySelector('.research-link').innerHTML='<span>◉</span> '+t('AI 보안 & 연구 동향','AI security & research');
  window.updateThemeControl?.();
  document.querySelector('.brand').setAttribute('aria-label',t('홈','Home'));
@@ -37,11 +54,12 @@ function localizeShell(){
 }
 document.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>{if(!documents.length)return;lang=button.dataset.language;try{localStorage.setItem('whateveriwant-language',lang);}catch{}route();}));
 function card(original){const doc=view(original);return `<a class="doc-card" href="${docURL(doc)}"><div class="doc-top"><span class="doc-icon">▧</span> ${doc.topic!=='ai'?topicName(doc.topic):doc.track==='ai'?'Artificial Intelligence':trackName(doc.track)} <span class="level">${level(doc.level)}</span></div><h3>${E(doc.title)}</h3><p>${E(doc.summary)}</p><div class="doc-meta"><span>${lang==='en'?(original.en.type==='korean'?'Korean article':original.en.type==='excerpt'?'Original source excerpt':original.en.type==='navigation'?'Site guide':'Google · original excerpt'):`${doc.minutes}분 읽기 · ${doc.date.replaceAll('-','. ')}`}</span><span>${doc.slug==='index'?t('학습 가이드','Guide'):doc.slug==='glossary'?t('용어집','Glossary'):'TL;DR ↗'}</span></div></a>`;}
-function showResults(){const grid=document.querySelector('#documents');if(!grid)return;const term=query.toLocaleLowerCase().trim();const matches=documents.filter(doc=>(!activeTopic()||doc.topic===activeTopic())&&(currentTrack()==='ai'||doc.track===currentTrack())&&(filter==='전체'||doc.level===filter)&&(!term||[doc.source,doc.title,doc.en.source,doc.en.title].join(' ').toLocaleLowerCase().includes(term)));grid.innerHTML=matches.length?matches.map(card).join(''):`<div class="empty">${t('검색 결과가 없어요. 다른 용어나 필터로 찾아보세요.','No results. Try another term or filter.')}</div>`;document.querySelector('#result-count').textContent=t(`${matches.length}개의 문서`,`${matches.length} documents`);document.querySelectorAll('.chip').forEach(button=>{const active=button.dataset.filter===filter;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));});}
+function showResults(){const grid=document.querySelector('#documents');if(!grid)return;const term=query.toLocaleLowerCase().trim();const home=!activeTopic();const results=document.querySelector('#home-search-results');if(results)results.hidden=!term;if(home&&!term){grid.innerHTML='';return;}const matches=documents.filter(doc=>(!activeTopic()||doc.topic===activeTopic())&&(currentTrack()==='ai'||doc.track===currentTrack())&&(filter==='전체'||doc.level===filter)&&(!term||[doc.source,doc.title,doc.en.source,doc.en.title].join(' ').toLocaleLowerCase().includes(term)));grid.innerHTML=matches.length?matches.map(card).join(''):`<div class="empty">${t('검색 결과가 없어요. 다른 용어나 필터로 찾아보세요.','No results. Try another term or filter.')}</div>`;document.querySelector('#result-count').textContent=t(`${matches.length}개의 문서`,`${matches.length} documents`);document.querySelectorAll('.chip').forEach(button=>{const active=button.dataset.filter===filter;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));});}
 function library(){
  document.title='whateveriwant — '+t('나만의 지식백과','Personal knowledge base');document.querySelector('#breadcrumb').textContent=currentTrack()!=='ai'?trackName(currentTrack()):activeTopic()?topicName(activeTopic()):'Home';
- main.innerHTML=`<section class="intro"><div class="eyebrow">A SPACE FOR CURIOUS MINDS</div><div class="intro-row"><div><h1>whateveriwant</h1></div><span class="intro-date">${t('AI · CS · OS · Network · Security','AI · CS · OS · NETWORK · SECURITY')}</span></div></section><div class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input type="search" id="search" aria-label="${t('개념과 용어 검색','Search concepts and terms')}" placeholder="${t('어떤 개념이 궁금한가요?  TLS, 인증, Transformer, RAG…','Search concepts in Korean or English…')}" value="${E(query)}"><kbd>⌘ K</kbd></div><div class="section-head"><h2>${t('분야별 둘러보기','Explore topics')}</h2><span>${t('지식의 범위를 넓혀보세요','Connect ideas across disciplines')}</span></div><div class="topic-grid">${Object.entries(topics).map(([topic,{name,icon}])=>`<a class="topic available" href="#/${topic}"><span class="topic-icon">${icon}</span><b>${name}</b><small>${t(`${topicCount(topic)}개의 문서`,`${topicCount(topic)} documents`)} ↗</small></a>`).join('')}</div><div class="section-head"><h2>${activeTopic()&&activeTopic()!=='ai'?t(topicName(activeTopic())+' 문서',topicName(activeTopic())+' documents'):currentTrack()!=='ai'?trackName(currentTrack()):'Home'}</h2><span>${t('핵심을 먼저, 이해는 더 깊게','Start with the essentials')}</span></div><nav ${activeTopic()&&activeTopic()!=='ai'?'hidden':''} class="track-tabs" aria-label="${t('AI 세부 분야','AI subtopics')}">${Object.keys(trackLabels).map(track=>`<a href="#/${track}" class="${currentTrack()===track?'active':''}" ${currentTrack()===track?'aria-current="page"':''}>${trackName(track)} <small>${count(track)}</small></a>`).join('')}</nav><div class="filters" role="group" aria-label="${t('문서 수준 필터','Filter by level')}">${Object.keys(levelNames).map(l=>`<button class="chip" data-filter="${l}" aria-pressed="false">${level(l)}</button>`).join('')}<span class="result-count" id="result-count" aria-live="polite"></span></div><div id="documents" class="document-grid"></div>`;
+ main.innerHTML=`<section class="intro"><div class="eyebrow">A SPACE FOR CURIOUS MINDS</div><div class="intro-row"><div><h1>whateveriwant</h1></div><span class="intro-date">${t('AI · CS · OS · Network · Security','AI · CS · OS · NETWORK · SECURITY')}</span></div></section><div class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input type="search" id="search" aria-label="${t('개념과 용어 검색','Search concepts and terms')}" placeholder="${t('어떤 개념이 궁금한가요?  TLS, 인증, Transformer, RAG…','Search concepts in Korean or English…')}" value="${E(query)}"><kbd>⌘ K</kbd></div>${!activeTopic()?`<section id="home-updates" class="home-updates" aria-label="${t('최신 이슈','Latest updates')}"></section><section id="home-search-results" hidden><div class="section-head"><h2>${t('관련 개념 검색','Search concepts')}</h2></div>`:''}<nav ${activeTopic()!=='ai'?'hidden':''} class="track-tabs" aria-label="${t('AI 세부 분야','AI subtopics')}">${Object.keys(trackLabels).map(track=>`<a href="#/${track}" class="${currentTrack()===track?'active':''}" ${currentTrack()===track?'aria-current="page"':''}>${trackName(track)} <small>${count(track)}</small></a>`).join('')}</nav><div class="filters" role="group" aria-label="${t('문서 수준 필터','Filter by level')}">${Object.keys(levelNames).map(l=>`<button class="chip" data-filter="${l}" aria-pressed="false">${level(l)}</button>`).join('')}<span class="result-count" id="result-count" aria-live="polite"></span></div><div id="documents" class="document-grid"></div>${!activeTopic()?'</section>':''}`;
  document.querySelector('#search').addEventListener('input',event=>{query=event.target.value;showResults();});document.querySelectorAll('.chip').forEach(button=>button.addEventListener('click',()=>{filter=button.dataset.filter;showResults();}));showResults();
+ if(!activeTopic())renderHomeUpdates(document.querySelector('#home-updates'),lang,documents);
 }
 function article(topic,slug){
  const original=documents.find(d=>d.topic===topic&&d.slug===slug);if(!original){main.innerHTML=`<div class="empty"><h1>${t('문서를 찾을 수 없어요.','Document not found.')}</h1><a href="#/">${t('라이브러리로 돌아가기','Back to library')} →</a></div>`;document.title=t('문서 없음','Not found')+' — whateveriwant';document.querySelector('#breadcrumb').textContent=t('문서 없음','Not found');return;}
