@@ -5,7 +5,8 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
-    "import:english": "node scripts/import-english.mjs"
+    "import:english": "node scripts/import-english.mjs",
+    "update:research": "node scripts/update-research.mjs"
   },
   "repository": {
     "type": "git",

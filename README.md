@@ -26,7 +26,7 @@ Security · CS · OS · AI · AI for Security를 연결하는 개인 지식백�
 - `content/ai/`: AI·ML·DL·LLM 개념과 학습 순서
 - `content/en/originals.json`: 재사용 조건을 확인한 Google 영어 원문 발췌와 출처 기록
 - `sources/ai.json`: 참고 출처와 확인일
-- 정기 원문 수집·커밋은 아직 설정하지 않았습니다. GitHub Pages는 `gh-pages` 브랜치에서 배포합니다.
+- 연구 동향 자동화 파일은 준비되어 있으나 GitHub 인증의 workflow 권한 부족으로 업로드 대기 중입니다. 현재는 수동 수집·배포입니다.
 - 향후 원문 저장 시 출처별 재배포 조건을 확인합니다.
 
 사이트: [whateveriwant](https://ttzero25.github.io/whateveriwant/)
@@ -61,7 +61,7 @@ AI for Security 검증: `node scripts/check-security.mjs http://127.0.0.1:4173/ 
 
 ## 공개 배포
 
-소스는 `main`, 빌드한 정적 파일은 `gh-pages` 브랜치에서 관리합니다. GitHub Pages는 `gh-pages`의 루트(`/`)를 HTTPS로 제공합니다. `main`의 수정만으로 사이트가 다시 빌드되지는 않으며, 새 빌드 결과를 `gh-pages`에 푸시하면 배포됩니다.
+현재 소스는 `main`, 정적 배포는 `gh-pages` 브랜치입니다. 자동화 설정 파일 `.github/workflows/pages.yml`은 로컬에서 준비되어 있으나 GitHub 인증의 workflow 권한 부족으로 업로드되지 않았습니다. 권한 승인 후 파일을 커밋·푸시하고 Pages를 GitHub Actions 방식으로 전환해야 자동 수집·배포가 시작됩니다.
 
 공개 사이트 검증: `node scripts/check-preview.mjs https://ttzero25.github.io/whateveriwant/`
 
@@ -118,3 +118,17 @@ AI 9개, CS 4개, Security 4개, AI for Security 3개의 개념 글을 추가했
 검증: `node scripts/check-network.mjs` (공개 사이트 URL을 인자로 전달할 수 있습니다).
 
 차량·임베디드 통신 확장으로 CAN, CAN FD·XL, LIN, 차량용 Ethernet 네 문서를 추가해 Network는 총 16개 문서입니다. CAN 중재·오류 처리·ISO-TP, LIN 스케줄, T1·게이트웨이·시간 제약을 다루며 용어집과 학습 가이드로 연결합니다. CAN 구성과 LIN 교환 도식 두 개를 추가해 네트워크 도식은 총 다섯 개입니다.
+
+## AI 보안 & 연구 동향
+
+사이드바의 전용 메뉴 `#/research`에서 OpenAI RSS, Anthropic Research, arXiv cs.CR·cs.AI·cs.LG 알림을 모아 봅니다. AI QUICK LINKS는 제거했습니다. 출처·주제·기간·제목 검색을 제공하며 주제는 제목·분류·arXiv 초록의 키워드로 자동 분류합니다. 보안 필터는 관련 발표와 연구 후보이며 확인된 사고 목록이나 중요도 순위가 아닙니다.
+
+- 저장: `data/research.json` (원문 제목·링크·출처·날짜·태그만 저장, 초록이나 기사 전문은 저장하지 않음)
+- 수집: `npm run update:research`, 이후 `npm run build`
+- 준비된 자동화: 매일 23:17 UTC / 다음 날 08:17 KST 및 Actions 수동 실행. 권한 승인과 설정 업로드 후 수집 결과를 `main`에 커밋·푸시하고 Pages에 배포
+- 보존: OpenAI·Anthropic 각 최대 60개, arXiv 최대 150개. arXiv 날짜는 RSS 공고일이며 같은 논문의 새 알림은 URL 기준 갱신
+- 장애: 실패한 출처는 이전 목록과 마지막 성공 시각을 유지하고 상태를 표시. 48시간 이상 수집 성공이 없으면 확인 필요 표시
+- 한계: Anthropic 현재 게시판에 노출된 날짜 있는 항목만 수집. 전체 문헌 검색이나 포괄적인 보안 사고 추적은 아님. arXiv는 동료 심사를 보장하지 않는 프리프린트
+- 검증: `node --test scripts/research-feeds.test.mjs`, `node scripts/check-research.mjs [사이트 URL]`
+
+자동화 연결 전에는 `npm run update:research`와 빌드·배포를 수동으로 실행합니다. 연결 후에도 예약 실행은 지연될 수 있으므로 페이지의 마지막 수집 성공 시각을 확인하세요. `data/research.json`의 automation_enabled는 Actions에서 실제 수집이 실행된 뒤 true가 됩니다.

@@ -52,7 +52,8 @@ try {
   await mobile.screenshot({path:'.preview/mobile.png',fullPage:true});
   await mobile.locator('#menu-toggle').click();
   assert.equal(await mobile.locator('#menu-toggle').getAttribute('aria-expanded'),'true');
-  await mobile.locator('#quick-links a[href="#/ai/transformer"]').click();
+  await mobile.locator('.ai-link').click();
+  await mobile.locator('.doc-card[href="#/ai/transformer"]').click();
   await mobile.waitForSelector('.article');
   assert.equal(await mobile.locator('#menu-toggle').getAttribute('aria-expanded'),'false');
   assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
