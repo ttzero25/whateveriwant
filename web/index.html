@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa">
+  <title>whateveriwant — 나만의 지식백과</title>
+  <link rel="stylesheet" href="./assets/katex/katex.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#/" aria-label="홈"><span class="brand-mark">w<span>.</span></span><span>whateveriwant<small>PERSONAL KNOWLEDGE BASE</small></span></a>
+    <div class="side-label">WORKSPACE</div>
+    <a href="#/" class="nav-link home-link"><span>▦</span> 지식 라이브러리 <span class="nav-count">12</span></a>
+    <div class="side-label topics-label">EXPLORE TOPICS</div>
+    <a href="#/ai" class="nav-link ai-link"><span>✳</span> Artificial Intelligence <span class="nav-count">12</span></a>
+    <div class="upcoming"><span>◇</span> Security <small>준비 중</small></div>
+    <div class="upcoming"><span>⌘</span> Computer Science <small>준비 중</small></div>
+    <div class="upcoming"><span>▤</span> Operating Systems <small>준비 중</small></div>
+    <div class="upcoming"><span>⛨</span> AI for Security <small>준비 중</small></div>
+    <div class="side-label">AI QUICK LINKS</div>
+    <nav id="quick-links" aria-label="AI 문서 바로가기"></nav>
+    <div class="sidebar-bottom"><span class="avatar">t</span><div>ttzero25<small>배운 것을, 나의 언어로.</small></div><a href="https://github.com/ttzero25/whateveriwant" target="_blank" rel="noopener noreferrer" aria-label="GitHub 저장소">↗</a></div>
+  </aside>
+  <div class="main-shell">
+    <header class="topbar"><button id="menu-toggle" aria-label="메뉴 열기" aria-expanded="false">☰</button><div class="breadcrumb">Workspace <span>/</span> <b id="breadcrumb">지식 라이브러리</b></div><a href="https://github.com/ttzero25/whateveriwant" target="_blank" rel="noopener noreferrer" class="github-link">GitHub ↗</a></header>
+    <main id="main" tabindex="-1"><p class="loading">지식 라이브러리를 불러오는 중…</p></main>
+    <footer>whateveriwant <span>하나씩 배우고, 연결하고, 쌓아가기.</span><span>공식 자료 기반 · 한국어 해설</span></footer>
+  </div>
+</body>
+</html>

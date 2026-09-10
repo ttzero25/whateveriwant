@@ -15,3 +15,17 @@ Security · CS · OS · AI · AI for Security를 연결하는 개인 지식백�
 - 향후 원문 저장 시 출처별 재배포 조건을 확인합니다.
 
 사이트 예정 주소: `https://ttzero25.github.io/whateveriwant/`
+
+## 사이트 미리보기
+
+Node.js 22 이상과 Python 3를 사용합니다.
+
+```sh
+npm ci
+npm run build
+npm run preview
+```
+
+브라우저에서 `http://127.0.0.1:4173`을 열면 검색·분야별 탐색·TL;DR·수식이 포함된 사이트를 볼 수 있습니다. `content/ai/`의 문서를 수정한 뒤 다시 빌드하면 반영됩니다. 빌드 결과는 `dist/`에 생성되며 Git에서는 제외합니다.
+
+Chrome이 설치된 환경에서는 미리보기 서버를 실행한 상태로 `node scripts/check-preview.mjs`를 실행해 검색·필터·문서 이동·모바일 화면을 확인할 수 있습니다. 스크린샷은 `.preview/`에 저장됩니다.
