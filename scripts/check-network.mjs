@@ -4,7 +4,7 @@ import {chromium} from 'playwright';
 
 const docs=JSON.parse(await fs.readFile('dist/documents.json','utf8'));
 const network=docs.filter(d=>d.topic==='network');
-const diagramSlugs=['layers-packets','routing-nat','dns-dhcp','can-bus','lin'];
+const diagramSlugs=['layers-packets','routing-nat','dns-dhcp','can-bus','lin','tcp-udp','load-balancing','websockets'];
 const routes=new Set(docs.map(d=>`#/${d.topic}/${d.slug}`));
 assert.equal(routes.size,docs.length);
 for(const doc of docs)for(const view of [doc,doc.en]){

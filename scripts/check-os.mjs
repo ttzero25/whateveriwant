@@ -33,7 +33,7 @@ try{
   await page.waitForFunction(title=>document.querySelector('h1')?.textContent===title,doc.title);
   assert.match(await page.locator('.article blockquote').first().innerText(),/TL;DR/);
   assert.equal(await page.locator('.back-link').getAttribute('href'),'#/os');
-  assert.equal(await page.locator('.concept-diagram').count(),sources.some(s=>s.slug===doc.slug)?1:0);
+  assert.equal(await page.locator('.concept-diagram').count(),(sources.some(s=>s.slug===doc.slug)||['signals','containers-namespaces','memory-allocation'].includes(doc.slug))?1:0);
   for(const href of await page.locator('.article-next a').evaluateAll(as=>as.map(a=>a.getAttribute('href'))))assert.ok(href.startsWith('#/os/'));
  }
  await page.getByRole('button',{name:'English',exact:true}).click();

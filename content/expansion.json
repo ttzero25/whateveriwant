@@ -518,5 +518,35 @@
     "slug": "key-management",
     "englishTitle": "Key management and lifecycle",
     "level": "응용"
+  },
+  {
+    "topic": "crypto",
+    "slug": "rsa",
+    "englishTitle": "RSA: principles and safe use",
+    "level": "핵심"
+  },
+  {
+    "topic": "crypto",
+    "slug": "elliptic-curve",
+    "englishTitle": "Elliptic-curve cryptography (ECC)",
+    "level": "핵심"
+  },
+  {
+    "topic": "crypto",
+    "slug": "post-quantum",
+    "englishTitle": "Post-quantum cryptography",
+    "level": "응용"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "shortest-paths",
+    "englishTitle": "Shortest path algorithms",
+    "level": "핵심"
+  },
+  {
+    "topic": "algorithms",
+    "slug": "string-matching",
+    "englishTitle": "String matching",
+    "level": "응용"
   }
 ]

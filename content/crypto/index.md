@@ -15,6 +15,9 @@ AI 작성 해설
 | 1 | [암호학 개요](foundations.md) | 암호화·해시·MAC·서명은 각각 무엇을 보장하는가? |
 | 2 | [대칭키 암호: AES와 운영 모드](symmetric-encryption.md) | AEAD는 왜 기본이고 nonce 규칙은 왜 중요한가? |
 | 3 | [비대칭키 암호: RSA와 타원곡선](asymmetric-encryption.md) | 공개키·개인키는 어떤 용도로 나뉘는가? |
+| 3-1 | [RSA: 원리와 안전한 사용](rsa.md) | 키 생성·패딩·크기는 왜 중요한가? |
+| 3-2 | [타원곡선 암호(ECC)](elliptic-curve.md) | 왜 짧은 키로 같은 안전성을 얻는가? |
+| 3-3 | [양자 이후 암호(PQC)](post-quantum.md) | 양자 컴퓨터는 무엇을 깨뜨리고 어떻게 대비하는가? |
 | 4 | [암호학적 해시 함수](hashing.md) | 해시가 보장하는 것과 못 하는 것은? |
 | 5 | [MAC과 전자서명](mac-and-signatures.md) | 무결성을 넘어 출처·부인 방지는 어떻게? |
 | 6 | [키 교환과 전방향 비밀성](key-exchange.md) | 도청 채널에서 공유 키를 어떻게 만드는가? |

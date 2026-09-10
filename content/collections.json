@@ -448,6 +448,16 @@
         "level": "핵심"
       },
       {
+        "slug": "rsa",
+        "englishTitle": "RSA: principles and safe use",
+        "level": "핵심"
+      },
+      {
+        "slug": "elliptic-curve",
+        "englishTitle": "Elliptic-curve cryptography (ECC)",
+        "level": "핵심"
+      },
+      {
         "slug": "hashing",
         "englishTitle": "Cryptographic hash functions",
         "level": "핵심"
@@ -480,6 +490,11 @@
       {
         "slug": "key-management",
         "englishTitle": "Key management and lifecycle",
+        "level": "응용"
+      },
+      {
+        "slug": "post-quantum",
+        "englishTitle": "Post-quantum cryptography",
         "level": "응용"
       },
       {
@@ -550,6 +565,16 @@
       {
         "slug": "backtracking",
         "englishTitle": "Backtracking and exhaustive search",
+        "level": "응용"
+      },
+      {
+        "slug": "shortest-paths",
+        "englishTitle": "Shortest path algorithms",
+        "level": "핵심"
+      },
+      {
+        "slug": "string-matching",
+        "englishTitle": "String matching",
         "level": "응용"
       },
       {

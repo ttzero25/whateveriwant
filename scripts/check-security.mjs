@@ -57,7 +57,7 @@ try{
     await page.waitForSelector('.article');
     assert.equal(await page.locator('h1').innerText(),doc.title);
     assert.equal(await page.locator('.article').getAttribute('lang'),'ko');
-    if(topic==='vulnerabilities')assert.equal(await page.locator('.concept-diagram').count(),['sql-injection','access-control'].includes(doc.slug)?1:0);
+    if(topic==='vulnerabilities')assert.equal(await page.locator('.concept-diagram').count(),['sql-injection','access-control','xss','csrf','ssrf','command-injection'].includes(doc.slug)?1:0);
     assert.match(await page.locator('.article blockquote').first().innerText(),/TL;DR/);
     assert.equal(await page.locator('.back-link').getAttribute('href'),'#/'+topic);
     assert.equal(await page.locator('.article-next a[href^="#/ai/"]').count(),0);
