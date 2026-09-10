@@ -162,6 +162,36 @@
     "track": "llm"
   },
   {
+    "slug": "reinforcement-learning",
+    "englishTitle": "Reinforcement learning",
+    "level": "핵심",
+    "track": "dl"
+  },
+  {
+    "slug": "generative-models",
+    "englishTitle": "Generative models: GANs and diffusion",
+    "level": "핵심",
+    "track": "dl"
+  },
+  {
+    "slug": "graph-neural-networks",
+    "englishTitle": "Graph neural networks",
+    "level": "응용",
+    "track": "dl"
+  },
+  {
+    "slug": "support-vector-machines",
+    "englishTitle": "Support vector machines",
+    "level": "핵심",
+    "track": "ml"
+  },
+  {
+    "slug": "autoencoders",
+    "englishTitle": "Autoencoders and representation learning",
+    "level": "핵심",
+    "track": "dl"
+  },
+  {
     "slug": "glossary",
     "englishTitle": "AI glossary",
     "level": "참고",

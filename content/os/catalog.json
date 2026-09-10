@@ -40,6 +40,36 @@
     "level": "핵심"
   },
   {
+    "slug": "signals",
+    "englishTitle": "Signals: asynchronous process notification",
+    "level": "핵심"
+  },
+  {
+    "slug": "containers-namespaces",
+    "englishTitle": "Containers: namespaces and cgroups",
+    "level": "핵심"
+  },
+  {
+    "slug": "memory-allocation",
+    "englishTitle": "Memory allocation: heap, malloc and fragmentation",
+    "level": "핵심"
+  },
+  {
+    "slug": "realtime-scheduling",
+    "englishTitle": "Real-time scheduling and RTOS",
+    "level": "핵심"
+  },
+  {
+    "slug": "boot-process",
+    "englishTitle": "The boot process: firmware to user space",
+    "level": "핵심"
+  },
+  {
+    "slug": "device-drivers",
+    "englishTitle": "Device drivers and kernel modules",
+    "level": "핵심"
+  },
+  {
     "slug": "glossary",
     "englishTitle": "OS glossary",
     "level": "참고"

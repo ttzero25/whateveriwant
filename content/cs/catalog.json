@@ -60,6 +60,36 @@
     "level": "핵심"
   },
   {
+    "slug": "dynamic-programming",
+    "englishTitle": "Dynamic programming and algorithm design",
+    "level": "핵심"
+  },
+  {
+    "slug": "automata-regex",
+    "englishTitle": "Regular expressions and automata",
+    "level": "핵심"
+  },
+  {
+    "slug": "cache-memory-hierarchy",
+    "englishTitle": "Caching and the memory hierarchy",
+    "level": "핵심"
+  },
+  {
+    "slug": "floating-point",
+    "englishTitle": "Floating point and numeric error",
+    "level": "핵심"
+  },
+  {
+    "slug": "software-design",
+    "englishTitle": "Software design: OOP, SOLID and patterns",
+    "level": "핵심"
+  },
+  {
+    "slug": "type-systems",
+    "englishTitle": "Type systems",
+    "level": "핵심"
+  },
+  {
     "slug": "glossary",
     "englishTitle": "CS glossary",
     "level": "참고"

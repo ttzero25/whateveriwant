@@ -63,5 +63,10 @@ ML과 DL은 별개의 배타적 분야가 아닙니다. DL은 ML에 포함되며
 | [LLM의 사전학습과 후학습: SFT·선호 학습](llm-training-lifecycle.md) | 핵심 |
 | [컨텍스트·메모리와 검색: 청킹·재순위화](context-retrieval.md) | 응용 |
 | [LLM 평가와 도구 호출: 성공 기준·스키마·권한](llm-evaluation-tools.md) | 응용 |
+| [서포트 벡터 머신(SVM)](support-vector-machines.md) | 핵심 |
+| [강화학습: 보상으로 배우는 정책](reinforcement-learning.md) | 핵심 |
+| [오토인코더와 표현 학습](autoencoders.md) | 핵심 |
+| [생성 모델: GAN과 확산 모델](generative-models.md) | 핵심 |
+| [그래프 신경망(GNN)](graph-neural-networks.md) | 응용 |
 
-학습 경로: 확률·통계 → 모델 선택 → 앙상블·차원 축소 / 최적화 → 역전파 → 학습 안정성 / Transformer → 사전·후학습 → 검색·메모리 → LLM 평가.
+학습 경로: 확률·통계 → 모델 선택 → 앙상블·차원 축소·SVM / 최적화 → 역전파 → 학습 안정성 → 강화학습 / 차원 축소 → 오토인코더 → 생성 모델 / 신경망 → 그래프 신경망 / Transformer → 사전·후학습 → 검색·메모리 → LLM 평가.

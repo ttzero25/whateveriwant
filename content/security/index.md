@@ -45,8 +45,14 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | [시큐어 코딩과 코드 리뷰: 신뢰 경계의 검증](secure-development.md) | 응용 |
 | [소프트웨어 공급망: 의존성·SBOM·빌드 출처](software-supply-chain.md) | 핵심 |
 | [클라우드 IAM과 비밀 관리: 서비스 신원과 수명](cloud-identity-secrets.md) | 응용 |
+| [API 보안: OAuth 2.0·OIDC·JWT](api-security.md) | 핵심 |
+| [컨테이너·쿠버네티스 보안](container-security.md) | 응용 |
+| [이메일 인증: SPF·DKIM·DMARC](email-authentication.md) | 핵심 |
+| [제로 트러스트와 네트워크 분할](zero-trust.md) | 응용 |
+| [데이터 프라이버시: PII 보호와 최소 수집](data-privacy.md) | 응용 |
+| [가용성과 서비스 거부(DoS) 방어](availability-dos.md) | 핵심 |
 
-학습 경로: 보안 원칙 → 시큐어 개발 → 공급망 → 클라우드 신원 → 로깅과 사고 대응.
+학습 경로: 보안 원칙 → 인증·인가 → API 보안 → 이메일 인증 → 시큐어 개발 → 공급망 → 컨테이너·제로 트러스트·클라우드 신원 → 데이터 프라이버시 → 가용성 → 로깅과 사고 대응.
 
 ## 네트워크와의 연결
 

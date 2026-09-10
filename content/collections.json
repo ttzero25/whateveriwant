@@ -53,6 +53,36 @@
         "level": "응용"
       },
       {
+        "slug": "api-security",
+        "englishTitle": "API security: OAuth 2.0, OIDC and JWT",
+        "level": "핵심"
+      },
+      {
+        "slug": "container-security",
+        "englishTitle": "Container and Kubernetes security",
+        "level": "응용"
+      },
+      {
+        "slug": "email-authentication",
+        "englishTitle": "Email authentication: SPF, DKIM and DMARC",
+        "level": "핵심"
+      },
+      {
+        "slug": "zero-trust",
+        "englishTitle": "Zero trust and network segmentation",
+        "level": "응용"
+      },
+      {
+        "slug": "data-privacy",
+        "englishTitle": "Data privacy and PII protection",
+        "level": "응용"
+      },
+      {
+        "slug": "availability-dos",
+        "englishTitle": "Availability and denial-of-service defense",
+        "level": "핵심"
+      },
+      {
         "slug": "glossary",
         "englishTitle": "Security glossary",
         "level": "참고"
@@ -110,6 +140,36 @@
       {
         "slug": "model-operations",
         "englishTitle": "Security model monitoring, retraining and rollback",
+        "level": "응용"
+      },
+      {
+        "slug": "adversarial-ml",
+        "englishTitle": "Adversarial ML: evasion, poisoning and inference",
+        "level": "응용"
+      },
+      {
+        "slug": "llm-prompt-injection",
+        "englishTitle": "Defending against LLM prompt injection",
+        "level": "응용"
+      },
+      {
+        "slug": "malware-classification",
+        "englishTitle": "Malware classification and feature engineering",
+        "level": "응용"
+      },
+      {
+        "slug": "ueba-graph-detection",
+        "englishTitle": "UEBA and graph-based detection",
+        "level": "응용"
+      },
+      {
+        "slug": "soar-automation",
+        "englishTitle": "SOAR and automated response",
+        "level": "응용"
+      },
+      {
+        "slug": "threat-intel-enrichment",
+        "englishTitle": "Threat intelligence enrichment",
         "level": "응용"
       },
       {
@@ -198,6 +258,36 @@
         "level": "응용"
       },
       {
+        "slug": "websockets",
+        "englishTitle": "WebSocket: real-time bidirectional messaging",
+        "level": "응용"
+      },
+      {
+        "slug": "socket-programming",
+        "englishTitle": "Socket programming with the Berkeley sockets API",
+        "level": "핵심"
+      },
+      {
+        "slug": "load-balancing",
+        "englishTitle": "Load balancing and reverse proxies",
+        "level": "응용"
+      },
+      {
+        "slug": "bgp",
+        "englishTitle": "BGP and inter-AS routing",
+        "level": "응용"
+      },
+      {
+        "slug": "vpn-tunneling",
+        "englishTitle": "VPN and tunneling: IPsec and WireGuard",
+        "level": "응용"
+      },
+      {
+        "slug": "grpc-rpc",
+        "englishTitle": "gRPC and remote procedure calls",
+        "level": "응용"
+      },
+      {
         "slug": "glossary",
         "englishTitle": "Network glossary",
         "level": "참고"
@@ -281,6 +371,41 @@
         "slug": "misconfiguration",
         "englishTitle": "Misconfiguration and sensitive error information",
         "level": "핵심"
+      },
+      {
+        "slug": "xxe",
+        "englishTitle": "XXE: XML external entity injection",
+        "level": "핵심"
+      },
+      {
+        "slug": "ssti",
+        "englishTitle": "SSTI: server-side template injection",
+        "level": "응용"
+      },
+      {
+        "slug": "open-redirect",
+        "englishTitle": "Open redirect: trusted-domain lures",
+        "level": "핵심"
+      },
+      {
+        "slug": "request-smuggling",
+        "englishTitle": "HTTP request smuggling: parser desync",
+        "level": "응용"
+      },
+      {
+        "slug": "clickjacking",
+        "englishTitle": "Clickjacking: UI redressing",
+        "level": "핵심"
+      },
+      {
+        "slug": "prototype-pollution",
+        "englishTitle": "Prototype pollution",
+        "level": "응용"
+      },
+      {
+        "slug": "integer-overflow",
+        "englishTitle": "Integer overflow and wraparound",
+        "level": "응용"
       },
       {
         "slug": "glossary",

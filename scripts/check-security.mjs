@@ -28,7 +28,7 @@ try{
   await page.goto(base+'#/'+topic);
   await page.waitForSelector('.doc-card');
   if(topic==='vulnerabilities'){
-    assert.equal(security.length,16);
+    assert.equal(security.length,23);
     await page.locator('.vulnerability-intro a').click();
     await page.waitForSelector('.article');
     await page.locator('.back-link').click();
@@ -94,7 +94,7 @@ try{
     await page.locator('#menu-toggle').click();
     await page.locator('.vulnerabilities-link').click();
     await page.waitForSelector('.doc-card');
-    assert.equal(await page.locator('.doc-card').count(),16);
+    assert.equal(await page.locator('.doc-card').count(),23);
     assert.equal(await page.locator('#menu-toggle').getAttribute('aria-expanded'),'false');
   }
   await page.goto(base+'#/ai');

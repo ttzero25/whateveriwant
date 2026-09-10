@@ -48,5 +48,11 @@ NIST·OWASP·Google·scikit-learn 공식 자료를 참고한 한국어 해설입
 | [탐지 엔지니어링: 가설·데이터·규칙·모델의 수명](detection-engineering.md) | 응용 |
 | [피싱 분류 사례: 데이터에서 경보 검토까지](phishing-classification.md) | 응용 |
 | [보안 모델 운영: 관측·재학습·롤백](model-operations.md) | 응용 |
+| [적대적 머신러닝: 회피·오염·추론 공격](adversarial-ml.md) | 응용 |
+| [LLM 프롬프트 인젝션 방어](llm-prompt-injection.md) | 응용 |
+| [악성코드 분류: 특징 공학과 회피](malware-classification.md) | 응용 |
+| [UEBA와 그래프 기반 탐지](ueba-graph-detection.md) | 응용 |
+| [SOAR와 경보 자동 대응](soar-automation.md) | 응용 |
+| [위협 인텔리전스 보강과 연관 분석](threat-intel-enrichment.md) | 응용 |
 
-적용 경로: 보안 데이터 → 탐지 평가 → 피싱 분류 사례 → 탐지 엔지니어링 → 모델 운영. 기존 여섯 글에는 불균형 학습·확률 보정·경보 상관분석·구조화 출력·테넌트 격리의 심화 내용을 추가했습니다.
+적용 경로: 보안 데이터 → 탐지 평가 → 피싱 분류·악성코드 분류 → 탐지 엔지니어링 → UEBA·그래프 탐지 → 위협 인텔 보강 → SOAR 자동 대응 → 모델 운영 → 적대적 ML·LLM 프롬프트 인젝션 방어. 기존 여섯 글에는 불균형 학습·확률 보정·경보 상관분석·구조화 출력·테넌트 격리의 심화 내용을 추가했습니다.

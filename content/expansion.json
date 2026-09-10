@@ -127,5 +127,262 @@
     "slug": "model-operations",
     "englishTitle": "Security model monitoring, retraining and rollback",
     "level": "응용"
+  },
+  {
+    "topic": "security",
+    "slug": "api-security",
+    "englishTitle": "API security: OAuth 2.0, OIDC and JWT",
+    "level": "핵심"
+  },
+  {
+    "topic": "security",
+    "slug": "container-security",
+    "englishTitle": "Container and Kubernetes security",
+    "level": "응용"
+  },
+  {
+    "topic": "vulnerabilities",
+    "slug": "xxe",
+    "englishTitle": "XXE: XML external entity injection",
+    "level": "핵심"
+  },
+  {
+    "topic": "vulnerabilities",
+    "slug": "ssti",
+    "englishTitle": "SSTI: server-side template injection",
+    "level": "응용"
+  },
+  {
+    "topic": "cs",
+    "slug": "dynamic-programming",
+    "englishTitle": "Dynamic programming and algorithm design",
+    "level": "핵심"
+  },
+  {
+    "topic": "cs",
+    "slug": "automata-regex",
+    "englishTitle": "Regular expressions and automata",
+    "level": "핵심"
+  },
+  {
+    "topic": "network",
+    "slug": "websockets",
+    "englishTitle": "WebSocket: real-time bidirectional messaging",
+    "level": "응용"
+  },
+  {
+    "topic": "network",
+    "slug": "socket-programming",
+    "englishTitle": "Socket programming with the Berkeley sockets API",
+    "level": "핵심"
+  },
+  {
+    "topic": "os",
+    "slug": "signals",
+    "englishTitle": "Signals: asynchronous process notification",
+    "level": "핵심"
+  },
+  {
+    "topic": "os",
+    "slug": "containers-namespaces",
+    "englishTitle": "Containers: namespaces and cgroups",
+    "level": "핵심"
+  },
+  {
+    "topic": "ai-for-security",
+    "slug": "adversarial-ml",
+    "englishTitle": "Adversarial ML: evasion, poisoning and inference",
+    "level": "응용"
+  },
+  {
+    "topic": "ai-for-security",
+    "slug": "llm-prompt-injection",
+    "englishTitle": "Defending against LLM prompt injection",
+    "level": "응용"
+  },
+  {
+    "topic": "security",
+    "slug": "email-authentication",
+    "englishTitle": "Email authentication: SPF, DKIM and DMARC",
+    "level": "핵심"
+  },
+  {
+    "topic": "security",
+    "slug": "zero-trust",
+    "englishTitle": "Zero trust and network segmentation",
+    "level": "응용"
+  },
+  {
+    "topic": "security",
+    "slug": "data-privacy",
+    "englishTitle": "Data privacy and PII protection",
+    "level": "응용"
+  },
+  {
+    "topic": "security",
+    "slug": "availability-dos",
+    "englishTitle": "Availability and denial-of-service defense",
+    "level": "핵심"
+  },
+  {
+    "topic": "vulnerabilities",
+    "slug": "open-redirect",
+    "englishTitle": "Open redirect: trusted-domain lures",
+    "level": "핵심"
+  },
+  {
+    "topic": "vulnerabilities",
+    "slug": "request-smuggling",
+    "englishTitle": "HTTP request smuggling: parser desync",
+    "level": "응용"
+  },
+  {
+    "topic": "vulnerabilities",
+    "slug": "clickjacking",
+    "englishTitle": "Clickjacking: UI redressing",
+    "level": "핵심"
+  },
+  {
+    "topic": "vulnerabilities",
+    "slug": "prototype-pollution",
+    "englishTitle": "Prototype pollution",
+    "level": "응용"
+  },
+  {
+    "topic": "vulnerabilities",
+    "slug": "integer-overflow",
+    "englishTitle": "Integer overflow and wraparound",
+    "level": "응용"
+  },
+  {
+    "topic": "network",
+    "slug": "load-balancing",
+    "englishTitle": "Load balancing and reverse proxies",
+    "level": "응용"
+  },
+  {
+    "topic": "network",
+    "slug": "bgp",
+    "englishTitle": "BGP and inter-AS routing",
+    "level": "응용"
+  },
+  {
+    "topic": "network",
+    "slug": "vpn-tunneling",
+    "englishTitle": "VPN and tunneling: IPsec and WireGuard",
+    "level": "응용"
+  },
+  {
+    "topic": "network",
+    "slug": "grpc-rpc",
+    "englishTitle": "gRPC and remote procedure calls",
+    "level": "응용"
+  },
+  {
+    "topic": "ai-for-security",
+    "slug": "malware-classification",
+    "englishTitle": "Malware classification and feature engineering",
+    "level": "응용"
+  },
+  {
+    "topic": "ai-for-security",
+    "slug": "ueba-graph-detection",
+    "englishTitle": "UEBA and graph-based detection",
+    "level": "응용"
+  },
+  {
+    "topic": "ai-for-security",
+    "slug": "soar-automation",
+    "englishTitle": "SOAR and automated response",
+    "level": "응용"
+  },
+  {
+    "topic": "ai-for-security",
+    "slug": "threat-intel-enrichment",
+    "englishTitle": "Threat intelligence enrichment",
+    "level": "응용"
+  },
+  {
+    "topic": "cs",
+    "slug": "cache-memory-hierarchy",
+    "englishTitle": "Caching and the memory hierarchy",
+    "level": "핵심"
+  },
+  {
+    "topic": "cs",
+    "slug": "floating-point",
+    "englishTitle": "Floating point and numeric error",
+    "level": "핵심"
+  },
+  {
+    "topic": "cs",
+    "slug": "software-design",
+    "englishTitle": "Software design: OOP, SOLID and patterns",
+    "level": "핵심"
+  },
+  {
+    "topic": "cs",
+    "slug": "type-systems",
+    "englishTitle": "Type systems",
+    "level": "핵심"
+  },
+  {
+    "topic": "os",
+    "slug": "memory-allocation",
+    "englishTitle": "Memory allocation: heap, malloc and fragmentation",
+    "level": "핵심"
+  },
+  {
+    "topic": "os",
+    "slug": "realtime-scheduling",
+    "englishTitle": "Real-time scheduling and RTOS",
+    "level": "핵심"
+  },
+  {
+    "topic": "os",
+    "slug": "boot-process",
+    "englishTitle": "The boot process: firmware to user space",
+    "level": "핵심"
+  },
+  {
+    "topic": "os",
+    "slug": "device-drivers",
+    "englishTitle": "Device drivers and kernel modules",
+    "level": "핵심"
+  },
+  {
+    "topic": "ai",
+    "slug": "reinforcement-learning",
+    "englishTitle": "Reinforcement learning",
+    "level": "핵심",
+    "track": "dl"
+  },
+  {
+    "topic": "ai",
+    "slug": "generative-models",
+    "englishTitle": "Generative models: GANs and diffusion",
+    "level": "핵심",
+    "track": "dl"
+  },
+  {
+    "topic": "ai",
+    "slug": "graph-neural-networks",
+    "englishTitle": "Graph neural networks",
+    "level": "응용",
+    "track": "dl"
+  },
+  {
+    "topic": "ai",
+    "slug": "support-vector-machines",
+    "englishTitle": "Support vector machines",
+    "level": "핵심",
+    "track": "ml"
+  },
+  {
+    "topic": "ai",
+    "slug": "autoencoders",
+    "englishTitle": "Autoencoders and representation learning",
+    "level": "핵심",
+    "track": "dl"
   }
 ]
