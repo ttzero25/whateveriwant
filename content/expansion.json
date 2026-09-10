@@ -384,5 +384,37 @@
     "englishTitle": "Autoencoders and representation learning",
     "level": "핵심",
     "track": "dl"
+  },
+  {
+    "topic": "security",
+    "slug": "hardware-security",
+    "englishTitle": "Hardware security: TPM, TEE and secure boot",
+    "level": "응용"
+  },
+  {
+    "topic": "network",
+    "slug": "time-sync",
+    "englishTitle": "Time synchronization: NTP and PTP",
+    "level": "응용"
+  },
+  {
+    "topic": "network",
+    "slug": "multicast",
+    "englishTitle": "Multicast and broadcast",
+    "level": "핵심"
+  },
+  {
+    "topic": "ai",
+    "slug": "multimodal-models",
+    "englishTitle": "Multimodal models",
+    "level": "응용",
+    "track": "llm"
+  },
+  {
+    "topic": "ai",
+    "slug": "recommender-systems",
+    "englishTitle": "Recommender systems",
+    "level": "핵심",
+    "track": "ml"
   }
 ]

@@ -192,6 +192,18 @@
     "track": "dl"
   },
   {
+    "slug": "multimodal-models",
+    "englishTitle": "Multimodal models",
+    "level": "응용",
+    "track": "llm"
+  },
+  {
+    "slug": "recommender-systems",
+    "englishTitle": "Recommender systems",
+    "level": "핵심",
+    "track": "ml"
+  },
+  {
     "slug": "glossary",
     "englishTitle": "AI glossary",
     "level": "참고",

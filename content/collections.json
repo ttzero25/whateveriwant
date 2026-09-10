@@ -83,6 +83,11 @@
         "level": "핵심"
       },
       {
+        "slug": "hardware-security",
+        "englishTitle": "Hardware security: TPM, TEE and secure boot",
+        "level": "응용"
+      },
+      {
         "slug": "glossary",
         "englishTitle": "Security glossary",
         "level": "참고"
@@ -286,6 +291,16 @@
         "slug": "grpc-rpc",
         "englishTitle": "gRPC and remote procedure calls",
         "level": "응용"
+      },
+      {
+        "slug": "time-sync",
+        "englishTitle": "Time synchronization: NTP and PTP",
+        "level": "응용"
+      },
+      {
+        "slug": "multicast",
+        "englishTitle": "Multicast and broadcast",
+        "level": "핵심"
       },
       {
         "slug": "glossary",
