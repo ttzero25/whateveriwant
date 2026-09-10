@@ -1,34 +1,65 @@
 {
-  "attempted_at": "2026-09-10T10:58:06.803Z",
+  "automation_enabled": false,
+  "attempted_at": "2026-09-10T11:07:08.606Z",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
-      "home": "https://openai.com/news/research/",
-      "attempted_at": "2026-09-10T10:58:06.803Z",
-      "last_success": "2026-09-10T10:58:06.803Z",
+      "home": "https://openai.com/news/",
+      "attempted_at": "2026-09-10T11:07:08.606Z",
+      "last_success": "2026-09-10T11:07:08.606Z",
       "status": "ok",
+      "endpoints": [
+        {
+          "url": "https://openai.com/news/rss.xml",
+          "status": "ok",
+          "last_success": "2026-09-10T11:07:08.606Z"
+        }
+      ],
       "count": 60
     },
     {
       "id": "anthropic",
       "name": "Anthropic",
       "url": "https://www.anthropic.com/research",
-      "home": "https://www.anthropic.com/research",
-      "attempted_at": "2026-09-10T10:58:06.803Z",
-      "last_success": "2026-09-10T10:58:06.803Z",
+      "urls": [
+        "https://www.anthropic.com/research",
+        "https://www.anthropic.com/news"
+      ],
+      "home": "https://www.anthropic.com/news",
+      "attempted_at": "2026-09-10T11:07:08.606Z",
+      "last_success": "2026-09-10T11:07:08.606Z",
       "status": "ok",
-      "count": 10
+      "endpoints": [
+        {
+          "url": "https://www.anthropic.com/research",
+          "status": "ok",
+          "last_success": "2026-09-10T11:07:08.606Z"
+        },
+        {
+          "url": "https://www.anthropic.com/news",
+          "status": "ok",
+          "last_success": "2026-09-10T11:07:08.606Z"
+        }
+      ],
+      "count": 23
     },
     {
       "id": "arxiv",
       "name": "arXiv",
       "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
       "home": "https://arxiv.org/list/cs.CR/recent",
-      "attempted_at": "2026-09-10T10:58:06.803Z",
-      "last_success": "2026-09-10T10:58:06.803Z",
+      "attempted_at": "2026-09-10T11:07:08.606Z",
+      "last_success": "2026-09-10T11:07:08.606Z",
       "status": "ok",
+      "endpoints": [
+        {
+          "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
+          "status": "ok",
+          "last_success": "2026-09-10T11:07:08.606Z"
+        }
+      ],
       "count": 150
     }
   ],
@@ -37,1673 +68,2318 @@
       "source": "arxiv",
       "title": "'Ghaib in Translation' aka Unseen Harm: Measuring Cross-Script Safety Inconsistency with 'Missed-in-Urdu' Scores in LLM Hate Speech Detection",
       "url": "https://arxiv.org/abs/2608.24191",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CL cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "safety"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "\"Tab, Tab, Bug\": Security Pitfalls of Next Edit Suggestions in AI-Integrated IDEs",
       "url": "https://arxiv.org/abs/2602.06759",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.HC",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "\"Transforming\" LHCb: self-supervised maps of heavy-flavour decays",
       "url": "https://arxiv.org/abs/2609.09275",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "hep-ex cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "\"What Are You Really Trying to Do?\": Co-Creating Life Goals from Everyday Computer Use",
       "url": "https://arxiv.org/abs/2605.00497",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.HC cs.AI cs.CL",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "A Block Tensor Train Burer-Monteiro Framework for Low-Rank Quantum State Tomography",
       "url": "https://arxiv.org/abs/2609.09457",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "quant-ph cs.LG cs.NA eess.SP math.NA math.OC",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "A Composable Evaluation System for Reproducible Omni-Modal Foundation Model Evaluation",
       "url": "https://arxiv.org/abs/2609.01315",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "evaluation"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "A convolutional autoencoder and neural ODE surrogate modeling framework applied to transient counterflow flames",
       "url": "https://arxiv.org/abs/2603.15038",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "physics.flu-dyn cs.LG physics.comp-ph",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "A Dominant Diffuse Phase in the Sparse Autoencoder Phase Diagram",
       "url": "https://arxiv.org/abs/2609.10299",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "A Farewell to the Bias-Variance Tradeoff? An Overview of the Theory of Overparameterized Machine Learning",
       "url": "https://arxiv.org/abs/2109.02355",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "stat.ML cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "A Function-Space Approach to the Statistical Mechanics of Learning Dynamics",
       "url": "https://arxiv.org/abs/2609.09589",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "A Human Audit of OpenAIs AI-Generated Mathematical Proofs",
       "url": "https://arxiv.org/abs/2608.14673",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI cs.GL quant-ph",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "A Jump-Diffusion Framework for Irregular Time Series Generation",
       "url": "https://arxiv.org/abs/2505.23215",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "math.NA cs.LG cs.NA",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "A Kernel-Based Modular Discriminant Analysis Framework for Small-Sample Learning",
       "url": "https://arxiv.org/abs/2609.09910",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "A Later Test Set Is Not a New Domain: Pretraining Familiarity Survives a Contamination-Free Hold-Out",
       "url": "https://arxiv.org/abs/2609.10357",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "A positive resolution of the gap-entropy conjecture",
       "url": "https://arxiv.org/abs/2609.10529",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG stat.ML",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "A practical DIRECT-type algorithm for medium-scale black-box global optimization",
       "url": "https://arxiv.org/abs/2609.09796",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cs.NA math.NA",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "A Robust Framework for Sybil Attack Detection in Vehicular Ad Hoc Networks",
       "url": "https://arxiv.org/abs/2606.11667",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "evaluation"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "A Sharp Barrier for Consistent Submodular Maximization: Any Improvement over $2-\\sqrt{2}$ Entails Exponential Queries or Linear Recourse",
       "url": "https://arxiv.org/abs/2609.09986",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.DS cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "A statistical approach to bias in zero-shot learning: the lens of handwriting recognition",
       "url": "https://arxiv.org/abs/2609.10084",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "stat.ML cs.AI cs.CV cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "A Statistical Approach to Estimating Sample Size of Machine Learning Models",
       "url": "https://arxiv.org/abs/2609.09547",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "A Subsampled Davis-Kahan Bound for Large-Scale Eigenspace Estimation",
       "url": "https://arxiv.org/abs/2609.09211",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "stat.ML cs.LG stat.ME",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "A Systematic Evaluation of Molecule Generation Models for De Novo Drug Design: From Benchmarks to Practical Insights",
       "url": "https://arxiv.org/abs/2609.10099",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "evaluation"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "A Taxonomy of Architecture Options for Foundation Model-based Agents: Analysis and Decision Model",
       "url": "https://arxiv.org/abs/2408.02920",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.SE cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "A Trust-Network-Based Federated Learning Framework for Multi-Center Aging Clock Prediction",
       "url": "https://arxiv.org/abs/2609.10108",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "A Unifying Perspective on Probabilities as Model Predictions",
       "url": "https://arxiv.org/abs/2609.09855",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "stat.ML cs.CY cs.LG math.ST stat.TH",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "A Verifier-Centric Conceptual Model for Digital Credential Ecosystems",
       "url": "https://arxiv.org/abs/2607.10747",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.CY",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "A-JIT: Agentic Just-In-Time Software Construction",
       "url": "https://arxiv.org/abs/2609.10248",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.SE cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Accountable and uncertainty-aware evaluation of sensor-based AI under distribution shift: devices, subjects, and nearly three years underground",
       "url": "https://arxiv.org/abs/2609.09257",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG stat.ME stat.ML",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "evaluation"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Accuracy is Not Enough: A Divergence-Based Approach to Evaluate Fidelity Loss in Quantized LLMs",
       "url": "https://arxiv.org/abs/2609.07664",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "evaluation"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Active Adaptation, Not Static Defense: Temporal Dynamics of Preventative Steering in Adversarial Fine-Tuning",
       "url": "https://arxiv.org/abs/2609.10142",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CL cs.AI cs.CR cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Adaptive Distributed Physical-Layer Authentication and Attack Detection in 6G Non-Terrestrial Networks via Causal Meta-Learning",
       "url": "https://arxiv.org/abs/2609.09511",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "eess.SP cs.AI cs.CR cs.LG cs.SY eess.SY",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
       "url": "https://arxiv.org/abs/2609.09226",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI physics.soc-ph q-bio.NC q-fin.GN quant-ph",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Adversarial Training for Tabular Credit Scoring: A Multi-Attack Robustness Evaluation in P2P Lending",
       "url": "https://arxiv.org/abs/2609.09945",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG q-fin.RM stat.ML",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "evaluation"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Agent-Based ML-LLM Fusion with Self-Optimizing Prompts for Plateau Weather Alerts",
       "url": "https://arxiv.org/abs/2609.10135",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "AgentAudit: An Open, Extensible Framework for Full-Lifecycle Trust Evaluation of AI Agents",
       "url": "https://arxiv.org/abs/2609.09875",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "evaluation"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "AgentHijack: Visual Patch Attacks on Multimodal Computer-Use Agents",
       "url": "https://arxiv.org/abs/2609.09212",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI cs.CY",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "AgenticGen: Reward-Guided Agentic Video Generation for Advertising",
       "url": "https://arxiv.org/abs/2609.09187",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CV cs.AI cs.CL",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Albedo Estimation via Latent Bridge Matching",
       "url": "https://arxiv.org/abs/2609.09884",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CV cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Algorithmic Optimality Guarantees for Nonsmooth $H_\\infty$ Output-Feedback Policy Search",
       "url": "https://arxiv.org/abs/2609.06197",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "math.OC cs.LG cs.SY eess.SY",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Algorithmic stability via ensembling",
       "url": "https://arxiv.org/abs/2609.10428",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "math.ST cs.LG stat.TH",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "ALIGN-HOLD: Experience Alignment for Real-Time Hold Control in Large-Scale Ride-Hailing Matching at DiDi",
       "url": "https://arxiv.org/abs/2609.09685",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "safety"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
       "url": "https://arxiv.org/abs/2609.09374",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "An Efficient and Effective Agentic Group Shilling Attack on Recommender Systems",
       "url": "https://arxiv.org/abs/2609.09551",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.CL",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "An Empirical Analysis of ReDoS Vulnerabilities and ReDoS Detection Tools",
       "url": "https://arxiv.org/abs/2609.10294",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "An Experimental Evaluation of Multimodal Prompt Injection Attacks on Agentic AI Frameworks",
       "url": "https://arxiv.org/abs/2609.09404",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "evaluation"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "An Explainable Machine Learning Framework for Predicting Blood-Brain Barrier Permeability Using Molecular Descriptors",
       "url": "https://arxiv.org/abs/2609.10012",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cond-mat.mtrl-sci",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "An Exponential Deterministic--Randomized Gap in ERM-Oracle Complexity for Thresholds on an Unknown Order",
       "url": "https://arxiv.org/abs/2609.10196",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG stat.ML",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Applying foundation model embeddings towards urban livability evaluation",
       "url": "https://arxiv.org/abs/2609.09429",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cs.CY",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "evaluation"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Arbitrary Cipher Attacks Against Large Language Models Do Not Require Fine-Tuning",
       "url": "https://arxiv.org/abs/2609.09553",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Are Unreachable Nodes Truly Safe? Fully Eclipsing Monero's P2P Network!",
       "url": "https://arxiv.org/abs/2609.10260",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "safety"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Are You Learning Biological Signal or Shortcuts? Auditing and Mitigating Bias in Protein-Protein Interaction Datasets",
       "url": "https://arxiv.org/abs/2609.10193",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "q-bio.MN cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Ask Self, Ask Others: Relation Is All You Need",
       "url": "https://arxiv.org/abs/2608.20172",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "AtlasNLP: A Country-Aware Atlas of Dataset Representation in NLP",
       "url": "https://arxiv.org/abs/2608.30107",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CL cs.AI cs.CY",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "Audio Deepfake Detection Using Temporal Coherence Analysis",
       "url": "https://arxiv.org/abs/2609.09489",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.SD",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Auditable Emergency Triage for Maternal and Newborn Care in India",
       "url": "https://arxiv.org/abs/2609.09356",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CL cs.AI cs.CY",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Autoregressive Guidance of Deep Spatially Selective Filters using Bayesian Tracking for Efficient Extraction of Moving Speakers",
       "url": "https://arxiv.org/abs/2603.23723",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "eess.AS cs.LG cs.SD",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "AutoTrans: AI-Assisted Automatic Translation of Security Assertions for RISC-V Processors",
       "url": "https://arxiv.org/abs/2609.10057",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "AVP-Inspect: Coordinated Cyber-Physical Testing for Privacy Analysis of COTS Apple Vision Pro Applications",
       "url": "https://arxiv.org/abs/2609.08103",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "BaltiVoice: A Speech Corpus and Fine-tuned Whisper ASR System for the Balti Language",
       "url": "https://arxiv.org/abs/2606.03504",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CL cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "Bayesian Adversarial Privacy",
       "url": "https://arxiv.org/abs/2603.04199",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "math.ST cs.CR cs.LG stat.ME stat.TH",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "Bayesian deep learning integration of geophysical and drilling data for 3D prediction of copper mineralization and drill targeting: a case study from the Kogodai prospect, Rudny Altai",
       "url": "https://arxiv.org/abs/2609.09246",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "physics.geo-ph cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Belief-State Engine: Augmenting LLMs for Principled Planning Under Partial Observability",
       "url": "https://arxiv.org/abs/2609.10036",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI cs.LG cs.RO",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Beyond Contact Sensors: Deep learning with Pseudo-Labeling for remote Photoplethysmography",
       "url": "https://arxiv.org/abs/2609.10026",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Beyond Conventional Federated Learning via High-Order Regularization",
       "url": "https://arxiv.org/abs/2609.09904",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG stat.ML",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Beyond One-Size-Fits-All: Neural Networks for Differentially Private Tabular Data Synthesis",
       "url": "https://arxiv.org/abs/2511.13893",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
       "url": "https://arxiv.org/abs/2609.10346",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CV cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Beyond Prompts: Measuring and Optimizing LLM Tool-Agent Harnesses",
       "url": "https://arxiv.org/abs/2609.05736",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Beyond Surface Imitation: Contrastive Modeling for Reasoning Path Alignment in Multimodal In-Context Learning",
       "url": "https://arxiv.org/abs/2609.10177",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "safety"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Beyond Training: A Feasibility Taxonomy for Inference-Time AI Governance",
       "url": "https://arxiv.org/abs/2609.10105",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CY cs.AI cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability",
       "url": "https://arxiv.org/abs/2608.15475",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Black-Box Red Teaming of Agentic AI: A Taxonomy-Driven Framework for Automated Risk Discovery",
       "url": "https://arxiv.org/abs/2609.09647",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "safety"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Bounty Hunter: Autonomous, Comprehensive Emulation of Multi-Faceted Adversaries",
       "url": "https://arxiv.org/abs/2512.15275",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL",
       "url": "https://arxiv.org/abs/2609.09783",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Bridging Theory and Data: Correcting Nuclear Mass Models with Interpretable Machine Learning",
       "url": "https://arxiv.org/abs/2603.15203",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "nucl-th cs.LG nucl-ex",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Bringing Value Models Back: Generative Critics for Value Modeling in LLM Reinforcement Learning",
       "url": "https://arxiv.org/abs/2604.10701",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cs.AI cs.CL",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "BTBR: A Bayesian-Theory-Driven Probabilistic-Fuzzy Framework for Implicit Bias Removal in Large Language Models",
       "url": "https://arxiv.org/abs/2408.10608",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CL cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "Builder, Defender, Breaker: Measurable Independence and Bounded Autonomy When Generative Models Build, Defend and Test Software",
       "url": "https://arxiv.org/abs/2607.03215",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI cs.SE",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Building the Harness Automatically: Self-Play in Code Distills a Text Harness for Black-Box Optimization",
       "url": "https://arxiv.org/abs/2609.09468",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Can AI Agents Deliver Verifiable Network-Wide Outcomes Across Authority Boundaries?",
       "url": "https://arxiv.org/abs/2609.10181",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.NI cs.AI cs.SY eess.SY",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Can AI Agents Detect and Repair Artifact Drift in Network Experiments?",
       "url": "https://arxiv.org/abs/2609.09849",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.NI cs.AI cs.SY eess.SY",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Can Artificial Intelligence Support Healthcare and Mental Health Through Early Cyberbullying Detection ? The Impact of Emotion-Aware AI on Proactive Online Safety",
       "url": "https://arxiv.org/abs/2609.09735",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI cs.CL",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "safety"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Can Foundation Models Moderate Online Content? Evaluating Instruction- vs. Example-Driven Policy Operationalization",
       "url": "https://arxiv.org/abs/2609.10410",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CL cs.AI cs.CY",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "evaluation"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
       "url": "https://arxiv.org/abs/2608.12944",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG eess.IV stat.ML",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Cascading Gradient Inversion via LT-Code Inspired Peeling in Federated Learning",
       "url": "https://arxiv.org/abs/2609.09659",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cs.AI cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "CAST: Canonical Approximate Schur Tree for Approximate Cholesky on Graphs",
       "url": "https://arxiv.org/abs/2609.09255",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "stat.ML cs.LG cs.NA math.NA",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Central Dogma Transformer II: An AI Microscope for Understanding Cellular Regulatory Mechanisms",
       "url": "https://arxiv.org/abs/2602.08751",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG q-bio.QM",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "CertiFlash: A Formal Verification Framework for Flash Translation Layers in Computational Solid State Drives",
       "url": "https://arxiv.org/abs/2609.10347",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AR cs.CR cs.LO",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Chameleon: An Adaptive AI-Driven Honeypot Architecture Using Threat-Calibrated Particle Swarm Optimization and Semantic Deception Rapidly-Exploring Random Trees",
       "url": "https://arxiv.org/abs/2608.15407",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI cs.NE",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "safety"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Characterizing Language Generation in the Limit: Finite Witnesses and a Separation-Width Hierarch",
       "url": "https://arxiv.org/abs/2609.10525",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.FL cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "research"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Characterizing Privacy Risks of Quantum Machine Learning with Emergent Quantum-Native Access",
       "url": "https://arxiv.org/abs/2609.05702",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "quant-ph cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "safety"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "CoGReV: A Confidence-Gated Post-Hoc Non-Monotonic Belief Revision Framework for Phishing Website Classification",
       "url": "https://arxiv.org/abs/2604.25512",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Compute-Bounded Security Assurance - Coverage, Verification, and Response under Resource Constraints",
       "url": "https://arxiv.org/abs/2609.09229",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Concept drift mitigation through community and spectral graph analysis for the detectionof cyberattacks in network traffic",
       "url": "https://arxiv.org/abs/2609.09442",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.LG cs.NI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Cross User/App Network Attacks - Hijacking TCP Connections and DNS Cache Poisoning via a Malicious User/App (Extended Version)",
       "url": "https://arxiv.org/abs/2609.09345",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "CrossLink: Breaking Location Privacy by Linking Device Identifiers Across Protocols",
       "url": "https://arxiv.org/abs/2609.09963",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "CS-Guard: Benchmarking LLM Guardrails for Code Generation Security",
       "url": "https://arxiv.org/abs/2609.09798",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "evaluation"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Cyber-Financial Contagion: Modeling the Propagation of an AI Vendor Compromise Through the Banking System",
       "url": "https://arxiv.org/abs/2609.10350",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI cs.CY cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "DAO to (Anonymous) DAO Transactions",
       "url": "https://arxiv.org/abs/2604.04369",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.ET",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Decentralized network congestion control for DAG-based distributed ledger system",
       "url": "https://arxiv.org/abs/2609.09961",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.DC cs.NI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Dependency-Aware ROM/CBD Correctness Bounds for ML-KEM-768 at the Heuristic Failure Scale",
       "url": "https://arxiv.org/abs/2609.09983",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Differentially Private Average Treatment Effect Estimation by Propensity Score Blocking",
       "url": "https://arxiv.org/abs/2609.09536",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "stat.ME cs.CR cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Distributed and Private Textual Data Synthesis from Embeddings",
       "url": "https://arxiv.org/abs/2609.10104",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Dont Just Teach, Explain! A Gamified 20Q Recommender for Cybersecurity Education",
       "url": "https://arxiv.org/abs/2604.26964",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CY cs.AI cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "DuplexJail: Safety Alignment Breaks Under Spoken Interruption in Full-Duplex Models",
       "url": "https://arxiv.org/abs/2609.09420",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.SD",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "safety"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "ECDSA.Fail: Open Autoresearch for Optimizing Elliptic-Curve Point Addition in Shor's Algorithm",
       "url": "https://arxiv.org/abs/2609.09582",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "quant-ph cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Encrypt What Matters: When Selective Homomorphic Inference Is Efficient",
       "url": "https://arxiv.org/abs/2609.09357",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Execution-transcript privacy for fault-tolerant surface-code memories",
       "url": "https://arxiv.org/abs/2609.09334",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "quant-ph cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "FPGA Acceleration of Fully Homomorphic Encryption with Adaptive Key Switching",
       "url": "https://arxiv.org/abs/2609.09423",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Grid Trouble in Paradise: Uncovering Vulnerable Distributed Energy Resources and Their Grid-Level Risks",
       "url": "https://arxiv.org/abs/2609.07783",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.SY eess.SY",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "safety"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "HoneyRoute: Honeypot-Model Routing for Adversarial LLM Serving",
       "url": "https://arxiv.org/abs/2609.08306",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.CL cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "How Benchmarks and Evaluation Protocols Shape Conclusions in Provenance-Based Intrusion Detection",
       "url": "https://arxiv.org/abs/2608.01454",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "evaluation"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "How Fragile Is Safety Alignment at Frontier Scale? A Single-Direction Attack on a 320B MoE",
       "url": "https://arxiv.org/abs/2609.09793",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI cs.CL cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "safety"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "In RAG We Trust? Measuring Robustness of Retrieval-Augmented Generation Under Document Poisoning",
       "url": "https://arxiv.org/abs/2609.09243",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI cs.CL",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "evaluation"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Information-Theoretically Secure Aggregation for Lightweight Federated Learning: Resilient to Dropouts and Adversaries",
       "url": "https://arxiv.org/abs/2607.20890",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
       "url": "https://arxiv.org/abs/2609.10144",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.AI cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Learning Intrusion Response Strategies for OT Systems",
       "url": "https://arxiv.org/abs/2609.10298",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Lightweight Zero Trust via Automotive SDN",
       "url": "https://arxiv.org/abs/2609.09817",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.NI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "LLMSec-AV: A Vulnerability Taxonomy and LLM-Driven Software Weakness Discovery Framework for Autonomous Vehicles",
       "url": "https://arxiv.org/abs/2609.09386",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "LoMime: Query-Efficient Membership Inference using Model Extraction in Label-Only Settings",
       "url": "https://arxiv.org/abs/2602.18934",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
       "url": "https://arxiv.org/abs/2609.10264",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Meme Coin Factories: Uncovering Large-Scale Manipulations on pump.fun",
       "url": "https://arxiv.org/abs/2609.10246",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Meta-LinEXP3: Online-within-Online Learning for Adversarial Linear Contextual Bandits",
       "url": "https://arxiv.org/abs/2609.09907",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG math.OC",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G",
       "url": "https://arxiv.org/abs/2609.09591",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "eess.SP cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "PAPER: Privacy-Preserving Convolutional Neural Networks using Low-Degree Polynomial Approximations and Structural Optimizations on Leveled FHE",
       "url": "https://arxiv.org/abs/2509.22857",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Parallel Kac's Walk Generates PRU",
       "url": "https://arxiv.org/abs/2504.14957",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "quant-ph cs.CC cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace-cross"
     },
     {
       "source": "arxiv",
       "title": "Permissions on the Loose: Measuring Overprivilege in Real-World Serverless Applications",
       "url": "https://arxiv.org/abs/2607.02875",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Practice Makes (Im)Perfect: A Look Back at Benchmarking Practices for Microarchitectural Side-Channel Attacks",
       "url": "https://arxiv.org/abs/2609.03893",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "evaluation"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Privacy-Preserving Split Learning for Federated LLM Fine-Tuning",
       "url": "https://arxiv.org/abs/2609.09794",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "PrivAudit: A Dual-Lens Auditing Framework for Website Privacy Practices under the CCPA",
       "url": "https://arxiv.org/abs/2609.09697",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Proximity Gaps for Gabidulin Codes and Applications",
       "url": "https://arxiv.org/abs/2609.09838",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.IT cs.CR math.IT",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Quantifying IIoT Sensor Node Criticality by Fusing its Data Criticality and Security Vulnerability",
       "url": "https://arxiv.org/abs/2609.09807",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Quantum Oracle Distribution Switching and Applications to Falcon and Ring Signatures",
       "url": "https://arxiv.org/abs/2602.16268",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Robust Industrial Cyber Physical Classification Using Neuromorphic Temporal Embeddings and Hybrid SNN XGBoost Under Machine Unlearning Attacks",
       "url": "https://arxiv.org/abs/2609.09564",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.LG cs.CR cs.NE",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "evaluation"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Scalable Composition of Byzantine Agreements under Reorder Attacks",
       "url": "https://arxiv.org/abs/2609.09623",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.DS",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Session Attestation for Unmodified TLS Services in Confidential Virtual Machines",
       "url": "https://arxiv.org/abs/2609.09668",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "SMCC-Empowered Digital Twins for Sensorless Monitoring in Large-Scale AI-Driven IoT Systems",
       "url": "https://arxiv.org/abs/2609.09161",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.DC cs.CR cs.NI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Sound Debloating of Redundant Checks in Zero-Knowledge Machine-Learning Circuits",
       "url": "https://arxiv.org/abs/2609.10149",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Subgroup Membership Inference Audits of Differentially Private Synthetic Text",
       "url": "https://arxiv.org/abs/2609.09848",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Towards On-Device Evidence Gathering for Intimate Partner Infiltration: A Feasibility Study for Joint Identity-Action Detection",
       "url": "https://arxiv.org/abs/2502.03682",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.HC",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Towards Scalable and Cost-Efficient Vulnerability Detection: A Study on Automatic Query Generation",
       "url": "https://arxiv.org/abs/2609.10412",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.SE cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning",
       "url": "https://arxiv.org/abs/2609.10537",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "TrajMark: Ownership Attribution and Segment-Level Tamper Localization for Coding-Agent Trajectories",
       "url": "https://arxiv.org/abs/2609.10416",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.SE",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Trimming: Decoupling Multiplicative Depth from Modulus Chains in RNS-CKKS via Rational Levels",
       "url": "https://arxiv.org/abs/2608.00375",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "replace"
     },
     {
       "source": "arxiv",
       "title": "Trust Me, I'm Your Developer: Self-Issued Authentication in Large Language Models",
       "url": "https://arxiv.org/abs/2609.03247",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.AI",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "Understanding the Security Boundary of Obfuscation-based On-Device LLM Protection",
       "url": "https://arxiv.org/abs/2609.10117",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Watermarks Without Verification: AI Text Watermarking After the EU AI Act",
       "url": "https://arxiv.org/abs/2609.09604",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CY cs.AI cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "What Makes Adversarial Examples Transfer Across Deepfake Detectors?",
       "url": "https://arxiv.org/abs/2609.10002",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CV cs.AI cs.CR cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "cross"
     },
     {
       "source": "arxiv",
       "title": "When Ad Networks Misbehave: Understanding Risks of Semi-Drive-By Splash Ads",
       "url": "https://arxiv.org/abs/2609.09574",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "safety"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "Wicked Problem, Parsimonious Solution: Securing Electric Vehicle Charging Station Software",
       "url": "https://arxiv.org/abs/2609.10502",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.SE",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security"
-      ]
+      ],
+      "announcement": "new"
     },
     {
       "source": "arxiv",
       "title": "X-amine509: Predicting the Practical Risk Level of Enterprise X.509 Certificates",
       "url": "https://arxiv.org/abs/2609.09402",
+      "published_at": "2026-09-10T04:00:00.000Z",
+      "category": "cs.CR cs.LG",
+      "channel": "papers",
       "date": "2026-09-10",
       "date_kind": "announced",
       "kind": "preprint",
       "tags": [
         "security",
         "safety"
+      ],
+      "announcement": "new"
+    },
+    {
+      "source": "openai",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "published_at": "2026-09-09T17:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-09-09",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "The AI policy window is open. We need to act.",
+      "url": "https://openai.com/index/ai-policy-window",
+      "published_at": "2026-09-09T13:00:00.000Z",
+      "category": "Global Affairs",
+      "channel": "news",
+      "date": "2026-09-09",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "published_at": "2026-09-09T11:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-09-09",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
       ]
     },
     {
       "source": "anthropic",
       "title": "An alignment assessment of recent cybersecurity incidents",
       "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "published_at": "2026-09-09T00:00:00.000Z",
+      "category": "Alignment",
+      "channel": "research",
       "date": "2026-09-09",
       "date_kind": "published",
       "kind": "official",
@@ -1714,8 +2390,67 @@
     },
     {
       "source": "openai",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "published_at": "2026-09-08T17:00:00.000Z",
+      "category": "Applied AI",
+      "channel": "news",
+      "date": "2026-09-08",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "The Work Now Within Reach",
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "published_at": "2026-09-08T13:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-09-08",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Introducing ChatGPT Images 2.5",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "published_at": "2026-09-08T11:30:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-09-08",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "published_at": "2026-09-08T10:00:00.000Z",
+      "category": "Research",
+      "channel": "research",
+      "date": "2026-09-08",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
       "title": "Funding grants for new research into AI and teen development",
       "url": "https://openai.com/index/teen-development-research-grants",
+      "published_at": "2026-09-08T09:00:00.000Z",
+      "category": "Safety",
+      "channel": "news",
       "date": "2026-09-08",
       "date_kind": "published",
       "kind": "official",
@@ -1725,9 +2460,40 @@
     },
     {
       "source": "openai",
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "url": "https://openai.com/index/navier-stokes-solution",
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "url": "https://openai.com/index/1password",
+      "published_at": "2026-09-08T00:00:00.000Z",
+      "category": "",
+      "channel": "news",
       "date": "2026-09-08",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "published_at": "2026-09-08T00:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-09-08",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Supporting independent journalism in Ukraine",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "published_at": "2026-09-07T00:00:00.000Z",
+      "category": "Global Affairs",
+      "channel": "news",
+      "date": "2026-09-07",
       "date_kind": "published",
       "kind": "official",
       "tags": [
@@ -1738,6 +2504,9 @@
       "source": "openai",
       "title": "An Alien Mind",
       "url": "https://openai.com/index/an-alien-mind",
+      "published_at": "2026-09-06T09:00:00.000Z",
+      "category": "Safety",
+      "channel": "news",
       "date": "2026-09-06",
       "date_kind": "published",
       "kind": "official",
@@ -1749,6 +2518,9 @@
       "source": "openai",
       "title": "Research acceleration: The view inside OpenAI",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "published_at": "2026-09-06T08:00:00.000Z",
+      "category": "Research",
+      "channel": "research",
       "date": "2026-09-06",
       "date_kind": "published",
       "kind": "official",
@@ -1760,6 +2532,9 @@
       "source": "anthropic",
       "title": "Formalizing Fermat's Last Theorem",
       "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "published_at": "2026-09-04T00:00:00.000Z",
+      "category": "Science",
+      "channel": "research",
       "date": "2026-09-04",
       "date_kind": "published",
       "kind": "official",
@@ -1771,6 +2546,9 @@
       "source": "openai",
       "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
       "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "published_at": "2026-09-03T13:15:00.000Z",
+      "category": "Security",
+      "channel": "news",
       "date": "2026-09-03",
       "date_kind": "published",
       "kind": "official",
@@ -1780,8 +2558,39 @@
     },
     {
       "source": "openai",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "category": "Startup",
+      "channel": "news",
+      "date": "2026-09-03",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "category": "Startup",
+      "channel": "news",
+      "date": "2026-09-03",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
       "title": "GPT-6 Astra: A new generation of intelligence",
       "url": "https://openai.com/index/gpt-6-astra",
+      "published_at": "2026-09-03T11:00:00.000Z",
+      "category": "Research",
+      "channel": "research",
       "date": "2026-09-03",
       "date_kind": "published",
       "kind": "official",
@@ -1793,6 +2602,9 @@
       "source": "openai",
       "title": "Safety overview: GPT-6 Astra",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "published_at": "2026-09-03T00:00:00.000Z",
+      "category": "Safety",
+      "channel": "news",
       "date": "2026-09-03",
       "date_kind": "published",
       "kind": "official",
@@ -1802,8 +2614,39 @@
     },
     {
       "source": "openai",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "url": "https://openai.com/index/atv-big-air-tour",
+      "published_at": "2026-09-02T12:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-09-02",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "published_at": "2026-09-01T17:00:00.000Z",
+      "category": "AI Adoption",
+      "channel": "news",
+      "date": "2026-09-01",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
       "title": "Path to Astra: critical capabilities and frontier safeguards",
       "url": "https://openai.com/index/path-to-astra",
+      "published_at": "2026-09-01T13:00:00.000Z",
+      "category": "Safety",
+      "channel": "news",
       "date": "2026-09-01",
       "date_kind": "published",
       "kind": "official",
@@ -1813,9 +2656,40 @@
     },
     {
       "source": "openai",
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "date": "2026-08-31",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "published_at": "2026-09-01T12:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-09-01",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "url": "https://openai.com/index/gilbert-tobin",
+      "published_at": "2026-09-01T01:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-09-01",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "anthropic",
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "category": "Announcements",
+      "channel": "news",
+      "date": "2026-09-01",
       "date_kind": "published",
       "kind": "official",
       "tags": [
@@ -1824,8 +2698,110 @@
     },
     {
       "source": "anthropic",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-09-01",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-08-31",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "url": "https://openai.com/index/polimill",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-08-31",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "A milestone in expanding access to AI",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "published_at": "2026-08-31T04:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-08-31",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "anthropic",
+      "title": "Improving our alignment and security efforts",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "published_at": "2026-08-31T00:00:00.000Z",
+      "category": "Announcements",
+      "channel": "news",
+      "date": "2026-08-31",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "security",
+        "safety"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "published_at": "2026-08-28T06:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-08-28",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "published_at": "2026-08-28T02:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-08-28",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "anthropic",
       "title": "Automated researchers can reliably mitigate alignment failures",
       "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "published_at": "2026-08-28T00:00:00.000Z",
+      "category": "Alignment",
+      "channel": "research",
       "date": "2026-08-28",
       "date_kind": "published",
       "kind": "official",
@@ -1835,9 +2811,110 @@
       ]
     },
     {
+      "source": "openai",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "published_at": "2026-08-27T09:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-08-27",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "published_at": "2026-08-27T03:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-08-27",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "anthropic",
+      "title": "Expanding our support for scientists",
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "published_at": "2026-08-27T00:00:00.000Z",
+      "category": "Announcements",
+      "channel": "news",
+      "date": "2026-08-27",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "anthropic",
+      "title": "Previewing the Model Hardware Standard",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "published_at": "2026-08-27T00:00:00.000Z",
+      "category": "Announcements",
+      "channel": "news",
+      "date": "2026-08-27",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "published_at": "2026-08-26T10:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-08-26",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "url": "https://openai.com/index/learning-never-stops",
+      "published_at": "2026-08-26T10:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-08-26",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "source": "anthropic",
       "title": "Enabling independent research on how people use Claude",
       "url": "https://www.anthropic.com/research/enabling-independent-research",
+      "published_at": "2026-08-26T00:00:00.000Z",
+      "category": "Societal Impacts",
+      "channel": "research",
+      "date": "2026-08-26",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "url": "https://openai.com/index/loveholidays",
+      "published_at": "2026-08-26T00:00:00.000Z",
+      "category": "",
+      "channel": "news",
       "date": "2026-08-26",
       "date_kind": "published",
       "kind": "official",
@@ -1849,6 +2926,9 @@
       "source": "openai",
       "title": "The Hugging Face incident and the road ahead",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "published_at": "2026-08-26T00:00:00.000Z",
+      "category": "Security",
+      "channel": "news",
       "date": "2026-08-26",
       "date_kind": "published",
       "kind": "official",
@@ -1857,9 +2937,180 @@
       ]
     },
     {
+      "source": "openai",
+      "title": "The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "published_at": "2026-08-25T07:05:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-08-25",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "category": "Engineering",
+      "channel": "news",
+      "date": "2026-08-25",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "source": "anthropic",
-      "title": "How Claude is accelerating protein design and analytical chemistry",
-      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "published_at": "2026-08-25T00:00:00.000Z",
+      "category": "Announcements",
+      "channel": "news",
+      "date": "2026-08-25",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "evaluation"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "published_at": "2026-08-25T00:00:00.000Z",
+      "category": "Global Affairs",
+      "channel": "news",
+      "date": "2026-08-25",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "url": "https://openai.com/index/introducing-admin-plugin",
+      "published_at": "2026-08-25T00:00:00.000Z",
+      "category": "AI Adoption",
+      "channel": "news",
+      "date": "2026-08-25",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "published_at": "2026-08-24T12:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-08-24",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Introducing Intelligence Age",
+      "url": "https://openai.com/index/introducing-intelligence-age",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "category": "Intelligence Age",
+      "channel": "news",
+      "date": "2026-08-20",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "url": "https://openai.com/index/stampli",
+      "published_at": "2026-08-20T00:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-08-20",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "published_at": "2026-08-19T19:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-08-19",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "url": "https://openai.com/index/replit",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "category": "Startup",
+      "channel": "news",
+      "date": "2026-08-19",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "published_at": "2026-08-18T22:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-08-18",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Strengthening democratic oversight in national security",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "published_at": "2026-08-18T19:00:00.000Z",
+      "category": "Global Affairs",
+      "channel": "news",
+      "date": "2026-08-18",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "published_at": "2026-08-18T11:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
       "date": "2026-08-18",
       "date_kind": "published",
       "kind": "official",
@@ -1871,6 +3122,9 @@
       "source": "openai",
       "title": "Pacing model development in an era of cyber-critical capabilities",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "published_at": "2026-08-18T11:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
       "date": "2026-08-18",
       "date_kind": "published",
       "kind": "official",
@@ -1880,19 +3134,67 @@
     },
     {
       "source": "openai",
-      "title": "Strengthening democratic oversight in national security",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "published_at": "2026-08-18T11:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
       "date": "2026-08-18",
       "date_kind": "published",
       "kind": "official",
       "tags": [
-        "security"
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "url": "https://openai.com/index/asana",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-08-18",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "anthropic",
+      "title": "How Claude is accelerating protein design and analytical chemistry",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "published_at": "2026-08-18T00:00:00.000Z",
+      "category": "Science",
+      "channel": "research",
+      "date": "2026-08-18",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "How NVIDIA scales expertise with ChatGPT Work",
+      "url": "https://openai.com/index/nvidia/chatgpt-work",
+      "published_at": "2026-08-18T00:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-08-18",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
       ]
     },
     {
       "source": "openai",
       "title": "The Defender’s Window",
       "url": "https://openai.com/index/the-defenders-window",
+      "published_at": "2026-08-17T05:30:00.000Z",
+      "category": "Security",
+      "channel": "news",
       "date": "2026-08-17",
       "date_kind": "published",
       "kind": "official",
@@ -1901,9 +3203,96 @@
       ]
     },
     {
+      "source": "openai",
+      "title": "OpenAI joins PORTS-Pike project",
+      "url": "https://openai.com/index/openai-joins-ports-pike-project",
+      "published_at": "2026-08-17T05:00:00.000Z",
+      "category": "Global Affairs",
+      "channel": "news",
+      "date": "2026-08-17",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "New policy ideas for the Intelligence Age",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "published_at": "2026-08-17T03:15:00.000Z",
+      "category": "Global Affairs",
+      "channel": "news",
+      "date": "2026-08-17",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "anthropic",
+      "title": "How Claude’s text watermark works",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "published_at": "2026-08-14T00:00:00.000Z",
+      "category": "Announcements",
+      "channel": "news",
+      "date": "2026-08-14",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "published_at": "2026-08-13T11:00:00.000Z",
+      "category": "Applied AI",
+      "channel": "news",
+      "date": "2026-08-13",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "published_at": "2026-08-13T10:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-08-13",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "published_at": "2026-08-13T09:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-08-13",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "source": "anthropic",
       "title": "Patterns and problems in emerging multiagent systems",
       "url": "https://www.anthropic.com/research/multiagent-systems",
+      "published_at": "2026-08-13T00:00:00.000Z",
+      "category": "Frontier Red Team",
+      "channel": "research",
       "date": "2026-08-13",
       "date_kind": "published",
       "kind": "official",
@@ -1912,10 +3301,69 @@
       ]
     },
     {
+      "source": "openai",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "published_at": "2026-08-12T06:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-08-12",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "source": "anthropic",
       "title": "Reviewing the evidence on worker retraining programs",
       "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+      "published_at": "2026-08-12T00:00:00.000Z",
+      "category": "Economics",
+      "channel": "research",
       "date": "2026-08-12",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "url": "https://openai.com/index/ringcentral",
+      "published_at": "2026-08-12T00:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-08-12",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Daybreak models are now available on AWS",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "published_at": "2026-08-11T10:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-08-11",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "openai",
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "published_at": "2026-08-11T10:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-08-11",
       "date_kind": "published",
       "kind": "official",
       "tags": [
@@ -1926,6 +3374,9 @@
       "source": "anthropic",
       "title": "Learning more about Claude's mathematical capabilities",
       "url": "https://www.anthropic.com/research/riemann-zeta",
+      "published_at": "2026-08-10T00:00:00.000Z",
+      "category": "Science",
+      "channel": "research",
       "date": "2026-08-10",
       "date_kind": "published",
       "kind": "official",
@@ -1934,43 +3385,41 @@
       ]
     },
     {
-      "source": "openai",
-      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "date": "2026-08-10",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Putting frontier cyber models in more trusted hands",
-      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "date": "2026-08-10",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Responding to the next frontier of critical cyber capabilities",
-      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "source": "anthropic",
+      "title": "Improving Fable 5's biology safeguards",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "published_at": "2026-08-07T00:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
       "date": "2026-08-07",
       "date_kind": "published",
       "kind": "official",
       "tags": [
-        "security"
+        "safety"
       ]
     },
     {
-      "source": "openai",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "source": "anthropic",
+      "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "published_at": "2026-08-04T00:00:00.000Z",
+      "category": "Announcements",
+      "channel": "news",
       "date": "2026-08-04",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "anthropic",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "published_at": "2026-07-30T00:00:00.000Z",
+      "category": "Announcements",
+      "channel": "news",
+      "date": "2026-07-30",
       "date_kind": "published",
       "kind": "official",
       "tags": [
@@ -1979,20 +3428,12 @@
       ]
     },
     {
-      "source": "openai",
-      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "date": "2026-07-29",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "evaluation"
-      ]
-    },
-    {
       "source": "anthropic",
       "title": "Discovering cryptographic weaknesses with Claude",
       "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "published_at": "2026-07-28T00:00:00.000Z",
+      "category": "Frontier Red Team",
+      "channel": "research",
       "date": "2026-07-28",
       "date_kind": "published",
       "kind": "official",
@@ -2003,8 +3444,39 @@
     },
     {
       "source": "anthropic",
+      "title": "Our position on open-weights models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "published_at": "2026-07-27T00:00:00.000Z",
+      "category": "Announcements",
+      "channel": "news",
+      "date": "2026-07-27",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "anthropic",
+      "title": "Introducing Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "published_at": "2026-07-24T00:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-07-24",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "source": "anthropic",
       "title": "Project Pilot: Can AI control a drone?",
       "url": "https://www.anthropic.com/research/project-pilot",
+      "published_at": "2026-07-24T00:00:00.000Z",
+      "category": "Frontier Red Team",
+      "channel": "research",
       "date": "2026-07-24",
       "date_kind": "published",
       "kind": "official",
@@ -2013,471 +3485,18 @@
       ]
     },
     {
-      "source": "openai",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "date": "2026-07-21",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security",
-        "evaluation"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "date": "2026-07-20",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Why teens deserve access to safe AI",
-      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "date": "2026-07-16",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "date": "2026-07-15",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety",
-        "evaluation"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "The US is advancing AI safety through state and federal action",
-      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "date": "2026-07-15",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "date": "2026-07-09",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Our approach to government and national security partnerships",
-      "url": "https://openai.com/index/government-national-security-partnerships",
-      "date": "2026-07-08",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Separating signal from noise in coding evaluations",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "date": "2026-07-08",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "evaluation"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Introducing GeneBench-Pro",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "date": "2026-06-30",
+      "source": "anthropic",
+      "title": "The Making of Claude Code",
+      "url": "https://www.anthropic.com/features/making-of-claude-code",
+      "published_at": "2026-07-06T00:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-07-06",
       "date_kind": "published",
       "kind": "official",
       "tags": [
         "research"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "date": "2026-06-22",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "url": "https://openai.com/index/patch-the-planet",
-      "date": "2026-06-22",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "date": "2026-06-17",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Introducing LifeSciBench",
-      "url": "https://openai.com/index/introducing-life-sci-bench",
-      "date": "2026-06-17",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Predicting model behavior before release by simulating deployment",
-      "url": "https://openai.com/index/deployment-simulation",
-      "date": "2026-06-16",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "date": "2026-06-04",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Advancing youth safety and opportunity through global leadership",
-      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
-      "date": "2026-06-02",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "A shared playbook for trustworthy third party evaluations",
-      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-      "date": "2026-05-29",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety",
-        "evaluation"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "OpenAI’s Frontier Governance Framework",
-      "url": "https://openai.com/index/openai-frontier-governance-framework",
-      "date": "2026-05-28",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Election information and safeguards in 2026",
-      "url": "https://openai.com/index/election-safeguards-2026",
-      "date": "2026-05-27",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "date": "2026-05-20",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "url": "https://openai.com/index/advancing-content-provenance",
-      "date": "2026-05-19",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "date": "2026-05-14",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "url": "https://openai.com/index/building-codex-windows-sandbox",
-      "date": "2026-05-13",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Our response to the TanStack npm supply chain attack",
-      "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
-      "date": "2026-05-13",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "url": "https://openai.com/index/what-parameter-golf-taught-us",
-      "date": "2026-05-12",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Running Codex safely at OpenAI",
-      "url": "https://openai.com/index/running-codex-safely",
-      "date": "2026-05-08",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security",
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "date": "2026-05-07",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "date": "2026-05-07",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "How ChatGPT learns about the world while protecting privacy",
-      "url": "https://openai.com/index/how-chatgpt-protects-privacy",
-      "date": "2026-05-06",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Advancing youth safety and wellbeing in EMEA",
-      "url": "https://openai.com/index/advancing-youth-safety-in-emea",
-      "date": "2026-05-05",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "GPT-5.5 Instant System Card",
-      "url": "https://openai.com/index/gpt-5-5-instant-system-card",
-      "date": "2026-05-05",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "url": "https://openai.com/index/mrc-supercomputer-networking",
-      "date": "2026-05-05",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "evaluation"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Introducing Advanced Account Security",
-      "url": "https://openai.com/index/advanced-account-security",
-      "date": "2026-04-30",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Cybersecurity in the Intelligence Age",
-      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
-      "date": "2026-04-29",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Our commitment to community safety",
-      "url": "https://openai.com/index/our-commitment-to-community-safety",
-      "date": "2026-04-28",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "GPT-5.5 System Card",
-      "url": "https://openai.com/index/gpt-5-5-system-card",
-      "date": "2026-04-23",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Introducing OpenAI Privacy Filter",
-      "url": "https://openai.com/index/introducing-openai-privacy-filter",
-      "date": "2026-04-22",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Accelerating the cyber defense ecosystem that protects us all",
-      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
-      "date": "2026-04-16",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Introducing GPT-Rosalind for life sciences research",
-      "url": "https://openai.com/index/introducing-gpt-rosalind",
-      "date": "2026-04-16",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Trusted access for the next era of cyber defense",
-      "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
-      "date": "2026-04-14",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Our response to the Axios developer tool compromise",
-      "url": "https://openai.com/index/axios-developer-tool-compromise",
-      "date": "2026-04-10",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ]
-    },
-    {
-      "source": "openai",
-      "title": "Responsible and safe use of AI",
-      "url": "https://openai.com/academy/responsible-and-safe-use",
-      "date": "2026-04-10",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
       ]
     }
-  ],
-  "automation_enabled": false
+  ]
 }
