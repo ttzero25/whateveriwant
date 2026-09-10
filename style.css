@@ -47,3 +47,41 @@
 [data-theme=dark] .diagram-scroll svg circle{fill:#375443;stroke:#8fae99}
 [data-theme=dark] .diagram-scroll svg text[fill="white"]{fill:#fff}
 @media(max-width:760px){#theme-toggle{width:34px;min-height:34px;padding:5px;margin-right:0}.language-switch{margin-right:0}.topbar{gap:7px}}
+
+/* Softer surfaces and rounded controls across both themes. */
+:root{--radius-card:20px;--radius-panel:24px;--surface-shadow:0 4px 18px #253d2f05;--hover-shadow:0 10px 28px #253d2f0d}
+:root[data-theme=dark]{--surface-shadow:0 4px 18px #00000012;--hover-shadow:0 10px 28px #00000026}
+.sidebar{border-radius:0 26px 26px 0}
+.brand-mark{border-radius:13px}
+.nav-link,.upcoming{border-radius:13px}
+.nav-count,.level{border-radius:999px;padding:3px 7px}
+#quick-links a,#quick-links a:hover,#quick-links a.selected,#ai-subnav a{border-radius:10px}
+.search-wrap input{height:56px;border-radius:28px;box-shadow:var(--surface-shadow)}
+.search-wrap kbd{border-radius:7px}
+.topic,.doc-card,.empty{border-radius:var(--radius-card);box-shadow:var(--surface-shadow)}
+.topic{padding:18px 16px}
+.topic-icon{border-radius:12px}
+.topic.available{box-shadow:var(--surface-shadow)}
+.topic.available,.doc-card{transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.topic.available:hover,.doc-card:hover,[data-theme=dark] .doc-card:hover{transform:translateY(-2px);box-shadow:var(--hover-shadow)}
+.doc-card{padding:22px}
+.document-grid{gap:18px}
+.chip,.track-tabs a{border-radius:999px}
+.language-switch{border-radius:999px;padding:4px}
+.language-switch button{border-radius:999px;padding:5px 10px}
+#theme-toggle{border-radius:50%}
+.article blockquote,.concept-diagram{border-radius:var(--radius-panel)}
+.article .source-quote{border-radius:0 16px 16px 0}
+.source-notice{border-radius:0 14px 14px 0}
+.article pre,.article .katex-display{border-radius:16px}
+.article code{border-radius:6px}
+.table-scroll{border-radius:14px;border:1px solid var(--line)}
+.article .table-scroll table{border-style:hidden}
+@media(max-width:760px){
+ .sidebar{border-radius:0 22px 22px 0}
+ .topic{padding:16px 14px}
+ .doc-card{padding:21px}
+ .document-grid{gap:14px}
+ .language-switch button{padding:5px 7px}
+ .concept-diagram,.article blockquote{border-radius:20px}
+}
