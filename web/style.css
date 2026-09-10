@@ -13,7 +13,7 @@
 .track-tabs[hidden]{display:none}
 
 /* Theme selection is applied in the head, before the first paint. */
-#theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:34px;padding:6px 10px;margin-right:18px;border:1px solid var(--line);border-radius:7px;background:var(--white);color:var(--accent);font-size:10px;flex-shrink:0}
+#theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:34px;min-height:34px;padding:5px;margin-right:18px;border:1px solid var(--line);border-radius:7px;background:var(--white);color:var(--accent);font-size:10px;flex-shrink:0}
 #theme-toggle:hover{background:var(--green-bg)}
 [data-theme-icon]{font-size:17px;line-height:1}
 :root[data-theme=dark]{--bg:#151b21;--white:#1d252d;--ink:#e5ecef;--muted:#a1afbc;--line:#34414b;--accent:#abd1b7;--green-bg:#293e34;color-scheme:dark}
@@ -46,4 +46,4 @@
 [data-theme=dark] .diagram-scroll svg rect[fill="#52745e"]{fill:#426b50}
 [data-theme=dark] .diagram-scroll svg circle{fill:#375443;stroke:#8fae99}
 [data-theme=dark] .diagram-scroll svg text[fill="white"]{fill:#fff}
-@media(max-width:760px){#theme-toggle{width:34px;min-height:34px;padding:5px;margin-right:0}#theme-toggle [data-theme-label]{display:none}.language-switch{margin-right:0}.topbar{gap:7px}}
+@media(max-width:760px){#theme-toggle{width:34px;min-height:34px;padding:5px;margin-right:0}.language-switch{margin-right:0}.topbar{gap:7px}}
