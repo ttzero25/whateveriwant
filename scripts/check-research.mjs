@@ -9,21 +9,24 @@ try{
  assert.equal(await page.locator('#quick-links').count(),0);
  assert.equal(await page.locator('.research-link.active').count(),1);
  assert.equal(await page.locator('.research-source').count(),3);
- assert.equal(await page.locator('[data-topic=all]').getAttribute('aria-pressed'),'true');
+ assert.equal(await page.locator('#feed-topic').inputValue(),'all');
+ assert.equal(await page.locator('#ai-feed #research-results').count(),1);
+ assert.equal(await page.locator('#conference-watch').count(),0);
  assert.equal(await page.locator('.research-source-latest li').count(),9);
  assert.equal((await page.locator('.research-link').innerText()).replace(/\s+/g,' '),'◉ AI Research Watch');
- await page.locator('[data-topic="all"]').click();
- await page.locator('#research-period').selectOption('all');
+
  for(const source of ['openai','anthropic','arxiv']){
-  await page.locator(`[data-source="${source}"]`).click();
+  await page.locator('#feed-source').selectOption(source);
   assert.ok(await page.locator('.research-item').count()>0,source);
   assert.ok((await page.locator('.research-item-meta>span:first-child').allTextContents()).every(name=>name.toLowerCase()===source));
  }
- await page.locator('[data-source="all"]').click();
- await page.locator('#research-search').fill('this-title-does-not-exist-xyz');assert.equal(await page.locator('.research-item').count(),0);
- await page.locator('#research-search').fill('');
- await page.locator('[data-topic="security"]').click();
- await page.locator('#research-period').selectOption('30');
+ await page.locator('#feed-source').selectOption('all');
+ await page.locator('#feed-search').fill('this-title-does-not-exist-xyz');assert.equal(await page.locator('.research-item').count(),0);
+ await page.locator('#feed-search').fill('');
+ await page.locator('#feed-topic').selectOption('security');
+ await page.locator('#feed-kind').selectOption('conference');
+ assert.ok(await page.locator('.research-item').count()>0);
+ assert.ok((await page.locator('.research-item').evaluateAll(items=>items.map(i=>i.dataset.entryKind))).every(k=>k==='conference'));
  await page.screenshot({path:'.preview/research-light.png',fullPage:true});
  await page.locator('[data-language="en"]').click();await page.waitForSelector('.research-item');
  assert.match(await page.locator('h1').innerText(),/AI Research Watch/);

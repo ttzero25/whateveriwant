@@ -1,0 +1,1672 @@
+{
+  "automation_enabled": true,
+  "attempted_at": "2026-09-10T13:47:17.151Z",
+  "sources": [
+    {
+      "id": "boannews",
+      "name": "보안뉴스",
+      "region": "kr",
+      "lang": "ko",
+      "home": "https://www.boannews.com/",
+      "url": "https://cdn.boannews.com/rss/gn_rss_allArticle.xml",
+      "hosts": [
+        "www.boannews.com",
+        "boannews.com"
+      ],
+      "attempted_at": "2026-09-10T13:47:17.151Z",
+      "last_success": "2026-09-10T13:47:17.151Z",
+      "status": "ok",
+      "count": 20
+    },
+    {
+      "id": "dailysecu",
+      "name": "데일리시큐",
+      "region": "kr",
+      "lang": "ko",
+      "home": "https://www.dailysecu.com/",
+      "url": "https://www.dailysecu.com/rss/allArticle.xml",
+      "hosts": [
+        "www.dailysecu.com",
+        "dailysecu.com"
+      ],
+      "attempted_at": "2026-09-10T13:47:17.151Z",
+      "last_success": "2026-09-10T13:47:17.151Z",
+      "status": "ok",
+      "count": 21
+    },
+    {
+      "id": "thehackernews",
+      "name": "The Hacker News",
+      "region": "global",
+      "lang": "en",
+      "home": "https://thehackernews.com/",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "hosts": [
+        "thehackernews.com"
+      ],
+      "attempted_at": "2026-09-10T13:47:17.151Z",
+      "last_success": "2026-09-10T13:47:17.151Z",
+      "status": "ok",
+      "count": 37
+    },
+    {
+      "id": "cisa",
+      "name": "CISA",
+      "region": "global",
+      "lang": "en",
+      "home": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "hosts": [
+        "www.cisa.gov",
+        "cisa.gov"
+      ],
+      "attempted_at": "2026-09-10T13:47:17.151Z",
+      "last_success": "2026-09-10T13:47:17.151Z",
+      "status": "ok",
+      "count": 30
+    }
+  ],
+  "items": [
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[전문가 기고] AI 거버넌스, 이제 ‘무엇을 해야 하나’ 넘어 ‘어떻게 구현하나’가 중요",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208402",
+      "published_at": "2026-09-10T12:01:53.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "생성형 AI와 AI Agent의 기업 활용이 빠르게 확대되면서 AI 보안과 거버넌스를 위한 다양한 정책과 가이드라인도 잇따라 제시되고 있다.개인정보와 중요정보 보호, 최소권한 적용, AI 사용 승인,…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+      "published_at": "2026-09-10T11:45:05.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Check Point has patched two critical vulnerabilities in the way its firewall and management products handle VPN certificates.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+      "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+      "published_at": "2026-09-10T11:41:53.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
+      "url": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
+      "published_at": "2026-09-10T11:33:43.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+      "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+      "published_at": "2026-09-10T10:36:46.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "The U.S.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김정덕의 지속가능 보안-7] CISO의 든든한 파트너, BISO가 온다",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145777",
+      "published_at": "2026-09-10T07:09:57.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "디지털 혁신의 속도가 기업의 생존을 가르는 시대에, 사이버 위험은 IT 부서의 기술적 결함을 넘어 주가와 경영진의 법적 책임을 위협하는 최상위 경영 리스크가 되었습니다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+      "url": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+      "published_at": "2026-09-10T07:04:01.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[카드뉴스] \"중앙지검 검사라고요?\"… 기관 사칭 피싱 전화 단번에 끊어내는 팁",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145775",
+      "published_at": "2026-09-10T06:50:33.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "최근 보이스피싱 범죄 조직은 서울중앙지검 등 사법기관 및 금융감독원을 사칭하며 수신자에게 극심한 심리적 공포를 유발하는 사회공학적 기법을 지속하고 있다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“문 부수지 않고 열쇠 주워 들어온다”... API 키 위생이 결정짓는 기업 보안",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145771",
+      "published_at": "2026-09-10T06:00:00.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "최근 국내에서 연이어 발생한 개인정보 유출 사고들을 분석해 보면 이상한 공통점이 발견된다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[카드뉴스] “데이터 유출 넘어 생명 위협까지”... 산업 현장 덮친 OT 해킹의 공포",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145755",
+      "published_at": "2026-09-10T05:07:29.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "‘회복 탄력성’ 반영한 시행령... 개인정보 유출 과징금, ‘신속 회복’ 시 40% 감경",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145772",
+      "published_at": "2026-09-10T04:50:45.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "반복적이거나 고의·중과실로 개인정보 유출 사고를 낸 기업은 전체 매출액의 최대 10%까지 과징금을 부여 받는다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "S2W, 오픈AI 글로벌 보안 생태계 ‘데이브레이크’ 합류",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145761",
+      "published_at": "2026-09-10T00:45:00.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "에스투더블유(S2W)가 오픈AI 주도의 글로벌 사이버보안 이니셔티브인 ‘데이브레이크’의 글로벌 파트너 생태계 ‘데이브레이크 디펜스 네트워크’(Daybreak Defense Network)에 합류한다고 10일 밝혔다.데이브레이크는 오픈AI의 최상위 프런티어 모델과 애플리케이션 보안 에이전트인…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[속담으로 배우는 100가지 보안 습관 98] 아는 것이 힘이다(8)-공공장소 통화, 왜 위험할까",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=144252",
+      "published_at": "2026-09-10T00:20:00.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+      "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+      "published_at": "2026-09-09T16:34:05.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+      "published_at": "2026-09-09T14:23:55.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "published_at": "2026-09-09T12:00:00.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
+      "url": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
+      "published_at": "2026-09-09T11:17:07.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
+      "url": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
+      "published_at": "2026-09-09T10:43:04.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that could have let an attacker take over a wallet and send…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "구글, 2026년 2분기 AI 위협 추적 보고서 발표...에이전틱 AI 악용 증가",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208399",
+      "published_at": "2026-09-09T10:03:56.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "구글위협인텔리전스그룹(GTIG)이 2026년 2분기 최신 AI 위협 동향을 분석한 'AI 위협 추적 보고서(AI Threat Tracker)'를 공개했다.이번 보고서는 위협 행위자들이 공격 라이프사이클 전반에서 작전을 고도화하기 위해 AI를…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+      "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+      "published_at": "2026-09-09T09:11:03.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "펜타시큐리티, 중동 보안 전시회 'GISEC 글로벌 2026' 참가",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208385",
+      "published_at": "2026-09-09T08:29:41.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "펜타시큐리티가 오는 16일부터 18일까지 아랍에미리트 두바이 엑스포시티에서 열리는 사이버보안 전시회 'GISEC 글로벌 2026'에 참가한다.올해 행사는 '사이버 퍼스트: 새로운 디지털 질서'를 주제로 열리며 인공지능 기반 위협과…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+      "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+      "published_at": "2026-09-09T08:19:32.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "cPanel has patched a flaw that it says lets a single hosting account take control of an entire server.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[속담으로 배우는 100가지 보안 습관 97] 아는 것이 힘이다(7)-세이프서치, 왜 켜야 할까",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=144251",
+      "published_at": "2026-09-09T08:00:00.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "그룹아이비, 2026년 랜섬웨어 보고서 발표...조직 독립화와 AI 활용 가속화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208383",
+      "published_at": "2026-09-09T07:54:10.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "디지털 범죄 조사 및 보안 기업 그룹아이비가 자사의 위협 인텔리전스를 기반으로 2026년 랜섬웨어 생태계 주요 변화를 분석한 보고서를 발표했다.올해 랜섬웨어 생태계는 기존 소수 대형 서비스형…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[카드뉴스] \"오늘 날씨 어때?\" 물었을 뿐인데… AI 스피커 사생활 도청 막는 '3단계 삭제법'",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145757",
+      "published_at": "2026-09-09T07:49:21.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "스마트홈 환경에서 널리 활용되는 AI 음성 비서 단말은 \\'웨이크 워드(Wake-word)\\' 호출 전후의 주변 소음과 사적인 대화 세션을 지속적으로 캡처하여 클라우드 서버로 전송·저장하는 구조적 프라이버시 문제를…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+      "url": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+      "published_at": "2026-09-09T07:36:49.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk,…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "노드VPN, 소비자 보안 보고서 발표...피싱 공격 99%가 유명 브랜드 사칭",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208382",
+      "published_at": "2026-09-09T07:20:08.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability",
+        "phishing"
+      ],
+      "excerpt": "노드VPN은 상반기 사이버 위협 동향을 담은 첫 소비자 사이버 보안 보고서를 발표했다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "토스페이먼츠 가맹점 노려... 국내 금융권 공급망 공격 위기 부각",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145751",
+      "published_at": "2026-09-09T06:50:00.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "전자지급결제대행(PG)사의 가맹점을 통한 공격이 일어나 당국이 조사에 착수했다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "경찰청, 노후 온나라 1.0 개편에 이지서티 'U-PRIVACY SAFER V4.0' 도입",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208381",
+      "published_at": "2026-09-09T06:49:51.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "이지서티가 경찰청의 '온나라 2.0 전환 사업'에 지능형 실시간 탐지 개인정보 필터링 솔루션인 'U-PRIVACY SAFER V4.0'을 공급한다.경찰청은 노후화된 기존 온나라 1.0 시스템을 G-클라우드 기반의 온나라 2.0으로…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+      "url": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+      "published_at": "2026-09-09T06:47:27.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김승주 교수 칼럼] 정부 산하기관은 왜 존재하는가",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208380",
+      "published_at": "2026-09-09T06:39:46.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "앞선 두 번의 칼럼에서 '국가 사이버보안 컨트롤타워의 역할'과 '좋은 정책이 집행 과정에서 달라지는 이유'에 대해 이야기했다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+      "url": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+      "published_at": "2026-09-09T06:25:45.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“ZTNA부터 GenAI까지”... 모니터랩, ‘IASF 2026’서 통합 SSE 비전 제시",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145746",
+      "published_at": "2026-09-09T06:07:30.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "모니터랩이 9일 콘래드 서울 호텔에서 제14회 통합 애플리케이션 보안 세미나 ‘IASF 2026’을 개최하며 비즈니스 생산성을 위한 통제 가능한 생성형 AI 보안 전략을 제시했다.행사 시작과 함께…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 해커는 왜 버그바운티 대신 기관 제보 택했나…대형 PG 사고 둘러싼 의문과 팩트 체크 내용",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208379",
+      "published_at": "2026-09-09T05:53:25.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "최근 국내 전자결제업체들을 둘러싼 해킹 논란과 관련해 데일리시큐가 8일 최초 단독 보도 한 이후 추가 취재 결과, 앞서 제기됐던 국내 대형 PG사의 내부 시스템이 직접…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "래브라도랩스, IVAS에 악성 오픈소스 사전 차단 엔진 탑재",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208378",
+      "published_at": "2026-09-09T05:05:28.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "래브라도랩스가 오픈소스 반입 단계에서 악성 패키지를 미리 식별하고 검증하는 분석엔진을 개발해 통합 취약점 분석 시스템 'IVAS'에 탑재했다.이번 기능 추가로 래브라도랩스는 오픈소스가 조직에 처음 들어오는 반입…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "AI 에이전트 공격 실험실서 ‘현실’로... 국가배후 조직 AI 활용 활발",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145741",
+      "published_at": "2026-09-09T05:00:00.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "AI 에이전트를 악용한 공격 시도가 이제 개념 증명이나 실험실 단계를 벗어나 현실로 다가왔다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "모니터랩, 제14회 통합 애플리케이션 보안 세미나 개최",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208376",
+      "published_at": "2026-09-09T04:49:53.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "모니터랩이 9일 콘래드 서울 호텔에서 제14회 통합 애플리케이션 보안 세미나인 IASF 2026을 개최했다.모니터랩은 2013년부터 매년 IASF를 통해 최신 보안 기술 트렌드를 공유해 왔다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
+      "url": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
+      "published_at": "2026-09-09T04:41:29.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "한국인터넷진흥원, 카카오 공공혁신 어워즈 수상",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208375",
+      "published_at": "2026-09-09T04:33:37.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "한국인터넷진흥원(KISA)이 카카오톡 기반의 ‘보호나라 챗봇’을 통해 국민 편의를 높인 공로로 ‘카카오 공공혁신 어워즈’를 수상했다.카카오 공공혁신 어워즈는 공공부문에서 카카오 서비스를 활용해 국민 편의를 향상시킨 우수 사례를…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+      "published_at": "2026-09-09T04:27:51.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "The U.S.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "래브라도랩스, 공급망 노리는 악성 오픈소스 패키지, 도입 전 막는다",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145744",
+      "published_at": "2026-09-09T04:13:52.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "래브라도랩스(대표 김진석)는 오픈소스 반입 단계에서 악성 패키지를 사전 식별·검증하는 분석엔진을 개발, 자사 취약점 분석 시스템 ‘IVAS’(Integrated Vulnerability Analysis System)에 탑재했다고 9일 밝혔다.이번 기능 추가로 래브라도랩스는…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "AI가 몸값 부르고 암호화 없이 협박... 변화하는 ‘2026 랜섬웨어 생태계’",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145738",
+      "published_at": "2026-09-09T02:30:00.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "소수의 해커 조직이 주도하던 서비스형 랜섬웨어(RaaS) 생태계가 붕괴하고, 독립화된 해커들이 AI와 공급망 공격을 무기로 전례 없는 속도로 진화하고 있다.그룹아이비(Group-IB)는 자사의 위협 인텔리전스를 기반으로 이 같은…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 고진모터스 랜섬웨어 감염·외부 불법 접근 확인…고객 개인정보 유출 가능성 조사",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208372",
+      "published_at": "2026-09-09T02:08:28.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "아우디 공식 딜러 고진모터스가 랜섬웨어 공격을 받아 사내 일부 서버가 감염된 것으로 확인됐다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "이지서티, 경찰청 ‘온나라 2.0’에 AI 기반 개인정보 필터링 솔루션 공급",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145739",
+      "published_at": "2026-09-09T01:16:11.000Z",
+      "date": "2026-09-09",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "개인정보보호 전문기업 이지서티는(대표이사 김동례) 경찰청 ‘온나라 2.0 전환 사업’에 지능형 실시간 탐지 개인정보 필터링 솔루션 ‘U-PRIVACY SAFER V4.0’을 공급한다고 밝혔다.경찰청은 노후화된 온나라 1.0을 G-클라우드 기반의…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+      "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+      "published_at": "2026-09-08T14:19:17.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Check Point Research said in a report published today that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+      "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+      "published_at": "2026-09-08T13:48:16.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "CareCam Pro IP Cameras",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01",
+      "published_at": "2026-09-08T12:00:00.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take full control of the device.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+      "published_at": "2026-09-08T12:00:00.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "Executive summary China-based artificial intelligence (AI) companies are conducting systematic extraction of proprietary functionalities and capabilities of U.S.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "published_at": "2026-09-08T12:00:00.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
+      "url": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
+      "published_at": "2026-09-08T11:54:29.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and demonstrated it spreading among…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
+      "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+      "published_at": "2026-09-08T11:22:07.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+      "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+      "published_at": "2026-09-08T09:13:47.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+      "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+      "published_at": "2026-09-08T08:43:51.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“무심코 방치한 API 키의 역습”... AI 열풍에 찬물 끼얹은 깃허브 공급망 공격",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145728",
+      "published_at": "2026-09-08T08:30:00.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "최근 AI 커뮤니티와 바이브코딩 진영에서 뜨거운 관심사 중 하나인 AI 기반 숏폼 비디어 생성 프로젝트를 위장한 해킹 공격이 진행돼 보안 생태계에 비상이 걸렸다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 전자결제망 해킹 정황…코엠페이먼츠 카드정보 유출 공지, 대형 PG 연계망도 조사중",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208370",
+      "published_at": "2026-09-08T07:42:30.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "국내 전자결제(PG) 업체들을 겨냥한 해킹 정황이 확인되면서 금융당국과 관계기관이 조사에 착수한 것으로 알려졌다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
+      "url": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
+      "published_at": "2026-09-08T07:00:43.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "패치 권고 놓친 나흘 사이 침입... 호주 학습 플랫폼서 108만명 정보 유출",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145726",
+      "published_at": "2026-09-08T06:35:00.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "호주 수학 학습 플랫폼 매스스페이스가 침해를 당해 107만9819명의 개인정보가 빠져나갔다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[속담으로 배우는 100가지 보안 습관 96] 아는 것이 힘이다(6)-매크로 파일 열면 생기는 사고",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=144250",
+      "published_at": "2026-09-08T06:00:00.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "중기부·과기정통부, 중소 제조현장 ‘피지컬 AI’ 확산 맞손",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145723",
+      "published_at": "2026-09-08T04:40:00.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "중소벤처기업부(장관 직무대행 제1차관 노용석, 이하 ‘중기부’)와 과학기술정보통신부(부총리 겸 장관 배경훈, 이하 ‘과기정통부’)는 7일 한국과학기술원(KAIST) 피지컬 AI 실증랩을 방문해 기술 공급기업과 제조 현장 수요기업이 참여하는 간담회를…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "에스투더블유, 자율형 수사 AI 에이전트 ‘DRI’ 출시",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208368",
+      "published_at": "2026-09-08T04:14:05.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "에스투더블유(S2W)가 범죄 수사에 특화된 자율형 AI 에이전트 ‘DRI(Deep Research Investigator)’를 출시했다고 8일 밝혔다.DRI는 S2W의 안보 AI 플랫폼 ‘자비스(XARVIS)’에 탑재된다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "LG유플러스, 월 5,500원 ‘홈캠 Lite’ 출시…PUF 보안칩·영상 암호화 적용",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208367",
+      "published_at": "2026-09-08T04:00:19.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "LG유플러스가 가격 부담을 낮추면서 홈캠 영상 보안을 강화한 입문형 스마트홈 서비스 ‘홈캠 Lite’를 출시했다.LG유플러스는 홈캠을 처음 사용하는 초보 부모와 반려동물 양육 가구 등을 대상으로 월…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "구글 도메인 타고 흘러가는 피싱 링크... 평판 검사 무력화에 원격제어까지",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145718",
+      "published_at": "2026-09-08T03:00:00.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "피싱 링크를 구글의 정상 서비스에 차례로 통과시켜 보안 장비를 따돌리는 대규모 캠페인이 포착됐다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] KISA 한승원 수석 “AI가 바꾼 것은 공격 속도…보안의 본질은 여전히 ‘신뢰’”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208365",
+      "published_at": "2026-09-08T01:21:20.000Z",
+      "date": "2026-09-08",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최되고 있다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원하는 KCSCON 2026에는 공공기관과…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+      "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+      "published_at": "2026-09-07T18:12:09.000Z",
+      "date": "2026-09-07",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김승주 교수 칼럼] AI가 해킹을 대중화하는 시대, 애플이 시간의 비대칭성을 깨는 또 하나의 방법",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208362",
+      "published_at": "2026-09-07T14:47:04.000Z",
+      "date": "2026-09-07",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "사이버보안은 원래부터 공격자에게 유리한 싸움이다.공격자는 수많은 코드 가운데 단 하나의 취약점만 찾아내면 되지만, 방어자는 자신이 관리하는 시스템 전체에서 발생할 수 있는 수많은 문제에 대비해야 한다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+      "url": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+      "published_at": "2026-09-07T11:36:39.000Z",
+      "date": "2026-09-07",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+      "url": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+      "published_at": "2026-09-07T11:20:14.000Z",
+      "date": "2026-09-07",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+      "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+      "published_at": "2026-09-07T08:31:12.000Z",
+      "date": "2026-09-07",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+      "url": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+      "published_at": "2026-09-07T07:53:04.000Z",
+      "date": "2026-09-07",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "메가존클라우드, AIR Studio 기반 한미약품 품질보증 AI 에이전트 구축 착수",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208361",
+      "published_at": "2026-09-07T06:41:30.000Z",
+      "date": "2026-09-07",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "메가존클라우드가 엔터프라이즈 AI OS인 AIR Studio를 기반으로 한미약품의 품질보증(QA) 업무 자동화 AI 에이전트인 '한미 Q-Agent' 구축에 착수했다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "이스트시큐리티, 네이버클라우드와 사이버 보안 특화 AI 모델 개발 사업 선정",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208353",
+      "published_at": "2026-09-07T04:35:21.000Z",
+      "date": "2026-09-07",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "이스트시큐리티가 참여한 네이버클라우드 컨소시엄이 과학기술정보통신부와 정보통신산업진흥원(NIPA)이 주관하는 사이버 보안 특화 인공지능(AI) 파운데이션 모델 개발 사업의 최종 수행기관으로 선정됐다.이번 사업은 고성능 AI 발달로 고도화되는 사이버 위협에…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "엔키화이트햇, KB국민은행에 AI 기반 웹 취약점 자동 점검 솔루션 공급",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208351",
+      "published_at": "2026-09-07T03:47:56.000Z",
+      "date": "2026-09-07",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "엔키화이트햇은 KB국민은행에 AI 기반 웹 어플리케이션 침투테스트 자동화 솔루션인 오펜 AI DAST(OFFen AI DAST)를 공급했다고 7일 밝혔다.최근 AI를 악용한 사이버 위협이 늘어나면서 금융권 보안 패러다임도…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "AI 서비스 도입 확산에 취약점도 급증...카스퍼스키, 관련 보고서 발표",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208350",
+      "published_at": "2026-09-07T03:34:52.000Z",
+      "date": "2026-09-07",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "카스퍼스키가 분기별 익스플로잇 및 취약점 보고서를 통해 인공지능(AI) 서비스 도입 확대에 따른 보안 취약점 증가세를 경고했다.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+      "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+      "published_at": "2026-09-05T20:14:47.000Z",
+      "date": "2026-09-05",
+      "tags": [
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+      "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+      "published_at": "2026-09-05T16:52:33.000Z",
+      "date": "2026-09-05",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+      "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+      "published_at": "2026-09-05T16:05:08.000Z",
+      "date": "2026-09-05",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+      "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "published_at": "2026-09-05T14:17:02.000Z",
+      "date": "2026-09-05",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+      "published_at": "2026-09-05T07:31:53.000Z",
+      "date": "2026-09-05",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+      "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+      "published_at": "2026-09-04T15:57:15.000Z",
+      "date": "2026-09-04",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+      "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+      "published_at": "2026-09-04T15:20:19.000Z",
+      "date": "2026-09-04",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+      "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+      "published_at": "2026-09-04T14:51:13.000Z",
+      "date": "2026-09-04",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "published_at": "2026-09-04T12:00:00.000Z",
+      "date": "2026-09-04",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+      "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+      "published_at": "2026-09-04T08:48:45.000Z",
+      "date": "2026-09-04",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Inductive Automation Ignition",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "date": "2026-09-03",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow any authenticated user to create projects.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "IXON VPN Client",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "date": "2026-09-03",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to perform remote code execution on the computer running the client with elevated…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "OPCFoundation OPC UA LocalDiscoveryServer (LDS)",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "date": "2026-09-03",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of a high-privilege terminal during installation and run arbitrary commands.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Preparing for the Post-Quantum Era: A Call to Action",
+      "url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "date": "2026-09-03",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Pyramid Solutions NetStaX EtherNet/IP Stack",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "date": "2026-09-03",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could result in memory corruption, a device crash, or a potential remote attack vector without the originating…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Rockwell Automation 1756-ENBT Module",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "date": "2026-09-03",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could crash the module.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Rockwell Automation ArmorStart LT",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "date": "2026-09-03",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could result in a loss of webserver availability or allow an attacker to inject malicious scripts that…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Rockwell Automation ControlFLASH",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "date": "2026-09-03",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could give an attacker the ability to run any commands or code of the attacker's choice on…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products (Update A)",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "date": "2026-09-03",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Schneider Electric is aware of a vulnerability in the following products: The Easergy C5 is a scalable and interoperable bay controller, protection…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Tycon Systems TPDIN-Monitor-WEB2 (Update A)",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "date": "2026-09-03",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Tycon Systems TPDIN-Monitor-WEB3",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08",
+      "published_at": "2026-09-03T12:00:00.000Z",
+      "date": "2026-09-03",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow for an attacker to perform a man-in-the-middle (MitM) attack, cause a factory reset, wipe credentials,…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+      "published_at": "2026-09-02T12:00:00.000Z",
+      "date": "2026-09-02",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Communicating Under Pressure: Best Practices for Service Providers",
+      "url": "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers",
+      "published_at": "2026-09-02T12:00:00.000Z",
+      "date": "2026-09-02",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Developed by CISA, the Federal Bureau of Investigation, and international partners, this guidance describes how organizations can plan and execute clear, timely, accurate, and audience-appropriate…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05",
+      "published_at": "2026-09-01T12:00:00.000Z",
+      "date": "2026-09-01",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary The following versions of Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix are affected: ControlLogix 5580 <34.015, <35.014, <36.013, <37.011 (CVE-2021-42260,…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Rockwell Automation FactoryTalk Activation Manager",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04",
+      "published_at": "2026-09-01T12:00:00.000Z",
+      "date": "2026-09-01",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary The following versions of Rockwell Automation FactoryTalk Activation Manager are affected: FactoryTalk Activation Manager V5.02_and_below (CVE-2026-16675) CVSS Vendor Equipment Vulnerabilities v3 7.8…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Rockwell Automation Historian ME",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06",
+      "published_at": "2026-09-01T12:00:00.000Z",
+      "date": "2026-09-01",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed; an out-of-bounds write condition may allow remote code execution.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Rockwell Automation Logix Platform",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
+      "published_at": "2026-09-01T12:00:00.000Z",
+      "date": "2026-09-01",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary The following versions of Rockwell Automation Logix Platform are affected: ControlLogix 5580 <=V33, V34.011-V34.014, V35.011-V35.013, V36.011-V36.012 (CVE-2026-9637, CVE-2026-9637, CVE-2026-9637, CVE-2026-9637) CompactLogix 5380…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Rockwell Automation Redundancy Module Configuration Tool",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02",
+      "published_at": "2026-09-01T12:00:00.000Z",
+      "date": "2026-09-01",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow for an attacker to escalate and execute processes with administrator privileges.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Rockwell Automation RSLinx Classic",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01",
+      "published_at": "2026-09-01T12:00:00.000Z",
+      "date": "2026-09-01",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the affected product.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "published_at": "2026-08-31T12:00:00.000Z",
+      "date": "2026-08-31",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "All-Line Equipment Company Fuel-Boss",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02",
+      "published_at": "2026-08-27T12:00:00.000Z",
+      "date": "2026-08-27",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Ebyte NA111-M",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05",
+      "published_at": "2026-08-27T12:00:00.000Z",
+      "date": "2026-08-27",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to fully compromise the device.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Mitsubishi Electric CNC Series (Update A)",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05",
+      "published_at": "2026-08-27T12:00:00.000Z",
+      "date": "2026-08-27",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Rockwell Automation OTTO Fleet Manager",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-03",
+      "published_at": "2026-08-27T12:00:00.000Z",
+      "date": "2026-08-27",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of this vulnerability could reduce the computational cost required for an attacker to perform offline brute-force attacks against stored password…",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    },
+    {
+      "source": "cisa",
+      "region": "global",
+      "lang": "en",
+      "title": "Xiiaozet LK100W",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-01",
+      "published_at": "2026-08-27T12:00:00.000Z",
+      "date": "2026-08-27",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to take control over the device.",
+      "first_seen": "2026-09-10T13:47:17.151Z"
+    }
+  ]
+}

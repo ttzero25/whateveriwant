@@ -30,7 +30,7 @@ try{
  await page.screenshot({path:'.preview/robotics-mobile.png',fullPage:true});
  await page.goto(base+'#/research');await page.waitForSelector('.research-item');
  assert.match(await page.locator('h1').innerText(),/^AI Research/);
- assert.equal(await page.locator('[data-topic=all]').getAttribute('aria-pressed'),'true');
+ assert.equal(await page.locator('#feed-topic').inputValue(),'all');
  const failure=await browser.newPage();await failure.route('**/robotics-security.json',r=>r.abort());
  await failure.goto(base+'#/robotics-security');await failure.waitForSelector('#research-retry');
  await failure.unroute('**/robotics-security.json');await failure.locator('#research-retry').click();await failure.waitForSelector('.research-item');

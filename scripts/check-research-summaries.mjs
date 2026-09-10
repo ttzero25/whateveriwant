@@ -11,20 +11,15 @@ try{
  assert.equal(await page.locator('.research-source-latest .research-tldr').count(),9);
  assert.equal(await page.locator('.research-item .research-tldr').count(),await page.locator('.research-item').count());
  for(const c of data.conferences){
-  await page.locator(`[data-conference="${c.id}"]`).click();
-  assert.equal(await page.locator('.conference-paper').count(),3);
-  await page.locator('.conference-more').click();assert.equal(await page.locator('.conference-paper').count(),8);
-  assert.ok((await page.locator('.conference-paper .research-tldr').allTextContents()).every(s=>!s.includes('준비 중')));
-  assert.deepEqual(await page.locator('.conference-paper h3 a').evaluateAll(as=>as.map(a=>a.textContent.replace(/ ↗$/,''))),c.items.map(i=>i.title));
-  await page.locator('.conference-more').click();assert.equal(await page.locator('.conference-paper').count(),3);
+  await page.locator('#feed-source').selectOption(c.id);
+  assert.equal(await page.locator('.research-item').count(),c.items.length);
+  assert.equal(await page.locator('.research-item .research-tldr').count(),c.items.length);
+  assert.deepEqual(await page.locator('.research-item h3 a').evaluateAll(as=>as.map(a=>a.textContent.replace(/ ↗$/,''))),[...c.items].sort((a,b)=>a.title.localeCompare(b.title,'en')).map(i=>i.title));
  }
- await page.locator('#research-period').selectOption('all');
- await page.locator('#research-search').fill('우르두어');assert.ok(await page.locator('.research-item').count()>0);
- await page.locator('#research-search').fill('');
+ await page.locator('#feed-reset').click();await page.locator('#feed-search').fill('우르두어');assert.ok(await page.locator('.research-item').count()>0);
  await page.locator('[data-language=en]').click();await page.waitForSelector('.research-item');
  assert.match(await page.locator('.research-item .research-tldr').first().innerText(),/Original excerpt/);
- await page.locator('[data-conference=icml]').click();assert.equal(await page.locator('.conference-paper .summary-unavailable').count(),0);
- await page.locator('[data-conference=acm-ccs]').click();assert.equal(await page.locator('.conference-paper .summary-unavailable').count(),3);
+ await page.locator('#feed-source').selectOption('icml');assert.equal(await page.locator('.research-item .summary-unavailable').count(),0);
  await page.locator('[data-language=ko]').click();await page.waitForSelector('.research-item');
  await page.screenshot({path:'.preview/research-summaries-desktop.png',fullPage:true});
  await page.locator('#theme-toggle').click();

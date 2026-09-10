@@ -52,3 +52,11 @@ ROS Watch의 **보안 학회 아카이브**는 IEEE S&P, USENIX Security, ACM CC
 - 원문 초록이 제공된 경우 짧은 발췌를 표시하고, 한국어 요약은 별도로 작성된 항목만 표시합니다.
 
 홈의 **오늘 업데이트**는 한국 시간(KST)을 기준으로 AI 동향, ROS·자율주행 동향, 보안 학회 아카이브를 함께 표시합니다. 오늘 게시·공고된 글과 오늘 새로 수집/변경된 글을 구분하며, 과거 학회 논문을 오늘 추가한 경우 학회 연도를 따로 표시합니다. 수집기는 `first_seen`과 `updated_at`을 보존하고, 기존 글의 알 수 없는 최초 수집일은 임의로 채우지 않습니다. 검증: `node --test scripts/daily-updates.test.mjs`, 미리보기 후 `node scripts/check-daily-updates.mjs`.
+
+**보안 이슈 Watch** (`#/security-news`)는 홈의 별도 배너와 AI Research Watch 바로 아래 사이드바 메뉴에서 열 수 있습니다. 보안뉴스·데일리시큐·The Hacker News·CISA의 RSS를 수집하며 국내·해외는 매체/기관 소재 기준입니다. 사건 발생 국가를 추정하지 않습니다. 제목과 짧은 원문 발췌를 게시일 최신순으로 표시하고 지역·출처·주제·기간 검색을 제공합니다.
+
+- `data/security-news.json`: 출처별 최대 150건 보관, 실패 시 이전 목록 유지
+- `node scripts/update-security-news.mjs`: 수동 수집. 일일 `update:research` 작업에 포함됩니다.
+- `node --test scripts/security-news-feeds.test.mjs`, 미리보기 후 `node scripts/check-security-news.mjs`: 날짜·링크·필터와 배너/메뉴 동작 검증
+
+AI Research Watch도 ROS Watch와 같은 통합 카드 목록을 사용합니다. OpenAI·Anthropic·arXiv 동향과 현재 선별한 2026 학회 논문을 출처·학회/연도/주제/유형으로 함께 검색합니다. 날짜가 없는 학회 논문은 해당 연도의 날짜 있는 동향 다음에 학회·제목순으로 표시합니다.

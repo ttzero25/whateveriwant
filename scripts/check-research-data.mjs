@@ -32,3 +32,14 @@ if(process.env.GITHUB_STEP_SUMMARY){
  await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,`## Research collection\n\n${data.items.length} news/preprints, ${data.conferences.flatMap(c=>c.items).length} conference papers.\n\n| Source | Status | Last success |\n|---|---|---|\n`+entries.map(s=>`| ${s.name} | ${s.status} | ${s.last_success||'Never'} |`).join('\n')+'\n\nNew Korean summaries require separate authoring; original excerpts are collected automatically.\n');
 }
 console.log('PASS: deployable research data and source statuses');
+
+const securityNews=JSON.parse(await fs.readFile(new URL('../dist/security-news.json',import.meta.url),'utf8'));
+assert.equal(securityNews.sources.length,4);
+assert.ok(securityNews.items.some(i=>i.region==='kr')&&securityNews.items.some(i=>i.region==='global'));
+for(const item of securityNews.items){
+ const source=securityNews.sources.find(s=>s.id===item.source);assert.ok(source);
+ assert.ok(source.hosts.includes(new URL(item.url).hostname));assert.equal(new URL(item.url).protocol,'https:');
+ assert.equal(item.region,source.region);assert.ok(Number.isFinite(Date.parse(item.published_at)));
+ assert.ok(item.excerpt.split(/\s+/).length<=25);assert.equal(item.description,undefined);
+}
+console.log('PASS: security news sources, dates, bounded excerpts and domestic/international coverage');
