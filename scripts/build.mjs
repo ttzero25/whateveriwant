@@ -129,4 +129,25 @@ robotics.archive=JSON.parse(await fs.readFile(path.join(root,'data/robotics-conf
 await attachSummaries(robotics.archive);
 await fs.writeFile(path.join(output,'robotics-security.json'),JSON.stringify(await attachSummaries(robotics)));
 
+// Data files have stable URLs (no content hash in the name), so returning visitors can be
+// served a stale cached copy after a deploy — the section shows up but its new docs don't.
+// Append each data file's content hash as a ?v= query to its fetch() in the emitted scripts,
+// so any data change busts the browser cache while unchanged data still caches.
+const dataFiles=['documents.json','research.json','robotics-security.json','security-news.json'];
+const dataRev=new Map();
+for(const file of dataFiles){
+ try{dataRev.set(file,createHash('sha256').update(await fs.readFile(path.join(output,file))).digest('hex').slice(0,12));}catch{/* not emitted */}
+}
+for(const emitted of [...assetNames.values(),'index.html']){
+ const p=path.join(output,emitted);
+ let src;try{src=await fs.readFile(p,'utf8');}catch{continue;}
+ let changed=false;
+ for(const [file,rev] of dataRev)for(const quote of ["'",'"']){
+  const from=quote+'./'+file+quote,to=quote+'./'+file+'?v='+rev+quote;
+  if(src.includes(from)){src=src.replaceAll(from,to);changed=true;}
+ }
+ if(changed)await fs.writeFile(p,src);
+}
+console.log(`Cache-busted ${dataRev.size} data files.`);
+
 await fs.copyFile(path.join(root,'data/security-news.json'),path.join(output,'security-news.json'));
