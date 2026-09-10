@@ -189,13 +189,13 @@
     "level": "핵심"
   },
   {
-    "topic": "ai-for-security",
+    "topic": "security-for-ai",
     "slug": "adversarial-ml",
     "englishTitle": "Adversarial ML: evasion, poisoning and inference",
     "level": "응용"
   },
   {
-    "topic": "ai-for-security",
+    "topic": "security-for-ai",
     "slug": "llm-prompt-injection",
     "englishTitle": "Defending against LLM prompt injection",
     "level": "응용"
@@ -597,6 +597,48 @@
     "topic": "vulnerabilities",
     "slug": "mass-assignment",
     "englishTitle": "Mass assignment",
+    "level": "응용"
+  },
+  {
+    "topic": "security-for-ai",
+    "slug": "securing-ai-systems",
+    "englishTitle": "Securing AI systems",
+    "level": "응용"
+  },
+  {
+    "topic": "security-for-ai",
+    "slug": "data-poisoning",
+    "englishTitle": "Data poisoning and backdoors",
+    "level": "핵심"
+  },
+  {
+    "topic": "security-for-ai",
+    "slug": "model-extraction",
+    "englishTitle": "Model extraction and theft",
+    "level": "핵심"
+  },
+  {
+    "topic": "security-for-ai",
+    "slug": "data-privacy-ml",
+    "englishTitle": "Training-data privacy",
+    "level": "핵심"
+  },
+  {
+    "topic": "security-for-ai",
+    "slug": "llm-application-security",
+    "englishTitle": "LLM application security",
+    "level": "핵심"
+  },
+  {
+    "topic": "security-for-ai",
+    "slug": "ml-supply-chain",
+    "englishTitle": "ML supply-chain security",
+    "level": "핵심"
+  },
+  {
+    "topic": "security-for-ai",
+    "slug": "ai-red-teaming",
+    "englishTitle": "AI red teaming and governance",
     "level": "응용"
   }
 ]

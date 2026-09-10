@@ -60,4 +60,4 @@ AI 작성 해설
 
 모델이 허용되지 않은 파일을 요청하더라도 도구 서버가 이를 거부한다면 어떤 경계가 작동한 것일까요? 모델 지시 준수와 시스템 인가를 나누어 설명해 보세요.
 
-관련: [보안 원칙](../security/principles.md) · [시스템 보안](../security/system-security.md) · [보안 관제의 LLM](llm-security-operations.md) · [학습 가이드](index.md)
+관련: [보안 원칙](../security/principles.md) · [시스템 보안](../security/system-security.md) · [보안 관제의 LLM](../ai-for-security/llm-security-operations.md) · [학습 가이드](../ai-for-security/index.md)

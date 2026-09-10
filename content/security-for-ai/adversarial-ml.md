@@ -8,7 +8,7 @@ AI 작성 해설
 
 ## 왜 보안 모델은 특별한가
 
-일반 ML은 자연적으로 발생하는 분포를 가정하지만, 보안에서는 상대가 **모델을 이기려고 능동적으로 입력을 조작**합니다. 즉 데이터 분포가 적대적으로 움직입니다. 그래서 정확도가 높아도 회피에 약하면 실전에서 무력화됩니다. 보안 데이터의 특성·누수 문제는 [보안 데이터, 라벨, 누수](security-data.md)와 이어집니다.
+일반 ML은 자연적으로 발생하는 분포를 가정하지만, 보안에서는 상대가 **모델을 이기려고 능동적으로 입력을 조작**합니다. 즉 데이터 분포가 적대적으로 움직입니다. 그래서 정확도가 높아도 회피에 약하면 실전에서 무력화됩니다. 보안 데이터의 특성·누수 문제는 [보안 데이터, 라벨, 누수](../ai-for-security/security-data.md)와 이어집니다.
 
 ## 공격 유형과 방어의 대응
 
@@ -35,7 +35,7 @@ def fgsm_example(model, x, y_true, epsilon, loss_fn):
     return x_adv.clamp(0, 1).detach()        # 유효 입력 범위로 자른다
 ```
 
-방어 평가에서는 이렇게 만든 적대적 샘플에 대한 정확도(robust accuracy)를 정상 정확도와 함께 봅니다. 탐지 성능 지표는 [탐지 지표와 경보 예산](detection-evaluation.md)에서 다룹니다.
+방어 평가에서는 이렇게 만든 적대적 샘플에 대한 정확도(robust accuracy)를 정상 정확도와 함께 봅니다. 탐지 성능 지표는 [탐지 지표와 경보 예산](../ai-for-security/detection-evaluation.md)에서 다룹니다.
 
 ## 오염과 공급망
 
@@ -45,7 +45,7 @@ def fgsm_example(model, x, y_true, epsilon, loss_fn):
 
 - 특징 자체를 조작하기 어렵게 설계하고(공격자가 통제하기 힘든 신호 활용), 단일 모델에 의존하지 않습니다.
 - 모델을 단독 차단 장치로 두지 않고, 규칙·평판·행위 로그와 함께 심층 방어를 구성합니다.
-- 배포 후에도 회피 시도·분포 변화(drift)를 모니터링하고 재학습·롤백 절차를 둡니다. [보안 모델 모니터링·재학습·롤백](model-operations.md)
+- 배포 후에도 회피 시도·분포 변화(drift)를 모니터링하고 재학습·롤백 절차를 둡니다. [보안 모델 모니터링·재학습·롤백](../ai-for-security/model-operations.md)
 
 ## 확인 질문
 
@@ -55,4 +55,4 @@ def fgsm_example(model, x, y_true, epsilon, loss_fn):
 
 [NIST AI 100-2: Adversarial ML 분류체계](https://csrc.nist.gov/pubs/ai/100/2/e2025/final) · [MITRE ATLAS](https://atlas.mitre.org/)
 
-관련: [AI 시스템 보안](securing-ai-systems.md) · [보안 데이터·라벨·누수](security-data.md) · [모델 모니터링·재학습·롤백](model-operations.md) · [목차](index.md) · [용어집](glossary.md)
+관련: [AI 시스템 보안](securing-ai-systems.md) · [보안 데이터·라벨·누수](../ai-for-security/security-data.md) · [모델 모니터링·재학습·롤백](../ai-for-security/model-operations.md) · [목차](../ai-for-security/index.md) · [용어집](../ai-for-security/glossary.md)

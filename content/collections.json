@@ -123,11 +123,6 @@
         "level": "응용"
       },
       {
-        "slug": "securing-ai-systems",
-        "englishTitle": "Securing AI systems",
-        "level": "응용"
-      },
-      {
         "slug": "detection-engineering",
         "englishTitle": "Detection engineering lifecycle",
         "level": "응용"
@@ -140,16 +135,6 @@
       {
         "slug": "model-operations",
         "englishTitle": "Security model monitoring, retraining and rollback",
-        "level": "응용"
-      },
-      {
-        "slug": "adversarial-ml",
-        "englishTitle": "Adversarial ML: evasion, poisoning and inference",
-        "level": "응용"
-      },
-      {
-        "slug": "llm-prompt-injection",
-        "englishTitle": "Defending against LLM prompt injection",
         "level": "응용"
       },
       {
@@ -610,6 +595,66 @@
       {
         "slug": "index",
         "englishTitle": "Algorithms & data structures guide",
+        "level": "가이드"
+      }
+    ]
+  },
+  {
+    "topic": "security-for-ai",
+    "entries": [
+      {
+        "slug": "securing-ai-systems",
+        "englishTitle": "Securing AI systems",
+        "level": "응용"
+      },
+      {
+        "slug": "adversarial-ml",
+        "englishTitle": "Adversarial ML: evasion, poisoning and inference",
+        "level": "응용"
+      },
+      {
+        "slug": "data-poisoning",
+        "englishTitle": "Data poisoning and backdoors",
+        "level": "핵심"
+      },
+      {
+        "slug": "model-extraction",
+        "englishTitle": "Model extraction and theft",
+        "level": "핵심"
+      },
+      {
+        "slug": "data-privacy-ml",
+        "englishTitle": "Training-data privacy",
+        "level": "핵심"
+      },
+      {
+        "slug": "llm-prompt-injection",
+        "englishTitle": "Defending against LLM prompt injection",
+        "level": "응용"
+      },
+      {
+        "slug": "llm-application-security",
+        "englishTitle": "LLM application security",
+        "level": "핵심"
+      },
+      {
+        "slug": "ml-supply-chain",
+        "englishTitle": "ML supply-chain security",
+        "level": "핵심"
+      },
+      {
+        "slug": "ai-red-teaming",
+        "englishTitle": "AI red teaming and governance",
+        "level": "응용"
+      },
+      {
+        "slug": "glossary",
+        "englishTitle": "Security for AI glossary",
+        "level": "참고"
+      },
+      {
+        "slug": "index",
+        "englishTitle": "Security for AI learning guide",
         "level": "가이드"
       }
     ]

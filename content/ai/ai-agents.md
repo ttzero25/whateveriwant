@@ -37,7 +37,7 @@ def agent(goal, tools, max_steps=6):
 ## 왜 위험한가
 
 - **오류 누적**: 한 단계의 실수가 다음 단계로 전파돼 크게 벗어날 수 있습니다. 단계 한도·검증 지점이 필요합니다.
-- **프롬프트 인젝션**: 도구가 읽는 외부 콘텐츠(웹·문서)에 숨은 지시가 에이전트를 조종할 수 있습니다. 방어는 [LLM 프롬프트 인젝션 방어](../ai-for-security/llm-prompt-injection.md)에서 다룹니다.
+- **프롬프트 인젝션**: 도구가 읽는 외부 콘텐츠(웹·문서)에 숨은 지시가 에이전트를 조종할 수 있습니다. 방어는 [LLM 프롬프트 인젝션 방어](../security-for-ai/llm-prompt-injection.md)에서 다룹니다.
 - **권한 과다**: 부작용이 큰 도구(파일 쓰기·결제·삭제)를 자동 실행하면 피해가 큽니다. 읽기는 자동, 파괴적 조치는 사람 승인으로 나눕니다.
 
 ## 설계 원칙
@@ -55,4 +55,4 @@ def agent(goal, tools, max_steps=6):
 
 [ReAct: Reasoning and Acting (2022)](https://arxiv.org/abs/2210.03629)
 
-관련: [LLM 평가와 도구 호출](llm-evaluation-tools.md) · [RAG](rag.md) · [컨텍스트·메모리와 검색](context-retrieval.md) · [LLM 프롬프트 인젝션 방어](../ai-for-security/llm-prompt-injection.md) · [목차](index.md) · [용어집](glossary.md)
+관련: [LLM 평가와 도구 호출](llm-evaluation-tools.md) · [RAG](rag.md) · [컨텍스트·메모리와 검색](context-retrieval.md) · [LLM 프롬프트 인젝션 방어](../security-for-ai/llm-prompt-injection.md) · [목차](index.md) · [용어집](glossary.md)

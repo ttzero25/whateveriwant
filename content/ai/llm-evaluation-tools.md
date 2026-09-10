@@ -34,4 +34,4 @@ AI 작성 해설
 
 도구 호출 성공 응답을 받았지만 사용자가 원한 문서가 아니라 다른 문서를 수정했다면 과업 성공이라고 할 수 있을까요?
 
-관련: [분산 시스템](../cs/distributed-systems.md) · [컨텍스트·검색](context-retrieval.md) · [AI 시스템 보호](../ai-for-security/securing-ai-systems.md) · [목차](index.md)
+관련: [분산 시스템](../cs/distributed-systems.md) · [컨텍스트·검색](context-retrieval.md) · [AI 시스템 보호](../security-for-ai/securing-ai-systems.md) · [목차](index.md)

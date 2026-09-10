@@ -56,7 +56,7 @@ AI 작성 해설
 | 판단 유보 | Abstention | 근거·조건이 부족할 때 결론을 내리지 않음 |
 | 사람의 검토 | Human-in-the-loop | 중요한 판단과 실행에 사람의 검토를 포함 |
 
-관련 해설과 출처: [보안 관제의 LLM](llm-security-operations.md) · [AI 시스템 보호](securing-ai-systems.md) · [학습 가이드](index.md)
+관련 해설과 출처: [보안 관제의 LLM](llm-security-operations.md) · [AI 시스템 보호](../security-for-ai/securing-ai-systems.md) · [학습 가이드](index.md)
 
 ## 확장 개념 찾아보기
 
@@ -85,4 +85,4 @@ AI 작성 해설
 | 위협 인텔리전스 | Threat intelligence | 지표에 맥락·신뢰도를 붙인 정보 |
 | TTP | Tactics, Techniques, Procedures | 공격자의 전술·기법·절차 |
 
-관련 문서: [적대적 머신러닝](adversarial-ml.md) · [LLM 프롬프트 인젝션 방어](llm-prompt-injection.md) · [악성코드 분류](malware-classification.md) · [UEBA·그래프 탐지](ueba-graph-detection.md) · [SOAR](soar-automation.md) · [위협 인텔 보강](threat-intel-enrichment.md)
+관련 문서: [적대적 머신러닝](../security-for-ai/adversarial-ml.md) · [LLM 프롬프트 인젝션 방어](../security-for-ai/llm-prompt-injection.md) · [악성코드 분류](malware-classification.md) · [UEBA·그래프 탐지](ueba-graph-detection.md) · [SOAR](soar-automation.md) · [위협 인텔 보강](threat-intel-enrichment.md)

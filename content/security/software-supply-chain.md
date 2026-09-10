@@ -31,4 +31,4 @@ SBOM과 잠금 파일로 영향 제품과 버전을 찾습니다. 사용 위치�
 
 아티팩트의 해시가 다운로드 페이지의 값과 같더라도 그 페이지와 배포 경로를 모두 신뢰할 수 없다면 무엇을 추가로 확인해야 할까요?
 
-관련: [암호학](../crypto/foundations.md) · [시큐어 개발](secure-development.md) · [AI 시스템 보호](../ai-for-security/securing-ai-systems.md) · [목차](index.md)
+관련: [암호학](../crypto/foundations.md) · [시큐어 개발](secure-development.md) · [AI 시스템 보호](../security-for-ai/securing-ai-systems.md) · [목차](index.md)

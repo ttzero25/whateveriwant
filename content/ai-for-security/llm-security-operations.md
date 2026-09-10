@@ -64,4 +64,4 @@ SOC(Security Operations Center)는 보안 이벤트를 관측하고 조사·대�
 
 분석가에게 보이지 않는 사건 보고서가 검색 결과에 섞였다면, 모델에 “비밀은 말하지 말라”고 지시하는 것만으로 해결될까요?
 
-관련: [RAG 기초](../ai/rag.md) · [인증과 인가](../security/authentication-authorization.md) · [AI 시스템 보호](securing-ai-systems.md) · [학습 가이드](index.md)
+관련: [RAG 기초](../ai/rag.md) · [인증과 인가](../security/authentication-authorization.md) · [AI 시스템 보호](../security-for-ai/securing-ai-systems.md) · [학습 가이드](index.md)

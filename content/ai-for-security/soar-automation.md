@@ -43,7 +43,7 @@ def triage_alert(alert) -> dict:
 
 ## LLM의 역할과 경계
 
-LLM은 사건 요약·타임라인 정리·유사 사례 설명에 유용하지만, 근거 없는 단정이나 권한 있는 조치를 맡기면 위험합니다. LLM에는 허용된 데이터만 읽는 검색을 주고 출력은 제안으로만 받으며, 실제 조치는 정책 코드가 결정합니다. 이 경계는 [보안 운영을 위한 LLM](llm-security-operations.md)·[LLM 프롬프트 인젝션 방어](llm-prompt-injection.md)에서 다룹니다.
+LLM은 사건 요약·타임라인 정리·유사 사례 설명에 유용하지만, 근거 없는 단정이나 권한 있는 조치를 맡기면 위험합니다. LLM에는 허용된 데이터만 읽는 검색을 주고 출력은 제안으로만 받으며, 실제 조치는 정책 코드가 결정합니다. 이 경계는 [보안 운영을 위한 LLM](llm-security-operations.md)·[LLM 프롬프트 인젝션 방어](../security-for-ai/llm-prompt-injection.md)에서 다룹니다.
 
 ## 자동화의 함정
 
