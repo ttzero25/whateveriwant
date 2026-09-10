@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "automatic_sync_enabled": false,
+  "sources": [
+    {
+      "title": "OWASP Cryptographic Storage",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/cryptography.md"
+      ]
+    },
+    {
+      "title": "OWASP Password Storage",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/cryptography.md"
+      ]
+    },
+    {
+      "title": "OWASP Authorization",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/principles.md",
+        "content/security/authentication-authorization.md"
+      ]
+    },
+    {
+      "title": "OWASP Attack Surface Analysis",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/principles.md"
+      ]
+    },
+    {
+      "title": "OWASP Authentication",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/authentication-authorization.md"
+      ]
+    },
+    {
+      "title": "OWASP Session Management",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/authentication-authorization.md"
+      ]
+    },
+    {
+      "title": "IETF RFC 8725",
+      "url": "https://www.rfc-editor.org/rfc/rfc8725",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/authentication-authorization.md"
+      ]
+    },
+    {
+      "title": "OWASP OAuth2",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/authentication-authorization.md"
+      ]
+    },
+    {
+      "title": "OWASP Injection Prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/web-security.md"
+      ]
+    },
+    {
+      "title": "OWASP XSS Prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/web-security.md"
+      ]
+    },
+    {
+      "title": "OWASP CSRF Prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/web-security.md"
+      ]
+    },
+    {
+      "title": "OWASP SSRF Prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/web-security.md"
+      ]
+    },
+    {
+      "title": "Linux Kernel Self-Protection",
+      "url": "https://docs.kernel.org/security/self-protection.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/system-security.md"
+      ]
+    },
+    {
+      "title": "OWASP Docker Security",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/system-security.md"
+      ]
+    },
+    {
+      "title": "OWASP Transport Layer Security",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/network-security.md"
+      ]
+    },
+    {
+      "title": "OWASP Network Segmentation",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Network_Segmentation_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/network-security.md"
+      ]
+    },
+    {
+      "title": "OWASP Zero Trust Architecture",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Zero_Trust_Architecture_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/network-security.md"
+      ]
+    },
+    {
+      "title": "DNSSEC: RFC 4033",
+      "url": "https://www.rfc-editor.org/rfc/rfc4033",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/network-security.md"
+      ]
+    },
+    {
+      "title": "DoH: RFC 8484",
+      "url": "https://www.rfc-editor.org/rfc/rfc8484",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/network-security.md"
+      ]
+    },
+    {
+      "title": "DoT: RFC 7858",
+      "url": "https://www.rfc-editor.org/rfc/rfc7858",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/security/network-security.md"
+      ]
+    }
+  ]
+}

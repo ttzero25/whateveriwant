@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "security",
+    "entries": [
+      {
+        "slug": "principles",
+        "englishTitle": "Security principles and threat modeling",
+        "level": "기초"
+      },
+      {
+        "slug": "authentication-authorization",
+        "englishTitle": "Authentication and authorization",
+        "level": "기초"
+      },
+      {
+        "slug": "cryptography",
+        "englishTitle": "Cryptography and key management",
+        "level": "기초"
+      },
+      {
+        "slug": "web-security",
+        "englishTitle": "Web security",
+        "level": "핵심"
+      },
+      {
+        "slug": "system-security",
+        "englishTitle": "System security",
+        "level": "핵심"
+      },
+      {
+        "slug": "network-security",
+        "englishTitle": "Network security",
+        "level": "핵심"
+      },
+      {
+        "slug": "glossary",
+        "englishTitle": "Security glossary",
+        "level": "참고"
+      },
+      {
+        "slug": "index",
+        "englishTitle": "Security learning guide",
+        "level": "가이드"
+      }
+    ]
+  },
+  {
+    "topic": "ai-for-security",
+    "entries": [
+      {
+        "slug": "fundamentals",
+        "englishTitle": "AI for Security: scope and workflow",
+        "level": "기초"
+      },
+      {
+        "slug": "security-data",
+        "englishTitle": "Security data, labels and leakage",
+        "level": "기초"
+      },
+      {
+        "slug": "detection-evaluation",
+        "englishTitle": "Detection metrics and alert budgets",
+        "level": "핵심"
+      },
+      {
+        "slug": "log-anomaly-detection",
+        "englishTitle": "Log anomaly detection and drift",
+        "level": "핵심"
+      },
+      {
+        "slug": "llm-security-operations",
+        "englishTitle": "LLMs for security operations",
+        "level": "응용"
+      },
+      {
+        "slug": "securing-ai-systems",
+        "englishTitle": "Securing AI systems",
+        "level": "응용"
+      },
+      {
+        "slug": "glossary",
+        "englishTitle": "AI for Security glossary",
+        "level": "참고"
+      },
+      {
+        "slug": "index",
+        "englishTitle": "AI for Security learning guide",
+        "level": "가이드"
+      }
+    ]
+  }
+]

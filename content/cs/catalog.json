@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "data-representation",
+    "englishTitle": "Bits, bytes and data representation",
+    "level": "기초"
+  },
+  {
+    "slug": "computer-architecture",
+    "englishTitle": "CPU, memory and storage",
+    "level": "기초"
+  },
+  {
+    "slug": "data-structures",
+    "englishTitle": "Data structures",
+    "level": "기초"
+  },
+  {
+    "slug": "algorithms-complexity",
+    "englishTitle": "Algorithms and Big-O",
+    "level": "기초"
+  },
+  {
+    "slug": "networking",
+    "englishTitle": "Networking fundamentals",
+    "level": "기초"
+  },
+  {
+    "slug": "databases",
+    "englishTitle": "Relational databases and SQL",
+    "level": "기초"
+  },
+  {
+    "slug": "transactions-indexes",
+    "englishTitle": "Transactions, ACID and indexes",
+    "level": "핵심"
+  },
+  {
+    "slug": "concurrency",
+    "englishTitle": "Concurrency, parallelism and synchronization",
+    "level": "핵심"
+  },
+  {
+    "slug": "glossary",
+    "englishTitle": "CS glossary",
+    "level": "참고"
+  },
+  {
+    "slug": "index",
+    "englishTitle": "CS learning guide",
+    "level": "가이드"
+  }
+]

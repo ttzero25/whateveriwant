@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import MarkdownIt from 'markdown-it';
 import katex from 'katex';
+import {buildCS} from './cs-build.mjs';
 const root=path.resolve(import.meta.dirname,'..'),output=path.join(root,'dist');
 await fs.mkdir(output,{recursive:true});
 for(const file of ['index.html','style.css','app.js','diagrams.js']) await fs.copyFile(path.join(root,'web',file),path.join(output,file));
@@ -16,7 +17,7 @@ const defaultLink=md.renderer.rules.link_open||((tokens,idx,opts,env,self)=>self
 md.renderer.rules.link_open=(tokens,idx,opts,env,self)=>{
  const token=tokens[idx],href=token.attrGet('href');
  if(href==='../../README.md')token.attrSet('href','#/');
- else if(href?.endsWith('.md')&&!href.startsWith('http'))token.attrSet('href','#/'+(env.topic||'ai')+'/'+path.basename(href,'.md'));
+ else if(href?.endsWith('.md')&&!href.startsWith('http'))token.attrSet('href','#/'+path.posix.normalize((env.topic||'ai')+'/'+href).replace(/\.md$/,''));
  else if(href?.startsWith('https://')){token.attrSet('target','_blank');token.attrSet('rel','noopener noreferrer');}
  return defaultLink(tokens,idx,opts,env,self);
 };
@@ -64,15 +65,17 @@ for(const [i,slug] of order.entries()){
  const en={title:englishTitles[i],summary:enSummary,...finalize(enHTML),source:sections?sections.map(s=>s.blocks.map(b=>b.text||b.items.join(' ')).join(' ')).join(' '):enSummary,type:enType,date:originals.checked_on};
  docs.push({topic:'ai',slug,title,summary:summary||(slug==='glossary'?'한영 용어를 빠르게 찾아보고 관련 개념으로 이동하세요.':'AI 기초부터 LLM 활용까지, 나에게 맞는 학습 순서를 찾아보세요.'),level:levels[i],track:catalog[i].track,...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10',en});
 }
-const securityOrder=['principles','authentication-authorization','cryptography','web-security','system-security','network-security','glossary','index'];
-const securityTitles=['Security principles and threat modeling','Authentication and authorization','Cryptography and key management','Web security','System security','Network security','Security glossary','Security learning guide'];
-for(const [i,slug] of securityOrder.entries()){
- const source=await fs.readFile(path.join(root,'content/security',slug+'.md'),'utf8');
- const title=source.match(/^# (.+)/m)[1];
- const summary=source.split('\n').filter(l=>l.startsWith('> ')&&!l.includes('TL;DR')).map(l=>l.slice(2)).join(' ');
- const body=source.replace(/^# .+\n/,'').replace(/^AI 작성 해설.*\n/m,'');
- const ko=finalize(md.render(body,{topic:'security'}));
- docs.push({topic:'security',slug,title,summary,level:i<3?'기초':i<6?'핵심':i===6?'참고':'가이드',...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10',en:{title:securityTitles[i],summary,...ko,source,type:'korean',date:'2026-09-10'}});
+const collections=JSON.parse(await fs.readFile(path.join(root,'content/collections.json'),'utf8'));
+for(const {topic,entries} of collections){
+ for(const {slug,englishTitle,level} of entries){
+  const source=await fs.readFile(path.join(root,'content',topic,slug+'.md'),'utf8');
+  const title=source.match(/^# (.+)/m)[1];
+  const summary=source.split('\n').filter(l=>l.startsWith('> ')&&!l.includes('TL;DR')).map(l=>l.slice(2)).join(' ');
+  const body=source.replace(/^# .+\n/,'').replace(/^AI 작성 해설.*\n/m,'');
+  const ko=finalize(md.render(body,{topic}));
+  docs.push({topic,slug,title,summary,level,...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10',en:{title:englishTitle,summary,...ko,source,type:'korean',date:'2026-09-10'}});
+ }
 }
+docs.push(...await buildCS({root,md,finalize,escape}));
 await fs.writeFile(path.join(output,'documents.json'),JSON.stringify(docs));
-console.log(`Built ${docs.length} documents across AI and Security.`);
+console.log(`Built ${docs.length} documents across ${new Set(docs.map(d=>d.topic)).size} topics.`);

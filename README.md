@@ -7,9 +7,22 @@ Security · CS · OS · AI · AI for Security를 연결하는 개인 지식백�
 
 한국어 문서는 공식 교육 자료와 원 논문을 참고한 **AI 작성 해설**이며 소유자 검토 전입니다. 영어 보기는 Google 공식 용어집의 **원문 발췌**입니다. 한국어 해설의 번역이나 원문 전문이 아닙니다. 출처 확인일은 원문 수정일과 다릅니다.
 
+## Security 지식백과
+
+[Security 학습 가이드](content/security/index.md): 보안 원칙, 인증과 인가, 암호학, 웹·시스템·네트워크 보안의 여섯 개념 문서와 한영 용어집입니다. 각 문서는 핵심 개념·예시·확인 질문·공식 출처를 포함합니다. 영어 보기에서는 한국어 본문 제공 안내를 표시합니다.
+
+## AI for Security 지식백과
+
+[AI for Security 학습 가이드](content/ai-for-security/index.md): 보안 AI의 문제 정의, 보안 데이터, 탐지 평가, 로그 이상 탐지, LLM 관제 지원, AI 시스템 보호의 여섯 개념 글과 한영 용어집입니다. 기존 AI·Security 개념으로 이어지는 링크와 가상 계산 예제를 포함합니다. 영어 보기에서는 한국어 본문 제공 안내를 표시합니다.
+
 ## 콘텐츠 관리
 
 - `content/catalog.json`: 문서 순서·수준·AI/ML/DL/LLM 분류
+- `content/ai-for-security/`: 보안 AI의 개념·학습 순서·용어집
+- `content/collections.json`: Security·AI for Security의 문서 순서·수준·영문 제목
+- `sources/ai-for-security.json`: 보안 AI 참고 출처와 확인일
+- `content/security/`: Security 개념·학습 순서·용어집
+- `sources/security.json`: Security 참고 출처와 확인일
 - `content/ai/`: AI·ML·DL·LLM 개념과 학습 순서
 - `content/en/originals.json`: 재사용 조건을 확인한 Google 영어 원문 발췌와 출처 기록
 - `sources/ai.json`: 참고 출처와 확인일
@@ -42,8 +55,24 @@ Chrome이 설치된 환경에서는 미리보기 서버를 실행한 상태로 `
 
 `npm run import:english`는 공식 용어집에서 원문 발췌를 수동 갱신합니다. 실행 후 변경 내용과 재사용 조건을 검토하고 `npm run build`로 반영하세요. 정기 실행은 아직 설정하지 않았습니다.
 
+Security 전용 검증: `node scripts/check-security.mjs` — 분야별 필터, 내부 링크, 여덟 문서, 언어 안내와 모바일 화면을 확인합니다.
+
+AI for Security 검증: `node scripts/check-security.mjs http://127.0.0.1:4173/ ai-for-security` — 새 분야의 탐색, AI·Security 교차 링크와 모바일 화면을 확인합니다.
+
 ## 공개 배포
 
 소스는 `main`, 빌드한 정적 파일은 `gh-pages` 브랜치에서 관리합니다. GitHub Pages는 `gh-pages`의 루트(`/`)를 HTTPS로 제공합니다. `main`의 수정만으로 사이트가 다시 빌드되지는 않으며, 새 빌드 결과를 `gh-pages`에 푸시하면 배포됩니다.
 
 공개 사이트 검증: `node scripts/check-preview.mjs https://ttzero25.github.io/whateveriwant/`
+
+## Computer Science
+
+CS에 8개 개념, 30개 항목 용어집, 학습 가이드를 제공합니다. 데이터 표현, 컴퓨터 구조, 자료구조, 알고리즘·복잡도, 네트워크, 관계형 DB·SQL, 트랜잭션·인덱스, 동시성·동기화를 다룹니다. 각 개념은 TL;DR과 한영 SVG 도식을 포함합니다.
+
+- `content/cs/`: 한국어 해설과 문서 목록 `catalog.json`
+- `sources/cs.json`: Python·PostgreSQL·NIST·Arm·MDN의 짧은 영어 원문 발췌, 출처와 확인일
+- `scripts/cs-build.mjs`: CS의 한국어 문서와 영어 원문 보기 생성
+
+CS 영어 보기는 한국어 본문의 번역이 아닌, 관련 공식 개념의 짧은 원문 인용과 전체 문서 링크입니다. 영어 학습 가이드와 분야 목록은 사이트 자체 작성입니다.
+
+CS 검증: `node scripts/check-cs.mjs` (배포 사이트 URL을 인자로 전달할 수 있습니다).

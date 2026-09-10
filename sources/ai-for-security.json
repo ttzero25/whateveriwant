@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "automatic_sync_enabled": false,
+  "sources": [
+    {
+      "title": "Google ML Crash Course: Classification metrics",
+      "url": "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/detection-evaluation.md"
+      ]
+    },
+    {
+      "title": "scikit-learn: Novelty and Outlier Detection",
+      "url": "https://scikit-learn.org/stable/modules/outlier_detection.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/log-anomaly-detection.md"
+      ]
+    },
+    {
+      "title": "OWASP Secure AI Model Ops",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secure_AI_Model_Ops_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/log-anomaly-detection.md",
+        "content/ai-for-security/securing-ai-systems.md"
+      ]
+    },
+    {
+      "title": "OWASP RAG Security",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/RAG_Security_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/llm-security-operations.md"
+      ]
+    },
+    {
+      "title": "OWASP LLM Prompt Injection Prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/llm-security-operations.md",
+        "content/ai-for-security/securing-ai-systems.md"
+      ]
+    },
+    {
+      "title": "scikit-learn: Common pitfalls",
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/security-data.md"
+      ]
+    },
+    {
+      "title": "OWASP Logging",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/security-data.md"
+      ]
+    },
+    {
+      "title": "NIST AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/ai-for-security/fundamentals.md"
+      ]
+    }
+  ]
+}

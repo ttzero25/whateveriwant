@@ -1,0 +1,76 @@
+{
+  "sources": [
+    {
+      "slug": "data-representation",
+      "title": "Python · Bytes",
+      "url": "https://docs.python.org/3/library/stdtypes.html#bytes-objects",
+      "quote": "Bytes objects are immutable sequences of single bytes.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "computer-architecture",
+      "title": "Arm · CPU",
+      "url": "https://www.arm.com/glossary/cpu",
+      "quote": "A CPU (central processing unit) is the core engine of a computing system.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "data-structures",
+      "title": "Python · Queues",
+      "url": "https://docs.python.org/3/tutorial/datastructures.html#using-lists-as-queues",
+      "quote": "To implement a queue, use collections.deque which was designed to have fast appends and pops from both ends.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "algorithms-complexity",
+      "title": "NIST DADS · Algorithm",
+      "url": "https://xlinux.nist.gov/dads/HTML/algorithm.html",
+      "quote": "A computable set of steps to achieve a desired result.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "networking",
+      "title": "MDN · Internet",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work",
+      "quote": "At its most basic, the Internet is a large network of computers which communicate all together.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "databases",
+      "title": "PostgreSQL · Concepts",
+      "url": "https://www.postgresql.org/docs/current/tutorial-concepts.html",
+      "quote": "Each table is a named collection of rows.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "transactions-indexes",
+      "title": "PostgreSQL · Transactions",
+      "url": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
+      "quote": "The essential point of a transaction is that it bundles multiple steps into a single, all-or-nothing operation.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    },
+    {
+      "slug": "concurrency",
+      "title": "Python · Locks",
+      "url": "https://docs.python.org/3/library/threading.html#lock-objects",
+      "quote": "A primitive lock is a synchronization primitive that is not owned by a particular thread when locked.",
+      "checked_on": "2026-09-10",
+      "usage": "short_verbatim_excerpt",
+      "full_text_imported": false
+    }
+  ]
+}
