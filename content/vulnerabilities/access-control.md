@@ -37,3 +37,5 @@ IDOR는 객체 참조에 대한 권한 확인 누락을, BOLA는 API의 객체 �
 [OWASP: Authorization](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
 
 관련: [인증·인가](../security/authentication-authorization.md) · [보안 원칙](../security/principles.md) · [학습 가이드](index.md) · [용어집](glossary.md)
+
+수평·수직·조직 경계와 허용·거절 행렬은 [권한 우회 심화](authorization-bypass.md)에서 이어집니다.

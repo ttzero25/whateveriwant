@@ -233,6 +233,11 @@
         "level": "기초"
       },
       {
+        "slug": "authorization-bypass",
+        "englishTitle": "Authorization bypass: horizontal and vertical permissions",
+        "level": "핵심"
+      },
+      {
         "slug": "authentication-session",
         "englishTitle": "Authentication and session lifecycle failures",
         "level": "핵심"
@@ -260,6 +265,11 @@
       {
         "slug": "memory-safety",
         "englishTitle": "Memory safety: bounds and object lifetime",
+        "level": "응용"
+      },
+      {
+        "slug": "out-of-bounds",
+        "englishTitle": "OOB: out-of-bounds reads and writes",
         "level": "응용"
       },
       {

@@ -62,3 +62,10 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 | Regression test / 회귀 테스트 | 수정한 문제가 재발하지 않는지 확인하는 테스트 |
 
 해설: [설정·오류 처리](misconfiguration.md) · [보안 원칙](../security/principles.md) · [학습 가이드](index.md)
+
+## 심화 주제
+
+- [OOB Read / Write](out-of-bounds.md): 경계 밖 읽기 / 쓰기. 수명 오류인 UAF와 구분합니다.
+- [권한 우회 / Authorization bypass](authorization-bypass.md): 허용되지 않은 작업이 정책 검사를 제대로 거치지 않는 문제.
+- 수평 권한: 같은 역할 사이의 자원 접근 범위. 수직 권한: 역할·권한 수준 사이의 경계.
+- BFLA / Broken Function Level Authorization: 기능 수준 인가 실패.

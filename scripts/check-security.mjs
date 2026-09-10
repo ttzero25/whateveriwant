@@ -28,7 +28,7 @@ try{
   await page.goto(base+'#/'+topic);
   await page.waitForSelector('.doc-card');
   if(topic==='vulnerabilities'){
-    assert.equal(security.length,14);
+    assert.equal(security.length,16);
     await page.locator('.vulnerability-intro a').click();
     await page.waitForSelector('.article');
     await page.locator('.back-link').click();
@@ -41,6 +41,12 @@ try{
   await page.locator('#search').fill(topic==='security'?'RBAC':topic==='vulnerabilities'?'IDOR':'기저율');
   assert.ok(await page.locator('.doc-card').count()>0);
   assert.ok(await page.locator('.doc-card').count()<security.length);
+  if(topic==='vulnerabilities'){
+    for(const [term,slug] of [['OOB','out-of-bounds'],['권한 우회','authorization-bypass']]){
+      await page.locator('#search').fill(term);
+      assert.equal(await page.locator(`.doc-card[href="#/vulnerabilities/${slug}"]`).count(),1);
+    }
+  }
   await page.locator('#search').fill('');
   await page.getByRole('button',{name:'기초',exact:true}).click();
   assert.equal(await page.locator('.doc-card').count(),security.filter(d=>d.level==='기초').length);
@@ -88,7 +94,7 @@ try{
     await page.locator('#menu-toggle').click();
     await page.locator('.vulnerabilities-link').click();
     await page.waitForSelector('.doc-card');
-    assert.equal(await page.locator('.doc-card').count(),14);
+    assert.equal(await page.locator('.doc-card').count(),16);
     assert.equal(await page.locator('#menu-toggle').getAttribute('aria-expanded'),'false');
   }
   await page.goto(base+'#/ai');

@@ -37,3 +37,5 @@ ASLR·스택 보호·실행 권한 제한은 피해 완화 수단입니다. 잘�
 [CWE-787: Out-of-bounds Write](https://cwe.mitre.org/data/definitions/787.html) · [CWE-416: Use After Free](https://cwe.mitre.org/data/definitions/416.html)
 
 관련: [가상 메모리](../os/virtual-memory.md) · [시스템 보안](../security/system-security.md) · [학습 가이드](index.md) · [용어집](glossary.md)
+
+OOB의 읽기·쓰기 차이와 경계 검증은 [OOB 심화](out-of-bounds.md)에서 이어집니다.

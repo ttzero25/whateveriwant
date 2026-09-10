@@ -39,7 +39,8 @@
       "usage": "reference_link_and_original_explanation",
       "full_text_imported": false,
       "documents": [
-        "content/vulnerabilities/access-control.md"
+        "content/vulnerabilities/access-control.md",
+        "content/vulnerabilities/authorization-bypass.md"
       ]
     },
     {
@@ -119,7 +120,8 @@
       "usage": "reference_link_and_original_explanation",
       "full_text_imported": false,
       "documents": [
-        "content/vulnerabilities/memory-safety.md"
+        "content/vulnerabilities/memory-safety.md",
+        "content/vulnerabilities/out-of-bounds.md"
       ]
     },
     {
@@ -191,6 +193,26 @@
       "full_text_imported": false,
       "documents": [
         "content/vulnerabilities/index.md"
+      ]
+    },
+    {
+      "title": "CWE-125: Out-of-bounds Read",
+      "url": "https://cwe.mitre.org/data/definitions/125.html",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/out-of-bounds.md"
+      ]
+    },
+    {
+      "title": "OWASP: Broken Function Level Authorization",
+      "url": "https://owasp.org/API-Security/editions/2023/en/0xa5-broken-function-level-authorization/",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "documents": [
+        "content/vulnerabilities/authorization-bypass.md"
       ]
     }
   ]

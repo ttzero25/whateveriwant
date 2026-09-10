@@ -54,4 +54,4 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 
 ## 대표 취약점으로 이어 읽기
 
-[대표 취약점 학습 가이드](../vulnerabilities/index.md)에서 SQL Injection·XSS·접근 제어·메모리 안전성 등 12개 유형의 원인과 예방 방법을 살펴보세요.
+[대표 취약점 학습 가이드](../vulnerabilities/index.md)에서 SQL Injection·XSS·접근 제어·메모리 안전성 등 14개 주제의 원인과 예방 방법을 살펴보세요.
