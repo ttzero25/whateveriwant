@@ -12,10 +12,10 @@ Security · CS · OS · AI · AI for Security를 연결하는 개인 지식백�
 - `content/ai/`: AI 개념과 학습 순서
 - `content/en/originals.json`: 재사용 조건을 확인한 Google 영어 원문 발췌와 출처 기록
 - `sources/ai.json`: 참고 출처와 확인일
-- 자동 수집·커밋과 Pages 배포는 아직 설정하지 않았습니다.
+- 정기 원문 수집·커밋은 아직 설정하지 않았습니다. GitHub Pages는 `gh-pages` 브랜치에서 배포합니다.
 - 향후 원문 저장 시 출처별 재배포 조건을 확인합니다.
 
-사이트 예정 주소: `https://ttzero25.github.io/whateveriwant/`
+사이트: [whateveriwant](https://ttzero25.github.io/whateveriwant/)
 
 ## 사이트 미리보기
 
@@ -40,3 +40,9 @@ AI 포함 관계, 데이터 분할, 학습 루프, 신경망, 혼동 행렬, 토
 영어 본문은 [Google Machine Learning Glossary](https://developers.google.com/machine-learning/glossary?hl=en)의 선택된 도입 문단과 목록을 그대로 발췌했습니다. 텍스트는 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), 포함된 코드 예시는 Apache 2.0 조건을 따릅니다. 원문의 미디어는 가져오지 않았습니다. 문구를 번역·재작성하지 않았으며 공백·레이아웃과 수식 렌더링 문법만 정규화합니다. 사이트 제목·학습 가이드·도식은 백과에서 별도로 작성한 내용입니다. 원문 전체는 각 항목의 출처 링크에서 볼 수 있습니다.
 
 `npm run import:english`는 공식 용어집에서 원문 발췌를 수동 갱신합니다. 실행 후 변경 내용과 재사용 조건을 검토하고 `npm run build`로 반영하세요. 정기 실행은 아직 설정하지 않았습니다.
+
+## 공개 배포
+
+소스는 `main`, 빌드한 정적 파일은 `gh-pages` 브랜치에서 관리합니다. GitHub Pages는 `gh-pages`의 루트(`/`)를 HTTPS로 제공합니다. `main`의 수정만으로 사이트가 다시 빌드되지는 않으며, 새 빌드 결과를 `gh-pages`에 푸시하면 배포됩니다.
+
+공개 사이트 검증: `node scripts/check-preview.mjs https://ttzero25.github.io/whateveriwant/`

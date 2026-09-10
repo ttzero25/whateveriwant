@@ -2,12 +2,13 @@ import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 await fs.mkdir('.preview',{recursive:true});
+const baseURL=new URL(process.argv[2]||'http://127.0.0.1:4173/').href;
 const browser=await chromium.launch({channel:'chrome',headless:true});
 try {
   const page=await browser.newPage({viewport:{width:1440,height:1100},deviceScaleFactor:1});
   const errors=[];
   page.on('pageerror',error=>errors.push(error.message));
-  await page.goto('http://127.0.0.1:4173/');
+  await page.goto(baseURL);
   await page.waitForSelector('.doc-card');
   await page.evaluate(()=>document.fonts.ready);
   assert.equal(await page.locator('.doc-card').count(),12);
@@ -31,7 +32,7 @@ try {
   await page.locator('.toc [data-section]').first().click();
   assert.equal(new URL(page.url()).hash,'#/ai/transformer');
   const mobile=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1,isMobile:true,hasTouch:true});
-  await mobile.goto('http://127.0.0.1:4173/');
+  await mobile.goto(baseURL);
   await mobile.waitForSelector('.doc-card');
   await mobile.evaluate(()=>document.fonts.ready);
   assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
@@ -43,7 +44,7 @@ try {
   assert.equal(await mobile.locator('#menu-toggle').getAttribute('aria-expanded'),'false');
   assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   const originals=JSON.parse(await fs.readFile('content/en/originals.json','utf8'));
-  await page.goto('http://127.0.0.1:4173/#/ai/transformer');
+  await page.goto(baseURL+'#/ai/transformer');
   await page.waitForSelector('.concept-diagram svg');
   await page.getByRole('button',{name:'English',exact:true}).click();
   assert.equal(await page.locator('html').getAttribute('lang'),'en');
@@ -58,13 +59,13 @@ try {
   await page.waitForSelector('.original-text');
   assert.equal(await page.locator('html').getAttribute('lang'),'en');
   for(const slug of Object.keys(originals.concepts)){
-    await page.goto('http://127.0.0.1:4173/#/ai/'+slug);
+    await page.goto(baseURL+'#/ai/'+slug);
     await page.waitForSelector('.concept-diagram svg');
     assert.equal(await page.locator('.concept-diagram svg').count(),1);
     assert.equal(await page.locator('.original-text .source-paragraph').first().innerText(),originals.concepts[slug][0].blocks[0].text);
     assert.ok(await page.locator('.attribution a[href="https://creativecommons.org/licenses/by/4.0/"]').count());
   }
-  await page.goto('http://127.0.0.1:4173/#/');
+  await page.goto(baseURL+'#/');
   await page.waitForSelector('.doc-card');
   await page.locator('#search').fill('경사하강법');
   assert.ok(await page.locator('.doc-card').count()>0);
