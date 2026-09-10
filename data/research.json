@@ -1,20 +1,20 @@
 {
-  "automation_enabled": false,
-  "attempted_at": "2026-09-10T11:39:15.111Z",
+  "automation_enabled": true,
+  "attempted_at": "2026-09-10T11:46:51.550Z",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "home": "https://openai.com/news/",
-      "attempted_at": "2026-09-10T11:39:15.111Z",
-      "last_success": "2026-09-10T11:39:15.111Z",
+      "attempted_at": "2026-09-10T11:46:51.550Z",
+      "last_success": "2026-09-10T11:46:51.550Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://openai.com/news/rss.xml",
           "status": "ok",
-          "last_success": "2026-09-10T11:39:15.111Z"
+          "last_success": "2026-09-10T11:46:51.550Z"
         }
       ],
       "count": 60
@@ -28,19 +28,19 @@
         "https://www.anthropic.com/news"
       ],
       "home": "https://www.anthropic.com/news",
-      "attempted_at": "2026-09-10T11:39:15.111Z",
-      "last_success": "2026-09-10T11:39:15.111Z",
+      "attempted_at": "2026-09-10T11:46:51.550Z",
+      "last_success": "2026-09-10T11:46:51.550Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://www.anthropic.com/research",
           "status": "ok",
-          "last_success": "2026-09-10T11:39:15.111Z"
+          "last_success": "2026-09-10T11:46:51.550Z"
         },
         {
           "url": "https://www.anthropic.com/news",
           "status": "ok",
-          "last_success": "2026-09-10T11:39:15.111Z"
+          "last_success": "2026-09-10T11:46:51.550Z"
         }
       ],
       "count": 23
@@ -50,14 +50,14 @@
       "name": "arXiv",
       "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
       "home": "https://arxiv.org/list/cs.CR/recent",
-      "attempted_at": "2026-09-10T11:39:15.111Z",
-      "last_success": "2026-09-10T11:39:15.111Z",
+      "attempted_at": "2026-09-10T11:46:51.550Z",
+      "last_success": "2026-09-10T11:46:51.550Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
           "status": "ok",
-          "last_success": "2026-09-10T11:39:15.111Z"
+          "last_success": "2026-09-10T11:46:51.550Z"
         }
       ],
       "count": 150
