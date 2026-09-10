@@ -1,6 +1,6 @@
 # whateveriwant
 
-AI · Security · Vulnerabilities · CS · OS · Network · AI for Security를 정리하는 개인 지식백과입니다.
+AI · Security · Cryptography · Vulnerabilities · CS · Algorithms · OS · Network · AI for Security를 정리하는 개인 지식백과입니다.
 최신 AI 소식과 연구에서 관련 개념으로 이어서 공부할 수 있습니다.
 
 [사이트 바로가기](https://ttzero25.github.io/whateveriwant/)
