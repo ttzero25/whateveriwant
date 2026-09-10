@@ -8,6 +8,14 @@ if(!source.includes('creativecommons.org/licenses/by/4.0')) throw Error('Expecte
 const $=load(source);
 const normalize=text=>text.replace(/\s+/g,' ').trim();
 const concepts={
+  'linear-regression':['linear-regression','mean-squared-error-mse'],
+  'logistic-regression':['logistic-regression','sigmoid-function','classification-threshold'],
+  'decision-trees':['decision-tree','leaf','random-forest'],
+  'clustering':['clustering','k-means','centroid'],
+  'activation-functions':['activation-function','rectified-linear-unit-relu','sigmoid-function'],
+  cnn:['convolutional-neural-network','convolutional-filter','pooling'],
+  rnn:['recurrent-neural-network','long-short-term-memory-lstm'],
+  regularization:['regularization','l2-regularization','dropout-regularization'],
   fundamentals:['artificial-intelligence','machine-learning','deep-model','supervised-machine-learning','unsupervised-machine-learning'],
   'data-and-generalization':['generalization','overfitting','training-set','validation-set','test-set'],
   training:['training','loss','gradient-descent','backpropagation'],

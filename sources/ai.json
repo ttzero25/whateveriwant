@@ -138,6 +138,116 @@
       "documents": [
         "content/en/originals.json"
       ]
+    },
+    {
+      "title": "Google — Linear regression",
+      "url": "https://developers.google.com/machine-learning/crash-course/linear-regression",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/linear-regression.md"
+      ]
+    },
+    {
+      "title": "Google — Logistic regression",
+      "url": "https://developers.google.com/machine-learning/crash-course/logistic-regression",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/logistic-regression.md"
+      ]
+    },
+    {
+      "title": "Google — Decision trees",
+      "url": "https://developers.google.com/machine-learning/decision-forests/decision-trees",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/decision-trees.md"
+      ]
+    },
+    {
+      "title": "Google — What is clustering?",
+      "url": "https://developers.google.com/machine-learning/clustering/overview",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/clustering.md"
+      ]
+    },
+    {
+      "title": "Google Glossary — K-means",
+      "url": "https://developers.google.com/machine-learning/glossary?hl=en#k-means",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/clustering.md"
+      ]
+    },
+    {
+      "title": "Google — Activation functions",
+      "url": "https://developers.google.com/machine-learning/crash-course/neural-networks/activation-functions",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/activation-functions.md"
+      ]
+    },
+    {
+      "title": "TensorFlow — Convolutional Neural Network",
+      "url": "https://www.tensorflow.org/tutorials/images/cnn",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/cnn.md"
+      ]
+    },
+    {
+      "title": "TensorFlow — Working with RNNs",
+      "url": "https://www.tensorflow.org/guide/keras/working_with_rnns",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/rnn.md"
+      ]
+    },
+    {
+      "title": "Google — L2 regularization",
+      "url": "https://developers.google.com/machine-learning/crash-course/overfitting/regularization",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/regularization.md"
+      ]
+    },
+    {
+      "title": "Google — Dropout regularization",
+      "url": "https://developers.google.com/machine-learning/glossary?hl=en#dropout-regularization",
+      "checked_on": "2026-09-10",
+      "usage": "reference_link_and_original_explanation",
+      "full_text_imported": false,
+      "redistribution_review": "not_assessed",
+      "documents": [
+        "content/ai/regularization.md"
+      ]
     }
   ]
 }

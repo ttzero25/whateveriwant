@@ -2,6 +2,7 @@ import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 await fs.mkdir('.preview',{recursive:true});
+const catalog=JSON.parse(await fs.readFile('content/catalog.json','utf8'));
 const baseURL=new URL(process.argv[2]||'http://127.0.0.1:4173/').href;
 const browser=await chromium.launch({channel:'chrome',headless:true});
 try {
@@ -11,17 +12,28 @@ try {
   await page.goto(baseURL);
   await page.waitForSelector('.doc-card');
   await page.evaluate(()=>document.fonts.ready);
-  assert.equal(await page.locator('.doc-card').count(),12);
+  assert.equal(await page.locator('.doc-card').count(),catalog.length);
   await page.screenshot({path:'.preview/desktop.png',fullPage:true});
   await page.locator('#search').fill('LoRA');
   assert.ok(await page.locator('.doc-card').count()>0);
-  assert.ok(await page.locator('.doc-card').count()<12);
+  assert.ok(await page.locator('.doc-card').count()<catalog.length);
   await page.locator('#search').fill('검색결과없는단어12345');
   assert.equal(await page.locator('.doc-card').count(),0);
   await page.locator('#search').fill('');
   await page.getByRole('button',{name:'응용',exact:true}).click();
   assert.equal(await page.locator('.doc-card').count(),2);
   await page.getByRole('button',{name:'전체',exact:true}).click();
+  await page.locator('.track-tabs a[href="#/ml"]').click();
+  await page.waitForFunction(()=>document.querySelector('#result-count')?.textContent.includes('6'));
+  assert.equal(await page.locator('.doc-card').count(),catalog.filter(d=>d.track==='ml').length);
+  await page.reload();
+  await page.waitForSelector('.doc-card');
+  assert.equal(await page.locator('.doc-card').count(),6);
+  await page.locator('.track-tabs a[href="#/dl"]').click();
+  await page.waitForSelector('.doc-card[href="#/ai/cnn"]');
+  assert.equal(await page.locator('.doc-card').count(),6);
+  await page.screenshot({path:'.preview/dl-library.png',fullPage:true});
+  await page.locator('.track-tabs a[href="#/ai"]').click();
   await page.locator('.doc-card[href="#/ai/transformer"]').click();
   await page.waitForSelector('.article .katex');
   assert.match(await page.locator('.article blockquote').innerText(),/TL;DR/);
@@ -76,5 +88,5 @@ try {
   await mobile.getByRole('button',{name:'한국어',exact:true}).click();
   assert.match(await mobile.locator('.article blockquote').first().innerText(),/TL;DR/);
   assert.deepEqual(errors,[]);
-  console.log('PASS: search, filters, math, navigation; 10 bilingual diagrams, verbatim original openings, attribution, language persistence, cross-language search and mobile overflow.');
+  console.log('PASS: search, filters, math, navigation; 18 bilingual diagrams, ML/DL categories, verbatim original openings, attribution, language persistence, cross-language search and mobile overflow.');
 } finally {await browser.close();}

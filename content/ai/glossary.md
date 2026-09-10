@@ -38,3 +38,25 @@ AI 작성 해설 · 소유자 검토 전 · 출처 확인: 2026-09-10
 참고: [Google Machine Learning Glossary](https://developers.google.com/machine-learning/glossary). 기술별 출처는 연결된 상세 문서에 있습니다.
 
 [목차](index.md)
+
+## ML / DL 추가 용어
+
+| 용어 | 뜻 | 상세 |
+|---|---|---|
+| Linear regression / 선형 회귀 | 가중합으로 연속 값 예측 | [선형 회귀](linear-regression.md) |
+| Residual / 잔차 | 관측값과 예측값의 차이 | [선형 회귀](linear-regression.md) |
+| MSE / 평균제곱오차 | 제곱오차의 평균 | [선형 회귀](linear-regression.md) |
+| Logistic regression / 로지스틱 회귀 | 선형 점수로 클래스 확률 모델링 | [로지스틱 회귀](logistic-regression.md) |
+| Threshold / 임계값 | 판정을 나누는 기준 | [로지스틱 회귀](logistic-regression.md) |
+| Decision tree / 결정 트리 | 분기 조건을 따라 예측 | [결정 트리](decision-trees.md) |
+| Clustering / 군집화 | 유사한 샘플 묶기 | [군집화](clustering.md) |
+| Centroid / 중심점 | 군집을 대표하는 위치 | [군집화](clustering.md) |
+| Activation / 활성화 | 비선형 변환 | [활성화 함수](activation-functions.md) |
+| CNN / 합성곱 신경망 | 지역 필터를 공유하는 신경망 | [CNN](cnn.md) |
+| Stride / 스트라이드 | 필터 이동 간격 | [CNN](cnn.md) |
+| RNN / 순환 신경망 | 순차적으로 상태 갱신 | [RNN](rnn.md) |
+| LSTM | 게이트와 셀 상태를 사용하는 RNN | [RNN](rnn.md) |
+| Regularization / 정규화 | 과적합을 줄이는 제약·기법 | [정규화](regularization.md) |
+| Dropout | 학습 중 일부 활성화 제거 | [정규화](regularization.md) |
+
+정의와 출처는 각 상세 문서에서 확인할 수 있습니다.

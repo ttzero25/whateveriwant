@@ -25,3 +25,27 @@
 - 보안 데이터 분석 기초: 2 → 5. 데이터 누출과 오탐·미탐부터 이해하세요.
 
 예시는 개념 설명을 위한 가상 사례이며 실제 모델의 성능 측정 결과가 아닙니다.
+
+## 머신러닝 · ML
+
+[데이터 분할](data-and-generalization.md) → [선형 회귀](linear-regression.md) → [로지스틱 회귀](logistic-regression.md) → [분류 평가](evaluation.md) 순서로 시작하세요.
+
+| 개념 | 핵심 질문 |
+|---|---|
+| [선형 회귀](linear-regression.md) | 숫자 예측과 오차는 어떻게 계산할까? |
+| [로지스틱 회귀](logistic-regression.md) | 확률 추정과 최종 판정은 어떻게 다를까? |
+| [결정 트리](decision-trees.md) | 조건을 나눠서 예측하는 원리는 무엇일까? |
+| [군집화와 K-means](clustering.md) | 정답 없이 비슷한 데이터를 묶으려면? |
+
+## 딥러닝 · DL
+
+[신경망](neural-networks.md) → [활성화 함수](activation-functions.md) → [학습](training.md) → [정규화](regularization.md)를 익힌 뒤 CNN과 RNN을 비교하세요.
+
+| 개념 | 핵심 질문 |
+|---|---|
+| [활성화 함수](activation-functions.md) | 층 사이에 비선형 함수가 왜 필요할까? |
+| [CNN](cnn.md) | 지역 패턴과 채널은 어떻게 처리할까? |
+| [RNN과 LSTM](rnn.md) | 순서에 따라 상태를 어떻게 갱신할까? |
+| [정규화](regularization.md) | L2, dropout, 조기 종료는 어떻게 다를까? |
+
+ML과 DL은 별개의 배타적 분야가 아닙니다. DL은 ML에 포함되며, 이 백과의 분류는 학습 경로를 쉽게 탐색하기 위한 구분입니다.

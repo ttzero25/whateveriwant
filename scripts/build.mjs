@@ -8,16 +8,15 @@ for(const file of ['index.html','style.css','app.js','diagrams.js']) await fs.co
 await fs.mkdir(path.join(output,'assets'),{recursive:true});
 await fs.cp(path.join(root,'node_modules/katex/dist'),path.join(output,'assets/katex'),{recursive:true});
 const originals=JSON.parse(await fs.readFile(path.join(root,'content/en/originals.json'),'utf8'));
-const order=['fundamentals','data-and-generalization','training','neural-networks','evaluation','tokens-and-embeddings','transformer','llm-inference','rag','fine-tuning','glossary','index'];
-const levels=['기초','기초','기초','기초','기초','핵심','핵심','핵심','응용','응용','참고','가이드'];
-const englishTitles=['AI, ML and learning paradigms','Data splits and generalization','Loss and optimization','Neural networks and tensors','Classification metrics','Tokens and embeddings','Attention and Transformers','LLM generation and inference','Retrieval-augmented generation','Fine-tuning and LoRA','AI glossary','AI learning guide'];
+const catalog=JSON.parse(await fs.readFile(path.join(root,'content/catalog.json'),'utf8'));
+const order=catalog.map(d=>d.slug),levels=catalog.map(d=>d.level),englishTitles=catalog.map(d=>d.englishTitle);
 const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const md=new MarkdownIt({html:false,linkify:true});
 const defaultLink=md.renderer.rules.link_open||((tokens,idx,opts,env,self)=>self.renderToken(tokens,idx,opts));
 md.renderer.rules.link_open=(tokens,idx,opts,env,self)=>{
  const token=tokens[idx],href=token.attrGet('href');
  if(href==='../../README.md')token.attrSet('href','#/');
- else if(href?.endsWith('.md')&&!href.startsWith('http'))token.attrSet('href','#/ai/'+path.basename(href,'.md'));
+ else if(href?.endsWith('.md')&&!href.startsWith('http'))token.attrSet('href','#/'+(env.topic||'ai')+'/'+path.basename(href,'.md'));
  else if(href?.startsWith('https://')){token.attrSet('target','_blank');token.attrSet('rel','noopener noreferrer');}
  return defaultLink(tokens,idx,opts,env,self);
 };
@@ -59,11 +58,21 @@ for(const [i,slug] of order.entries()){
   const unique=[...new Map(Object.values(originals.concepts).flat().map(s=>[s.url,s])).values()].sort((a,b)=>a.heading.localeCompare(b.heading));
   enHTML=`<p>${escape(enSummary)}</p>`+unique.map(sectionHTML).join('')+attribution;
  }else{
-  enType='navigation';enSummary='Explore ten core concepts, from machine learning fundamentals to LLM applications.';
-  enHTML='<h2>Learning path</h2><p>Site navigation created for whateveriwant. Each concept opens selected original English definitions from Google.</p><ol>'+order.slice(0,10).map((s,j)=>`<li><a href="#/ai/${s}">${englishTitles[j]}</a></li>`).join('')+'</ol><h2>Suggested routes</h2><p>Foundations: 1 → 2 → 3 → 4 → 5<br>Language models: 4 → 6 → 7 → 8<br>Document-based applications: 6 → 8 → 9 → 10</p>';
+  enType='navigation';enSummary='Explore machine learning, deep learning, and LLM applications.';
+  enHTML='<h2>Learning path</h2><p>Site navigation created for whateveriwant. Each concept opens selected original English definitions from Google.</p><ol>'+order.filter(s=>!['index','glossary'].includes(s)).map((s,j)=>`<li><a href="#/ai/${s}">${englishTitles[j]}</a></li>`).join('')+'</ol><h2>Suggested routes</h2><p>Foundations: 1 → 2 → 3 → 4 → 5<br>Language models: 4 → 6 → 7 → 8<br>Document-based applications: 6 → 8 → 9 → 10<br>ML models: 2 → 11 → 12 → 13 → 14 → 5<br>Deep learning: 4 → 15 → 3 → 18 → 16 → 17</p>';
  }
  const en={title:englishTitles[i],summary:enSummary,...finalize(enHTML),source:sections?sections.map(s=>s.blocks.map(b=>b.text||b.items.join(' ')).join(' ')).join(' '):enSummary,type:enType,date:originals.checked_on};
- docs.push({slug,title,summary:summary||(slug==='glossary'?'30개의 한영 용어를 빠르게 찾아보고 관련 개념으로 이동하세요.':'AI 기초부터 LLM 활용까지, 나에게 맞는 학습 순서를 찾아보세요.'),level:levels[i],...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10',en});
+ docs.push({topic:'ai',slug,title,summary:summary||(slug==='glossary'?'한영 용어를 빠르게 찾아보고 관련 개념으로 이동하세요.':'AI 기초부터 LLM 활용까지, 나에게 맞는 학습 순서를 찾아보세요.'),level:levels[i],track:catalog[i].track,...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10',en});
+}
+const securityOrder=['principles','authentication-authorization','cryptography','web-security','system-security','network-security','glossary','index'];
+const securityTitles=['Security principles and threat modeling','Authentication and authorization','Cryptography and key management','Web security','System security','Network security','Security glossary','Security learning guide'];
+for(const [i,slug] of securityOrder.entries()){
+ const source=await fs.readFile(path.join(root,'content/security',slug+'.md'),'utf8');
+ const title=source.match(/^# (.+)/m)[1];
+ const summary=source.split('\n').filter(l=>l.startsWith('> ')&&!l.includes('TL;DR')).map(l=>l.slice(2)).join(' ');
+ const body=source.replace(/^# .+\n/,'').replace(/^AI 작성 해설.*\n/m,'');
+ const ko=finalize(md.render(body,{topic:'security'}));
+ docs.push({topic:'security',slug,title,summary,level:i<3?'기초':i<6?'핵심':i===6?'참고':'가이드',...ko,source,minutes:Math.max(2,Math.ceil(source.length/650)),date:'2026-09-10',en:{title:securityTitles[i],summary,...ko,source,type:'korean',date:'2026-09-10'}});
 }
 await fs.writeFile(path.join(output,'documents.json'),JSON.stringify(docs));
-console.log(`Built ${docs.length} bilingual documents with licensed original excerpts and math.`);
+console.log(`Built ${docs.length} documents across AI and Security.`);

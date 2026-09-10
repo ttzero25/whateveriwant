@@ -9,6 +9,405 @@
   "source_sha256": "53cff87999c0b8b455c520fa60e8af99781833980123265e3690a413cd90f029",
   "scope": "Selected introductory paragraphs and immediately following lists. Text is unchanged except whitespace normalization. Media and later paragraphs are omitted.",
   "concepts": {
+    "linear-regression": [
+      {
+        "heading": "linear regression",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#linear-regression",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A type of machine learning model in which both of the following are true:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "The model is a linear model.",
+              "The prediction is a floating-point value. (This is the regression part of linear regression.)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Contrast linear regression with logistic regression. Also, contrast regression with classification."
+          }
+        ]
+      },
+      {
+        "heading": "Mean Squared Error (MSE)",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#mean-squared-error-mse",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The average loss per example when L2 loss is used. Calculate Mean Squared Error as follows:"
+          },
+          {
+            "type": "ol",
+            "items": [
+              "Calculate the L2 loss for a batch.",
+              "Divide the L2 loss by the number of examples in the batch."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "For example, consider the loss on the following batch of five examples:"
+          }
+        ]
+      }
+    ],
+    "logistic-regression": [
+      {
+        "heading": "logistic regression",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#logistic-regression",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A type of regression model that predicts a probability. Logistic regression models have the following characteristics:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "The label is categorical. The term logistic regression usually refers to binary logistic regression, that is, to a model that calculates probabilities for labels with two possible values. A less common variant, multinomial logistic regression, calculates probabilities for labels with more than two possible values.",
+              "The loss function during training is Log Loss. (Multiple Log Loss units can be placed in parallel for labels with more than two possible values.)",
+              "The model has a linear architecture, not a deep neural network. However, the remainder of this definition also applies to deep models that predict probabilities for categorical labels."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "For example, consider a logistic regression model that calculates the probability of an input email being either spam or not spam. During inference, suppose the model predicts 0.72. Therefore, the model is estimating:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "A 72% chance of the email being spam.",
+              "A 28% chance of the email not being spam."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "sigmoid function",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#sigmoid-function",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A mathematical function that \"squishes\" an input value into a constrained range, typically 0 to 1 or -1 to +1. That is, you can pass any number (two, a million, negative billion, whatever) to a sigmoid and the output will still be in the constrained range. A plot of the sigmoid activation function looks as follows:"
+          },
+          {
+            "type": "p",
+            "text": "The sigmoid function has several uses in machine learning, including:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Converting the raw output of a logistic regression or multinomial regression model to a probability.",
+              "Acting as an activation function in some neural networks."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "classification threshold",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#classification-threshold",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "In a binary classification, a number between 0 and 1 that converts the raw output of a logistic regression model into a prediction of either the positive class or the negative class. Note that the classification threshold is a value that a human chooses, not a value chosen by model training."
+          },
+          {
+            "type": "p",
+            "text": "A logistic regression model outputs a raw value between 0 and 1. Then:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "If this raw value is greater than the classification threshold, then the positive class is predicted.",
+              "If this raw value is less than the classification threshold, then the negative class is predicted."
+            ]
+          }
+        ]
+      }
+    ],
+    "decision-trees": [
+      {
+        "heading": "decision tree",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#decision-tree",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A supervised learning model composed of a set of conditions and leaves organized hierarchically. For example, the following is a decision tree:"
+          }
+        ]
+      },
+      {
+        "heading": "leaf",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#leaf",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Any endpoint in a decision tree. Unlike a condition, a leaf doesn't perform a test. Rather, a leaf is a possible prediction. A leaf is also the terminal node of an inference path."
+          }
+        ]
+      },
+      {
+        "heading": "random forest",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#random-forest",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "An ensemble of decision trees in which each decision tree is trained with a specific random noise, such as bagging."
+          },
+          {
+            "type": "p",
+            "text": "Random forests are a type of decision forest."
+          }
+        ]
+      }
+    ],
+    "clustering": [
+      {
+        "heading": "clustering",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#clustering",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Grouping related examples, particularly during unsupervised learning. Once all the examples are grouped, a human can optionally supply meaning to each cluster."
+          },
+          {
+            "type": "p",
+            "text": "Many clustering algorithms exist. For example, the k-means algorithm clusters examples based on their proximity to a centroid, as in the following diagram:"
+          }
+        ]
+      },
+      {
+        "heading": "k-means",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#k-means",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A popular clustering algorithm that groups examples in unsupervised learning. The k-means algorithm basically does the following:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Iteratively determines the best k center points (known as centroids).",
+              "Assigns each example to the closest centroid. Those examples nearest the same centroid belong to the same group."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "The k-means algorithm picks centroid locations to minimize the cumulative square of the distances from each example to its closest centroid."
+          }
+        ]
+      },
+      {
+        "heading": "centroid",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#centroid",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The center of a cluster as determined by a k-means or k-median algorithm. For example, if k is 3, then the k-means or k-median algorithm finds 3 centroids."
+          },
+          {
+            "type": "p",
+            "text": "See Clustering algorithms in the Clustering course for more information."
+          }
+        ]
+      }
+    ],
+    "activation-functions": [
+      {
+        "heading": "activation function",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#activation-function",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A function that enables neural networks to learn nonlinear (complex) relationships between features and the label."
+          },
+          {
+            "type": "p",
+            "text": "Popular activation functions include:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "ReLU",
+              "Sigmoid"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Rectified Linear Unit (ReLU)",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#rectified-linear-unit-relu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "An activation function with the following behavior:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "If input is negative or zero, then the output is 0.",
+              "If input is positive, then the output is equal to the input."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "For example:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "If the input is -3, then the output is 0.",
+              "If the input is +3, then the output is 3.0."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "sigmoid function",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#sigmoid-function",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A mathematical function that \"squishes\" an input value into a constrained range, typically 0 to 1 or -1 to +1. That is, you can pass any number (two, a million, negative billion, whatever) to a sigmoid and the output will still be in the constrained range. A plot of the sigmoid activation function looks as follows:"
+          },
+          {
+            "type": "p",
+            "text": "The sigmoid function has several uses in machine learning, including:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Converting the raw output of a logistic regression or multinomial regression model to a probability.",
+              "Acting as an activation function in some neural networks."
+            ]
+          }
+        ]
+      }
+    ],
+    "cnn": [
+      {
+        "heading": "convolutional neural network",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#convolutional-neural-network",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A neural network in which at least one layer is a convolutional layer. A typical convolutional neural network consists of some combination of the following layers:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "convolutional layers",
+              "pooling layers",
+              "dense layers"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Convolutional neural networks have had great success in certain kinds of problems, such as image recognition."
+          }
+        ]
+      },
+      {
+        "heading": "convolutional filter",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#convolutional-filter",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "One of the two actors in a convolutional operation. (The other actor is a slice of an input matrix.) A convolutional filter is a matrix having the same rank as the input matrix, but a smaller shape. For example, given a 28x28 input matrix, the filter could be any 2D matrix smaller than 28x28."
+          },
+          {
+            "type": "p",
+            "text": "In photographic manipulation, all the cells in a convolutional filter are typically set to a constant pattern of ones and zeroes. In machine learning, convolutional filters are typically seeded with random numbers and then the network trains the ideal values."
+          }
+        ]
+      },
+      {
+        "heading": "pooling",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#pooling",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Reducing a matrix (or matrixes) created by an earlier convolutional layer to a smaller matrix. Pooling usually involves taking either the maximum or average value across the pooled area. For example, suppose we have the following 3x3 matrix:"
+          },
+          {
+            "type": "p",
+            "text": "A pooling operation, just like a convolutional operation, divides that matrix into slices and then slides that convolutional operation by strides. For example, suppose the pooling operation divides the convolutional matrix into 2x2 slices with a 1x1 stride. As the following diagram illustrates, four pooling operations take place. Imagine that each pooling operation picks the maximum value of the four in that slice:"
+          }
+        ]
+      }
+    ],
+    "rnn": [
+      {
+        "heading": "recurrent neural network",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#recurrent-neural-network",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A neural network that is intentionally run multiple times, where parts of each run feed into the next run. Specifically, hidden layers from the previous run provide part of the input to the same hidden layer in the next run. Recurrent neural networks are particularly useful for evaluating sequences, so that the hidden layers can learn from previous runs of the neural network on earlier parts of the sequence."
+          }
+        ]
+      },
+      {
+        "heading": "Long Short-Term Memory (LSTM)",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#long-short-term-memory-lstm",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A type of cell in a recurrent neural network used to process sequences of data in applications such as handwriting recognition, machine translation, and image captioning. LSTMs address the vanishing gradient problem that occurs when training RNNs due to long data sequences by maintaining history in an internal memory state based on new input and context from previous cells in the RNN."
+          }
+        ]
+      }
+    ],
+    "regularization": [
+      {
+        "heading": "regularization",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#regularization",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Any mechanism that reduces overfitting. Popular types of regularization include:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "L1 regularization",
+              "L2 regularization",
+              "dropout regularization",
+              "early stopping (this is not a formal regularization method, but can effectively limit overfitting)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Regularization can also be defined as the penalty on a model's complexity."
+          }
+        ]
+      },
+      {
+        "heading": "L2 regularization",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#l2-regularization",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A type of regularization that penalizes weights in proportion to the sum of the squares of the weights. L2 regularization helps drive outlier weights (those with high positive or low negative values) closer to 0 but not quite to 0. Features with values very close to 0 remain in the model but don't influence the model's prediction very much."
+          },
+          {
+            "type": "p",
+            "text": "L2 regularization always improves generalization in linear models."
+          }
+        ]
+      },
+      {
+        "heading": "dropout regularization",
+        "url": "https://developers.google.com/machine-learning/glossary?hl=en#dropout-regularization",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A form of regularization useful in training neural networks. Dropout regularization removes a random selection of a fixed number of the units in a network layer for a single gradient step. The more units dropped out, the stronger the regularization. This is analogous to training the network to emulate an exponentially large ensemble of smaller networks. For full details, see Dropout: A Simple Way to Prevent Neural Networks from Overfitting."
+          }
+        ]
+      }
+    ],
     "fundamentals": [
       {
         "heading": "artificial intelligence",

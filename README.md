@@ -3,13 +3,14 @@ Security · CS · OS · AI · AI for Security를 연결하는 개인 지식백�
 
 ## 먼저 읽기
 
-[AI 지식백과](content/ai/index.md): 기초부터 LLM 활용까지 10개 개념 문서와 한영 용어 찾아보기.
+[AI 지식백과](content/ai/index.md): 기초부터 LLM 활용까지 18개 개념 문서와 한영 용어 찾아보기.
 
 한국어 문서는 공식 교육 자료와 원 논문을 참고한 **AI 작성 해설**이며 소유자 검토 전입니다. 영어 보기는 Google 공식 용어집의 **원문 발췌**입니다. 한국어 해설의 번역이나 원문 전문이 아닙니다. 출처 확인일은 원문 수정일과 다릅니다.
 
 ## 콘텐츠 관리
 
-- `content/ai/`: AI 개념과 학습 순서
+- `content/catalog.json`: 문서 순서·수준·AI/ML/DL/LLM 분류
+- `content/ai/`: AI·ML·DL·LLM 개념과 학습 순서
 - `content/en/originals.json`: 재사용 조건을 확인한 Google 영어 원문 발췌와 출처 기록
 - `sources/ai.json`: 참고 출처와 확인일
 - 정기 원문 수집·커밋은 아직 설정하지 않았습니다. GitHub Pages는 `gh-pages` 브랜치에서 배포합니다.
@@ -35,7 +36,7 @@ Chrome이 설치된 환경에서는 미리보기 서버를 실행한 상태로 `
 
 상단의 `한국어 / English` 버튼으로 메뉴·문서·도식의 언어를 바꿉니다. 선택은 이 브라우저에 저장되며 문서 이동과 새로고침에도 유지됩니다. 검색은 두 언어의 내용을 함께 찾습니다.
 
-AI 포함 관계, 데이터 분할, 학습 루프, 신경망, 혼동 행렬, 토큰·임베딩, Attention, 토큰 생성, RAG, LoRA에 자체 제작 SVG 도식을 제공합니다. 원문 이미지가 아니며 각 도식의 `SVG ↓`로 내려받을 수 있습니다. 작은 화면에서는 도식 내부를 가로로 스크롤합니다.
+기초 AI·ML·DL·LLM의 18개 개념에 자체 제작 SVG 도식을 제공합니다. 원문 이미지가 아니며 각 도식의 `SVG ↓`로 내려받을 수 있습니다. 작은 화면에서는 도식 내부를 가로로 스크롤합니다.
 
 영어 본문은 [Google Machine Learning Glossary](https://developers.google.com/machine-learning/glossary?hl=en)의 선택된 도입 문단과 목록을 그대로 발췌했습니다. 텍스트는 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), 포함된 코드 예시는 Apache 2.0 조건을 따릅니다. 원문의 미디어는 가져오지 않았습니다. 문구를 번역·재작성하지 않았으며 공백·레이아웃과 수식 렌더링 문법만 정규화합니다. 사이트 제목·학습 가이드·도식은 백과에서 별도로 작성한 내용입니다. 원문 전체는 각 항목의 출처 링크에서 볼 수 있습니다.
 
