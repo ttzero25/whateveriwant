@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-10T13:47:17.151Z",
+  "attempted_at": "2026-09-11T01:08:27.794Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-10T13:47:17.151Z",
-      "last_success": "2026-09-10T13:47:17.151Z",
+      "attempted_at": "2026-09-11T01:08:27.794Z",
+      "last_success": "2026-09-11T01:08:27.794Z",
       "status": "ok",
-      "count": 20
+      "count": 21
     },
     {
       "id": "dailysecu",
@@ -29,8 +29,8 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-10T13:47:17.151Z",
-      "last_success": "2026-09-10T13:47:17.151Z",
+      "attempted_at": "2026-09-11T01:08:27.794Z",
+      "last_success": "2026-09-11T01:08:27.794Z",
       "status": "ok",
       "count": 21
     },
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-10T13:47:17.151Z",
-      "last_success": "2026-09-10T13:47:17.151Z",
+      "attempted_at": "2026-09-11T01:08:27.794Z",
+      "last_success": "2026-09-11T01:08:27.794Z",
       "status": "ok",
-      "count": 37
+      "count": 38
     },
     {
       "id": "cisa",
@@ -60,13 +60,43 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-10T13:47:17.151Z",
+      "attempted_at": "2026-09-11T01:08:27.794Z",
       "last_success": "2026-09-10T13:47:17.151Z",
-      "status": "ok",
+      "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+      "url": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+      "published_at": "2026-09-10T17:47:38.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "vulnerability",
+        "phishing"
+      ],
+      "excerpt": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for…",
+      "first_seen": "2026-09-11T01:08:27.794Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "사장님 명의 맞춤 조작 메일로 “지금 당장 송금하라”... 3일 간 100만통 이메일 보낸 AI 피싱 캠페인",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145780",
+      "published_at": "2026-09-10T16:00:00.000Z",
+      "date": "2026-09-10",
+      "tags": [
+        "incident",
+        "phishing"
+      ],
+      "excerpt": "실제 기업 CEO와 협력사 등을 정교하게 사칭해 기업에서 거액을 가로채려는 피싱 이메일을 3일 간 100만통 이상 발송한 대형 공격이 벌어졌다.",
+      "first_seen": "2026-09-11T01:08:27.794Z"
+    },
     {
       "source": "dailysecu",
       "region": "kr",

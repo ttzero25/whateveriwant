@@ -1,20 +1,20 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-10T11:46:51.550Z",
+  "attempted_at": "2026-09-11T01:07:55.793Z",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "home": "https://openai.com/news/",
-      "attempted_at": "2026-09-10T11:46:51.550Z",
-      "last_success": "2026-09-10T11:46:51.550Z",
+      "attempted_at": "2026-09-11T01:07:55.793Z",
+      "last_success": "2026-09-11T01:07:55.793Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://openai.com/news/rss.xml",
           "status": "ok",
-          "last_success": "2026-09-10T11:46:51.550Z"
+          "last_success": "2026-09-11T01:07:55.793Z"
         }
       ],
       "count": 60
@@ -28,42 +28,106 @@
         "https://www.anthropic.com/news"
       ],
       "home": "https://www.anthropic.com/news",
-      "attempted_at": "2026-09-10T11:46:51.550Z",
-      "last_success": "2026-09-10T11:46:51.550Z",
+      "attempted_at": "2026-09-11T01:07:55.793Z",
+      "last_success": "2026-09-11T01:07:55.793Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://www.anthropic.com/research",
           "status": "ok",
-          "last_success": "2026-09-10T11:46:51.550Z"
+          "last_success": "2026-09-11T01:07:55.793Z"
         },
         {
           "url": "https://www.anthropic.com/news",
           "status": "ok",
-          "last_success": "2026-09-10T11:46:51.550Z"
+          "last_success": "2026-09-11T01:07:55.793Z"
         }
       ],
-      "count": 23
+      "count": 25
     },
     {
       "id": "arxiv",
       "name": "arXiv",
       "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
       "home": "https://arxiv.org/list/cs.CR/recent",
-      "attempted_at": "2026-09-10T11:46:51.550Z",
-      "last_success": "2026-09-10T11:46:51.550Z",
+      "attempted_at": "2026-09-11T01:07:55.793Z",
+      "last_success": "2026-09-11T01:07:55.793Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
           "status": "ok",
-          "last_success": "2026-09-10T11:46:51.550Z"
+          "last_success": "2026-09-11T01:07:55.793Z"
         }
       ],
       "count": 150
     }
   ],
   "items": [
+    {
+      "source": "openai",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "published_at": "2026-09-10T16:00:00.000Z",
+      "category": "Applied AI",
+      "channel": "news",
+      "date": "2026-09-10",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ],
+      "excerpt": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "first_seen": "2026-09-11T01:07:55.793Z"
+    },
+    {
+      "source": "openai",
+      "title": "Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
+      "published_at": "2026-09-10T15:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-09-10",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ],
+      "excerpt": "Meet the Data agent in ChatGPT Work.",
+      "first_seen": "2026-09-11T01:07:55.793Z"
+    },
+    {
+      "source": "openai",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "category": "Global Affairs",
+      "channel": "news",
+      "date": "2026-09-10",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "first_seen": "2026-09-11T01:07:55.793Z"
+    },
+    {
+      "source": "openai",
+      "title": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-09-10",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ],
+      "excerpt": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "first_seen": "2026-09-11T01:07:55.793Z"
+    },
     {
       "source": "arxiv",
       "title": "'Ghaib in Translation' aka Unseen Harm: Measuring Cross-Script Safety Inconsistency with 'Missed-in-Urdu' Scores in LLM Hate Speech Detection",
@@ -78,7 +142,8 @@
         "safety"
       ],
       "excerpt": "Urdu, the world's tenth most spoken language with 246 million speakers, remains almost entirely absent from mainstream LLM safety evaluation and nine years of WOAH…",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -94,7 +159,8 @@
         "security"
       ],
       "excerpt": "Modern AI-integrated IDEs are shifting from passive code completion to proactive Next Edit Suggestions (NES).",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -110,7 +176,8 @@
         "research"
       ],
       "excerpt": "Decays of beauty and charm hadrons provide sensitive probes of physics beyond the standard model, including decays with invisible particles, in which part of the…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -126,7 +193,8 @@
         "research"
       ],
       "excerpt": "Recent advances in user modeling make it feasible to conduct open-ended inference over a person's everyday computer use.",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -142,7 +210,8 @@
         "research"
       ],
       "excerpt": "Quantum state tomography is a fundamental technique for estimating the state of a quantum system from measured data and plays a crucial role in evaluating…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -158,7 +227,8 @@
         "evaluation"
       ],
       "excerpt": "Building an omni-modal foundation model means evaluating it across text, image, video, and audio.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -174,7 +244,8 @@
         "research"
       ],
       "excerpt": "A novel convolutional autoencoder and neural ODE (CAE-NODE) framework is proposed for a reduced-order model (ROM) applied to transient 2D counterflow flames, as an extension…",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -190,7 +261,8 @@
         "research"
       ],
       "excerpt": "Sparse autoencoders (SAEs) are increasingly used to recover interpretable features from neural-network activations, yet systematic feature co-occurrence can cause distinct features to be absorbed or…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -206,7 +278,8 @@
         "research"
       ],
       "excerpt": "The last decade of progress in machine learning (ML), especially the deep learning era, has raised a number of scientific questions that challenge the longstanding…",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -222,7 +295,8 @@
         "research"
       ],
       "excerpt": "Deep neural networks exhibit regular macroscopic behavior despite highly nonlinear dynamics in vast parameter spaces.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -238,7 +312,8 @@
         "research"
       ],
       "excerpt": "We assess 18 chapter-specific reviews of the ten mathematical results announced by OpenAI on 1 August 2026, alongside review standards, Lean formalizations, subsequent research, and…",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -254,7 +329,8 @@
         "research"
       ],
       "excerpt": "We propose a framework for generative modeling of continuous-time processes from irregularly and asynchronously recorded data.",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -270,7 +346,8 @@
         "research"
       ],
       "excerpt": "The small-sample-size (SSS) problem remains a fundamental challenge in machine learning when labeled data are scarce due to cost, accessibility, or ethical constraints.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -286,7 +363,8 @@
         "research"
       ],
       "excerpt": "Time-series foundation models are evaluated almost exclusively on public archives that predate them, so a strong score cannot be separated from having seen the test…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -302,7 +380,8 @@
         "research"
       ],
       "excerpt": "We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -318,7 +397,8 @@
         "research"
       ],
       "excerpt": "The DIRECT algorithm is a deterministic global optimization method known for its versatility and balanced exploration-exploitation strategy.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -335,7 +415,8 @@
         "evaluation"
       ],
       "excerpt": "Sybil attacks create an illusion of traffic congestion by utilizing fake identities, which undermines the reliable and safe operation of vehicular ad hoc networks (VANETs).",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -351,7 +432,8 @@
         "research"
       ],
       "excerpt": "Consistent submodular maximization studies the tradeoff between solution quality and stability when elements arrive over time.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -367,7 +449,8 @@
         "research"
       ],
       "excerpt": "Generalized zero-shot learning (GZSL) has emerged as an important paradigm for visual recognition systems that must generalize to classes that were not observed during training.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -383,7 +466,8 @@
         "research"
       ],
       "excerpt": "Sample size determination for machine learning (ML) prediction models is challenging because conventional power analysis typically requires the predictor-outcome relationship and effect structure to be…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -399,7 +483,8 @@
         "research"
       ],
       "excerpt": "The Davis-Kahan theorem is a fundamental tool in spectral analysis, providing quantitative control over the distance between the eigenspaces of a symmetric matrix and its…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -415,7 +500,8 @@
         "evaluation"
       ],
       "excerpt": "Molecule generation has emerged as a powerful computational tool for de novo drug design, enabling the exploration of chemical space beyond the limits of conventional…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -431,7 +517,8 @@
         "research"
       ],
       "excerpt": "The rapid advancement of AI technology has led to widespread applications of agent systems across various domains.",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -447,7 +534,8 @@
         "research"
       ],
       "excerpt": "Aging clocks quantify biological aging and help characterize individual health status.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -463,7 +551,8 @@
         "research"
       ],
       "excerpt": "Although probabilistic statements are ubiquitous, foundational disagreements persist about their understanding, as exemplified by debates between Bayesians and frequentists; moreover, it is unclear when and…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -479,7 +568,8 @@
         "security"
       ],
       "excerpt": "Digital credential ecosystems increasingly combine multiple standards.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -495,7 +585,8 @@
         "research"
       ],
       "excerpt": "Traditional software delivery assumes a static paradigm: code is constructed prior to execution and deployed as a fixed artifact.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -511,7 +602,8 @@
         "evaluation"
       ],
       "excerpt": "Sensor-based AI systems are rarely operated under the conditions under which they were trained: devices, personnel and recording epochs change, and each change degrades performance…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -527,7 +619,8 @@
         "evaluation"
       ],
       "excerpt": "Deployment of Large Language Models (LLMs) on memory-constrained edge devices relies heavily on aggressive post-training quantization.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -543,7 +636,8 @@
         "security"
       ],
       "excerpt": "Large language models remain fragile against malicious fine-tuning, motivating training-time defenses against harmful persona drift.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -559,7 +653,8 @@
         "security"
       ],
       "excerpt": "Physical-layer authentication (PLA) in non-terrestrial networks (NTNs) is challenged by severe Doppler shifts, long delays, and fast channel variations, which cause distribution shifts and degrade…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -575,7 +670,8 @@
         "research"
       ],
       "excerpt": "We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -592,7 +688,8 @@
         "evaluation"
       ],
       "excerpt": "Machine learning-based credit scoring is increasingly central to Peer-to-Peer (P2P) lending, yet its resilience to adversarial manipulation, where applicants strategically alter self-reported inputs to secure…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -608,7 +705,8 @@
         "research"
       ],
       "excerpt": "To address insufficient contextualization, weak generalization, and poor scenario adaptation in tourism meteorological services, we propose SmartWeatherAgent--a unified three-stage architecture integrating intent recognition, hazard prediction,…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -624,7 +722,8 @@
         "evaluation"
       ],
       "excerpt": "Existing evaluation frameworks mostly assess only one part of AI agents, such as task completion (AgentBench) or security robustness (AgentDojo, ASB), rather than the complete…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -640,7 +739,8 @@
         "security"
       ],
       "excerpt": "This paper presents an end-to-end evaluation framework for image-triggered command injection against computer-use agents (CUAs).",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -656,7 +756,8 @@
         "research"
       ],
       "excerpt": "Advertising video generation is not only a video synthesis task, but also a product-conditioned reasoning problem whose success is measured by online business metrics.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -672,7 +773,8 @@
         "research"
       ],
       "excerpt": "Recent advances in Intrinsic Image Decomposition (IID) have increasingly relied on generative models.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -688,7 +790,8 @@
         "research"
       ],
       "excerpt": "We study continuous-time full-order dynamic output-feedback $H_\\infty$ policy search, a nonconvex and nonsmooth problem.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -704,7 +807,8 @@
         "research"
       ],
       "excerpt": "Algorithmic stability refers to the property of an algorithm being insensitive to perturbations of the input data, where the type of perturbation may vary depending…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -720,7 +824,8 @@
         "safety"
       ],
       "excerpt": "Real-time hold control is a high-leverage mechanism in large-scale ride-hailing systems: by selectively deferring driver-order pairs, the platform can wait for better matching opportunities and…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -736,7 +841,8 @@
         "research"
       ],
       "excerpt": "Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introducing substantial operational, environmental, and community risks.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -752,7 +858,8 @@
         "security"
       ],
       "excerpt": "Recommender systems have become core infrastructure for modern online platforms, personalizing content at scale and strongly influencing what users see, click on, and purchase.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -768,7 +875,8 @@
         "security"
       ],
       "excerpt": "ReDoS vulnerabilities are a type of denial of service software weakness that occurs when a regex is used to validate user-supplied input.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -785,7 +893,8 @@
         "evaluation"
       ],
       "excerpt": "Agentic AI frameworks let a language model plan, keep memory, and call tools that reach real files, mail, and services.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -801,7 +910,8 @@
         "research"
       ],
       "excerpt": "Blood-brain barrier (BBB) permeability is a critical determinant in the development of central nervous system therapeutics because it directly influences the ability of drug candidates…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -817,7 +927,8 @@
         "research"
       ],
       "excerpt": "Attias, Hanneke and Ramaswami (NeurIPS 2025) asked whether randomization provably reduces the oracle calls needed for online learning when the class is accessible only through…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -833,7 +944,8 @@
         "evaluation"
       ],
       "excerpt": "While accurate measurement of socioeconomic indicators remains challenging in data-scarce regions, which limits policy interventions and resource allocation, high-resolution geospatial data is widely available and…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -849,7 +961,8 @@
         "security"
       ],
       "excerpt": "Large language model safety and security research is preoccupied with, among other things, detecting and preventing jailbreak attacks: alignment bypasses that allow an adversarial user…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -866,7 +979,8 @@
         "safety"
       ],
       "excerpt": "Eclipse attacks isolate a blockchain node by monopolizing its network connections.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -882,7 +996,8 @@
         "research"
       ],
       "excerpt": "Protein-protein interaction (PPI) databases do not faithfully reflect biological realities.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -898,7 +1013,8 @@
         "research"
       ],
       "excerpt": "Attention dominates token mixing, but it collapses relation formation and flow allocation into a single score-to-flow step.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -914,7 +1030,8 @@
         "research"
       ],
       "excerpt": "Understanding which countries are represented in NLP datasets is essential for identifying gaps, targeting data collection, measuring progress, and informing AI policy.",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -930,7 +1047,8 @@
         "security"
       ],
       "excerpt": "The proliferation of AI-generated audio (so-called \"deepfake\" audio) poses significant threats to information integrity, from voice cloning fraud to synthetic music copyright disputes.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -946,7 +1064,8 @@
         "research"
       ],
       "excerpt": "At Noora Health, our nurses answer more than 50,000 medical queries per month on our WhatsApp-based service that provides caregivers with on-demand support.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -962,7 +1081,8 @@
         "research"
       ],
       "excerpt": "Deep spatially selective filters achieve high-quality enhancement with real-time capable architectures for stationary speakers of known directions.",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -978,7 +1098,8 @@
         "security"
       ],
       "excerpt": "Reusing a set of verified security assertions across RISC-V processor targets remains one of the most expensive bottlenecks in hardware security verification.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -994,7 +1115,8 @@
         "security"
       ],
       "excerpt": "XR devices introduce substantial privacy concerns due to their comprehensive data collection capabilities that surpass traditional computing platforms.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1010,7 +1132,8 @@
         "research"
       ],
       "excerpt": "We present BaltiVoice, a 16.8-hour read-speech corpus for Balti (ISO 639-3: bft), a Tibetic language spoken in Gilgit-Baltistan, Pakistan, with no prior publicly available ASR…",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1026,7 +1149,8 @@
         "security"
       ],
       "excerpt": "Theoretical and applied research into privacy encompasses an incredibly broad swathe of differing approaches, emphases and aims.",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1042,7 +1166,8 @@
         "research"
       ],
       "excerpt": "Exploration drill targeting in structurally complex terranes is hindered by sparse sampling, heterogeneous datasets, and the ambiguity of geophysical inversions.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1058,7 +1183,8 @@
         "research"
       ],
       "excerpt": "Large language model agents produce fluent action sequences across a wide range of tasks, yet they fail in characteristic ways once the environment becomes partially…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1074,7 +1200,8 @@
         "research"
       ],
       "excerpt": "Heart rate is a critical biomarker of health, and remote photoplethysmography (rPPG) enables its contactless estimation from video data for telemedicine applications.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1090,7 +1217,8 @@
         "research"
       ],
       "excerpt": "Federated clients that perform several local optimization steps can return parameter displacements with widely different magnitudes.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1106,7 +1234,8 @@
         "security"
       ],
       "excerpt": "In differentially private (DP) tabular data synthesis, the consensus is that statistical models are better than neural network (NN)-based methods.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1122,7 +1251,8 @@
         "research"
       ],
       "excerpt": "Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1138,7 +1268,8 @@
         "research"
       ],
       "excerpt": "LLM tool agents can be improved without retraining by modifying the runtime harness around a fixed model: prompts, tool interfaces, middleware, state handling, and recovery…",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1154,7 +1285,8 @@
         "safety"
       ],
       "excerpt": "In-context learning (ICL) is widely used in multimodal large language models (MLLMs) and achieves strong performance across a wide range of multimodal tasks.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1170,7 +1302,8 @@
         "security"
       ],
       "excerpt": "Compute governance today is a governance of training: the thresholds, reporting requirements, and frontier-AI regimes now in force attach to training compute and treat the…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1186,7 +1319,8 @@
         "security"
       ],
       "excerpt": "Quantized Vision-Language-Action (VLA) models expose a weight-fault surface: Rowhammer-style faults can corrupt deployed INT8 bits.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1202,7 +1336,8 @@
         "safety"
       ],
       "excerpt": "Agentic systems are rapidly moving to production, where they read untrusted inputs, call tools with real permissions, and act autonomously, expanding the security surface beyond…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1218,7 +1353,8 @@
         "security"
       ],
       "excerpt": "Adversary emulation is an essential procedure for cybersecurity assessments such as evaluating an organization's security posture or facilitating structured training and research in dedicated environments.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1234,7 +1370,8 @@
         "research"
       ],
       "excerpt": "Asynchronous reinforcement learning has become the standard way to scale training for language models, but the resulting policy lag biases the critic toward the stale…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1250,7 +1387,8 @@
         "research"
       ],
       "excerpt": "Nuclear mass prediction is one of the core issues in nuclear physics research, yet it faces the challenge of small-sample datasets with high complexity.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1266,7 +1404,8 @@
         "research"
       ],
       "excerpt": "Credit assignment is a central challenge in reinforcement learning (RL).",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1282,7 +1421,8 @@
         "research"
       ],
       "excerpt": "Large language models (LLMs) may encode biased associations from heterogeneous training corpora that are not immediately visible under ordinary prompting, but can surface when the…",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1298,7 +1438,8 @@
         "security"
       ],
       "excerpt": "Generative models now write application code, harden and monitor it, and probe it for exploitable flaws, so that one family of models increasingly plays builder,…",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1314,7 +1455,8 @@
         "research"
       ],
       "excerpt": "Can an agent learn a numerical search strategy through executable practice and then transfer that strategy as text?",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1330,7 +1472,8 @@
         "research"
       ],
       "excerpt": "AI agents are increasingly involved in network automation, where they can initiate configuration changes through mediated operational interfaces and assess the resulting state.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1346,7 +1489,8 @@
         "research"
       ],
       "excerpt": "In recent years, AI agents have evolved into capable assistants that carry out multi-step tasks in digital environments.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1363,7 +1507,8 @@
         "safety"
       ],
       "excerpt": "Healthcare systems, mental health, and public well-being are increasingly affected by cyberbullying and harmful online interactions.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1379,7 +1524,8 @@
         "evaluation"
       ],
       "excerpt": "The growing complexity of content moderation policies presents a critical challenge for their consistent operationalization.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1395,7 +1541,8 @@
         "research"
       ],
       "excerpt": "Electrocardiography (ECG), photoplethysmography (PPG), and phonocardiography (PCG) provide complementary views of the same cardiac cycle, yet existing cardiac foundation models are trained for a single…",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1411,7 +1558,8 @@
         "security"
       ],
       "excerpt": "Federated learning shares model updates rather than raw data, yet these updates can be inverted to reconstruct the clients' training data.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1427,7 +1575,8 @@
         "research"
       ],
       "excerpt": "Graph-data workloads such as diffusion estimation, ranking, semi-supervised learning, and network optimization often solve many Laplacian or symmetric diagonally dominant M-matrix (SDDM) systems with the…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1443,7 +1592,8 @@
         "research"
       ],
       "excerpt": "Motivation: Interpretability is not optional in biology: understanding gene regulation requires models whose learned structure can be directly interrogated, not merely accurate predictors whose internals…",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1459,7 +1609,8 @@
         "security"
       ],
       "excerpt": "Data-intensive applications move large amounts of data from storage to the compute unit, incurring significant data movement overhead.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1476,7 +1627,8 @@
         "safety"
       ],
       "excerpt": "Traditional honeypots share an invariant behavioral profile: a skilled adversary can confirm the presence of a deception environment within a few diagnostic commands, limiting their…",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1492,7 +1644,8 @@
         "research"
       ],
       "excerpt": "Language generation in the limit asks for valid unseen elements from every exhaustive positive presentation of an unknown infinite language.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1509,7 +1662,8 @@
         "safety"
       ],
       "excerpt": "Quantum Machine Learning (QML) has shown rapid advances by utilizing quantum computing for machine learning tasks.",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1525,7 +1679,8 @@
         "security"
       ],
       "excerpt": "In phishing detection, machine learning classifiers act as a first line of defense, but the false positives they produce are triaged by human analysts.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1541,7 +1696,8 @@
         "security"
       ],
       "excerpt": "Additional inference compute can increase the number of correctly resolved security-assurance tasks, but repeated success, unique coverage, accepted evidence, and operational protection are different quantities.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1557,7 +1713,8 @@
         "security"
       ],
       "excerpt": "In network traffic, legitimate behaviours and attack techniques evolve jointly - the phenomenon known as 'concept drift' [1].",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1573,7 +1730,8 @@
         "security"
       ],
       "excerpt": "Off-path network attacks against TCP and DNS (over UDP) client-server connections are generally considered impractical nowadays, due to built-in security features in these protocols, e.g.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1589,7 +1747,8 @@
         "security"
       ],
       "excerpt": "Smartphones simultaneously transmit temporary identifiers over LTE, WiFi, and BLE.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1606,7 +1765,8 @@
         "evaluation"
       ],
       "excerpt": "Large language models (LLMs) have been ex- ploited to generate malware, but the effective- ness of guardrails for code generation secu- rity remains unclear.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1622,7 +1782,8 @@
         "security"
       ],
       "excerpt": "The banking system now depends on a small set of shared artificial intelligence vendors for fraud screening, credit decisioning, anti-money-laundering triage, customer analytics, and internal…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1638,7 +1799,8 @@
         "security"
       ],
       "excerpt": "Blockchain assets are increasingly controlled by organizations rather than individuals.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1654,7 +1816,8 @@
         "security"
       ],
       "excerpt": "We propose a variable and behavior-based node-specific proof-of-work (PoW) model for a directed acyclic graph (DAG)-based distributed ledger technology (DLT) network to mitigate decentralized network…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1670,7 +1833,8 @@
         "security"
       ],
       "excerpt": "We certify an honest-decapsulation failure upper bound for ML-KEM-768 in an explicit random-function/centered-binomial (ROM/CBD) abstraction.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1686,7 +1850,8 @@
         "security"
       ],
       "excerpt": "Average treatment effect (ATE) estimation in observational studies is a fundamental statistical tool used frequently in social science, medicine, and other fields.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1702,7 +1867,8 @@
         "security"
       ],
       "excerpt": "We revisit differentially private (DP) text synthesis in the realistic setting of distributed users, where privacy concerns preclude a trusted curator with access to raw…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1718,7 +1884,8 @@
         "security"
       ],
       "excerpt": "The escalating complexity of modern cyber threats demands innovative approaches to security education that transcend traditional pedagogical methods.",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1735,7 +1902,8 @@
         "safety"
       ],
       "excerpt": "Full-duplex speech models accept user speech while generating responses, creating an underexplored attack surface.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1751,7 +1919,8 @@
         "security"
       ],
       "excerpt": "We propose Open Autoresearch, a paradigm in which humans and AI agents publish evaluator-verified improvements to a public leaderboard.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1767,7 +1936,8 @@
         "security"
       ],
       "excerpt": "Fully homomorphic encryption (FHE) enables inference on private data without revealing it to the server, but evaluating an entire input under FHE is expensive.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1783,7 +1953,8 @@
         "security"
       ],
       "excerpt": "A fault-tolerant quantum computer runs behind a telemetry stream logging syndromes, decoder actions, resets and timing separately from the answer.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1799,7 +1970,8 @@
         "security"
       ],
       "excerpt": "Fully Homomorphic Encryption (FHE) enables privacy-preserving cloud services but incurs substantial computation overhead, making hardware acceleration essential.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1816,7 +1988,8 @@
         "safety"
       ],
       "excerpt": "Grid-connected solar distributed energy resources (DERs), such as solar inverters and monitoring platforms, have been deployed at unprecedented scale over the past few years, with…",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1832,7 +2005,8 @@
         "security"
       ],
       "excerpt": "We introduce HoneyRoute, an inference-serving layer that detects whether an incoming request is malicious and, if so, routes it to a dedicated honeypot model, shielding…",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1849,7 +2023,8 @@
         "evaluation"
       ],
       "excerpt": "Provenance-based intrusion detection systems (PIDS) frequently report strong performance, but the conclusions drawn from these results can be highly sensitive to benchmarking choices and evaluation…",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1866,7 +2041,8 @@
         "safety"
       ],
       "excerpt": "Directional ablation removes an aligned language model's ability to refuse by projecting a single \"refusal direction\" out of the weights that write the residual stream.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1883,7 +2059,8 @@
         "evaluation"
       ],
       "excerpt": "Retrieval-augmented generation (RAG) grounds a language model in retrieved documents, which reduces hallucination but creates a new attack surface: if retrieved text is tampered with,…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1899,7 +2076,8 @@
         "security"
       ],
       "excerpt": "On-device federated learning (FL) enables privacy-preserving and personalized model training on resource-constrained devices such as smartphones and IoT nodes.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1915,7 +2093,8 @@
         "security"
       ],
       "excerpt": "AI systems become more useful when they can adapt to the people using them, but in multi-agent systems, useful context learned by one agent often…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1931,7 +2110,8 @@
         "security"
       ],
       "excerpt": "Cyberattacks against Operational Technology (OT) systems, which monitor and control industrial processes, pose an increasing threat to essential societal services.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1947,7 +2127,8 @@
         "security"
       ],
       "excerpt": "Zonal in-vehicle networks ship Ethernet, MACsec, and TSN, but treat the network itself as trusted: once configured at the factory, there is no standardized runtime…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1963,7 +2144,8 @@
         "security"
       ],
       "excerpt": "Automated vehicles rely on millions of lines of safety-critical software, yet general-purpose analyzers do not understand which code can affect vehicle motion.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1979,7 +2161,8 @@
         "security"
       ],
       "excerpt": "Membership inference attacks (MIAs) threaten the privacy of machine learning models by revealing whether a data point was used during training.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -1995,7 +2178,8 @@
         "security"
       ],
       "excerpt": "Open-source large language models (LLMs) are increasingly competitive with closed-source models while offering transparency and the ability to run inference without exposing user inputs to…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2011,7 +2195,8 @@
         "security"
       ],
       "excerpt": "Once complex, creating and deploying a new cryptocurrency has become trivial.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2027,7 +2212,8 @@
         "security"
       ],
       "excerpt": "Meta-learning has emerged as an effective paradigm for transferring knowledge across sequential bandit tasks.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2043,7 +2229,8 @@
         "security"
       ],
       "excerpt": "Sixth-generation (6G) wireless networks are expected to provide a key infrastructure for large-scale embodied intelligence, where heterogeneous robots collaborate through low-latency connectivity, edge intelligence, and…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2059,7 +2246,8 @@
         "security"
       ],
       "excerpt": "Recent work using Fully Homomorphic Encryption (FHE) has made non-interactive privacy-preserving inference of deep Convolutional Neural Networks (CNNs) possible.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2075,7 +2263,8 @@
         "security"
       ],
       "excerpt": "Ma and Huang recently proved that the PFC construction, introduced by Metger, Poremba, Sinha and Yuen [MPSY24], gives an adaptive-secure pseudorandom unitary family PRU.",
-      "announcement": "replace-cross"
+      "announcement": "replace-cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2091,7 +2280,8 @@
         "security"
       ],
       "excerpt": "Serverless computing has seen rapid adoption in cloud deployments, yet the security implications of its service-oriented programming model remain poorly understood.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2108,7 +2298,8 @@
         "evaluation"
       ],
       "excerpt": "Microarchitectural side-channel research has grown at an exceptional pace in recent years, increasing the need for rigorous and meaningful benchmarking.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2124,7 +2315,8 @@
         "security"
       ],
       "excerpt": "Fine-tuning large language models (LLMs) on domain-specific data is essential for downstream adaptation.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2140,7 +2332,8 @@
         "security"
       ],
       "excerpt": "Five years after the enforcement of the California Consumer Privacy Act (CCPA), understanding how website privacy practices evolve at scale in response to regulation remains…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2156,7 +2349,8 @@
         "security"
       ],
       "excerpt": "Proximity gaps are central to the soundness of interactive oracle proofs of proximity (IOPPs) and polynomial commitment schemes (PCSs).",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2172,7 +2366,8 @@
         "security"
       ],
       "excerpt": "The integration of the Industrial Internet of Things (IIoT) into manufacturing has transformed industrial operations by optimising production management and ensuring product quality through smart…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2188,7 +2383,8 @@
         "security"
       ],
       "excerpt": "Motivated by digital signature algorithms ranging from Falcon to fully-anonymous ring signatures used in Signal-style key exchange, such as Gandalf, we revisit a fundamental problem…",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2205,7 +2401,8 @@
         "evaluation"
       ],
       "excerpt": "The digitalisation of electrical distribution networks has increased the exposure of power-grid infrastructure to cyber attacks.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2221,7 +2418,8 @@
         "security"
       ],
       "excerpt": "Byzantine agreement (BA) is a foundational building block in distributed systems, and the security analysis of BA protocols under multi-instance executions has attracted increasing attention.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2237,7 +2435,8 @@
         "security"
       ],
       "excerpt": "Confidential virtual machines simplify the migration of existing services into trusted execution environments, yet attesting their network connections often requires changing applications, TLS implementations, or…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2253,7 +2452,8 @@
         "security"
       ],
       "excerpt": "The deployment of AI-driven Digital Twins (DTs) in large-scale Internet-of-Things (IoT) ecosystems demands continuous, high-fidelity synchronization between the physical environment and its virtual replica.",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2269,7 +2469,8 @@
         "security"
       ],
       "excerpt": "Zero-knowledge (ZK) proof systems for neural-network inference compile the model into a system of arithmetic constraints.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2285,7 +2486,8 @@
         "security"
       ],
       "excerpt": "Synthetic data releases are increasingly proposed in the literature as a means of sharing realistic data replicas in lieu of sensitive private datasets.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2301,7 +2503,8 @@
         "security"
       ],
       "excerpt": "Intimate Partner Infiltration (IPI) refers to phone-side privacy infiltration in intimate or close relationships, often enabled by physical access to a person's smartphone and discussed…",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2317,7 +2520,8 @@
         "security"
       ],
       "excerpt": "Static analysis remains a cornerstone of software security, yet the effectiveness of tools such as CodeQL is often limited by the substantial manual effort required…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2333,7 +2537,8 @@
         "security"
       ],
       "excerpt": "Logic flaws pose significant challenges in the design and implementation of modern, semantically rich systems and applications, impacting security, privacy, and trust.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2349,7 +2554,8 @@
         "security"
       ],
       "excerpt": "Watermarking the final patch produced by a coding agent provides provenance evidence for the submitted artifact, but does not authenticate the visible process that produced…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2365,7 +2571,8 @@
         "security"
       ],
       "excerpt": "Recent work on Grafting decouples scale factors from ciphertext moduli, enabling more flexible precision management in RNS-CKKS.",
-      "announcement": "replace"
+      "announcement": "replace",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2381,7 +2588,8 @@
         "security"
       ],
       "excerpt": "Large language model (LLM) security has largely focused on role-playing jailbreaks, with less attention to what happens when a user asks an LLM to verify…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2397,7 +2605,8 @@
         "security"
       ],
       "excerpt": "Trusted Execution Environments (TEEs) offer a promising mechanism for safeguarding the intellectual property of on-device Large Language Models (LLMs).",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2413,7 +2622,8 @@
         "security"
       ],
       "excerpt": "On August 2, 2026, the obligations of Article 50 of the EU AI Act took effect, requiring generative AI providers to mark the content their…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2429,7 +2639,8 @@
         "security"
       ],
       "excerpt": "Deepfake detectors remain vulnerable to transfer-based black-box attacks, in which adversarial examples are generated on a source surrogate model and transferred to a target model,…",
-      "announcement": "cross"
+      "announcement": "cross",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2446,7 +2657,8 @@
         "safety"
       ],
       "excerpt": "We investigate the mobile splash ads ecosystem, i.e., full-screen advertisements shown at app launch, where monetization relies on interaction signals that are difficult to verify…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2462,7 +2674,8 @@
         "security"
       ],
       "excerpt": "Electric vehicle charging infrastructure presents a suite of novel cyber-physical threats.",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
     },
     {
       "source": "arxiv",
@@ -2479,7 +2692,72 @@
         "safety"
       ],
       "excerpt": "Enterprises managing large X.509 certificate inventories face a prioritization problem: deterministic analysis tools that precisely identify standards violations are indispensable for remediation, but applying them…",
-      "announcement": "new"
+      "announcement": "new",
+      "first_seen": null
+    },
+    {
+      "source": "anthropic",
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "published_at": "2026-09-10T00:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-09-10",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "safety"
+      ],
+      "excerpt": "Case studies from threat actors disrupted between December 2025 and August 2026 across seven areas of harm, from cyber operations to biological misuse.",
+      "first_seen": "2026-09-11T01:07:55.793Z"
+    },
+    {
+      "source": "anthropic",
+      "title": "Measuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "published_at": "2026-09-10T00:00:00.000Z",
+      "category": "Frontier Red Team",
+      "channel": "research",
+      "date": "2026-09-10",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "safety"
+      ],
+      "excerpt": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.",
+      "first_seen": "2026-09-11T01:07:55.793Z"
+    },
+    {
+      "source": "openai",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "published_at": "2026-09-10T00:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-09-10",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ],
+      "excerpt": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "first_seen": "2026-09-11T01:07:55.793Z"
+    },
+    {
+      "source": "openai",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "published_at": "2026-09-10T00:00:00.000Z",
+      "category": "Product",
+      "channel": "news",
+      "date": "2026-09-10",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ],
+      "excerpt": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "first_seen": "2026-09-11T01:07:55.793Z"
     },
     {
       "source": "openai",
@@ -2494,7 +2772,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards."
+      "excerpt": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2509,7 +2788,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open."
+      "excerpt": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2524,7 +2804,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment."
+      "excerpt": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -2540,7 +2821,8 @@
         "security",
         "safety"
       ],
-      "excerpt": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems."
+      "excerpt": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2555,7 +2837,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits."
+      "excerpt": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2570,7 +2853,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical."
+      "excerpt": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2585,7 +2869,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas."
+      "excerpt": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2600,7 +2885,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean."
+      "excerpt": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2615,7 +2901,8 @@
       "tags": [
         "safety"
       ],
-      "excerpt": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety."
+      "excerpt": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2630,7 +2917,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies."
+      "excerpt": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2645,7 +2933,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations."
+      "excerpt": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2660,7 +2949,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism."
+      "excerpt": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2675,7 +2965,8 @@
       "tags": [
         "safety"
       ],
-      "excerpt": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned."
+      "excerpt": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2690,7 +2981,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Inside OpenAI, coding agents are reshaping AI research."
+      "excerpt": "Inside OpenAI, coding agents are reshaping AI research.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -2705,7 +2997,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem."
+      "excerpt": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2720,7 +3013,8 @@
       "tags": [
         "security"
       ],
-      "excerpt": "OpenAI introduces Daybreak for Frontline Defenders."
+      "excerpt": "OpenAI introduces Daybreak for Frontline Defenders.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2735,7 +3029,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
+      "excerpt": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2750,7 +3045,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
+      "excerpt": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2765,7 +3061,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science."
+      "excerpt": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2780,7 +3077,8 @@
       "tags": [
         "safety"
       ],
-      "excerpt": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework."
+      "excerpt": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2795,7 +3093,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more."
+      "excerpt": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2810,7 +3109,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations."
+      "excerpt": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2825,7 +3125,8 @@
       "tags": [
         "safety"
       ],
-      "excerpt": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release."
+      "excerpt": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2840,7 +3141,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more."
+      "excerpt": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2855,7 +3157,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm."
+      "excerpt": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -2870,7 +3173,8 @@
       "tags": [
         "safety"
       ],
-      "excerpt": "Today we’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention (ZDR) with state-of-the-art safeguards for detecting misuse."
+      "excerpt": "Today we’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention (ZDR) with state-of-the-art safeguards for detecting misuse.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -2885,7 +3189,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Our most advanced models for coding and knowledge work."
+      "excerpt": "Our most advanced models for coding and knowledge work.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2900,7 +3205,8 @@
       "tags": [
         "safety"
       ],
-      "excerpt": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore."
+      "excerpt": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2915,7 +3221,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development."
+      "excerpt": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2930,7 +3237,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options."
+      "excerpt": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -2946,7 +3254,8 @@
         "security",
         "safety"
       ],
-      "excerpt": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems."
+      "excerpt": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2961,7 +3270,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX."
+      "excerpt": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -2976,7 +3286,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products."
+      "excerpt": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -2992,7 +3303,8 @@
         "safety",
         "evaluation"
       ],
-      "excerpt": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure."
+      "excerpt": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3007,7 +3319,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
+      "excerpt": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3022,7 +3335,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
+      "excerpt": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3037,7 +3351,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "As Claude becomes increasingly capable at scientific research, we are focusing on building products and programs to support the research community."
+      "excerpt": "As Claude becomes increasingly capable at scientific research, we are focusing on building products and programs to support the research community.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3052,7 +3367,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a…"
+      "excerpt": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a…",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3067,7 +3383,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "ChatGPT for Teachers is expanding to 55 U.S."
+      "excerpt": "ChatGPT for Teachers is expanding to 55 U.S.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3082,7 +3399,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
+      "excerpt": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3097,7 +3415,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data."
+      "excerpt": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3112,7 +3431,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster."
+      "excerpt": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3127,7 +3447,8 @@
       "tags": [
         "security"
       ],
-      "excerpt": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment."
+      "excerpt": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3142,7 +3463,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost."
+      "excerpt": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3157,7 +3479,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models."
+      "excerpt": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3172,7 +3495,8 @@
       "tags": [
         "evaluation"
       ],
-      "excerpt": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing."
+      "excerpt": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3187,7 +3511,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West."
+      "excerpt": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3202,7 +3527,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests."
+      "excerpt": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3217,7 +3543,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance."
+      "excerpt": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3232,7 +3559,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
+      "excerpt": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3247,7 +3575,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days."
+      "excerpt": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3262,7 +3591,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy."
+      "excerpt": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3277,7 +3607,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs."
+      "excerpt": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3292,7 +3623,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "ChatGPT Ads is expanding to 31 European markets."
+      "excerpt": "ChatGPT Ads is expanding to 31 European markets.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3307,7 +3639,8 @@
       "tags": [
         "security"
       ],
-      "excerpt": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise."
+      "excerpt": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3322,7 +3655,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents."
+      "excerpt": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3337,7 +3671,8 @@
       "tags": [
         "security"
       ],
-      "excerpt": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models."
+      "excerpt": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3352,7 +3687,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly."
+      "excerpt": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3367,7 +3703,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K."
+      "excerpt": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3382,7 +3719,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Two results show how Claude helps life sciences researchers speed up their work: designing protein binders from scratch and analyzing NMR and LC-MS data to…"
+      "excerpt": "Two results show how Claude helps life sciences researchers speed up their work: designing protein binders from scratch and analyzing NMR and LC-MS data to…",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3397,7 +3735,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally."
+      "excerpt": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3412,7 +3751,8 @@
       "tags": [
         "security"
       ],
-      "excerpt": "AI is reshaping cybersecurity for attackers and defenders alike."
+      "excerpt": "AI is reshaping cybersecurity for attackers and defenders alike.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3427,7 +3767,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs"
+      "excerpt": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3442,7 +3783,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age."
+      "excerpt": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3457,7 +3799,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Future Claude models will generate text that contains a watermark to comply with the EU AI Act."
+      "excerpt": "Future Claude models will generate text that contains a watermark to comply with the EU AI Act.",
+      "first_seen": null
     },
     {
       "source": "openai",
@@ -3472,37 +3815,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities."
-    },
-    {
-      "source": "openai",
-      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "url": "https://openai.com/index/previewing-ultrafast",
-      "published_at": "2026-08-13T10:00:00.000Z",
-      "category": "Product",
-      "channel": "news",
-      "date": "2026-08-13",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster."
-    },
-    {
-      "source": "openai",
-      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-      "published_at": "2026-08-13T09:00:00.000Z",
-      "category": "Company",
-      "channel": "news",
-      "date": "2026-08-13",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI."
+      "excerpt": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3517,22 +3831,8 @@
       "tags": [
         "safety"
       ],
-      "excerpt": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage."
-    },
-    {
-      "source": "openai",
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "published_at": "2026-08-12T06:00:00.000Z",
-      "category": "Company",
-      "channel": "news",
-      "date": "2026-08-12",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption."
+      "excerpt": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3547,52 +3847,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "An evidence review from Anthropic's Economic Research team"
-    },
-    {
-      "source": "openai",
-      "title": "How RingCentral builds AI-native work from engineering to ops",
-      "url": "https://openai.com/index/ringcentral",
-      "published_at": "2026-08-12T00:00:00.000Z",
-      "category": "",
-      "channel": "news",
-      "date": "2026-08-12",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations."
-    },
-    {
-      "source": "openai",
-      "title": "Daybreak models are now available on AWS",
-      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "published_at": "2026-08-11T10:00:00.000Z",
-      "category": "Product",
-      "channel": "news",
-      "date": "2026-08-11",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows."
-    },
-    {
-      "source": "openai",
-      "title": "Testing ads in ChatGPT",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "published_at": "2026-08-11T10:00:00.000Z",
-      "category": "Company",
-      "channel": "news",
-      "date": "2026-08-11",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control."
+      "excerpt": "An evidence review from Anthropic's Economic Research team",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3607,7 +3863,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "An unreleased Claude model improved the lower bound for the fraction of zeroes of the Riemann zeta function that satisfy the hypothesis, raising it from…"
+      "excerpt": "An unreleased Claude model improved the lower bound for the fraction of zeroes of the Riemann zeta function that satisfy the hypothesis, raising it from…",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3622,7 +3879,8 @@
       "tags": [
         "safety"
       ],
-      "excerpt": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks."
+      "excerpt": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3637,7 +3895,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Former California Supreme Court Justice Tino Cuéllar joins Anthropic to lead policy, international engagement, and government relations worldwide."
+      "excerpt": "Former California Supreme Court Justice Tino Cuéllar joins Anthropic to lead policy, international engagement, and government relations worldwide.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3653,7 +3912,8 @@
         "security",
         "evaluation"
       ],
-      "excerpt": "We found three cases where a Claude model reached the internet from an evaluation environment and accessed real systems."
+      "excerpt": "We found three cases where a Claude model reached the internet from an evaluation environment and accessed real systems.",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3669,7 +3929,8 @@
         "security",
         "safety"
       ],
-      "excerpt": "Anthropic researchers find weaknesses in cryptographic algorithms with Claude Mythos Preview"
+      "excerpt": "Anthropic researchers find weaknesses in cryptographic algorithms with Claude Mythos Preview",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3684,7 +3945,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Anthropic CEO Dario Amodei on open-weights models"
+      "excerpt": "Anthropic CEO Dario Amodei on open-weights models",
+      "first_seen": null
     },
     {
       "source": "anthropic",
@@ -3699,7 +3961,8 @@
       "tags": [
         "research"
       ],
-      "excerpt": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work."
+      "excerpt": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+      "first_seen": null
     },
     {
       "source": "anthropic",

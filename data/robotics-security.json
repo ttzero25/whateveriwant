@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-10T12:59:51.983Z",
+  "attempted_at": "2026-09-11T01:08:01.377Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-09-10T12:59:51.983Z",
-      "last_success": "2026-09-10T12:59:51.983Z",
+      "attempted_at": "2026-09-11T01:08:01.377Z",
+      "last_success": "2026-09-11T01:08:01.377Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-09-10T12:59:51.983Z"
+          "last_success": "2026-09-11T01:08:01.377Z"
         }
       ],
       "count": 30
@@ -32,17 +32,17 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-09-10T12:59:51.983Z",
-      "last_success": "2026-09-10T12:59:51.983Z",
+      "attempted_at": "2026-09-11T01:08:01.377Z",
+      "last_success": "2026-09-11T01:08:01.377Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-09-10T12:59:51.983Z"
+          "last_success": "2026-09-11T01:08:01.377Z"
         }
       ],
-      "count": 25
+      "count": 50
     },
     {
       "id": "autonomy",
@@ -53,9 +53,9 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-09-10T12:59:51.983Z",
+      "attempted_at": "2026-09-11T01:08:01.377Z",
       "last_success": "2026-09-10T12:59:51.983Z",
-      "status": "ok",
+      "status": "error",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
@@ -67,6 +67,23 @@
     }
   ],
   "items": [
+    {
+      "source": "robotics",
+      "title": "SwarmNxt: Open-source Software-Hardware Platform for Fast and Agile Aerial Swarms",
+      "url": "https://arxiv.org/abs/2609.11382v1",
+      "date": "2026-09-10",
+      "published_at": "2026-09-10T11:17:20.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "ros",
+        "sensors"
+      ],
+      "excerpt": "Aerial robot swarms have the potential to transform time-critical safety, security, and search-and-rescue operations.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
     {
       "source": "autonomy",
       "title": "Wicked Problem, Parsimonious Solution: Securing Electric Vehicle Charging Station Software",
@@ -141,7 +158,8 @@
         "ros",
         "sensors"
       ],
-      "excerpt": "In multi-robot collaboration, task handovers rely on downstream verifiers performing remote attestation, which inspects sensor telemetry to ensure a robot's physical behavior strictly matches its…"
+      "excerpt": "In multi-robot collaboration, task handovers rely on downstream verifiers performing remote attestation, which inspects sensor telemetry to ensure a robot's physical behavior strictly matches its…",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -172,7 +190,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Autonomous unmanned vehicles are vital to tactical missions, mission-critical public-safety operations like search and rescue and disaster response."
+      "excerpt": "Autonomous unmanned vehicles are vital to tactical missions, mission-critical public-safety operations like search and rescue and disaster response.",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -193,6 +212,21 @@
     },
     {
       "source": "robotics",
+      "title": "ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Disassembly Applications",
+      "url": "https://arxiv.org/abs/2609.03362v2",
+      "date": "2026-09-03",
+      "published_at": "2026-09-03T04:38:22.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Grasping and holding tools while using them presents a considerable challenge not only for robots but also for humans.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
+      "source": "robotics",
       "title": "Seeing Less Is Not Seeing Safely: Privacy Leakage from Task-Scoped Robot Perception Exports",
       "url": "https://arxiv.org/abs/2609.03055v1",
       "date": "2026-09-02",
@@ -204,7 +238,8 @@
         "security",
         "sensors"
       ],
-      "excerpt": "Domestic robots rely on rich perception to operate in private homes, but privacy risk persists even when raw sensor data remain local."
+      "excerpt": "Domestic robots rely on rich perception to operate in private homes, but privacy risk persists even when raw sensor data remain local.",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -271,6 +306,22 @@
       "excerpt": "A lack of suitable datasets has limited the research into the privacy risks of novel smart city sensors, such as thermal cameras, depth cameras, and…"
     },
     {
+      "source": "robotics",
+      "title": "Not All Agreement Counts as Corroboration: Provenance-Conserving Multi-View Fusion for Typed Action Admission in Human-Robot Collaboration",
+      "url": "https://arxiv.org/abs/2609.01662v1",
+      "date": "2026-08-31",
+      "published_at": "2026-08-31T21:21:35.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "For embodied systems, predictive agreement alone does not determine whether evidence warrants action; evidential origin matters.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
       "source": "autonomy",
       "title": "Physical Adversarial Examples for Person Detectors in Thermal Images Based on 3D Modeling",
       "url": "https://arxiv.org/abs/2608.30839v1",
@@ -284,6 +335,22 @@
         "autonomy"
       ],
       "excerpt": "Thermal Infrared detection is widely used in autonomous driving, medical AI, etc., but its security has only attracted attention recently."
+    },
+    {
+      "source": "robotics",
+      "title": "AGRICAM: A Track-Mounted Crop Pollination Monitoring Robot",
+      "url": "https://arxiv.org/abs/2608.29237v1",
+      "date": "2026-08-29",
+      "published_at": "2026-08-29T12:49:54.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Insect pollination is critical for global food production, yet monitoring pollinators at commercial farm scale remains a challenge.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "autonomy",
@@ -348,6 +415,22 @@
       "excerpt": "Redirecting unmanned aerial vehicles (UAVs) from their intended mission trajectories has been an active area of research."
     },
     {
+      "source": "robotics",
+      "title": "Trust-Aware Sequential Decision Making and Rollout Planning for Resilient Multi-Robot Systems",
+      "url": "https://arxiv.org/abs/2608.25690v1",
+      "date": "2026-08-26",
+      "published_at": "2026-08-26T12:09:08.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Sequential decision-making in multi-robot systems typically assumes that planning information is reliable and that agents execute the actions anticipated by the planner.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
       "source": "autonomy",
       "title": "SonicNudge: Controlled Displacement of Hovering UAVs via Estimator-Controller Coupling",
       "url": "https://arxiv.org/abs/2608.25319v2",
@@ -364,6 +447,69 @@
       "excerpt": "UAV displacement attacks have traditionally relied on spoofing sensors that directly report position or translational motion, such as GNSS and optical flow."
     },
     {
+      "source": "robotics",
+      "title": "ROS2 Connect: A new ROS2 over WAN Solution",
+      "url": "https://arxiv.org/abs/2608.25102v1",
+      "date": "2026-08-25",
+      "published_at": "2026-08-25T19:52:47.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "The Robot Operating System 2 (ROS2) has become a widely adopted framework for the development of distributed robotic systems.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
+      "source": "robotics",
+      "title": "Fiber Bragg Grating Whiskers for Bioinspired Hydrodynamic Perception on Underwater Robots",
+      "url": "https://arxiv.org/abs/2608.24724v1",
+      "date": "2026-08-25",
+      "published_at": "2026-08-25T15:37:33.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Harbor seals track hydrodynamic trails with their vibrissae, enabling passive perception of moving targets in dark or turbid water.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
+      "source": "robotics",
+      "title": "Whose readiness counts? Disagreement within and between sectors in perceived AI and robotics preparedness",
+      "url": "https://arxiv.org/abs/2608.23406v1",
+      "date": "2026-08-24",
+      "published_at": "2026-08-24T15:52:18.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "AI and Industry 4.0 readiness assessments often summarise preparedness using a single score for an organisation, application domain or sector.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
+      "source": "robotics",
+      "title": "ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots",
+      "url": "https://arxiv.org/abs/2608.23320v1",
+      "date": "2026-08-24",
+      "published_at": "2026-08-24T14:36:52.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Industrial demand changes the paradigms of production.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
       "source": "ros",
       "title": "Should robot software have execution authorization separate from deployment?",
       "url": "https://discourse.openrobotics.org/t/should-robot-software-have-execution-authorization-separate-from-deployment/57585",
@@ -376,7 +522,23 @@
         "security",
         "ros"
       ],
-      "excerpt": "I built RLSOK, an open-source execution-authorization layer for robots."
+      "excerpt": "I built RLSOK, an open-source execution-authorization layer for robots.",
+      "first_seen": null
+    },
+    {
+      "source": "robotics",
+      "title": "Rethinking Demonstration Unlearning in Imitation Learning for Robotics",
+      "url": "https://arxiv.org/abs/2608.20784v1",
+      "date": "2026-08-21",
+      "published_at": "2026-08-21T06:53:55.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Imitation learning for robotics depends on human demonstrations, some of which people may later ask to remove.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "autonomy",
@@ -408,6 +570,22 @@
         "sensors"
       ],
       "excerpt": "A connected vehicle has roughly 100 milliseconds to decide whether an incoming Basic Safety Message is real or fabricated."
+    },
+    {
+      "source": "robotics",
+      "title": "Collective Ranking of Environmental Signals through Gaussian Belief Propagation in a Patrolling Robot Swarm",
+      "url": "https://arxiv.org/abs/2608.17690v1",
+      "date": "2026-08-18",
+      "published_at": "2026-08-18T12:06:31.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Multi-robot patrolling requires a team to visit all areas of an environment at regular intervals, typically minimising idleness.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "autonomy",
@@ -468,7 +646,8 @@
       "tags": [
         "security"
       ],
-      "excerpt": "Large language models (LLMs) are increasingly used to generate textual robot design specifications, interaction policies, and risk assessments during early-stage robot development."
+      "excerpt": "Large language models (LLMs) are increasingly used to generate textual robot design specifications, interaction policies, and risk assessments during early-stage robot development.",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -573,7 +752,24 @@
       "tags": [
         "security"
       ],
-      "excerpt": "Vision-Language-Action (VLA) models have shown strong capabilities in controlling robots across diverse manipulation tasks."
+      "excerpt": "Vision-Language-Action (VLA) models have shown strong capabilities in controlling robots across diverse manipulation tasks.",
+      "first_seen": null
+    },
+    {
+      "source": "robotics",
+      "title": "Agentic Harnesses: LLM-Driven Verification Layers for Robot Autonomy",
+      "url": "https://arxiv.org/abs/2608.09857v1",
+      "date": "2026-08-10",
+      "published_at": "2026-08-10T17:15:55.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "ros"
+      ],
+      "excerpt": "Advances in advanced artificial intelligence tools have sparked research in robot autonomy, but the development of such systems has largely focused on execution rather than…",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "autonomy",
@@ -618,7 +814,24 @@
       "tags": [
         "security"
       ],
-      "excerpt": "Large Language Models (LLMs) are increasingly used as high-level planners in embodied multi-robot systems, enabling robots to interpret natural language instructions and coordinate executable actions."
+      "excerpt": "Large Language Models (LLMs) are increasingly used as high-level planners in embodied multi-robot systems, enabling robots to interpret natural language instructions and coordinate executable actions.",
+      "first_seen": null
+    },
+    {
+      "source": "robotics",
+      "title": "Hijacking Robots with a Piece of Paper: A Systematic Study of Physical Prompt Injection in VLM-Controlled Robots",
+      "url": "https://arxiv.org/abs/2608.05715v1",
+      "date": "2026-08-06",
+      "published_at": "2026-08-06T07:52:55.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Vision-Language Models (VLMs) are increasingly deployed as planners in robotic systems, where they translate natural-language commands into executable actions grounded in visual scene understanding.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "robotics",
@@ -632,7 +845,8 @@
       "tags": [
         "security"
       ],
-      "excerpt": "Vision-Language-Action (VLA) policies promise general robotic manipulation, but their robustness against physical-world attacks remains fragile."
+      "excerpt": "Vision-Language-Action (VLA) policies promise general robotic manipulation, but their robustness against physical-world attacks remains fragile.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -647,7 +861,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Multi-agent systems (MAS) comprise autonomous software agents that collaborate to perform complex tasks in critical cyber-physical domains, including multi-robot coordination and the Industrial Internet of…"
+      "excerpt": "Multi-agent systems (MAS) comprise autonomous software agents that collaborate to perform complex tasks in critical cyber-physical domains, including multi-robot coordination and the Industrial Internet of…",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -662,7 +877,8 @@
         "security",
         "sensors"
       ],
-      "excerpt": "Deploying Vision-Language-Action (VLA) robots as mobile edge nodes within wireless sensor networks (WSNs) requires robust protection against physical adversarial threats."
+      "excerpt": "Deploying Vision-Language-Action (VLA) robots as mobile edge nodes within wireless sensor networks (WSNs) requires robust protection against physical adversarial threats.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -677,7 +893,8 @@
         "security",
         "sensors"
       ],
-      "excerpt": "Large language models are increasingly integrated into autonomous robotic systems for task planning and control, but this integration exposes them to prompt injection attacks that…"
+      "excerpt": "Large language models are increasingly integrated into autonomous robotic systems for task planning and control, but this integration exposes them to prompt injection attacks that…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -692,7 +909,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hey everyone!"
+      "excerpt": "Hey everyone!",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -706,7 +924,23 @@
       "tags": [
         "security"
       ],
-      "excerpt": "Humanoid roller-skating is difficult because the robot must coordinate whole-body balance, rolling contacts, and velocity-dependent posture regulation."
+      "excerpt": "Humanoid roller-skating is difficult because the robot must coordinate whole-body balance, rolling contacts, and velocity-dependent posture regulation.",
+      "first_seen": null
+    },
+    {
+      "source": "robotics",
+      "title": "Federated Trust for Embodied Robot Capability Marketplaces",
+      "url": "https://arxiv.org/abs/2609.00404v1",
+      "date": "2026-07-09",
+      "published_at": "2026-07-09T08:56:58.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Robot capability marketplaces, the \"app store for robot skills,\" are emerging as the deployment vector for LLM-driven robot fleets.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "robotics",
@@ -721,7 +955,38 @@
         "security",
         "sensors"
       ],
-      "excerpt": "The human body is at the center of a growing family of technologies designed to tightly and persistently couple biological and digital systems."
+      "excerpt": "The human body is at the center of a growing family of technologies designed to tightly and persistently couple biological and digital systems.",
+      "first_seen": null
+    },
+    {
+      "source": "robotics",
+      "title": "!Imperio, smolVLA: The Implications of Data Poisoning on Open Source Robotics",
+      "url": "https://arxiv.org/abs/2607.04146v1",
+      "date": "2026-07-05",
+      "published_at": "2026-07-05T07:14:56.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "This work establishes that trigger-word data poisoning of vision language action models is practical, while at the same time the open-source robotics ecosystem holds trust…",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
+      "source": "robotics",
+      "title": "Robots and the Public Finance of Disability Insurance",
+      "url": "https://arxiv.org/abs/2607.02892v1",
+      "date": "2026-07-03",
+      "published_at": "2026-07-03T02:40:05.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Automation affects public budgets through wages and the tax base, and also through inflows into social insurance.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "robotics",
@@ -735,7 +1000,38 @@
       "tags": [
         "security"
       ],
-      "excerpt": "Large Vision-Language Models (LVLMs) have been increasingly integrated into robotic systems."
+      "excerpt": "Large Vision-Language Models (LVLMs) have been increasingly integrated into robotic systems.",
+      "first_seen": null
+    },
+    {
+      "source": "robotics",
+      "title": "Sampling-Based Coordination-Informed Multi-Objective Multi-Robot Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2606.30893v2",
+      "date": "2026-06-29",
+      "published_at": "2026-06-29T20:31:03.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Multi-robot systems must simultaneously optimize competing objectives while maintaining coordinated behavior.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
+      "source": "robotics",
+      "title": "Physics Models for Sim-to-Real Transfer in Professional-Level Robot Table Tennis",
+      "url": "https://arxiv.org/abs/2606.28805v2",
+      "date": "2026-06-27",
+      "published_at": "2026-06-27T08:18:49.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "At competitive speeds and spins, a table tennis ball follows complex, counterintuitive trajectories that a robot must track and precisely counter within fractions of a…",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "robotics",
@@ -751,7 +1047,40 @@
         "ros",
         "sensors"
       ],
-      "excerpt": "We present RIPA, the first systematic multi-channel empirical study of prompt injection attacks delivered through the sensory pipeline of a ROS 2-based LLM-controlled robotic system."
+      "excerpt": "We present RIPA, the first systematic multi-channel empirical study of prompt injection attacks delivered through the sensory pipeline of a ROS 2-based LLM-controlled robotic system.",
+      "first_seen": null
+    },
+    {
+      "source": "robotics",
+      "title": "NavIsaacLab: Generating Realistic Crowd via Parallel Robot Learning for Benchmarking Human-aware Navigation",
+      "url": "https://arxiv.org/abs/2606.26265v1",
+      "date": "2026-06-24",
+      "published_at": "2026-06-24T18:08:19.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Robot autonomous navigation that accounts for surrounding human activities is crucial for ensuring both safety and natural human-robot interaction in real-world environments shared by humans…",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
+      "source": "robotics",
+      "title": "FLYNN: Robust Neural Network for Robot Navigation using Fly Brain Topology",
+      "url": "https://arxiv.org/abs/2607.00025v2",
+      "date": "2026-06-21",
+      "published_at": "2026-06-21T02:41:31.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "While deep learning models achieve state-of-the-art performance in complex tasks, they remain brittle when faced with new environments or sensory deprivation.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "ros",
@@ -766,7 +1095,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Posting on behalf of @arjo129 , maintainer of the gz-sim repo."
+      "excerpt": "Posting on behalf of @arjo129 , maintainer of the gz-sim repo.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -780,7 +1110,8 @@
       "tags": [
         "security"
       ],
-      "excerpt": "Foundation models are reshaping robotics by enabling robots to interpret open-ended instructions, reason over multimodal contexts, and operate in complex, open-world environments."
+      "excerpt": "Foundation models are reshaping robotics by enabling robots to interpret open-ended instructions, reason over multimodal contexts, and operate in complex, open-world environments.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -794,7 +1125,8 @@
       "tags": [
         "security"
       ],
-      "excerpt": "Learning-based policies are being considered to augment the dexterity of human surgeons in robot-assisted surgery."
+      "excerpt": "Learning-based policies are being considered to augment the dexterity of human surgeons in robot-assisted surgery.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -809,7 +1141,23 @@
         "security",
         "sensors"
       ],
-      "excerpt": "Diffusion-based action generation has become a foundational component of embodied AI, but its reliance on visual conditioning leaves deployed visuomotor policies vulnerable to adversarial manipulation."
+      "excerpt": "Diffusion-based action generation has become a foundational component of embodied AI, but its reliance on visual conditioning leaves deployed visuomotor policies vulnerable to adversarial manipulation.",
+      "first_seen": null
+    },
+    {
+      "source": "robotics",
+      "title": "Targeting World Models to Compromise Robot Learning Pipelines",
+      "url": "https://arxiv.org/abs/2606.09499v1",
+      "date": "2026-06-08",
+      "published_at": "2026-06-08T13:50:31.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "World models have recently seen a rapid growth in both their popularity and capability as more data efficient tools for generating robot training data or…",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "robotics",
@@ -823,7 +1171,8 @@
       "tags": [
         "security"
       ],
-      "excerpt": "In this work, we propose an agentic gamification framework for hazard-informed learning of robot safety policies through synthetic scenarios."
+      "excerpt": "In this work, we propose an agentic gamification framework for hazard-informed learning of robot safety policies through synthetic scenarios.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -838,7 +1187,23 @@
         "security",
         "sensors"
       ],
-      "excerpt": "Vision-language-action (VLA) models are gaining attention in robotics, yet their robustness to adversarial attacks remains largely unexplored."
+      "excerpt": "Vision-language-action (VLA) models are gaining attention in robotics, yet their robustness to adversarial attacks remains largely unexplored.",
+      "first_seen": null
+    },
+    {
+      "source": "robotics",
+      "title": "Auditing LLM-Governed Social Robots with Culture-Specific Moral Gradients",
+      "url": "https://arxiv.org/abs/2606.28345v1",
+      "date": "2026-06-02",
+      "published_at": "2026-06-02T10:22:53.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "LLM-governed social robots increasingly decide who receives real-world assistance first.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "robotics",
@@ -852,7 +1217,38 @@
       "tags": [
         "security"
       ],
-      "excerpt": "Robot localization systems are critical for autonomous navigation and safety."
+      "excerpt": "Robot localization systems are critical for autonomous navigation and safety.",
+      "first_seen": null
+    },
+    {
+      "source": "robotics",
+      "title": "RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2606.01600v2",
+      "date": "2026-06-01",
+      "published_at": "2026-06-01T02:56:09.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Video world models are increasingly used in robotic manipulation, yet existing benchmarks mostly evaluate them under valid, feasible, and safe instructions.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
+      "source": "robotics",
+      "title": "HyperSim: A Holistic Sim-To-Real Framework For Robust Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2605.26638v1",
+      "date": "2026-05-26",
+      "published_at": "2026-05-26T07:19:04.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Scaling data volume and diversity is critical for generalizing embodied intelligence.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "robotics",
@@ -866,7 +1262,23 @@
       "tags": [
         "security"
       ],
-      "excerpt": "Multi-agent systems powered by large foundation models (LFMs) are increasingly deployed to control industrial robots through natural language, creating deployments in which security failures produce…"
+      "excerpt": "Multi-agent systems powered by large foundation models (LFMs) are increasingly deployed to control industrial robots through natural language, creating deployments in which security failures produce…",
+      "first_seen": null
+    },
+    {
+      "source": "robotics",
+      "title": "Beyond Killer Robots: General AI Attitudes and Public Support for Military AI in Nine Countries",
+      "url": "https://arxiv.org/abs/2605.25196v1",
+      "date": "2026-05-24",
+      "published_at": "2026-05-24T17:55:58.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "AI-enabled military systems are a fixture of modern military conflict.",
+      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "robotics",
@@ -880,7 +1292,8 @@
       "tags": [
         "security"
       ],
-      "excerpt": "Recent research has demonstrated the potential of reinforcement learning in effective multi-robot collaboration, particularly in social dilemmas where robots face a trade-off between self-interest and…"
+      "excerpt": "Recent research has demonstrated the potential of reinforcement learning in effective multi-robot collaboration, particularly in social dilemmas where robots face a trade-off between self-interest and…",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -895,7 +1308,8 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Recent advances in Vision-Language Models (VLMs) facilitate a new class of embodied AI systems, where these models are integrated into physical platforms, e.g."
+      "excerpt": "Recent advances in Vision-Language Models (VLMs) facilitate a new class of embodied AI systems, where these models are integrated into physical platforms, e.g.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -910,7 +1324,8 @@
         "security",
         "sensors"
       ],
-      "excerpt": "Open-vocabulary embodied AI agents increasingly rely on vision-language models such as CLIP for object perception and task grounding."
+      "excerpt": "Open-vocabulary embodied AI agents increasingly rely on vision-language models such as CLIP for object perception and task grounding.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -940,7 +1355,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "In many robotic deployments, the network is treated as a trusted zone, or security is handled at the transport layer (SROS2/VPNs)."
+      "excerpt": "In many robotic deployments, the network is treated as a trusted zone, or security is handled at the transport layer (SROS2/VPNs).",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -955,7 +1371,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hi folks, Not the most enjoyable news to receive on a Friday night but security notices are best acted on quickly."
+      "excerpt": "Hi folks, Not the most enjoyable news to receive on a Friday night but security notices are best acted on quickly.",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -970,7 +1387,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hi ROS developers, Asking thoughts and ideas!"
+      "excerpt": "Hi ROS developers, Asking thoughts and ideas!",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -985,7 +1403,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hi ROS 2 developers and users, Do you have problems and burden how to manage the ROS 2 security enclaves with scaled robotics and robot…"
+      "excerpt": "Hi ROS 2 developers and users, Do you have problems and burden how to manage the ROS 2 security enclaves with scaled robotics and robot…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1000,7 +1419,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Unitree go1 Air, Pro, and MAX have had their inner MIT Cheetah released!"
+      "excerpt": "Unitree go1 Air, Pro, and MAX have had their inner MIT Cheetah released!",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1015,7 +1435,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hello, I’d like to gather some perspectives from the community regarding the use of code scanning tools such as SAST (Static Application Security Testing), DAST…"
+      "excerpt": "Hello, I’d like to gather some perspectives from the community regarding the use of code scanning tools such as SAST (Static Application Security Testing), DAST…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1030,7 +1451,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "We are looking for an engineering manager with a passion for open source robotics to lead our dedicated team working on ROS and related open…"
+      "excerpt": "We are looking for an engineering manager with a passion for open source robotics to lead our dedicated team working on ROS and related open…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1045,7 +1467,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Cyber security is a two-way street where both vendors and researchers must act responsibly and over the last few years we learned that doing security…"
+      "excerpt": "Cyber security is a two-way street where both vendors and researchers must act responsibly and over the last few years we learned that doing security…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1060,7 +1483,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Dear all, I’m happy to share the results of a cybersecurity research project I’ve been involved in for the past months and which results from…"
+      "excerpt": "Dear all, I’m happy to share the results of a cybersecurity research project I’ve been involved in for the past months and which results from…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1075,7 +1499,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hi, For those of you caring about security in ROS and in robotics in general, the following article might be of interest: robot cybersecurity, a…"
+      "excerpt": "Hi, For those of you caring about security in ROS and in robotics in general, the following article might be of interest: robot cybersecurity, a…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1090,7 +1515,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "This is an exciting opportunity for a software engineer passionate about open source software, Linux, security and robotics."
+      "excerpt": "This is an exciting opportunity for a software engineer passionate about open source software, Linux, security and robotics.",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1105,7 +1531,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hello folks, The next ROS Security Working Group meeting will be: Tue, Dec 15, 2020 2:00 PM UTC Google Workspace Google Meet: Online Web and…"
+      "excerpt": "Hello folks, The next ROS Security Working Group meeting will be: Tue, Dec 15, 2020 2:00 PM UTC Google Workspace Google Meet: Online Web and…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1120,7 +1547,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "![ros_readteaming_scenario](upload://fQGKmIvzcouKV1drsOymMQBg4Q7.png) TL;DR, we challenge the cyber security status of ROS and ROS-Industrial packages within Melodic experimentally by a) constructing a synthetic industrial scenario, b) hardening…"
+      "excerpt": "![ros_readteaming_scenario](upload://fQGKmIvzcouKV1drsOymMQBg4Q7.png) TL;DR, we challenge the cyber security status of ROS and ROS-Industrial packages within Melodic experimentally by a) constructing a synthetic industrial scenario, b) hardening…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1135,7 +1563,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hey folks."
+      "excerpt": "Hey folks.",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1150,7 +1579,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "We had the regularly-sheduled security WG meeting today."
+      "excerpt": "We had the regularly-sheduled security WG meeting today.",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1165,7 +1595,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "I’m pleased to announce that the Center for Internet Security (CIS) has publicly released the ROS Security Benchmark for community discussion."
+      "excerpt": "I’m pleased to announce that the Center for Internet Security (CIS) has publicly released the ROS Security Benchmark for community discussion.",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1180,7 +1611,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "During a TSC last year (minutes) Apex and TierIV proposed doing a threat modelling of the Autoware project."
+      "excerpt": "During a TSC last year (minutes) Apex and TierIV proposed doing a threat modelling of the Autoware project.",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1195,7 +1627,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hello folks, The next ROS 2 Security Working Group meeting will be Tue, Apr 28, 2020 4:00 PM UTC → Tue, Apr 28, 2020 4:30…"
+      "excerpt": "Hello folks, The next ROS 2 Security Working Group meeting will be Tue, Apr 28, 2020 4:00 PM UTC → Tue, Apr 28, 2020 4:30…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1210,7 +1643,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hello all, The next ROS 2 Security Working Group will be Tue, Apr 14, 2020 9:00 PM UTC, via Hangouts Meet or by phone at…"
+      "excerpt": "Hello all, The next ROS 2 Security Working Group will be Tue, Apr 14, 2020 9:00 PM UTC, via Hangouts Meet or by phone at…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1225,7 +1659,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hey everyone."
+      "excerpt": "Hey everyone.",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1240,7 +1675,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hey everyone."
+      "excerpt": "Hey everyone.",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1255,7 +1691,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hey folk roboticists, Are you planning to be in Málaga (Spain) for European Robotics Forum from 3r March on?"
+      "excerpt": "Hey folk roboticists, Are you planning to be in Málaga (Spain) for European Robotics Forum from 3r March on?",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1271,7 +1708,8 @@
         "ros",
         "sensors"
       ],
-      "excerpt": "======================================================================== Call for Demos and Work-in-Progress Workshop on Security and Privacy in Robotics co-located with ICRA 2020 (http://icra2020.org/) https://www.icra2020.org/program/workshops-and-tutorials Paris, France May 31, 2020 ========================================================================…"
+      "excerpt": "======================================================================== Call for Demos and Work-in-Progress Workshop on Security and Privacy in Robotics co-located with ICRA 2020 (http://icra2020.org/) https://www.icra2020.org/program/workshops-and-tutorials Paris, France May 31, 2020 ========================================================================…",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1286,7 +1724,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hey everyone."
+      "excerpt": "Hey everyone.",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1301,7 +1740,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hey everyone."
+      "excerpt": "Hey everyone.",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1316,7 +1756,8 @@
         "security",
         "ros"
       ],
-      "excerpt": "Hi!"
+      "excerpt": "Hi!",
+      "first_seen": null
     },
     {
       "source": "ros",
@@ -1332,7 +1773,8 @@
         "ros",
         "sensors"
       ],
-      "excerpt": "Dear roboticists, For those of you awaiting Survey Results, attached below a blogpost summarizing some of the preliminary results and first conclusions out of the…"
+      "excerpt": "Dear roboticists, For those of you awaiting Survey Results, attached below a blogpost summarizing some of the preliminary results and first conclusions out of the…",
+      "first_seen": null
     }
   ]
 }
