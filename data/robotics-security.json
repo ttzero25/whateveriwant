@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-11T01:08:01.377Z",
+  "attempted_at": "2026-09-12T01:09:06.307Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-09-11T01:08:01.377Z",
-      "last_success": "2026-09-11T01:08:01.377Z",
+      "attempted_at": "2026-09-12T01:09:06.307Z",
+      "last_success": "2026-09-12T01:09:06.307Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-09-11T01:08:01.377Z"
+          "last_success": "2026-09-12T01:09:06.307Z"
         }
       ],
       "count": 30
@@ -32,9 +32,9 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-09-11T01:08:01.377Z",
+      "attempted_at": "2026-09-12T01:09:06.307Z",
       "last_success": "2026-09-11T01:08:01.377Z",
-      "status": "ok",
+      "status": "error",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
@@ -53,7 +53,7 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-09-11T01:08:01.377Z",
+      "attempted_at": "2026-09-12T01:09:06.307Z",
       "last_success": "2026-09-10T12:59:51.983Z",
       "status": "error",
       "endpoints": [

@@ -1,5 +1,5 @@
 {
-  "attempted_at": "2026-09-11T01:08:26.603Z",
+  "attempted_at": "2026-09-12T01:09:31.497Z",
   "sources": [
     {
       "id": "acm-ccs",
@@ -7,8 +7,8 @@
       "year": 2026,
       "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
       "status": "ok",
-      "attempted_at": "2026-09-11T01:08:26.603Z",
-      "last_success": "2026-09-11T01:08:26.603Z",
+      "attempted_at": "2026-09-12T01:09:31.497Z",
+      "last_success": "2026-09-12T01:09:31.497Z",
       "matched_count": 3
     },
     {
@@ -17,8 +17,8 @@
       "year": 2026,
       "url": "https://sp2026.ieee-security.org/accepted-papers.html",
       "status": "ok",
-      "attempted_at": "2026-09-11T01:08:26.603Z",
-      "last_success": "2026-09-11T01:08:26.603Z",
+      "attempted_at": "2026-09-12T01:09:31.497Z",
+      "last_success": "2026-09-12T01:09:31.497Z",
       "matched_count": 1
     },
     {
@@ -27,8 +27,8 @@
       "year": 2026,
       "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
       "status": "ok",
-      "attempted_at": "2026-09-11T01:08:26.603Z",
-      "last_success": "2026-09-11T01:08:26.603Z",
+      "attempted_at": "2026-09-12T01:09:31.497Z",
+      "last_success": "2026-09-12T01:09:31.497Z",
       "matched_count": 6
     },
     {
@@ -37,7 +37,7 @@
       "year": 2026,
       "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
       "status": "error",
-      "attempted_at": "2026-09-11T01:08:26.603Z",
+      "attempted_at": "2026-09-12T01:09:31.497Z",
       "last_success": "2026-09-10T13:21:20.125Z",
       "matched_count": 3
     },
@@ -47,7 +47,7 @@
       "year": 2026,
       "url": "https://www.usenix.org/conference/vehiclesec26/technical-sessions",
       "status": "error",
-      "attempted_at": "2026-09-11T01:08:26.603Z",
+      "attempted_at": "2026-09-12T01:09:31.497Z",
       "last_success": "2026-09-10T13:21:20.125Z",
       "matched_count": 26
     },
@@ -58,8 +58,8 @@
       "url": "https://www.sigsac.org/ccs/CCS2025/accepted-papers/",
       "feed": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
       "status": "ok",
-      "attempted_at": "2026-09-11T01:08:26.603Z",
-      "last_success": "2026-09-11T01:08:26.603Z",
+      "attempted_at": "2026-09-12T01:09:31.497Z",
+      "last_success": "2026-09-12T01:09:31.497Z",
       "matched_count": 6
     },
     {
@@ -68,8 +68,8 @@
       "year": 2025,
       "url": "https://sp2025.ieee-security.org/accepted-papers.html",
       "status": "ok",
-      "attempted_at": "2026-09-11T01:08:26.603Z",
-      "last_success": "2026-09-11T01:08:26.603Z",
+      "attempted_at": "2026-09-12T01:09:31.497Z",
+      "last_success": "2026-09-12T01:09:31.497Z",
       "matched_count": 1
     },
     {
@@ -78,8 +78,8 @@
       "year": 2025,
       "url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
       "status": "ok",
-      "attempted_at": "2026-09-11T01:08:26.603Z",
-      "last_success": "2026-09-11T01:08:26.603Z",
+      "attempted_at": "2026-09-12T01:09:31.497Z",
+      "last_success": "2026-09-12T01:09:31.497Z",
       "matched_count": 7
     },
     {
@@ -88,7 +88,7 @@
       "year": 2025,
       "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
       "status": "error",
-      "attempted_at": "2026-09-11T01:08:26.603Z",
+      "attempted_at": "2026-09-12T01:09:31.497Z",
       "last_success": "2026-09-10T13:21:20.125Z",
       "matched_count": 6
     },
@@ -98,7 +98,7 @@
       "year": 2025,
       "url": "https://www.usenix.org/conference/vehiclesec25/technical-sessions",
       "status": "error",
-      "attempted_at": "2026-09-11T01:08:26.603Z",
+      "attempted_at": "2026-09-12T01:09:31.497Z",
       "last_success": "2026-09-10T13:21:20.125Z",
       "matched_count": 28
     },
@@ -108,8 +108,8 @@
       "year": 2024,
       "url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
       "status": "ok",
-      "attempted_at": "2026-09-11T01:08:26.603Z",
-      "last_success": "2026-09-11T01:08:26.603Z",
+      "attempted_at": "2026-09-12T01:09:31.497Z",
+      "last_success": "2026-09-12T01:09:31.497Z",
       "matched_count": 6
     }
   ],

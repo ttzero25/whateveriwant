@@ -65,8 +65,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-09-11T01:07:57.279Z",
-    "last_success": "2026-09-11T01:07:57.279Z"
+    "attempted_at": "2026-09-12T01:09:02.725Z",
+    "last_success": "2026-09-12T01:09:02.725Z"
   },
   {
     "id": "usenix-security",
@@ -134,7 +134,7 @@
     ],
     "matched_count": 55,
     "status": "error",
-    "attempted_at": "2026-09-11T01:07:57.279Z",
+    "attempted_at": "2026-09-12T01:09:02.725Z",
     "last_success": "2026-09-10T11:34:53.014Z"
   },
   {
@@ -203,8 +203,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-09-11T01:07:57.279Z",
-    "last_success": "2026-09-11T01:07:57.279Z"
+    "attempted_at": "2026-09-12T01:09:02.725Z",
+    "last_success": "2026-09-12T01:09:02.725Z"
   },
   {
     "id": "ndss",
@@ -272,8 +272,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-09-11T01:07:57.279Z",
-    "last_success": "2026-09-11T01:07:57.279Z"
+    "attempted_at": "2026-09-12T01:09:02.725Z",
+    "last_success": "2026-09-12T01:09:02.725Z"
   },
   {
     "id": "icml",
@@ -342,7 +342,7 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-09-11T01:07:57.279Z",
-    "last_success": "2026-09-11T01:07:57.279Z"
+    "attempted_at": "2026-09-12T01:09:02.725Z",
+    "last_success": "2026-09-12T01:09:02.725Z"
   }
 ]

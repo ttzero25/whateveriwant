@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-11T01:08:27.794Z",
+  "attempted_at": "2026-09-12T01:09:32.753Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-11T01:08:27.794Z",
-      "last_success": "2026-09-11T01:08:27.794Z",
+      "attempted_at": "2026-09-12T01:09:32.753Z",
+      "last_success": "2026-09-12T01:09:32.753Z",
       "status": "ok",
-      "count": 21
+      "count": 28
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-11T01:08:27.794Z",
-      "last_success": "2026-09-11T01:08:27.794Z",
+      "attempted_at": "2026-09-12T01:09:32.753Z",
+      "last_success": "2026-09-12T01:09:32.753Z",
       "status": "ok",
-      "count": 21
+      "count": 23
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-11T01:08:27.794Z",
-      "last_success": "2026-09-11T01:08:27.794Z",
+      "attempted_at": "2026-09-12T01:09:32.753Z",
+      "last_success": "2026-09-12T01:09:32.753Z",
       "status": "ok",
-      "count": 38
+      "count": 45
     },
     {
       "id": "cisa",
@@ -60,13 +60,242 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-11T01:08:27.794Z",
+      "attempted_at": "2026-09-12T01:09:32.753Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 현대차 협력사도 해킹… 韓 기업 공급망 위협 공포 확산",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145781",
+      "published_at": "2026-09-11T23:50:12.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "한국 주요 기업 협력사나 계열사, 해외 법인 등을 노린 공급망 공격에 대한 공포가 확산되고 있다.11일 보안 업계에 따르면 현대차 주요 부품 협력사인 A사는 최근 사이버…",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+      "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+      "published_at": "2026-09-11T16:30:18.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure.",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+      "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+      "published_at": "2026-09-11T14:29:47.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December…",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+      "url": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+      "published_at": "2026-09-11T11:30:00.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "Security teams have become exceptionally talented at finding vulnerabilities.",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[2026 위협 인텔리전스 리포트] 사이버 전장 나침반 ‘위협 인텔리전스’(TI), AI 시대 보안 인프라로 진화",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145799",
+      "published_at": "2026-09-11T10:45:06.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "카스퍼스키는 최근 북한 연계 위협 그룹 김수키가 악성코드 제작에 생성형 AI를 활용한 정황이 포착됐다고 밝혔다.",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "옵스왓·인섹시큐리티, N²SF 대응 소프트웨어 공급망 통합 보안 세미나 개최",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208407",
+      "published_at": "2026-09-11T09:57:39.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "인섹시큐리티(대표 김종광)는 글로벌 주요 인프라 보호 전문기업 옵스왓(OPSWAT)과 오는 10월 14일 오후 2시부터 5시까지 서울 독산동 인섹시큐리티 교육센터에서 ‘N²SF 규제 대응을 위한 소프트웨어 공급망 통합…",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "금융보안원, 보이스피싱 대응 ‘ASAP 활용 설명회’ 개최",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208406",
+      "published_at": "2026-09-11T09:50:06.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "금융보안원(원장 박상원)은 11일 서울 여의도 금융투자협회 불스홀에서 금융회사와 가상자산거래소 실무담당자 약 200명을 대상으로 ‘ASAP 활용 설명회’를 개최했다.ASAP은 보이스피싱 관련 정보를 금융권과 관계기관이 공유·분석할 수 있도록…",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "개인정보위, ‘구글’ 디지털성범죄 피해정보 유출 조사 신속 추진",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145798",
+      "published_at": "2026-09-11T08:46:33.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "개인정보보호위원회(위원장 송경희, 개인정보위)는 ‘구글에 제공된 디지털성범죄물 관련 삭제 요청사항이 외부 웹사이트에 공개되었다’는 언론 보도에 따라 지난 7일 구글 측에 사실관계 확인을 위한 자료제출을 요구하는 등…",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[속담으로 배우는 100가지 보안 습관 99] 아는 것이 힘이다(9)-카페에서 노트북 두고 가면 생기는 일",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=144253",
+      "published_at": "2026-09-11T07:40:00.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다.",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+      "url": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+      "published_at": "2026-09-11T07:31:05.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant…",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+      "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+      "published_at": "2026-09-11T07:14:09.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to…",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
+      "url": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
+      "published_at": "2026-09-11T06:46:18.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that…",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+      "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+      "published_at": "2026-09-11T06:19:59.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC)…",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "GTA 6 유출본 미끼로 악성코드 4종 한꺼번에 감염시키는 공격 발견",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145794",
+      "published_at": "2026-09-11T05:53:24.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "사이버 공격자들이 게임 ‘그랜드 테프트 오토 6’(GTA 6)를 미리 해 보려는 이용자들을 노려 가짜 설치 파일에 악성코드 네 종을 담아 뿌리고 있다.",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "24시간 내 신고 및 글로벌 매출 2.5% 과징금... EU 사이버복원력법 보고 의무 11일 발효",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145788",
+      "published_at": "2026-09-11T02:53:48.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "유럽연합 회원국에서 사업하는 기업들은 취약점 악용이나 보안 사고 발견 시 24시간 내로 신고해야 한다.",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[배종찬의 보안 빅데이터] 민감 정보까지 털린 ‘강남언니’ 개인정보 유출",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145784",
+      "published_at": "2026-09-11T02:00:00.000Z",
+      "date": "2026-09-11",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "2026년 9월 7일과 8일 양일간 빅데이터 분석 플랫폼 썸트렌드(SomeTrend)가 집계한 연관어 분석에 따르면, 대표적 미용·의료 플랫폼인 ‘강남언니’와 운영사 ‘힐링페이퍼’ 주변에 ‘개인정보유출’, ‘사고’, ‘api’, ‘홈페이지’라는 불안한…",
+      "first_seen": "2026-09-12T01:09:32.753Z"
+    },
     {
       "source": "thehackernews",
       "region": "global",
