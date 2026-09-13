@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-12T01:09:32.753Z",
+  "attempted_at": "2026-09-13T01:03:27.961Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-12T01:09:32.753Z",
-      "last_success": "2026-09-12T01:09:32.753Z",
+      "attempted_at": "2026-09-13T01:03:27.961Z",
+      "last_success": "2026-09-13T01:03:27.961Z",
       "status": "ok",
-      "count": 28
+      "count": 30
     },
     {
       "id": "dailysecu",
@@ -29,8 +29,8 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-12T01:09:32.753Z",
-      "last_success": "2026-09-12T01:09:32.753Z",
+      "attempted_at": "2026-09-13T01:03:27.961Z",
+      "last_success": "2026-09-13T01:03:27.961Z",
       "status": "ok",
       "count": 23
     },
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-12T01:09:32.753Z",
-      "last_success": "2026-09-12T01:09:32.753Z",
+      "attempted_at": "2026-09-13T01:03:27.961Z",
+      "last_success": "2026-09-13T01:03:27.961Z",
       "status": "ok",
-      "count": 45
+      "count": 47
     },
     {
       "id": "cisa",
@@ -60,13 +60,70 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-12T01:09:32.753Z",
+      "attempted_at": "2026-09-13T01:03:27.961Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+      "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+      "published_at": "2026-09-12T15:54:45.000Z",
+      "date": "2026-09-12",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "The U.S.",
+      "first_seen": "2026-09-13T01:03:27.961Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+      "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+      "published_at": "2026-09-12T09:07:56.000Z",
+      "date": "2026-09-12",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published…",
+      "first_seen": "2026-09-13T01:03:27.961Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "엔키화이트햇, 금융보안워크숍서 AI 위협 선제 대응 위한 ‘레드티밍’ 사례 발표",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145801",
+      "published_at": "2026-09-12T06:30:00.000Z",
+      "date": "2026-09-12",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "엔키화이트햇이 지난 11일 서울 여의도 FKI타워에서 열린 ‘제5회 금융보안워크숍’에 참가해 실제 금융권 레드티밍 사례를 바탕으로 고도화되는 인공지능(AI) 사이버 위협에 대한 선제적 대응 방안을 제시했다.",
+      "first_seen": "2026-09-13T01:03:27.961Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "러시아 지원 해커 조직, 보안 탐지 피하려 AI ‘클로드’ 악용... \"방어망 무력화\"",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145800",
+      "published_at": "2026-09-12T06:00:00.000Z",
+      "date": "2026-09-12",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "러시아 정부의 지원을 받는 해킹 그룹이 사이버 보안 시스템의 탐지를 피하기 위해 인공지능(AI) 모델 ‘클로드’(Claude)를 악용한 사실이 밝혀졌다.AI 기업 앤트로픽(Anthropic)은 클로드를 활용해 악성코드 개발 및…",
+      "first_seen": "2026-09-13T01:03:27.961Z"
+    },
     {
       "source": "boannews",
       "region": "kr",
