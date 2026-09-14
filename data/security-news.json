@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-13T01:03:27.961Z",
+  "attempted_at": "2026-09-14T01:09:10.515Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-13T01:03:27.961Z",
-      "last_success": "2026-09-13T01:03:27.961Z",
+      "attempted_at": "2026-09-14T01:09:10.515Z",
+      "last_success": "2026-09-14T01:09:10.515Z",
       "status": "ok",
-      "count": 30
+      "count": 35
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-13T01:03:27.961Z",
-      "last_success": "2026-09-13T01:03:27.961Z",
+      "attempted_at": "2026-09-14T01:09:10.515Z",
+      "last_success": "2026-09-14T01:09:10.515Z",
       "status": "ok",
-      "count": 23
+      "count": 45
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-13T01:03:27.961Z",
-      "last_success": "2026-09-13T01:03:27.961Z",
+      "attempted_at": "2026-09-14T01:09:10.515Z",
+      "last_success": "2026-09-14T01:09:10.515Z",
       "status": "ok",
-      "count": 47
+      "count": 48
     },
     {
       "id": "cisa",
@@ -60,13 +60,416 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-13T01:03:27.961Z",
+      "attempted_at": "2026-09-14T01:09:10.515Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "S2W, 정부 주도 ‘보안 특화 AI 파운데이션 모델’ 개발 합류",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145808",
+      "published_at": "2026-09-14T00:05:51.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "에스투더블유(S2W)가 과학기술정보통신부와 정보통신산업진흥원(NIPA)이 주관하는 ‘특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업’에 참여한다고 14일 밝혔다.최근 AI가 사이버 위협의 속도와 정교함을 높이는 동시에 탐지 및 대응…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "중국 연계 해커, ‘Sogou 입력기’ 취약점 실제 악용…클릭 한 번에 백도어 설치",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208433",
+      "published_at": "2026-09-13T23:24:39.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "중국 연계 해킹그룹이 중국에서 널리 사용되는 윈도우용 중국어 입력기 ‘Sogou Input Method’의 취약점을 실제 공격에 악용한 것으로 확인됐다.공격그룹 UNC3569는 Sogou Input Method의 원격코드실행 취약점인 CVE-2026-51990을…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김승주 교수 칼럼] 보안 부채를 청산할 '쥐잡기의 날'이 필요하다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208428",
+      "published_at": "2026-09-13T23:00:00.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "지난해 연이은 해킹 사고로 국회에 참고인으로 불려가 거의 살다시피 하던 시기에 기자분들께 이런 말씀을 자주 드렸다.\"2025년에 유독 해킹이 많이 발생한 것이 아닙니다.",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+      "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+      "published_at": "2026-09-13T10:11:48.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "incident",
+        "phishing"
+      ],
+      "excerpt": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "최근 6년간 산업계 사이버침해 8000건 이상... 대부분 ‘중소기업’",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145807",
+      "published_at": "2026-09-13T07:40:22.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "최근 6년간 기업이 당국에 신고한 사이버 침해사고가 8,500건을 넘어선 것으로 나타났다.",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 파수AI 강봉호 본부장 “AI 전환의 출발점은 신뢰할 수 있는 데이터 인프라”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208431",
+      "published_at": "2026-09-13T07:05:28.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "CISA, 해커가 악용 중인 깃랩(GitLab) 치명적 취약점 경고",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145804",
+      "published_at": "2026-09-13T07:00:00.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "깃랩(GitLab) 커뮤니티 에디션(CE)과 엔터프라이즈 에디션(EE) 배포판에 영향을 미치며, 공통 취약점 등급 시스템(CVSS)에서 최고점인 10.0 만점을 기록할 정도로 위험도가 매우 높은 취약점이 발견돼 사용자들의 주의가 요구된다.미국…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 굿모닝아이텍 “제3자 리스크, 협력사 점검 아닌 전체 공급망 관리로 전환해야”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208430",
+      "published_at": "2026-09-13T06:50:27.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 웨비즘 전상훈 대표 “점 단위 보안에서 면 단위 방어로…외부 공격면 상시 관리해야”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208426",
+      "published_at": "2026-09-13T06:10:50.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 지난 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 익스웨어랩스 윤영 대표 “AI 바이브 코딩 확산, 기존에 없던 새로운 공격표면 만든다”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208425",
+      "published_at": "2026-09-13T06:01:22.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 시큐레터 임차성 대표 “AI 공격의 핵심 침투 경로는 문서…콘텐츠 무해화가 최선 방어선”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208424",
+      "published_at": "2026-09-13T05:51:56.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 78리서치랩 김경동 대표 “AI 공격 시대, 보안도 ‘상시 검증’ 체계로 바꿔야”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208423",
+      "published_at": "2026-09-13T05:40:07.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 지난 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 엑소스피어랩스 박상호 대표 “사람에서 AI까지…제로트러스트 신뢰 범위 넓혀야”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208422",
+      "published_at": "2026-09-13T05:29:42.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 파이오링크 연기찬 책임 “AI 기반 정책 자동화로 제로트러스트 운영 복잡성 낮춰야”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208421",
+      "published_at": "2026-09-13T05:14:50.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 세일포인트 김환일 컨설턴트 “사람 중심 아이덴티티 보안, AI 에이전트까지 확장해야”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208420",
+      "published_at": "2026-09-13T05:02:16.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[속담으로 배우는 100가지 보안 습관 100] 아는 것이 힘이다(10)-명함 앱도 정보 유출 통로가 된다",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=144254",
+      "published_at": "2026-09-13T05:00:00.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다.",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 엔키화이트햇 김영운 연구원 “2026년 북한 김수키 해킹그룹, 스피어피싱 넘어 지속성 확보에 집중”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208419",
+      "published_at": "2026-09-13T04:52:10.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "incident",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 타이거팀 황석훈 대표 “에이전틱 AI SOC, 완전자율보다 ‘증명 가능한 자율’이 먼저”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208418",
+      "published_at": "2026-09-13T04:07:27.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] TLP블랙 코스틴 라이우 CEO “공격자도 AI 활용…방화벽·VPN이 기업 침투의 출발점 되고 있다”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208417",
+      "published_at": "2026-09-13T03:56:28.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 스텔스몰 서승우 매니저 “다크웹에 노출된 계정이 랜섬웨어 침해의 출발점 될 수 있어”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208416",
+      "published_at": "2026-09-13T03:42:34.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "incident",
+        "malware",
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 티사이언티픽 이종규 이사 “AI 경쟁력은 모델보다 데이터…비정형 데이터 통제가 핵심”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208415",
+      "published_at": "2026-09-13T03:33:45.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 이로운앤컴퍼니 윤두식 대표 “공공 AI, 활용·보안·비용 한곳에서 관리해야”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208414",
+      "published_at": "2026-09-13T03:22:19.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 박진성 한매에스티 부사장 “소프트웨어 공급망 보안, 탐지에서 예방으로 전환해야”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208413",
+      "published_at": "2026-09-13T03:03:45.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 최종보 LG유플러스 보안사업담당 “통신망과 보안을 하나로”…AI·SASE·아이덴티티 아우르는 통합 보안 전략 공개",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208412",
+      "published_at": "2026-09-13T02:41:30.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 지난 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 패스틀리(Fastly) “AI는 이미 웹 트래픽 안에 있다…보안과 회복탄력성 함께 설계해야”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208411",
+      "published_at": "2026-09-13T01:47:26.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] 펜타린크 “정상 계정도 계속 검증해야”…AI로 진화하는 시스템 접근보안",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208410",
+      "published_at": "2026-09-13T01:32:03.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[KCSCON 2026] Securiti AI 박인우 리드 “통제되지 않은 데이터 위에 신뢰할 수 있는 AI 없다”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208409",
+      "published_at": "2026-09-13T01:15:15.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "LG U+, 추석 연휴 앞두고 보이스피싱 긴급 대응 체계 가동",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145797",
+      "published_at": "2026-09-13T00:00:00.000Z",
+      "date": "2026-09-13",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "LG유플러스가 추석 연휴를 앞두고 보이스피싱·스미싱 등으로부터 고객을 보호하기 위해 AI 기반 ‘고객피해방지 분석시스템’(Secure.AI+)을 중심으로 24시간 특별 대응 체계를 가동한다고 13일 밝혔다.명절 기간에는 ‘추석 선물 택배를…",
+      "first_seen": "2026-09-14T01:09:10.515Z"
+    },
     {
       "source": "thehackernews",
       "region": "global",
