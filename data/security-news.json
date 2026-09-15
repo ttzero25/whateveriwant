@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-14T01:09:10.515Z",
+  "attempted_at": "2026-09-15T01:30:58.514Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-14T01:09:10.515Z",
-      "last_success": "2026-09-14T01:09:10.515Z",
+      "attempted_at": "2026-09-15T01:30:58.514Z",
+      "last_success": "2026-09-15T01:30:58.514Z",
       "status": "ok",
-      "count": 35
+      "count": 48
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-14T01:09:10.515Z",
-      "last_success": "2026-09-14T01:09:10.515Z",
+      "attempted_at": "2026-09-15T01:30:58.514Z",
+      "last_success": "2026-09-15T01:30:58.514Z",
       "status": "ok",
-      "count": 45
+      "count": 63
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-14T01:09:10.515Z",
-      "last_success": "2026-09-14T01:09:10.515Z",
+      "attempted_at": "2026-09-15T01:30:58.514Z",
+      "last_success": "2026-09-15T01:30:58.514Z",
       "status": "ok",
-      "count": 48
+      "count": 52
     },
     {
       "id": "cisa",
@@ -60,13 +60,515 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-14T01:09:10.515Z",
+      "attempted_at": "2026-09-15T01:30:58.514Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "영암군, 데이터·디지털 기반 스마트도시 정책으로 국토부 장관상",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145841",
+      "published_at": "2026-09-15T00:55:00.000Z",
+      "date": "2026-09-15",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "전남광주통합특별시 영암군(군수 우승희)이 ‘2026 대한민국 도시대상’ 우수정책 부문에서 국토교통부 장관상(기관표창)을 받았다.영암군은 부산 벡스코에서 열린 ‘2026 월드스마트시티 엑스포’에서 국토교통부와 국토연구원이 주관한 대한민국 도시대상 스마트도시 정책 분야…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "앱 180만개 통째로 뜯어 봤다... 해커, 클로드로 개발자가 흘린 인증 정보 쓸어담아",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145845",
+      "published_at": "2026-09-15T00:54:05.000Z",
+      "date": "2026-09-15",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "해커 그룹 샤이니헌터스(ShinyHunters) 생태계와 연결된 범죄자들이 클로드를 이용해 안드로이드 앱 180만개를 내려받고 분석해 앱 안에 담겨 있던 자격 증명을 긁어냈다.앤트로픽이 최근 발표한 위협 인텔리전스 보고서에서…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김혁준의 실전형 K-시큐리티] 보이지 않는 위협, ‘선제적 방어’로 전환해야",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145829",
+      "published_at": "2026-09-14T23:30:00.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "사이버 공격으로 홈페이지가 몇 시간 동안 멈추는 것과 국방·방산 첨단기술이나 통신 인증정보가 수년간 조용히 유출되는 것은 피해의 차원이 다르다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "스플래시탑, AI 기반 사기 방지 솔루션 ‘스플래시탑 쉴드’ 출시",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145839",
+      "published_at": "2026-09-14T23:04:21.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "스플래시탑(Splashtop)이 개인과 가족을 위한 인공지능(AI) 기반 보안 솔루션 ‘스플래시탑 쉴드’(Splashtop Shield)을 출시했다고 14일 밝혔다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+      "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+      "published_at": "2026-09-14T18:01:49.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+      "url": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+      "published_at": "2026-09-14T17:58:16.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "패스틀리, KCSCON 2026서 AI 트래픽 시대 보안 전략 제시…“AI 봇 급증…웹·API 보안 전략 바꿔야”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208470",
+      "published_at": "2026-09-14T17:09:36.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "인공지능(AI) 크롤러와 봇, 자율형 AI 에이전트가 인터넷 트래픽의 주요 주체로 부상하면서 웹 보안의 기준도 달라지고 있다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "78리서치랩, KCSCON 2026서 AI 기반 BAS 공개…최신 취약점·악성코드 공격 시나리오 자동 생성",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208469",
+      "published_at": "2026-09-14T16:57:50.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "생성형 AI가 사이버 공격의 속도와 자동화 수준을 끌어올리면서 기업 보안 체계도 ‘보안 솔루션을 갖추고 있는가’에서 ‘실제 공격을 제대로 막을 수 있는가’를 지속적으로 검증하는 방향으로 전환되고…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "published_at": "2026-09-14T16:56:30.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "한매에스티, KCSCON 2026서 체인가드 공개…오픈소스 취약점 사전 차단 전략 강조",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208468",
+      "published_at": "2026-09-14T16:26:31.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "소프트웨어 개발 과정에서 오픈소스 사용이 빠르게 늘면서 기업의 보안 과제도 달라지고 있다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "파이오링크, KCSCON 2026서 ‘티프론트 ZT’ 선보여…AI로 제로트러스트 정책 운영 간소화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208466",
+      "published_at": "2026-09-14T16:07:01.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "네트워크·보안 전문기업 파이오링크(대표 조영철)가 기존 네트워크 운영 환경을 크게 바꾸지 않으면서 내부망을 세밀하게 통제할 수 있는 보안스위치 기반 제로트러스트 솔루션을 앞세워 공공·기업 시장 공략을 강화하고…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "파수 AI, KCSCON 2026서 ‘엘름·마인드셋·랩소디’ 공개…안전한 AX 전략 제시",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208465",
+      "published_at": "2026-09-14T15:59:18.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "파수 AI(대표 조규곤)가 생성형 AI와 AI 에이전트 도입이 확대되는 기업 환경에 맞춰 AI 플랫폼부터 데이터 관리, 보안까지 연결하는 ‘안전한 AX(AI Transformation)’ 전략을 강화하고 있다.파수 AI는…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "티사이언티픽, AI로 문맥 속 개인정보까지 찾는다…‘P3R-Privacy Finder AI’ 공개",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208464",
+      "published_at": "2026-09-14T15:54:04.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "생성형 AI와 메신저, 협업 시스템 사용이 늘면서 기업이 관리해야 할 개인정보의 형태도 빠르게 변하고 있다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "타이거팀, SOC 오탐 줄이는 ‘에이전틱 AI’ VARO-AX 공개…“분석가는 진짜 위협에 집중해야”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208463",
+      "published_at": "2026-09-14T15:49:14.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "보안관제센터(SOC)의 가장 큰 고민 가운데 하나는 쏟아지는 경보를 일일이 확인해야 한다는 점이다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "지란지교소프트 ‘오피스키퍼 EP’, 프롬프트·이메일 본문까지 실시간 민감정보 통제",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208462",
+      "published_at": "2026-09-14T15:44:31.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "기업 업무 환경에 생성형 AI 활용이 빠르게 확산되면서 기존 파일 중심의 정보유출방지(DLP) 체계만으로는 보호하기 어려운 새로운 데이터 경로가 생겨나고 있다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "엘세븐시큐리티, 이미지 속 개인정보까지 잡는다…AI OCR 기반 차단·마스킹 기술 공개",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208458",
+      "published_at": "2026-09-14T15:21:11.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "기업과 공공기관이 보유한 개인정보가 문서와 이미지, PDF, 스캔 파일 등 다양한 형태로 쌓이면서 기존 텍스트 기반 개인정보 탐지만으로는 유출 위험을 충분히 관리하기 어려워지고 있다.특히 신분증이나…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "엔키화이트햇, KCSCON 2026서 ‘OFFen·AI DAST’ 공개…AI로 침투테스트 자동화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208457",
+      "published_at": "2026-09-14T15:11:52.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "오펜시브 보안 전문기업 엔키화이트햇(대표 이성권)이 지난 9월 8일 서울 세종대학교 컨벤션센터에서 열린 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’에서 올인원 오펜시브 보안 플랫폼 ‘OFFen(오펜)’과 AI 기반…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "에스에스알, SolidStep·MetiEye·CODE-RAY 앞세워 전방위 취약점 관리 강화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208455",
+      "published_at": "2026-09-14T14:38:13.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "IT 환경이 복잡해지면서 기업이 관리해야 할 취약점의 범위도 빠르게 넓어지고 있다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "Securiti AI, KCSCON 2026서 ‘데이터 중심 AI 보안’ 제시…“신뢰할 수 있는 AI는 데이터에서 시작”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208454",
+      "published_at": "2026-09-14T14:29:26.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "생성형 AI와 AI 에이전트가 기업 업무에 빠르게 확산되면서 ‘AI가 어떤 기업 데이터를 사용하고 있는가’를 파악하는 것이 새로운 보안 과제로 떠오르고 있다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“하나의 계정 노출이 기업 전체 위협으로”…스텔스몰, KCSCON 2026서 계정유출 인텔리전스 공개",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208452",
+      "published_at": "2026-09-14T14:10:47.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "AI 기반 딥웹·다크웹 위협 인텔리전스 기업 스텔스몰 인텔리전스(StealthMole Intelligence Pte.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+      "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
+      "published_at": "2026-09-14T11:58:00.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "There's a lot of noise around AI and cybersecurity right now.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“해킹 기술만큼 발표 실력도 중요해”... 대학 벽 허물고 뭉친 예비 보안인들",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145836",
+      "published_at": "2026-09-14T08:36:51.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "AI가 취약점을 찾아내고 해킹까지 하는 시대, 미래 보안 전문가들에게 필요한 역량은 무엇일까?",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "클라우데라코리아, 규제 산업 겨냥한 프라이빗 AI 솔루션 공급",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208445",
+      "published_at": "2026-09-14T07:36:38.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "클라우데라가 글로벌 프론티어 AI 기업 미스트랄(Mistral)과 전략적 파트너십을 체결하고 기업 데이터 제어권을 확보하는 소버린 AI 지원에 나선다.이번 협력으로 미스트랄의 프론티어 모델과 도구 제품군이 클라우데라의 하이브리드…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "급증하는 의료기관 사이버 위협...포티넷, 병원 OT 및 AI 보안 해법 제시",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208442",
+      "published_at": "2026-09-14T07:31:23.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "포티넷코리아가 병원정보보안협회와 함께 오는 16일 대한상공회의소에서 '병원 OT 보안 및 AI 위협 대응 포럼'을 공동 개최한다.이번 포럼은 한국사회보장정보원, 법무법인 율촌, 김앤장 법률사무소 등 공공·의료·법조계가 함께…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "채용 플랫폼 레쥬메나인 개인정보 유출... 원인은 ‘서버 권한 검증 누락’",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145832",
+      "published_at": "2026-09-14T06:12:53.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "채용 플랫폼 레쥬메나인(Resume9)에서 서버 기능의 권한 검증 누락으로 회원 개인정보가 유출되는 사고가 발생했다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "에스투더블유, 정부 주도 보안 특화 AI 개발 사업 참여",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208438",
+      "published_at": "2026-09-14T05:58:59.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "에스투더블유(S2W)가 과학기술정보통신부와 정보통신산업진흥원이 주관하는 '특화 인공지능 파운데이션 모델 개발(사이버 보안 분야) 사업'에 참여한다고 14일 밝혔다.AI가 사이버 위협의 속도와 정교함을 높이는 동시에 탐지와 대응 역량을 강화하는…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "카스퍼스키, 여행객 겨냥한 사이버 위협 경고...피싱·악성코드 주의보",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208437",
+      "published_at": "2026-09-14T05:34:30.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "휴가철을 맞아 여행객을 노린 사이버 위협이 증가하는 가운데, 글로벌 사이버 보안 기업 카스퍼스키가 여행 관련 디지털 보안 정보를 담은 '카스퍼스키 안전 여행 인사이트'를 공개했다.여행객들이 예약과…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "F5, 국내 신규 PoP 출범...분산 클라우드 및 보안 서비스 강화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208436",
+      "published_at": "2026-09-14T05:08:57.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "F5가 한국에 분산 클라우드 서비스(Distributed Cloud Service)를 위한 신규 거점(PoP)을 출범하고 글로벌 네트워크를 확대한다고 밝혔다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“대형병원 침해 시도만 年 5만7000건”... 포티넷, 의료기관 특화 OT·AI 보안 포럼 개최",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145826",
+      "published_at": "2026-09-14T04:47:16.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "포티넷코리아가 병원정보보안협회와 함께 16일 대한상공회의소에서 ‘병원 OT 보안 및 AI 위협 대응 포럼’을 공동 개최한다고 14일 밝혔다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "체크포인트 VPN 취약점 두 건에... 네덜란드 사이버 당국, “공격 임박” 경고",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145822",
+      "published_at": "2026-09-14T04:05:17.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "네덜란드 국가사이버보안센터(NCSC)가 체크포인트 VPN의 치명적 결함 두 건을 두고 곧 실제 공격이 시작될 것이라고 경고했다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "로봇청소기 쓰는 우리 집 정보, 서버에 안 남는다... 개인정보위 “관리 양호”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145825",
+      "published_at": "2026-09-14T02:29:14.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "개인정보보호위원회가 국내 주요 5개 브랜드 로봇청소기의 개인정보 처리 실태를 점검한 결과, 기기가 수집하는 영상과 음성 및 지도 정보 등이 전반적으로 안전하게 관리되고 있다고 14일 밝혔다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "파일 잠그고 화면 녹화하고 카메라까지... 감시 기능 붙은 안드로이드 랜섬웨어 발견",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145821",
+      "published_at": "2026-09-14T01:42:38.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident",
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "파일을 암호화하면서 사용자 감시까지 수행하는 안드로이드 악성코드가 발견됐다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "ROI 입증부터 거버넌스 구축까지... KT가 제시한 금융·공공 AX",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145819",
+      "published_at": "2026-09-14T01:08:52.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "엄격한 규제와 높은 보안 수준이 요구되는 금융 및 공공 분야의 인공지능 전환(AX) 현황과 해법을 담은 지침서가 나왔다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“바캉스 예약 서두르다 낭패”... 카스퍼스키 여행객 노린 피싱 위협 경고",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145812",
+      "published_at": "2026-09-14T01:02:37.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "최근 항공권이나 숙소 예약 등 여행의 모든 단계에서 디지털 플랫폼 의존도가 높아짐에 따라 여행객을 노린 사이버 범죄가 급증하고 있다.",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "작업 규칙인 줄 알았더니 악성코드... AI 코딩 도구 노린 ‘프롬프트 인젝션’",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145809",
+      "published_at": "2026-09-14T00:49:43.000Z",
+      "date": "2026-09-14",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "리니어리티(Linearity)가 최근 구글 위협인텔리전스그룹(GTIG)이 보고한 공격 조직 ‘팀PCP’(TeamPCP)의 신종 수법을 자체 실험한 결과, AI 코딩 도구 클로드 코드와 코덱스 CLI가 조작된 안내문에 따라 사용자 몰래…",
+      "first_seen": "2026-09-15T01:30:58.514Z"
+    },
     {
       "source": "boannews",
       "region": "kr",
@@ -531,7 +1033,7 @@
       "source": "boannews",
       "region": "kr",
       "lang": "ko",
-      "title": "[단독] 현대차 협력사도 해킹… 韓 기업 공급망 위협 공포 확산",
+      "title": "[단독] 현대차 협력사도 해킹... 韓 기업 공급망 위협 공포 확산",
       "url": "https://www.boannews.com/news/articleView.html?idxno=145781",
       "published_at": "2026-09-11T23:50:12.000Z",
       "date": "2026-09-11",
@@ -539,7 +1041,8 @@
         "incident"
       ],
       "excerpt": "한국 주요 기업 협력사나 계열사, 해외 법인 등을 노린 공급망 공격에 대한 공포가 확산되고 있다.11일 보안 업계에 따르면 현대차 주요 부품 협력사인 A사는 최근 사이버…",
-      "first_seen": "2026-09-12T01:09:32.753Z"
+      "first_seen": "2026-09-12T01:09:32.753Z",
+      "updated_at": "2026-09-15T01:30:58.514Z"
     },
     {
       "source": "thehackernews",
