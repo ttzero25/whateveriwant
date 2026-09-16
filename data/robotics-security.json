@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-15T01:30:55.975Z",
+  "attempted_at": "2026-09-16T01:27:38.086Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-09-15T01:30:55.975Z",
-      "last_success": "2026-09-15T01:30:55.975Z",
+      "attempted_at": "2026-09-16T01:27:38.086Z",
+      "last_success": "2026-09-16T01:27:38.086Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-09-15T01:30:55.975Z"
+          "last_success": "2026-09-16T01:27:38.086Z"
         }
       ],
       "count": 30
@@ -32,17 +32,17 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-09-15T01:30:55.975Z",
-      "last_success": "2026-09-11T01:08:01.377Z",
-      "status": "error",
+      "attempted_at": "2026-09-16T01:27:38.086Z",
+      "last_success": "2026-09-16T01:27:38.086Z",
+      "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-09-11T01:08:01.377Z"
+          "last_success": "2026-09-16T01:27:38.086Z"
         }
       ],
-      "count": 50
+      "count": 51
     },
     {
       "id": "autonomy",
@@ -53,20 +53,69 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-09-15T01:30:55.975Z",
-      "last_success": "2026-09-10T12:59:51.983Z",
-      "status": "error",
+      "attempted_at": "2026-09-16T01:27:38.086Z",
+      "last_success": "2026-09-16T01:27:38.086Z",
+      "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-09-10T12:59:51.983Z"
+          "last_success": "2026-09-16T01:27:38.086Z"
         }
       ],
-      "count": 29
+      "count": 45
     }
   ],
   "items": [
+    {
+      "source": "autonomy",
+      "title": "Illusion of Depth: Revealing Hidden Stereo Vision Vulnerabilities in Depth Estimation",
+      "url": "https://arxiv.org/abs/2609.16336v1",
+      "date": "2026-09-14",
+      "published_at": "2026-09-14T20:51:49.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Stereo cameras are integrated into autonomous systems such as self-driving cars, drones, and robots to offer precise depth estimation in a cost-effective manner compared to…",
+      "first_seen": "2026-09-16T01:27:38.086Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Vertical vortex gust encounters of a delta wing",
+      "url": "https://arxiv.org/abs/2609.13578v1",
+      "date": "2026-09-11",
+      "published_at": "2026-09-11T22:31:37.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "The present study analyzes encounters of a vertical vortex with a tailless NACA 0012 delta wing with a sweep angle of 60 degrees at an…",
+      "first_seen": "2026-09-16T01:27:38.086Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Curriculum-Based Adversarial Heterogeneous Agent Reinforcement Learning for Autonomous Quad-Copter Landing in Maritime Settings",
+      "url": "https://arxiv.org/abs/2609.12758v1",
+      "date": "2026-09-11",
+      "published_at": "2026-09-11T12:09:08.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Recovering unmanned aerial vehicles (UAVs) in maritime environments is challenging due to wind turbulence and ship-deck motion, making it a valuable test case for alternative…",
+      "first_seen": "2026-09-16T01:27:38.086Z"
+    },
     {
       "source": "robotics",
       "title": "SwarmNxt: Open-source Software-Hardware Platform for Fast and Agile Aerial Swarms",
@@ -97,7 +146,24 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Electric vehicle charging infrastructure presents a suite of novel cyber-physical threats."
+      "excerpt": "Electric vehicle charging infrastructure presents a suite of novel cyber-physical threats.",
+      "first_seen": null
+    },
+    {
+      "source": "autonomy",
+      "title": "Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Adoption Dynamics",
+      "url": "https://arxiv.org/abs/2609.10388v1",
+      "date": "2026-09-09",
+      "published_at": "2026-09-09T16:11:09.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Building fast charging stations (FCSs) is crucial for transportation electrification, but there exists an indirect network effect: while the increasing number of electric vehicles (EVs)…",
+      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "autonomy",
@@ -112,7 +178,8 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Communication delays induced by cyber attacks present a critical challenge to the safe operation of connected autonomous driving."
+      "excerpt": "Communication delays induced by cyber attacks present a critical challenge to the safe operation of connected autonomous driving.",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -127,7 +194,8 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Zonal in-vehicle networks ship Ethernet, MACsec, and TSN, but treat the network itself as trusted: once configured at the factory, there is no standardized runtime…"
+      "excerpt": "Zonal in-vehicle networks ship Ethernet, MACsec, and TSN, but treat the network itself as trusted: once configured at the factory, there is no standardized runtime…",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -142,7 +210,8 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Automated vehicles rely on millions of lines of safety-critical software, yet general-purpose analyzers do not understand which code can affect vehicle motion."
+      "excerpt": "Automated vehicles rely on millions of lines of safety-critical software, yet general-purpose analyzers do not understand which code can affect vehicle motion.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -163,6 +232,22 @@
     },
     {
       "source": "autonomy",
+      "title": "Collision Snapshot Guided Time-Reversed Safety-Critical Scenario Generation",
+      "url": "https://arxiv.org/abs/2609.06433v1",
+      "date": "2026-09-06",
+      "published_at": "2026-09-06T07:18:07.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "The generation of safety-critical traffic scenarios is essential for training and evaluating autonomous vehicles.",
+      "first_seen": "2026-09-16T01:27:38.086Z"
+    },
+    {
+      "source": "autonomy",
       "title": "Practical Zero-Trust for Mission-Critical Robotic Fleets via Hardware Attestation and Packet Timing Watermarking",
       "url": "https://arxiv.org/abs/2609.05741v1",
       "date": "2026-09-04",
@@ -175,7 +260,8 @@
         "ros",
         "autonomy"
       ],
-      "excerpt": "Autonomous unmanned vehicles are vital to tactical missions, mission-critical public-safety operations like search and rescue and disaster response."
+      "excerpt": "Autonomous unmanned vehicles are vital to tactical missions, mission-critical public-safety operations like search and rescue and disaster response.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -208,7 +294,8 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "The operational integrity of autonomous mobile robots relies on the continuous availability of wireless control loops, making them highly attractive targets for adversarial intentional electromagnetic…"
+      "excerpt": "The operational integrity of autonomous mobile robots relies on the continuous availability of wireless control loops, making them highly attractive targets for adversarial intentional electromagnetic…",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -255,7 +342,8 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "Signal Phase and Timing (SPaT) messages are a cornerstone of connected vehicle (CV) safety, enabling CVs to perceive and respond to intersection state through Vehicle-to-Infrastructure…"
+      "excerpt": "Signal Phase and Timing (SPaT) messages are a cornerstone of connected vehicle (CV) safety, enabling CVs to perceive and respond to intersection state through Vehicle-to-Infrastructure…",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -271,7 +359,8 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "This paper investigates the stealthy attack detection for sensor-fusion cyber-physical systems with unknown-but-bounded noises through the control channel."
+      "excerpt": "This paper investigates the stealthy attack detection for sensor-fusion cyber-physical systems with unknown-but-bounded noises through the control channel.",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -287,7 +376,24 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "As vehicular networks move toward 5G/6G edge intelligence, federated learning (FL) is widely promoted as a privacy-preserving way for vehicles and infrastructure to train shared…"
+      "excerpt": "As vehicular networks move toward 5G/6G edge intelligence, federated learning (FL) is widely promoted as a privacy-preserving way for vehicles and infrastructure to train shared…",
+      "first_seen": null
+    },
+    {
+      "source": "autonomy",
+      "title": "CrashDiffuser: VLM-Guided Collision Intent Reasoning for Fine-Grained Safety-Critical Traffic Scenario Generation",
+      "url": "https://arxiv.org/abs/2609.02270v1",
+      "date": "2026-09-02",
+      "published_at": "2026-09-02T08:18:20.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Generating safety-critical scenarios is essential for evaluating autonomous driving systems.",
+      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "autonomy",
@@ -303,7 +409,25 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "A lack of suitable datasets has limited the research into the privacy risks of novel smart city sensors, such as thermal cameras, depth cameras, and…"
+      "excerpt": "A lack of suitable datasets has limited the research into the privacy risks of novel smart city sensors, such as thermal cameras, depth cameras, and…",
+      "first_seen": null
+    },
+    {
+      "source": "autonomy",
+      "title": "Context-Aware Intelligent Vehicles",
+      "url": "https://arxiv.org/abs/2609.00682v1",
+      "date": "2026-09-01",
+      "published_at": "2026-09-01T03:58:58.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Intelligent vehicles increasingly support adaptive applications beyond driving themselves, ranging from context-aware ADAS and automated driving to in-cabin monitoring and fleet management, all under tight…",
+      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "robotics",
@@ -334,7 +458,8 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Thermal Infrared detection is widely used in autonomous driving, medical AI, etc., but its security has only attracted attention recently."
+      "excerpt": "Thermal Infrared detection is widely used in autonomous driving, medical AI, etc., but its security has only attracted attention recently.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -366,7 +491,8 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "Autonomous vehicles (AVs) rely on accurate camera-LiDAR calibration for multimodal sensor fusion."
+      "excerpt": "Autonomous vehicles (AVs) rely on accurate camera-LiDAR calibration for multimodal sensor fusion.",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -381,7 +507,41 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "In integrated sensing and communication (ISAC) enabled 6G unmanned aerial vehicle (UAV) swarm networks, the widely adopted imitation-based conformity cooperation mechanism can be exploited by…"
+      "excerpt": "In integrated sensing and communication (ISAC) enabled 6G unmanned aerial vehicle (UAV) swarm networks, the widely adopted imitation-based conformity cooperation mechanism can be exploited by…",
+      "first_seen": null
+    },
+    {
+      "source": "autonomy",
+      "title": "GAN-Based Semantic Communication for Image Transmission in IoV",
+      "url": "https://arxiv.org/abs/2608.27989v1",
+      "date": "2026-08-28",
+      "published_at": "2026-08-28T06:58:19.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "For cooperative perception in the internet of vehicles, this paper proposes a generative adversarial network-based semantic communication framework to address the efficiency and fidelity bottlenecks…",
+      "first_seen": "2026-09-16T01:27:38.086Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Toward Secure Communications for a UAV Swarm with Movable Antennas in SAGIN: CKM-Enabled Multi-Agent Reinforcement Learning Framework",
+      "url": "https://arxiv.org/abs/2608.27973v1",
+      "date": "2026-08-28",
+      "published_at": "2026-08-28T06:38:35.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Space-air-ground integrated networks (SAGINs) can provide ubiquitous and reliable connectivity for unmanned aerial vehicles (UAVs).",
+      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "autonomy",
@@ -396,7 +556,8 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Beyond Visual Line of Sight (BVLOS) Uncrewed Aerial Systems (UAS) operating over 5G Standalone (SA) networks use a shared User Plane for both command-and-control (C2)…"
+      "excerpt": "Beyond Visual Line of Sight (BVLOS) Uncrewed Aerial Systems (UAS) operating over 5G Standalone (SA) networks use a shared User Plane for both command-and-control (C2)…",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -412,7 +573,8 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "Redirecting unmanned aerial vehicles (UAVs) from their intended mission trajectories has been an active area of research."
+      "excerpt": "Redirecting unmanned aerial vehicles (UAVs) from their intended mission trajectories has been an active area of research.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -444,7 +606,24 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "UAV displacement attacks have traditionally relied on spoofing sensors that directly report position or translational motion, such as GNSS and optical flow."
+      "excerpt": "UAV displacement attacks have traditionally relied on spoofing sensors that directly report position or translational motion, such as GNSS and optical flow.",
+      "first_seen": null
+    },
+    {
+      "source": "autonomy",
+      "title": "Ankhdjet: An Open-Source Compiler for Mask-Programmed Ternary Compute-in-ROM on an Open PDK",
+      "url": "https://arxiv.org/abs/2608.26206v1",
+      "date": "2026-08-26",
+      "published_at": "2026-08-26T02:53:57.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Large-language-model inference is dominated by weight movement: every generated token re-reads every weight.",
+      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "robotics",
@@ -477,6 +656,23 @@
       ],
       "excerpt": "Harbor seals track hydrodynamic trails with their vibrissae, enabling passive perception of moving targets in dark or turbid water.",
       "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Resource Allocation for Secure Dual-UAV-Assisted ISAC System",
+      "url": "https://arxiv.org/abs/2608.24398v1",
+      "date": "2026-08-25",
+      "published_at": "2026-08-25T11:01:24.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Integrated sensing and communication (ISAC) is a rising technology in the next wireless communication networks, enabling the simultaneous execution of communication and sensing tasks by…",
+      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "robotics",
@@ -553,7 +749,8 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Integrated sensing and communication (ISAC) is a key enabling technology for 6G wireless networks, but its broadcast nature raises a physical-layer security concern when the…"
+      "excerpt": "Integrated sensing and communication (ISAC) is a key enabling technology for 6G wireless networks, but its broadcast nature raises a physical-layer security concern when the…",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -569,7 +766,8 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "A connected vehicle has roughly 100 milliseconds to decide whether an incoming Basic Safety Message is real or fabricated."
+      "excerpt": "A connected vehicle has roughly 100 milliseconds to decide whether an incoming Basic Safety Message is real or fabricated.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -600,7 +798,8 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Existing automotive intrusion detection systems (IDSs) for the Controller Area Network (CAN) largely target discrepancies in message timing, frequency, or sequencing and cannot detect attacks…"
+      "excerpt": "Existing automotive intrusion detection systems (IDSs) for the Controller Area Network (CAN) largely target discrepancies in message timing, frequency, or sequencing and cannot detect attacks…",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -616,7 +815,8 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "Autonomous vehicles (AVs) depend on reliable Global Navigation Satellite System (GNSS) positioning."
+      "excerpt": "Autonomous vehicles (AVs) depend on reliable Global Navigation Satellite System (GNSS) positioning.",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -632,7 +832,8 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "Camera-based object detectors are vulnerable to physical adversarial attacks designed to suppress detections."
+      "excerpt": "Camera-based object detectors are vulnerable to physical adversarial attacks designed to suppress detections.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -651,6 +852,40 @@
     },
     {
       "source": "autonomy",
+      "title": "CrossView: Can Vision-Language Models Reason Across Cameras?",
+      "url": "https://arxiv.org/abs/2608.15539v1",
+      "date": "2026-08-16",
+      "published_at": "2026-08-16T05:25:04.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Video understanding benchmarks have long centered on single-camera settings, where modern multi-modal language models achieve strong performance across image and video tasks.",
+      "first_seen": "2026-09-16T01:27:38.086Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Sensor-Driven Mission Synthesis for UAV/UGV Swarms: A TB-CSPN Coordination Architecture with Hardware-Enforced Safety",
+      "url": "https://arxiv.org/abs/2608.14306v1",
+      "date": "2026-08-14",
+      "published_at": "2026-08-14T13:44:10.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "This paper presents a coordination architecture for heterogeneous UAV/UGV swarms that synthesises mission actions from uncertain, multi-modal sensor evidence while preserving hardware-enforced safety at the…",
+      "first_seen": "2026-09-16T01:27:38.086Z"
+    },
+    {
+      "source": "autonomy",
       "title": "A Temporal Barrier Framework for Collision Avoidance in Multi-Agent Autonomous Aerial Vehicles",
       "url": "https://arxiv.org/abs/2608.14239v1",
       "date": "2026-08-14",
@@ -662,7 +897,8 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Operating teams of autonomous aircraft in dynamic, uncertain, and potentially adversarial environments requires safety protocols that are reliable yet selective, and allow agents to fly…"
+      "excerpt": "Operating teams of autonomous aircraft in dynamic, uncertain, and potentially adversarial environments requires safety protocols that are reliable yet selective, and allow agents to fly…",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -677,7 +913,40 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Autonomous vehicles depend on large safety-critical software stacks, where weaknesses reachable from adversarial inputs may affect steering, braking, or other control decisions."
+      "excerpt": "Autonomous vehicles depend on large safety-critical software stacks, where weaknesses reachable from adversarial inputs may affect steering, braking, or other control decisions.",
+      "first_seen": null
+    },
+    {
+      "source": "autonomy",
+      "title": "Spatial Attention Noise Masking for Causally Sufficient Interpretability",
+      "url": "https://arxiv.org/abs/2608.14725v1",
+      "date": "2026-08-12",
+      "published_at": "2026-08-12T13:47:30.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "We present a novel causal approach to interpretability for computer vision models that dynamically masks the input image prior to classification.",
+      "first_seen": "2026-09-16T01:27:38.086Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Secure Coverage Enhancement in Aerial Reconfigurable Intelligent Surface-Assisted High-Speed Train Communication Systems",
+      "url": "https://arxiv.org/abs/2608.12046v2",
+      "date": "2026-08-12",
+      "published_at": "2026-08-12T13:27:38.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "High-speed trains (HSTs) have become a prominent means of transportation, requiring high data rates and reliable communication services for HST passengers.",
+      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "autonomy",
@@ -693,7 +962,8 @@
         "autonomy",
         "sensors"
       ],
-      "excerpt": "Accurate Global Navigation Satellite System (GNSS)-based localization is essential for safe and reliable autonomous driving."
+      "excerpt": "Accurate Global Navigation Satellite System (GNSS)-based localization is essential for safe and reliable autonomous driving.",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -708,7 +978,8 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "The evolution of automotive technology increasingly integrates components, transforming vehicles into interconnected systems of systems."
+      "excerpt": "The evolution of automotive technology increasingly integrates components, transforming vehicles into interconnected systems of systems.",
+      "first_seen": null
     },
     {
       "source": "autonomy",
@@ -723,7 +994,25 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Cyberattack detection in electric vehicle charging infrastructure is complicated by legitimate post-activation revisions to requested energy and departure time."
+      "excerpt": "Cyberattack detection in electric vehicle charging infrastructure is complicated by legitimate post-activation revisions to requested energy and departure time.",
+      "first_seen": null
+    },
+    {
+      "source": "autonomy",
+      "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
+      "url": "https://arxiv.org/abs/2608.10618v1",
+      "date": "2026-08-11",
+      "published_at": "2026-08-11T08:01:35.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Embodied artificial intelligence aims to develop agents that perceive, reason, and act through continuous interaction with the physical world.",
+      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "autonomy",
@@ -738,7 +1027,8 @@
         "security",
         "autonomy"
       ],
-      "excerpt": "Machine learning-based Intrusion Detection Systems (IDS) have demonstrated superior performance in securing Unmanned Aerial Vehicle (UAV) networks."
+      "excerpt": "Machine learning-based Intrusion Detection Systems (IDS) have demonstrated superior performance in securing Unmanned Aerial Vehicle (UAV) networks.",
+      "first_seen": null
     },
     {
       "source": "robotics",
@@ -1017,6 +1307,21 @@
       ],
       "excerpt": "Multi-robot systems must simultaneously optimize competing objectives while maintaining coordinated behavior.",
       "first_seen": "2026-09-11T01:08:01.377Z"
+    },
+    {
+      "source": "robotics",
+      "title": "Sampling-Based Coordination-Informed Multi-Objective Multi-Robot Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2606.30893v3",
+      "date": "2026-06-29",
+      "published_at": "2026-06-29T20:31:03.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Multi-robot systems must simultaneously optimize competing objectives while maintaining coordinated behavior.",
+      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "robotics",
