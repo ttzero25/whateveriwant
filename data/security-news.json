@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-16T01:27:41.581Z",
+  "attempted_at": "2026-09-17T01:28:06.957Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-16T01:27:41.581Z",
-      "last_success": "2026-09-16T01:27:41.581Z",
+      "attempted_at": "2026-09-17T01:28:06.957Z",
+      "last_success": "2026-09-17T01:28:06.957Z",
       "status": "ok",
-      "count": 56
+      "count": 68
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-16T01:27:41.581Z",
-      "last_success": "2026-09-16T01:27:41.581Z",
+      "attempted_at": "2026-09-17T01:28:06.957Z",
+      "last_success": "2026-09-17T01:28:06.957Z",
       "status": "ok",
-      "count": 71
+      "count": 82
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-16T01:27:41.581Z",
-      "last_success": "2026-09-16T01:27:41.581Z",
+      "attempted_at": "2026-09-17T01:28:06.957Z",
+      "last_success": "2026-09-17T01:28:06.957Z",
       "status": "ok",
-      "count": 61
+      "count": 70
     },
     {
       "id": "cisa",
@@ -60,13 +60,483 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-16T01:27:41.581Z",
+      "attempted_at": "2026-09-17T01:28:06.957Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "일본 디지털청, VPN 구멍으로 24만명분 정보 새어나가",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145887",
+      "published_at": "2026-09-17T00:13:06.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "일본 디지털청에서 약 24만명의 개인정보가 빠져나갔다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김정덕의 지속가능 보안-8] 숫자의 거짓말: ‘심슨의 역설’과 1% 허브의 붕괴",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145901",
+      "published_at": "2026-09-17T00:00:00.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "매월 개최되는 이사회 보고 자리에서 최고경영진이 마주하는 보안 대시보드는 대체로 평온합니다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+      "published_at": "2026-09-16T15:50:59.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+      "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+      "published_at": "2026-09-16T15:27:49.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "구글 픽셀 모뎀 제로데이 실제 악용…사용자 조작 없이 권한 상승",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208520",
+      "published_at": "2026-09-16T14:33:03.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "구글이 픽셀(Pixel) 스마트폰의 셀룰러 모뎀에서 발견된 제로데이 취약점이 실제 표적 공격에 악용된 정황을 확인하고 보안 업데이트를 배포했다.구글은 9월 15일 공개한 ‘2026년 9월 픽셀 업데이트 게시판’을…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "우커머스 플러그인 치명적 취약점 실제 악용…PHP 웹셸 심어 사이트 장악",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208519",
+      "published_at": "2026-09-16T14:04:02.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "워드프레스 기반 온라인 쇼핑몰에서 사용하는 우커머스 도매 리드 캡처 플러그인의 치명적 취약점을 노린 실제 공격이 이어지고 있다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "AI 에이전트가 개인정보 침해 공격 수행…스페인 AEPD 첫 신고",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208518",
+      "published_at": "2026-09-16T13:47:52.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "스페인 개인정보보호청(AEPD)이 AI 에이전트를 이용한 공격으로 개인정보 침해가 발생했다는 신고를 처음 접수했다고 2026년 9월 14일 공개했다.AEPD에 따르면 공격자는 AI 에이전트에 공격 목표를 부여했고, 에이전트는 일반…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "일본 디지털청 해킹당했다…알려진 VPN 취약점 패치 전 공격",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208517",
+      "published_at": "2026-09-16T13:38:15.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "일본 정부가 여러 중앙부처에서 공동으로 사용하는 업무 시스템이 해킹돼 약 24만6000건의 개인정보가 외부로 유출됐을 가능성이 확인됐다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "브이엠웨어 vCenter 치명적 RCE 실제 악용…ESXi 랜섬웨어 공격까지 확인",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208516",
+      "published_at": "2026-09-16T13:31:16.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "malware",
+        "policy"
+      ],
+      "excerpt": "기업 가상화 환경을 관리하는 브이엠웨어 브이센터 서버(VMware vCenter Server)의 치명적 원격코드실행 취약점 ‘CVE-2026-59310’이 실제 공격에 악용되고 있는 것으로 확인됐다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "시스코 이메일 보안장비 제로데이 악용…악성 메일 한 통에 ‘루트 권한’ 탈취",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208515",
+      "published_at": "2026-09-16T13:23:44.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "시스코 기업용 이메일 보안장비인 시스코 시큐어 이메일 게이트웨이(Cisco Secure Email Gateway)에서 인증 없이 원격으로 시스템 최고 권한을 탈취할 수 있는 치명적인 취약점이 발견됐다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
+      "url": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+      "published_at": "2026-09-16T13:14:05.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac,…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "ISMS-P 인증심사 강화…현장심사·취약점 점검 확대",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208514",
+      "published_at": "2026-09-16T13:12:06.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "정보보호 및 개인정보보호 관리체계(ISMS-P) 인증심사가 서류 중심에서 현장 검증을 강화하는 방향으로 개편된다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "뤼튼·테슬라코리아·딥시크·오픈AI·나이키, 개인정보 처리방침 후속 점검서 미흡 확인",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208513",
+      "published_at": "2026-09-16T13:05:03.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "개인정보보호위원회가 ‘2025년 개인정보 처리방침 평가’에서 미흡 판정을 받은 사업자를 대상으로 후속 점검을 실시하고, 정보주체 권리행사와 국내대리인 운영이 미흡한 5개 사업자에 개선을 권고했다.개인정보위는 지난 9월 9일…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+      "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+      "published_at": "2026-09-16T11:58:00.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident",
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+      "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+      "published_at": "2026-09-16T11:15:58.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+      "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+      "published_at": "2026-09-16T11:15:48.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+      "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+      "published_at": "2026-09-16T11:08:54.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“병원 OT 방치하다 진료 멈춘다”... 포티넷, 의료보안 해법 제시",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145899",
+      "published_at": "2026-09-16T08:57:20.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "“2023년 의료기관을 대상으로 운영기술(OT) 보안을 이야기했을 때만 해도 현장의 반응은 ‘시기상조’라는 인식이 지배적이었습니다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "애플, iOS 27 보안 업데이트... 악성 이미지로 아이폰 노리는 취약점 등 126건 대거 수정",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145898",
+      "published_at": "2026-09-16T08:39:24.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "애플이 14일(현지시각) 새 운영체제를 내놓으면서 취약점을 200개 넘게 한꺼번에 메웠다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“복호화 없이 C2 통신 잡았다”... 씨큐비스타, ‘패킷사이버 v3.0’ 실증",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145897",
+      "published_at": "2026-09-16T08:01:15.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "씨큐비스타는 자사 차세대 NDR 솔루션 ‘패킷사이버 v3.0’(PacketCYBER)을 통해 실제 고객사 운영 환경에서 암호화된 악성 명령제어(C2) 통신을 복호화 없이 성공적으로 탐지해 냈다고 16일 밝혔다.이번 실증은 악성코드…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "휴네시온, 의료분야 사이버 회복탄력성 전략 제시",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145892",
+      "published_at": "2026-09-16T06:02:49.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "정보보안 전문기업 휴네시온(대표 정동섭)은 의료 분야 랜섬웨어 대응에 있어서 ‘시스템 복수’를 넘어 ‘진료서비스 연속성’ 관점을 제시했다.휴네시온은 16일 열린 ‘제5회 랜섬웨어 레질리언스 컨퍼런스’에서 ‘의료분야 사이버 레질리언스…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+      "published_at": "2026-09-16T05:48:28.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+      "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+      "published_at": "2026-09-16T05:18:06.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "이지서티, 경찰청 '온나라 2.0'에 AI 기반 개인정보 필터링 솔루션 공급",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208506",
+      "published_at": "2026-09-16T04:48:22.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "이지서티(대표 김동례)가 경찰청의 '온나라 2.0 전환 사업'에 실시간 개인정보 필터링 솔루션 'U-PRIVACY SAFER V4.0'을 공급한다.경찰청은 노후화된 온나라 1.0을 G-Cloud 기반 온나라 2.0으로 전환해 시스템 호환성과…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "솔트웨어, ‘AI Gateway & Claude Code’ 핸즈온 세미나 성료",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208503",
+      "published_at": "2026-09-16T04:28:16.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "솔트웨어(대표 이정근)가 LiteLLM과 아마존 베드락(Amazon Bedrock)을 활용한 AI Gateway 구축 및 클로드 코드 사내 통제 운영 실습 세미나를 16일 진행했다.기업 내 대규모언어모델(LLM) 사용이 늘면서 여러…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[황석훈 보안칼럼] “소스코드 정적분석을 AI로 할 수 없나요” - CISO의 질문에 답하다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208502",
+      "published_at": "2026-09-16T04:15:31.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "시작은 국내 대표 호텔인 호텔신라 CISO의 질문 하나였다.“소스코드에 내재된 보안 취약점 점검 프로세스를 AI 에이전트로 대체할 수 있는 방법을 찾아보자.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "메일 한 통으로 루트 권한까지... 시스코 이메일 보안 장비 제로데이 취약점, 이미 공격에 쓰였다",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145883",
+      "published_at": "2026-09-16T03:20:59.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "시스코가 자사 ‘시큐어 이메일 게이트웨이’(Secure Email Gateway) 보안 장비 취약점에 대한 패치를 권고했다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“무늬만 국내대리인” 둔 오픈AI·나이키... 개인정보위 “상담 민원 관리 강화하라”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145885",
+      "published_at": "2026-09-16T02:32:34.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "국내 이용자의 개인정보 관련 문의에 중국어로 회신하는 등 개인정보 처리를 소홀하게 한 국내외 기업들에 개인정보위가 개선을 권고했다.개인정보보호위원회는 ‘2025년 개인정보 처리방침 평가’ 미흡 기업을 대상으로 후속…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[카드뉴스] \"신분증 털려 5천만원 빚더미?\"… 3분 만에 끝내는 '내 명의 도용' 전수조사 방법",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145884",
+      "published_at": "2026-09-16T02:19:10.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "신분증 사본 및 개인식별정보(PII) 유출 사고가 빈번해짐에 따라, 이를 도용한 비대면 알뜰폰 개통 및 제2금융권 불법 대출 피해가 심각한 사회적 위협으로 대두되고 있다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“서면 심사만으론 부족해” 개인정보위, ISMS-P에 모의침투 등 현장 점검 도입",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145878",
+      "published_at": "2026-09-16T01:53:51.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "ISMS-P 인증 실효성을 높이기 위해 인증 심사 과정에서 서면뿐 아니라 현장 심사도 병행할 근거가 마련된다.",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "데이터에 꼬리표 다는 N2SF... 수산아이앤티 ‘eWalker DLP’ 고도화",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145876",
+      "published_at": "2026-09-16T01:19:46.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "수산아이앤티가 공공기관의 국가망보안체계(N2SF) 전환에 발맞춰 내부정보 유출 방지 및 AI 제어 솔루션 ‘이워커 DLP’(eWalker DLP)의 데이터 등급 기반 보안 기능을 강화했다고 16일 밝혔다.이워커 DLP는 네트워크를…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "안랩 “2035년까지 매출 1조원”… AI 보안 브랜드 ‘안랩 AI 플러스’ 오픈",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145875",
+      "published_at": "2026-09-16T01:07:10.000Z",
+      "date": "2026-09-16",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "안랩(대표 강석균)이 ‘AI-네이티브 보안 플랫폼 기업’으로의 전환을 선언하고 2035년까지 연매출 1조원 달성 목표를 밝혔다.16일 안랩은 30여 종의 보안 제품·서비스와 30년 이상 축적한 위협 인텔리전스(TI), 보안…",
+      "first_seen": "2026-09-17T01:28:06.957Z"
+    },
     {
       "source": "dailysecu",
       "region": "kr",
