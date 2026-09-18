@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-17T01:28:06.957Z",
+  "attempted_at": "2026-09-18T01:18:31.839Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-17T01:28:06.957Z",
-      "last_success": "2026-09-17T01:28:06.957Z",
+      "attempted_at": "2026-09-18T01:18:31.839Z",
+      "last_success": "2026-09-18T01:18:31.839Z",
       "status": "ok",
-      "count": 68
+      "count": 79
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-17T01:28:06.957Z",
-      "last_success": "2026-09-17T01:28:06.957Z",
+      "attempted_at": "2026-09-18T01:18:31.839Z",
+      "last_success": "2026-09-18T01:18:31.839Z",
       "status": "ok",
-      "count": 82
+      "count": 89
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-17T01:28:06.957Z",
-      "last_success": "2026-09-17T01:28:06.957Z",
+      "attempted_at": "2026-09-18T01:18:31.839Z",
+      "last_success": "2026-09-18T01:18:31.839Z",
       "status": "ok",
-      "count": 70
+      "count": 75
     },
     {
       "id": "cisa",
@@ -60,13 +60,347 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-17T01:28:06.957Z",
+      "attempted_at": "2026-09-18T01:18:31.839Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "AI스페라, MS 파운드리 에이전트 적용…AITEM 보안 운영 자동화 강화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208540",
+      "published_at": "2026-09-18T00:33:12.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "사이버 위협 인텔리전스 전문기업 AI스페라(대표 강병탁)는 AI 기반 위협 노출 관리 플랫폼 ‘AITEM(AI Threat Exposure Management)’에 마이크로소프트 파운드리(Microsoft Foundry) 기반 AI 에이전트 기술을 적용해 보안…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "체이널리시스 “북한·이란 해커, 블록체인에 악성 명령 숨기는 BDD 활용 확산”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208538",
+      "published_at": "2026-09-18T00:25:59.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "블록체인 데이터 플랫폼 체이널리시스(Chainalysis)는 북한과 이란 등 국가 연계 해킹 조직을 중심으로 퍼블릭 블록체인을 사이버 공격 인프라로 활용하는 ‘블록체인 데드 드롭(Blockchain Dead Drops, BDD)’이 확산되고…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "턱스케어, Ubuntu 22.04 지원 종료 앞두고 기업 대응 전략 제시",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208536",
+      "published_at": "2026-09-18T00:21:02.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "오픈소스 보안 전문기업 턱스케어(TuxCare)는 Ubuntu 22.04 LTS의 표준 보안 유지보수가 2027년 5월 종료됨에 따라, 해당 운영체제를 사용하는 기업들이 보안 패치 공백에 대비해 사전 대응 전략을…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+      "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+      "published_at": "2026-09-17T12:30:00.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an advisory…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+      "url": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+      "published_at": "2026-09-17T10:50:53.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud).",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "이토마토, 시스템 외부 침입으로 회원 정보 변조",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145935",
+      "published_at": "2026-09-17T10:24:35.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "증권·금융 투자 정보 기업 이토마토가 외부 해킹 공격을 받아 회원정보가 변조되는 피해를 입었다.",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“AI, 수비보다 공격에 압도적 유리”... CSK 2026서 사이버전 패러다임 진단",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145928",
+      "published_at": "2026-09-17T08:45:42.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "“해커의 프롬프트 한 줄에 AI가 스스로 취약점을 뚫어내는 ‘자율 공격’의 시대가 열렸습니다.",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "AI가 보안 투자 이끈다... 기업 41% “AI 도입이 정보보안 투자 확대 계기”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145929",
+      "published_at": "2026-09-17T08:37:07.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "인공지능(AI) 도입이 기업 정보보안 투자 확대의 주요 동력으로 떠올랐다.",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "AI 해킹 방어팀, 국제 사이버 훈련 ‘APEX’ 투입되다... 국정원 CSK 2026와 함께 개최",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145927",
+      "published_at": "2026-09-17T08:01:03.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "AI 에이전트로만 구성된 해킹 방어팀이 23개 국가 정예 사이버 안보 인력과 나란히 실력을 겨룬다.",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
+      "url": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+      "published_at": "2026-09-17T08:00:29.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "The Internet Systems Consortium (ISC) has released BIND 9.20.29 and 9.21.26 to fix fourteen security flaws it disclosed on 16 September in BIND 9, its…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“정부 사업 N2SF 반영 미흡해”... 국정원, ‘기획부터 내재화’ 추진",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145924",
+      "published_at": "2026-09-17T07:38:47.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "“각 기관의 정보화 사업에 국가망 보안체계(N2SF) 반영이 미흡했음이 확인됐습니다.",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+      "url": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+      "published_at": "2026-09-17T07:30:01.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "A security breach at Gyazo, Helpfeel's image-sharing service, exposed about 23.62 million user records, including email addresses and password hashes, the Kyoto-based company said in…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "체크멀, 엔드포인트 중앙관리 솔루션 ‘CMS v2.0’ 출시",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145926",
+      "published_at": "2026-09-17T07:27:35.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "malware",
+        "policy"
+      ],
+      "excerpt": "체크멀은 체크멀 안티랜섬웨어 솔루션 ‘앱체크 프로’(AppCheck Pro) 안티랜섬웨어의 정책, 에이전트, 로그, 라이선스, 사용자를 단일 웹 콘솔에서 통합 관리하는 엔드포인트 중앙관리 솔루션 ‘CMS v2.0’을 21일 출시한다고…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "힐셔, 정보보안 국제표준 ISO/IEC 27001 인증 획득",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208533",
+      "published_at": "2026-09-17T07:07:14.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "산업용 통신 및 자동화 솔루션 기업 힐셔가 ISO/IEC 27001 표준에 따른 정보보안 관리체계(ISMS) 인증을 취득했다.이번 심사는 독일 하터스하임에 위치한 힐셔 본사에서 독일 경영시스템 인증기관 DQS가…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "샌즈랩, 제1금융권에 AI 기반 NDR 솔루션 'MNX' 공급",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208532",
+      "published_at": "2026-09-17T06:54:59.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "샌즈랩이 개발한 AI 기반 네트워크 탐지 및 대응(NDR) 솔루션 'MNX'가 국내 제1금융권 주요 은행에 도입되고 있다.공격자가 최초 침투 후 정상 계정이나 암호화 통신으로 권한을 넓혀가는…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "기업 41%, AI 도입으로 보안 투자 확대...섀도우 AI 위협 증가",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208531",
+      "published_at": "2026-09-17T06:46:36.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "카스퍼스키가 AI 도입과 기업 보안 투자 현황을 담은 조사 보고서를 발표했다.조사 결과에 따르면 응답 기업의 41%가 AI 도입을 정보보안 투자 확대의 주요 요인으로 꼽았다.",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "카카오게임즈, 140명 개인정보 유출... \"악용 위험 낮다\"",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145922",
+      "published_at": "2026-09-17T06:42:01.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "카카오게임즈에서 일부 이용자 개인정보가 유출되는 사고가 터졌다.",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+      "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+      "published_at": "2026-09-17T06:39:40.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation.",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "체크멀, UI-관리체계 개편한 엔드포인트 중앙관리 솔루션 'CMS v2.0' 출시",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208525",
+      "published_at": "2026-09-17T04:50:26.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "malware",
+        "policy"
+      ],
+      "excerpt": "체크멀이 엔드포인트 중앙관리 솔루션 'CMS v2.0'을 9월 21일 출시한다.CMS v2.0은 AppCheck Pro 안티랜섬웨어의 정책, 에이전트, 로그, 라이선스, 사용자를 단일 웹 콘솔에서 통합 관리하는 엔드포인트 중앙관리…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "국회 ‘공공조달포럼’ 출범... 238조원 조달시장 전략적 정책수단으로",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145914",
+      "published_at": "2026-09-17T04:48:10.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "공공조달을 단순한 정부 구매행정을 넘어 국가경제와 산업 발전을 위한 전략적 정책수단으로 발전시키고, 조달 현장의 목소리를 정책과 입법에 반영하기 위한 ‘공공조달포럼’이 공식 출범했다.‘공공조달포럼’은 9월 15일 국회도서관…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "평창군, 쓰레기 무단 투기 취약지에 이동식 CCTV 20대 설치",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145913",
+      "published_at": "2026-09-17T01:45:11.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "강원 평창군(군수 심재국)은 생활쓰레기 무단투기를 예방하고 올바른 분리배출 문화를 정착시키기 위해 주요 불법투기 취약지와 쓰담쓰담 정거장 인근에 고화질 이동식 CCTV를 설치하고 본격적인 단속과 현장 관리에…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "美 해안경비대·FBI, 사이버공격 받은 유조선 승선 조사 “선박 OT·IT 침해 정황”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145908",
+      "published_at": "2026-09-17T01:43:22.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "미국 해안경비대가 8월 멕시코만을 지나던 유조선에 직접 승선해 사이버공격 정황을 조사한 사실을 확인했다.",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "인천 서해구, CCTV·비상벨 정비해 생활안전 강화",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145912",
+      "published_at": "2026-09-17T01:41:14.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "인천 서해구(구청장 구재용)가 민선 9기 출범과 함께 방범시설 정비와 교통약자 보호, 재난 취약지역 점검 등 주민 생활과 밀접한 안전관리 사업을 본격 추진한다.16일 서해구에 따르면 구는…",
+      "first_seen": "2026-09-18T01:18:31.839Z"
+    },
     {
       "source": "boannews",
       "region": "kr",
