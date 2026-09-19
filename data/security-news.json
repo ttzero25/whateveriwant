@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-18T01:18:31.839Z",
+  "attempted_at": "2026-09-19T01:12:41.941Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-18T01:18:31.839Z",
-      "last_success": "2026-09-18T01:18:31.839Z",
+      "attempted_at": "2026-09-19T01:12:41.941Z",
+      "last_success": "2026-09-19T01:12:41.941Z",
       "status": "ok",
-      "count": 79
+      "count": 86
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-18T01:18:31.839Z",
-      "last_success": "2026-09-18T01:18:31.839Z",
+      "attempted_at": "2026-09-19T01:12:41.941Z",
+      "last_success": "2026-09-19T01:12:41.941Z",
       "status": "ok",
-      "count": 89
+      "count": 94
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-18T01:18:31.839Z",
-      "last_success": "2026-09-18T01:18:31.839Z",
+      "attempted_at": "2026-09-19T01:12:41.941Z",
+      "last_success": "2026-09-19T01:12:41.941Z",
       "status": "ok",
-      "count": 75
+      "count": 86
     },
     {
       "id": "cisa",
@@ -60,13 +60,301 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-18T01:18:31.839Z",
+      "attempted_at": "2026-09-19T01:12:41.941Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
+      "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+      "published_at": "2026-09-18T18:02:24.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+      "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+      "published_at": "2026-09-18T16:56:19.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+      "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+      "published_at": "2026-09-18T15:24:16.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+      "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+      "published_at": "2026-09-18T12:47:04.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation.",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+      "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+      "published_at": "2026-09-18T11:01:01.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "published_at": "2026-09-18T10:40:06.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "published_at": "2026-09-18T09:18:03.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "엔피코어, 인도네시아 ‘인도섹 2026’ 참가…동남아 보안시장 공략",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208548",
+      "published_at": "2026-09-18T07:59:11.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "사이버보안 전문기업 엔피코어(대표 한승철)는 9월 15일부터 16일까지 인도네시아 자카르타에서 열린 ‘인도섹 2026(IndoSEC 2026)’에 참가해 주요 사이버보안 솔루션을 선보였다고 밝혔다.인도섹은 인도네시아 정부기관과 기업 정보보안 책임자, 보안…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "팔로알토 “미토스 써보니 공포마케팅 아냐... 韓 지체할 시간없어”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145953",
+      "published_at": "2026-09-18T07:58:50.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "“미토스로 취약점 스캐닝을 해봤는데, 공포 마케팅이 아닙니다.",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[인사] 과학기술정보통신부",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145952",
+      "published_at": "2026-09-18T06:55:39.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "◇ 실장급 파견△국가인공지능전략위원회지원단장 김경만◇ 실장급 승진△인공지능정책실장 엄열◇국장급 승진△연구성과혁신관 최문기 △국립중앙과학관 전시교육연구단장 김보열◇ 과장급 전보△운영지원과장 남혁모 △미래전략기술정책과장 김현옥 △원자력연구개발과장 도우동 △과학기술안전기반팀장 이지은 △과학기술전략과장 이가영 △국립전파연구원 전파자원기획과장…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+      "published_at": "2026-09-18T06:17:25.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "incident",
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "선박 사이버공격 대응 법제화 추진…탐지·대응·복구 체계 구축",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208547",
+      "published_at": "2026-09-18T06:02:33.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "선박의 항해·통신·화물관리 시스템을 겨냥한 사이버공격에 대응하기 위한 법적 안전관리 체계 구축이 추진된다.국회 농림축산식품해양수산위원회 소속 송옥주 의원은 9월 18일 선박에 대한 사이버공격을 예방하고 사고 발생 시…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "금융권 겨냥 ‘AI 에이전트 공격’ 실제 탐지…API 보안 경고등",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208545",
+      "published_at": "2026-09-18T05:24:59.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "금융권을 대상으로 AI 에이전트를 활용한 사이버 공격 시도가 실제 탐지됐다.",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "유명 수학 학원 ‘생각하는황소’ 해킹... 학부모 피싱 사기 주의해야",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145947",
+      "published_at": "2026-09-18T05:20:38.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "incident",
+        "phishing"
+      ],
+      "excerpt": "유명 수학 학원 사이트 침해 사고로 민감한 학생 관련 정보 유출이 의심되는 가운데, 유출 정보를 악용한 보이스피싱 우려도 커지고 있다.",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "AI 위협 대비... KISA, 세계경제포럼·싱가포르 사이버보안청과 사이버보안 협력",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145946",
+      "published_at": "2026-09-18T04:53:36.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "한국인터넷진흥원(KISA, 원장 이상중)은 세계경제포럼(WEF) 사이버보안센터와 싱가포르 사이버보안청(CSA) 대표단을 각각 KISA 서울청사에서 만나 인공지능(AI) 시대 글로벌 사이버보안 협력 확대 방안을 논의했다고 18일 밝혔다.이번 만남은 각 기관이…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[카드뉴스] \"보안 점수 100점인데 비번은 다 털렸다?\"… 다크웹 쏟아지는 '브라우저 자동 로그인'의 최후",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145944",
+      "published_at": "2026-09-18T02:22:16.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "incident",
+        "phishing"
+      ],
+      "excerpt": "외형적 보안 평가 지표 개선과 달리, 다크웹을 통한 임직원 계정 및 자격 증명 로그 유출 규모는 사상 최대치를 기록하고 있다.",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "암호자산 진단부터 PQC 적용까지…아이씨티케이·지란지교시큐리티 맞손",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208543",
+      "published_at": "2026-09-18T01:54:48.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "아이씨티케이(ICTK, 대표 이정원)가 지란지교시큐리티(대표 조원희)와 양자내성암호(PQC) 전환 및 암호자산 진단 사업을 공동 추진한다.아이씨티케이는 지란지교시큐리티와 PQC 전환 및 ‘Crypto Discovery’ 사업 협력을 위한 업무협약(MOU)을 체결했다고 18일…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "KISA, WEF·싱가포르 CSA와 AI 시대 사이버보안 협력 강화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208542",
+      "published_at": "2026-09-18T01:52:16.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "한국인터넷진흥원(KISA, 원장 이상중)은 9월 17일 세계경제포럼(WEF) 사이버보안센터와 싱가포르 사이버보안청(CSA) 대표단을 서울청사에서 만나 인공지능(AI) 시대 글로벌 사이버보안 협력 확대 방안을 논의했다고 18일 밝혔다.KISA는 세계경제포럼 사이버보안센터 약샤이…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[2026 사이버 모의훈련 솔루션 리포트] ‘연례 행사’ 벗어나는 사이버 모의훈련, AI·공급망 시대 ‘상시 검증’으로",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145920",
+      "published_at": "2026-09-18T01:26:22.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "incident",
+        "phishing",
+        "policy"
+      ],
+      "excerpt": "2026년 9월 개정 개인정보 보호법이 본격 시행되면서 기업의 개인정보 보호 책임은 한층 무거워졌다.",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "세이퍼존, PC-DLP에 ‘초경량 AI-OCR’ 탑재... 온디바이스로 정보유출 차단",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145936",
+      "published_at": "2026-09-18T01:20:09.000Z",
+      "date": "2026-09-18",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "세이퍼존이 데이터 유출 방지(DLP) 솔루션과 보안 USB에 중요정보 유출을 막는 ‘초경량 AI-OCR’(인공지능 광학문자인식) 엔진을 기본 탑재했다고 18일 밝혔다.AI-OCR 엔진은 개별 사용자 PC에서 직접 데이터를 처리하는…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
     {
       "source": "dailysecu",
       "region": "kr",
@@ -109,6 +397,48 @@
       ],
       "excerpt": "오픈소스 보안 전문기업 턱스케어(TuxCare)는 Ubuntu 22.04 LTS의 표준 보안 유지보수가 2027년 5월 종료됨에 따라, 해당 운영체제를 사용하는 기업들이 보안 패치 공백에 대비해 사전 대응 전략을…",
       "first_seen": "2026-09-18T01:18:31.839Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+      "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+      "published_at": "2026-09-17T18:08:28.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+      "url": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+      "published_at": "2026-09-17T17:32:22.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Attackers keep finding new keys.",
+      "first_seen": "2026-09-19T01:12:41.941Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+      "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+      "published_at": "2026-09-17T15:37:56.000Z",
+      "date": "2026-09-17",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere…",
+      "first_seen": "2026-09-19T01:12:41.941Z"
     },
     {
       "source": "thehackernews",
