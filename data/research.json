@@ -1,20 +1,20 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-19T01:12:33.686Z",
+  "attempted_at": "2026-09-20T01:12:18.915Z",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "home": "https://openai.com/news/",
-      "attempted_at": "2026-09-19T01:12:33.686Z",
-      "last_success": "2026-09-19T01:12:33.686Z",
+      "attempted_at": "2026-09-20T01:12:18.915Z",
+      "last_success": "2026-09-20T01:12:18.915Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://openai.com/news/rss.xml",
           "status": "ok",
-          "last_success": "2026-09-19T01:12:33.686Z"
+          "last_success": "2026-09-20T01:12:18.915Z"
         }
       ],
       "count": 60
@@ -28,19 +28,19 @@
         "https://www.anthropic.com/news"
       ],
       "home": "https://www.anthropic.com/news",
-      "attempted_at": "2026-09-19T01:12:33.686Z",
-      "last_success": "2026-09-19T01:12:33.686Z",
+      "attempted_at": "2026-09-20T01:12:18.915Z",
+      "last_success": "2026-09-20T01:12:18.915Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://www.anthropic.com/research",
           "status": "ok",
-          "last_success": "2026-09-19T01:12:33.686Z"
+          "last_success": "2026-09-20T01:12:18.915Z"
         },
         {
           "url": "https://www.anthropic.com/news",
           "status": "ok",
-          "last_success": "2026-09-19T01:12:33.686Z"
+          "last_success": "2026-09-20T01:12:18.915Z"
         }
       ],
       "count": 29
@@ -50,20 +50,36 @@
       "name": "arXiv",
       "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
       "home": "https://arxiv.org/list/cs.CR/recent",
-      "attempted_at": "2026-09-19T01:12:33.686Z",
-      "last_success": "2026-09-19T01:12:33.686Z",
+      "attempted_at": "2026-09-20T01:12:18.915Z",
+      "last_success": "2026-09-20T01:12:18.915Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
           "status": "ok",
-          "last_success": "2026-09-19T01:12:33.686Z"
+          "last_success": "2026-09-20T01:12:18.915Z"
         }
       ],
       "count": 150
     }
   ],
   "items": [
+    {
+      "source": "openai",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "published_at": "2026-09-18T12:00:00.000Z",
+      "category": "Company",
+      "channel": "news",
+      "date": "2026-09-18",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "safety"
+      ],
+      "excerpt": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "first_seen": "2026-09-20T01:12:18.915Z"
+    },
     {
       "source": "arxiv",
       "title": "A Computational Tropical Geometry Framework for Neural Networks",
@@ -3828,22 +3844,6 @@
         "research"
       ],
       "excerpt": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-      "first_seen": null
-    },
-    {
-      "source": "openai",
-      "title": "Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "published_at": "2026-08-19T19:00:00.000Z",
-      "category": "Company",
-      "channel": "news",
-      "date": "2026-08-19",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
       "first_seen": null
     },
     {

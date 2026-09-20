@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-19T01:12:41.941Z",
+  "attempted_at": "2026-09-20T01:12:26.405Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-19T01:12:41.941Z",
-      "last_success": "2026-09-19T01:12:41.941Z",
+      "attempted_at": "2026-09-20T01:12:26.405Z",
+      "last_success": "2026-09-20T01:12:26.405Z",
       "status": "ok",
-      "count": 86
+      "count": 88
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-19T01:12:41.941Z",
-      "last_success": "2026-09-19T01:12:41.941Z",
+      "attempted_at": "2026-09-20T01:12:26.405Z",
+      "last_success": "2026-09-20T01:12:26.405Z",
       "status": "ok",
-      "count": 94
+      "count": 97
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-19T01:12:41.941Z",
-      "last_success": "2026-09-19T01:12:41.941Z",
+      "attempted_at": "2026-09-20T01:12:26.405Z",
+      "last_success": "2026-09-20T01:12:26.405Z",
       "status": "ok",
-      "count": 86
+      "count": 92
     },
     {
       "id": "cisa",
@@ -60,13 +60,171 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-19T01:12:41.941Z",
+      "attempted_at": "2026-09-20T01:12:26.405Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "published_at": "2026-09-19T18:36:53.000Z",
+      "date": "2026-09-19",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of…",
+      "first_seen": "2026-09-20T01:12:26.405Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+      "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+      "published_at": "2026-09-19T13:28:41.000Z",
+      "date": "2026-09-19",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in…",
+      "first_seen": "2026-09-20T01:12:26.405Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "AI가 취약점 공격 개발 가속…오픈AI 직원 챗GPT·코덱스 계정까지 탈취",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208553",
+      "published_at": "2026-09-19T12:52:44.000Z",
+      "date": "2026-09-19",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "AI를 이용해 이미지 처리 라이브러리의 메모리 취약점을 실제 원격코드실행 공격으로 발전시키고, 이를 오픈AI의 인증 시스템 문제와 연계해 직원의 챗GPT와 코덱스 계정까지 탈취한 보안 연구 결과가…",
+      "first_seen": "2026-09-20T01:12:26.405Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "‘플러그인4셸’…AI 코딩 에이전트 플러그인 검증 허점에 제로클릭 원격코드실행 위험",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208552",
+      "published_at": "2026-09-19T12:44:06.000Z",
+      "date": "2026-09-19",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "주요 AI 코딩 에이전트의 플러그인 설치·업데이트 과정에서 검증된 코드와 실제 실행되는 코드가 달라질 수 있는 공급망 취약점이 공개됐다.AI 보안업체 에어 시큐리티(AIR Security)는 앤스로픽의 클로드 코드(Claude…",
+      "first_seen": "2026-09-20T01:12:26.405Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "체크포인트 보안관리 서버 치명적 RCE…인증 없이 루트 권한 코드 실행 가능",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208551",
+      "published_at": "2026-09-19T12:07:57.000Z",
+      "date": "2026-09-19",
+      "tags": [
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "기업의 방화벽 정책과 관리자 접근, 보안로그를 중앙에서 관리하는 체크포인트 보안관리 서버에서 인증 없이 원격코드실행(RCE)이 가능한 치명적 취약점이 공개돼 신속한 패치가 요구된다.체크포인트는 9월 16일 보안관리 서버(Security…",
+      "first_seen": "2026-09-20T01:12:26.405Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+      "published_at": "2026-09-19T09:31:17.000Z",
+      "date": "2026-09-19",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote…",
+      "first_seen": "2026-09-20T01:12:26.405Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+      "published_at": "2026-09-19T08:18:54.000Z",
+      "date": "2026-09-19",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet.",
+      "first_seen": "2026-09-20T01:12:26.405Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+      "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+      "published_at": "2026-09-19T07:14:54.000Z",
+      "date": "2026-09-19",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec said…",
+      "first_seen": "2026-09-20T01:12:26.405Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "제미나이도 보안테스트 중 외부기관 해킹",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145959",
+      "published_at": "2026-09-19T06:43:45.000Z",
+      "date": "2026-09-19",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "구글의 AI 모델 ‘제미나이’도 보안 테스트 중 외부기관 해킹을 일으킨 것으로 나타났다.18일(현지시간) 월스트리트저널에 따르면, 제미나이는 지난 5월 보안 평가 업체 이레귤러가 진행한 사이버 보안 시험…",
+      "first_seen": "2026-09-20T01:12:26.405Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+      "published_at": "2026-09-19T06:24:10.000Z",
+      "date": "2026-09-19",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "The U.S.",
+      "first_seen": "2026-09-20T01:12:26.405Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“앤트로픽 클로드로 오픈AI 해킹 성공”... 포상금 900만원",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145958",
+      "published_at": "2026-09-19T03:19:14.000Z",
+      "date": "2026-09-19",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "앤트로픽의 AI 모델인 클로드를 활용해 오픈AI 해킹 시도에 성공한 사례가 나왔다.",
+      "first_seen": "2026-09-20T01:12:26.405Z"
+    },
     {
       "source": "thehackernews",
       "region": "global",
