@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-20T01:12:26.405Z",
+  "attempted_at": "2026-09-21T01:09:20.246Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-20T01:12:26.405Z",
-      "last_success": "2026-09-20T01:12:26.405Z",
+      "attempted_at": "2026-09-21T01:09:20.246Z",
+      "last_success": "2026-09-21T01:09:20.246Z",
       "status": "ok",
-      "count": 88
+      "count": 92
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-20T01:12:26.405Z",
-      "last_success": "2026-09-20T01:12:26.405Z",
+      "attempted_at": "2026-09-21T01:09:20.246Z",
+      "last_success": "2026-09-21T01:09:20.246Z",
       "status": "ok",
-      "count": 97
+      "count": 103
     },
     {
       "id": "thehackernews",
@@ -44,8 +44,8 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-20T01:12:26.405Z",
-      "last_success": "2026-09-20T01:12:26.405Z",
+      "attempted_at": "2026-09-21T01:09:20.246Z",
+      "last_success": "2026-09-21T01:09:20.246Z",
       "status": "ok",
       "count": 92
     },
@@ -60,13 +60,156 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-20T01:12:26.405Z",
+      "attempted_at": "2026-09-21T01:09:20.246Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "수처리 시설, 발전소... 핵심 인프라 겨냥 OT 공격 대책, 센스톤 웨비나에서 듣는다",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145731",
+      "published_at": "2026-09-20T23:30:00.000Z",
+      "date": "2026-09-20",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "최근 미국 뉴저지·앨라배마 등 최소 12개 주의 수처리시설이 사이버 공격을 받은 데 이어, 영국에서도 소규모 발전시설이 나흘간 가동을 멈추는 등 국가 기반시설을 겨냥한 공격이 잇따르면서…",
+      "first_seen": "2026-09-21T01:09:20.246Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김승주 교수 칼럼] 공공기관의 시스템은 모두 국가안보 시스템인가",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208562",
+      "published_at": "2026-09-20T23:00:00.000Z",
+      "date": "2026-09-20",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "사이버보안 정책을 논의하다 보면 흔히 나타나는 문제가 하나 있다.",
+      "first_seen": "2026-09-21T01:09:20.246Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "앤트로픽 “AI, 공격 보조 넘어 오케스트레이터로”…샤이니헌터스 계열도 악용",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208560",
+      "published_at": "2026-09-20T12:51:28.000Z",
+      "date": "2026-09-20",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "생성형 AI가 사이버공격자의 단순한 코드 작성 보조도구를 넘어 공격 전 과정을 연결하고 자동화하는 ‘오케스트레이터’로 진화하고 있다는 분석이 나왔다.앤트로픽은 9월 10일 공개한 ‘AI 악용 탐지 및…",
+      "first_seen": "2026-09-21T01:09:20.246Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "CISA, 실제 악용 중인 리눅스 커널 취약점 3종 긴급 경고",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208559",
+      "published_at": "2026-09-20T12:43:15.000Z",
+      "date": "2026-09-20",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "미국 사이버보안·인프라보안국(CISA)이 리눅스 커널에서 발견된 취약점 3종이 실제 사이버공격에 악용되고 있다며 긴급 대응을 요구했다.CISA는 최근 CVE-2025-39682, CVE-2026-53266, CVE-2025-39964​를 ‘알려진 악용 취약점(Known Exploited Vulnerabilities, KEV)’ 카탈로그에…",
+      "first_seen": "2026-09-21T01:09:20.246Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "‘브랙잭’…악성 확장프로그램 하나로 브라우저 AI 에이전트 장악 가능",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208558",
+      "published_at": "2026-09-20T12:38:18.000Z",
+      "date": "2026-09-20",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "브라우저에 탑재되는 AI 에이전트가 확대되는 가운데, 악성 확장프로그램 하나만으로 AI 기능이 가진 브라우저 권한을 악용할 수 있다는 보안 연구가 공개됐다.보안업체 포에버 시큐리티 연구진은 9월 16일…",
+      "first_seen": "2026-09-21T01:09:20.246Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "탠스택 npm 공급망 공격 후폭풍…크라우드섹 비공개 깃허브 저장소 170개 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208557",
+      "published_at": "2026-09-20T12:31:29.000Z",
+      "date": "2026-09-20",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "지난 5월 발생한 탠스택 npm 공급망 공격의 피해가 보안업체 크라우드섹의 비공개 소스코드 유출로까지 이어진 사실이 뒤늦게 확인됐다.",
+      "first_seen": "2026-09-21T01:09:20.246Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "북한 해킹그룹 워터플럼, 100여 개국 3만대 감염…개발자 노렸다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208556",
+      "published_at": "2026-09-20T12:21:21.000Z",
+      "date": "2026-09-20",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "북한과 연계된 해킹그룹 ‘워터플럼(WaterPlum)’이 가짜 채용면접과 코딩테스트를 이용해 전 세계 개발자들을 공격하고 최소 3만대의 PC를 감염시킨 것으로 나타났다.미국 FBI와 일본 경찰청·국가사이버통괄실, 호주 사이버보안센터(ACSC), 독일 정보기관…",
+      "first_seen": "2026-09-21T01:09:20.246Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“연체자도 피싱·스팸 차단”... 과기부-통신3사, 추석맞아 사이버 민생범죄 예방",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145963",
+      "published_at": "2026-09-20T09:04:46.000Z",
+      "date": "2026-09-20",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "과학기술정보통신부(부총리 겸 장관 배경훈)는 추석을 맞아 통신 3사 및 플랫폼 기업과 함께 등 사이버 민생범죄 예방에 나선다.",
+      "first_seen": "2026-09-21T01:09:20.246Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "남성 패션 플랫폼 ‘룩핀’, 개인정보 유출 공지...이메일·비밀번호 해시 등",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145962",
+      "published_at": "2026-09-20T06:21:58.000Z",
+      "date": "2026-09-20",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "남성 패션 플랫폼 ‘룩핀’ 운영사 레벨13에서 이용자들에게 개인정보 유출을 공지했다.",
+      "first_seen": "2026-09-21T01:09:20.246Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“국가 R&D 과제에 AI 쓰려면 투명하고 안전하게”... 정부, 국가연구개발 AI 연구윤리 가이드",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145950",
+      "published_at": "2026-09-20T03:00:00.000Z",
+      "date": "2026-09-20",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "국가 연구개발에 참여한 연구자는 AI를 연구에 활용할 때 AI 생성물의 오류나 출처 진위 등을 검증해야 한다.",
+      "first_seen": "2026-09-21T01:09:20.246Z"
+    },
     {
       "source": "thehackernews",
       "region": "global",
