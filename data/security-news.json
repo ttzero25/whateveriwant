@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-21T01:09:20.246Z",
+  "attempted_at": "2026-09-22T01:37:27.914Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-21T01:09:20.246Z",
-      "last_success": "2026-09-21T01:09:20.246Z",
+      "attempted_at": "2026-09-22T01:37:27.914Z",
+      "last_success": "2026-09-22T01:37:27.914Z",
       "status": "ok",
-      "count": 92
+      "count": 102
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-21T01:09:20.246Z",
-      "last_success": "2026-09-21T01:09:20.246Z",
+      "attempted_at": "2026-09-22T01:37:27.914Z",
+      "last_success": "2026-09-22T01:37:27.914Z",
       "status": "ok",
-      "count": 103
+      "count": 107
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-21T01:09:20.246Z",
-      "last_success": "2026-09-21T01:09:20.246Z",
+      "attempted_at": "2026-09-22T01:37:27.914Z",
+      "last_success": "2026-09-22T01:37:27.914Z",
       "status": "ok",
-      "count": 92
+      "count": 97
     },
     {
       "id": "cisa",
@@ -60,13 +60,281 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-21T01:09:20.246Z",
+      "attempted_at": "2026-09-22T01:37:27.914Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "네이버클라우드, DB·서버 접근제어 통합 보안 서비스 출시... “개인정보보호법 부담 낮춰”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145990",
+      "published_at": "2026-09-22T00:59:52.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "네이버클라우드(대표 김유원)가 기업의 데이터베이스(DB)와 서버에 대한 접근을 통제하고 작업 이력을 자동으로 기록·관리하는 통합 보안 서비스 \\'DB & 서버 액세스 컨트롤’(DSAC)\\'을 출시했다고 22일 밝혔다.이 제품을 통해…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "파수 AI, 국정원 CSK 2026에서 AI 보안 전략 제시",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145987",
+      "published_at": "2026-09-22T00:30:21.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "AI 활용이 급속도로 확산되면서 기업 기밀과 개인정보 유출 위협이 주요 보안 과제로 떠오른 가운데, 파수 AI(대표 조규곤)가 ‘사이버 서밋 코리아 2026’(CSK 2026)’에 참가해 AI 보안…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[보안을 해킹하다] 아테나의 방패와 이카루스의 날개",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145981",
+      "published_at": "2026-09-22T00:00:00.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "[편집자 주] 김정덕 교수의 특별 연재 마지막 시간으로, 책의 제5부 ‘지혜와 회복\\'을 다룹니다.",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+      "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+      "published_at": "2026-09-21T17:19:00.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
+      "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+      "published_at": "2026-09-21T16:57:31.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "Google has been fined €403 million for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+      "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+      "published_at": "2026-09-21T14:15:40.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts.",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "韓 선박, 해킹에 멈췄다... 선박 보안 경각심↑",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145979",
+      "published_at": "2026-09-21T10:30:00.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "한국 선박이 해킹으로 통신이 멈추고 운항이 중단됐다.",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+      "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+      "published_at": "2026-09-21T08:39:38.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "카스퍼스키, ‘넥스트 옵티멈’ 보안 모듈 강화…중소기업 보안 확장성 높여",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208570",
+      "published_at": "2026-09-21T08:34:47.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "카스퍼스키(한국지사장 이효은)가 중소·중견기업(SMB)이 기존 보안 인프라를 크게 변경하지 않고 필요한 보안 기능을 단계적으로 추가할 수 있도록 ‘카스퍼스키 넥스트 옵티멈(Kaspersky Next Optimum)’의 보안 모듈을 강화했다고 21일…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "태니엄, 앤트로픽 ‘프로젝트 글래스윙’ 참여…AI로 코드 취약점 선제 탐지",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208566",
+      "published_at": "2026-09-21T08:24:51.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "자율형 IT 기업 태니엄(Tanium)이 앤트로픽(Anthropic)의 사이버보안 프로젝트인 ‘프로젝트 글래스윙(Project Glasswing)’에 참여해 프론티어 AI를 활용한 소프트웨어 취약점 탐지와 대응 기술을 시험한다.태니엄은 21일 프로젝트 글래스윙을 통해 앤트로픽의…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "포티넷 포티엔드포인트, AV-컴패러티브스 EPR 테스트서 ‘인증 리더’ 획득",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208565",
+      "published_at": "2026-09-21T08:17:55.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "포티넷의 통합 엔드포인트 보안 솔루션 ‘포티엔드포인트 with EDR(FortiEndpoint with EDR)’이 AV-컴패러티브스의 ‘2026 엔드포인트 방어 및 대응(EPR) 테스트’에서 ‘인증 리더(Certified Leader)’ 등급을 획득했다.포티넷은 지난해 포티EDR로 해당…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "금융권 SW 취약점 공동 대응체계 본격 가동…178개 금융사 참여",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208564",
+      "published_at": "2026-09-21T08:15:08.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "금융회사가 공통으로 사용하는 상용 소프트웨어와 오픈소스의 취약점을 공동으로 찾아 패치하고 금융회사 조치까지 연계하는 금융권 소프트웨어(SW) 공급망 보안 대응체계가 본격 가동되고 있다.금융보안원(원장 박상원)은 지난 2월 6일부터…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[한국정보공학기술사 보안을 論하다–48] 왜 개인정보 유출사고는 반복되는가?",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145977",
+      "published_at": "2026-09-21T07:31:45.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "보안 기술은 매년 진화하고 있다.",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "한국디지털포렌식학회, 한국형 e디스커버리 발전방안 제시",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145976",
+      "published_at": "2026-09-21T06:47:22.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "한국디지털포렌식학회(학회장 김기범)가 한국형 e디스커버리(eDiscovery) 제도의 발전 방안을 제시하는 자리를 가졌다.한국디지털포렌식학회는 국립군산대학교 법학연구소와 공동으로 18일 국립군산대학교에서 ‘AI·디지털포렌식을 활용한 e디스커버리(eDiscovery) 제도의 법적·기술적 쟁점’을 주제로 공동학술행사를 개최했다고 21일…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[인사] 개인정보보호위원회",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145975",
+      "published_at": "2026-09-21T06:24:57.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "◇ 위촉△위원 권건보△위원 김광수△위원 윤영미",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+      "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+      "published_at": "2026-09-21T06:06:44.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "가짜 면접으로 암호화폐 지갑 노려... 북한 워터플럼, 100개국 기기 3만대 감염",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145974",
+      "published_at": "2026-09-21T05:45:36.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "incident",
+        "phishing"
+      ],
+      "excerpt": "북한 해킹 조직 ‘워터플럼’(WaterPlum)이 8개월 동안 100개국이 넘는 곳에서 구직자들의 기기를 감염시켜 암호화폐 지갑 7000개 이상을 털어 간 정황을 네 나라 수사당국이 공개했다.일본과 미국, 호주,…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "금융권 취약점 공동 대응체계, 단일 플랫폼에서 ‘발견-패치-조치’ 원샷",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145970",
+      "published_at": "2026-09-21T00:30:00.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "금융보안원은 금융사와 화이트해커, SW 개발사가 참여하는 ‘금융권 SW공급망보안 플랫폼’을 통해 SW 취약점 공동 대응체계를 본격적으로 가동한다고 21일 밝혔다.금융권 SW공급망보안 플랫폼은 지난 2월부터 화이트해커의 취약점 발굴과…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "KT, UN 산하 ITU-T SG17 정보보호 연구반서 AI·신뢰 보안 국제표준화 주도",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145969",
+      "published_at": "2026-09-21T00:29:19.000Z",
+      "date": "2026-09-21",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "KT(대표 박윤영)가 국제연합(UN) 산하 기구 국제전기통신연합(ITU) 주관 국제표준회의에서 차세대 정보보호 분야의 국제표준화 논의를 주도했다고 21일 밝혔다.KT는 지난 7일부터 11일까지 중국 충칭에서 개최된 ITU 전기통신표준화부문 (ITU-T),…",
+      "first_seen": "2026-09-22T01:37:27.914Z"
+    },
     {
       "source": "boannews",
       "region": "kr",
