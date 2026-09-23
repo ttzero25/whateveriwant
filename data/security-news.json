@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-22T01:37:27.914Z",
+  "attempted_at": "2026-09-23T01:31:47.828Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-22T01:37:27.914Z",
-      "last_success": "2026-09-22T01:37:27.914Z",
+      "attempted_at": "2026-09-23T01:31:47.828Z",
+      "last_success": "2026-09-23T01:31:47.828Z",
       "status": "ok",
-      "count": 102
+      "count": 108
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-22T01:37:27.914Z",
-      "last_success": "2026-09-22T01:37:27.914Z",
+      "attempted_at": "2026-09-23T01:31:47.828Z",
+      "last_success": "2026-09-23T01:31:47.828Z",
       "status": "ok",
-      "count": 107
+      "count": 115
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-22T01:37:27.914Z",
-      "last_success": "2026-09-22T01:37:27.914Z",
+      "attempted_at": "2026-09-23T01:31:47.828Z",
+      "last_success": "2026-09-23T01:31:47.828Z",
       "status": "ok",
-      "count": 97
+      "count": 109
     },
     {
       "id": "cisa",
@@ -60,13 +60,386 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-22T01:37:27.914Z",
+      "attempted_at": "2026-09-23T01:31:47.828Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+      "url": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+      "published_at": "2026-09-22T18:29:39.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said.",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+      "url": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+      "published_at": "2026-09-22T18:03:10.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+      "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+      "published_at": "2026-09-22T17:03:31.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "incident",
+        "phishing"
+      ],
+      "excerpt": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+      "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+      "published_at": "2026-09-22T16:41:12.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+      "url": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+      "published_at": "2026-09-22T16:14:04.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "워드프레스 ‘Click2Shell’ 취약점 공개, 7.1.1 즉시 업데이트 권고",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208588",
+      "published_at": "2026-09-22T13:14:27.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "세계적으로 널리 사용되는 콘텐츠관리시스템(CMS) 워드프레스(WordPress)에서 관리자에게 조작된 링크를 클릭하도록 유도해 서버에서 임의의 PHP 코드를 실행할 수 있는 취약점이 공개됐다.‘Click2Shell’로 명명된 이번 취약점은 워드프레스 코어의 테마…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "디링크 DIR-822A 공유기 ‘CVSS 10.0’ 제로데이…패치 없이 PoC 공개",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208587",
+      "published_at": "2026-09-22T13:07:42.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "디링크(D-Link)의 DIR-822A 무선 공유기에서 공격자가 인증 없이 원격으로 악성 코드를 실행할 가능성이 있는 최고 위험도의 보안 취약점이 발견됐다.",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+      "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+      "published_at": "2026-09-22T12:29:00.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+      "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+      "published_at": "2026-09-22T11:38:40.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+      "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+      "published_at": "2026-09-22T11:17:41.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 룩핀 개인정보 유출 데이터, 다크웹서 판매 정황…해커 “270만 고객·1100만 주문정보 확보” ...룩핀 \"해킹 인정\"",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208585",
+      "published_at": "2026-09-22T10:44:38.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "국내 남성 패션 플랫폼 ‘룩핀(LOOKPIN)’에서 발생한 개인정보 유출 사고와 관련해, 룩핀에서 탈취했다고 주장하는 대규모 고객 데이터가 다크웹 해킹 포럼에서 판매되고 있는 정황이 확인됐다.데일리시큐가 확인한 다크웹…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 울산 산업제어시스템 접근권한 다크웹서 판매 정황…해커 “PLC 태그 인증 없이 Read/Write 가능” 주장",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208584",
+      "published_at": "2026-09-22T10:24:37.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "국내 산업현장에 설치된 것으로 추정되는 산업제어시스템(ICS)의 접근권한을 판매한다는 게시물이 해외 다크웹 포럼에서 확인됐다.판매자는 대상이 울산 지역 산업망에 연결된 로크웰오토메이션(Rockwell Automation) CompactLogix 계열 PLC(Programmable Logic Controller)라고…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "추석 연휴 ‘AI 사기 주의보’…얼굴·목소리도 못 믿는다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208581",
+      "published_at": "2026-09-22T09:12:20.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "추석 연휴를 앞두고 인공지능(AI)을 악용한 딥보이스와 딥페이크, 맞춤형 피싱 등 신종 사기에 대한 주의가 요구된다.",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "한국정보보호학회 해양사이버보안연구회, ‘능동적 사이버보안 워크숍 2026’ 10월 8일 개최",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208577",
+      "published_at": "2026-09-22T09:02:38.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "한국정보보호학회 해양사이버보안연구회와 서울과학기술대학교 4단계 BK21 능동적 사이버보안 인재양성 교육연구단이 오는 10월 8일 서울과학기술대학교 테크노큐브동 12층에서 ‘능동적 사이버보안 워크숍 2026(SEOULTECH Active Cyber Security Workshop 2026)’을 개최한다.이번…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "수산아이앤티, ‘ePrism SSL VA’ 국정원 보안기능확인서 획득",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208576",
+      "published_at": "2026-09-22T08:59:14.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "수산아이앤티(대표 정은아)는 SSL 가시화 솔루션 ‘ePrism SSL VA’가 국가정보원 보안기능확인서를 획득했다고 22일 밝혔다.SSL 가시화 제품은 지난 2월 개정된 ‘국가용 보안요구사항 V3.0’부터 보안기능확인서 발급 대상에 포함됐다.SSL…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "추석 피싱 주의보... “링크 클릭 후 권한 허용이 가장 치명적”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146005",
+      "published_at": "2026-09-22T08:50:00.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "incident",
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "추석 명절을 앞두고 택배 배송 조회나 결제 내역 확인 등을 위장한 피싱 문자가 기승을 부리고 있다.",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "AI가 찾은 취약점 225개 중 실제 악용은 1건…‘발견’과 ‘공격 위험’은 달랐다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208573",
+      "published_at": "2026-09-22T08:40:48.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "고성능 AI 모델이 소프트웨어 취약점을 대량으로 찾아내면서 새로운 취약점이 공격자들에게 빠르게 악용될 것이라는 우려가 커지고 있지만, 실제 공격으로 이어지는 비율은 아직 매우 낮다는 분석이 나왔다.벌른체크(VulnCheck)…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+      "url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "published_at": "2026-09-22T07:52:03.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "실제 해양 사이버 위협, CVE 개수와 비례하지 않아",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146004",
+      "published_at": "2026-09-22T07:34:27.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "선박에 탑재되는 기자재의 위험성이 단순히 알려진 보안 취약점(CVE) 개수와 정비례하지 않으며, 실제 운용 환경에서의 네트워크 노출 정도와 연결성을 종합적으로 따져야 한다는 분석 결과가 나왔다.해양 사이버보안…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "published_at": "2026-09-22T06:33:57.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+      "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+      "published_at": "2026-09-22T06:03:14.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page.",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[신간] 직접 행동하는 AI, 경쟁력의 기준을 바꾼다... ‘AX 2.0 우리의 준비’",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146001",
+      "published_at": "2026-09-22T05:59:25.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "챗GPT가 등장한지 아직 3년밖에 지나지 않았다는 사실이 믿기지 않을 정도로 인공지능(AI)는 빠르게 산업과 일상 전반에 침투했다.",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+      "published_at": "2026-09-22T05:31:59.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "The U.S.",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“직접 들은 목소리도 가짜”... 이스트시큐리티, 명절 노린 AI 피싱 경고",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145993",
+      "published_at": "2026-09-22T04:20:00.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "incident",
+        "phishing"
+      ],
+      "excerpt": "이스트시큐리티가 추석 연휴를 앞두고 AI 기술을 악용한 신종 명절 사기 4대 유형을 발표하며 주의를 당부했다.최근 유행하는 사칭 유형은 △몇 초 음성으로 완성되는 딥보이스·딥페이크 영상통화 사기…",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“공격 준비 10분 컷”... ‘AI 기반 선제 대응’으로 패러다임 전환",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145983",
+      "published_at": "2026-09-22T03:00:00.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "AI 자율 탐지 도구 확산으로 소프트웨어 취약점 생태계가 폭발적으로 팽창하면서 보안 조직의 대응 시간에 비상이 걸렸다.",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "통제 불능 AI 리스크, KISA ‘독자 보안특화 모델’로 승부수",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145982",
+      "published_at": "2026-09-22T03:00:00.000Z",
+      "date": "2026-09-22",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "AI 기술이 혁신을 거듭하는 가운데, 통제력을 상실한 AI의 사이버 무기화가 현실적 위협으로 다가오고 있다.",
+      "first_seen": "2026-09-23T01:31:47.828Z"
+    },
     {
       "source": "boannews",
       "region": "kr",
