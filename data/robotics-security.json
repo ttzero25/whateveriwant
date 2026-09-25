@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-24T01:26:52.824Z",
+  "attempted_at": "2026-09-25T01:33:10.823Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-09-24T01:26:52.824Z",
-      "last_success": "2026-09-24T01:26:52.824Z",
+      "attempted_at": "2026-09-25T01:33:10.823Z",
+      "last_success": "2026-09-25T01:33:10.823Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-09-24T01:26:52.824Z"
+          "last_success": "2026-09-25T01:33:10.823Z"
         }
       ],
       "count": 30
@@ -32,14 +32,14 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-09-24T01:26:52.824Z",
-      "last_success": "2026-09-24T01:26:52.824Z",
+      "attempted_at": "2026-09-25T01:33:10.823Z",
+      "last_success": "2026-09-25T01:33:10.823Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-09-24T01:26:52.824Z"
+          "last_success": "2026-09-25T01:33:10.823Z"
         }
       ],
       "count": 59
@@ -53,20 +53,70 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-09-24T01:26:52.824Z",
-      "last_success": "2026-09-24T01:26:52.824Z",
+      "attempted_at": "2026-09-25T01:33:10.823Z",
+      "last_success": "2026-09-25T01:33:10.823Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-09-24T01:26:52.824Z"
+          "last_success": "2026-09-25T01:33:10.823Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "autonomy",
+      "title": "Poster: FedWM-Guard: Thwarting Imagination Poisoning in Federated World Model-based Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.29178v1",
+      "date": "2026-09-24",
+      "published_at": "2026-09-24T07:49:42.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Federated learning (FL) can improve world model (WM)-based autonomous driving (AD) without centralizing raw private vehicle data, but it also turns model aggregation into a…",
+      "first_seen": "2026-09-25T01:33:10.823Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "ODPure: Backdoor Purification for Object Detection via Ensemble Corruption Consensus",
+      "url": "https://arxiv.org/abs/2609.28239v1",
+      "date": "2026-09-23",
+      "published_at": "2026-09-23T15:03:54.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "With the development of applications like autonomous driving, object detection has gained significant attention, while also highlighting critical vulnerabilities like backdoor attacks that severely compromise…",
+      "first_seen": "2026-09-25T01:33:10.823Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Who Is Behind the Harness? Fingerprinting LLMs through Agentic Behavior",
+      "url": "https://arxiv.org/abs/2609.28559v1",
+      "date": "2026-09-23",
+      "published_at": "2026-09-23T09:12:46.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "LLMs increasingly operate through coding-agent harnesses that inspect repositories, invoke tools, and modify files.",
+      "first_seen": "2026-09-25T01:33:10.823Z"
+    },
     {
       "source": "robotics",
       "title": "Turning Safety into Competence: Minimally Exploitable Robot Policies via Safety-Filtered Reinforcement Learning",
@@ -1362,55 +1412,6 @@
         "autonomy"
       ],
       "excerpt": "The evolution of automotive technology increasingly integrates components, transforming vehicles into interconnected systems of systems.",
-      "first_seen": null
-    },
-    {
-      "source": "autonomy",
-      "title": "Benchmarking Cyberattack Detection in Electric Vehicle Charging Infrastructure with Benign User Updates",
-      "url": "https://arxiv.org/abs/2608.11286v1",
-      "date": "2026-08-11",
-      "published_at": "2026-08-11T14:50:24.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Cyberattack detection in electric vehicle charging infrastructure is complicated by legitimate post-activation revisions to requested energy and departure time.",
-      "first_seen": null
-    },
-    {
-      "source": "autonomy",
-      "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
-      "url": "https://arxiv.org/abs/2608.10618v1",
-      "date": "2026-08-11",
-      "published_at": "2026-08-11T08:01:35.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "Embodied artificial intelligence aims to develop agents that perceive, reason, and act through continuous interaction with the physical world.",
-      "first_seen": "2026-09-16T01:27:38.086Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Conversational versus Dashboard Explainable AI for UAV Intrusion Detection: An Empirical Study of Operator Trust and Reliance",
-      "url": "https://arxiv.org/abs/2608.10434v1",
-      "date": "2026-08-11",
-      "published_at": "2026-08-11T03:31:59.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Machine learning-based Intrusion Detection Systems (IDS) have demonstrated superior performance in securing Unmanned Aerial Vehicle (UAV) networks.",
       "first_seen": null
     },
     {

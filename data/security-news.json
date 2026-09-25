@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-24T01:26:57.780Z",
+  "attempted_at": "2026-09-25T01:33:16.619Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-24T01:26:57.780Z",
-      "last_success": "2026-09-24T01:26:57.780Z",
+      "attempted_at": "2026-09-25T01:33:16.619Z",
+      "last_success": "2026-09-25T01:33:16.619Z",
       "status": "ok",
-      "count": 115
+      "count": 120
     },
     {
       "id": "dailysecu",
@@ -29,8 +29,8 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-24T01:26:57.780Z",
-      "last_success": "2026-09-24T01:26:57.780Z",
+      "attempted_at": "2026-09-25T01:33:16.619Z",
+      "last_success": "2026-09-25T01:33:16.619Z",
       "status": "ok",
       "count": 121
     },
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-24T01:26:57.780Z",
-      "last_success": "2026-09-24T01:26:57.780Z",
+      "attempted_at": "2026-09-25T01:33:16.619Z",
+      "last_success": "2026-09-25T01:33:16.619Z",
       "status": "ok",
-      "count": 120
+      "count": 125
     },
     {
       "id": "cisa",
@@ -60,13 +60,154 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-24T01:26:57.780Z",
+      "attempted_at": "2026-09-25T01:33:16.619Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“사람은 지휘하고 AI가 뛴다”... 이글루코퍼레이션이 제시한 자율형 SOC 아키텍처",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146035",
+      "published_at": "2026-09-25T00:00:00.000Z",
+      "date": "2026-09-25",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "“공격 속도가 2배 빨라졌다고 사람이 2배 빨리 일할 수는 없습니다.",
+      "first_seen": "2026-09-25T01:33:16.619Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[카드뉴스] \"공짜 eSIM 깔았더니 인증번호 털렸다?\"… 해외여행객 노리는 '악성 프록시' 통신 탈취 실태",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146033",
+      "published_at": "2026-09-24T23:30:00.000Z",
+      "date": "2026-09-24",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "해외 로밍 시 물리적 SIM 카드 교체의 번거로움을 피하기 위해 소프트웨어 기반의 eSIM 이용이 보편화된 가운데, \\'무료 해외 데이터\\'를 미끼로 배포되는 비공식 eSIM 프로필의 악성…",
+      "first_seen": "2026-09-25T01:33:16.619Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+      "url": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+      "published_at": "2026-09-24T18:10:18.000Z",
+      "date": "2026-09-24",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions.",
+      "first_seen": "2026-09-25T01:33:16.619Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+      "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+      "published_at": "2026-09-24T14:29:06.000Z",
+      "date": "2026-09-24",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously…",
+      "first_seen": "2026-09-25T01:33:16.619Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
+      "url": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
+      "published_at": "2026-09-24T09:14:21.000Z",
+      "date": "2026-09-24",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on…",
+      "first_seen": "2026-09-25T01:33:16.619Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "오픈AI AI 에이전트, 호주 정부 보건 사이트 침해... 호주 총리, “용납 못할 일”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146037",
+      "published_at": "2026-09-24T06:33:44.000Z",
+      "date": "2026-09-24",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "오픈AI의 인공지능(AI) 에이전트가 인간 지시 없이 호주 정부 보건 통계 사이트를 무단 해킹한 사실이 드러났다.",
+      "first_seen": "2026-09-25T01:33:16.619Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+      "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+      "published_at": "2026-09-24T06:32:03.000Z",
+      "date": "2026-09-24",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.",
+      "first_seen": "2026-09-25T01:33:16.619Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+      "published_at": "2026-09-24T05:36:18.000Z",
+      "date": "2026-09-24",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.",
+      "first_seen": "2026-09-25T01:33:16.619Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[만화로 보는 피싱]#5. “내 택배 맞는데”... AI가 쓴 ‘맞춤형 추석 피싱’ 주의!",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146021",
+      "published_at": "2026-09-24T01:31:00.000Z",
+      "date": "2026-09-24",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "순영씨는 추석을 맞아 1++ 등급 한우 살치살을 주문했다.",
+      "first_seen": "2026-09-25T01:33:16.619Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "ZKTeco, 지문인식 출입통제 단말기 ‘F34 Lite’ 출시",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146026",
+      "published_at": "2026-09-24T00:50:45.000Z",
+      "date": "2026-09-24",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "글로벌 보안 솔루션 전문기업 ZKTeco가 지문인식을 기반으로 한 출입통제 및 근태관리 단말기 ‘F34 Lite’를 출시했다.",
+      "first_seen": "2026-09-25T01:33:16.619Z"
+    },
     {
       "source": "boannews",
       "region": "kr",

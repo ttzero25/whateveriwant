@@ -1,5 +1,5 @@
 {
-  "attempted_at": "2026-09-24T01:26:56.531Z",
+  "attempted_at": "2026-09-25T01:33:15.267Z",
   "sources": [
     {
       "id": "acm-ccs",
@@ -7,9 +7,9 @@
       "year": 2026,
       "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
       "status": "ok",
-      "attempted_at": "2026-09-24T01:26:56.531Z",
-      "last_success": "2026-09-24T01:26:56.531Z",
-      "matched_count": 3
+      "attempted_at": "2026-09-25T01:33:15.267Z",
+      "last_success": "2026-09-25T01:33:15.267Z",
+      "matched_count": 6
     },
     {
       "id": "ieee-sp",
@@ -17,8 +17,8 @@
       "year": 2026,
       "url": "https://sp2026.ieee-security.org/accepted-papers.html",
       "status": "ok",
-      "attempted_at": "2026-09-24T01:26:56.531Z",
-      "last_success": "2026-09-24T01:26:56.531Z",
+      "attempted_at": "2026-09-25T01:33:15.267Z",
+      "last_success": "2026-09-25T01:33:15.267Z",
       "matched_count": 1
     },
     {
@@ -27,8 +27,8 @@
       "year": 2026,
       "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
       "status": "ok",
-      "attempted_at": "2026-09-24T01:26:56.531Z",
-      "last_success": "2026-09-24T01:26:56.531Z",
+      "attempted_at": "2026-09-25T01:33:15.267Z",
+      "last_success": "2026-09-25T01:33:15.267Z",
       "matched_count": 6
     },
     {
@@ -37,7 +37,7 @@
       "year": 2026,
       "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
       "status": "error",
-      "attempted_at": "2026-09-24T01:26:56.531Z",
+      "attempted_at": "2026-09-25T01:33:15.267Z",
       "last_success": "2026-09-10T13:21:20.125Z",
       "matched_count": 3
     },
@@ -47,7 +47,7 @@
       "year": 2026,
       "url": "https://www.usenix.org/conference/vehiclesec26/technical-sessions",
       "status": "error",
-      "attempted_at": "2026-09-24T01:26:56.531Z",
+      "attempted_at": "2026-09-25T01:33:15.267Z",
       "last_success": "2026-09-10T13:21:20.125Z",
       "matched_count": 26
     },
@@ -58,8 +58,8 @@
       "url": "https://www.sigsac.org/ccs/CCS2025/accepted-papers/",
       "feed": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
       "status": "ok",
-      "attempted_at": "2026-09-24T01:26:56.531Z",
-      "last_success": "2026-09-24T01:26:56.531Z",
+      "attempted_at": "2026-09-25T01:33:15.267Z",
+      "last_success": "2026-09-25T01:33:15.267Z",
       "matched_count": 6
     },
     {
@@ -68,8 +68,8 @@
       "year": 2025,
       "url": "https://sp2025.ieee-security.org/accepted-papers.html",
       "status": "ok",
-      "attempted_at": "2026-09-24T01:26:56.531Z",
-      "last_success": "2026-09-24T01:26:56.531Z",
+      "attempted_at": "2026-09-25T01:33:15.267Z",
+      "last_success": "2026-09-25T01:33:15.267Z",
       "matched_count": 1
     },
     {
@@ -78,8 +78,8 @@
       "year": 2025,
       "url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
       "status": "ok",
-      "attempted_at": "2026-09-24T01:26:56.531Z",
-      "last_success": "2026-09-24T01:26:56.531Z",
+      "attempted_at": "2026-09-25T01:33:15.267Z",
+      "last_success": "2026-09-25T01:33:15.267Z",
       "matched_count": 7
     },
     {
@@ -88,7 +88,7 @@
       "year": 2025,
       "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
       "status": "error",
-      "attempted_at": "2026-09-24T01:26:56.531Z",
+      "attempted_at": "2026-09-25T01:33:15.267Z",
       "last_success": "2026-09-10T13:21:20.125Z",
       "matched_count": 6
     },
@@ -98,7 +98,7 @@
       "year": 2025,
       "url": "https://www.usenix.org/conference/vehiclesec25/technical-sessions",
       "status": "error",
-      "attempted_at": "2026-09-24T01:26:56.531Z",
+      "attempted_at": "2026-09-25T01:33:15.267Z",
       "last_success": "2026-09-10T13:21:20.125Z",
       "matched_count": 28
     },
@@ -108,8 +108,8 @@
       "year": 2024,
       "url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
       "status": "ok",
-      "attempted_at": "2026-09-24T01:26:56.531Z",
-      "last_success": "2026-09-24T01:26:56.531Z",
+      "attempted_at": "2026-09-25T01:33:15.267Z",
+      "last_success": "2026-09-25T01:33:15.267Z",
       "matched_count": 6
     }
   ],
@@ -140,6 +140,46 @@
       ],
       "excerpt": "",
       "first_seen": "2026-09-10T13:19:12.219Z"
+    },
+    {
+      "id": "acm-ccs:2026:dc4a2cdef36f5167",
+      "title": "Investigating Planning Attacks against End-to-End Autonomous Driving",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "autonomy",
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-25T01:33:15.267Z"
+    },
+    {
+      "id": "acm-ccs:2026:cd0333e7517cf339",
+      "title": "PhantomTac: Hijacking Robotic Tactile Systems with Deploy-and-forget Tags",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "physical"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-25T01:33:15.267Z"
+    },
+    {
+      "id": "acm-ccs:2026:298f5c1cee2859be",
+      "title": "Shadow Tokens: Uncovering the Broken Permission Revocation Vulnerability in Intelligent Connected Vehicles",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "vehicle"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-09-25T01:33:15.267Z"
     },
     {
       "id": "acm-ccs:2026:b4c69636ce44a5ab",

@@ -65,8 +65,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-09-24T01:26:49.139Z",
-    "last_success": "2026-09-24T01:26:49.139Z"
+    "attempted_at": "2026-09-25T01:33:07.215Z",
+    "last_success": "2026-09-25T01:33:07.215Z"
   },
   {
     "id": "usenix-security",
@@ -134,7 +134,7 @@
     ],
     "matched_count": 55,
     "status": "error",
-    "attempted_at": "2026-09-24T01:26:49.139Z",
+    "attempted_at": "2026-09-25T01:33:07.215Z",
     "last_success": "2026-09-10T11:34:53.014Z"
   },
   {
@@ -143,11 +143,39 @@
     "group": "security",
     "year": 2026,
     "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
-    "matched_count": 20,
+    "matched_count": 64,
     "items": [
+      {
+        "id": "acm-ccs:2026:9b589a53fd423e4f",
+        "title": "(A)iSpy: Parasitic Trojans for Machine Learning Infrastructure",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "acm-ccs:2026:f60733013285fe76",
+        "title": "A Large-scale Measurement of In-Page Prompt Injections Against LLM Web Agents",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "acm-ccs:2026:db4061276829a866",
+        "title": "Adaptive Diffusion Freezing: Privacy-preserving Diffusion Models Against Membership Inference Attacks",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
       {
         "id": "acm-ccs:2026:097c038738c404ff",
         "title": "Auditing Data Provenance in LLM Fine-tuning via Intrinsic Distributional Fingerprints",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
+        "id": "acm-ccs:2026:dfe713fc23441c15",
+        "title": "Azkaban: Zero-Knowledge Abstract Analysis for Neural Networks",
         "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
         "basis": "title",
         "excerpt": ""
@@ -160,51 +188,23 @@
         "excerpt": ""
       },
       {
+        "id": "acm-ccs:2026:943117cbd983e55f",
+        "title": "Beyond One-Size-Fits-All: Neural Networks for Differentially Private Tabular Data Synthesis",
+        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+        "basis": "title",
+        "excerpt": ""
+      },
+      {
         "id": "acm-ccs:2026:29cc736c6a35dfcc",
         "title": "Can Small Language Models Reliably Resist Jailbreak Attacks? A Comprehensive Evaluation",
-        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
-        "basis": "title",
-        "excerpt": ""
-      },
-      {
-        "id": "acm-ccs:2026:75f76917fcffae47",
-        "title": "CVE-Genie: An LLM-Based Multi-Agent Framework for Reproducing CVEs",
-        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
-        "basis": "title",
-        "excerpt": ""
-      },
-      {
-        "id": "acm-ccs:2026:0795006c8c07f9dc",
-        "title": "DeepProve: Verifiable End-to-End Large Language Model Inference",
-        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
-        "basis": "title",
-        "excerpt": ""
-      },
-      {
-        "id": "acm-ccs:2026:646389b93bbec37e",
-        "title": "DRIP: Defending Prompt Injection via Token-wise Representation Editing and Residual Fusion",
-        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
-        "basis": "title",
-        "excerpt": ""
-      },
-      {
-        "id": "acm-ccs:2026:b59d93d08162b528",
-        "title": "From Documentation to Zero-day Vulnerabilities: LLM-Driven Fuzzing of JavaScript Engines in PDF Readers",
-        "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
-        "basis": "title",
-        "excerpt": ""
-      },
-      {
-        "id": "acm-ccs:2026:7f90f59a860ba8ff",
-        "title": "MMAligner: Safeguarding Multimodal Large Language Models through Representation Calibration",
         "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
         "basis": "title",
         "excerpt": ""
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-09-24T01:26:49.139Z",
-    "last_success": "2026-09-24T01:26:49.139Z"
+    "attempted_at": "2026-09-25T01:33:07.215Z",
+    "last_success": "2026-09-25T01:33:07.215Z"
   },
   {
     "id": "ndss",
@@ -272,8 +272,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-09-24T01:26:49.139Z",
-    "last_success": "2026-09-24T01:26:49.139Z"
+    "attempted_at": "2026-09-25T01:33:07.215Z",
+    "last_success": "2026-09-25T01:33:07.215Z"
   },
   {
     "id": "icml",
@@ -342,7 +342,7 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-09-24T01:26:49.139Z",
-    "last_success": "2026-09-24T01:26:49.139Z"
+    "attempted_at": "2026-09-25T01:33:07.215Z",
+    "last_success": "2026-09-25T01:33:07.215Z"
   }
 ]
