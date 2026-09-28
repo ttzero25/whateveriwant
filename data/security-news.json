@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-27T01:29:46.482Z",
+  "attempted_at": "2026-09-28T01:41:53.735Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-27T01:29:46.482Z",
-      "last_success": "2026-09-27T01:29:46.482Z",
+      "attempted_at": "2026-09-28T01:41:53.735Z",
+      "last_success": "2026-09-28T01:41:53.735Z",
       "status": "ok",
-      "count": 122
+      "count": 123
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-27T01:29:46.482Z",
-      "last_success": "2026-09-27T01:29:46.482Z",
+      "attempted_at": "2026-09-28T01:41:53.735Z",
+      "last_success": "2026-09-28T01:41:53.735Z",
       "status": "ok",
-      "count": 126
+      "count": 130
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-27T01:29:46.482Z",
-      "last_success": "2026-09-27T01:29:46.482Z",
+      "attempted_at": "2026-09-28T01:41:53.735Z",
+      "last_success": "2026-09-28T01:41:53.735Z",
       "status": "ok",
-      "count": 138
+      "count": 139
     },
     {
       "id": "cisa",
@@ -60,13 +60,97 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-27T01:29:46.482Z",
+      "attempted_at": "2026-09-28T01:41:53.735Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "방화벽 믿고 패치 미뤘더니…샤이니헌터스, 오라클 피플소프트 다시 공격",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208614",
+      "published_at": "2026-09-27T12:35:59.000Z",
+      "date": "2026-09-27",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "샤이니헌터스가 오라클 피플소프트의 취약점을 이용한 대규모 공격을 재개했다.",
+      "first_seen": "2026-09-28T01:41:53.735Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "해킹·가짜뉴스·폭발물 드론까지…유럽 겨냥한 러시아 ‘복합 공격’",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208613",
+      "published_at": "2026-09-27T09:03:08.000Z",
+      "date": "2026-09-27",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "러시아의 대유럽 압박이 해킹과 허위정보 유포를 넘어 드론 침범, 시설 파괴 시도까지 확대되고 있다는 분석이 나왔다.",
+      "first_seen": "2026-09-28T01:41:53.735Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "새 컨테이너에 이전 고객 데이터가 남았다…클라우드플레어 격리 취약점 발견",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208612",
+      "published_at": "2026-09-27T08:51:05.000Z",
+      "date": "2026-09-27",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "클라우드플레어의 컨테이너 서비스에서 한 고객이 같은 서버를 먼저 사용한 다른 고객의 데이터를 읽을 수 있는 취약점이 발견됐다.현재 실행 중인 서비스에 침입한 것이 아니라, 삭제된 컨테이너의…",
+      "first_seen": "2026-09-28T01:41:53.735Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "셰어포인트·마이크로틱 취약점 실제 공격…미 CISA 긴급 경고",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208611",
+      "published_at": "2026-09-27T08:03:24.000Z",
+      "date": "2026-09-27",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "미국 사이버보안·인프라보안국(CISA)이 마이크로소프트 셰어포인트와 마이크로틱 라우터OS의 취약점 두 건을 실제 공격에 쓰인 취약점 목록에 올렸다.",
+      "first_seen": "2026-09-28T01:41:53.735Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+      "published_at": "2026-09-27T07:47:57.000Z",
+      "date": "2026-09-27",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September…",
+      "first_seen": "2026-09-28T01:41:53.735Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "한드림넷, AI 전환(AX) 시대, 이제 ‘보안 스위치’는 선택이 아닌 필수",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146028",
+      "published_at": "2026-09-27T04:30:00.000Z",
+      "date": "2026-09-27",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "전 산업군에 걸쳐 AI 도입이 빠르게 진행되며 \\'AI 전환(AX)\\' 시대가 본격화되고 있다.",
+      "first_seen": "2026-09-28T01:41:53.735Z"
+    },
     {
       "source": "thehackernews",
       "region": "global",
