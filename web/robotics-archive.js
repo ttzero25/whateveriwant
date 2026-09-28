@@ -1,8 +1,8 @@
 import {renderTLDR} from './research-tldr.js';
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const BOOKMARK_KEY='whateveriwant-bookmarks';
-function loadBookmarks(){try{return new Set(JSON.parse(localStorage.getItem(BOOKMARK_KEY)||'[]'));}catch{return new Set();}}
-function saveBookmarks(set){try{localStorage.setItem(BOOKMARK_KEY,JSON.stringify([...set]));}catch{}}
+export function loadBookmarks(){try{return new Set(JSON.parse(localStorage.getItem(BOOKMARK_KEY)||'[]'));}catch{return new Set();}}
+export function saveBookmarks(set){try{localStorage.setItem(BOOKMARK_KEY,JSON.stringify([...set]));}catch{}}
 const roboticsLabels={autonomy:['자율주행','Autonomous driving'],vehicle:['차량 보안','Vehicle security'],ros:['ROS·미들웨어','ROS & middleware'],physical:['Physical AI·로봇','Physical AI & robotics'],sensors:['센서·인지','Sensors & perception'],security:['보안 연구','Security research']};
 function archiveData(data){
  if(data.archive)return data.archive;
@@ -29,6 +29,17 @@ export function filterUnified(items,{source='all',year='all',topic='all',kind='a
  const term=query.trim().toLowerCase();
  return items.filter(i=>(source==='all'||i.source_ids.includes(source))&&(year==='all'||String(i.year)===String(year))&&(topic==='all'||i.tags.includes(topic))&&(kind==='all'||i.entry_kind===kind)&&[i.title,i.tldr?.ko,i.tldr?.en].filter(Boolean).join(' ').toLowerCase().includes(term));
 }
+// Shared card markup for both watch feeds and the Bookmarks page, so styling stays in one place.
+export const allLabels={autonomy:['자율주행','Autonomous driving'],vehicle:['차량 보안','Vehicle security'],ros:['ROS·미들웨어','ROS & middleware'],physical:['Physical AI·로봇','Physical AI & robotics'],sensors:['센서·인지','Sensors & perception'],security:['보안','Security'],safety:['안전성·정렬','Safety & alignment'],evaluation:['평가·신뢰성','Evaluation'],research:['기타 연구·동향','Other research & updates']};
+export function feedEntries(data){
+ const names=new Map([...(data.sources||[]),...archiveData(data).sources].map(s=>[s.id,s.name]));
+ return {items:unifiedItems(data),names};
+}
+export function researchCard(i,name,labels,lang,bookmarked){
+ const t=(ko,en)=>lang==='en'?en:ko;
+ const badge=i.entry_kind==='conference'?t('학회 논문','CONFERENCE'):i.kind==='preprint'?'PREPRINT':i.kind==='community'?t('커뮤니티','COMMUNITY'):t('동향','UPDATE');
+ return `<article class="research-item" data-entry-kind="${i.entry_kind}" data-year="${i.year}" data-source="${escape(i.source_ids[0])}"><div class="research-item-meta"><span>${escape(name)}</span>${i.entry_kind==='conference'?`<span>${i.year} · ${t('학회 연도','Conference year')}</span>`:`<time datetime="${escape(i.date)}">${escape(i.date)}</time><small>${i.date_kind==='announced'?t('공고일','Announced'):t('게시일','Published')}</small>`}<span class="research-badge">${badge}</span><button class="bookmark-toggle" data-id="${escape(i.entry_id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked?t('북마크 해제','Remove bookmark'):t('북마크 추가','Add bookmark')}" title="${bookmarked?t('북마크 해제','Remove bookmark'):t('북마크 추가','Add bookmark')}">${bookmarked?'★':'☆'}</button></div><h3><a href="${escape(i.url)}" lang="en" target="_blank" rel="noopener noreferrer">${escape(i.title)} <span aria-hidden="true">↗</span></a></h3>${i.tldr?.ko||i.tldr?.en?renderTLDR(i,lang):''}<div class="research-tags">${i.tags.map(tag=>`<span>${escape(labels[tag]?t(...labels[tag]):tag)}</span>`).join('')}</div></article>`;
+}
 function setupUnifiedFeed(container,data,lang,config){
  const labels=config.labels;
  const t=(ko,en)=>lang==='en'?en:ko,items=unifiedItems(data);
@@ -48,8 +59,7 @@ function setupUnifiedFeed(container,data,lang,config){
   container.querySelector('#research-count').textContent=t(`${matches.length}개 항목`,`${matches.length} entries`);
   container.querySelector('#research-results').innerHTML=matches.slice(0,visible).map(i=>{
    const source=state.source==='all'?i.source_ids[0]:state.source,name=sources.find(([id])=>id===source)?.[1]||source;
-   const badge=i.entry_kind==='conference'?t('학회 논문','CONFERENCE'):i.kind==='preprint'?'PREPRINT':i.kind==='community'?t('커뮤니티','COMMUNITY'):t('동향','UPDATE');
-   return `<article class="research-item" data-entry-kind="${i.entry_kind}" data-year="${i.year}" data-source="${escape(source)}"><div class="research-item-meta"><span>${escape(name)}</span>${i.entry_kind==='conference'?`<span>${i.year} · ${t('학회 연도','Conference year')}</span>`:`<time datetime="${escape(i.date)}">${escape(i.date)}</time><small>${i.date_kind==='announced'?t('공고일','Announced'):t('게시일','Published')}</small>`}<span class="research-badge">${badge}</span><button class="bookmark-toggle" data-id="${escape(i.entry_id)}" aria-pressed="${bookmarks.has(i.entry_id)}" aria-label="${bookmarks.has(i.entry_id)?t('북마크 해제','Remove bookmark'):t('북마크 추가','Add bookmark')}" title="${bookmarks.has(i.entry_id)?t('북마크 해제','Remove bookmark'):t('북마크 추가','Add bookmark')}">${bookmarks.has(i.entry_id)?'★':'☆'}</button></div><h3><a href="${escape(i.url)}" lang="en" target="_blank" rel="noopener noreferrer">${escape(i.title)} <span aria-hidden="true">↗</span></a></h3>${i.tldr?.ko||i.tldr?.en?renderTLDR(i,lang):''}<div class="research-tags">${i.tags.map(tag=>`<span>${escape(labels[tag]?t(...labels[tag]):tag)}</span>`).join('')}</div></article>`;
+   return researchCard(i,name,labels,lang,bookmarks.has(i.entry_id));
   }).join('')||`<div class="empty">${state.bookmarked?t('북마크한 글이 없습니다. 카드의 ☆를 눌러 저장해보세요.','No bookmarks yet. Tap the ☆ on a card to save it.'):t('조건에 맞는 글이 없습니다. 검색어나 필터를 바꿔보세요.','No matching entries. Try another search or filter.')}</div>`;
   if(matches.length>visible){const button=document.createElement('button');button.className='chip research-more';button.textContent=t(`더 보기 (${matches.length-visible}개 남음)`,`Show more (${matches.length-visible} remaining)`);button.addEventListener('click',()=>{const start=visible;visible+=24;update(false);container.querySelectorAll('.research-item h3 a')[start]?.focus();});container.querySelector('#research-results').append(button);}
  }
