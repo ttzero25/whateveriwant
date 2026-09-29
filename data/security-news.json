@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-28T01:41:53.735Z",
+  "attempted_at": "2026-09-29T02:35:29.908Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-28T01:41:53.735Z",
-      "last_success": "2026-09-28T01:41:53.735Z",
+      "attempted_at": "2026-09-29T02:35:29.908Z",
+      "last_success": "2026-09-29T02:35:29.908Z",
       "status": "ok",
-      "count": 123
+      "count": 134
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-28T01:41:53.735Z",
-      "last_success": "2026-09-28T01:41:53.735Z",
+      "attempted_at": "2026-09-29T02:35:29.908Z",
+      "last_success": "2026-09-29T02:35:29.908Z",
       "status": "ok",
-      "count": 130
+      "count": 136
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-28T01:41:53.735Z",
-      "last_success": "2026-09-28T01:41:53.735Z",
+      "attempted_at": "2026-09-29T02:35:29.908Z",
+      "last_success": "2026-09-29T02:35:29.908Z",
       "status": "ok",
-      "count": 139
+      "count": 147
     },
     {
       "id": "cisa",
@@ -60,13 +60,369 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-28T01:41:53.735Z",
+      "attempted_at": "2026-09-29T02:35:29.908Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "아우토크립트, 미디어텍 칩셋 취약점 발견... CVE 2건 식별",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146069",
+      "published_at": "2026-09-29T01:00:15.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "아우토크립트가 글로벌 반도체 기업 미디어텍(MediaTek) 칩셋과 오픈소스 임베디드 커널에서 취약점을 발견했다.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "미토스로 취약점 찾는다... 팔로알토 유닛42, ‘지속형 프런티어 디펜스’ 공개",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146068",
+      "published_at": "2026-09-29T00:52:40.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "팔로알토 네트웍스 산하 위협 연구 조직 유닛42(Unit 42)가 앤트로픽과 오픈AI의 고성능 모델을 활용해 기업의 사이버 보안 노출을 선제적으로 찾아내는 ‘지속형 프런티어 AI 디펜스’ 서비스를 출시했다고…",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[배종찬의 보안 빅데이터] 가족애 악용해 침투해 들어오는 AI 피싱",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146067",
+      "published_at": "2026-09-28T22:00:00.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "incident",
+        "phishing"
+      ],
+      "excerpt": "인공지능(AI) 기술의 급격한 대중화와 함께 사이버 범죄 생태계에는 이른바 ‘새로운 패러다임’이 도래했다.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+      "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+      "published_at": "2026-09-28T19:18:01.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in…",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+      "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+      "published_at": "2026-09-28T18:35:42.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+      "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+      "published_at": "2026-09-28T17:42:18.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used,…",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+      "url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+      "published_at": "2026-09-28T17:38:33.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+      "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+      "published_at": "2026-09-28T14:00:53.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+      "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+      "published_at": "2026-09-28T11:46:00.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent…",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "윤영석 위원장 “연금개혁, 늦출 수 없는 국가적 과제”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146064",
+      "published_at": "2026-09-28T09:23:03.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "“지난해 모수개혁 이후 이제는 국민연금의 지속가능성을 높이고 미래 세대의 부담을 줄이기 위한 구조개혁 논의를 본격화해야 할 시점입니다.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+      "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+      "published_at": "2026-09-28T09:08:21.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“개인정보 보호를 최우선 경영가치로”... 개인정보위원장-통신 3사 CEO 간담회",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146063",
+      "published_at": "2026-09-28T07:27:23.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "국내 통신 3사 CEO가 개인정보 보호를 최우선 경영 가치로 삼고 관련 투자와 전문 인력을 확대하겠다고 다짐했다.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+      "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+      "published_at": "2026-09-28T07:21:49.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "The U.S.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "목소리까지 흉내 내는 피싱…보안 책임자 41% “딥페이크 전화 공격 경험”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208620",
+      "published_at": "2026-09-28T07:18:58.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "AI로 만든 목소리와 영상을 이용해 직원을 속이려는 공격이 기업의 전화·화상 통화로 확산하고 있다.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "한국은행, 외부업체 침입으로 186명 개인정보 유출",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146062",
+      "published_at": "2026-09-28T07:17:10.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "올해 5∼6월 외부 연수업체 공격을 통해 한국은행 직원 186명의 개인정보가 유출된 것으로 나타났다.28일 국회 재정경제기획위원회 소속 국민의힘 이종욱 의원이 한은에서 제출받은 자료에 따르면, 올해 5월…",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "인스피언, AI 보안 분석 고도화…침투테스트 자동화 활용 가능성 검토",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208619",
+      "published_at": "2026-09-28T07:10:50.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "인스피언(대표 최정규)이 개인정보 접속기록 관리와 통합보안관리 제품의 AI 기능을 고도화하고 있다.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "‘트러스트404’ 29일 결선, 디지털자산 탈취 막을 기술 겨룬다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208617",
+      "published_at": "2026-09-28T07:00:58.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "디지털자산 이용자를 보호할 보안 기술을 겨루는 웹3 해커톤 ‘트러스트404(TRUST404)’의 최종 발표와 시상식이 29일 서울 드림플러스 강남에서 열린다.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "빅오, 네트워크 인증 취약점 재현…비밀번호 틀렸는데 접속 성공",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208616",
+      "published_at": "2026-09-28T06:55:35.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "네트워크 인증·보안 기업 빅오가 RADIUS 인증 프로토콜의 ‘블라스트래디어스(BlastRADIUS, CVE-2024-3596)’ 취약점을 자체 시험환경에서 재현했다고 밝혔다.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "HCL소프트웨어 “금융권 패치 관리, 배포보다 실제 적용 확인이 중요”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208615",
+      "published_at": "2026-09-28T06:45:59.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "HCL소프트웨어는 지난 22일 서울 여의도 FKI타워에서 열린 ‘금융 테크 컨퍼런스 2026’에서 금융권의 IT 자산 관리와 패치 자동화 방안을 소개했다.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "오라클 피플소프트 공격 다시 고개 들어… 대문자 하나만 퍼센트 기호로 바꿔 웹 방화벽 뚫고 웹셸 심어",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146061",
+      "published_at": "2026-09-28T06:30:00.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "공격자들이 인사·재무 업무에 널리 쓰이는 오라클 피플소프트(PeopleSoft)를 노려 웹애플리케이션방화벽(WAF)을 우회하고 서버에 웹셸을 심고 있다.맨디언트는 샤이니헌터스와 연결된 공격 조직 UNC6240이 취약한 환경관리허브(PSEMHUB) 경로를 막아 둔 방화벽…",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "정보공개 앞둔 문서, 아직도 사람이 지워... 엘세븐시큐리티 “AI가 먼저 가리고 사람은 검수만”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146057",
+      "published_at": "2026-09-28T04:38:18.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "공공기관이 공개하는 문서 한 장 뒤에는 보이지 않는 ‘지우기 노동’이 숨어 있다.‘공공기관의 정보공개에 관한 법률’ 제 9조는 사생활 침해 우려가 있는 개인정보를 비공개 대상으로 정하고…",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "국민·기업·정부 개인정보 보호 문화 동참... ‘2026 개인정보 보호주간’ 시작",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146054",
+      "published_at": "2026-09-28T02:36:33.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "개인부터 기업, 정부 기관에 이르러 전 국민이 개인정보 보호 문화에 동참하는 ‘2026 개인정보 보호주간’이 시작된다.개인정보보호위원회(위원장 송경희)는 28일부터 10월 2일까지 ‘2026 개인정보 보호주간’을 운영한다.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "LG U+, IBCT와 국내 기업 유럽 공급망 규제 대응… 카테나-X 지원",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146051",
+      "published_at": "2026-09-28T01:42:46.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "LG유플러스가 데이터스페이스 전문기업 아이비씨티(IBCT)와 국내 제조기업의 유럽 공급망 데이터 규제 대응을 지원한다.LG유플러스는 IBCT와 ‘카테나-X(Catena-X) 사업 전략적 파트너십 체결 및 공동사업 출범식’을 열고, 국내 제조기업의 카테나-X…",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "세이퍼존, 애플 심사 뚫었다... 맥 OS용 ‘보안 USB’ 사용 승인",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146049",
+      "published_at": "2026-09-28T01:10:00.000Z",
+      "date": "2026-09-28",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "세이퍼존이 애플(Apple)의 공식 드라이버 사용 승인을 획득하고 맥OS 환경에서 오류 없이 작동하는 보안 USB 메모리 기술을 상용화했다고 28일 밝혔다.이번 승인으로 세이퍼존은 기업 고객들에게 단일 보안…",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김승주 교수 칼럼] 무조건적인 국내 클라우드 시장 보호, 과연 옳은가",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208607",
+      "published_at": "2026-09-27T23:00:00.000Z",
+      "date": "2026-09-27",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "최근 공공 클라우드 시장을 외국 기업에 어디까지 개방할 것인지를 두고 논란이 뜨겁다.",
+      "first_seen": "2026-09-29T02:35:29.908Z"
+    },
     {
       "source": "dailysecu",
       "region": "kr",
