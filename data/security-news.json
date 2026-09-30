@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-29T02:35:29.908Z",
+  "attempted_at": "2026-09-30T02:08:59.981Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,10 +13,10 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-09-29T02:35:29.908Z",
-      "last_success": "2026-09-29T02:35:29.908Z",
+      "attempted_at": "2026-09-30T02:08:59.981Z",
+      "last_success": "2026-09-30T02:08:59.981Z",
       "status": "ok",
-      "count": 134
+      "count": 147
     },
     {
       "id": "dailysecu",
@@ -29,10 +29,10 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-09-29T02:35:29.908Z",
-      "last_success": "2026-09-29T02:35:29.908Z",
+      "attempted_at": "2026-09-30T02:08:59.981Z",
+      "last_success": "2026-09-30T02:08:59.981Z",
       "status": "ok",
-      "count": 136
+      "count": 147
     },
     {
       "id": "thehackernews",
@@ -44,10 +44,10 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-09-29T02:35:29.908Z",
-      "last_success": "2026-09-29T02:35:29.908Z",
+      "attempted_at": "2026-09-30T02:08:59.981Z",
+      "last_success": "2026-09-30T02:08:59.981Z",
       "status": "ok",
-      "count": 147
+      "count": 150
     },
     {
       "id": "cisa",
@@ -60,13 +60,416 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-09-29T02:35:29.908Z",
+      "attempted_at": "2026-09-30T02:08:59.981Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[데일리시큐 CISO 조찬] 최광희 고문 “AI 공격 시대, 처벌보다 보안 투자 이끄는 규제 필요”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208647",
+      "published_at": "2026-09-30T02:06:36.000Z",
+      "date": "2026-09-30",
+      "tags": [
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "“AI가 사이버보안에 미치는 가장 큰 영향은 속도입니다.”최광희 법무법인 세종 고문은 9월 29일 서울 파크하얏트 더살롱에서 열린 데일리시큐 CISO 조찬세미나에서 AI 시대 기업 보안의 과제를 이같이…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "송경희 위원장 “AI 시대 개인정보 보호 혁신”... 제6회 개인정보 보호의 날 기념식",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146110",
+      "published_at": "2026-09-30T01:58:40.000Z",
+      "date": "2026-09-30",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "송경희 개인정보보호위원회 위원장은 개인정보 보호의 날을 맞아 “AI 시대 개인정보 보호 혁신”을 나아갈 방향으로 제시했다.개인정보위는 30일 오전 10시 서울 엘타워 그레이스홀에서 ‘제6회 개인정보 보호의 날…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "홍천군, 어린이 등하굣길 11개소에 CCTV 설치... 통학 안전망 강화",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146102",
+      "published_at": "2026-09-30T01:08:54.000Z",
+      "date": "2026-09-30",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "강원 홍천군(군수 신영재)이 ‘어린이 등하굣길 안심 구역 CCTV 신규 11개소 설치 공사’를 지난 21일 최종 준공했다.이번 사업은 최근 늘어나는 어린이 통학 안전사고 우려에 선제적으로 대응하고,…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "구리시, 건설 공사장 CCTV 재난안전상황실 연계로 화재·안전사고 실시간 감시한다",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146104",
+      "published_at": "2026-09-30T01:08:14.000Z",
+      "date": "2026-09-30",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "경기 구리시(시장 신동화)가 시민의 생명과 안전을 지키기 위해 건설 공사장 화재 및 안전사고를 원천 차단하는 강력한 선제 대응 체계를 구축한다.시는 재난 상황에 더 빠르고 촘촘하게…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "인천 제물포구, 여성 1인 가구·점포에 홈카메라·비상벨 지원",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146101",
+      "published_at": "2026-09-30T01:07:37.000Z",
+      "date": "2026-09-30",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "인천 제물포구(구청장 김찬진)는 스토킹 등 여성 대상 범죄를 예방하고 안전한 환경을 조성하기 위해 ‘여성안심드림(Dream) 지원사업’을 추진한다고 밝혔다.이번 사업은 관내 여성 1인 가구와 여성 1인 점포를…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김혁준의 실전형 K-시큐리티] 에이전틱 AI 시대, ‘사이버 방어의 판’이 바뀐다",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146098",
+      "published_at": "2026-09-30T00:52:11.000Z",
+      "date": "2026-09-30",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "앤트로픽의 클로드 미토스 프리뷰(Claude Mythos Preview)와 오픈AI의 아스트라(Astra)가 잇달아 공개되면서 사이버보안 시장이 술렁이고 있다.",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "피싱메일 클릭·신고 행동까지 AI로 점수화…지란지교시큐리티 ‘머드스코프’ 출시",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208645",
+      "published_at": "2026-09-30T00:43:58.000Z",
+      "date": "2026-09-30",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "지란지교시큐리티(대표 조원희)가 임직원의 메일 보안 행동을 인공지능으로 분석해 위험도를 측정하고 관리하는 휴먼 리스크 관리(HRM) 플랫폼 ‘머드스코프(MudScope)’를 출시했다고 30일 밝혔다.기존 보안 솔루션이 악성메일을 탐지·차단하거나 임직원을 대상으로…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "구글 검색 광고 타고 들어간 ‘챗GPT 플러스’... 맞춤형 GPT가 악성코드 설치 안내",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146093",
+      "published_at": "2026-09-30T00:35:10.000Z",
+      "date": "2026-09-30",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "챗GPT 맞춤형 GPT로 정상 제품을 사칭하며 이용자에게 악성 명령을 직접 실행하게 만든 사례를 보안 기업 헌트리스(Huntress)가 밝혔다.",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[디지털 문단속] #7. 스마트 TV 사생활 침해 논란... 내 거실 지키는 보안 수칙",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146087",
+      "published_at": "2026-09-30T00:26:25.000Z",
+      "date": "2026-09-30",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "최근 미국에서 삼성전자와 LG전자 스마트 TV의 자동 콘텐츠 인식(ACR: Automatic Content Recognition) 기술을 둘러싼 개인정보 침해 논란이 소송으로 이어졌다.",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "티오리 ‘진트’, 美 국방부 통신앱 취약점 분석... DARPA 연구 사업자 선정",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146094",
+      "published_at": "2026-09-30T00:25:52.000Z",
+      "date": "2026-09-30",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "오펜시브 사이버 보안 기업 티오리(Theori, 대표 박세준)의 AI 기반 자율형 모의해킹 플랫폼 ‘진트’(Xint)가 미국 국방부 통신앱의 취약점을 분석한다.30일 미국 국방고등연구계획국(DARPA)의 ‘자율 AI 애플리케이션 보안’ 연구…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "티오리 ‘진트’, 美 DARPA 연구 투입…AI로 국방 통신 앱 취약점 찾는다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208643",
+      "published_at": "2026-09-29T23:18:12.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "오펜시브 사이버보안 기업 티오리(Theori, 대표 박세준)의 AI 기반 자율형 모의해킹 플랫폼 ‘진트(Xint)’가 미국 국방고등연구계획국(DARPA)의 애플리케이션 보안 연구에 투입된다.티오리는 진트를 통해 DARPA의 ‘자율 AI 애플리케이션 보안’…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "정부24 해킹…어린이포털 취약 페이지 통해 공격, 메모리 덤프파일 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208642",
+      "published_at": "2026-09-29T23:04:14.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "정부의 대표 온라인 민원서비스인 정부24가 지난 8월 외부 공격을 받아 서버 메모리 정보와 일부 개인정보가 유출된 것으로 나타났다.",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
+      "url": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+      "published_at": "2026-09-29T17:20:17.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
+      "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
+      "published_at": "2026-09-29T17:20:08.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers, according…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
+      "url": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
+      "published_at": "2026-09-29T14:13:20.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+      "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+      "published_at": "2026-09-29T06:08:25.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "vulnerability",
+        "policy"
+      ],
+      "excerpt": "A malicious MCP server could trick an application built on the official MCP Python SDK into handing over the OAuth credentials it uses to log…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "개인정보위원장 “연내 에이전틱 AI 가이드라인 발간”... ‘권한관리’ 강조",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146084",
+      "published_at": "2026-09-29T05:53:11.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "“AI가 에이전트로 진화함에 따라 프라이버시의 핵심도 ‘얼마나 많은 정보와 권한을 위임할 것인가’로 변화하고 있습니다.",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "아우토크립트, 미디어텍 칩셋 보안 취약점 발견해 CVE 등록",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208636",
+      "published_at": "2026-09-29T05:35:31.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "아우토크립트가 미디어텍(MediaTek) 칩셋과 오픈소스 임베디드 커널에서 보안 취약점을 발견해 제보했다고 29일 밝혔다.",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "팔로알토 네트웍스, 유닛42 지속형 프런티어 AI 디펜스 발표",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208635",
+      "published_at": "2026-09-29T05:23:55.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "팔로알토 네트웍스가 AI를 활용해 기업의 보안 취약점을 상시 탐지하고 해결하는 유닛42 지속형 프런티어 AI 디펜스를 발표했다.이번 서비스는 앤트로픽의 클로드 미토스와 오픈AI의 GPT를 비롯한 고성능 모델을…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "울타리 넘으면 칩이 잡아 세운다... 엔비디아, AI 에이전트 감시 장치 하드웨어에 심었다",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146083",
+      "published_at": "2026-09-29T05:21:40.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "엔비디아가 28일(현지시각) 오픈 에이전트 안전 플랫폼(Open Agent Safety Platform)을 공개했다.",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "페스카로, 미국 오토아이삭 사이버보안 서밋서 AI 기반 자동차 보안 전략 발표",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208634",
+      "published_at": "2026-09-29T05:16:54.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "모빌리티 통합 사이버보안 전문기업 페스카로가 오는 10월 미국 미시간주 노바이에서 열리는 오토아이삭 사이버보안 서밋 2026(Auto-ISAC Cybersecurity Summit 2026)에 연사로 참가한다고 밝혔다.",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "“랜섬웨어 피해 막는다” 에브리존-명정보기술, 화이트디펜더 사업 ‘맞손’",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146082",
+      "published_at": "2026-09-29T05:04:50.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "에브리존과 명정보기술이 안티랜섬웨어 솔루션 ‘화이트디펜더’(WhiteDefender)를 중심으로 랜섬웨어 대응과 사업 협력 강화를 위한 전략적 업무협약을 체결했다고 29일 밝혔다.이번 협약은 데이터 복구 현장에서 확인한 랜섬웨어 피해를 줄이고…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "애플, 아이폰·맥 긴급 보안 업데이트…표적 공격에 악용된 취약점 패치",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208631",
+      "published_at": "2026-09-29T05:04:47.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "애플이 아이폰과 아이패드, 맥 운영체제에서 악성 파일을 이용해 임의 코드를 실행할 수 있는 보안 취약점을 수정했다.",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "AI스페라, IP 주소로 연결된 도메인 찾는 AI 기술 특허 등록",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208630",
+      "published_at": "2026-09-29T05:01:47.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "AI스페라가 'IP 주소와 연결된 도메인을 도출하는 전자 장치 및 그 방법'에 대한 국내 특허 등록을 완료했다.이번 특허는 특정 IP 주소가 실제로 어떤 도메인과 연결되어 있는지…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "에브리존-명정보기술, 랜섬웨어 대응 협력 위한 업무협약 체결",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208629",
+      "published_at": "2026-09-29T03:47:49.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "에브리존과 명정보기술이 랜섬웨어 대응 강화를 위해 손을 잡았다.",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "파수AI, 중소기업 맞춤형 '보안 케어 서비스' 출시",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208627",
+      "published_at": "2026-09-29T03:21:56.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "policy"
+      ],
+      "excerpt": "주식회사 파수AI가 인력과 예산 제약으로 보안에 어려움을 겪는 기업을 위해 '보안 케어 서비스'를 선보였다.최근 사이버 공격 범위와 빈도가 넓어지고 개인정보보호법 등 규제가 강화되면서 모든 기업이…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "파수 AI, 중소기업에 ‘보안 케어’ 서비스... 단계적 보안 체계 구축 지원",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146076",
+      "published_at": "2026-09-29T02:31:10.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "policy"
+      ],
+      "excerpt": "파수 AI가 인력과 예산 제약으로 보안 체계 구축에 어려움을 겪는 중소기업을 위해 ‘보안 케어 서비스’를 출시했다고 29일 밝혔다.AI 발전으로 사이버 공격의 범위와 빈도가 급증하면서 기업…",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "구글이 붙여 준 ‘인증 개발자’ 딱지... 크롬 팝업차단 확장, 챗봇 대화까지 빼냈다",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146075",
+      "published_at": "2026-09-29T01:50:42.000Z",
+      "date": "2026-09-29",
+      "tags": [
+        "malware",
+        "policy"
+      ],
+      "excerpt": "크롬 웹스토어에서 팝업 차단기로 제공되던 확장 프로그램 포퍼블로커(Poper Blocker)가 이용자 정보를 대량으로 빼내는 악성코드라는 분석이 나왔다.",
+      "first_seen": "2026-09-30T02:08:59.981Z"
+    },
     {
       "source": "boannews",
       "region": "kr",
@@ -6111,20 +6514,6 @@
         "vulnerability"
       ],
       "excerpt": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.",
-      "first_seen": "2026-09-10T13:47:17.151Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-      "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
-      "published_at": "2026-09-04T08:48:45.000Z",
-      "date": "2026-09-04",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence.",
       "first_seen": "2026-09-10T13:47:17.151Z"
     },
     {

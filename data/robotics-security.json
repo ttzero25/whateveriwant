@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-29T02:35:26.462Z",
+  "attempted_at": "2026-09-30T02:08:55.955Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-09-29T02:35:26.462Z",
-      "last_success": "2026-09-29T02:35:26.462Z",
+      "attempted_at": "2026-09-30T02:08:55.955Z",
+      "last_success": "2026-09-30T02:08:55.955Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-09-29T02:35:26.462Z"
+          "last_success": "2026-09-30T02:08:55.955Z"
         }
       ],
       "count": 30
@@ -32,14 +32,14 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-09-29T02:35:26.462Z",
-      "last_success": "2026-09-29T02:35:26.462Z",
+      "attempted_at": "2026-09-30T02:08:55.955Z",
+      "last_success": "2026-09-30T02:08:55.955Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-09-29T02:35:26.462Z"
+          "last_success": "2026-09-30T02:08:55.955Z"
         }
       ],
       "count": 60
@@ -53,20 +53,119 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-09-29T02:35:26.462Z",
-      "last_success": "2026-09-29T02:35:26.462Z",
+      "attempted_at": "2026-09-30T02:08:55.955Z",
+      "last_success": "2026-09-30T02:08:55.955Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-09-29T02:35:26.462Z"
+          "last_success": "2026-09-30T02:08:55.955Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "autonomy",
+      "title": "ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2609.37871v1",
+      "date": "2026-09-29",
+      "published_at": "2026-09-29T15:48:16.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Average performance on routine driving benchmarks does not establish planner reliability under rare, safety-critical hazards.",
+      "first_seen": "2026-09-30T02:08:55.955Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Deep Learning Latency Attacks and Defenses: A Cross-Domain Survey of Availability Threats",
+      "url": "https://arxiv.org/abs/2609.36732v1",
+      "date": "2026-09-29",
+      "published_at": "2026-09-29T05:06:32.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Adversarial machine learning has focused mainly on integrity, but availability is an increasingly consequential complement.",
+      "first_seen": "2026-09-30T02:08:55.955Z"
+    },
+    {
+      "source": "robotics",
+      "title": "LIBERO-MAX: Do Robot Policies Adapt When the World Changes?",
+      "url": "https://arxiv.org/abs/2609.36518v1",
+      "date": "2026-09-29",
+      "published_at": "2026-09-29T02:12:26.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Robots must often continue a task after a target moves, the viewpoint shifts, or an obstacle appears, even though their earlier observations and committed actions…",
+      "first_seen": "2026-09-30T02:08:55.955Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Memory in the Sky: Low-Altitude Question Answering with Multi-Agent Memory Aggregation",
+      "url": "https://arxiv.org/abs/2609.35431v1",
+      "date": "2026-09-28",
+      "published_at": "2026-09-28T15:36:32.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "This paper studies low-altitude question answering (LAQA), in which distributed unmanned aerial vehicle (UAV) memories are aggregated at a ground server to answer questions about…",
+      "first_seen": "2026-09-30T02:08:55.955Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Reliability Engineering for AI Systems: Challenges, Methods, and Directions",
+      "url": "https://arxiv.org/abs/2609.35316v1",
+      "date": "2026-09-28",
+      "published_at": "2026-09-28T14:48:59.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "AI reliability concerns whether an AI system performs its intended function dependably over a stated period and under stated operating conditions, with stated evidence.",
+      "first_seen": "2026-09-30T02:08:55.955Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Task-Oriented Communications for Edge-Assisted Multi-View Localization",
+      "url": "https://arxiv.org/abs/2609.35173v1",
+      "date": "2026-09-28",
+      "published_at": "2026-09-28T13:41:08.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Unmanned aerial vehicles (UAVs) and unmanned ground vehicles (UGVs) often lose satellite positioning in urban canyons, indoor facilities, and jammed or spoofed environments, making vision-based…",
+      "first_seen": "2026-09-30T02:08:55.955Z"
+    },
     {
       "source": "autonomy",
       "title": "TrackFlood: Relocating Latency Attacks from NMS-Free Detectors to Real-Time Trackers",
@@ -341,6 +440,22 @@
       ],
       "excerpt": "Humanoid loco-manipulation faces two prominent limitations: controllers using continuous velocity commands cannot precisely regulate individual footholds, while specialized foothold-tracking modules are difficult to integrate with…",
       "first_seen": "2026-09-23T01:31:44.534Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Automated Evaluation of Multi-Turn Dialogues in In-Car Conversational Assistants",
+      "url": "https://arxiv.org/abs/2609.35812v1",
+      "date": "2026-09-20",
+      "published_at": "2026-09-20T08:13:36.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "In-car conversational assistants (ICAs) are increasingly integrated into vehicles to support route planning, vehicle control, and information access.",
+      "first_seen": "2026-09-30T02:08:55.955Z"
     },
     {
       "source": "autonomy",
@@ -1334,56 +1449,6 @@
       "first_seen": "2026-09-24T01:26:52.824Z"
     },
     {
-      "source": "autonomy",
-      "title": "Digital Twin-Based Intrusion Detection for Vehicle Powertrain CAN Bus Systems",
-      "url": "https://arxiv.org/abs/2608.17093v1",
-      "date": "2026-08-17",
-      "published_at": "2026-08-17T20:00:21.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Existing automotive intrusion detection systems (IDSs) for the Controller Area Network (CAN) largely target discrepancies in message timing, frequency, or sequencing and cannot detect attacks…",
-      "first_seen": null
-    },
-    {
-      "source": "autonomy",
-      "title": "Structured Driving-State Narratives for Small Language Model-Based GNSS Spoofing Detection",
-      "url": "https://arxiv.org/abs/2608.17092v1",
-      "date": "2026-08-17",
-      "published_at": "2026-08-17T19:59:20.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "Autonomous vehicles (AVs) depend on reliable Global Navigation Satellite System (GNSS) positioning.",
-      "first_seen": null
-    },
-    {
-      "source": "autonomy",
-      "title": "AdROD: HyperNetwork-based Adversarially Robust Object Detection for Autonomous Driving",
-      "url": "https://arxiv.org/abs/2608.16031v1",
-      "date": "2026-08-17",
-      "published_at": "2026-08-17T02:52:01.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "Camera-based object detectors are vulnerable to physical adversarial attacks designed to suppress detections.",
-      "first_seen": null
-    },
-    {
       "source": "robotics",
       "title": "Benchmarking Identity-Sensitive LLM Outputs for Surveillance and Security Robots",
       "url": "https://arxiv.org/abs/2608.16030v1",
@@ -1396,56 +1461,6 @@
         "security"
       ],
       "excerpt": "Large language models (LLMs) are increasingly used to generate textual robot design specifications, interaction policies, and risk assessments during early-stage robot development.",
-      "first_seen": null
-    },
-    {
-      "source": "autonomy",
-      "title": "CrossView: Can Vision-Language Models Reason Across Cameras?",
-      "url": "https://arxiv.org/abs/2608.15539v1",
-      "date": "2026-08-16",
-      "published_at": "2026-08-16T05:25:04.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "Video understanding benchmarks have long centered on single-camera settings, where modern multi-modal language models achieve strong performance across image and video tasks.",
-      "first_seen": "2026-09-16T01:27:38.086Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Sensor-Driven Mission Synthesis for UAV/UGV Swarms: A TB-CSPN Coordination Architecture with Hardware-Enforced Safety",
-      "url": "https://arxiv.org/abs/2608.14306v1",
-      "date": "2026-08-14",
-      "published_at": "2026-08-14T13:44:10.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "This paper presents a coordination architecture for heterogeneous UAV/UGV swarms that synthesises mission actions from uncertain, multi-modal sensor evidence while preserving hardware-enforced safety at the…",
-      "first_seen": "2026-09-16T01:27:38.086Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "A Temporal Barrier Framework for Collision Avoidance in Multi-Agent Autonomous Aerial Vehicles",
-      "url": "https://arxiv.org/abs/2608.14239v1",
-      "date": "2026-08-14",
-      "published_at": "2026-08-14T12:15:00.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Operating teams of autonomous aircraft in dynamic, uncertain, and potentially adversarial environments requires safety protocols that are reliable yet selective, and allow agents to fly…",
       "first_seen": null
     },
     {
@@ -2017,22 +2032,6 @@
         "autonomy"
       ],
       "excerpt": "Recent advances in Vision-Language Models (VLMs) facilitate a new class of embodied AI systems, where these models are integrated into physical platforms, e.g.",
-      "first_seen": null
-    },
-    {
-      "source": "robotics",
-      "title": "Not What You Asked For: Typographic Attacks in Household Robot Manipulation",
-      "url": "https://arxiv.org/abs/2605.18593v1",
-      "date": "2026-05-18",
-      "published_at": "2026-05-18T16:06:29.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "sensors"
-      ],
-      "excerpt": "Open-vocabulary embodied AI agents increasingly rely on vision-language models such as CLIP for object perception and task grounding.",
       "first_seen": null
     },
     {
