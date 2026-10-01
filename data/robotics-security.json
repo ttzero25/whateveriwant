@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-09-30T02:08:55.955Z",
+  "attempted_at": "2026-10-01T02:11:27.428Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-09-30T02:08:55.955Z",
-      "last_success": "2026-09-30T02:08:55.955Z",
+      "attempted_at": "2026-10-01T02:11:27.428Z",
+      "last_success": "2026-10-01T02:11:27.428Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-09-30T02:08:55.955Z"
+          "last_success": "2026-10-01T02:11:27.428Z"
         }
       ],
       "count": 30
@@ -32,14 +32,14 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-09-30T02:08:55.955Z",
-      "last_success": "2026-09-30T02:08:55.955Z",
+      "attempted_at": "2026-10-01T02:11:27.428Z",
+      "last_success": "2026-10-01T02:11:27.428Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-09-30T02:08:55.955Z"
+          "last_success": "2026-10-01T02:11:27.428Z"
         }
       ],
       "count": 60
@@ -53,20 +53,69 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-09-30T02:08:55.955Z",
-      "last_success": "2026-09-30T02:08:55.955Z",
+      "attempted_at": "2026-10-01T02:11:27.428Z",
+      "last_success": "2026-10-01T02:11:27.428Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-09-30T02:08:55.955Z"
+          "last_success": "2026-10-01T02:11:27.428Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "autonomy",
+      "title": "TACTIC: Temporal and Context-Aware LLM Tactical Planning for Roadside LiDAR Attacks",
+      "url": "https://arxiv.org/abs/2609.39969v1",
+      "date": "2026-09-30",
+      "published_at": "2026-09-30T15:33:46.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Physical LiDAR attacks are often evaluated using fixed primitives and manually selected parameters, despite their strong dependence on surrounding traffic.",
+      "first_seen": "2026-10-01T02:11:27.428Z"
+    },
+    {
+      "source": "robotics",
+      "title": "Exploiting Vulnerabilities: Universal Adversarial Attacks on Vision-Language-Action Models in Robotics",
+      "url": "https://arxiv.org/abs/2609.39178v1",
+      "date": "2026-09-30",
+      "published_at": "2026-09-30T07:34:24.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "sensors"
+      ],
+      "excerpt": "Recently, Vision-Language-Action (VLA) models have revolutionized robotic manipulation by seamlessly integrating visual perception, language understanding, and action generation in an end-to-end learning framework.",
+      "first_seen": "2026-10-01T02:11:27.428Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Separated flows over swept wings across transitional Reynolds numbers",
+      "url": "https://arxiv.org/abs/2609.38732v1",
+      "date": "2026-09-30",
+      "published_at": "2026-09-30T01:08:07.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "We explore the effect of wing sweep on the interaction between leading-edge separation and tip vortex for a finite wing with sweep angles $Λ=0^\\circ$ to…",
+      "first_seen": "2026-10-01T02:11:27.428Z"
+    },
     {
       "source": "autonomy",
       "title": "ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving",
@@ -1399,23 +1448,6 @@
       "first_seen": null
     },
     {
-      "source": "autonomy",
-      "title": "Autonomous Cyber Defense in Connected Vehicles: A Multi-Agent Approach to V2X Security",
-      "url": "https://arxiv.org/abs/2608.19135v1",
-      "date": "2026-08-19",
-      "published_at": "2026-08-19T17:28:32.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "A connected vehicle has roughly 100 milliseconds to decide whether an incoming Basic Safety Message is real or fabricated.",
-      "first_seen": null
-    },
-    {
       "source": "robotics",
       "title": "Collective Ranking of Environmental Signals through Gaussian Belief Propagation in a Patrolling Robot Swarm",
       "url": "https://arxiv.org/abs/2608.17690v1",
@@ -1430,23 +1462,6 @@
       ],
       "excerpt": "Multi-robot patrolling requires a team to visit all areas of an environment at regular intervals, typically minimising idleness.",
       "first_seen": "2026-09-11T01:08:01.377Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "The hidden life of signals: Time-domain inferences and other privacy attacks on everyday devices",
-      "url": "https://arxiv.org/abs/2609.27803v1",
-      "date": "2026-08-17",
-      "published_at": "2026-08-17T23:12:00.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "In privacy research on radiofrequency-based protocols, the dominant focus has remained on Bluetooth, WiFi, and Zigbee, while a broader and arguably more consequential attack surface…",
-      "first_seen": "2026-09-24T01:26:52.824Z"
     },
     {
       "source": "robotics",
@@ -2016,22 +2031,6 @@
         "security"
       ],
       "excerpt": "Recent research has demonstrated the potential of reinforcement learning in effective multi-robot collaboration, particularly in social dilemmas where robots face a trade-off between self-interest and…",
-      "first_seen": null
-    },
-    {
-      "source": "robotics",
-      "title": "RoboJailBench: Benchmarking Adversarial Attacks and Defenses in Embodied Robotic Agents",
-      "url": "https://arxiv.org/abs/2605.19328v1",
-      "date": "2026-05-19",
-      "published_at": "2026-05-19T04:07:24.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Recent advances in Vision-Language Models (VLMs) facilitate a new class of embodied AI systems, where these models are integrated into physical platforms, e.g.",
       "first_seen": null
     },
     {
