@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-01T02:11:27.428Z",
+  "attempted_at": "2026-10-02T02:17:54.389Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-10-01T02:11:27.428Z",
-      "last_success": "2026-10-01T02:11:27.428Z",
+      "attempted_at": "2026-10-02T02:17:54.389Z",
+      "last_success": "2026-10-02T02:17:54.389Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-10-01T02:11:27.428Z"
+          "last_success": "2026-10-02T02:17:54.389Z"
         }
       ],
       "count": 30
@@ -32,14 +32,14 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-10-01T02:11:27.428Z",
-      "last_success": "2026-10-01T02:11:27.428Z",
+      "attempted_at": "2026-10-02T02:17:54.389Z",
+      "last_success": "2026-10-02T02:17:54.389Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-01T02:11:27.428Z"
+          "last_success": "2026-10-02T02:17:54.389Z"
         }
       ],
       "count": 60
@@ -53,20 +53,53 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-10-01T02:11:27.428Z",
-      "last_success": "2026-10-01T02:11:27.428Z",
+      "attempted_at": "2026-10-02T02:17:54.389Z",
+      "last_success": "2026-10-02T02:17:54.389Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-01T02:11:27.428Z"
+          "last_success": "2026-10-02T02:17:54.389Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "autonomy",
+      "title": "Weather-Aware Domain Adaptation for Street-View Weather Recognition",
+      "url": "https://arxiv.org/abs/2610.02000v1",
+      "date": "2026-10-01",
+      "published_at": "2026-10-01T16:31:43.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving.",
+      "first_seen": "2026-10-02T02:17:54.389Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Identity-Bound Governance Under Execution Uncertainty: An Accountability Proof Block for LLM Agent Persistent Halts, with Cryptographic Implementation and Cross-Model Calibration",
+      "url": "https://arxiv.org/abs/2610.00787v1",
+      "date": "2026-09-30",
+      "published_at": "2026-09-30T22:22:33.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "A correctly governed LLM agent can reach a state in which neither continuing execution nor automatically halting is admissible: the system has detected a persistent…",
+      "first_seen": "2026-10-02T02:17:54.389Z"
+    },
     {
       "source": "autonomy",
       "title": "TACTIC: Temporal and Context-Aware LLM Tactical Planning for Roadside LiDAR Attacks",
@@ -444,6 +477,22 @@
     },
     {
       "source": "autonomy",
+      "title": "RIS-Assisted Secure ISAC: Fundamentals, Applications, and Future Directions",
+      "url": "https://arxiv.org/abs/2610.00216v1",
+      "date": "2026-09-22",
+      "published_at": "2026-09-22T03:09:44.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Integrated sensing and communication (ISAC) has emerged as a key enabler for sixth-generation (6G) networks, yet its broadcast nature at the physical layer leaves transmissions…",
+      "first_seen": "2026-10-02T02:17:54.389Z"
+    },
+    {
+      "source": "autonomy",
       "title": "Beyond Legacy L1 C/A: Characterizing Advanced Multi-Frequency Spoofing Against Multi-Frequency GPS Receivers for Autonomous Navigation",
       "url": "https://arxiv.org/abs/2609.25361v1",
       "date": "2026-09-21",
@@ -780,6 +829,22 @@
       ],
       "excerpt": "Electric vehicle charging infrastructure presents a suite of novel cyber-physical threats.",
       "first_seen": null
+    },
+    {
+      "source": "autonomy",
+      "title": "A Comprehensive Review of One-Pixel Attack: Research Status, Taxonomy, Applications, Regulation Policy and Future Directions",
+      "url": "https://arxiv.org/abs/2610.00125v1",
+      "date": "2026-09-09",
+      "published_at": "2026-09-09T17:20:16.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "One-Pixel Attacks (OPAs) represent one of the most extreme demonstrations of adversarial fragility in deep learning, where modifying a single pixel can reliably induce high-confidence…",
+      "first_seen": "2026-10-02T02:17:54.389Z"
     },
     {
       "source": "autonomy",
@@ -1289,22 +1354,6 @@
       "first_seen": null
     },
     {
-      "source": "autonomy",
-      "title": "Ankhdjet: An Open-Source Compiler for Mask-Programmed Ternary Compute-in-ROM on an Open PDK",
-      "url": "https://arxiv.org/abs/2608.26206v1",
-      "date": "2026-08-26",
-      "published_at": "2026-08-26T02:53:57.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Large-language-model inference is dominated by weight movement: every generated token re-reads every weight.",
-      "first_seen": "2026-09-16T01:27:38.086Z"
-    },
-    {
       "source": "robotics",
       "title": "ROS2 Connect: A new ROS2 over WAN Solution",
       "url": "https://arxiv.org/abs/2608.25102v1",
@@ -1335,23 +1384,6 @@
       ],
       "excerpt": "Harbor seals track hydrodynamic trails with their vibrissae, enabling passive perception of moving targets in dark or turbid water.",
       "first_seen": "2026-09-11T01:08:01.377Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Resource Allocation for Secure Dual-UAV-Assisted ISAC System",
-      "url": "https://arxiv.org/abs/2608.24398v1",
-      "date": "2026-08-25",
-      "published_at": "2026-08-25T11:01:24.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "Integrated sensing and communication (ISAC) is a rising technology in the next wireless communication networks, enabling the simultaneous execution of communication and sensing tasks by…",
-      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "robotics",
@@ -1401,22 +1433,6 @@
       "first_seen": null
     },
     {
-      "source": "autonomy",
-      "title": "A Resilience Recovery Method for Complex Traffic Network Security Based on Trend Forecasting",
-      "url": "https://arxiv.org/abs/2609.27903v1",
-      "date": "2026-08-21",
-      "published_at": "2026-08-21T11:05:02.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Due to the rapid development of information technology, a huge and complex traffic network has been established across various sectors, including aviation, aerospace, vehicles, ships,…",
-      "first_seen": "2026-09-24T01:26:52.824Z"
-    },
-    {
       "source": "robotics",
       "title": "Rethinking Demonstration Unlearning in Imitation Learning for Robotics",
       "url": "https://arxiv.org/abs/2608.20784v1",
@@ -1430,22 +1446,6 @@
       ],
       "excerpt": "Imitation learning for robotics depends on human demonstrations, some of which people may later ask to remove.",
       "first_seen": "2026-09-11T01:08:01.377Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Secrecy Rate Maximization for UAV-Mounted Six-Dimensional Movable IRS-Assisted ISAC Systems",
-      "url": "https://arxiv.org/abs/2608.20278v1",
-      "date": "2026-08-20",
-      "published_at": "2026-08-20T17:13:10.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Integrated sensing and communication (ISAC) is a key enabling technology for 6G wireless networks, but its broadcast nature raises a physical-layer security concern when the…",
-      "first_seen": null
     },
     {
       "source": "robotics",
