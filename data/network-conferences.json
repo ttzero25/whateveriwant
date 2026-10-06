@@ -1,0 +1,3445 @@
+{
+  "attempted_at": "2026-10-06T10:34:05.527Z",
+  "sources": [
+    {
+      "id": "acm-ccs",
+      "name": "ACM CCS",
+      "year": 2026,
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "status": "ok",
+      "attempted_at": "2026-10-06T10:34:05.527Z",
+      "last_success": "2026-10-06T10:34:05.527Z",
+      "matched_count": 37
+    },
+    {
+      "id": "ieee-sp",
+      "name": "IEEE S&P",
+      "year": 2026,
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "status": "ok",
+      "attempted_at": "2026-10-06T10:34:05.527Z",
+      "last_success": "2026-10-06T10:34:05.527Z",
+      "matched_count": 20
+    },
+    {
+      "id": "ndss",
+      "name": "NDSS",
+      "year": 2026,
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "status": "ok",
+      "attempted_at": "2026-10-06T10:34:05.527Z",
+      "last_success": "2026-10-06T10:34:05.527Z",
+      "matched_count": 37
+    },
+    {
+      "id": "usenix-security",
+      "name": "USENIX Security",
+      "year": 2026,
+      "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "status": "ok",
+      "attempted_at": "2026-10-06T10:34:05.527Z",
+      "last_success": "2026-10-06T10:34:05.527Z",
+      "matched_count": 30
+    },
+    {
+      "id": "acm-ccs",
+      "name": "ACM CCS",
+      "year": 2025,
+      "url": "https://www.sigsac.org/ccs/CCS2025/accepted-papers/",
+      "feed": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "status": "ok",
+      "attempted_at": "2026-10-06T10:34:05.527Z",
+      "last_success": "2026-10-06T10:34:05.527Z",
+      "matched_count": 25
+    },
+    {
+      "id": "ieee-sp",
+      "name": "IEEE S&P",
+      "year": 2025,
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html",
+      "status": "ok",
+      "attempted_at": "2026-10-06T10:34:05.527Z",
+      "last_success": "2026-10-06T10:34:05.527Z",
+      "matched_count": 20
+    },
+    {
+      "id": "ndss",
+      "name": "NDSS",
+      "year": 2025,
+      "url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
+      "status": "ok",
+      "attempted_at": "2026-10-06T10:34:05.527Z",
+      "last_success": "2026-10-06T10:34:05.527Z",
+      "matched_count": 16
+    },
+    {
+      "id": "usenix-security",
+      "name": "USENIX Security",
+      "year": 2025,
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "status": "ok",
+      "attempted_at": "2026-10-06T10:34:05.527Z",
+      "last_success": "2026-10-06T10:34:05.527Z",
+      "matched_count": 45
+    },
+    {
+      "id": "ndss",
+      "name": "NDSS",
+      "year": 2024,
+      "url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
+      "status": "ok",
+      "attempted_at": "2026-10-06T10:34:05.527Z",
+      "last_success": "2026-10-06T10:34:05.527Z",
+      "matched_count": 26
+    }
+  ],
+  "items": [
+    {
+      "id": "acm-ccs:2026:ee6366b094f1e4c3",
+      "title": "'Setting Up TLS Authentication Was Hell': A Usability Study of Client Certificate Authentication",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:86a01ac8739e30e2",
+      "title": "5GDescrambler: Locating, Descrambling, and Decoding 5G Scheduling Information",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:d823d73bb103fe01",
+      "title": "A First-Principles Evaluation of Graph-Based Network Intrusion Detection Systems",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:ca4b394478b3a29a",
+      "title": "A Formal Analysis of Signal's Sparse Post-Quantum Ratchet Protocol and its Implementation",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:346ff94101f4531a",
+      "title": "Accountability in Certificate Transparency and Variants",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:5b8852e17301356e",
+      "title": "An Ounce of Prevention Is Worth a Pound of Cure: A Pre-filtering Framework to Against Asymmetric DoS in Group Authentication at the IoT Edge",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:7eef7d539ed3a8b8",
+      "title": "ArchProof: A Sound Output-Contribution Certificate for Dormant-Gate Path Backdoors in ONNX Models",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:51d94ec9948400bd",
+      "title": "Automated Side-Channel Analysis of Cryptographic Protocol Implementations",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:cb829c5460ce35ab",
+      "title": "BeaverDam: A Post-Quantum Threshold Key Recovery Protocol from a One-Time Threshold Oblivious Random Function",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:321df29df03f8644",
+      "title": "Beyond Anonymity Sets: A Security Model for Distributed Shuffling in Adversarial Environments",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:a38ae872326f1901",
+      "title": "Botnet Boasting: Investigating DDoS Power Proofs",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:bad9de88d23fc42f",
+      "title": "Brewing Under Pressure: More Realistic Tor Flow Correlation Considering Low FPRs",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:b2ee25bcdebeb2d1",
+      "title": "Bust a Shuffle! A Formal Privacy Analysis of Voting Protocols with Multi-Server Mix Nets",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:b80ffd67f97b8712",
+      "title": "Censorship Resistance vs Throughput in Multi-Proposer BFT Protocols",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:75d8e475d1ab050e",
+      "title": "CircumVolve: Automated Discovery of Censorship Evasion Strategies Using Large Language Models",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:f7a9aec7da32c012",
+      "title": "Coverage Illusion: Measuring Android TLS Instrumentation Gaps",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:8df96d7725dabc99",
+      "title": "Cross User/App Network Attacks - Hijacking TCP Connections and DNS Cache Poisoning via a Malicious User/App",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:b4eaec168ea19f02",
+      "title": "CV2F*: Combining CryptoVerif and F* for Proving Security of Protocol Implementations",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:888c6ece4ed22dd7",
+      "title": "Exploiting vulnerabilities at IXP route servers to perform stealth BGP hijacks",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:08a196ea415733b7",
+      "title": "Good Cache, BAD Cache: Exploiting DNSSEC Validation Failures for DNS Cache Poisoning Attacks",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:09e68720d1cb0604",
+      "title": "Less Effort, Shorter Proofs: Reinforcement Learning for Security Protocol Analysis in Tamarin",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:2d9b5edf341e0a31",
+      "title": "NetSynergy: Mitigating Application-layer DDoS via Adaptive Access-Backbone Collaboration",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:909472789fb5c43d",
+      "title": "Parade: Unified and Data-Driven Prefix-AS Semantics for BGP Anomaly Detection",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:c04f867ce32e7c65",
+      "title": "PhantomChannel: A Parasitic Covert Channel via a Parsing-Boundary Blind Spot in BLE Link-Layer Traffic",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:d97d0420a8450176",
+      "title": "Prefix Consensus For Censorship Resistant BFT",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:19c604c4f80978ea",
+      "title": "Privacy Leakage from a Thousand Words: Millipixel Location Recovery from Dot Maps",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:a57af9c74d50f4d7",
+      "title": "Reproducing Web Application Vulnerabilities with Patch-Guided Routing Inference and Sink Exploration",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:a5ad22ccd47904c3",
+      "title": "Rethinking Isolation in RPKI: Cross-Publication-Point Attacks on RPKI Validation",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:8262ad2c05ec9c5b",
+      "title": "RT-MD: Host-Centric Real-Time Detection of Multi-Domain DNS Data Exfiltration",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:0279b640a1e55965",
+      "title": "Symbolic Protocol Verification modulo XOR in ProVerif",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:05a59d3a8b6b48bd",
+      "title": "The SecureDrop Protocol: End-to-End Encrypted Whistleblowing for All",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:7daa8029972bf828",
+      "title": "The Trade-off Between Performance and Security: Exploring Vulnerabilities in DNS Task Queue Scheduling",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:cb7ea7d3c1f4ec2a",
+      "title": "TurboRetry: Mitigating Large-Scale QUIC Handshake Floods with Off-the-Shelf DPU Offloading",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:32b564d618ce87c1",
+      "title": "Understanding the Privacy-Preserving Potential of HTTP/2 Against Webpage Fingerprinting",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:4a1728701aae9205",
+      "title": "Weaponizing QNAME Minimization: Infrastructure-Free DNS Amplification via Resolver Orchestration",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol",
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:3b69bf5d55fce5a1",
+      "title": "Where Have All the Firewalls Gone? Security Consequences of Residential IPv6 Transition",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2026:c4df88af8cee5b7a",
+      "title": "XSS-over-DoH: On the Adverse Side Effects of DoH on Web Security",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:bc6179ea7bc54a90",
+      "title": "2FiA: Towards WiFi Sensing-Based Authentication with Unique Biometrics",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-89",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:27c0dab1e18f1d1d",
+      "title": "Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-192",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:5fdc5dcd2a03b1ce",
+      "title": "Beyond Nodes vs. Edges: A Multi-View Fusion Framework for Provenance-Based Intrusion Detection",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-250",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:fa341f69c3cae309",
+      "title": "Camveil: Unveiling Security Camera Vulnerabilities through Multi-Protocol Coordinated Fuzzing",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-1",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:85ef364fd1b09604",
+      "title": "CenAlert: Amplifying User Voices to Rally Censorship Investigation",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-237",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:85d2f65b74953568",
+      "title": "CenRL: A Framework for Performing Intelligent Censorship Measurements",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-100",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:12acabe4bf84259c",
+      "title": "Decomposition-Based Optimal Bounds for Privacy Amplification via Shuffling",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-153",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:a9968f956461901e",
+      "title": "Descriptors of Exposure: Undermining Tor Anonymity through Exploiting Descriptor Flood",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-73",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:fc16bed3dc451bae",
+      "title": "Guardians of the Air: In-Device Detection of 5G Control-Plane Threats",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-210",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:180766ae824d5fad",
+      "title": "Knocking on the Front Door: An LLM-Guided Systematic Analysis of DNS Query Processing Vulnerabilities",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-215",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:a05033d9dd9dc4dd",
+      "title": "MadeYouReset: Exploiting HTTP/2 Server-Side Resets for Large-Scale DoS",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-225",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "protocol",
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:445f7b216840d7f5",
+      "title": "Mechanized Safety and Liveness Proofs for the Mysticeti Consensus Protocol under the LiDO-DAG Framework",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-9",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:079cf27ad943e8a4",
+      "title": "One Char to Rule Them All: Systematically Exploring and Exploiting DNS Silent Vulnerabilities in Domain Name Resolution",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-6",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:fd5b665b05bb268b",
+      "title": "One Tap to Hijack Them All: A Security Analysis of the Google Fast Pair Protocol",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-217",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:234e6fd6be026225",
+      "title": "Resolve the Unresolved: Systematic Work Profiling for DNS Resolvers",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-7",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:d8db293ce51b28fe",
+      "title": "Revisiting PQ WireGuard: A Comprehensive Security Analysis With a New Design Using Reinforced KEMs",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-58",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:1c6524c3cd39ec9a",
+      "title": "SaTor: Exploring Satellite Routing in Tor to Reduce Latency",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-69",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "routing",
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:61baae29bf745903",
+      "title": "The Fault in Our Drafts: Vulnerabilities in RPKI Specification and Software",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-232",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:778d6381d562efde",
+      "title": "The Threat Landscape of IP Leasing in the RPKI Era",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-13",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2026:36c374597eb35892",
+      "title": "Usable Anonymity in Reproductive Health Privacy",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html#collapse-24",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2026,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:a53beacd48ecb6da",
+      "title": "ACTS: Attestations of Contents in TLS Sessions",
+      "url": "https://www.ndss-symposium.org/ndss-paper/acts-attestations-of-contents-in-tls-sessions/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:74a9ff938049e76f",
+      "title": "AirSnitch: Demystifying and Breaking Client Isolation in Wi-Fi Networks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/airsnitch-demystifying-and-breaking-client-isolation-in-wi-fi-networks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:5137997f37ef5e96",
+      "title": "Aliens Among Us: Observing Private or Reserved IPs on the Public Internet",
+      "url": "https://www.ndss-symposium.org/ndss-paper/aliens-among-us-observing-private-or-reserved-ips-on-the-public-internet/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:8839d0306612aa6d",
+      "title": "BLERP: BLE Re-Pairing Attacks and Defenses",
+      "url": "https://www.ndss-symposium.org/ndss-paper/blerp-ble-re-pairing-attacks-and-defenses/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:b23ed7bcc4464c41",
+      "title": "BSFuzzer: Context-Aware Semantic Fuzzing for BLE Logic Flaw Detection",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bsfuzzer-context-aware-semantic-fuzzing-for-ble-logic-flaw-detection/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:355c8147e45a9700",
+      "title": "Causal-Guided Detoxify Backdoor Attack of Open-Weight LoRA Models",
+      "url": "https://www.ndss-symposium.org/ndss-paper/causal-guided-detoxify-backdoor-attack-of-open-weight-lora-models/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:fbbf6880d0918f1b",
+      "title": "Cease at the Ultimate Goodness: Towards Efficient Website Fingerprinting Defense via Iterative Mutual Information Minimization",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cease-at-the-ultimate-goodness-towards-efficient-website-fingerprinting-defense-via-iterative-mutual-information-minimization/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:3fdf5d90ec8600bb",
+      "title": "CELLSHIFT: RTT-Aware Trace Transduction for Real-World Website Fingerprinting",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cellshift-rtt-aware-trace-transduction-for-real-world-website-fingerprinting/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:4b4bd36537f79310",
+      "title": "Characterizing the Implementation of Censorship Policies in Chinese LLM Services",
+      "url": "https://www.ndss-symposium.org/ndss-paper/characterizing-the-implementation-of-censorship-policies-in-chinese-llm-services/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:27676cc9dc290894",
+      "title": "CoLD: Collaborative Label Denoising Framework for Network Intrusion Detection",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cold-collaborative-label-denoising-framework-for-network-intrusion-detection/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:838d76ccd5c92554",
+      "title": "Continuous User Behavior Monitoring using DNS Cache Timing Attacks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/continuous-user-behavior-monitoring-using-dns-cache-timing-attacks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:7da148f2e35219ff",
+      "title": "CoordMail: Exploiting SMTP Timeout and Command Interaction to Coordinate Email Middleware for Convergence Amplification Attack",
+      "url": "https://www.ndss-symposium.org/ndss-paper/coordmail-exploiting-smtp-timeout-and-command-interaction-to-coordinate-email-middleware-for-convergence-amplification-attack/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:9b870ad2846efb7b",
+      "title": "Crack in the Armor: Underlying Infrastructure Threats to RPKI Publication Point Reachability",
+      "url": "https://www.ndss-symposium.org/ndss-paper/crack-in-the-armor-underlying-infrastructure-threats-to-rpki-publication-point-reachability/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:4d6bcc10b824337c",
+      "title": "CTng: Secure Certificate and Revocation Transparency",
+      "url": "https://www.ndss-symposium.org/ndss-paper/ctng-secure-certificate-and-revocation-transparency/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:5f99a088d6fcc06f",
+      "title": "Demystifying RPKI-Invalid Prefixes: Hidden Causes and Security Risks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/demystifying-rpki-invalid-prefixes-hidden-causes-and-security-risks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:95b5531742ade80e",
+      "title": "Enhancing Website Fingerprinting Attacks against Traffic Drift",
+      "url": "https://www.ndss-symposium.org/ndss-paper/enhancing-website-fingerprinting-attacks-against-traffic-drift/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:780769e9254cb1e9",
+      "title": "Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning",
+      "url": "https://www.ndss-symposium.org/ndss-paper/entente-cross-silo-intrusion-detection-on-network-log-graphs-with-federated-learning/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:6456f72c95e89e70",
+      "title": "Formal Analysis of BLE Secure Connection Pairing and Revelation of the PE Confusion Attack",
+      "url": "https://www.ndss-symposium.org/ndss-paper/formal-analysis-of-ble-secure-connection-pairing-and-revelation-of-the-pe-confusion-attack/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:569aad1202f52ed3",
+      "title": "Huma: Censorship Circumvention via Web Protocol Tunneling with Deferred Traffic Replacement",
+      "url": "https://www.ndss-symposium.org/ndss-paper/huma-censorship-circumvention-via-web-protocol-tunneling-with-deferred-traffic-replacement/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "protocol",
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:9bfef70f9bc95105",
+      "title": "Identifying Logical Vulnerabilities in QUIC Implementations",
+      "url": "https://www.ndss-symposium.org/ndss-paper/identifying-logical-vulnerabilities-in-quic-implementations/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:90f2600198db728e",
+      "title": "Lightening the Load: A Cluster-Based Framework for A Lower-Overhead, Provable Website Fingerprinting Defense",
+      "url": "https://www.ndss-symposium.org/ndss-paper/lightening-the-load-a-cluster-based-framework-for-a-lower-overhead-provable-website-fingerprinting-defense/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:7bfe78a3c8eed583",
+      "title": "Mirage: Private, Mobility-based Routing for Censorship Evasion",
+      "url": "https://www.ndss-symposium.org/ndss-paper/mirage-private-mobility-based-routing-for-censorship-evasion/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "routing",
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:7361dcdaacfbbdc2",
+      "title": "NetRadar: Enabling Robust Carpet Bombing DDoS Detection",
+      "url": "https://www.ndss-symposium.org/ndss-paper/netradar-enabling-robust-carpet-bombing-ddos-detection/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:03a5f388967788af",
+      "title": "On the Security Risks of Memory Adaptation and Augmentation in Data-plane DoS Mitigation",
+      "url": "https://www.ndss-symposium.org/ndss-paper/on-the-security-risks-of-memory-adaptation-and-augmentation-in-data-plane-dos-mitigation/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:5811a06403029eb2",
+      "title": "OptiMix: Scalable and Distributed Approaches for Latency Optimization in Modern Mixnets",
+      "url": "https://www.ndss-symposium.org/ndss-paper/optimix-scalable-and-distributed-approaches-for-latency-optimization-in-modern-mixnets/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:876a6ff9d6a0a346",
+      "title": "Passive Multi-Target GUTI Identification via Visual-RF Correlation in LTE Networks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/passive-multi-target-guti-identification-via-visual-rf-correlation-in-lte-networks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:61595a7a73accf55",
+      "title": "PathProb: Probabilistic Inference and Path Scoring for Enhanced and Flexible BGP Route Leak Detection",
+      "url": "https://www.ndss-symposium.org/ndss-paper/pathprob-probabilistic-inference-and-path-scoring-for-enhanced-and-flexible-bgp-route-leak-detection/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:8e5c22bed6d7cb47",
+      "title": "ProtocolGuard: Detecting Protocol Non-compliance Bugs via LLM-guided Static Analysis and Dynamic Verification",
+      "url": "https://www.ndss-symposium.org/ndss-paper/protocolguard-detecting-protocol-non-compliance-bugs-via-llm-guided-static-analysis-and-dynamic-verification/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:4563d5ad9d09e914",
+      "title": "Pruning the Tree: Rethinking RPKI Architecture from the Ground up",
+      "url": "https://www.ndss-symposium.org/ndss-paper/pruning-the-tree-rethinking-rpki-architecture-from-the-ground-up/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:80c40380e0f40821",
+      "title": "Should I Trust You? Rethinking the Principle of Zone-Based Isolation DNS Bailiwick Checking",
+      "url": "https://www.ndss-symposium.org/ndss-paper/should-i-trust-you-rethinking-the-principle-of-zone-based-isolation-dns-bailiwick-checking/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:d7b905d7a030bb51",
+      "title": "Small Cell, Big Risk: A Security Assessment of 4G LTE Femtocells in the Wild",
+      "url": "https://www.ndss-symposium.org/ndss-paper/small-cell-big-risk-a-security-assessment-of-4g-lte-femtocells-in-the-wild/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:2d5abf8dd726a6af",
+      "title": "The Heat is On: Understanding and Mitigating Vulnerabilities of Thermal Image Perception in Autonomous Systems",
+      "url": "https://www.ndss-symposium.org/ndss-paper/the-heat-is-on-understanding-and-mitigating-vulnerabilities-of-thermal-image-perception-in-autonomous-systems/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:1d5e37300094991c",
+      "title": "Understanding the Stealthy BGP Hijacking Risk in the ROV Era",
+      "url": "https://www.ndss-symposium.org/ndss-paper/understanding-the-stealthy-bgp-hijacking-risk-in-the-rov-era/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:e1e6ea251d73cdd2",
+      "title": "Validity Is Not Enough: Uncovering the Security Pitfall in Chainlink’s Off-Chain Reporting Protocol",
+      "url": "https://www.ndss-symposium.org/ndss-paper/validity-is-not-enough-uncovering-the-security-pitfall-in-chainlinks-off-chain-reporting-protocol/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:bb083660d6d7c7ae",
+      "title": "WCDCAnalyzer: Scalable Security Analysis of Wi-Fi Certified Device Connectivity Protocols",
+      "url": "https://www.ndss-symposium.org/ndss-paper/wcdcanalyzer-scalable-security-analysis-of-wi-fi-certified-device-connectivity-protocols/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:436c1847eb29d9c0",
+      "title": "When Mixnets Fail: Evaluating, Quantifying, and Mitigating the Impact of Adversarial Nodes in Mix Networks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/when-mixnets-fail-evaluating-quantifying-and-mitigating-the-impact-of-adversarial-nodes-in-mix-networks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2026:ce7217026f06a1e9",
+      "title": "XR Devices Send WiFi Packets When They Should Not: Cross-Building Keylogging Attacks via Non-Cooperative Wireless Sensing",
+      "url": "https://www.ndss-symposium.org/ndss-paper/xr-devices-send-wifi-packets-when-they-should-not-cross-building-keylogging-attacks-via-non-cooperative-wireless-sensing/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:b3da2a5c35396ba8",
+      "title": "\"Tap\" Without Tapping: A Tag Discovery Forgery Attack on Android NFC",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-yilin",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Tap-to-X, such as tap-to-pay, which uses an NFC tag tap to trigger the logic flow, is widely used today.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:7340a92975623817",
+      "title": "Analyzing the WebRTC Ecosystem and Breaking Authentication in DTLS-SRTP",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/bach",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "DTLS-SRTP was designed to secure real-time media communication and is found in prominent audio and video call platforms, including Zoom, Teams, and Google Meet.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:3800fab2d2dcbfed",
+      "title": "BLE Theft Auto: Evaluating the Security of Aftermarket BLE-based Automotive Remote Control Systems",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/yu-jerry",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Vehicles are increasingly remotely controllable from smartphone apps that function like keyfobs: unlocking a vehicle's doors and even starting its engine.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:77e1efaf75833a99",
+      "title": "Breaking the Boundaries: Analyzing QUIC Frame-Packet Interactions With QUIC-Attacker",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/erinola",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "QUIC is a new network protocol based on UDP that replaces TCP and TLS with an integrated protocol.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:ddac8013c1503e8e",
+      "title": "Cutting the Fuse: Actionable APT Attack Blocking in Provenance-based IDS",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/wu-weiheng",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Provenance-based Intrusion Detection Systems (PIDS) are a critical line of defense against Advanced Persistent Threats (APTs).",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:afeacfbff151b799",
+      "title": "DaLens: Charting DNS Self-Amplification Threats at Large",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/xu-liwen",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol",
+        "defense"
+      ],
+      "excerpt": "The emerging self-amplification attacks (SAAs) pose serious denial-of-service (DoS) risks to the Domain Name System (DNS).",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:67aadb3955c53c6e",
+      "title": "DNS Cache Poisoning Like it’s 2006",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/ben-simhon",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "The Domain Name System (DNS) underpins virtually all Internet services, making the integrity of DNS resolution critical to security and availability.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:39de2275b0319ce6",
+      "title": "E2E-AKMA: An End-to-End Secure and Privacy-Enhancing AKMA Protocol Against the Anchor Function Compromise",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/li-yueming",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "The Authentication and Key Management for Applications (AKMA) system represents a recently developed protocol established by 3GPP, which is anticipated to become a pivotal component…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:8993d9e412b7f0e8",
+      "title": "Exposing Resource-Exhaustion DoS Vulnerabilities with Leak-Oriented Minimum Path Covers",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhan",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Resource leaks---failures to properly release scarce Garbage Collection (GC)-unmanaged resources such as file descriptors, sockets, and database connections---are a pervasive root cause of resource-exhaustion denial-of-service…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:b0ef5d10aad5efd7",
+      "title": "FRAGJAM: DoS Attacks Using IP Reassembly Congestion",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/pan",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "UDP, one of the major transport protocols for multiple popular services such as DNS and video conferencing, is an important component of today's network.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:f02137c23f72a930",
+      "title": "From Mirai to Gorilla: Deep Dive into a Long-Lasting DDoS-for-Hire Botnet",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/weyns",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "In 2016, the Mirai botnet swept the Internet, ushering in a new era of DDoS attacks.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:2adb9963d8b5dd81",
+      "title": "H3Act: Automated Measuring Semantic Conversion Anomalies of HTTP/3-to-HTTP/1.1 Translation in CDNs",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-qihang",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Content Delivery Networks (CDNs) are adopting HTTP/3 to enhance performance; however, they often need to convert it to HTTP/1.1 for compatibility.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:e4fef18d136b49fc",
+      "title": "Hop: A Modern Transport and Remote Access Protocol",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/flammarion",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Since SSH's standardization nearly 20 years ago, real-world requirements for a remote access protocol and our understanding of how to build secure cryptographic network protocols…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:5b358ba7de5b433e",
+      "title": "iROV: Breaking the Silence of RPKI with Interactive Validation",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-younsoo",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "While Route Origin Validation (ROV) effectively mitigates prefix hijacking, it drops BGP updates that are inconsistent with currently published ROAs without consulting the prefix owner.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:8bcf5881511c6c4b",
+      "title": "Leveraging Cryptographic Simulator Synthesis for Formally Verifying the FOO E-Voting Protocol",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/baelde",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Cryptographic proofs proceed in large part by reductions to cryptographic assumptions expressed as games.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:f8d9e8bcb14199f1",
+      "title": "Opossum Attack: Application Layer Desynchronization using Opportunistic TLS",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/merget",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Many protocols, like HTTP, FTP, POP3, and SMTP, were originally designed as synchronous plaintext protocols – commands and data are sent in the clear, and…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:c9db2276694983b7",
+      "title": "PrivacyShield: Relaying BLE Beacons to Counter Unsolicited Tracking",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/hofhammer",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Offline finding networks such as Apple's Find My, Google's Find My Device, or Samsung's SmartThings Find are frequently abused to stalk unsuspecting victims.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:763595747dfc0a1f",
+      "title": "Remise: Authorized Anonymous Communication Systems",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/ravi-rohan",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "We present Remise, a two-server authorized anonymous communication system built on Distributed Oblivious RAM (DORAM).",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:25a52cb7ae40cf75",
+      "title": "Secure Protocol Composition under Dynamic Corruption: Scaling Up Symbolic Analysis for Real-World Security Properties",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/cremers",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Although automated symbolic protocol verification has proven valuable and effective, current approaches begin to reach their limits: While small protocols can be analyzed automatically, the…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:e33ec25549c3962d",
+      "title": "Security and Privacy Analysis of Tile's Location Tracking Protocol",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-akshaya",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "We conduct the first comprehensive security analysis of Tile, the second most popular crowd-sourced location-tracking service behind Apple's AirTags.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:dfa1bf9b225197b7",
+      "title": "Semantics Over Syntax: Uncovering Pre-Authentication 5G Baseband Vulnerabilities",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/huang-qiqing",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Modern 5G user equipment (UE) processes Radio Resource Control (RRC) configuration messages during early control-plane exchanges, before authentication and integrity protection are established.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:50fe2290543b7605",
+      "title": "SING: Improving the Efficiency of MPC Protocol Assignment using Graph Neural Networks",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/blueml",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Secure Multi-Party Computation (MPC) enables private computation, but has significantly higher overhead than plaintext execution.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:b8715ce54c54b9bf",
+      "title": "Technical Analysis of the Geedge Networks Firewall Source Code Leak",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/ablove",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "In September 2025, over 100K internal documents (including code, communications, etc.) from Geedge Networks, a Chinese DPI company with ties to the Great Firewall of…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:e1f5cd4142197770",
+      "title": "TED: Abusing Tunnel Hosts and IPv6 Extension Headers for Pulsing DoS Attacks",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/gai",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "IP tunneling mechanisms are widely deployed to facilitate the Internet's transition from IPv4 to IPv6, yet their security implications remain insufficiently scrutinized.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:a89b9585743bf233",
+      "title": "The Ivory Tower Syndrome: Operators' Reflections on Academic BGP Security Solutions",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/inamdar",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "The Border Gateway Protocol (BGP) is the backbone of Internet routing, primarily used for exchanging network reachability information between autonomous systems on the Internet.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:d7f599df5eb2cd9b",
+      "title": "Towards Practical Few-shot Multi-tab Website Fingerprinting",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-lin",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "Website fingerprinting (WF) attacks can infer the visited websites to deanonymize Tor networks by analyzing encrypted traffic patterns.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:d87ac4b396e8e965",
+      "title": "Tracegram: Framing Trace-Level Traffic Analysis with Temporally-Aware Multiple Instance Learning",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/qu",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "Modern network behaviors span multiple flows and evolve over time, making temporal and co-occurrence contexts across flows essential for reliable traffic analysis.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:84f45dabfb7398cc",
+      "title": "WAVED: Principled Identification of Off-Path Exploitable Weak Verifications within the TCP/IP Protocol Suite",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhao-yizhou",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Off-path exploits targeting the fundamental TCP/IP protocol suite pose significant threats to the security of the Internet infrastructure.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:c2796edce84cb561",
+      "title": "When Address Learning Goes Wrong: Inducing Forwarding Loops and DoS Amplification in SDN",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kong",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Address learning is a fundamental SDN service that maintains a dynamic mapping from host addresses to switch ports, supporting many critical network applications.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2026:d1e4e58f1533d391",
+      "title": "WILD Attack: Stealthy Undermining of Wi-Fi-Based Geolocation Through Remote Crowdsourced Data Injection",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhu-changjia",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2026,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Traditional Wi-Fi Positioning System (WPS) spoofing attacks, while seemingly effective, have failed to raise major WPS security concerns due to their lack of stealth and…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:9a3a8f6e4b98de0e",
+      "title": "5G-RNAKA: A Random Number-based Authentication and Key Agreement Protocol for 5G Systems",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744844",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:67b777a8a813e4ac",
+      "title": "Anonymity Unveiled: A Practical Framework for Auditing Data Use in Deep Learning Models",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744794",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:df9cdeea14d3ad12",
+      "title": "Breaking and Provably Restoring Authentication: A Formal Analysis of SPDM 1.2 including Cross-Protocol Attacks",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744865",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:f52b12370ed21f87",
+      "title": "CITesting: Systematic Testing of Context Integrity Violations in Cellular Core Networks",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765230",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:9c78dd7a9c1824fa",
+      "title": "Deep Dive into In-app Browsers: Uncovering Hidden Pitfalls in Certificate Validation",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765215",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:a50a345082c57e3e",
+      "title": "Exposing Privacy Risks in Anonymizing Clinical Data: Combinatorial Refinement Attacks on k-Anonymity Without Auxiliary Information",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765139",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:7d9506a11d1f3aff",
+      "title": "Exposing the Roots of DNS Abuse: A Data-Driven Analysis of Key Factors Behind Phishing Domain Registrations",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744869",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:68c655aaa8785050",
+      "title": "Fingerprinting Deep Packet Inspection Devices by their Ambiguities",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765145",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:bb3548475fab5794",
+      "title": "FlowSentry: Accelerating NetFlow-based DDoS Detection",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744800",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "defense",
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:4b1fe5798f262286",
+      "title": "Formal Security and Functional Verification of Cryptographic Protocol Implementations in Rust",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765213",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:86ace987459dfd1f",
+      "title": "Forward to Hell? On the Potentials of Misusing Transparent DNS Forwarders in Reflective Amplification Attacks",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765096",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "protocol",
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:233bb091a5735ea0",
+      "title": "GAPDiS: Gradient-Assisted Perturbation Design via Sequence Editing for Website Fingerprinting Defense",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765084",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:852495b00f418fb1",
+      "title": "Generic Anonymity Wrapper for Messaging Protocols",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765186",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:1668b7d50183909a",
+      "title": "MM4flow: A Pre-trained Multi-modal Model for Versatile Network Traffic Analysis",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744804",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:4fa676a7a29c6ef1",
+      "title": "Posterior Security: Anonymity and Message Hiding of Standard Signatures",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744797",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:cda94b0ba08ee274",
+      "title": "Protocol-Aware Firmware Rehosting for Effective Fuzzing of Embedded Network Stacks",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765125",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:5c9699f025c2abc7",
+      "title": "RebirthDay Attack: Reviving DNS Cache Poisoning with the Birthday Paradox",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744832",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:fdce1f7eee572270",
+      "title": "Right the Ship: Assessing the Legitimacy of Invalid Routes in RPKI",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744853",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:9efafa2c9fe311b3",
+      "title": "SISTAR: An Efficient DDoS Detection and Mitigation Framework Utilizing Programmable Data Planes",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765046",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:7abbf39a9aa376c8",
+      "title": "SocketFilled: A New Cross Layer DoS Attack Against UDP-based Services on Linux",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744878",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:b1dd89292dce9aab",
+      "title": "Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744795",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:9fa1133d7eb74aae",
+      "title": "TEMPEST-LoRa: Cross-Technology Covert Communication",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744817",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:e2517e09a9bfe923",
+      "title": "Uncovering hidden paths in 5G: Exploiting protocol tunneling and network boundary bridging",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765206",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:99cad1cf0cc1d70c",
+      "title": "Validating Interior Gateway Routing Protocols via Equivalent Topology Synthesis",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3744826",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "acm-ccs:2025:6f6def5ffbcff6c9",
+      "title": "ZVDetector: State-Guided Vulnerability Detection System for Zigbee Devices",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765035",
+      "basis": "title",
+      "venue": "acm-ccs",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:3130e59df3b28a1d",
+      "title": "A Wall Behind A Wall: Emerging Regional Censorship in China",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-208",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:ca92058312d8cb31",
+      "title": "AccuRevoke: Enhancing Certificate Revocation with Distributed Cryptographic Accumulators",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-150",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:6fd5072ef0c9108c",
+      "title": "An Attack on TON’s ADNL Secure Channel Protocol",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-144",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:695eaabeea30b59d",
+      "title": "Asymmetric Mempool DoS Security: Formal Definitions and Provable Secure Designs",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-100",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:6f4c0225c070560b",
+      "title": "BaseBridge: Bridging the Gap between Emulation and Over-The-Air Testing for Cellular Baseband Firmware",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-187",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:bc407daed45be458",
+      "title": "Beyond the Horizon: Uncovering Hosts and Services Behind Misconfigured Firewalls",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-207",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:d5a1964d3ad52531",
+      "title": "Clubcards for the WebPKI: smaller certificate revocation tests in theory and practice",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-196",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:05f9c67ec65be261",
+      "title": "CountMamba: A Generalized Website Fingerprinting Attack via Coarse-Grained Representation and Fine-Grained Prediction",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-250",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:090fbe129a347f0c",
+      "title": "From Control to Chaos: A Comprehensive Formal Analysis of 5G's Access Control",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-253",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:669abb456ebb8f5c",
+      "title": "Invade the Walled Garden: Evaluating GTP Security in Cellular Networks",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-51",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:5ef2de2488b86893",
+      "title": "Learning from Censored Experiences: Social Media Discussions around Censorship Circumvention Technologies",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-3",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:39184da6d2ff4bcf",
+      "title": "Mixnets on a tightrope: Quantifying the leakage of mix networks using a provably optimal heuristic adversary",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-180",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:294ceb8f8f75b958",
+      "title": "Resolution Without Dissent: In-Path Per-Query Sanitization to Defeat Surreptitious Communication Over DNS",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-75",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:3809fb7ce6b337f5",
+      "title": "Ring Referral: Efficient Publicly Verifiable Ad hoc Credential Scheme with Issuer and Strong User Anonymity for Decentralized Identity and More",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-211",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:3e75f31c5f0a8599",
+      "title": "SAECRED: A State-Aware, Over-the-Air Protocol Testing Approach for Discovering Parsing Bugs in SAE Handshake Implementations of COTS Wi-Fi Access Points",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-252",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:ac11e9363d866ada",
+      "title": "Sparta: Practical Anonymity with Long-Term Resistance to Traffic Analysis",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-103",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "traffic",
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:893443850060b1a1",
+      "title": "Stateful Analysis and Fuzzing of Commercial Baseband Firmware",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-224",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:a59587cc22874241",
+      "title": "SYN Proof-of-Work: Improving Volumetric DoS Resilience in TCP",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-200",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:acbc1a4dda344ab4",
+      "title": "Transport Layer Obscurity: Circumventing SNI Censorship on the TLS Layer",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-111",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "protocol",
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ieee-sp:2025:842f302a9e025c31",
+      "title": "Unveiling Security Vulnerabilities in Git Large File Storage Protocol",
+      "url": "https://sp2025.ieee-security.org/accepted-papers.html#collapse-113",
+      "basis": "title",
+      "venue": "ieee-sp",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:cec794ea92505976",
+      "title": "A Large-Scale Measurement Study of the PROXY Protocol and its Security Implications",
+      "url": "https://www.ndss-symposium.org/ndss-paper/a-large-scale-measurement-study-of-the-proxy-protocol-and-its-security-implications/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:98b549b55c8ff1e7",
+      "title": "A Multifaceted Study on the Use of TLS and Auto-detect in Email Ecosystems",
+      "url": "https://www.ndss-symposium.org/ndss-paper/a-multifaceted-study-on-the-use-of-tls-and-auto-detect-in-email-ecosystems/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:780100f11af08eff",
+      "title": "CHAOS: Exploiting Station Time Synchronization in 802.11 Networks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/chaos-exploiting-station-time-synchronization-in-802-11-networks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:ba0c1949e4103d20",
+      "title": "Cross-Origin Web Attacks via HTTP/2 Server Push and Signed HTTP Exchange",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cross-origin-web-attacks-via-http-2-server-push-and-signed-http-exchange/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:d8a1e572ec0086ee",
+      "title": "Detecting IMSI-Catchers by Characterizing Identity Exposing Messages in Cellular Traffic",
+      "url": "https://www.ndss-symposium.org/ndss-paper/detecting-imsi-catchers-by-characterizing-identity-exposing-messages-in-cellular-traffic/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:bcc0a14e9ac22930",
+      "title": "EAGLEYE: Exposing Hidden Web Interfaces in IoT Devices via Routing Analysis",
+      "url": "https://www.ndss-symposium.org/ndss-paper/eagleye-exposing-hidden-web-interfaces-in-iot-devices-via-routing-analysis/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:62a76309c6b1b82e",
+      "title": "Hitchhiking Vaccine: Enhancing Botnet Remediation With Remote Code Deployment Reuse",
+      "url": "https://www.ndss-symposium.org/ndss-paper/hitchhiking-vaccine-enhancing-botnet-remediation-with-remote-code-deployment-reuse/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:7b33d76a25e591c2",
+      "title": "Incorporating Gradients to Rules: Towards Lightweight, Adaptive Provenance-based Intrusion Detection",
+      "url": "https://www.ndss-symposium.org/ndss-paper/incorporating-gradients-to-rules-towards-lightweight-adaptive-provenance-based-intrusion-detection/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:8d18a54e79780ab3",
+      "title": "LAMP: Lightweight Approaches for Latency Minimization in Mixnets with Practical Deployment Considerations",
+      "url": "https://www.ndss-symposium.org/ndss-paper/lamp-lightweight-approaches-for-latency-minimization-in-mixnets-with-practical-deployment-considerations/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:10806c87e4ad2f78",
+      "title": "Lend Me Your Beam: Privacy Implications of Plaintext Beamforming Feedback in WiFi",
+      "url": "https://www.ndss-symposium.org/ndss-paper/lend-me-your-beam-privacy-implications-of-plaintext-beamforming-feedback-in-wifi/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:9bf87a3c5e659f01",
+      "title": "Off-Path TCP Hijacking in Wi-Fi Networks: A Packet-Size Side Channel Attack",
+      "url": "https://www.ndss-symposium.org/ndss-paper/off-path-tcp-hijacking-in-wi-fi-networks-a-packet-size-side-channel-attack/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:d62b9b0141e06881",
+      "title": "ReDAN: An Empirical Study on Remote DoS Attacks against NAT Networks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/redan-an-empirical-study-on-remote-dos-attacks-against-nat-networks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:fc84920456ff7858",
+      "title": "Rediscovering Method Confusion in Proposed Security Fixes for Bluetooth",
+      "url": "https://www.ndss-symposium.org/ndss-paper/rediscovering-method-confusion-in-proposed-security-fixes-for-bluetooth/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:314ea268085f109c",
+      "title": "Securing BGP ASAP: ASPA and other Post-ROV Defenses",
+      "url": "https://www.ndss-symposium.org/ndss-paper/securing-bgp-asap-aspa-and-other-post-rov-defenses/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:9564a1a05efdb46a",
+      "title": "THEMIS: Regulating Textual Inversion for Personalized Concept Censorship",
+      "url": "https://www.ndss-symposium.org/ndss-paper/themis-regulating-textual-inversion-for-personalized-concept-censorship/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2025:510f7b2fb514f107",
+      "title": "Wallbleed: A Memory Disclosure Vulnerability in the Great Firewall of China",
+      "url": "https://www.ndss-symposium.org/ndss-paper/wallbleed-a-memory-disclosure-vulnerability-in-the-great-firewall-of-china/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:408b5246f9893d62",
+      "title": "A Formal Analysis of Apple's iMessage PQ3 Protocol",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/linker",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "We present the formal verification of Apple's iMessage PQ3, a highly performant, device-to-device messaging protocol offering strong security guarantees even against an adversary with quantum…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:d9333f8974d1ea22",
+      "title": "A Tale of Two Worlds, a Formal Story of WireGuard Hybridization",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/lafourcade",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "PQ-WireGuard is a post-quantum variant of WireGuard Virtual Private Network, where Diffie-Hellman-based key exchange is replaced by post-quantum Key Encapsulation Mechanisms-based key exchange.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:05ba580b96ab6aa0",
+      "title": "A Thorough Security Analysis of BLE Proximity Tracking Protocols",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/liu-xiaofeng",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Recent advances in Bluetooth Low Energy (BLE) and the ubiquity of mobile infrastructures promote the prevalence of BLE proximity tracking services (e.g., Apple Find My…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:da43fd723aad770c",
+      "title": "AKMA+: Security and Privacy-Enhanced and Standard-Compatible AKMA for 5G Communication",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/yang-yang",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "The Authentication and Key Management for Applications (AKMA) protocol is a fundamental building block for security and privacy of 5G cellular networks.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:48c212b934b11157",
+      "title": "Ares: Comprehensive Path Hijacking Detection via Routing Tree",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/tao",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "Since Border Gateway Protocol (BGP) lacks a strong security mechanism, prefix hijacking attacks are becoming increasingly rampant, which has drawn a lot of attention from…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:11e1d0a84fe77d21",
+      "title": "As Advertised? Understanding the Impact of Influencer VPN Ads",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/akgul",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "Influencer VPN ads (sponsored segments) on YouTube often disseminate misleading information about both VPNs, and security & privacy more broadly.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:aafcf0e39fa7a77a",
+      "title": "Assessing the Aftermath: the Effects of a Global Takedown against DDoS-for-hire Services",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/vu",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Law enforcement and private-sector partners have in recent years conducted various interventions to disrupt the DDoS-for-hire market.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:378bb46f35b066a7",
+      "title": "BGP Vortex: Update Message Floods Can Create Internet Instabilities",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/stoeger",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "The Border Gateway Protocol (BGP), while essential for Internet connectivity, faces many stability and convergence challenges in today's evolving routing ecosystem.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:2ce99cec9abf20f6",
+      "title": "BLuEMan: A Stateful Simulation-based Fuzzing Framework for Open-Source RTOS Bluetooth Low Energy Protocol Stacks",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/kao",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "Bluetooth Low Energy (BLE) is a dominant wireless communication technology widely used in low-power, short-range applications.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:a6a65f4e0213dbb3",
+      "title": "Bundled Authenticated Key Exchange: A Concrete Treatment of Signal's Handshake Protocol and Post-Quantum Security",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-key-exchange",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "The Signal protocol relies on a special handshake protocol, formerly X3DH and now PQXDH, to set up secure conversations.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:48bac0b48a455d8d",
+      "title": "Censorship Evasion with Unidentified Protocol Generation",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/wails",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol",
+        "traffic"
+      ],
+      "excerpt": "We present the design and implementation of a novel approach to internet censorship evasion called Unidentified Protocol Generation (UPGen).",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:6c26dd22e87342f3",
+      "title": "CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/yan-jinzhu",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "Learning-based traffic analysis models exhibit significant vulnerabilities to adversarial attacks.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:7b944ee28085decb",
+      "title": "Comprehensive Deniability Analysis of Signal Handshake Protocols: X3DH, PQXDH to Fully Post-Quantum with Deniable Ring Signatures",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/katsumata",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "The Signal protocol relies on a handshake protocol, formerly X3DH and now PQXDH, to set up secure conversations.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:394b44053a596f60",
+      "title": "CoreCrisis: Threat-Guided and Context-Aware Iterative Learning and Fuzzing of 5G Core Networks",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/dong-yilu",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "We develop CoreCrisis, a stateful black-box fuzz-testing framework for 5G core network (5GC) implementations.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:72039517becc0509",
+      "title": "DiffLoc: WiFi Hidden Camera Localization Based on Electromagnetic Diffraction",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-xiang",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "The growing privacy risks posed by hidden WiFi cameras have prompted increasing interest in their detection and localization.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:e3504ac196a23ab2",
+      "title": "DiskSpy: Exploring a Long-Range Covert-Channel Attack via mmWave Sensing of μm-level HDD Vibrations",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/xu-weiye",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "An air-gapped environment is widely regarded as a secure measure against the leakage of sensitive information, as it is physically isolated from insecure external networks.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:ac06bf2969dba60d",
+      "title": "DNS FLaRE: A Flush-Reload Attack on DNS Forwarders",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/moav",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "In this paper, we present DNS FLaRE, a DNS cache-based timing side-channel attack that allows an attacker to accurately infer the times at which a…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:1015880b58573abd",
+      "title": "EchoLLM: LLM-Augmented Acoustic Eavesdropping Attack on Bone Conduction Headphones with mmWave Radar",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/yao-xin",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Bone conduction headphones have gained popularity due to their comfort and versatility, as they transmit sound via vibrations through the user's skull bones rather than…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:5c518c5e205b563e",
+      "title": "Exposing and Circumventing SNI-based QUIC Censorship of the Great Firewall of China",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/zohaib",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol",
+        "defense",
+        "traffic"
+      ],
+      "excerpt": "Despite QUIC handshake packets being encrypted, the Great Firewall of China (GFW) has begun blocking QUIC connections to specific domains since April 7, 2024.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:9360b01a5986184a",
+      "title": "GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/wolsing",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Protecting industrial control systems against cyberattacks is crucial to counter escalating threats to critical infrastructure.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:d82d361bb686303f",
+      "title": "GLaDoS: Location-aware Denial-of-Service of Cellular Networks",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/erni",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Cellular communication is ubiquitous, but must be controlled in sensitive industrial and government areas.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:b9e664280ad67175",
+      "title": "Gotta Detect 'Em All: Fake Base Station and Multi-Step Attack Detection in Cellular Networks",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/mubasshir",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Fake base stations (FBSes) pose a significant security threat by impersonating legitimate base stations (BSes).",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:3b8690230084b8b7",
+      "title": "How to Compare Bandwidth Constrained Two-Party Secure Messaging Protocols: A Quest for A More Efficient and Secure Post-Quantum Protocol",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/auerbach",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Transitioning existing classical two-party secure messaging protocols to post-quantum protocols has been an active movement in practice in recent years: Apple's PQ3 protocol and the…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:e267699f976530fa",
+      "title": "ImpROV: Measurement and Practical Mitigation of Collateral Damage in RPKI Route Origin Validation",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/li-weitong",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "The Resource Public Key Infrastructure (RPKI) enhances Internet routing security.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:22f10241ea9c0219",
+      "title": "IRBlock: A Large-Scale Measurement Study of the Great Firewall of Iran",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/tai",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "The Great Firewall of Iran (GFI) has evolved significantly over the past decade, constantly adding sophisticated blocking techniques.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:64e66ebf322216ec",
+      "title": "Lemon: Network-Wide DDoS Detection with Routing-Oblivious Per-Flow Measurement",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/wu-wenhao",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "routing",
+        "defense"
+      ],
+      "excerpt": "Network-wide DDoS (Distributed Denial-of-Service) detection enables early attack detection and mitigates victim losses.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:4d7a1cf820416642",
+      "title": "LLFuzz: An Over-the-Air Dynamic Testing Framework for Cellular Baseband Lower Layers",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/hoang",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Memory corruptions in cellular basebands are critical because they can be remotely exploited over-the-air, resulting in severe consequences such as remote code execution, denial of…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:d1b76faf926bc412",
+      "title": "Lost in the Mists of Time: Expirations in DNS Footprints of Mobile Apps",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/so",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Compared to the traditional desktop setting where web applications (apps) are live by nature, mobile apps are similar to binary programs that are installed on…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:2c9f64403867cca7",
+      "title": "MBFuzzer: A Multi-Party Protocol Fuzzer for MQTT Brokers",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/song-xiangpu",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "MQTT is a multi-party communication protocol widely used in IoT environments, where MQTT brokers act as servers that connect with numerous devices.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:ac0169c51de524f4",
+      "title": "McSee: Evaluating Advanced Rowhammer Attacks and Defenses via Automated DRAM Traffic Analysis",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/jattke",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "Rowhammer attacks and defenses are continuously evolving.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:789295228e94071b",
+      "title": "Onions Got Puzzled: On the Challenges of Mitigating Denial-of-Service Problems in Tor Onion Services",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/lee",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "Denial-of-service (DoS) attacks present significant challenges for Tor onion services, where strict anonymity requirements render conventional mitigation strategies inapplicable.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:e5e1e8669e9bd152",
+      "title": "ORTHRUS: Achieving High Quality of Attribution in Provenance-based Intrusion Detection Systems",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/jiang-baoxiang",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Past success in applying machine learning to data provenance graphs – a structured representation of the history of operating system activities – to detect host…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:b74fb8df62a1df69",
+      "title": "POPS: From History to Mitigation of DNS Cache Poisoning Attacks",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/afek",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "We present a novel yet simple and comprehensive DNS cache POisoning Prevention System (POPS), designed to integrate as a module in Intrusion Prevention Systems (IPS).",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:0cebafee409fb2f8",
+      "title": "S/MINE: Collecting and Analyzing S/MIME Certificates at Scale",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/oendaroe",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "We report on the first broad analysis of real-world S/MIME certificates for digitally signing and encrypting emails.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:930d0d0a53a43cc5",
+      "title": "SNI5GECT: A Practical Approach to Inject aNRchy into 5G NR",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/luo-shijie",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "In this paper, we propose and design SNI5GECT– a framework that sniffs messages from pre-authentication 5G communication in real-time and injects targeted attack payload in…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:9ed84eea6efb7759",
+      "title": "SoK: An Introspective Analysis of RPKI Security",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/mirdita",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "The Resource Public Key Infrastructure (RPKI) is the main mechanism to protect inter-domain routing with BGP from prefix hijacks.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:1fe6a5f039e80569",
+      "title": "Sometimes Simpler is Better: A Comprehensive Analysis of State-of-the-Art Provenance-Based Intrusion Detection Systems",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/bilot",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Provenance-based intrusion detection systems (PIDSs) have garnered significant attention from the research community over the past decade.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:992db3ac5c2b1673",
+      "title": "STEK Sharing is Not Caring: Bypassing TLS Authentication in Web Servers using Session Tickets",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/hebrok",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "TLS session resumption with session tickets is a widely supported mechanism designed to accelerate TLS connections.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:d494ef1c194b6740",
+      "title": "TORCHLIGHT: Shedding LIGHT on Real-World Attacks on Cloudless IoT Devices Concealed within the Tor Network",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/pan-yumingzhi",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "The rapidly expanding Internet of Things (IoT) landscape is shifting toward cloudless architectures, removing reliance on centralized cloud services but exposing devices directly to the…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:30cf0fdaae8c1aa3",
+      "title": "Towards Internet-Based State Learning of TLS State Machines",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/maehren",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "State machine learning extracts a Mealy state machine hypothesis from a given implementation.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:0c634d30ff32f4b7",
+      "title": "Towards Practical, End-to-End Formally Verified X.509 Certificate Validators with Verdict",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/lin-zhengyao",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Validating X.509 certificates is a critical part of Internet security, but the relevant standards are complex and ambiguous.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:6c1e0f90cadec5c7",
+      "title": "Tracking You from a Thousand Miles Away! Turning a Bluetooth Device into an Apple AirTag Without Root Privileges",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/chen-junming",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Apple's Find My network, leveraging over a billion active Apple devices, is the world's largest device-locating network.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:d3c9fab850e0a16d",
+      "title": "Transparent Attested DNS for Confidential Computing Services",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/delignat-lavaud",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Confidential services running in hardware-protected Trusted Execution Environments (TEEs) can provide higher security assurance, but this requires custom clients and protocols to distribute, update, and…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:8d3256e616a0ebbe",
+      "title": "X.509DoS: Exploiting and Detecting Denial-of-Service Vulnerabilities in Cryptographic Libraries using Crafted X.509 Certificates",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/shi-bing",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Existing studies predominantly focus on cryptographic vulnerabilities affecting confidentiality or integrity, with limited attention to those impacting availability.",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "usenix-security:2025:dae83be35ef7bb9a",
+      "title": "Your Shield is My Sword: A Persistent Denial-of-Service Attack via the Reuse of Unvalidated Caches in DNSSEC Validation",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-shuhan",
+      "basis": "abstract",
+      "venue": "usenix-security",
+      "year": 2025,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "The Domain Name System Security Extensions (DNSSEC), designed to ensure the authenticity and integrity of DNS data, has been deployed in over 90% of top-level…",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:6a925ab6398aa2e1",
+      "title": "5G-Spector: An O-RAN Compliant Layer-3 Cellular Attack Detection Service",
+      "url": "https://www.ndss-symposium.org/ndss-paper/5g-spector-an-o-ran-compliant-layer-3-cellular-attack-detection-service/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:051ae245055d3784",
+      "title": "A Two-Layer Blockchain Sharding Protocol Leveraging Safety and Liveness for Enhanced Performance",
+      "url": "https://www.ndss-symposium.org/ndss-paper/a-two-layer-blockchain-sharding-protocol-leveraging-safety-and-liveness-for-enhanced-performance/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:2f2d36f2de1ef548",
+      "title": "A Unified Symbolic Analysis of WireGuard",
+      "url": "https://www.ndss-symposium.org/ndss-paper/a-unified-symbolic-analysis-of-wireguard/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:698c61ebb56957b3",
+      "title": "AAKA: An Anti-Tracking Cellular Authentication Scheme Leveraging Anonymous Credentials",
+      "url": "https://www.ndss-symposium.org/ndss-paper/aaka-an-anti-tracking-cellular-authentication-scheme-leveraging-anonymous-credentials/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:8e86acbb7142a653",
+      "title": "AnonPSI: An Anonymity Assessment Framework for PSI",
+      "url": "https://www.ndss-symposium.org/ndss-paper/anonpsi-an-anonymity-assessment-framework-for-psi/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:3887fee554621354",
+      "title": "BGP-iSec: Improved Security of Internet Routing Against Post-ROV Attacks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bgp-isec-improved-security-of-internet-routing-against-post-rov-attacks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:42b5b7fe745fefeb",
+      "title": "Certificate Transparency Revisited: The Public Inspections on Third-party Monitors",
+      "url": "https://www.ndss-symposium.org/ndss-paper/certificate-transparency-revisited-the-public-inspections-on-third-party-monitors/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:b238bcf95d07a944",
+      "title": "Content Censorship in the InterPlanetary File System",
+      "url": "https://www.ndss-symposium.org/ndss-paper/content-censorship-in-the-interplanetary-file-system/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:2d1dd6b74cd108ee",
+      "title": "dRR: A Decentralized, Scalable, and Auditable Architecture for RPKI Repository",
+      "url": "https://www.ndss-symposium.org/ndss-paper/drr-a-decentralized-scalable-and-auditable-architecture-for-rpki-repository/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:98d2d983ebf862bf",
+      "title": "DynPRE: Protocol Reverse Engineering via Dynamic Inference",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dynpre-protocol-reverse-engineering-via-dynamic-inference/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:496cf0b05597ec01",
+      "title": "Exploiting Sequence Number Leakage: TCP Hijacking in NAT-Enabled Wi-Fi Networks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/exploiting-sequence-number-leakage-tcp-hijacking-in-nat-enabled-wi-fi-networks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:1c39a7fb7bf244e1",
+      "title": "Flow Correlation Attacks on Tor Onion Service Sessions with Sliding Subset Sum",
+      "url": "https://www.ndss-symposium.org/ndss-paper/flow-correlation-attacks-on-tor-onion-service-sessions-with-sliding-subset-sum/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:d7fd2e05e1fe6487",
+      "title": "Information Based Heavy Hitters for Real-Time DNS Data Exfiltration Detection",
+      "url": "https://www.ndss-symposium.org/ndss-paper/information-based-heavy-hitters-for-real-time-dns-data-exfiltration-detection/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:70e5f74614a02cb0",
+      "title": "IRRedicator: Pruning IRR with RPKI-Valid BGP Insights",
+      "url": "https://www.ndss-symposium.org/ndss-paper/irredicator-pruning-irr-with-rpki-valid-bgp-insights/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:1ea6f0d57097ad3e",
+      "title": "Large Language Model guided Protocol Fuzzing",
+      "url": "https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-fuzzing/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:eb5cbb4b0798c600",
+      "title": "LARMix: Latency-Aware Routing in Mix Networks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/larmix-latency-aware-routing-in-mix-networks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "routing",
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:e83208193ed8749d",
+      "title": "LoRDMA: A New Low-Rate DoS Attack in RDMA Networks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/lordma-a-new-low-rate-dos-attack-in-rdma-networks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:0a9ae6beffb709ca",
+      "title": "MadRadar: A Black-Box Physical Layer Attack Framework on mmWave Automotive FMCW Radars",
+      "url": "https://www.ndss-symposium.org/ndss-paper/madradar-a-black-box-physical-layer-attack-framework-on-mmwave-automotive-fmcw-radars/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:acba37fe1ce50733",
+      "title": "MirageFlow: A New Bandwidth Inflation Attack on Tor",
+      "url": "https://www.ndss-symposium.org/ndss-paper/mirageflow-a-new-bandwidth-inflation-attack-on-tor/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:20ec931d9bb08987",
+      "title": "Modeling and Detecting Internet Censorship Events",
+      "url": "https://www.ndss-symposium.org/ndss-paper/modeling-and-detecting-internet-censorship-events/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:bcedfde94fcba372",
+      "title": "On Precisely Detecting Censorship Circumvention in Real-World Networks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/on-precisely-detecting-censorship-circumvention-in-real-world-networks/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "traffic"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:326da960a4ba9184",
+      "title": "ReqsMiner: Automated Discovery of CDN Forwarding Request Inconsistencies and DoS Attacks with Grammar-based Fuzzing",
+      "url": "https://www.ndss-symposium.org/ndss-paper/reqsminer-automated-discovery-of-cdn-forwarding-request-inconsistencies-and-dos-attacks-with-grammar-based-fuzzing/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:049f21ae4767b919",
+      "title": "Scrappy: SeCure Rate Assuring Protocol with PrivacY",
+      "url": "https://www.ndss-symposium.org/ndss-paper/scrappy-secure-rate-assuring-protocol-with-privacy/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:6e85d52e4f1f315f",
+      "title": "SSL-WM: A Black-Box Watermarking Approach for Encoders Pre-trained by Self-Supervised Learning",
+      "url": "https://www.ndss-symposium.org/ndss-paper/ssl-wm-a-black-box-watermarking-approach-for-encoders-pre-trained-by-self-supervised-learning/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:0f421963f0ea9732",
+      "title": "The CURE to Vulnerabilities in RPKI Validation",
+      "url": "https://www.ndss-symposium.org/ndss-paper/the-cure-to-vulnerabilities-in-rpki-validation/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    },
+    {
+      "id": "ndss:2024:cb393a9cf23564d5",
+      "title": "Understanding the Implementation and Security Implications of Protective DNS Services",
+      "url": "https://www.ndss-symposium.org/ndss-paper/understanding-the-implementation-and-security-implications-of-protective-dns-services/",
+      "basis": "title",
+      "venue": "ndss",
+      "year": 2024,
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "",
+      "first_seen": "2026-10-06T10:34:05.527Z"
+    }
+  ]
+}

@@ -53,6 +53,13 @@ ROS Watch의 **보안 학회 아카이브**는 IEEE S&P, USENIX Security, ACM CC
 
 홈의 **오늘 업데이트**는 한국 시간(KST)을 기준으로 AI 동향, ROS·자율주행 동향, 보안 학회 아카이브를 함께 표시합니다. 오늘 게시·공고된 글과 오늘 새로 수집/변경된 글을 구분하며, 과거 학회 논문을 오늘 추가한 경우 학회 연도를 따로 표시합니다. 수집기는 `first_seen`과 `updated_at`을 보존하고, 기존 글의 알 수 없는 최초 수집일은 임의로 채우지 않습니다. 검증: `node --test scripts/daily-updates.test.mjs`, 미리보기 후 `node scripts/check-daily-updates.mjs`.
 
+**Network Security Watch** (`#/network-security`)는 ROS Watch와 같은 통합 카드 목록·검색·필터·북마크·한영 TL;DR을 제공하며, 네트워크 보안 논문만 따로 모아봅니다. arXiv의 네트워크 보안 프리프린트(TLS·DNS·BGP·DDoS·침입탐지·무선·셀룰러·프로토콜·익명 통신)와 IEEE S&P·USENIX Security·ACM CCS·NDSS의 2025년 이후(및 NDSS 2024) 논문 중 네트워크 보안 제목을 키워드로 선별해 상한 없이 보관합니다. 주제는 프로토콜·라우팅·무선·DDoS/침입탐지·트래픽 분석·익명성으로 분류하며, 제목 키워드 선별이므로 완전한 분야 목록은 아닙니다. arXiv는 프리프린트입니다.
+
+- `data/network-security.json`: arXiv 동향 스냅샷과 출처 상태
+- `data/network-conferences.json`: 누적 학회 아카이브와 출처 상태
+- `node scripts/update-research.mjs --network`: arXiv 동향만 갱신 / `node scripts/update-network-conferences.mjs`: 학회 아카이브만 갱신. 둘 다 일일 `update:research`와 Pages 배포에 포함됩니다.
+- 수집 실패 시 기존 목록을 유지합니다. 검증: `node --test scripts/network-conferences.test.mjs`, 빌드 후 `node scripts/check-research-data.mjs`
+
 **보안 이슈 Watch** (`#/security-news`)는 홈의 별도 배너와 AI Research Watch 바로 아래 사이드바 메뉴에서 열 수 있습니다. 보안뉴스·데일리시큐·The Hacker News·CISA의 RSS를 수집하며 국내·해외는 매체/기관 소재 기준입니다. 사건 발생 국가를 추정하지 않습니다. 제목과 짧은 원문 발췌를 게시일 최신순으로 표시하고 지역·출처·주제·기간 검색을 제공합니다.
 
 - `data/security-news.json`: 출처별 최대 150건 보관, 실패 시 이전 목록 유지

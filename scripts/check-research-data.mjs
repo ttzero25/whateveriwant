@@ -13,6 +13,24 @@ for(const [index,item] of robotics.archive.items.entries()){
  assert.equal(item.date,undefined,'Do not invent paper publication dates');
  if(index)assert.ok(robotics.archive.items[index-1].year>=item.year);
 }
+const network=JSON.parse(await fs.readFile(new URL('../dist/network-security.json',import.meta.url),'utf8'));
+const networkTags=['protocol','routing','wireless','defense','traffic','privacy','security'];
+assert.deepEqual(network.sources.map(s=>s.id),['netsec','wireless']);
+for(const item of network.items)assert.ok(item.tags.every(tag=>networkTags.includes(tag)));
+assert.equal(new Set(network.archive.items.map(i=>i.id)).size,network.archive.items.length);
+if(!network.archive.items.length)console.warn('Network conference archive is empty; retained saved data.');
+for(const [index,item] of network.archive.items.entries()){
+ assert.ok(network.archive.sources.some(s=>s.id===item.venue&&s.year===item.year));
+ assert.ok(item.tags.length&&item.tags.every(t=>networkTags.includes(t)));
+ assert.equal(item.date,undefined,'Do not invent paper publication dates');
+ if(index)assert.ok(network.archive.items[index-1].year>=item.year);
+}
+for(const item of [...network.items,...network.archive.items]){
+ assert.ok(item.title&&item.url,'Publication metadata missing');
+ assert.equal(new URL(item.url).protocol,'https:');
+ assert.equal(item.description,undefined,'Full source body must not be published');
+}
+
 const expected=['openai','anthropic','arxiv'];
 assert.deepEqual(data.sources.map(s=>s.id),expected);
 assert.equal(data.conferences.length,5);

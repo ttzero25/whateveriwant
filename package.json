@@ -7,7 +7,7 @@
     "verify": "node scripts/build.mjs && node scripts/check-content.mjs && node --test scripts/examples.test.mjs",
     "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
     "import:english": "node scripts/import-english.mjs",
-    "update:research": "node scripts/update-research.mjs && node scripts/update-conferences.mjs && node scripts/update-research.mjs --robotics && node scripts/update-robotics-conferences.mjs && node scripts/update-security-news.mjs"
+    "update:research": "node scripts/update-research.mjs && node scripts/update-conferences.mjs && node scripts/update-research.mjs --robotics && node scripts/update-robotics-conferences.mjs && node scripts/update-research.mjs --network && node scripts/update-network-conferences.mjs && node scripts/update-security-news.mjs"
   },
   "repository": {
     "type": "git",
