@@ -4,9 +4,10 @@ import {excerpt} from './research-summaries.mjs';
 import fs from 'node:fs/promises';
 import * as aiFeeds from './research-feeds.mjs';
 import * as roboticsFeeds from './robotics-feeds.mjs';
-const robotics=process.argv.includes('--robotics');
-const {sources,parseFeed}=robotics?roboticsFeeds:aiFeeds;
-const filename=new URL(robotics?'../data/robotics-security.json':'../data/research.json',import.meta.url);
+import * as networkFeeds from './network-feeds.mjs';
+const robotics=process.argv.includes('--robotics'),network=process.argv.includes('--network');
+const {sources,parseFeed}=network?networkFeeds:robotics?roboticsFeeds:aiFeeds;
+const filename=new URL(network?'../data/network-security.json':robotics?'../data/robotics-security.json':'../data/research.json',import.meta.url);
 let old={items:[],sources:[]};
 try{old=JSON.parse(await fs.readFile(filename,'utf8'));}catch(error){if(error.code!=='ENOENT')throw error;}
 const attempted_at=new Date().toISOString(),results=await Promise.allSettled(sources.map(async source=>{

@@ -23,7 +23,7 @@ try{
 }catch{/* not a git checkout: every doc uses today */}
 const docDate=(topic,slug)=>gitDates.get(`content/${topic}/${slug}.md`)||today;
 // Version the complete module graph together so cached modules cannot mix deployments.
-const webFiles=['index.html','style.css','app.js','diagrams.js','theme.js','research.js','robotics.js','robotics-archive.js','bookmarks.js','daily-updates.js','security-news.js','home-updates.js','research-tldr.js'];
+const webFiles=['index.html','style.css','app.js','diagrams.js','theme.js','research.js','robotics.js','network-security.js','robotics-archive.js','bookmarks.js','daily-updates.js','security-news.js','home-updates.js','research-tldr.js'];
 const webContents=new Map(await Promise.all(webFiles.map(async file=>[file,await fs.readFile(path.join(root,'web',file),'utf8')])));
 const revision=createHash('sha256').update([...webContents.values()].join('\0')).digest('hex').slice(0,12);
 const assetNames=new Map(webFiles.filter(file=>file!=='index.html').map(file=>[file,file.replace(/(\.[^.]+)$/,`.${revision}$1`)]));
@@ -129,11 +129,16 @@ robotics.archive=JSON.parse(await fs.readFile(path.join(root,'data/robotics-conf
 await attachSummaries(robotics.archive);
 await fs.writeFile(path.join(output,'robotics-security.json'),JSON.stringify(await attachSummaries(robotics)));
 
+const network=JSON.parse(await fs.readFile(path.join(root,'data/network-security.json'),'utf8'));
+network.archive=JSON.parse(await fs.readFile(path.join(root,'data/network-conferences.json'),'utf8'));
+await attachSummaries(network.archive);
+await fs.writeFile(path.join(output,'network-security.json'),JSON.stringify(await attachSummaries(network)));
+
 // Data files have stable URLs (no content hash in the name), so returning visitors can be
 // served a stale cached copy after a deploy — the section shows up but its new docs don't.
 // Append each data file's content hash as a ?v= query to its fetch() in the emitted scripts,
 // so any data change busts the browser cache while unchanged data still caches.
-const dataFiles=['documents.json','research.json','robotics-security.json','security-news.json'];
+const dataFiles=['documents.json','research.json','robotics-security.json','network-security.json','security-news.json'];
 const dataRev=new Map();
 for(const file of dataFiles){
  try{dataRev.set(file,createHash('sha256').update(await fs.readFile(path.join(output,file))).digest('hex').slice(0,12));}catch{/* not emitted */}
