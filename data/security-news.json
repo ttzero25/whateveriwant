@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-05T02:02:26.140Z",
+  "attempted_at": "2026-10-06T03:01:38.383Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,8 +13,8 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-10-05T02:02:26.140Z",
-      "last_success": "2026-10-05T02:02:26.140Z",
+      "attempted_at": "2026-10-06T03:01:38.383Z",
+      "last_success": "2026-10-06T03:01:38.383Z",
       "status": "ok",
       "count": 150
     },
@@ -29,8 +29,8 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-10-05T02:02:26.140Z",
-      "last_success": "2026-10-05T02:02:26.140Z",
+      "attempted_at": "2026-10-06T03:01:38.383Z",
+      "last_success": "2026-10-06T03:01:38.383Z",
       "status": "ok",
       "count": 150
     },
@@ -44,8 +44,8 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-10-05T02:02:26.140Z",
-      "last_success": "2026-10-05T02:02:26.140Z",
+      "attempted_at": "2026-10-06T03:01:38.383Z",
+      "last_success": "2026-10-06T03:01:38.383Z",
       "status": "ok",
       "count": 150
     },
@@ -60,7 +60,7 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-10-05T02:02:26.140Z",
+      "attempted_at": "2026-10-06T03:01:38.383Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
@@ -68,10 +68,212 @@
   ],
   "items": [
     {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "이재명 대통령 “금융권 AI 해킹 피해 확산... 국가 핵심 보안 체계 즉각 점검”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146206",
+      "published_at": "2026-10-06T02:25:26.000Z",
+      "date": "2026-10-06",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "이재명 대통령은 최근 공공기관과 금융권에서 연이어 발생한 해킹 사고와 관련해 “관계 당국은 사건 경위를 신속하고 명확하게 파악하고 피해 최소화를 위해 필요한 인력과 자원을 집중 투입해…",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
       "source": "dailysecu",
       "region": "kr",
       "lang": "ko",
-      "title": "[단독] 다크웹에 “서울사이버대학교 학생·교직원 개인정보 13만건 이상 판매\" 게시글 올라와",
+      "title": "[단독] 다크웹에 SK텔레콤 고객정보 2,321만건 판매글 등장…2026년 9월 이용·청구정보 포함",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208736",
+      "published_at": "2026-10-06T01:26:35.000Z",
+      "date": "2026-10-06",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "SK텔레콤 고객정보 유출을 주장하며 대규모 데이터를 판매한다는 게시글이 다크웹 게시판에서 10월 5일 확인됐다.",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "LG유플러스-우리은행, AI 통화앱 ‘익시오’ 연동해 보이스피싱 선제 차단",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146201",
+      "published_at": "2026-10-06T01:00:00.000Z",
+      "date": "2026-10-06",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "LG유플러스가 우리은행과 손잡고 통신과 금융 데이터를 실시간으로 연계해 보이스피싱 피해를 원천 차단하는 ‘익시오 보이스피싱 금융안심’ 서비스를 선보인다고 6일 밝혔다.금융권의 보이스피싱 대응은 주로 계좌이체 등 사후…",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김승주 교수 칼럼] 모르는 자산은 전수조사할 수 없다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208735",
+      "published_at": "2026-10-06T00:02:11.000Z",
+      "date": "2026-10-06",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "지난해 통신사와 롯데카드 등에서 대형 해킹 사고가 잇따르면서 공통적으로 주목받은 문제가 하나 있었다.",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[CISO 보안칼럼] 금융권 해킹 사고의 본질: 과연 AI가 문제였을까?",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208734",
+      "published_at": "2026-10-05T23:30:00.000Z",
+      "date": "2026-10-05",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "금융권 해킹 사고의 본질: 과연 AI가 문제였을까?",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+      "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+      "published_at": "2026-10-05T16:21:52.000Z",
+      "date": "2026-10-05",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain…",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+      "published_at": "2026-10-05T14:20:43.000Z",
+      "date": "2026-10-05",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "A blank field.",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "서울사이버대, 학생과 교직원은 물론 졸업생까지 개인정보 유출",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146196",
+      "published_at": "2026-10-05T14:11:15.000Z",
+      "date": "2026-10-05",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "서울사이버대학교는 학생과 졸업생, 교직원과 채용지원자들의 개인정보가 유출된 정황이 발견됐다고 밝혔다.",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+      "url": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+      "published_at": "2026-10-05T11:46:25.000Z",
+      "date": "2026-10-05",
+      "tags": [
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet…",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+      "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+      "published_at": "2026-10-05T08:09:23.000Z",
+      "date": "2026-10-05",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+      "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+      "published_at": "2026-10-05T06:40:19.000Z",
+      "date": "2026-10-05",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day…",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 법무법인 현 이메일 DB 유출, 다크웹 게시글 올라와…공격자 “247GB 유출” 주장",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208733",
+      "published_at": "2026-10-05T06:31:25.000Z",
+      "date": "2026-10-05",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "법무법인(유한) 현의 이메일 관련 정보가 외부로 유출됐다는 주장이 다크웹 게시판에 올라온 가운데, 법무법인 현도 일부 업무용 이메일 계정에 대한 비정상적인 접근과 이메일 관련 정보의 외부…",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[배종찬의 보안 빅데이터] AI 해킹으로 무너진 금융권 보안",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146195",
+      "published_at": "2026-10-05T06:13:17.000Z",
+      "date": "2026-10-05",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "2026년 10월 초, 국내 금융권이 인공지능(AI)을 악용한 고도화된 해킹 공격에 동시다발적으로 노출되며 전대미문의 보안 재난에 직면했다.",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김승주 교수 칼럼] AI 에이전트 시대의 사이버보안, 새로운 답보다 밀린 숙제부터",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208728",
+      "published_at": "2026-10-05T04:58:47.000Z",
+      "date": "2026-10-05",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "AI가 사이버공격의 풍경을 빠르게 바꾸고 있다.",
+      "first_seen": "2026-10-06T03:01:38.383Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 다크웹에 “서울사이버대학교 학생·교직원 개인정보 판매\" 게시글 올라와",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=208727",
       "published_at": "2026-10-05T01:53:18.000Z",
       "date": "2026-10-05",
@@ -79,7 +281,8 @@
         "incident"
       ],
       "excerpt": "서울사이버대학교와 관련된 대규모 개인정보 데이터가 해외 해킹·데이터 거래 관련 다크웹 포럼에 올라왔다.",
-      "first_seen": "2026-10-05T02:02:26.140Z"
+      "first_seen": "2026-10-05T02:02:26.140Z",
+      "updated_at": "2026-10-06T03:01:38.383Z"
     },
     {
       "source": "boannews",
@@ -5594,35 +5797,6 @@
       "first_seen": "2026-09-15T01:30:58.514Z"
     },
     {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[김혁준의 실전형 K-시큐리티] 보이지 않는 위협, ‘선제적 방어’로 전환해야",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=145829",
-      "published_at": "2026-09-14T23:30:00.000Z",
-      "date": "2026-09-14",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "사이버 공격으로 홈페이지가 몇 시간 동안 멈추는 것과 국방·방산 첨단기술이나 통신 인증정보가 수년간 조용히 유출되는 것은 피해의 차원이 다르다.",
-      "first_seen": "2026-09-15T01:30:58.514Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "스플래시탑, AI 기반 사기 방지 솔루션 ‘스플래시탑 쉴드’ 출시",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=145839",
-      "published_at": "2026-09-14T23:04:21.000Z",
-      "date": "2026-09-14",
-      "tags": [
-        "malware",
-        "phishing"
-      ],
-      "excerpt": "스플래시탑(Splashtop)이 개인과 가족을 위한 인공지능(AI) 기반 보안 솔루션 ‘스플래시탑 쉴드’(Splashtop Shield)을 출시했다고 14일 밝혔다.",
-      "first_seen": "2026-09-15T01:30:58.514Z"
-    },
-    {
       "source": "thehackernews",
       "region": "global",
       "lang": "en",
@@ -5866,21 +6040,6 @@
       "first_seen": "2026-09-15T01:30:58.514Z"
     },
     {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "“해킹 기술만큼 발표 실력도 중요해”... 대학 벽 허물고 뭉친 예비 보안인들",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=145836",
-      "published_at": "2026-09-14T08:36:51.000Z",
-      "date": "2026-09-14",
-      "tags": [
-        "incident",
-        "vulnerability"
-      ],
-      "excerpt": "AI가 취약점을 찾아내고 해킹까지 하는 시대, 미래 보안 전문가들에게 필요한 역량은 무엇일까?",
-      "first_seen": "2026-09-15T01:30:58.514Z"
-    },
-    {
       "source": "dailysecu",
       "region": "kr",
       "lang": "ko",
@@ -5906,20 +6065,6 @@
         "incident"
       ],
       "excerpt": "포티넷코리아가 병원정보보안협회와 함께 오는 16일 대한상공회의소에서 '병원 OT 보안 및 AI 위협 대응 포럼'을 공동 개최한다.이번 포럼은 한국사회보장정보원, 법무법인 율촌, 김앤장 법률사무소 등 공공·의료·법조계가 함께…",
-      "first_seen": "2026-09-15T01:30:58.514Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "채용 플랫폼 레쥬메나인 개인정보 유출... 원인은 ‘서버 권한 검증 누락’",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=145832",
-      "published_at": "2026-09-14T06:12:53.000Z",
-      "date": "2026-09-14",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "채용 플랫폼 레쥬메나인(Resume9)에서 서버 기능의 권한 검증 누락으로 회원 개인정보가 유출되는 사고가 발생했다.",
       "first_seen": "2026-09-15T01:30:58.514Z"
     },
     {
@@ -6130,81 +6275,6 @@
       "title": "[KCSCON 2026] 세일포인트 김환일 컨설턴트 “사람 중심 아이덴티티 보안, AI 에이전트까지 확장해야”",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=208420",
       "published_at": "2026-09-13T05:02:16.000Z",
-      "date": "2026-09-13",
-      "tags": [
-        "policy"
-      ],
-      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
-      "first_seen": "2026-09-14T01:09:10.515Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[KCSCON 2026] 엔키화이트햇 김영운 연구원 “2026년 북한 김수키 해킹그룹, 스피어피싱 넘어 지속성 확보에 집중”",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208419",
-      "published_at": "2026-09-13T04:52:10.000Z",
-      "date": "2026-09-13",
-      "tags": [
-        "incident",
-        "phishing",
-        "policy"
-      ],
-      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
-      "first_seen": "2026-09-14T01:09:10.515Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[KCSCON 2026] 타이거팀 황석훈 대표 “에이전틱 AI SOC, 완전자율보다 ‘증명 가능한 자율’이 먼저”",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208418",
-      "published_at": "2026-09-13T04:07:27.000Z",
-      "date": "2026-09-13",
-      "tags": [
-        "policy"
-      ],
-      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
-      "first_seen": "2026-09-14T01:09:10.515Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[KCSCON 2026] TLP블랙 코스틴 라이우 CEO “공격자도 AI 활용…방화벽·VPN이 기업 침투의 출발점 되고 있다”",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208417",
-      "published_at": "2026-09-13T03:56:28.000Z",
-      "date": "2026-09-13",
-      "tags": [
-        "incident",
-        "policy"
-      ],
-      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
-      "first_seen": "2026-09-14T01:09:10.515Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[KCSCON 2026] 스텔스몰 서승우 매니저 “다크웹에 노출된 계정이 랜섬웨어 침해의 출발점 될 수 있어”",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208416",
-      "published_at": "2026-09-13T03:42:34.000Z",
-      "date": "2026-09-13",
-      "tags": [
-        "incident",
-        "malware",
-        "policy"
-      ],
-      "excerpt": "하반기 최대 사이버보안 컨퍼런스·전시회인 ‘2026 대한민국 사이버 보안 컨퍼런스(KCSCON 2026)’가 9월 8일 서울 세종대학교 컨벤션센터에서 개최됐다.데일리시큐가 주최하고 과학기술정보통신부, 한국인터넷진흥원(KISA), 한국정보보호산업협회가 후원한 KCSCON 2026에는 공공기관과 공기업,…",
-      "first_seen": "2026-09-14T01:09:10.515Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[KCSCON 2026] 티사이언티픽 이종규 이사 “AI 경쟁력은 모델보다 데이터…비정형 데이터 통제가 핵심”",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208415",
-      "published_at": "2026-09-13T03:33:45.000Z",
       "date": "2026-09-13",
       "tags": [
         "policy"
@@ -6467,77 +6537,6 @@
         "vulnerability"
       ],
       "excerpt": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.",
-      "first_seen": "2026-09-10T13:47:17.151Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
-      "url": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
-      "published_at": "2026-09-09T11:17:07.000Z",
-      "date": "2026-09-09",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own…",
-      "first_seen": "2026-09-10T13:47:17.151Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
-      "url": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
-      "published_at": "2026-09-09T10:43:04.000Z",
-      "date": "2026-09-09",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that could have let an attacker take over a wallet and send…",
-      "first_seen": "2026-09-10T13:47:17.151Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-      "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-      "published_at": "2026-09-09T09:11:03.000Z",
-      "date": "2026-09-09",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild.",
-      "first_seen": "2026-09-10T13:47:17.151Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
-      "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
-      "published_at": "2026-09-09T08:19:32.000Z",
-      "date": "2026-09-09",
-      "tags": [
-        "vulnerability",
-        "policy"
-      ],
-      "excerpt": "cPanel has patched a flaw that it says lets a single hosting account take control of an entire server.",
-      "first_seen": "2026-09-10T13:47:17.151Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
-      "url": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
-      "published_at": "2026-09-09T07:36:49.000Z",
-      "date": "2026-09-09",
-      "tags": [
-        "malware"
-      ],
-      "excerpt": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk,…",
       "first_seen": "2026-09-10T13:47:17.151Z"
     },
     {
