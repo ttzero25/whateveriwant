@@ -1,5 +1,5 @@
 {
-  "attempted_at": "2026-10-08T02:43:00.786Z",
+  "attempted_at": "2026-10-09T02:57:23.513Z",
   "sources": [
     {
       "id": "acm-ccs",
@@ -7,8 +7,8 @@
       "year": 2026,
       "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
       "status": "ok",
-      "attempted_at": "2026-10-08T02:43:00.786Z",
-      "last_success": "2026-10-08T02:43:00.786Z",
+      "attempted_at": "2026-10-09T02:57:23.513Z",
+      "last_success": "2026-10-09T02:57:23.513Z",
       "matched_count": 37
     },
     {
@@ -17,8 +17,8 @@
       "year": 2026,
       "url": "https://sp2026.ieee-security.org/accepted-papers.html",
       "status": "ok",
-      "attempted_at": "2026-10-08T02:43:00.786Z",
-      "last_success": "2026-10-08T02:43:00.786Z",
+      "attempted_at": "2026-10-09T02:57:23.513Z",
+      "last_success": "2026-10-09T02:57:23.513Z",
       "matched_count": 20
     },
     {
@@ -27,8 +27,8 @@
       "year": 2026,
       "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
       "status": "ok",
-      "attempted_at": "2026-10-08T02:43:00.786Z",
-      "last_success": "2026-10-08T02:43:00.786Z",
+      "attempted_at": "2026-10-09T02:57:23.513Z",
+      "last_success": "2026-10-09T02:57:23.513Z",
       "matched_count": 37
     },
     {
@@ -37,7 +37,7 @@
       "year": 2026,
       "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
       "status": "error",
-      "attempted_at": "2026-10-08T02:43:00.786Z",
+      "attempted_at": "2026-10-09T02:57:23.513Z",
       "last_success": "2026-10-06T10:34:05.527Z",
       "matched_count": 30
     },
@@ -48,8 +48,8 @@
       "url": "https://www.sigsac.org/ccs/CCS2025/accepted-papers/",
       "feed": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
       "status": "ok",
-      "attempted_at": "2026-10-08T02:43:00.786Z",
-      "last_success": "2026-10-08T02:43:00.786Z",
+      "attempted_at": "2026-10-09T02:57:23.513Z",
+      "last_success": "2026-10-09T02:57:23.513Z",
       "matched_count": 25
     },
     {
@@ -58,8 +58,8 @@
       "year": 2025,
       "url": "https://sp2025.ieee-security.org/accepted-papers.html",
       "status": "ok",
-      "attempted_at": "2026-10-08T02:43:00.786Z",
-      "last_success": "2026-10-08T02:43:00.786Z",
+      "attempted_at": "2026-10-09T02:57:23.513Z",
+      "last_success": "2026-10-09T02:57:23.513Z",
       "matched_count": 20
     },
     {
@@ -68,8 +68,8 @@
       "year": 2025,
       "url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
       "status": "ok",
-      "attempted_at": "2026-10-08T02:43:00.786Z",
-      "last_success": "2026-10-08T02:43:00.786Z",
+      "attempted_at": "2026-10-09T02:57:23.513Z",
+      "last_success": "2026-10-09T02:57:23.513Z",
       "matched_count": 16
     },
     {
@@ -78,7 +78,7 @@
       "year": 2025,
       "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
       "status": "error",
-      "attempted_at": "2026-10-08T02:43:00.786Z",
+      "attempted_at": "2026-10-09T02:57:23.513Z",
       "last_success": "2026-10-06T10:34:05.527Z",
       "matched_count": 45
     },
@@ -88,8 +88,8 @@
       "year": 2024,
       "url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
       "status": "ok",
-      "attempted_at": "2026-10-08T02:43:00.786Z",
-      "last_success": "2026-10-08T02:43:00.786Z",
+      "attempted_at": "2026-10-09T02:57:23.513Z",
+      "last_success": "2026-10-09T02:57:23.513Z",
       "matched_count": 26
     }
   ],

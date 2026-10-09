@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-08T02:42:57.814Z",
+  "attempted_at": "2026-10-09T02:57:21.125Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,17 +11,17 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-08T02:42:57.814Z",
-      "last_success": "2026-10-08T02:42:57.814Z",
+      "attempted_at": "2026-10-09T02:57:21.125Z",
+      "last_success": "2026-10-09T02:57:21.125Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-08T02:42:57.814Z"
+          "last_success": "2026-10-09T02:57:21.125Z"
         }
       ],
-      "count": 57
+      "count": 58
     },
     {
       "id": "wireless",
@@ -32,20 +32,35 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-08T02:42:57.814Z",
-      "last_success": "2026-10-08T02:42:57.814Z",
+      "attempted_at": "2026-10-09T02:57:21.125Z",
+      "last_success": "2026-10-09T02:57:21.125Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-08T02:42:57.814Z"
+          "last_success": "2026-10-09T02:57:21.125Z"
         }
       ],
       "count": 32
     }
   ],
   "items": [
+    {
+      "source": "netsec",
+      "title": "Toward Intelligent Networks via AI-Aware GPU-Native Packet Processing",
+      "url": "https://arxiv.org/abs/2610.12139v1",
+      "date": "2026-10-08",
+      "published_at": "2026-10-08T15:25:10.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "The integration of inline Artificial Intelligence (AI) models into critical network infrastructure is fundamentally bottlenecked by the high latency and synchronization overhead of CPU-mediated packet…",
+      "first_seen": "2026-10-09T02:57:21.125Z"
+    },
     {
       "source": "netsec",
       "title": "Systematically Optimized CNN-Transformer with Focal Loss for Imbalanced Intrusion Detection on NSL-KDD",
