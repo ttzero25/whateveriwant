@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-10T02:22:37.002Z",
+  "attempted_at": "2026-10-11T01:56:53.661Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,8 +13,8 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-10-10T02:22:37.002Z",
-      "last_success": "2026-10-10T02:22:37.002Z",
+      "attempted_at": "2026-10-11T01:56:53.661Z",
+      "last_success": "2026-10-11T01:56:53.661Z",
       "status": "ok",
       "count": 150
     },
@@ -29,8 +29,8 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-10-10T02:22:37.002Z",
-      "last_success": "2026-10-10T02:22:37.002Z",
+      "attempted_at": "2026-10-11T01:56:53.661Z",
+      "last_success": "2026-10-11T01:56:53.661Z",
       "status": "ok",
       "count": 150
     },
@@ -44,8 +44,8 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-10-10T02:22:37.002Z",
-      "last_success": "2026-10-10T02:22:37.002Z",
+      "attempted_at": "2026-10-11T01:56:53.661Z",
+      "last_success": "2026-10-11T01:56:53.661Z",
       "status": "ok",
       "count": 150
     },
@@ -60,13 +60,114 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-10-10T02:22:37.002Z",
+      "attempted_at": "2026-10-11T01:56:53.661Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 또 터진 IT 서비스 공급망 해킹? 학회 홈페이지 6곳 개인정보 유출",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146295",
+      "published_at": "2026-10-11T01:41:39.000Z",
+      "date": "2026-10-11",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "최근 온라인 교육 사이트 운영기업 ‘맑은소프트’의 해킹으로 온라인 교육관련 사이트가 개인정보 유출 문제를 겪은 데 이어, 이번에는 학회 홈페이지를 운영·관리하는 기업이 해킹을 당해 학회 회원들의…",
+      "first_seen": "2026-10-11T01:56:53.661Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[보안칼럼] AI 범죄 시장의 확산과 금융보안의 과제",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208815",
+      "published_at": "2026-10-10T10:46:18.000Z",
+      "date": "2026-10-10",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "한국 은행들이 공격받은 이번 사건에서 인공지능 도구의 활용 정황이 큰 주목을 받고 있다.",
+      "first_seen": "2026-10-11T01:56:53.661Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 금융권 해킹 용의자 주변 인물 추적 결과...텔레그램·깃허브·악성코드 기록서 연결고리 발견",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208814",
+      "published_at": "2026-10-10T10:27:57.000Z",
+      "date": "2026-10-10",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "최근 국내 금융권 연쇄 해킹 사건과 관련된 텔레그램 계정의 과거 활동을 추적해 온 사이버 위협 인텔리전스 기업 스텔스몰(StealthMole)이 조사 범위를 해당 계정이 활동했던 중국어권 사이버범죄…",
+      "first_seen": "2026-10-11T01:56:53.661Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 쏘카, 무신사 29CM와 유사한 공격으로 고객 248명 개인정보 유출…10분 만에 인지·차단해 추가 피해 방지",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208813",
+      "published_at": "2026-10-10T10:00:00.000Z",
+      "date": "2026-10-10",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "쏘카에서 내부용 회원 조회 기능(API)을 통한 외부 공격으로 고객 248명의 개인정보가 유출됐다.",
+      "first_seen": "2026-10-11T01:56:53.661Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "published_at": "2026-10-10T09:18:45.000Z",
+      "date": "2026-10-10",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial…",
+      "first_seen": "2026-10-11T01:56:53.661Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[은행이 뚫린다] 예가람저축은행, 고객 주민등록번호·계좌번호 유출됐는데 고지 안했다 슬그머니 수정",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146294",
+      "published_at": "2026-10-10T07:08:29.000Z",
+      "date": "2026-10-10",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "지난 10월 2일 AI를 악용한 해킹공격에 피해를 입었던 예가람저축은행이 홈페이지에는 고객의 ‘성명, 생년월일, 연락처’가 유출됐다고 공지했지만, 사실 주민등록번호와 계좌번호까지 유출된 것으로 알려졌다.",
+      "first_seen": "2026-10-11T01:56:53.661Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[이슈칼럼] 해킹 당한 기관에게 과징금을 부과하는 명분",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146293",
+      "published_at": "2026-10-10T06:30:48.000Z",
+      "date": "2026-10-10",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "해킹을 당한 기관도 해킹의 피해자인데 왜 과징금을 부과하는 것일까.",
+      "first_seen": "2026-10-11T01:56:53.661Z"
+    },
     {
       "source": "boannews",
       "region": "kr",
@@ -5494,20 +5595,6 @@
       "first_seen": "2026-09-22T01:37:27.914Z"
     },
     {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[보안을 해킹하다] 아테나의 방패와 이카루스의 날개",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=145981",
-      "published_at": "2026-09-22T00:00:00.000Z",
-      "date": "2026-09-22",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "[편집자 주] 김정덕 교수의 특별 연재 마지막 시간으로, 책의 제5부 ‘지혜와 회복\\'을 다룹니다.",
-      "first_seen": "2026-09-22T01:37:27.914Z"
-    },
-    {
       "source": "thehackernews",
       "region": "global",
       "lang": "en",
@@ -5548,20 +5635,6 @@
         "incident"
       ],
       "excerpt": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts.",
-      "first_seen": "2026-09-22T01:37:27.914Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "韓 선박, 해킹에 멈췄다... 선박 보안 경각심↑",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=145979",
-      "published_at": "2026-09-21T10:30:00.000Z",
-      "date": "2026-09-21",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "한국 선박이 해킹으로 통신이 멈추고 운항이 중단됐다.",
       "first_seen": "2026-09-22T01:37:27.914Z"
     },
     {
@@ -5632,20 +5705,6 @@
         "vulnerability"
       ],
       "excerpt": "금융회사가 공통으로 사용하는 상용 소프트웨어와 오픈소스의 취약점을 공동으로 찾아 패치하고 금융회사 조치까지 연계하는 금융권 소프트웨어(SW) 공급망 보안 대응체계가 본격 가동되고 있다.금융보안원(원장 박상원)은 지난 2월 6일부터…",
-      "first_seen": "2026-09-22T01:37:27.914Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[한국정보공학기술사 보안을 論하다–48] 왜 개인정보 유출사고는 반복되는가?",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=145977",
-      "published_at": "2026-09-21T07:31:45.000Z",
-      "date": "2026-09-21",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "보안 기술은 매년 진화하고 있다.",
       "first_seen": "2026-09-22T01:37:27.914Z"
     },
     {
@@ -6432,20 +6491,6 @@
       "first_seen": "2026-09-17T01:28:06.957Z"
     },
     {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "뤼튼·테슬라코리아·딥시크·오픈AI·나이키, 개인정보 처리방침 후속 점검서 미흡 확인",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208513",
-      "published_at": "2026-09-16T13:05:03.000Z",
-      "date": "2026-09-16",
-      "tags": [
-        "policy"
-      ],
-      "excerpt": "개인정보보호위원회가 ‘2025년 개인정보 처리방침 평가’에서 미흡 판정을 받은 사업자를 대상으로 후속 점검을 실시하고, 정보주체 권리행사와 국내대리인 운영이 미흡한 5개 사업자에 개선을 권고했다.개인정보위는 지난 9월 9일…",
-      "first_seen": "2026-09-17T01:28:06.957Z"
-    },
-    {
       "source": "thehackernews",
       "region": "global",
       "lang": "en",
@@ -6473,51 +6518,6 @@
         "vulnerability"
       ],
       "excerpt": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild.",
-      "first_seen": "2026-09-17T01:28:06.957Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
-      "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
-      "published_at": "2026-09-16T11:15:48.000Z",
-      "date": "2026-09-16",
-      "tags": [
-        "incident",
-        "vulnerability",
-        "policy"
-      ],
-      "excerpt": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real…",
-      "first_seen": "2026-09-17T01:28:06.957Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "이지서티, 경찰청 '온나라 2.0'에 AI 기반 개인정보 필터링 솔루션 공급",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208506",
-      "published_at": "2026-09-16T04:48:22.000Z",
-      "date": "2026-09-16",
-      "tags": [
-        "incident",
-        "policy"
-      ],
-      "excerpt": "이지서티(대표 김동례)가 경찰청의 '온나라 2.0 전환 사업'에 실시간 개인정보 필터링 솔루션 'U-PRIVACY SAFER V4.0'을 공급한다.경찰청은 노후화된 온나라 1.0을 G-Cloud 기반 온나라 2.0으로 전환해 시스템 호환성과…",
-      "first_seen": "2026-09-17T01:28:06.957Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "솔트웨어, ‘AI Gateway & Claude Code’ 핸즈온 세미나 성료",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208503",
-      "published_at": "2026-09-16T04:28:16.000Z",
-      "date": "2026-09-16",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "솔트웨어(대표 이정근)가 LiteLLM과 아마존 베드락(Amazon Bedrock)을 활용한 AI Gateway 구축 및 클로드 코드 사내 통제 운영 실습 세미나를 16일 진행했다.기업 내 대규모언어모델(LLM) 사용이 늘면서 여러…",
       "first_seen": "2026-09-17T01:28:06.957Z"
     },
     {
