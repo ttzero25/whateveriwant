@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-11T01:56:50.255Z",
+  "attempted_at": "2026-10-12T02:26:36.073Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,17 +11,17 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-11T01:56:50.255Z",
-      "last_success": "2026-10-11T01:56:50.255Z",
+      "attempted_at": "2026-10-12T02:26:36.073Z",
+      "last_success": "2026-10-12T02:26:36.073Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-11T01:56:50.255Z"
+          "last_success": "2026-10-12T02:26:36.073Z"
         }
       ],
-      "count": 58
+      "count": 60
     },
     {
       "id": "wireless",
@@ -32,20 +32,66 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-11T01:56:50.255Z",
-      "last_success": "2026-10-11T01:56:50.255Z",
+      "attempted_at": "2026-10-12T02:26:36.073Z",
+      "last_success": "2026-10-12T02:26:36.073Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-11T01:56:50.255Z"
+          "last_success": "2026-10-12T02:26:36.073Z"
         }
       ],
       "count": 32
     }
   ],
   "items": [
+    {
+      "source": "netsec",
+      "title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
+      "url": "https://arxiv.org/abs/2610.13853v1",
+      "date": "2026-10-09",
+      "published_at": "2026-10-09T17:02:30.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Power grid cyber-physical security requires intrusion detection methods that account for the operational consequences of detection errors.",
+      "first_seen": "2026-10-12T02:26:36.073Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Quantum Information-Theoretic Analysis of Optical Fiber Sensing via Stimulated Brillouin Scattering",
+      "url": "https://arxiv.org/abs/2610.12980v1",
+      "date": "2026-10-09",
+      "published_at": "2026-10-09T04:24:30.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Stimulated Brillouin scattering (SBS) is a powerful mechanism for distributed sensing in optical fibers, as the Brillouin response is highly sensitive to local material parameters.",
+      "first_seen": "2026-10-12T02:26:36.073Z"
+    },
+    {
+      "source": "netsec",
+      "title": "PVBRF-ID: Private, Verifiable and Byzantine-Robust Federated Intrusion Detection for Oilfield Enterprise Networks",
+      "url": "https://arxiv.org/abs/2610.12704v1",
+      "date": "2026-10-08",
+      "published_at": "2026-10-08T20:34:03.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "defense"
+      ],
+      "excerpt": "Federated learning allows dispersed oilfield sites to train a shared intrusion detector without pooling network traffic, yet its aggregation step forces a choice between privacy…",
+      "first_seen": "2026-10-12T02:26:36.073Z"
+    },
     {
       "source": "netsec",
       "title": "Toward Intelligent Networks via AI-Aware GPU-Native Packet Processing",
@@ -1324,21 +1370,6 @@
         "defense"
       ],
       "excerpt": "As the threat landscape against industrial control systems is dynamic, effective security requires detection strategies capable of timely reactions to these evolving threat situations.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Correlation-Guided Fast Machine Unlearning via Hessian Analysis",
-      "url": "https://arxiv.org/abs/2609.12620v1",
-      "date": "2026-09-11",
-      "published_at": "2026-09-11T09:21:30.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "The increasing adoption of machine learning in network and distributed security systems has created an urgent need for mechanisms that can selectively and efficiently remove…",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {

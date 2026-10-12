@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-11T01:56:53.661Z",
+  "attempted_at": "2026-10-12T02:26:39.983Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,8 +13,8 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-10-11T01:56:53.661Z",
-      "last_success": "2026-10-11T01:56:53.661Z",
+      "attempted_at": "2026-10-12T02:26:39.983Z",
+      "last_success": "2026-10-12T02:26:39.983Z",
       "status": "ok",
       "count": 150
     },
@@ -29,8 +29,8 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-10-11T01:56:53.661Z",
-      "last_success": "2026-10-11T01:56:53.661Z",
+      "attempted_at": "2026-10-12T02:26:39.983Z",
+      "last_success": "2026-10-12T02:26:39.983Z",
       "status": "ok",
       "count": 150
     },
@@ -44,8 +44,8 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-10-11T01:56:53.661Z",
-      "last_success": "2026-10-11T01:56:53.661Z",
+      "attempted_at": "2026-10-12T02:26:39.983Z",
+      "last_success": "2026-10-12T02:26:39.983Z",
       "status": "ok",
       "count": 150
     },
@@ -60,13 +60,156 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-10-11T01:56:53.661Z",
+      "attempted_at": "2026-10-12T02:26:39.983Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "에스에스알 ‘SolidStep SCA’, GS인증 1등급 획득",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208826",
+      "published_at": "2026-10-12T02:10:07.000Z",
+      "date": "2026-10-12",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "정보보호 전문기업 에스에스알(대표 고필주)은 오픈소스 취약점 분석 솔루션 ‘SolidStep SCA’가 한국정보통신기술협회(TTA)의 GS(Good Software)인증 1등급을 획득했다고 밝혔다.GS인증은 소프트웨어의 기능과 품질 등을 시험·평가하는 국가 품질인증 제도다.SolidStep SCA는…",
+      "first_seen": "2026-10-12T02:26:39.983Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[배종찬의 보안 빅데이터] 기도로도 막지 못한 교인 정보 유출 해킹",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146305",
+      "published_at": "2026-10-12T01:32:44.000Z",
+      "date": "2026-10-12",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "최근 금융권을 겨냥했던 사이버 공격의 칼날이 수십만 명의 신도를 보유한 대형 교회로 향하며 사회적 충격을 주고 있다.",
+      "first_seen": "2026-10-12T02:26:39.983Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[보안칼럼] 금융권 해킹, AI가 문제가 아니라 기본기가 문제였다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208825",
+      "published_at": "2026-10-11T23:51:04.000Z",
+      "date": "2026-10-11",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "최근 국내 금융권을 대상으로 한 침해사고가 연일 'AI에 의한 해킹'이라는 이름으로 보도되고 있다.",
+      "first_seen": "2026-10-12T02:26:39.983Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김승주 교수 칼럼] AI가 바꾼 해킹의 경제학, 정부의 보안점검 방식도 달라져야 한다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208817",
+      "published_at": "2026-10-11T23:00:00.000Z",
+      "date": "2026-10-11",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "해커도 경제성을 따진다.",
+      "first_seen": "2026-10-12T02:26:39.983Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[이혁중 CISO 칼럼] AI가 바꾼 공격의 속도, 보안도 발견의 속도를 높여야 한다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208818",
+      "published_at": "2026-10-11T23:00:00.000Z",
+      "date": "2026-10-11",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "원래 이번 컬럼에서는 Zero Trust측면의 AI 보안을 다루려 했으나, 최근 금융권 침해 사고로 인해 취약점 기반 침투 공격에 이목이 집중되고 있어 이 화두를 먼저 꺼내고자…",
+      "first_seen": "2026-10-12T02:26:39.983Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[이슈 체크] 다크웹에 올라온 올리브영·카카오모빌리티 고객정보, 실제 확인 결과 ‘가짜’",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208824",
+      "published_at": "2026-10-11T06:56:08.000Z",
+      "date": "2026-10-11",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "최근 다크웹에서 CJ올리브영과 카카오모빌리티의 고객정보를 판매한다는 게시물이 잇따라 등장했지만, 해당 기업들의 확인 결과 실제 고객정보가 아닌 가짜 데이터인 것으로 파악됐다.",
+      "first_seen": "2026-10-12T02:26:39.983Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[한국정보보호학회 칼럼] 프런티어 AI 시대, 결국 답은 제로트러스트",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146296",
+      "published_at": "2026-10-11T06:00:00.000Z",
+      "date": "2026-10-11",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "2026년 7월, 전 세계 사이버보안 업계를 긴장시킨 사건 하나가 공개됐다.",
+      "first_seen": "2026-10-12T02:26:39.983Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "금융권 AI 해킹 2주 전 이미 경고, 금융보안원, 실제 공격 사례까지 공유했지만...",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208822",
+      "published_at": "2026-10-11T05:11:57.000Z",
+      "date": "2026-10-11",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "최근 국내 금융권에서 AI를 활용한 해킹으로 개인정보 유출 사고가 잇따른 가운데, 금융보안원이 사고 발생 약 2주 전 금융회사들에 실제 AI 해킹 사례를 공유하고 대응을 당부했던…",
+      "first_seen": "2026-10-12T02:26:39.983Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "개발자 계정 뚫리자 깃허브 345곳 연쇄 침해…AI API 키까지 노렸다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208821",
+      "published_at": "2026-10-11T04:47:04.000Z",
+      "date": "2026-10-11",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "유명 오픈소스 개발자의 깃허브 계정 2개가 공격에 악용돼 345개 소스코드 저장소에 악성 코드가 삽입되는 공급망 공격이 발생했다.",
+      "first_seen": "2026-10-12T02:26:39.983Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "한국은행·국책은행 해킹 시도 올해 102만건 돌파…지난해 연간 건수 넘어",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208820",
+      "published_at": "2026-10-11T04:30:18.000Z",
+      "date": "2026-10-11",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "한국은행과 주요 국책은행을 대상으로 탐지된 해킹 공격 시도가 올해 9개월 만에 100만건을 넘어선 것으로 나타났다.",
+      "first_seen": "2026-10-12T02:26:39.983Z"
+    },
     {
       "source": "boannews",
       "region": "kr",
@@ -5567,34 +5710,6 @@
       "first_seen": "2026-09-23T01:31:47.828Z"
     },
     {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "네이버클라우드, DB·서버 접근제어 통합 보안 서비스 출시... “개인정보보호법 부담 낮춰”",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=145990",
-      "published_at": "2026-09-22T00:59:52.000Z",
-      "date": "2026-09-22",
-      "tags": [
-        "policy"
-      ],
-      "excerpt": "네이버클라우드(대표 김유원)가 기업의 데이터베이스(DB)와 서버에 대한 접근을 통제하고 작업 이력을 자동으로 기록·관리하는 통합 보안 서비스 \\'DB & 서버 액세스 컨트롤’(DSAC)\\'을 출시했다고 22일 밝혔다.이 제품을 통해…",
-      "first_seen": "2026-09-22T01:37:27.914Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "파수 AI, 국정원 CSK 2026에서 AI 보안 전략 제시",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=145987",
-      "published_at": "2026-09-22T00:30:21.000Z",
-      "date": "2026-09-22",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "AI 활용이 급속도로 확산되면서 기업 기밀과 개인정보 유출 위협이 주요 보안 과제로 떠오른 가운데, 파수 AI(대표 조규곤)가 ‘사이버 서밋 코리아 2026’(CSK 2026)’에 참가해 AI 보안…",
-      "first_seen": "2026-09-22T01:37:27.914Z"
-    },
-    {
       "source": "thehackernews",
       "region": "global",
       "lang": "en",
@@ -6325,21 +6440,6 @@
       "first_seen": "2026-09-18T01:18:31.839Z"
     },
     {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "체크멀, UI-관리체계 개편한 엔드포인트 중앙관리 솔루션 'CMS v2.0' 출시",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208525",
-      "published_at": "2026-09-17T04:50:26.000Z",
-      "date": "2026-09-17",
-      "tags": [
-        "malware",
-        "policy"
-      ],
-      "excerpt": "체크멀이 엔드포인트 중앙관리 솔루션 'CMS v2.0'을 9월 21일 출시한다.CMS v2.0은 AppCheck Pro 안티랜섬웨어의 정책, 에이전트, 로그, 라이선스, 사용자를 단일 웹 콘솔에서 통합 관리하는 엔드포인트 중앙관리…",
-      "first_seen": "2026-09-18T01:18:31.839Z"
-    },
-    {
       "source": "thehackernews",
       "region": "global",
       "lang": "en",
@@ -6368,99 +6468,6 @@
       "first_seen": "2026-09-17T01:28:06.957Z"
     },
     {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "구글 픽셀 모뎀 제로데이 실제 악용…사용자 조작 없이 권한 상승",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208520",
-      "published_at": "2026-09-16T14:33:03.000Z",
-      "date": "2026-09-16",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "구글이 픽셀(Pixel) 스마트폰의 셀룰러 모뎀에서 발견된 제로데이 취약점이 실제 표적 공격에 악용된 정황을 확인하고 보안 업데이트를 배포했다.구글은 9월 15일 공개한 ‘2026년 9월 픽셀 업데이트 게시판’을…",
-      "first_seen": "2026-09-17T01:28:06.957Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "우커머스 플러그인 치명적 취약점 실제 악용…PHP 웹셸 심어 사이트 장악",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208519",
-      "published_at": "2026-09-16T14:04:02.000Z",
-      "date": "2026-09-16",
-      "tags": [
-        "vulnerability",
-        "malware"
-      ],
-      "excerpt": "워드프레스 기반 온라인 쇼핑몰에서 사용하는 우커머스 도매 리드 캡처 플러그인의 치명적 취약점을 노린 실제 공격이 이어지고 있다.",
-      "first_seen": "2026-09-17T01:28:06.957Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "AI 에이전트가 개인정보 침해 공격 수행…스페인 AEPD 첫 신고",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208518",
-      "published_at": "2026-09-16T13:47:52.000Z",
-      "date": "2026-09-16",
-      "tags": [
-        "incident",
-        "vulnerability",
-        "policy"
-      ],
-      "excerpt": "스페인 개인정보보호청(AEPD)이 AI 에이전트를 이용한 공격으로 개인정보 침해가 발생했다는 신고를 처음 접수했다고 2026년 9월 14일 공개했다.AEPD에 따르면 공격자는 AI 에이전트에 공격 목표를 부여했고, 에이전트는 일반…",
-      "first_seen": "2026-09-17T01:28:06.957Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "일본 디지털청 해킹당했다…알려진 VPN 취약점 패치 전 공격",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208517",
-      "published_at": "2026-09-16T13:38:15.000Z",
-      "date": "2026-09-16",
-      "tags": [
-        "incident",
-        "vulnerability"
-      ],
-      "excerpt": "일본 정부가 여러 중앙부처에서 공동으로 사용하는 업무 시스템이 해킹돼 약 24만6000건의 개인정보가 외부로 유출됐을 가능성이 확인됐다.",
-      "first_seen": "2026-09-17T01:28:06.957Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "브이엠웨어 vCenter 치명적 RCE 실제 악용…ESXi 랜섬웨어 공격까지 확인",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208516",
-      "published_at": "2026-09-16T13:31:16.000Z",
-      "date": "2026-09-16",
-      "tags": [
-        "incident",
-        "vulnerability",
-        "malware",
-        "policy"
-      ],
-      "excerpt": "기업 가상화 환경을 관리하는 브이엠웨어 브이센터 서버(VMware vCenter Server)의 치명적 원격코드실행 취약점 ‘CVE-2026-59310’이 실제 공격에 악용되고 있는 것으로 확인됐다.",
-      "first_seen": "2026-09-17T01:28:06.957Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "시스코 이메일 보안장비 제로데이 악용…악성 메일 한 통에 ‘루트 권한’ 탈취",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208515",
-      "published_at": "2026-09-16T13:23:44.000Z",
-      "date": "2026-09-16",
-      "tags": [
-        "incident",
-        "vulnerability",
-        "malware"
-      ],
-      "excerpt": "시스코 기업용 이메일 보안장비인 시스코 시큐어 이메일 게이트웨이(Cisco Secure Email Gateway)에서 인증 없이 원격으로 시스템 최고 권한을 탈취할 수 있는 치명적인 취약점이 발견됐다.",
-      "first_seen": "2026-09-17T01:28:06.957Z"
-    },
-    {
       "source": "thehackernews",
       "region": "global",
       "lang": "en",
@@ -6472,22 +6479,6 @@
         "vulnerability"
       ],
       "excerpt": "Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac,…",
-      "first_seen": "2026-09-17T01:28:06.957Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "ISMS-P 인증심사 강화…현장심사·취약점 점검 확대",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208514",
-      "published_at": "2026-09-16T13:12:06.000Z",
-      "date": "2026-09-16",
-      "tags": [
-        "incident",
-        "vulnerability",
-        "policy"
-      ],
-      "excerpt": "정보보호 및 개인정보보호 관리체계(ISMS-P) 인증심사가 서류 중심에서 현장 검증을 강화하는 방향으로 개편된다.",
       "first_seen": "2026-09-17T01:28:06.957Z"
     },
     {
