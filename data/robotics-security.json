@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-14T01:55:20.377Z",
+  "attempted_at": "2026-10-15T01:30:44.830Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-10-14T01:55:20.377Z",
-      "last_success": "2026-10-14T01:55:20.377Z",
+      "attempted_at": "2026-10-15T01:30:44.830Z",
+      "last_success": "2026-10-15T01:30:44.830Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-10-14T01:55:20.377Z"
+          "last_success": "2026-10-15T01:30:44.830Z"
         }
       ],
       "count": 31
@@ -32,14 +32,14 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-10-14T01:55:20.377Z",
-      "last_success": "2026-10-14T01:55:20.377Z",
+      "attempted_at": "2026-10-15T01:30:44.830Z",
+      "last_success": "2026-10-15T01:30:44.830Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-14T01:55:20.377Z"
+          "last_success": "2026-10-15T01:30:44.830Z"
         }
       ],
       "count": 60
@@ -53,20 +53,36 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-10-14T01:55:20.377Z",
-      "last_success": "2026-10-14T01:55:20.377Z",
+      "attempted_at": "2026-10-15T01:30:44.830Z",
+      "last_success": "2026-10-15T01:30:44.830Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-14T01:55:20.377Z"
+          "last_success": "2026-10-15T01:30:44.830Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "autonomy",
+      "title": "Mission (Im)Possible: Towards Autonomous Discovery of Autopilot Logic Flaws in Open-Source Drone Frameworks",
+      "url": "https://arxiv.org/abs/2610.19566v1",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T04:30:11.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Autonomous drones are increasingly deployed in safety-critical tasks, yet their autopilot software can still contain subtle logic flaws that lead to unsafe behaviors.",
+      "first_seen": "2026-10-15T01:30:44.830Z"
+    },
     {
       "source": "ros",
       "title": "RoboShield v2: an inline command firewall gateway for ROS 2 (Rust + rclrs, two-domain bridge, SROS2)",
@@ -83,6 +99,103 @@
       ],
       "excerpt": "Hi all, Follow-up on RoboShield, my ROS 2 security project.",
       "first_seen": "2026-10-14T01:55:20.377Z"
+    },
+    {
+      "source": "robotics",
+      "title": "Learning Robot Policies for Whole-Body Mobility Assistance via Dynamic Human Motion Generation",
+      "url": "https://arxiv.org/abs/2610.17750v1",
+      "date": "2026-10-13",
+      "published_at": "2026-10-13T05:30:12.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Robotic assistance for human mobility could benefit care recipients and reduce caregiver burden during physically demanding tasks such as Sit-to-Stand (STS) and Lift-and-Transfer (L&T).",
+      "first_seen": "2026-10-15T01:30:44.830Z"
+    },
+    {
+      "source": "robotics",
+      "title": "MIRROR: Reflecting Hidden Symmetries from Offline Robot Interaction Data",
+      "url": "https://arxiv.org/abs/2610.17422v1",
+      "date": "2026-10-12",
+      "published_at": "2026-10-12T21:37:06.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Symmetry-aware robot policy learning requires coupled observation-action transformations.",
+      "first_seen": "2026-10-15T01:30:44.830Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Wing Rock Modeling and Control for Flight-Critical Systems",
+      "url": "https://arxiv.org/abs/2610.17011v1",
+      "date": "2026-10-12",
+      "published_at": "2026-10-12T15:53:12.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Aircraft equipped with delta wings are designed to be aerodynamically efficient in high-speed flight.",
+      "first_seen": "2026-10-15T01:30:44.830Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Adversarial Robustness of Camera-Radar Sensor Fusion for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2610.16012v1",
+      "date": "2026-10-12",
+      "published_at": "2026-10-12T00:21:21.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Autonomous driving (AD) relies on multi-sensor perception to interpret the surrounding environment.",
+      "first_seen": "2026-10-15T01:30:44.830Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "From Acoustic Sensing to Physical Actions: A Comprehensive Survey of Security Risks in Edge-Deployed Audio LLM-Based Agents",
+      "url": "https://arxiv.org/abs/2610.15390v1",
+      "date": "2026-10-11",
+      "published_at": "2026-10-11T06:38:40.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Audio Large Language Models (Audio LLMs) are embedded in agents for smart homes, vehicles, wearables, and embodied systems, where acoustic inputs can propagate from perception…",
+      "first_seen": "2026-10-15T01:30:44.830Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Adversarial Detection for Pre-trained Classifiers via Lipschitz-Margin Analysis with Certification",
+      "url": "https://arxiv.org/abs/2610.15359v1",
+      "date": "2026-10-11",
+      "published_at": "2026-10-11T05:33:29.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Deep classifiers deployed in safety-critical services like autonomous-driving perception remain vulnerable to small adversarial perturbations.",
+      "first_seen": "2026-10-15T01:30:44.830Z"
     },
     {
       "source": "autonomy",
@@ -452,6 +565,22 @@
       ],
       "excerpt": "Security workflows need models that turn complex observations and explicit policies into decisions.",
       "first_seen": "2026-10-05T02:02:20.886Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "SecJev: Bringing Security Expertise to System One Decision Models",
+      "url": "https://arxiv.org/abs/2610.03073v2",
+      "date": "2026-10-02",
+      "published_at": "2026-10-02T09:57:05.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Security workflows need models that turn complex observations and explicit policies into decisions.",
+      "first_seen": "2026-10-15T01:30:44.830Z"
     },
     {
       "source": "autonomy",
@@ -1215,55 +1344,6 @@
       "first_seen": "2026-09-17T01:27:59.290Z"
     },
     {
-      "source": "autonomy",
-      "title": "Illusion of Depth: Revealing Hidden Stereo Vision Vulnerabilities in Depth Estimation",
-      "url": "https://arxiv.org/abs/2609.16336v1",
-      "date": "2026-09-14",
-      "published_at": "2026-09-14T20:51:49.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "Stereo cameras are integrated into autonomous systems such as self-driving cars, drones, and robots to offer precise depth estimation in a cost-effective manner compared to…",
-      "first_seen": "2026-09-16T01:27:38.086Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Vertical vortex gust encounters of a delta wing",
-      "url": "https://arxiv.org/abs/2609.13578v1",
-      "date": "2026-09-11",
-      "published_at": "2026-09-11T22:31:37.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "The present study analyzes encounters of a vertical vortex with a tailless NACA 0012 delta wing with a sweep angle of 60 degrees at an…",
-      "first_seen": "2026-09-16T01:27:38.086Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Curriculum-Based Adversarial Heterogeneous Agent Reinforcement Learning for Autonomous Quad-Copter Landing in Maritime Settings",
-      "url": "https://arxiv.org/abs/2609.12758v1",
-      "date": "2026-09-11",
-      "published_at": "2026-09-11T12:09:08.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Recovering unmanned aerial vehicles (UAVs) in maritime environments is challenging due to wind turbulence and ship-deck motion, making it a valuable test case for alternative…",
-      "first_seen": "2026-09-16T01:27:38.086Z"
-    },
-    {
       "source": "robotics",
       "title": "SwarmNxt: Open-source Software-Hardware Platform for Fast and Agile Aerial Swarms",
       "url": "https://arxiv.org/abs/2609.11382v1",
@@ -1279,54 +1359,6 @@
       ],
       "excerpt": "Aerial robot swarms have the potential to transform time-critical safety, security, and search-and-rescue operations.",
       "first_seen": "2026-09-11T01:08:01.377Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Wicked Problem, Parsimonious Solution: Securing Electric Vehicle Charging Station Software",
-      "url": "https://arxiv.org/abs/2609.10502v1",
-      "date": "2026-09-09",
-      "published_at": "2026-09-09T17:37:14.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Electric vehicle charging infrastructure presents a suite of novel cyber-physical threats.",
-      "first_seen": null
-    },
-    {
-      "source": "autonomy",
-      "title": "A Comprehensive Review of One-Pixel Attack: Research Status, Taxonomy, Applications, Regulation Policy and Future Directions",
-      "url": "https://arxiv.org/abs/2610.00125v1",
-      "date": "2026-09-09",
-      "published_at": "2026-09-09T17:20:16.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "One-Pixel Attacks (OPAs) represent one of the most extreme demonstrations of adversarial fragility in deep learning, where modifying a single pixel can reliably induce high-confidence…",
-      "first_seen": "2026-10-02T02:17:54.389Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Adoption Dynamics",
-      "url": "https://arxiv.org/abs/2609.10388v1",
-      "date": "2026-09-09",
-      "published_at": "2026-09-09T16:11:09.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Building fast charging stations (FCSs) is crucial for transportation electrification, but there exists an indirect network effect: while the increasing number of electric vehicles (EVs)…",
-      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "robotics",
@@ -2014,37 +2046,6 @@
       ],
       "excerpt": "World models have recently seen a rapid growth in both their popularity and capability as more data efficient tools for generating robot training data or…",
       "first_seen": "2026-09-11T01:08:01.377Z"
-    },
-    {
-      "source": "robotics",
-      "title": "Learning of Robot Safety Policies via Adversarial Synthetic Scenarios",
-      "url": "https://arxiv.org/abs/2606.05952v1",
-      "date": "2026-06-04",
-      "published_at": "2026-06-04T09:51:57.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security"
-      ],
-      "excerpt": "In this work, we propose an agentic gamification framework for hazard-informed learning of robot safety policies through synthetic scenarios.",
-      "first_seen": null
-    },
-    {
-      "source": "robotics",
-      "title": "Partially Observable Adversarial Patch Attacks on Vision-Language-Action Models in Robotics",
-      "url": "https://arxiv.org/abs/2606.03556v1",
-      "date": "2026-06-02",
-      "published_at": "2026-06-02T12:19:28.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "sensors"
-      ],
-      "excerpt": "Vision-language-action (VLA) models are gaining attention in robotics, yet their robustness to adversarial attacks remains largely unexplored.",
-      "first_seen": null
     },
     {
       "source": "ros",

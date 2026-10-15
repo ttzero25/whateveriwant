@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-14T01:55:25.772Z",
+  "attempted_at": "2026-10-15T01:30:50.768Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-14T01:55:25.772Z",
-      "last_success": "2026-10-14T01:55:25.772Z",
+      "attempted_at": "2026-10-15T01:30:50.768Z",
+      "last_success": "2026-10-15T01:30:50.768Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-14T01:55:25.772Z"
+          "last_success": "2026-10-15T01:30:50.768Z"
         }
       ],
       "count": 60
@@ -32,20 +32,297 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-14T01:55:25.772Z",
-      "last_success": "2026-10-14T01:55:25.772Z",
+      "attempted_at": "2026-10-15T01:30:50.768Z",
+      "last_success": "2026-10-15T01:30:50.768Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-14T01:55:25.772Z"
+          "last_success": "2026-10-15T01:30:50.768Z"
         }
       ],
-      "count": 32
+      "count": 38
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "DarKnight: Retrieval-Guided Agentic Framework for Breaking Dark Web CAPTCHA Gates",
+      "url": "https://arxiv.org/abs/2610.19830v1",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T09:04:50.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "Cyber Threat Intelligence (CTI) investigators who monitor dark web marketplaces for leaked credentials and breach listings must pass the diverse CAPTCHAs that operators deploy to…",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Adaptive and Proximal Federated Optimization for Transferable Network Intrusion Detection",
+      "url": "https://arxiv.org/abs/2610.19808v1",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T08:49:37.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Network Intrusion Detection Systems (NIDS) based on deep learning often fail to detect attack classes that are absent from training data, limiting their robustness against…",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Analyzing and Mitigating Poisoning Attacks on Flow-Based Intrusion Detection",
+      "url": "https://arxiv.org/abs/2610.19766v1",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T08:17:58.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Although Artificial Intelligence (AI)-based Intrusion Detection Systems (IDSs) are increasingly deployed in operational networks, their dependence on large-scale training data introduces a critical vulnerability to…",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "ESL-former: Event Sparse Linear Transformer for FPGA-Accelerated Malware Detection",
+      "url": "https://arxiv.org/abs/2610.19665v1",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T06:42:01.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Transformer based intrusion detection has shown strong potential for identifying unknown malware variants, but its deployment on resource constrained edge devices remains difficult due to…",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Are You Reading the Right Thing? Rethinking Internal Signals for Prompt-Injection Detection",
+      "url": "https://arxiv.org/abs/2610.19452v1",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T02:37:55.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "Several recent studies propose detecting prompt injections from a language model's internal state.",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Autonomous Cyber Operations Gym for Training and Evaluating AI Models for Defence",
+      "url": "https://arxiv.org/abs/2610.18594v1",
+      "date": "2026-10-13",
+      "published_at": "2026-10-13T15:52:47.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "defense"
+      ],
+      "excerpt": "This paper proposes an Autonomous Cyber Operations (ACO) gym, a unified framework integrating high-fidelity network emulation, realistic user behaviour modelling for benign network traffic and…",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Rethinking Quality in Large Language Model Routing: Security-Conditioned Model-and-Budget Selection",
+      "url": "https://arxiv.org/abs/2610.18566v1",
+      "date": "2026-10-13",
+      "published_at": "2026-10-13T15:36:57.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "Large language model (LLM) routers reduce serving cost by choosing which model to call and how many output tokens to grant it for each query.",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Tanchun: Robust Flow-Based HTTP(S) DDoS Detection via Behavioral Attribute Guidance",
+      "url": "https://arxiv.org/abs/2610.18406v1",
+      "date": "2026-10-13",
+      "published_at": "2026-10-13T13:50:50.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "HTTP(S) DDoS attacks have surged in frequency and scale, posing a significant threat to network security.",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Beyond Model Scaling: Rethinking Sequence Construction for Transformer-based Network Intrusion Detection",
+      "url": "https://arxiv.org/abs/2610.17725v1",
+      "date": "2026-10-13",
+      "published_at": "2026-10-13T04:58:26.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Transformer-based network intrusion detection systems (NIDS) have shown strong potential for detecting multi-stage cyberattacks, yet most methods construct input sequences using fixed temporalization schemes rather…",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Security and robustness analysis of encrypted communications for local home automation: ESPHome Native API and MQTT over TLS 1.3",
+      "url": "https://arxiv.org/abs/2610.16928v1",
+      "date": "2026-10-12",
+      "published_at": "2026-10-12T15:10:08.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "The expansion of the Internet of Things (IoT) in residential and local automation environments has highlighted the limitations of considering the internal network as an…",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Toward Realistic Privacy Risk in FL-Enabled OT Intrusion Detection Systems",
+      "url": "https://arxiv.org/abs/2610.16872v1",
+      "date": "2026-10-12",
+      "published_at": "2026-10-12T14:35:30.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "In Operational Technology (OT) environments, Federated Learning (FL) is increasingly adopted to train Intrusion Detection Systems (IDSs) without sharing raw operational data across facilities.",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "AutoSec-RAN: Specification-Grounded LLM Fine-Tuning for Automated Security Analysis of O-RAN",
+      "url": "https://arxiv.org/abs/2610.15995v1",
+      "date": "2026-10-11",
+      "published_at": "2026-10-11T23:54:13.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "This paper presents AutoSec-RAN, a specification-grounded large language model (LLM) framework for automated security triage of Open Radio Access Network (O-RAN) testing.",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "wireless",
+      "title": "AutoSec-RAN: Specification-Grounded LLM Fine-Tuning for Automated Security Analysis of O-RAN",
+      "url": "https://arxiv.org/abs/2610.15995v1",
+      "date": "2026-10-11",
+      "published_at": "2026-10-11T23:54:13.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "This paper presents AutoSec-RAN, a specification-grounded large language model (LLM) framework for automated security triage of Open Radio Access Network (O-RAN) testing.",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Penetrating the Reality Wall: Long-Range and Through-Wall AR/VR Privacy Eavesdropping via Wireless Power Side Channel",
+      "url": "https://arxiv.org/abs/2610.15865v1",
+      "date": "2026-10-11",
+      "published_at": "2026-10-11T19:37:17.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless",
+        "traffic"
+      ],
+      "excerpt": "Over the past decade, Metaverse technology (AR/VR) has seen widespread adoption in numerous areas, including gaming, social networking, and online collaboration.",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Penetrating the Reality Wall: Long-Range and Through-Wall AR/VR Privacy Eavesdropping via Wireless Power Side Channel",
+      "url": "https://arxiv.org/abs/2610.15865v1",
+      "date": "2026-10-11",
+      "published_at": "2026-10-11T19:37:17.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless",
+        "traffic"
+      ],
+      "excerpt": "Over the past decade, Metaverse technology (AR/VR) has seen widespread adoption in numerous areas, including gaming, social networking, and online collaboration.",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Revisited Support Vector Machines: A Unified Joint Optimization Framework with Nyström Approximation for Scalable Adaptive Learning",
+      "url": "https://arxiv.org/abs/2610.15498v1",
+      "date": "2026-10-11",
+      "published_at": "2026-10-11T09:57:36.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "The theoretical elegance of Support Vector Machines (SVMs), grounded in statistical learning theory, establishes them as a reference for robust classification.",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "netsec",
+      "title": "On the Effectiveness of NetFlow-Based Deanonymization of Tor Onion Services (Extended Version)",
+      "url": "https://arxiv.org/abs/2610.15198v1",
+      "date": "2026-10-10",
+      "published_at": "2026-10-10T22:00:37.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense",
+        "traffic",
+        "privacy"
+      ],
+      "excerpt": "In the context of Tor, deanonymization attacks via traffic correlation have long been studied for both clients and onion services.",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "wireless",
+      "title": "On the Effectiveness of NetFlow-Based Deanonymization of Tor Onion Services (Extended Version)",
+      "url": "https://arxiv.org/abs/2610.15198v1",
+      "date": "2026-10-10",
+      "published_at": "2026-10-10T22:00:37.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense",
+        "traffic",
+        "privacy"
+      ],
+      "excerpt": "In the context of Tor, deanonymization attacks via traffic correlation have long been studied for both clients and onion services.",
+      "first_seen": "2026-10-15T01:30:50.768Z"
+    },
     {
       "source": "netsec",
       "title": "When Does Trust Help? A Leakage-Free Evaluation of Representation- and Aggregation-Based Defenses Against Backdoors in Federated Intrusion Detection",
@@ -1116,21 +1393,6 @@
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
-      "source": "netsec",
-      "title": "ISIA-AF: Orchestrating Reproducible Attacks and Multi-Source Data Collection for OT Systems",
-      "url": "https://arxiv.org/abs/2609.18196v1",
-      "date": "2026-09-16",
-      "published_at": "2026-09-16T06:31:57.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Operational Technology (OT) environments require realistic, reproducible security datasets, yet existing approaches often lack automation, multi-source data capture, and sufficient documentation for reuse.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
       "source": "wireless",
       "title": "Beyond Direct Sensing: Harnessing Indirect Observations from Third-Party Sensors in Vehicle Tracking",
       "url": "https://arxiv.org/abs/2609.18173v1",
@@ -1161,96 +1423,6 @@
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
-      "source": "netsec",
-      "title": "From Hypervisor to Container: Cloud Security Vulnerabilities, Defense Mechanisms, and Open Challenges",
-      "url": "https://arxiv.org/abs/2609.16675v1",
-      "date": "2026-09-15",
-      "published_at": "2026-09-15T05:57:07.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "In cloud computing, different users share the same physical hardware, which creates serious security risks.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Not All Relations Are Equal: Relation-Balanced and Calibrated Graph Learning for Provenance-Based Intrusion Detection",
-      "url": "https://arxiv.org/abs/2609.16462v3",
-      "date": "2026-09-15",
-      "published_at": "2026-09-15T00:31:01.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Provenance-Based Intrusion Detection Systems (PIDSs) detect Advanced Persistent Threats (APTs) by analyzing system interactions.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "FSNIC: A Low-Latency Flow-Based Intrusion Detection Architecture for FPGA SmartNICs",
-      "url": "https://arxiv.org/abs/2609.16363v1",
-      "date": "2026-09-14",
-      "published_at": "2026-09-14T21:26:58.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Modern data centres require high-performance networking alongside effective real-time security.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "RuleAutoPilot: Synthesizing Deployable Suricata Rules from Network Traffic",
-      "url": "https://arxiv.org/abs/2609.16231v1",
-      "date": "2026-09-14",
-      "published_at": "2026-09-14T18:58:58.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Rule-based Intrusion Detection Systems (IDS) such as Suricata are central to network security, yet crafting effective detection rules demands deep expert knowledge and cannot keep…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Event-Native Symbolic-Temporal Spike Encoding Framework for Heterogeneous Cyber Streams",
-      "url": "https://arxiv.org/abs/2609.15772v1",
-      "date": "2026-09-14",
-      "published_at": "2026-09-14T15:55:43.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Spiking neural networks (SNNs) have shown promise for sparse, event-driven computation through stateful processing that is naturally compatible with low-power edge hardware.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Tractable Defense against Advanced Persistent Threats in Networked Settings",
-      "url": "https://arxiv.org/abs/2609.15614v1",
-      "date": "2026-09-14",
-      "published_at": "2026-09-14T14:09:58.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Recently, the theory of Boolean Dynamical Systems was proposed to study the decision theory surrounding the defense of computer networks against Advanced Persistent Threats (APTs).",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
       "source": "wireless",
       "title": "Sociotechnical Aspects of Tor Relay Rejection",
       "url": "https://arxiv.org/abs/2609.15192v1",
@@ -1263,38 +1435,6 @@
         "privacy"
       ],
       "excerpt": "In 2019, the Tor Project enforced an end-of-life (EoL) policy for Tor versions, leading to the rejection of outdated relays, amounting to a notable fraction…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "ABDS: Classifying Protocol Divergence Causes via AS-Boundary Correlation",
-      "url": "https://arxiv.org/abs/2609.14835v2",
-      "date": "2026-09-13",
-      "published_at": "2026-09-13T23:00:59.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "routing",
-        "defense"
-      ],
-      "excerpt": "Network operators frequently encounter protocol divergence---where ICMP, TCP, and UDP experience different treatment along a path.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Task-Aware Beamforming for Semantic Wireless Localization",
-      "url": "https://arxiv.org/abs/2609.14801v1",
-      "date": "2026-09-13",
-      "published_at": "2026-09-13T21:27:39.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Many semantic localization tasks require determining a contextually meaningful region or state rather than minimizing the error of a full Cartesian position estimate.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
@@ -1325,52 +1465,6 @@
         "protocol"
       ],
       "excerpt": "The Model Context Protocol (MCP) has become the common interface through which large language model applications reach external tools, and its public registry now distributes…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Trustworthy, Explainable, and Sustainable Decentralized Intelligence for 6G Networks",
-      "url": "https://arxiv.org/abs/2609.13872v1",
-      "date": "2026-09-12",
-      "published_at": "2026-09-12T10:52:53.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "As 6G networks transition from theoretical frameworks into operational realities, artificial intelligence (AI) evolves from an add-on optimization tool into a distributed and interconnected structural…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "A Three-Axis Stress Test of LLM vs Classical ML for Network Intrusion Detection under Distribution Shift and Adversarial Evasion",
-      "url": "https://arxiv.org/abs/2609.13511v1",
-      "date": "2026-09-11",
-      "published_at": "2026-09-11T20:23:30.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "defense"
-      ],
-      "excerpt": "Large language models are increasingly benchmarked against classical machine learning for network intrusion detection (NIDS), almost always using same-dataset evaluation, and that protocol turns out…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "RFCLLM: Evaluating LLMs' Reasoning Ability of Network Protocol State Machines",
-      "url": "https://arxiv.org/abs/2609.13389v1",
-      "date": "2026-09-11",
-      "published_at": "2026-09-11T18:00:16.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol"
-      ],
-      "excerpt": "Mapping textual specifications into formal representations is essential for ensuring the correctness of protocol designs and implementations.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
