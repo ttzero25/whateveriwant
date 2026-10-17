@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-16T01:24:30.375Z",
+  "attempted_at": "2026-10-17T01:20:20.483Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-16T01:24:30.375Z",
-      "last_success": "2026-10-15T01:30:50.768Z",
-      "status": "error",
+      "attempted_at": "2026-10-17T01:20:20.483Z",
+      "last_success": "2026-10-17T01:20:20.483Z",
+      "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-15T01:30:50.768Z"
+          "last_success": "2026-10-17T01:20:20.483Z"
         }
       ],
       "count": 60
@@ -32,20 +32,66 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-16T01:24:30.375Z",
-      "last_success": "2026-10-15T01:30:50.768Z",
-      "status": "error",
+      "attempted_at": "2026-10-17T01:20:20.483Z",
+      "last_success": "2026-10-17T01:20:20.483Z",
+      "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-15T01:30:50.768Z"
+          "last_success": "2026-10-17T01:20:20.483Z"
         }
       ],
-      "count": 38
+      "count": 41
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "Does Client Diversity Protect the Lightning Network? Evidence from the 2026 Core Lightning Shutdown",
+      "url": "https://arxiv.org/abs/2610.20952v1",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T21:22:53.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "Client diversity is often cited as the Lightning Network's defence against a bug in any one implementation, yet LND runs 84% of public nodes and…",
+      "first_seen": "2026-10-17T01:20:20.483Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Quantifying privacy risks in foundation model representations of brain MRI",
+      "url": "https://arxiv.org/abs/2610.20494v1",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T17:03:42.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "Pretrained representations are increasingly used to share and reuse information from medical images without exposing the original scans, but it is unclear how much patient-specific…",
+      "first_seen": "2026-10-17T01:20:20.483Z"
+    },
+    {
+      "source": "wireless",
+      "title": "ESAU: Expeditious Swarm Remote Attestation for Pub-Sub IoT Networks with Untrusted Cloud-based Proxy Verifier",
+      "url": "https://arxiv.org/abs/2610.20047v1",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T11:51:52.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "As Internet of Things (IoT) devices collect and process data, security is essential.",
+      "first_seen": "2026-10-17T01:20:20.483Z"
+    },
     {
       "source": "wireless",
       "title": "DarKnight: Retrieval-Guided Agentic Framework for Breaking Dark Web CAPTCHA Gates",
