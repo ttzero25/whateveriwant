@@ -1,20 +1,20 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-18T01:06:11.607Z",
+  "attempted_at": "2026-10-19T01:18:50.865Z",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "home": "https://openai.com/news/",
-      "attempted_at": "2026-10-18T01:06:11.607Z",
-      "last_success": "2026-10-18T01:06:11.607Z",
+      "attempted_at": "2026-10-19T01:18:50.865Z",
+      "last_success": "2026-10-19T01:18:50.865Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://openai.com/news/rss.xml",
           "status": "ok",
-          "last_success": "2026-10-18T01:06:11.607Z"
+          "last_success": "2026-10-19T01:18:50.865Z"
         }
       ],
       "count": 60
@@ -28,42 +28,58 @@
         "https://www.anthropic.com/news"
       ],
       "home": "https://www.anthropic.com/news",
-      "attempted_at": "2026-10-18T01:06:11.607Z",
-      "last_success": "2026-10-18T01:06:11.607Z",
+      "attempted_at": "2026-10-19T01:18:50.865Z",
+      "last_success": "2026-10-19T01:18:50.865Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://www.anthropic.com/research",
           "status": "ok",
-          "last_success": "2026-10-18T01:06:11.607Z"
+          "last_success": "2026-10-19T01:18:50.865Z"
         },
         {
           "url": "https://www.anthropic.com/news",
           "status": "ok",
-          "last_success": "2026-10-18T01:06:11.607Z"
+          "last_success": "2026-10-19T01:18:50.865Z"
         }
       ],
-      "count": 59
+      "count": 60
     },
     {
       "id": "arxiv",
       "name": "arXiv",
       "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
       "home": "https://arxiv.org/list/cs.CR/recent",
-      "attempted_at": "2026-10-18T01:06:11.607Z",
-      "last_success": "2026-10-18T01:06:11.607Z",
+      "attempted_at": "2026-10-19T01:18:50.865Z",
+      "last_success": "2026-10-19T01:18:50.865Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
           "status": "ok",
-          "last_success": "2026-10-18T01:06:11.607Z"
+          "last_success": "2026-10-19T01:18:50.865Z"
         }
       ],
       "count": 150
     }
   ],
   "items": [
+    {
+      "source": "anthropic",
+      "title": "Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "published_at": "2026-10-18T00:00:00.000Z",
+      "category": "Announcements",
+      "channel": "news",
+      "date": "2026-10-18",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ],
+      "excerpt": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the…",
+      "first_seen": "2026-10-19T01:18:50.865Z"
+    },
     {
       "source": "openai",
       "title": "How Itaú is building generative AI for its entire customer base",

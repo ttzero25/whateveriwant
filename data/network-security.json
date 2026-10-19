@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-18T01:06:19.570Z",
+  "attempted_at": "2026-10-19T01:19:00.742Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-18T01:06:19.570Z",
-      "last_success": "2026-10-18T01:06:19.570Z",
+      "attempted_at": "2026-10-19T01:19:00.742Z",
+      "last_success": "2026-10-19T01:19:00.742Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-18T01:06:19.570Z"
+          "last_success": "2026-10-19T01:19:00.742Z"
         }
       ],
       "count": 60
@@ -32,20 +32,67 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-18T01:06:19.570Z",
-      "last_success": "2026-10-18T01:06:19.570Z",
+      "attempted_at": "2026-10-19T01:19:00.742Z",
+      "last_success": "2026-10-19T01:19:00.742Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-18T01:06:19.570Z"
+          "last_success": "2026-10-19T01:19:00.742Z"
         }
       ],
-      "count": 41
+      "count": 43
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "Fast BSS Transition for Multi-PSK Community Wi-Fi in MDU Networks: Fragmented RADIUS Key Delivery, Server-Derived PMK-R0/PMK-R1 Distribution through a Cloud Management API, and Lease-Driven Key Revocation",
+      "url": "https://arxiv.org/abs/2610.23116v1",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T08:25:03.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "Multi-dwelling-unit (MDU) properties increasingly deploy one community-wide SSID on which every unit or resident has its own pre-shared key, mapped to its own VLAN so…",
+      "first_seen": "2026-10-19T01:19:00.742Z"
+    },
+    {
+      "source": "netsec",
+      "title": "ACE: An AI-Orchestrated Intrusion Detection and Compliance Mapping Engine",
+      "url": "https://arxiv.org/abs/2610.22702v1",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T22:08:08.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "This study proposes the Automated Compliance Engine (ACE), an AI-orchestrated framework that links intrusion detection, regulatory control mapping, and automated countermeasure deployment for security operations…",
+      "first_seen": "2026-10-19T01:19:00.742Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Model-as-a-Trojan: Self-Activating Covert DNS Exfiltration Baked Into the Weights of an LLM Agent",
+      "url": "https://arxiv.org/abs/2610.22578v1",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T19:26:27.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "defense"
+      ],
+      "excerpt": "Open-weight models are downloaded from public hubs and run inside agent harnesses that grant them tools, most powerfully, a shell, under the assumption that a…",
+      "first_seen": "2026-10-19T01:19:00.742Z"
+    },
     {
       "source": "wireless",
       "title": "Does Client Diversity Protect the Lightning Network? Evidence from the 2026 Core Lightning Shutdown",
@@ -197,6 +244,21 @@
       ],
       "excerpt": "Large language model (LLM) routers reduce serving cost by choosing which model to call and how many output tokens to grant it for each query.",
       "first_seen": "2026-10-15T01:30:50.768Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Rethinking Quality in Large Language Model Routing: Security-Conditioned Model-and-Budget Selection",
+      "url": "https://arxiv.org/abs/2610.18566v2",
+      "date": "2026-10-13",
+      "published_at": "2026-10-13T15:36:57.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "routing"
+      ],
+      "excerpt": "Large language model (LLM) routers reduce serving cost by choosing which model to call and how many output tokens to grant it for each query.",
+      "first_seen": "2026-10-19T01:19:00.742Z"
     },
     {
       "source": "netsec",
@@ -1394,21 +1456,6 @@
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
-      "source": "netsec",
-      "title": "Autonomy in Check: Governor-Mediated Adaptive Security at the Edge",
-      "url": "https://arxiv.org/abs/2609.18338v1",
-      "date": "2026-09-16",
-      "published_at": "2026-09-16T09:00:34.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless"
-      ],
-      "excerpt": "Adaptive security at the network edge increasingly relies on automated planners, including rule-based controllers, learned policies, and LLM-assisted agents, that translate observations into enforcement actions.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
       "source": "wireless",
       "title": "Autonomy in Check: Governor-Mediated Adaptive Security at the Edge",
       "url": "https://arxiv.org/abs/2609.18338v1",
@@ -1421,21 +1468,6 @@
         "wireless"
       ],
       "excerpt": "Adaptive security at the network edge increasingly relies on automated planners, including rule-based controllers, learned policies, and LLM-assisted agents, that translate observations into enforcement actions.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "A GAN-Based Framework for Robust DDoS Attack Detection",
-      "url": "https://arxiv.org/abs/2609.18281v1",
-      "date": "2026-09-16",
-      "published_at": "2026-09-16T08:04:05.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "The availability and consistency of online services remain vulnerable due to Distributed Denial of Service (DDoS) attacks.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {

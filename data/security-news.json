@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-18T01:06:25.866Z",
+  "attempted_at": "2026-10-19T01:19:05.692Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,8 +13,8 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-10-18T01:06:25.866Z",
-      "last_success": "2026-10-18T01:06:25.866Z",
+      "attempted_at": "2026-10-19T01:19:05.692Z",
+      "last_success": "2026-10-19T01:19:05.692Z",
       "status": "ok",
       "count": 150
     },
@@ -29,8 +29,8 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-10-18T01:06:25.866Z",
-      "last_success": "2026-10-18T01:06:25.866Z",
+      "attempted_at": "2026-10-19T01:19:05.692Z",
+      "last_success": "2026-10-19T01:19:05.692Z",
       "status": "ok",
       "count": 150
     },
@@ -44,8 +44,8 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-10-18T01:06:25.866Z",
-      "last_success": "2026-10-18T01:06:25.866Z",
+      "attempted_at": "2026-10-19T01:19:05.692Z",
+      "last_success": "2026-10-19T01:19:05.692Z",
       "status": "ok",
       "count": 150
     },
@@ -60,13 +60,156 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-10-18T01:06:25.866Z",
+      "attempted_at": "2026-10-19T01:19:05.692Z",
       "last_success": "2026-09-10T13:47:17.151Z",
       "status": "error",
       "count": 30
     }
   ],
   "items": [
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[김승주 교수 칼럼] ISMS 인증을 받았는데 왜 해킹을 당했을까?",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208918",
+      "published_at": "2026-10-18T22:00:00.000Z",
+      "date": "2026-10-18",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "기업에서 대규모 해킹 사고가 발생하면 빠지지 않고 등장하는 질문이 있다.",
+      "first_seen": "2026-10-19T01:19:05.692Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "레코디드 퓨처 \"국내 금융권 연쇄 해킹 배후 ‘TAG-217’ 8월부터 공격 준비…AI 활용해 공격 범위 확대\"",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208917",
+      "published_at": "2026-10-18T22:00:00.000Z",
+      "date": "2026-10-18",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "최근 국내 금융권에서 발생한 연쇄 해킹과 관련해 공격자가 사건이 알려지기 수주 전부터 공격 인프라와 도구를 준비해 온 정황이 확인됐다.",
+      "first_seen": "2026-10-19T01:19:05.692Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "커피전문점 ‘할리스’ 해킹으로 고객 개인정보 유출... 비밀번호까지 포함",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146479",
+      "published_at": "2026-10-18T10:05:45.000Z",
+      "date": "2026-10-18",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "커피전문점 할리스(Hollys)에서 고객 멤버십 시스템이 해킹당해 비밀번호와 집 주소, 본인확인 식별정보 등 민감한 개인정보가 대거 유출되는 사고가 발생했다.",
+      "first_seen": "2026-10-19T01:19:05.692Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "published_at": "2026-10-18T08:23:02.000Z",
+      "date": "2026-10-18",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained…",
+      "first_seen": "2026-10-19T01:19:05.692Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "5대 은행장, 정무위 국감 출석... “과도한 비난보다 실질적 보안강화 논의되길”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146478",
+      "published_at": "2026-10-18T07:49:47.000Z",
+      "date": "2026-10-18",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "5대 시중은행장들이 금융권 연쇄 해킹 사고와 관련해 19일 국회 정무위원회 국정감사 증인으로 출석한다.18일 국회 홈페이지에 공개된 정무위 국정감사 증인 명단 자료에 따르면 이환주 KB국민·정상혁 신한·이호성…",
+      "first_seen": "2026-10-19T01:19:05.692Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[2026 API 보안 솔루션 리포트] 금융권도, 이커머스도 털렸다 “해커는 고객의 얼굴로 들어온다”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146415",
+      "published_at": "2026-10-18T07:26:42.000Z",
+      "date": "2026-10-18",
+      "tags": [
+        "incident",
+        "vulnerability",
+        "malware"
+      ],
+      "excerpt": "2026년 대한민국 주요 금융사, 대형 이커머스, 엔터테인먼트, 헬스케어, 스타트업 및 결제(PG) 생태계에 이르기까지 산업 전반을 흔든 대규모 데이터 유출 사고의 중심에는 공통된 ‘공범’이 존재했다.",
+      "first_seen": "2026-10-19T01:19:05.692Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "이광희 의원, 따릉이 462만 명 개인정보 유출 대응 질타",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208921",
+      "published_at": "2026-10-18T05:13:23.000Z",
+      "date": "2026-10-18",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "서울시 공공자전거 ‘따릉이’ 회원 약 462만 명의 개인정보가 유출된 사건과 관련해 서울시와 서울시설공단의 사고 대응 및 책임자 문책이 부실했다는 지적이 국정감사에서 제기됐다.",
+      "first_seen": "2026-10-19T01:19:05.692Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "실제 사기로 이어진 보이스피싱, 연 8760건... 두배 증가",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146475",
+      "published_at": "2026-10-18T03:48:24.000Z",
+      "date": "2026-10-18",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "보이스피싱이 실제 사기로 이어진 건수가 두배 증가한 것으로 나타났다.지난해 5대 은행의 이상거래탐지시스템(FDS)로 탐지된 보이스피싱 사기 거래는 전년 4343건 대비 약 100% 증가한 8760건으로 집계됐다.18일 국회…",
+      "first_seen": "2026-10-19T01:19:05.692Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "금감원, OK저축은행 등 현장점검... 전금법 비대상 업권 보안 강화 논의도",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146474",
+      "published_at": "2026-10-18T03:07:26.000Z",
+      "date": "2026-10-18",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "금융감독원이 2차 해킹으로 추가적으로 고객 정보가 유출된 OK저축은행을 대상으로 현장점검에 나섰다.",
+      "first_seen": "2026-10-19T01:19:05.692Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "9년간 아무도 몰랐다... 리눅스 커널 결함 ‘브이고스트’, 로컬 사용자에 루트 권한",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146403",
+      "published_at": "2026-10-18T00:41:00.000Z",
+      "date": "2026-10-18",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "리눅스 커널에 9년 가까이 숨어 있던 결함이 서버에 접속한 로컬 사용자에게 최고 관리자(루트) 권한을 넘겨줄 수 있는 것으로 드러났다.더핵커뉴스에 따르면 텐센트 주췌랩(Zhuque Lab)은 리눅스 커널…",
+      "first_seen": "2026-10-19T01:19:05.692Z"
+    },
     {
       "source": "thehackernews",
       "region": "global",
@@ -5276,22 +5419,6 @@
       "first_seen": "2026-10-02T02:17:57.461Z"
     },
     {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "스미싱 원천 차단... 누리랩-NICE평가정보, 문자 발송 사업자에 ‘악성 URL 판정 API’ 서비스",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146158",
-      "published_at": "2026-10-01T07:12:59.000Z",
-      "date": "2026-10-01",
-      "tags": [
-        "malware",
-        "phishing",
-        "policy"
-      ],
-      "excerpt": "누리랩이 NICE평가정보와 손잡고 인터넷발송 문자사업자를 겨냥한 \\'악성문자 사전차단 API\\'를 공급한다.",
-      "first_seen": "2026-10-02T02:17:57.461Z"
-    },
-    {
       "source": "thehackernews",
       "region": "global",
       "lang": "en",
@@ -5376,20 +5503,6 @@
       "first_seen": "2026-10-02T02:17:57.461Z"
     },
     {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "메일함 대신 서버 노렸다... 짐브라 취약점 악용 공격, 인증 비밀값까지 털어",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146135",
-      "published_at": "2026-10-01T04:11:03.000Z",
-      "date": "2026-10-01",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "이메일·협업 솔루션 짐브라의 취약점(CVE-2026-73570)을 뚫은 공격자들이 메일 서버에 웹셸을 여러 개 심고 서버 전체의 인증 비밀값까지 빼냈다고 마이크로소프트가 밝혔다.마이크로소프트 보안 연구팀의 분석으로는 피해 조직이 여러…",
-      "first_seen": "2026-10-02T02:17:57.461Z"
-    },
-    {
       "source": "dailysecu",
       "region": "kr",
       "lang": "ko",
@@ -5416,50 +5529,6 @@
       ],
       "excerpt": "신한은행에서 대출 모집과 관련한 일부 고객정보가 외부로 유출된 사실이 확인돼 금융감독원이 긴급 현장조사에 착수했다.",
       "first_seen": "2026-10-02T02:17:57.461Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "청주시, 2030년까지 CCTV 8000대 AI 관제체계 구축",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146146",
-      "published_at": "2026-10-01T02:46:34.000Z",
-      "date": "2026-10-01",
-      "tags": [
-        "policy"
-      ],
-      "excerpt": "충북 청주시(시장 이장섭)가 민선 9기를 맞아 AI 정책 전담 조직을 갖추고 AI를 도시혁신 핵심 수단으로 활용한다.청주시는 오는 2030년까지 기존 CCTV 8000대의 영상을 AI로 분석할 수…",
-      "first_seen": "2026-10-02T02:17:57.461Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "‘영상정보관리사’ 국가공인 이끈 양홍모 차장, 개인정보위 위원장 표창",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146149",
-      "published_at": "2026-10-01T02:45:36.000Z",
-      "date": "2026-10-01",
-      "tags": [
-        "policy"
-      ],
-      "excerpt": "한국정보통신자격협회(ICQA, 이사장 한복수)는 협회 양홍모 차장이 지난 9월 30일 서울 양재 엘타워 그레이스홀에서 열린 ‘제6회 개인정보 보호의 날 기념식’에서 보호·활용(신기술 발전) 분야 개인정보보호위원회 위원장 표창을…",
-      "first_seen": "2026-10-02T02:17:57.461Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[은행이 뚫린다] 신한은행 고객 2만5000명 대출 관련 정보 유출... “전액 보상하겠다”",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146150",
-      "published_at": "2026-10-01T02:41:57.000Z",
-      "date": "2026-10-01",
-      "tags": [
-        "incident",
-        "policy"
-      ],
-      "excerpt": "신한은행에서 고객 2만5000명의 개인정보가 유출되는 사고가 발생했다.신한은행은 최근 외부 비인가자가 비정상적인 방법으로 일부 서비스에서 고객정보를 유출한 사실을 확인했다고 1일 밝혔다.",
-      "first_seen": "2026-10-02T02:17:57.461Z",
-      "updated_at": "2026-10-03T02:01:11.311Z"
     },
     {
       "source": "dailysecu",
@@ -5490,20 +5559,6 @@
         "policy"
       ],
       "excerpt": "정부가 공공부문에서 중대한 정보유출 사고가 발생할 경우 실무자뿐 아니라 기관장 등 감독자에게도 책임을 묻도록 징계 기준을 강화한다.",
-      "first_seen": "2026-10-02T02:17:57.461Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "정책·국방·클라우드... 현업 전문가가 말하는 보안 커리어 로드맵",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146125",
-      "published_at": "2026-10-01T02:09:34.000Z",
-      "date": "2026-10-01",
-      "tags": [
-        "policy"
-      ],
-      "excerpt": "AI와 클라우드 전환이 가속화되는 가운데, 세분화된 정보보안 직무의 현실을 공유하고 미래 생존 전략을 모색하는 자리가 열렸다.",
       "first_seen": "2026-10-02T02:17:57.461Z"
     },
     {
@@ -5876,49 +5931,6 @@
         "policy"
       ],
       "excerpt": "모빌리티 통합 사이버보안 전문기업 페스카로가 오는 10월 미국 미시간주 노바이에서 열리는 오토아이삭 사이버보안 서밋 2026(Auto-ISAC Cybersecurity Summit 2026)에 연사로 참가한다고 밝혔다.",
-      "first_seen": "2026-09-30T02:08:59.981Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "애플, 아이폰·맥 긴급 보안 업데이트…표적 공격에 악용된 취약점 패치",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208631",
-      "published_at": "2026-09-29T05:04:47.000Z",
-      "date": "2026-09-29",
-      "tags": [
-        "vulnerability",
-        "malware"
-      ],
-      "excerpt": "애플이 아이폰과 아이패드, 맥 운영체제에서 악성 파일을 이용해 임의 코드를 실행할 수 있는 보안 취약점을 수정했다.",
-      "first_seen": "2026-09-30T02:08:59.981Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "AI스페라, IP 주소로 연결된 도메인 찾는 AI 기술 특허 등록",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208630",
-      "published_at": "2026-09-29T05:01:47.000Z",
-      "date": "2026-09-29",
-      "tags": [
-        "phishing"
-      ],
-      "excerpt": "AI스페라가 'IP 주소와 연결된 도메인을 도출하는 전자 장치 및 그 방법'에 대한 국내 특허 등록을 완료했다.이번 특허는 특정 IP 주소가 실제로 어떤 도메인과 연결되어 있는지…",
-      "first_seen": "2026-09-30T02:08:59.981Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "에브리존-명정보기술, 랜섬웨어 대응 협력 위한 업무협약 체결",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208629",
-      "published_at": "2026-09-29T03:47:49.000Z",
-      "date": "2026-09-29",
-      "tags": [
-        "malware"
-      ],
-      "excerpt": "에브리존과 명정보기술이 랜섬웨어 대응 강화를 위해 손을 잡았다.",
       "first_seen": "2026-09-30T02:08:59.981Z"
     },
     {
@@ -6500,20 +6512,6 @@
         "phishing"
       ],
       "excerpt": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the…",
-      "first_seen": "2026-09-23T01:31:47.828Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-      "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-      "published_at": "2026-09-22T16:41:12.000Z",
-      "date": "2026-09-22",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary…",
       "first_seen": "2026-09-23T01:31:47.828Z"
     },
     {
