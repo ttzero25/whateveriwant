@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-19T01:19:00.742Z",
+  "attempted_at": "2026-10-20T01:51:48.584Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-19T01:19:00.742Z",
-      "last_success": "2026-10-19T01:19:00.742Z",
+      "attempted_at": "2026-10-20T01:51:48.584Z",
+      "last_success": "2026-10-20T01:51:48.584Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-19T01:19:00.742Z"
+          "last_success": "2026-10-20T01:51:48.584Z"
         }
       ],
       "count": 60
@@ -32,20 +32,66 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-19T01:19:00.742Z",
-      "last_success": "2026-10-19T01:19:00.742Z",
+      "attempted_at": "2026-10-20T01:51:48.584Z",
+      "last_success": "2026-10-20T01:51:48.584Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-19T01:19:00.742Z"
+          "last_success": "2026-10-20T01:51:48.584Z"
         }
       ],
-      "count": 43
+      "count": 45
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "Semantic Routing Framework for Multi-Domain Telecom Intent-Based Networking",
+      "url": "https://arxiv.org/abs/2610.24487v1",
+      "date": "2026-10-17",
+      "published_at": "2026-10-17T06:14:14.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "routing",
+        "wireless"
+      ],
+      "excerpt": "Intent-Based Networking (IBN) is a key enabler of autonomous network management in next-generation networks, as it allows operators to drive the network through high-level intents…",
+      "first_seen": "2026-10-20T01:51:48.584Z"
+    },
+    {
+      "source": "wireless",
+      "title": "The Rise of Personal Trackers as the Next Infrastructure for Ubiquitous Positioning",
+      "url": "https://arxiv.org/abs/2610.24249v1",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T21:21:07.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Reliable indoor positioning remains a central unsolved problem in spatial computing.",
+      "first_seen": "2026-10-20T01:51:48.584Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Recording-Aware Evaluation of Multimodal OT Intrusion Detection",
+      "url": "https://arxiv.org/abs/2610.24128v1",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T18:59:51.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Machine-learning-based intrusion detection systems (IDSs) for operational technology (OT) are commonly evaluated on benchmark datasets in which normal and attack data are collected in separate…",
+      "first_seen": "2026-10-20T01:51:48.584Z"
+    },
     {
       "source": "wireless",
       "title": "Fast BSS Transition for Multi-PSK Community Wi-Fi in MDU Networks: Fragmented RADIUS Key Delivery, Server-Derived PMK-R0/PMK-R1 Distribution through a Cloud Management API, and Lease-Driven Key Revocation",
@@ -1407,22 +1453,6 @@
         "defense"
       ],
       "excerpt": "Cooperative and connected automated vehicles (CAVs) rely on Signal Phase and Timing (SPaT) messages to cross signalized intersections; a denial-of-service (DoS) flood that blocks SPaT…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "When Agents Look Like Beacons: NIDS Evasion by Model Context Protocol Traffic",
-      "url": "https://arxiv.org/abs/2609.19091v1",
-      "date": "2026-09-16",
-      "published_at": "2026-09-16T17:27:42.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "defense"
-      ],
-      "excerpt": "The Model Context Protocol (MCP) standardizes communication between autonomous Artificial Intelligence (AI) agents and remote tools over Streamable HTTP.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
