@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-20T01:51:48.584Z",
+  "attempted_at": "2026-10-21T01:38:13.963Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-20T01:51:48.584Z",
-      "last_success": "2026-10-20T01:51:48.584Z",
+      "attempted_at": "2026-10-21T01:38:13.963Z",
+      "last_success": "2026-10-21T01:38:13.963Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-20T01:51:48.584Z"
+          "last_success": "2026-10-21T01:38:13.963Z"
         }
       ],
       "count": 60
@@ -32,20 +32,96 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-20T01:51:48.584Z",
-      "last_success": "2026-10-20T01:51:48.584Z",
+      "attempted_at": "2026-10-21T01:38:13.963Z",
+      "last_success": "2026-10-21T01:38:13.963Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-20T01:51:48.584Z"
+          "last_success": "2026-10-21T01:38:13.963Z"
         }
       ],
-      "count": 45
+      "count": 49
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "Quantum-Seeded Distributed Post-Quantum Group Signatures for 5G V2X Communications",
+      "url": "https://arxiv.org/abs/2610.27316v1",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T21:37:39.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless",
+        "privacy"
+      ],
+      "excerpt": "Vehicle-to-Everything (V2X) communications rely on elliptic-curve signatures that a quantum adversary breaks and on pseudonym certificates whose anonymity rests on rotation rate, not cryptography.",
+      "first_seen": "2026-10-21T01:38:13.963Z"
+    },
+    {
+      "source": "wireless",
+      "title": "ECHO: Revealing Review-to-Submission Linkage in Anonymous Peer Review",
+      "url": "https://arxiv.org/abs/2610.27044v1",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T17:48:33.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "Anonymous peer review protects reviewers from retaliation, yet reviewer anonymity may also be weakened by artifacts released through the review process itself.",
+      "first_seen": "2026-10-21T01:38:13.963Z"
+    },
+    {
+      "source": "wireless",
+      "title": "AeroIntent: A Synchronized Multimodal Benchmark for UAV Mission Intent Recognition",
+      "url": "https://arxiv.org/abs/2610.25869v1",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T06:23:51.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Reliable recognition of mission-level UAV intent from multimodal observations is essential for low-altitude airspace surveillance and security.",
+      "first_seen": "2026-10-21T01:38:13.963Z"
+    },
+    {
+      "source": "netsec",
+      "title": "GreenNIDS: A Benchmark Workflow and Analysis Dataset for NetFlow Intrusion Detection Experiments",
+      "url": "https://arxiv.org/abs/2610.25366v1",
+      "date": "2026-10-18",
+      "published_at": "2026-10-18T16:11:03.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Comparing the predictive performance and computational cost of flow-based intrusion detection experiments requires both quantities to be available for each run.",
+      "first_seen": "2026-10-21T01:38:13.963Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Equivalent Non-linear Shift Register Transformations and Espresso",
+      "url": "https://arxiv.org/abs/2610.25346v1",
+      "date": "2026-10-18",
+      "published_at": "2026-10-18T15:42:00.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "The stream cipher Espresso was designed by E.",
+      "first_seen": "2026-10-21T01:38:13.963Z"
+    },
     {
       "source": "wireless",
       "title": "Semantic Routing Framework for Multi-Domain Telecom Intent-Based Networking",
@@ -1421,22 +1497,6 @@
         "routing"
       ],
       "excerpt": "Security analysts can become overwhelmed with monitoring real-time security information that is important to help them defend their network.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "X-SPUR: Explainable Surprisal-Based Protocol-Aware Unsupervised Reasoning for Automotive Ethernet Intrusion Detection",
-      "url": "https://arxiv.org/abs/2609.21217v1",
-      "date": "2026-09-18",
-      "published_at": "2026-09-18T01:58:34.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "defense"
-      ],
-      "excerpt": "Automotive Ethernet carries heterogeneous multi-protocol traffic in modern in-vehicle networks, where labeled attack data are rarely available and the strongest prior unsupervised detector still relies…",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
