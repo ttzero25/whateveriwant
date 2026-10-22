@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-21T01:38:13.963Z",
+  "attempted_at": "2026-10-22T01:33:15.519Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-21T01:38:13.963Z",
-      "last_success": "2026-10-21T01:38:13.963Z",
+      "attempted_at": "2026-10-22T01:33:15.519Z",
+      "last_success": "2026-10-22T01:33:15.519Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-21T01:38:13.963Z"
+          "last_success": "2026-10-22T01:33:15.519Z"
         }
       ],
       "count": 60
@@ -32,20 +32,82 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-21T01:38:13.963Z",
-      "last_success": "2026-10-21T01:38:13.963Z",
+      "attempted_at": "2026-10-22T01:33:15.519Z",
+      "last_success": "2026-10-22T01:33:15.519Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-21T01:38:13.963Z"
+          "last_success": "2026-10-22T01:33:15.519Z"
         }
       ],
-      "count": 49
+      "count": 51
     }
   ],
   "items": [
+    {
+      "source": "netsec",
+      "title": "Where AI Vulnerability Discovery Harnesses Go Quiet: Structural False Negatives and Hidden Vulnerabilities",
+      "url": "https://arxiv.org/abs/2610.29379v1",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T08:05:15.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "LLM-based vulnerability discovery harnesses can miss real, reachable vulnerabilities because of how the harness around the model is built.",
+      "first_seen": "2026-10-22T01:33:15.519Z"
+    },
+    {
+      "source": "wireless",
+      "title": "MASAR: Multi-stage Attack Surface Analysis and Reasoning Framework for Telecom Networks",
+      "url": "https://arxiv.org/abs/2610.29343v1",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T07:37:51.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "The increasing complexity of modern telecommunications networks introduces security challenges that require systematic threat analysis.",
+      "first_seen": "2026-10-22T01:33:15.519Z"
+    },
+    {
+      "source": "wireless",
+      "title": "5uGUE: Agentic Hardware-in-the-Loop Fuzzing for 5G Devices and beyond",
+      "url": "https://arxiv.org/abs/2610.29155v1",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T03:45:25.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "In this paper, we present 5uGUE, a large language model (LLM)-driven hardware-in-the-loop agent, which enables the wireless fuzzing of 5G-enabled devices (such as mobile phones).",
+      "first_seen": "2026-10-22T01:33:15.519Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG",
+      "url": "https://arxiv.org/abs/2610.28364v1",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T15:26:15.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Local Retrieval-Augmented Generation (RAG) systems are vulnerable to indirect prompt injection and retrieval poisoning, where malicious instructions in retrieved content are mistaken for trusted input.",
+      "first_seen": "2026-10-22T01:33:15.519Z"
+    },
     {
       "source": "wireless",
       "title": "Quantum-Seeded Distributed Post-Quantum Group Signatures for 5G V2X Communications",
@@ -1466,37 +1528,6 @@
         "defense"
       ],
       "excerpt": "Internet of Things (IoT) systems are increasingly deployed in smart homes, transportation, energy systems, and critical infrastructure.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "A Multi-Cloud View of Internet Background Radiation",
-      "url": "https://arxiv.org/abs/2609.21790v1",
-      "date": "2026-09-18",
-      "published_at": "2026-09-18T14:05:20.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "As services are increasingly centralized in public clouds, understanding the nature of Internet Background Radiation (IBR) hitting these particular environments is an important part of…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Combining Exploratory Analysis and Automated Analysis for Anomaly Detection in Real-Time Data Streams",
-      "url": "https://arxiv.org/abs/2609.21222v1",
-      "date": "2026-09-18",
-      "published_at": "2026-09-18T02:09:33.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "routing"
-      ],
-      "excerpt": "Security analysts can become overwhelmed with monitoring real-time security information that is important to help them defend their network.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
