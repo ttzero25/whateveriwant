@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-23T01:33:35.430Z",
+  "attempted_at": "2026-10-24T01:37:33.895Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-23T01:33:35.430Z",
-      "last_success": "2026-10-22T01:33:15.519Z",
-      "status": "error",
+      "attempted_at": "2026-10-24T01:37:33.895Z",
+      "last_success": "2026-10-24T01:37:33.895Z",
+      "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-22T01:33:15.519Z"
+          "last_success": "2026-10-24T01:37:33.895Z"
         }
       ],
       "count": 60
@@ -32,20 +32,50 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-23T01:33:35.430Z",
-      "last_success": "2026-10-22T01:33:15.519Z",
-      "status": "error",
+      "attempted_at": "2026-10-24T01:37:33.895Z",
+      "last_success": "2026-10-24T01:37:33.895Z",
+      "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-22T01:33:15.519Z"
+          "last_success": "2026-10-24T01:37:33.895Z"
         }
       ],
-      "count": 51
+      "count": 53
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "On the Adversarial Vulnerability of Neural Receivers with Unrolled LDPC Decoders",
+      "url": "https://arxiv.org/abs/2610.30345v1",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T19:05:36.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Neural receivers for 5G New Radio (NR) match classical model-based receivers in link-level performance, but their robustness to adversarial perturbations at the receiver input remains…",
+      "first_seen": "2026-10-24T01:37:33.895Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Parameters efficient language model with latent cross-attention for IoT intrusion detection",
+      "url": "https://arxiv.org/abs/2610.30222v1",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T16:47:41.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Language models have shown strong potential for intrusion detection, but their high memory and computational demands make them difficult to deploy in resource-constrained IoT environments.",
+      "first_seen": "2026-10-24T01:37:33.895Z"
+    },
     {
       "source": "netsec",
       "title": "Where AI Vulnerability Discovery Harnesses Go Quiet: Structural False Negatives and Hidden Vulnerabilities",
@@ -291,6 +321,21 @@
       ],
       "excerpt": "Client diversity is often cited as the Lightning Network's defence against a bug in any one implementation, yet LND runs 84% of public nodes and…",
       "first_seen": "2026-10-17T01:20:20.483Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Does Client Diversity Protect the Lightning Network? Evidence from the 2026 Core Lightning Shutdown",
+      "url": "https://arxiv.org/abs/2610.20952v2",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T21:22:53.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "Client diversity is often cited as the Lightning Network's defence against a bug in any one implementation, yet LND runs 80% of public nodes (84%…",
+      "first_seen": "2026-10-24T01:37:33.895Z"
     },
     {
       "source": "wireless",
@@ -1513,21 +1558,6 @@
         "wireless"
       ],
       "excerpt": "The growing capability of Wi-Fi devices to identify human activities using channel state information (CSI) raises privacy concerns.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "An LLM-Assisted AutoML Framework for Intrusion Detection in IoT Networks",
-      "url": "https://arxiv.org/abs/2609.23097v1",
-      "date": "2026-09-19",
-      "published_at": "2026-09-19T16:10:04.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Internet of Things (IoT) systems are increasingly deployed in smart homes, transportation, energy systems, and critical infrastructure.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
