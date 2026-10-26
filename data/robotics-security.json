@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-25T01:13:06.713Z",
+  "attempted_at": "2026-10-26T01:13:54.581Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-10-25T01:13:06.713Z",
-      "last_success": "2026-10-25T01:13:06.713Z",
+      "attempted_at": "2026-10-26T01:13:54.581Z",
+      "last_success": "2026-10-26T01:13:54.581Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-10-25T01:13:06.713Z"
+          "last_success": "2026-10-26T01:13:54.581Z"
         }
       ],
       "count": 31
@@ -32,14 +32,14 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-10-25T01:13:06.713Z",
-      "last_success": "2026-10-25T01:13:06.713Z",
+      "attempted_at": "2026-10-26T01:13:54.581Z",
+      "last_success": "2026-10-26T01:13:54.581Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-25T01:13:06.713Z"
+          "last_success": "2026-10-26T01:13:54.581Z"
         }
       ],
       "count": 60
@@ -53,20 +53,85 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-10-25T01:13:06.713Z",
-      "last_success": "2026-10-25T01:13:06.713Z",
+      "attempted_at": "2026-10-26T01:13:54.581Z",
+      "last_success": "2026-10-26T01:13:54.581Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-25T01:13:06.713Z"
+          "last_success": "2026-10-26T01:13:54.581Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "autonomy",
+      "title": "Privacy-Preserving Federated Loss Exploration for Vision-Based Perception under Non-IID Data",
+      "url": "https://arxiv.org/abs/2610.32626v1",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T13:41:37.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Vision-based image classification models benefit from Federated Learning (FL) across vehicles, however learning accurate models from distributed vehicular cameras is challenging due to data heterogeneity…",
+      "first_seen": "2026-10-26T01:13:54.581Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Towards Effective and Transferable Physical Camouflage against Multi-View BEV-based 3D Perception in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2610.32230v1",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T06:41:50.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Modern autonomous driving systems widely adopt multi-view Bird's-Eye-View (BEV) based 3D perception models due to their superior performance.",
+      "first_seen": "2026-10-26T01:13:54.581Z"
+    },
+    {
+      "source": "robotics",
+      "title": "Not an Accident: Exploiting Safety Filter Inadequacy in Humanoid Robots",
+      "url": "https://arxiv.org/abs/2610.31923v1",
+      "date": "2026-10-22",
+      "published_at": "2026-10-22T21:16:46.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "As humanoid robots move from research laboratories toward deployment in human-centered environments such as homes, hospitals, and warehouses, safe operation around nearby people and objects…",
+      "first_seen": "2026-10-26T01:13:54.581Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Model-Free Generative Stealthy Attacks on Safety-Critical Vehicle Cyber-Physical Systems",
+      "url": "https://arxiv.org/abs/2610.31864v1",
+      "date": "2026-10-22",
+      "published_at": "2026-10-22T19:53:24.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Existing stealthy attacks presuppose white- or grey-box access to the target system, unrealistic in practice.",
+      "first_seen": "2026-10-26T01:13:54.581Z"
+    },
     {
       "source": "robotics",
       "title": "A2I-Calib++: A Kinematics-Driven Anti-noise Active Calibration Framework for Whole-Body Multi-IMU Systems on Legged Robots",
@@ -1329,55 +1394,6 @@
       "first_seen": "2026-10-06T03:01:34.197Z"
     },
     {
-      "source": "autonomy",
-      "title": "On the security and privacy of LLMs in Mobility",
-      "url": "https://arxiv.org/abs/2609.26295v1",
-      "date": "2026-09-22",
-      "published_at": "2026-09-22T12:09:08.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "The mobility sector is undergoing a paradigm shift driven by advances in Generative Artificial Intelligence.",
-      "first_seen": "2026-09-23T01:31:44.534Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "RIS-Assisted Secure ISAC: Fundamentals, Applications, and Future Directions",
-      "url": "https://arxiv.org/abs/2610.00216v1",
-      "date": "2026-09-22",
-      "published_at": "2026-09-22T03:09:44.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Integrated sensing and communication (ISAC) has emerged as a key enabler for sixth-generation (6G) networks, yet its broadcast nature at the physical layer leaves transmissions…",
-      "first_seen": "2026-10-02T02:17:54.389Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Beyond Legacy L1 C/A: Characterizing Advanced Multi-Frequency Spoofing Against Multi-Frequency GPS Receivers for Autonomous Navigation",
-      "url": "https://arxiv.org/abs/2609.25361v1",
-      "date": "2026-09-21",
-      "published_at": "2026-09-21T19:59:06.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "Autonomous vehicles increasingly rely on high-end multi-frequency GNSS receivers that track modernized civil signals, such as L2C, L5, and L1C, alongside legacy GPS L1~C/A.",
-      "first_seen": "2026-09-23T01:31:44.534Z"
-    },
-    {
       "source": "robotics",
       "title": "STRIDER: Stepping-Enabled Multi-Gait Hierarchical 3D Loco-Manipulation Framework for Humanoid Robots",
       "url": "https://arxiv.org/abs/2609.23483v1",
@@ -2016,22 +2032,6 @@
       ],
       "excerpt": "We present RIPA, the first systematic multi-channel empirical study of prompt injection attacks delivered through the sensory pipeline of a ROS 2-based LLM-controlled robotic system.",
       "first_seen": null
-    },
-    {
-      "source": "robotics",
-      "title": "NavIsaacLab: Generating Realistic Crowd via Parallel Robot Learning for Benchmarking Human-aware Navigation",
-      "url": "https://arxiv.org/abs/2606.26265v1",
-      "date": "2026-06-24",
-      "published_at": "2026-06-24T18:08:19.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "sensors"
-      ],
-      "excerpt": "Robot autonomous navigation that accounts for surrounding human activities is crucial for ensuring both safety and natural human-robot interaction in real-world environments shared by humans…",
-      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "ros",

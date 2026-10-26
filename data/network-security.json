@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-25T01:13:10.365Z",
+  "attempted_at": "2026-10-26T01:13:57.845Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-25T01:13:10.365Z",
-      "last_success": "2026-10-25T01:13:10.365Z",
+      "attempted_at": "2026-10-26T01:13:57.845Z",
+      "last_success": "2026-10-26T01:13:57.845Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-25T01:13:10.365Z"
+          "last_success": "2026-10-26T01:13:57.845Z"
         }
       ],
       "count": 60
@@ -32,20 +32,35 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-25T01:13:10.365Z",
-      "last_success": "2026-10-25T01:13:10.365Z",
+      "attempted_at": "2026-10-26T01:13:57.845Z",
+      "last_success": "2026-10-26T01:13:57.845Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-25T01:13:10.365Z"
+          "last_success": "2026-10-26T01:13:57.845Z"
         }
       ],
       "count": 53
     }
   ],
   "items": [
+    {
+      "source": "netsec",
+      "title": "Model-Free Generative Stealthy Attacks on Safety-Critical Vehicle Cyber-Physical Systems",
+      "url": "https://arxiv.org/abs/2610.31864v1",
+      "date": "2026-10-22",
+      "published_at": "2026-10-22T19:53:24.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Existing stealthy attacks presuppose white- or grey-box access to the target system, unrealistic in practice.",
+      "first_seen": "2026-10-26T01:13:57.845Z"
+    },
     {
       "source": "wireless",
       "title": "On the Adversarial Vulnerability of Neural Receivers with Unrolled LDPC Decoders",
@@ -1528,21 +1543,6 @@
         "wireless"
       ],
       "excerpt": "The fifth generation of mobile networks was standardised with an explicit mandate to close long-standing privacy and security gaps, mandating the concealment of the subscriber's…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Passive Hybrid Network-Based Intrusion Detection System (Hybrid-NIDS) Combining Suricata and Random Forest",
-      "url": "https://arxiv.org/abs/2609.24393v1",
-      "date": "2026-09-21",
-      "published_at": "2026-09-21T10:40:21.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "This paper evaluates a passive Hybrid Network-based Intrusion Detection System (Hybrid-NIDS) prototype that combines Suricata with Random Forest flow classification and centralized ELK-based alert handling.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
