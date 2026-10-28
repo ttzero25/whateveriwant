@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-27T02:07:04.244Z",
+  "attempted_at": "2026-10-28T02:19:24.715Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-27T02:07:04.244Z",
-      "last_success": "2026-10-26T01:13:57.845Z",
-      "status": "error",
+      "attempted_at": "2026-10-28T02:19:24.715Z",
+      "last_success": "2026-10-28T02:19:24.715Z",
+      "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-26T01:13:57.845Z"
+          "last_success": "2026-10-28T02:19:24.715Z"
         }
       ],
       "count": 60
@@ -32,20 +32,187 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-27T02:07:04.244Z",
-      "last_success": "2026-10-26T01:13:57.845Z",
-      "status": "error",
+      "attempted_at": "2026-10-28T02:19:24.715Z",
+      "last_success": "2026-10-28T02:19:24.715Z",
+      "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-26T01:13:57.845Z"
+          "last_success": "2026-10-28T02:19:24.715Z"
         }
       ],
-      "count": 53
+      "count": 59
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "Measuring Users' Security and Privacy Concerns About Third-Party Community Bots on Discord",
+      "url": "https://arxiv.org/abs/2610.36626v1",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T04:31:30.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "privacy"
+      ],
+      "excerpt": "Third-party community-based bots are central to how social platforms such as Discord work.",
+      "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Recall or Relearn? A Mixture of In-Context Experts for Recurring Concept Drift",
+      "url": "https://arxiv.org/abs/2610.36585v1",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T03:42:18.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Tabular foundation models (TFMs) are being applied to Web data streams such as network intrusion detection, where they adapt by updating the labelled rows of…",
+      "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "netsec",
+      "title": "False-Alarm Improvements and Detection Trade-Offs in Quantum Machine Learning for Intrusion Detection: A Reproducible Secondary Analysis",
+      "url": "https://arxiv.org/abs/2610.35235v2",
+      "date": "2026-10-26",
+      "published_at": "2026-10-26T11:21:27.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Published results in quantum machine learning for intrusion detection (QML-IDS) require joint interpretation of false-positive rate (FPR), attack true-positive rate (TPR), and evaluation provenance.",
+      "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "netsec",
+      "title": "SoK: Timestamps Are Not a Time Model: Rethinking Temporal Reasoning in Host-Based Intrusion Detection",
+      "url": "https://arxiv.org/abs/2610.35151v1",
+      "date": "2026-10-26",
+      "published_at": "2026-10-26T10:16:56.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Host-based intrusion detectors order events, window audit streams and sequence attack stages by their timestamps.",
+      "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Garlic in a Box: I2P Network Emulator",
+      "url": "https://arxiv.org/abs/2610.34004v1",
+      "date": "2026-10-25",
+      "published_at": "2026-10-25T02:33:34.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "routing",
+        "privacy"
+      ],
+      "excerpt": "The Invisible Internet Project (I2P) is a peer-to-peer anonymity network whose routing and peer-selection mechanics underlie a growing family of state-sponsored covert relay architectures.",
+      "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "netsec",
+      "title": "The Conditional Value of Costly Information in Collective-Risk Dilemmas",
+      "url": "https://arxiv.org/abs/2610.33895v1",
+      "date": "2026-10-24",
+      "published_at": "2026-10-24T20:12:28.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Many high-stakes collective problems, e.g., climate mitigation and pandemic response, share a structure in which risk materializes unless a group threshold is met.",
+      "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Who Verifies the Verifiers? Accountable Semantic Consensus for AI-Mediated Web Information Verification",
+      "url": "https://arxiv.org/abs/2610.33587v1",
+      "date": "2026-10-24",
+      "published_at": "2026-10-24T10:30:56.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Large language models (LLMs) increasingly decide whether Web evidence supports online claims, often by voting over several assessors whose errors are presumed independent and benign.",
+      "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Identity Amortization: Shared Resources and the Cost of Sybil Attacks",
+      "url": "https://arxiv.org/abs/2610.32685v1",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T14:17:10.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "Sybil defenses commonly price identities by requiring a resource for each one.",
+      "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Iterative Behavioral Identification for Covert Misappropriation Attacks",
+      "url": "https://arxiv.org/abs/2610.32662v1",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T14:06:32.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "We present a data-driven, three-phase framework for covert misappropriation attacks on closed-loop networked control systems.",
+      "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "wireless",
+      "title": "WiMoT: Replay-Free Continual Wi-Fi Sensing via Moment Transport",
+      "url": "https://arxiv.org/abs/2610.32660v2",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T14:05:37.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Continual Wi-Fi sensing must balance plasticity, learning new rooms or users, against stability, keeping earlier ones, yet nodes often cannot retain channel state information (CSI)…",
+      "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Benchmarking Classical and Quantum Machine Learning for Intrusion Detection Across Multiple Datasets",
+      "url": "https://arxiv.org/abs/2610.33119v1",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T05:48:29.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Intrusion detection is examined through a comparative benchmark of classical and quantum machine learning models on three datasets: NSL-KDD, UNSW-NB15, and MQTTEEB-D2025.",
+      "first_seen": "2026-10-28T02:19:24.715Z"
+    },
     {
       "source": "netsec",
       "title": "Model-Free Generative Stealthy Attacks on Safety-Critical Vehicle Cyber-Physical Systems",
@@ -75,6 +242,21 @@
       ],
       "excerpt": "Neural receivers for 5G New Radio (NR) match classical model-based receivers in link-level performance, but their robustness to adversarial perturbations at the receiver input remains…",
       "first_seen": "2026-10-24T01:37:33.895Z"
+    },
+    {
+      "source": "netsec",
+      "title": "VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage",
+      "url": "https://arxiv.org/abs/2610.30090v2",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T17:39:12.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Perimeter triage faces a latency/semantics trade-off: signature engines are fast and format-safe but blind to unseen attacks, while generative models are semantic but slow and…",
+      "first_seen": "2026-10-28T02:19:24.715Z"
     },
     {
       "source": "netsec",
@@ -137,6 +319,22 @@
       ],
       "excerpt": "In this paper, we present 5uGUE, a large language model (LLM)-driven hardware-in-the-loop agent, which enables the wireless fuzzing of 5G-enabled devices (such as mobile phones).",
       "first_seen": "2026-10-22T01:33:15.519Z"
+    },
+    {
+      "source": "wireless",
+      "title": "5uGUE: Agentic Hardware-in-the-Loop Fuzzing for 5G Devices and beyond",
+      "url": "https://arxiv.org/abs/2610.29155v2",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T03:45:25.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "In this paper, we present 5uGUE, a large language model (LLM)-driven hardware-in-the-loop agent, which enables the wireless fuzzing of 5G-enabled devices (such as mobile phones).",
+      "first_seen": "2026-10-28T02:19:24.715Z"
     },
     {
       "source": "netsec",
@@ -1408,67 +1606,6 @@
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
-      "source": "netsec",
-      "title": "Unmasking Shortcut Learning in IoT Intrusion Detection: A Forensic, Multi-Paradigm Evaluation of Feature Dependence and Data Leakage",
-      "url": "https://arxiv.org/abs/2609.28725v1",
-      "date": "2026-09-23",
-      "published_at": "2026-09-23T19:07:27.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "defense"
-      ],
-      "excerpt": "Machine learning-based Network Intrusion Detection Systems often report near-perfect performance on IoT benchmarks.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "BRFID: Toward Byzantine-Robust Federated Intrusion Detection",
-      "url": "https://arxiv.org/abs/2609.28599v1",
-      "date": "2026-09-23",
-      "published_at": "2026-09-23T15:49:20.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Flipping 60\\% of training labels from a single Byzantine client using label-flipping model poisoning self-degrades an attacker's own federated detection accuracy, $99.96\\%$ (at no poisoning…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Reliable Federated TinyML Deployment for IoT Security",
-      "url": "https://arxiv.org/abs/2609.27202v1",
-      "date": "2026-09-23",
-      "published_at": "2026-09-23T01:08:21.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "The growing deployment of Internet of Things (IoT) devices has increased the need for privacy-preserving intrusion detection systems that operate directly on resource-constrained hardware.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Improving Service Availability in KubeEdge-Based Architectures Using Lightweight Intrusion Detection",
-      "url": "https://arxiv.org/abs/2609.27052v1",
-      "date": "2026-09-22",
-      "published_at": "2026-09-22T20:48:54.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "The increasing adoption of the Internet of Things (IoT) and cloud computing has accelerated the evolution of edge computing paradigms [1].",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
       "source": "wireless",
       "title": "UE-Side Location Privacy for 5G NR Uplink Positioning: Mechanisms and Trade-offs",
       "url": "https://arxiv.org/abs/2609.25941v1",
@@ -1481,52 +1618,6 @@
         "wireless"
       ],
       "excerpt": "Future 5G-Advanced and 6G networks increasingly reuse uplink communication waveforms for positioning and sensing.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "How It's Made: Uncovering Detection Engineering Processes for Network Intrusion Detection Rules",
-      "url": "https://arxiv.org/abs/2609.25901v1",
-      "date": "2026-09-22",
-      "published_at": "2026-09-22T09:04:00.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Many Security Operations Centers rely on signature-based Network Intrusion Detection Systems like Suricata, yet detection rule engineering remains understudied.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Rethinking Web Application Firewalls",
-      "url": "https://arxiv.org/abs/2609.25892v1",
-      "date": "2026-09-22",
-      "published_at": "2026-09-22T08:57:41.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "In recent years, the threat of application-layer (L7) distributed denial-of-service (DDoS) attacks is ever increasing.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "5G-Shark: A Network Security Auditor for 5G Subscriber Privacy and Unauthenticated Signalling Resilience",
-      "url": "https://arxiv.org/abs/2609.24656v1",
-      "date": "2026-09-21",
-      "published_at": "2026-09-21T14:24:37.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "wireless"
-      ],
-      "excerpt": "The fifth generation of mobile networks was standardised with an explicit mandate to close long-standing privacy and security gaps, mandating the concealment of the subscriber's…",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
