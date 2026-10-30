@@ -1,20 +1,20 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-29T02:28:10.449Z",
+  "attempted_at": "2026-10-30T02:38:06.651Z",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "home": "https://openai.com/news/",
-      "attempted_at": "2026-10-29T02:28:10.449Z",
-      "last_success": "2026-10-29T02:28:10.449Z",
+      "attempted_at": "2026-10-30T02:38:06.651Z",
+      "last_success": "2026-10-30T02:38:06.651Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://openai.com/news/rss.xml",
           "status": "ok",
-          "last_success": "2026-10-29T02:28:10.449Z"
+          "last_success": "2026-10-30T02:38:06.651Z"
         }
       ],
       "count": 60
@@ -28,7 +28,7 @@
         "https://www.anthropic.com/news"
       ],
       "home": "https://www.anthropic.com/news",
-      "attempted_at": "2026-10-29T02:28:10.449Z",
+      "attempted_at": "2026-10-30T02:38:06.651Z",
       "last_success": "2026-10-20T01:51:40.669Z",
       "status": "error",
       "endpoints": [
@@ -50,20 +50,68 @@
       "name": "arXiv",
       "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
       "home": "https://arxiv.org/list/cs.CR/recent",
-      "attempted_at": "2026-10-29T02:28:10.449Z",
-      "last_success": "2026-10-29T02:28:10.449Z",
+      "attempted_at": "2026-10-30T02:38:06.651Z",
+      "last_success": "2026-10-30T02:38:06.651Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
           "status": "ok",
-          "last_success": "2026-10-29T02:28:10.449Z"
+          "last_success": "2026-10-30T02:38:06.651Z"
         }
       ],
       "count": 150
     }
   ],
   "items": [
+    {
+      "source": "openai",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "published_at": "2026-10-29T17:00:00.000Z",
+      "category": "Safety",
+      "channel": "news",
+      "date": "2026-10-29",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "safety"
+      ],
+      "excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "first_seen": "2026-10-30T02:38:06.651Z"
+    },
+    {
+      "source": "openai",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "published_at": "2026-10-29T09:00:00.000Z",
+      "category": "Security",
+      "channel": "news",
+      "date": "2026-10-29",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "first_seen": "2026-10-30T02:38:06.651Z"
+    },
+    {
+      "source": "openai",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "published_at": "2026-10-29T07:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-10-29",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ],
+      "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI.",
+      "first_seen": "2026-10-30T02:38:06.651Z"
+    },
     {
       "source": "openai",
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
@@ -3833,38 +3881,6 @@
       "first_seen": "2026-10-07T02:25:37.180Z"
     },
     {
-      "source": "openai",
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "published_at": "2026-10-06T12:00:00.000Z",
-      "category": "Research",
-      "channel": "research",
-      "date": "2026-10-06",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "first_seen": "2026-10-07T02:25:37.180Z"
-    },
-    {
-      "source": "openai",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "published_at": "2026-10-06T10:00:00.000Z",
-      "category": "Publication",
-      "channel": "news",
-      "date": "2026-10-06",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "first_seen": "2026-10-07T02:25:37.180Z"
-    },
-    {
       "source": "anthropic",
       "title": "Expanding the Cyber Verification Program",
       "url": "https://www.anthropic.com/news/cyber-verification-program",
@@ -3879,22 +3895,6 @@
       ],
       "excerpt": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security…",
       "first_seen": "2026-10-07T02:25:37.180Z"
-    },
-    {
-      "source": "openai",
-      "title": "Our approach to EU text provenance rules",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "published_at": "2026-10-05T15:00:00.000Z",
-      "category": "Safety",
-      "channel": "news",
-      "date": "2026-10-05",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "safety"
-      ],
-      "excerpt": "How OpenAI is approaching text watermarking under EU rules.",
-      "first_seen": "2026-10-06T03:01:29.875Z"
     },
     {
       "source": "anthropic",

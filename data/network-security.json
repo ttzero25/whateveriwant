@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-29T02:28:19.240Z",
+  "attempted_at": "2026-10-30T02:38:15.383Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-10-29T02:28:19.240Z",
-      "last_success": "2026-10-29T02:28:19.240Z",
+      "attempted_at": "2026-10-30T02:38:15.383Z",
+      "last_success": "2026-10-30T02:38:15.383Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-29T02:28:19.240Z"
+          "last_success": "2026-10-30T02:38:15.383Z"
         }
       ],
       "count": 60
@@ -32,20 +32,35 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-10-29T02:28:19.240Z",
-      "last_success": "2026-10-29T02:28:19.240Z",
+      "attempted_at": "2026-10-30T02:38:15.383Z",
+      "last_success": "2026-10-30T02:38:15.383Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-29T02:28:19.240Z"
+          "last_success": "2026-10-30T02:38:15.383Z"
         }
       ],
-      "count": 59
+      "count": 60
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "STAR: Scalable TEE-based Anonymous Rate-limiter",
+      "url": "https://arxiv.org/abs/2610.38602v1",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T10:26:23.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Protecting Internet services from attacks such as TLS/HTTP floods requires rate limiting, yet identifying users to enforce these limits can compromise their privacy.",
+      "first_seen": "2026-10-30T02:38:15.383Z"
+    },
     {
       "source": "wireless",
       "title": "Measuring Users' Security and Privacy Concerns About Third-Party Community Bots on Discord",
@@ -272,6 +287,21 @@
       ],
       "excerpt": "Language models have shown strong potential for intrusion detection, but their high memory and computational demands make them difficult to deploy in resource-constrained IoT environments.",
       "first_seen": "2026-10-24T01:37:33.895Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Parameters efficient language model with latent cross-attention for IoT intrusion detection",
+      "url": "https://arxiv.org/abs/2610.30222v2",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T16:47:41.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Language models have shown strong potential for intrusion detection, but their high memory and computational demands make them difficult to deploy in resource-constrained IoT environments.",
+      "first_seen": "2026-10-30T02:38:15.383Z"
     },
     {
       "source": "netsec",
@@ -1541,22 +1571,6 @@
         "wireless"
       ],
       "excerpt": "With the growing demand for privacy-preserving and occlusion-resilient human pose recognition (HPR), 5G channel state information (CSI) offers a promising contactless sensing modality by integrating…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Improving the Reliability of Anomaly Detection for Encrypted OPC UA Traffic over Private 5G",
-      "url": "https://arxiv.org/abs/2609.29745v1",
-      "date": "2026-09-24",
-      "published_at": "2026-09-24T12:59:27.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless",
-        "defense"
-      ],
-      "excerpt": "Open Platform Communications Unified Architecture (OPC UA) is increasingly deployed over private 5G networks in industrial environments, where end-to-end encryption prevents payload inspection by network-based…",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
