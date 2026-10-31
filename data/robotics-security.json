@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-10-30T02:38:10.028Z",
+  "attempted_at": "2026-10-31T02:26:07.684Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-10-30T02:38:10.028Z",
-      "last_success": "2026-10-30T02:38:10.028Z",
+      "attempted_at": "2026-10-31T02:26:07.684Z",
+      "last_success": "2026-10-31T02:26:07.684Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-10-30T02:38:10.028Z"
+          "last_success": "2026-10-31T02:26:07.684Z"
         }
       ],
       "count": 31
@@ -32,14 +32,14 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-10-30T02:38:10.028Z",
-      "last_success": "2026-10-30T02:38:10.028Z",
+      "attempted_at": "2026-10-31T02:26:07.684Z",
+      "last_success": "2026-10-31T02:26:07.684Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-30T02:38:10.028Z"
+          "last_success": "2026-10-31T02:26:07.684Z"
         }
       ],
       "count": 60
@@ -53,20 +53,52 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-10-30T02:38:10.028Z",
-      "last_success": "2026-10-30T02:38:10.028Z",
+      "attempted_at": "2026-10-31T02:26:07.684Z",
+      "last_success": "2026-10-31T02:26:07.684Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-10-30T02:38:10.028Z"
+          "last_success": "2026-10-31T02:26:07.684Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "robotics",
+      "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+      "url": "https://arxiv.org/abs/2610.40565v1",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T17:42:32.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world.",
+      "first_seen": "2026-10-31T02:26:07.684Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "LiDAR-SHIELD: A Fully Dockerized Adversarial Robustness Assessment Framework for LiDAR-Based 3D Perception Models",
+      "url": "https://arxiv.org/abs/2610.39848v1",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T11:27:53.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "LiDAR-based 3D perception underpins autonomous driving and robotics, yet deploying these models safely requires stress-testing them against adversarial inputs before real-world use.",
+      "first_seen": "2026-10-31T02:26:07.684Z"
+    },
     {
       "source": "autonomy",
       "title": "A Minimally Informed Black-Box Fake-Report Attack on DRL Traffic-Signal Control",
@@ -1311,22 +1343,6 @@
       "first_seen": "2026-10-01T02:11:27.428Z"
     },
     {
-      "source": "autonomy",
-      "title": "Separated flows over swept wings across transitional Reynolds numbers",
-      "url": "https://arxiv.org/abs/2609.38732v1",
-      "date": "2026-09-30",
-      "published_at": "2026-09-30T01:08:07.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "We explore the effect of wing sweep on the interaction between leading-edge separation and tip vortex for a finite wing with sweep angles $Λ=0^\\circ$ to…",
-      "first_seen": "2026-10-01T02:11:27.428Z"
-    },
-    {
       "source": "robotics",
       "title": "LIBERO-MAX: Do Robot Policies Adapt When the World Changes?",
       "url": "https://arxiv.org/abs/2609.36518v1",
@@ -2011,21 +2027,6 @@
       ],
       "excerpt": "Multi-robot systems must simultaneously optimize competing objectives while maintaining coordinated behavior.",
       "first_seen": "2026-09-11T01:08:01.377Z"
-    },
-    {
-      "source": "robotics",
-      "title": "Sampling-Based Coordination-Informed Multi-Objective Multi-Robot Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2606.30893v3",
-      "date": "2026-06-29",
-      "published_at": "2026-06-29T20:31:03.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security"
-      ],
-      "excerpt": "Multi-robot systems must simultaneously optimize competing objectives while maintaining coordinated behavior.",
-      "first_seen": "2026-09-16T01:27:38.086Z"
     },
     {
       "source": "ros",
