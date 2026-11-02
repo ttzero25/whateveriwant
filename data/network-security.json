@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-01T02:15:32.025Z",
+  "attempted_at": "2026-11-02T02:33:31.899Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-11-01T02:15:32.025Z",
-      "last_success": "2026-11-01T02:15:32.025Z",
+      "attempted_at": "2026-11-02T02:33:31.899Z",
+      "last_success": "2026-11-02T02:33:31.899Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-01T02:15:32.025Z"
+          "last_success": "2026-11-02T02:33:31.899Z"
         }
       ],
       "count": 60
@@ -32,20 +32,51 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-11-01T02:15:32.025Z",
-      "last_success": "2026-11-01T02:15:32.025Z",
+      "attempted_at": "2026-11-02T02:33:31.899Z",
+      "last_success": "2026-11-02T02:33:31.899Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-01T02:15:32.025Z"
+          "last_success": "2026-11-02T02:33:31.899Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "An Incentive-Aligned Trust-Centric Coordination Layer for Heterogeneous Blockchain Interoperability",
+      "url": "https://arxiv.org/abs/2610.41032v1",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T22:23:22.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "privacy"
+      ],
+      "excerpt": "The interoperability between permissioned and public blockchains is hampered by asymmetric privacy, trust, and governance assumptions.",
+      "first_seen": "2026-11-02T02:33:31.899Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Integrating of Attack Patterns and Threat Modeling to Support Security Analysis in the Automotive Domain",
+      "url": "https://arxiv.org/abs/2610.40944v1",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T20:22:13.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "The increasing connectivity of cyber-physical systems in the automotive domain demands systematic approaches for identifying and mitigating cybersecurity threats.",
+      "first_seen": "2026-11-02T02:33:31.899Z"
+    },
     {
       "source": "netsec",
       "title": "DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning",
@@ -120,6 +151,21 @@
       ],
       "excerpt": "Large Language Models (LLMs) are increasingly being used as cognitive interfaces that shape how users interpret evidence, communicate, and make decisions.",
       "first_seen": "2026-10-31T02:26:11.450Z"
+    },
+    {
+      "source": "netsec",
+      "title": "FGSM Attack Transferability from Simulation to Quantum Hardware in Network Intrusion Detection",
+      "url": "https://arxiv.org/abs/2610.40701v1",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T19:49:41.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Quantum computers are now available through cloud platforms, and recent work has proposed using them to detect network intrusions.",
+      "first_seen": "2026-11-02T02:33:31.899Z"
     },
     {
       "source": "wireless",
@@ -1529,21 +1575,6 @@
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
-      "source": "netsec",
-      "title": "Where the Numbers Come From: Auditing Evaluation in Provenance-Based Intrusion Detection",
-      "url": "https://arxiv.org/abs/2609.33532v1",
-      "date": "2026-09-27",
-      "published_at": "2026-09-27T13:01:02.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Reproducing a provenance-based intrusion detector's score does not establish what that score says about its emitted alarms or the information its encoder uses.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
       "source": "wireless",
       "title": "Governing the Edge: Automating Commercial Property and Casualty Insurance Underwriting via a Hybrid Local-Cloud Multi-Agent Framework",
       "url": "https://arxiv.org/abs/2609.37454v1",
@@ -1845,38 +1876,6 @@
         "wireless"
       ],
       "excerpt": "This paper proposes an innovative dual-polarized backscattering rectenna that operates in two distinct modesenergy harvesting and backscattering modulation-driven by two-bit digital control signals.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "ZK-eSIM: A Privacy-Centric Zero-Knowledge Approach for eSIM Provisioning",
-      "url": "https://arxiv.org/abs/2609.07654v1",
-      "date": "2026-09-07",
-      "published_at": "2026-09-07T15:42:20.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "privacy"
-      ],
-      "excerpt": "GSMA Remote SIM Provisioning (RSP) enables over-the-air delivery of eSIM profiles, but it exposes long-lived identifiers during profile ordering and download.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "5GDescrambler: Locating, Descrambling, and Decoding 5G Scheduling Information (long version)",
-      "url": "https://arxiv.org/abs/2609.07367v1",
-      "date": "2026-09-07",
-      "published_at": "2026-09-07T11:39:52.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "wireless"
-      ],
-      "excerpt": "Tracking users in 5G NR has recently been successfully demonstrated by exploiting various side-channels.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     }
   ]
