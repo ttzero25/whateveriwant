@@ -65,8 +65,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-02T02:33:25.567Z",
-    "last_success": "2026-11-02T02:33:25.567Z"
+    "attempted_at": "2026-11-03T03:56:31.600Z",
+    "last_success": "2026-11-03T03:56:31.600Z"
   },
   {
     "id": "usenix-security",
@@ -134,7 +134,7 @@
     ],
     "matched_count": 55,
     "status": "error",
-    "attempted_at": "2026-11-02T02:33:25.567Z",
+    "attempted_at": "2026-11-03T03:56:31.600Z",
     "last_success": "2026-09-10T11:34:53.014Z"
   },
   {
@@ -143,6 +143,7 @@
     "group": "security",
     "year": 2026,
     "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+    "matched_count": 63,
     "items": [
       {
         "id": "acm-ccs:2026:9b589a53fd423e4f",
@@ -201,10 +202,9 @@
         "excerpt": ""
       }
     ],
-    "matched_count": 63,
-    "status": "error",
-    "attempted_at": "2026-11-02T02:33:25.567Z",
-    "last_success": "2026-11-01T02:15:25.955Z"
+    "status": "ok",
+    "attempted_at": "2026-11-03T03:56:31.600Z",
+    "last_success": "2026-11-03T03:56:31.600Z"
   },
   {
     "id": "ndss",
@@ -272,8 +272,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-02T02:33:25.567Z",
-    "last_success": "2026-11-02T02:33:25.567Z"
+    "attempted_at": "2026-11-03T03:56:31.600Z",
+    "last_success": "2026-11-03T03:56:31.600Z"
   },
   {
     "id": "icml",
@@ -342,7 +342,7 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-02T02:33:25.567Z",
-    "last_success": "2026-11-02T02:33:25.567Z"
+    "attempted_at": "2026-11-03T03:56:31.600Z",
+    "last_success": "2026-11-03T03:56:31.600Z"
   }
 ]

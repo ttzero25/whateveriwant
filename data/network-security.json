@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-02T02:33:31.899Z",
+  "attempted_at": "2026-11-03T03:56:38.654Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-11-02T02:33:31.899Z",
-      "last_success": "2026-11-02T02:33:31.899Z",
+      "attempted_at": "2026-11-03T03:56:38.654Z",
+      "last_success": "2026-11-03T03:56:38.654Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-02T02:33:31.899Z"
+          "last_success": "2026-11-03T03:56:38.654Z"
         }
       ],
       "count": 60
@@ -32,20 +32,96 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-11-02T02:33:31.899Z",
-      "last_success": "2026-11-02T02:33:31.899Z",
+      "attempted_at": "2026-11-03T03:56:38.654Z",
+      "last_success": "2026-11-03T03:56:38.654Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-02T02:33:31.899Z"
+          "last_success": "2026-11-03T03:56:38.654Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "netsec",
+      "title": "Enhancing Edge AI System Security with a Stacked Hardware Security Controller for Robust and Energy-Efficient Anomaly Detectio",
+      "url": "https://arxiv.org/abs/2611.01150v1",
+      "date": "2026-10-31",
+      "published_at": "2026-10-31T17:37:00.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "In recent years, the growing adoption of Edge AI systems has been accompanied by a surge in security threats.",
+      "first_seen": "2026-11-03T03:56:38.654Z"
+    },
+    {
+      "source": "wireless",
+      "title": "VeilFL: Two-Stage Accountability for Anonymous Federated Learning",
+      "url": "https://arxiv.org/abs/2611.01082v1",
+      "date": "2026-10-31",
+      "published_at": "2026-10-31T16:18:08.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "privacy"
+      ],
+      "excerpt": "Anonymous credentials can hide which registered client participates in federated learning, but their unlinkability also makes repeated misconduct difficult to associate.",
+      "first_seen": "2026-11-03T03:56:38.654Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Adversarial Robustness Is Not Zero-Day Generalization: A Controlled Evaluation of Flow-Based Intrusion Detectors on Corrected CIC-IDS2017",
+      "url": "https://arxiv.org/abs/2611.00713v1",
+      "date": "2026-10-31",
+      "published_at": "2026-10-31T07:11:29.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Synthetic variants of known attacks, including feature-space adversarial perturbations, are sometimes used as stand-ins for unseen (\"zero-day\") attacks when evaluating machine-learning network intrusion detection systems…",
+      "first_seen": "2026-11-03T03:56:38.654Z"
+    },
+    {
+      "source": "netsec",
+      "title": "DeepWeave: Weaving Neural and Symbolic Evidence for ML-Based Network Intrusion Detection System",
+      "url": "https://arxiv.org/abs/2610.41541v1",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T10:38:02.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Machine learning-based network intrusion detection systems can recognize complex traffic patterns, but often require substantial labelled attack data, degrade under deployment shift, and provide limited…",
+      "first_seen": "2026-11-03T03:56:38.654Z"
+    },
+    {
+      "source": "wireless",
+      "title": "OrionLink: Single Sign-On with Oblivious Identity Brokers",
+      "url": "https://arxiv.org/abs/2610.41323v1",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T06:37:40.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Single Sign-On (SSO) is a federated authentication mechanism that improves user experience by enabling access to multiple services, or Relying Parties (RPs), through a single…",
+      "first_seen": "2026-11-03T03:56:38.654Z"
+    },
     {
       "source": "wireless",
       "title": "An Incentive-Aligned Trust-Centric Coordination Layer for Heterogeneous Blockchain Interoperability",
@@ -1469,21 +1545,6 @@
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
-      "source": "netsec",
-      "title": "Adversarial Debiasing of Machine Learning Models for Enhanced Network Security against DDoS Attacks",
-      "url": "https://arxiv.org/abs/2609.36167v1",
-      "date": "2026-09-28",
-      "published_at": "2026-09-28T19:37:38.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Distributed Denial of Service attacks are a growing threat to network infrastructure, and new techniques, including the use of generative AI, make them harder to…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
       "source": "wireless",
       "title": "Privacy-Friendly Cohort Determination: Sealed, CSP-Independent In-Browser ML Inference of Professional Segments for Identity-Less Advertising",
       "url": "https://arxiv.org/abs/2609.36153v1",
@@ -1496,36 +1557,6 @@
         "privacy"
       ],
       "excerpt": "B2B advertising targets a viewer's professional attributes (employer size and industry, function, seniority) and has obtained them by matching identities across sites.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Multi-Class, Multi-Tier Network Intrusion Detection: A Comprehensive and Reproducible Benchmark",
-      "url": "https://arxiv.org/abs/2609.36039v1",
-      "date": "2026-09-28",
-      "published_at": "2026-09-28T18:06:00.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Machine learning (ML) and deep learning (DL) have dominated Intrusion Detection System (IDS) research in recent years.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Physics-Attested Federated Learning: Securing Collaborative Anomaly Detection in Critical Water Infrastructure",
-      "url": "https://arxiv.org/abs/2609.34804v1",
-      "date": "2026-09-28",
-      "published_at": "2026-09-28T10:08:19.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Federated learning enables industrial operators to train shared intrusion detection models without disclosing proprietary operational telemetry.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
@@ -1845,37 +1876,6 @@
         "wireless"
       ],
       "excerpt": "The rapid adoption of 5G revolutionized connectivity worldwide, enabling faster data transfer along withthe support of a variety of use cases.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "CrossLink: Breaking Location Privacy by Linking Device Identifiers Across Protocols",
-      "url": "https://arxiv.org/abs/2609.09963v1",
-      "date": "2026-09-09",
-      "published_at": "2026-09-09T09:51:48.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "wireless"
-      ],
-      "excerpt": "Smartphones simultaneously transmit temporary identifiers over LTE, WiFi, and BLE.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "A New Backscattering Dual-Polarized Rectenna for Wireless Power Transfer and IoT Applications",
-      "url": "https://arxiv.org/abs/2609.08833v1",
-      "date": "2026-09-08",
-      "published_at": "2026-09-08T14:53:58.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless"
-      ],
-      "excerpt": "This paper proposes an innovative dual-polarized backscattering rectenna that operates in two distinct modesenergy harvesting and backscattering modulation-driven by two-bit digital control signals.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     }
   ]

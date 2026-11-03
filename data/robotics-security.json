@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-02T02:33:28.226Z",
+  "attempted_at": "2026-11-03T03:56:34.260Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-11-02T02:33:28.226Z",
-      "last_success": "2026-11-02T02:33:28.226Z",
+      "attempted_at": "2026-11-03T03:56:34.260Z",
+      "last_success": "2026-11-03T03:56:34.260Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-11-02T02:33:28.226Z"
+          "last_success": "2026-11-03T03:56:34.260Z"
         }
       ],
       "count": 31
@@ -32,14 +32,14 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-11-02T02:33:28.226Z",
-      "last_success": "2026-11-02T02:33:28.226Z",
+      "attempted_at": "2026-11-03T03:56:34.260Z",
+      "last_success": "2026-11-03T03:56:34.260Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-02T02:33:28.226Z"
+          "last_success": "2026-11-03T03:56:34.260Z"
         }
       ],
       "count": 60
@@ -53,14 +53,14 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-11-02T02:33:28.226Z",
-      "last_success": "2026-11-02T02:33:28.226Z",
+      "attempted_at": "2026-11-03T03:56:34.260Z",
+      "last_success": "2026-11-03T03:56:34.260Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-02T02:33:28.226Z"
+          "last_success": "2026-11-03T03:56:34.260Z"
         }
       ],
       "count": 60
@@ -198,6 +198,22 @@
     },
     {
       "source": "autonomy",
+      "title": "The Envelope Layer: An Underestimated Surface of LLM Agent Defense",
+      "url": "https://arxiv.org/abs/2610.37415v2",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T15:32:10.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Prior work framed the envelope layer as the channel through which malicious content enters an agent, but did not examine the effects of label strength,…",
+      "first_seen": "2026-11-03T03:56:34.260Z"
+    },
+    {
+      "source": "autonomy",
       "title": "MAPLE-Sec: Mobility-Aware Partitioned Language-Model Engine for Roaming IoT Security",
       "url": "https://arxiv.org/abs/2610.37147v1",
       "date": "2026-10-27",
@@ -227,6 +243,22 @@
       ],
       "excerpt": "Automotive cybersecurity commonly assumes benign end-product manufacturers and design authorities, focusing on supply-chain threats, external attacks, and compromised network participants observable through misbehaviour.",
       "first_seen": "2026-10-28T02:19:20.755Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "Janus Vehicles: Entity-Centric Threat Modelling of Protocol-Conformant Vehicles under a Malicious-Manufacturer Assumption",
+      "url": "https://arxiv.org/abs/2610.37059v2",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T11:25:18.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "Automotive cybersecurity commonly assumes benign end-product manufacturers and design authorities, focusing on supply-chain threats, external attacks, and compromised network participants observable through misbehaviour.",
+      "first_seen": "2026-11-03T03:56:34.260Z"
     },
     {
       "source": "autonomy",
@@ -631,6 +663,23 @@
       ],
       "excerpt": "Integrated sensing and communication (ISAC) is evolving from a primarily physical-layer research into a standardized cellular-network capability spanning channel modeling, radio procedures, network architecture, and…",
       "first_seen": "2026-10-19T01:18:54.933Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "How Reliable Are Object Detection Models Beyond Clear Weather? A Deployment-Oriented Robustness Study for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2611.00071v1",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T17:00:50.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy",
+        "sensors"
+      ],
+      "excerpt": "Autonomous driving perception systems must maintain reliable object detection under diverse environmental conditions, not only in clear daytime scenes.",
+      "first_seen": "2026-11-03T03:56:34.260Z"
     },
     {
       "source": "autonomy",
@@ -1259,56 +1308,6 @@
       ],
       "excerpt": "Security workflows need models that turn complex observations and explicit policies into decisions.",
       "first_seen": "2026-10-15T01:30:44.830Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Kinematics-Induced Multimodal 3D Human Pose Estimation with Subject-Level Privacy",
-      "url": "https://arxiv.org/abs/2610.02943v1",
-      "date": "2026-10-02",
-      "published_at": "2026-10-02T07:37:03.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "Multimodal 3D Human Pose Estimation (3D HPE) combines complementary information from RGB, LiDAR, and mmWave radar, but models trained on correlated observations from the same…",
-      "first_seen": "2026-10-05T02:02:20.886Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Rateless Nested Lattice Codes for Secure Cooperative V2X Broadcast over Fading and Erasure Channels",
-      "url": "https://arxiv.org/abs/2610.02605v1",
-      "date": "2026-10-01",
-      "published_at": "2026-10-01T23:59:31.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Vehicle-to-everything (V2X) sidelink and uplink broadcast must deliver safety-critical and application-layer data reliably under fast time-varying fading, intermittent packet erasures, and exposure to passive eavesdroppers.",
-      "first_seen": "2026-10-05T02:02:20.886Z"
-    },
-    {
-      "source": "autonomy",
-      "title": "Weather-Aware Domain Adaptation for Street-View Weather Recognition",
-      "url": "https://arxiv.org/abs/2610.02000v1",
-      "date": "2026-10-01",
-      "published_at": "2026-10-01T16:31:43.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy",
-        "sensors"
-      ],
-      "excerpt": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving.",
-      "first_seen": "2026-10-02T02:17:54.389Z"
     },
     {
       "source": "robotics",
