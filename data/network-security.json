@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-03T03:56:38.654Z",
+  "attempted_at": "2026-11-04T03:01:30.332Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-11-03T03:56:38.654Z",
-      "last_success": "2026-11-03T03:56:38.654Z",
+      "attempted_at": "2026-11-04T03:01:30.332Z",
+      "last_success": "2026-11-04T03:01:30.332Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-03T03:56:38.654Z"
+          "last_success": "2026-11-04T03:01:30.332Z"
         }
       ],
       "count": 60
@@ -32,20 +32,71 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-11-03T03:56:38.654Z",
-      "last_success": "2026-11-03T03:56:38.654Z",
+      "attempted_at": "2026-11-04T03:01:30.332Z",
+      "last_success": "2026-11-04T03:01:30.332Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-03T03:56:38.654Z"
+          "last_success": "2026-11-04T03:01:30.332Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "netsec",
+      "title": "TrafficInstruct: A Multi-Task Network Traffic Dataset and Benchmark for Instruction Tuning",
+      "url": "https://arxiv.org/abs/2611.03319v1",
+      "date": "2026-11-02",
+      "published_at": "2026-11-02T15:44:53.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "defense",
+        "traffic",
+        "privacy"
+      ],
+      "excerpt": "Instruction tuning for multi-task network traffic analysis requires data with clearly defined sources, supervision targets, and evaluation conditions.",
+      "first_seen": "2026-11-04T03:01:30.332Z"
+    },
+    {
+      "source": "wireless",
+      "title": "TrafficInstruct: A Multi-Task Network Traffic Dataset and Benchmark for Instruction Tuning",
+      "url": "https://arxiv.org/abs/2611.03319v1",
+      "date": "2026-11-02",
+      "published_at": "2026-11-02T15:44:53.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "defense",
+        "traffic",
+        "privacy"
+      ],
+      "excerpt": "Instruction tuning for multi-task network traffic analysis requires data with clearly defined sources, supervision targets, and evaluation conditions.",
+      "first_seen": "2026-11-04T03:01:30.332Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Exposure-Length Trade-off Optimization for Obstacle-Aware Intrusion Paths in Heterogeneous Wireless Sensor Networks",
+      "url": "https://arxiv.org/abs/2611.01606v1",
+      "date": "2026-11-01",
+      "published_at": "2026-11-01T05:47:46.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Barrier coverage is a key paradigm for intrusion detection and surveillance in IoT-enabled heterogeneous wireless sensor networks, where monitoring quality depends not only on the…",
+      "first_seen": "2026-11-04T03:01:30.332Z"
+    },
     {
       "source": "netsec",
       "title": "Enhancing Edge AI System Security with a Stacked Hardware Security Controller for Robust and Energy-Efficient Anomaly Detectio",
@@ -424,6 +475,21 @@
       ],
       "excerpt": "Intrusion detection is examined through a comparative benchmark of classical and quantum machine learning models on three datasets: NSL-KDD, UNSW-NB15, and MQTTEEB-D2025.",
       "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Benchmarking Classical and Quantum Machine Learning for Intrusion Detection Across Multiple Datasets",
+      "url": "https://arxiv.org/abs/2610.33119v2",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T05:48:29.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Intrusion detection is examined through a comparative benchmark of classical and quantum machine learning models on three datasets: NSL-KDD, UNSW-NB15, and MQTTEEB-D2025.",
+      "first_seen": "2026-11-04T03:01:30.332Z"
     },
     {
       "source": "netsec",
@@ -1485,21 +1551,6 @@
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
-      "source": "netsec",
-      "title": "Helol Tunnel: Covert Channel Exploitation of TLS Extensibility & Privacy Features",
-      "url": "https://arxiv.org/abs/2610.01009v1",
-      "date": "2026-10-01",
-      "published_at": "2026-10-01T03:55:42.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol"
-      ],
-      "excerpt": "Covert channels exploiting network protocols for data exfiltration and command-and-control (C2) are integral parts of modern cyberattacks.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
       "source": "wireless",
       "title": "Identity-Bound Governance Under Execution Uncertainty: An Accountability Proof Block for LLM Agent Persistent Halts, with Cryptographic Implementation and Cross-Model Calibration",
       "url": "https://arxiv.org/abs/2610.00787v1",
@@ -1512,36 +1563,6 @@
         "protocol"
       ],
       "excerpt": "A correctly governed LLM agent can reach a state in which neither continuing execution nor automatically halting is admissible: the system has detected a persistent…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Cybersecurity in Edge Computing: A Trust-Aware Federated Hybrid Intrusion Detection Framework",
-      "url": "https://arxiv.org/abs/2609.39584v1",
-      "date": "2026-09-30",
-      "published_at": "2026-09-30T12:12:26.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Edge computing has emerged as a critical computing paradigm in modern distributed systems by migrating data processing closer to end users and Internet of Things…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Know the Normal, Track the Attack: Context-Grounded and Stateful LLM Investigation over System Provenance",
-      "url": "https://arxiv.org/abs/2609.36494v1",
-      "date": "2026-09-29",
-      "published_at": "2026-09-29T01:49:17.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Provenance-based intrusion detection systems (PIDSs) identify suspicious activity in audit streams, but their outputs remain difficult to turn into coherent attack narratives.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
@@ -1861,21 +1882,6 @@
         "protocol"
       ],
       "excerpt": "The Model Context Protocol (MCP) has become the common interface through which large language model applications reach external tools, and its public registry now distributes…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Challenges and Opportunities in the Transition from 5G to 6G Networks",
-      "url": "https://arxiv.org/abs/2609.12147v1",
-      "date": "2026-09-10",
-      "published_at": "2026-09-10T19:25:18.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless"
-      ],
-      "excerpt": "The rapid adoption of 5G revolutionized connectivity worldwide, enabling faster data transfer along withthe support of a variety of use cases.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     }
   ]
