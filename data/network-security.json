@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-04T03:01:30.332Z",
+  "attempted_at": "2026-11-05T03:31:02.191Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-11-04T03:01:30.332Z",
-      "last_success": "2026-11-04T03:01:30.332Z",
+      "attempted_at": "2026-11-05T03:31:02.191Z",
+      "last_success": "2026-11-05T03:31:02.191Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-04T03:01:30.332Z"
+          "last_success": "2026-11-05T03:31:02.191Z"
         }
       ],
       "count": 60
@@ -32,20 +32,96 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-11-04T03:01:30.332Z",
-      "last_success": "2026-11-04T03:01:30.332Z",
+      "attempted_at": "2026-11-05T03:31:02.191Z",
+      "last_success": "2026-11-05T03:31:02.191Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-04T03:01:30.332Z"
+          "last_success": "2026-11-05T03:31:02.191Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "Explainable Anomaly Detection in 5G Networks through Continuous Time Graphs",
+      "url": "https://arxiv.org/abs/2611.06225v1",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T09:34:47.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "5G networks increasingly resemble distributed systems in their design.",
+      "first_seen": "2026-11-05T03:31:02.191Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Network Intrusion Forensic Detection System with Explainable Artificial Intelligence and Digital Chain of Custody",
+      "url": "https://arxiv.org/abs/2611.06173v1",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T08:54:57.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Deploying an explainable intrusion detection model from a validated laboratory setting into a forensic workflow requires guarantees that benchmarks do not test: that the certified…",
+      "first_seen": "2026-11-05T03:31:02.191Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Leakage-free evaluation of residual graph convolutional networks for network intrusion detection",
+      "url": "https://arxiv.org/abs/2611.04660v1",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T10:49:29.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "defense"
+      ],
+      "excerpt": "Graph neural networks are increasingly proposed for network intrusion detection, yet many reported results come from protocols in which test flows shape the graph used…",
+      "first_seen": "2026-11-05T03:31:02.191Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Benchmarking Unsupervised Jamming Detection in 5G Open RAN",
+      "url": "https://arxiv.org/abs/2611.04369v1",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T05:58:35.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Radio Frequency (RF) jamming threatens fifth-generation (5G) networks.",
+      "first_seen": "2026-11-05T03:31:02.191Z"
+    },
+    {
+      "source": "wireless",
+      "title": "CORA: Teacher-Guided Causal O-RAN Adaptation for Jamming Detection",
+      "url": "https://arxiv.org/abs/2611.04330v1",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T05:14:00.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "In mission-critical networks, a missed jamming event is costlier than a false alarm, so detectors should favor recall, operate causally, and work without labeled attack…",
+      "first_seen": "2026-11-05T03:31:02.191Z"
+    },
     {
       "source": "netsec",
       "title": "TrafficInstruct: A Multi-Task Network Traffic Dataset and Benchmark for Instruction Tuning",
@@ -460,6 +536,21 @@
       ],
       "excerpt": "Continual Wi-Fi sensing must balance plasticity, learning new rooms or users, against stability, keeping earlier ones, yet nodes often cannot retain channel state information (CSI)…",
       "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "wireless",
+      "title": "WiMoT: Replay-Free Continual Wi-Fi Sensing via Moment Transport",
+      "url": "https://arxiv.org/abs/2610.32660v3",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T14:05:37.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Continual Wi-Fi sensing must learn new rooms or users (plasticity) while keeping earlier ones (stability), yet sensing nodes often cannot retain channel state information (CSI)…",
+      "first_seen": "2026-11-05T03:31:02.191Z"
     },
     {
       "source": "netsec",
@@ -1521,36 +1612,6 @@
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
-      "source": "netsec",
-      "title": "A Resource-Aware Behavior Reconstruction and Hierarchical Semantic Learning Framework for Host Intrusion Detection",
-      "url": "https://arxiv.org/abs/2610.01250v1",
-      "date": "2026-10-01",
-      "published_at": "2026-10-01T07:43:56.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "System calls (syscalls) record key interactions between running programs and the operating system kernel, providing fine-grained and minimally intrusive data for host-based intrusion detection systems…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Jev-IDS: System One Models for Network Intrusion Detection",
-      "url": "https://arxiv.org/abs/2610.01079v1",
-      "date": "2026-10-01",
-      "published_at": "2026-10-01T05:21:46.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Machine-learning Network Intrusion Detection Systems (IDS) depend on substantial labeled datasets and task-specific training, whereas Large Language Models (LLMs) detection can analyze flow records directly…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
       "source": "wireless",
       "title": "Identity-Bound Governance Under Execution Uncertainty: An Accountability Proof Block for LLM Agent Persistent Halts, with Cryptographic Implementation and Cross-Model Calibration",
       "url": "https://arxiv.org/abs/2610.00787v1",
@@ -1822,66 +1883,6 @@
         "wireless"
       ],
       "excerpt": "Vehicle tracking is fundamental to applications ranging from urban mobility and public safety to security and defense.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Cross-Domain Inference for Human Localization: Applying Wi-Fi RSSI Data to CSI-Trained Models",
-      "url": "https://arxiv.org/abs/2609.17204v1",
-      "date": "2026-09-15",
-      "published_at": "2026-09-15T13:56:26.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless"
-      ],
-      "excerpt": "Wi-Fi signal data can be used to compromise the privacy of individuals.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Sociotechnical Aspects of Tor Relay Rejection",
-      "url": "https://arxiv.org/abs/2609.15192v1",
-      "date": "2026-09-14",
-      "published_at": "2026-09-14T08:12:28.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "privacy"
-      ],
-      "excerpt": "In 2019, the Tor Project enforced an end-of-life (EoL) policy for Tor versions, leading to the rejection of outdated relays, amounting to a notable fraction…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Enc53: DNSSEC-Anchored Stateless Tickets for Post-Quantum Authoritative DNS",
-      "url": "https://arxiv.org/abs/2609.14210v1",
-      "date": "2026-09-13",
-      "published_at": "2026-09-13T00:38:58.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol"
-      ],
-      "excerpt": "DNSSEC authenticates RRsets, but does not provide endpoint authentication or channel security.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Same Name, Different Server: A Security Census of Silent Drift in the Model Context Protocol Ecosystem",
-      "url": "https://arxiv.org/abs/2609.14119v1",
-      "date": "2026-09-12",
-      "published_at": "2026-09-12T19:47:32.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol"
-      ],
-      "excerpt": "The Model Context Protocol (MCP) has become the common interface through which large language model applications reach external tools, and its public registry now distributes…",
       "first_seen": "2026-10-06T10:38:01.395Z"
     }
   ]
