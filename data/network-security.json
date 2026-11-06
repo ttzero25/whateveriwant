@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-05T03:31:02.191Z",
+  "attempted_at": "2026-11-06T03:27:36.966Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-11-05T03:31:02.191Z",
-      "last_success": "2026-11-05T03:31:02.191Z",
+      "attempted_at": "2026-11-06T03:27:36.966Z",
+      "last_success": "2026-11-06T03:27:36.966Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-05T03:31:02.191Z"
+          "last_success": "2026-11-06T03:27:36.966Z"
         }
       ],
       "count": 60
@@ -32,20 +32,67 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-11-05T03:31:02.191Z",
-      "last_success": "2026-11-05T03:31:02.191Z",
+      "attempted_at": "2026-11-06T03:27:36.966Z",
+      "last_success": "2026-11-06T03:27:36.966Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-05T03:31:02.191Z"
+          "last_success": "2026-11-06T03:27:36.966Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "netsec",
+      "title": "CANMentor: A Large-Small Model Collaboration Framework for CAN Bus Intrusion Detection",
+      "url": "https://arxiv.org/abs/2611.07853v1",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T11:31:03.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "The Controller Area Network (CAN) bus lacks built-in security mechanisms, making real-time intrusion detection necessary.",
+      "first_seen": "2026-11-06T03:27:36.966Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Deep reinforcement learning-based optimization of multi-RAT handovers",
+      "url": "https://arxiv.org/abs/2611.07390v1",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T03:38:56.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless",
+        "traffic"
+      ],
+      "excerpt": "A major evolutionary goal and challenge for next-generation wireless systems is seamless multiple radio access technology (multi-RAT) mobility.",
+      "first_seen": "2026-11-06T03:27:36.966Z"
+    },
+    {
+      "source": "wireless",
+      "title": "PRB Starvation at Slot Time via Rank Indicator Inflation: Attacking Proportional Fair Memory in the Scheduler",
+      "url": "https://arxiv.org/abs/2611.07225v1",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T23:29:58.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless",
+        "defense"
+      ],
+      "excerpt": "Proportional fair (PF) scheduling in fifth-generation (5G) New Radio (NR) ranks user equipment (UE) by instantaneous rate over an exponentially weighted moving average (EWMA) of…",
+      "first_seen": "2026-11-06T03:27:36.966Z"
+    },
     {
       "source": "wireless",
       "title": "Explainable Anomaly Detection in 5G Networks through Continuous Time Graphs",
@@ -1581,21 +1628,6 @@
       "first_seen": "2026-10-06T10:38:01.395Z"
     },
     {
-      "source": "netsec",
-      "title": "From Network Intrusion Detection to Blockchain-Backed Endpoint Detection and Response: Mapping the Landscape of Decentralized Detection-and-Response Architectures",
-      "url": "https://arxiv.org/abs/2610.01872v1",
-      "date": "2026-10-01",
-      "published_at": "2026-10-01T15:30:31.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "While the literature on blockchain-assisted intrusion detection and prevention systems (IDS/IPS) for Internet of Things (IoT) and Industrial Internet of Things (IIoT) networks is mature,…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
       "source": "wireless",
       "title": "Protocol Integration of Physical Layer Deception into EAP-TEAP Wi-Fi Authentication",
       "url": "https://arxiv.org/abs/2610.01580v1",
@@ -1853,36 +1885,6 @@
         "wireless"
       ],
       "excerpt": "RF jamming poses a severe threat to 5G/6G networks, increasing packet latency being especially disruption to mission-critical URLLC services.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Autonomy in Check: Governor-Mediated Adaptive Security at the Edge",
-      "url": "https://arxiv.org/abs/2609.18338v1",
-      "date": "2026-09-16",
-      "published_at": "2026-09-16T09:00:34.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless"
-      ],
-      "excerpt": "Adaptive security at the network edge increasingly relies on automated planners, including rule-based controllers, learned policies, and LLM-assisted agents, that translate observations into enforcement actions.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Beyond Direct Sensing: Harnessing Indirect Observations from Third-Party Sensors in Vehicle Tracking",
-      "url": "https://arxiv.org/abs/2609.18173v1",
-      "date": "2026-09-16",
-      "published_at": "2026-09-16T05:58:18.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless"
-      ],
-      "excerpt": "Vehicle tracking is fundamental to applications ranging from urban mobility and public safety to security and defense.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     }
   ]
