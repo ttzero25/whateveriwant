@@ -65,8 +65,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-10T04:38:18.181Z",
-    "last_success": "2026-11-10T04:38:18.181Z"
+    "attempted_at": "2026-11-11T02:49:40.268Z",
+    "last_success": "2026-11-11T02:49:40.268Z"
   },
   {
     "id": "usenix-security",
@@ -74,6 +74,7 @@
     "group": "security",
     "year": 2026,
     "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+    "matched_count": 56,
     "items": [
       {
         "id": "usenix-security:2026:de5f382d9788aa08",
@@ -132,10 +133,9 @@
         "excerpt": "This paper studies how multimodal large language models (MLLMs) undermine the security guarantees of visual CAPTCHA."
       }
     ],
-    "matched_count": 55,
-    "status": "error",
-    "attempted_at": "2026-11-10T04:38:18.181Z",
-    "last_success": "2026-09-10T11:34:53.014Z"
+    "status": "ok",
+    "attempted_at": "2026-11-11T02:49:40.268Z",
+    "last_success": "2026-11-11T02:49:40.268Z"
   },
   {
     "id": "acm-ccs",
@@ -203,8 +203,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-10T04:38:18.181Z",
-    "last_success": "2026-11-10T04:38:18.181Z"
+    "attempted_at": "2026-11-11T02:49:40.268Z",
+    "last_success": "2026-11-11T02:49:40.268Z"
   },
   {
     "id": "ndss",
@@ -272,8 +272,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-10T04:38:18.181Z",
-    "last_success": "2026-11-10T04:38:18.181Z"
+    "attempted_at": "2026-11-11T02:49:40.268Z",
+    "last_success": "2026-11-11T02:49:40.268Z"
   },
   {
     "id": "icml",
@@ -342,7 +342,7 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-10T04:38:18.181Z",
-    "last_success": "2026-11-10T04:38:18.181Z"
+    "attempted_at": "2026-11-11T02:49:40.268Z",
+    "last_success": "2026-11-11T02:49:40.268Z"
   }
 ]
