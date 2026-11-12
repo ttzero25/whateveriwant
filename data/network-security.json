@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-11T02:50:03.617Z",
+  "attempted_at": "2026-11-12T03:49:43.997Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-11-11T02:50:03.617Z",
-      "last_success": "2026-11-11T02:50:03.617Z",
+      "attempted_at": "2026-11-12T03:49:43.997Z",
+      "last_success": "2026-11-12T03:49:43.997Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-11T02:50:03.617Z"
+          "last_success": "2026-11-12T03:49:43.997Z"
         }
       ],
       "count": 60
@@ -32,20 +32,51 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-11-11T02:50:03.617Z",
-      "last_success": "2026-11-11T02:50:03.617Z",
+      "attempted_at": "2026-11-12T03:49:43.997Z",
+      "last_success": "2026-11-12T03:49:43.997Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-11T02:50:03.617Z"
+          "last_success": "2026-11-12T03:49:43.997Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "netsec",
+      "title": "Data4Cyber: Labeled Cyber-Physical Datasets for Distribution-Grid Management Systems Under Representative OT Attacks",
+      "url": "https://arxiv.org/abs/2611.13942v1",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T11:29:07.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "defense"
+      ],
+      "excerpt": "Cyberattacks against power systems increasingly exploit industrial communication and control dependencies arising from distributed energy resources (DER), remote management, and market-based incentives.",
+      "first_seen": "2026-11-12T03:49:43.997Z"
+    },
+    {
+      "source": "wireless",
+      "title": "On Private Knowledge Retrieval and Private Inference for secure multi-agent systems",
+      "url": "https://arxiv.org/abs/2611.13696v1",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T07:43:02.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "Multi-agent systems provide a convenient framework for the massive deployment of agents based on Large Language Models (LLMs).",
+      "first_seen": "2026-11-12T03:49:43.997Z"
+    },
     {
       "source": "netsec",
       "title": "DeepChronos: Temporal Neuro-Symbolic Reasoning for Multi-Step Attack Detection",
@@ -183,6 +214,22 @@
       ],
       "excerpt": "The limited computational resources of Internet of Things (IoT) devices present challenges for secure image processing.",
       "first_seen": "2026-11-10T04:38:24.325Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Design and Evaluation of Secure Distributed Chaotic Image Encryption on ESP32-S3",
+      "url": "https://arxiv.org/abs/2611.10595v2",
+      "date": "2026-11-07",
+      "published_at": "2026-11-07T09:02:20.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "The limited computational resources of Internet of Things (IoT) devices present challenges for secure image processing.",
+      "first_seen": "2026-11-12T03:49:43.997Z"
     },
     {
       "source": "wireless",
@@ -1706,21 +1753,6 @@
       "first_seen": "2026-10-07T02:25:47.653Z"
     },
     {
-      "source": "netsec",
-      "title": "GCTAuto-encoder: A Cross modal Framework for Security Flaw Detection in IoT Networks",
-      "url": "https://arxiv.org/abs/2610.06517v1",
-      "date": "2026-10-05",
-      "published_at": "2026-10-05T15:31:19.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "IoT encompasses diverse physical entities, from smart home devices to autonomous vehicles, creating a complex environment with heterogeneous security models.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
       "source": "wireless",
       "title": "ANT: A Multi-Granularity Network Traffic Dataset and Benchmark for Agents Behavior Auditing",
       "url": "https://arxiv.org/abs/2610.06514v1",
@@ -1856,37 +1888,6 @@
         "routing"
       ],
       "excerpt": "Underwriters in commercial Property and Casualty (P&C) insurance spend 30 to 40% of their time on administrative work rather than risk judgment, and a single…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Structured Pose-Conditioned Flow Matching for Generative 5G CSI Augmentation",
-      "url": "https://arxiv.org/abs/2609.29912v1",
-      "date": "2026-09-24",
-      "published_at": "2026-09-24T14:52:16.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless"
-      ],
-      "excerpt": "With the growing demand for privacy-preserving and occlusion-resilient human pose recognition (HPR), 5G channel state information (CSI) offers a promising contactless sensing modality by integrating…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Improving the Reliability of Anomaly Detection for Encrypted OPC UA Traffic over Private 5G",
-      "url": "https://arxiv.org/abs/2609.29745v1",
-      "date": "2026-09-24",
-      "published_at": "2026-09-24T12:59:27.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless",
-        "defense"
-      ],
-      "excerpt": "Open Platform Communications Unified Architecture (OPC UA) is increasingly deployed over private 5G networks in industrial environments, where end-to-end encryption prevents payload inspection by network-based…",
       "first_seen": "2026-10-06T10:38:01.395Z"
     }
   ]

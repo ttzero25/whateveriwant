@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-11T02:49:43.339Z",
+  "attempted_at": "2026-11-12T03:49:37.636Z",
   "sources": [
     {
       "id": "ros",
@@ -11,14 +11,14 @@
         "Open Robotics 커뮤니티 · security 태그",
         "Open Robotics community · security tag"
       ],
-      "attempted_at": "2026-11-11T02:49:43.339Z",
-      "last_success": "2026-11-11T02:49:43.339Z",
+      "attempted_at": "2026-11-12T03:49:37.636Z",
+      "last_success": "2026-11-12T03:49:37.636Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://discourse.openrobotics.org/tag/security.rss",
           "status": "ok",
-          "last_success": "2026-11-11T02:49:43.339Z"
+          "last_success": "2026-11-12T03:49:37.636Z"
         }
       ],
       "count": 31
@@ -32,14 +32,14 @@
         "ROS·로봇 보안 관련 프리프린트",
         "Preprints on ROS and robotics security"
       ],
-      "attempted_at": "2026-11-11T02:49:43.339Z",
-      "last_success": "2026-11-11T02:49:43.339Z",
+      "attempted_at": "2026-11-12T03:49:37.636Z",
+      "last_success": "2026-11-12T03:49:37.636Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28ti%3Arobot+OR+ti%3Arobotics+OR+all%3A%22Robot+Operating+System%22+OR+all%3A%22ROS+2%22+OR+all%3ASROS2%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-11T02:49:43.339Z"
+          "last_success": "2026-11-12T03:49:37.636Z"
         }
       ],
       "count": 60
@@ -53,20 +53,51 @@
         "자율주행·차량·센서 보안 프리프린트",
         "Preprints on autonomous vehicles and sensor security"
       ],
-      "attempted_at": "2026-11-11T02:49:43.339Z",
-      "last_success": "2026-11-11T02:49:43.339Z",
+      "attempted_at": "2026-11-12T03:49:37.636Z",
+      "last_success": "2026-11-12T03:49:37.636Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22autonomous+driving%22+OR+all%3A%22autonomous+vehicle%22+OR+all%3A%22connected+vehicle%22+OR+all%3A%22in-vehicle%22+OR+all%3ALiDAR%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-11T02:49:43.339Z"
+          "last_success": "2026-11-12T03:49:37.636Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "robotics",
+      "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+      "url": "https://arxiv.org/abs/2611.14488v1",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T18:47:57.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security"
+      ],
+      "excerpt": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened.",
+      "first_seen": "2026-11-12T03:49:37.636Z"
+    },
+    {
+      "source": "autonomy",
+      "title": "How Well Do SAST Tools Work Across Languages? An Empirical Study Using OCPP Implementations",
+      "url": "https://arxiv.org/abs/2611.14362v1",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T17:21:00.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "security",
+        "autonomy"
+      ],
+      "excerpt": "As electric vehicle (EV) adoption accelerates globally, securing electric vehicle charging station (EVCS) software becomes increasingly critical.",
+      "first_seen": "2026-11-12T03:49:37.636Z"
+    },
     {
       "source": "robotics",
       "title": "RoboACE: Adversarial Co-Evolution for Robot Self-Improvement",
@@ -1296,22 +1327,6 @@
       "first_seen": "2026-11-04T03:01:19.557Z"
     },
     {
-      "source": "autonomy",
-      "title": "Automotive Hardware Attacks: An Architect's Guide to TARA",
-      "url": "https://arxiv.org/abs/2610.09697v1",
-      "date": "2026-10-07",
-      "published_at": "2026-10-07T08:56:31.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security",
-        "autonomy"
-      ],
-      "excerpt": "Threat analysis and risk assessment (TARA) according to ISO/SAE 21434 treats implementation-level hardware attacks inconsistently.",
-      "first_seen": "2026-10-08T02:42:53.756Z"
-    },
-    {
       "source": "robotics",
       "title": "RobotAPO: Adversarial Physics Preference Optimization for Robotic Manipulation Video Generation",
       "url": "https://arxiv.org/abs/2610.09454v1",
@@ -2012,21 +2027,6 @@
       ],
       "excerpt": "The human body is at the center of a growing family of technologies designed to tightly and persistently couple biological and digital systems.",
       "first_seen": null
-    },
-    {
-      "source": "robotics",
-      "title": "!Imperio, smolVLA: The Implications of Data Poisoning on Open Source Robotics",
-      "url": "https://arxiv.org/abs/2607.04146v1",
-      "date": "2026-07-05",
-      "published_at": "2026-07-05T07:14:56.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "security"
-      ],
-      "excerpt": "This work establishes that trigger-word data poisoning of vision language action models is practical, while at the same time the open-source robotics ecosystem holds trust…",
-      "first_seen": "2026-09-11T01:08:01.377Z"
     },
     {
       "source": "ros",
