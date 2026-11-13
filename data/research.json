@@ -1,20 +1,20 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-12T03:49:26.655Z",
+  "attempted_at": "2026-11-13T03:25:49.010Z",
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "home": "https://openai.com/news/",
-      "attempted_at": "2026-11-12T03:49:26.655Z",
-      "last_success": "2026-11-12T03:49:26.655Z",
+      "attempted_at": "2026-11-13T03:25:49.010Z",
+      "last_success": "2026-11-13T03:25:49.010Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://openai.com/news/rss.xml",
           "status": "ok",
-          "last_success": "2026-11-12T03:49:26.655Z"
+          "last_success": "2026-11-13T03:25:49.010Z"
         }
       ],
       "count": 60
@@ -28,7 +28,7 @@
         "https://www.anthropic.com/news"
       ],
       "home": "https://www.anthropic.com/news",
-      "attempted_at": "2026-11-12T03:49:26.655Z",
+      "attempted_at": "2026-11-13T03:25:49.010Z",
       "last_success": "2026-10-20T01:51:40.669Z",
       "status": "error",
       "endpoints": [
@@ -50,20 +50,68 @@
       "name": "arXiv",
       "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
       "home": "https://arxiv.org/list/cs.CR/recent",
-      "attempted_at": "2026-11-12T03:49:26.655Z",
-      "last_success": "2026-11-12T03:49:26.655Z",
+      "attempted_at": "2026-11-13T03:25:49.010Z",
+      "last_success": "2026-11-13T03:25:49.010Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://rss.arxiv.org/rss/cs.CR+cs.AI+cs.LG",
           "status": "ok",
-          "last_success": "2026-11-12T03:49:26.655Z"
+          "last_success": "2026-11-13T03:25:49.010Z"
         }
       ],
       "count": 150
     }
   ],
   "items": [
+    {
+      "source": "openai",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "published_at": "2026-11-12T20:00:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-11-12",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ],
+      "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "first_seen": "2026-11-13T03:25:49.010Z"
+    },
+    {
+      "source": "openai",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "published_at": "2026-11-12T12:00:00.000Z",
+      "category": "Startup",
+      "channel": "news",
+      "date": "2026-11-12",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ],
+      "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "first_seen": "2026-11-13T03:25:49.010Z"
+    },
+    {
+      "source": "openai",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "published_at": "2026-11-12T09:30:00.000Z",
+      "category": "",
+      "channel": "news",
+      "date": "2026-11-12",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "research"
+      ],
+      "excerpt": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "first_seen": "2026-11-13T03:25:49.010Z"
+    },
     {
       "source": "openai",
       "title": "Gilbert + Tobin rethinks the business of law with AI",
@@ -79,6 +127,22 @@
       ],
       "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "first_seen": "2026-11-11T02:49:39.210Z"
+    },
+    {
+      "source": "openai",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "category": "Global Affairs",
+      "channel": "news",
+      "date": "2026-11-12",
+      "date_kind": "published",
+      "kind": "official",
+      "tags": [
+        "safety"
+      ],
+      "excerpt": "OpenAI commits $2 million to research on AI and children’s safety.",
+      "first_seen": "2026-11-13T03:25:49.010Z"
     },
     {
       "source": "openai",
@@ -3522,70 +3586,6 @@
       ],
       "excerpt": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
       "first_seen": "2026-10-27T02:06:33.536Z"
-    },
-    {
-      "source": "openai",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "published_at": "2026-10-26T07:00:00.000Z",
-      "category": "",
-      "channel": "news",
-      "date": "2026-10-26",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look.",
-      "first_seen": "2026-10-27T02:06:33.536Z"
-    },
-    {
-      "source": "openai",
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "published_at": "2026-10-26T07:00:00.000Z",
-      "category": "OpenAI on OpenAI",
-      "channel": "news",
-      "date": "2026-10-26",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes.",
-      "first_seen": "2026-10-27T02:06:33.536Z"
-    },
-    {
-      "source": "openai",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "published_at": "2026-10-23T17:00:00.000Z",
-      "category": "Engineering",
-      "channel": "news",
-      "date": "2026-10-23",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "research"
-      ],
-      "excerpt": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "first_seen": "2026-10-24T01:37:23.247Z"
-    },
-    {
-      "source": "openai",
-      "title": "Securing our frontier model training environment",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "published_at": "2026-10-23T10:00:00.000Z",
-      "category": "Security",
-      "channel": "news",
-      "date": "2026-10-23",
-      "date_kind": "published",
-      "kind": "official",
-      "tags": [
-        "security"
-      ],
-      "excerpt": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "first_seen": "2026-10-24T01:37:23.247Z"
     },
     {
       "source": "anthropic",
