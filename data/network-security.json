@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-13T03:26:27.644Z",
+  "attempted_at": "2026-11-14T03:20:40.464Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-11-13T03:26:27.644Z",
-      "last_success": "2026-11-13T03:26:27.644Z",
+      "attempted_at": "2026-11-14T03:20:40.464Z",
+      "last_success": "2026-11-14T03:20:40.464Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-13T03:26:27.644Z"
+          "last_success": "2026-11-14T03:20:40.464Z"
         }
       ],
       "count": 60
@@ -32,20 +32,52 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-11-13T03:26:27.644Z",
-      "last_success": "2026-11-13T03:26:27.644Z",
+      "attempted_at": "2026-11-14T03:20:40.464Z",
+      "last_success": "2026-11-14T03:20:40.464Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-13T03:26:27.644Z"
+          "last_success": "2026-11-14T03:20:40.464Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "netsec",
+      "title": "Class-Competence Aggregation: Output-Layer Routing for Federated Multiclass DDoS Detection under Class-Concentrated Non-IID Data",
+      "url": "https://arxiv.org/abs/2611.16772v1",
+      "date": "2026-11-12",
+      "published_at": "2026-11-12T13:18:13.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "routing",
+        "defense"
+      ],
+      "excerpt": "Federated learning over distributed intrusion-detection sensors naturally produces \\emph{class-concentrated} non-IID data, where an entire attack class is held by a single client and absent elsewhere.",
+      "first_seen": "2026-11-14T03:20:40.464Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Protocol-Aware Auditing of Domain-Blind Feature Attribution in Network Intrusion Detection",
+      "url": "https://arxiv.org/abs/2611.16018v1",
+      "date": "2026-11-11",
+      "published_at": "2026-11-11T21:24:44.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "defense"
+      ],
+      "excerpt": "Feature-attribution methods can query rule-violating network states through perturbations, coalitions, references, paths, and ablations, making explanations and their evaluation sensitive to model behavior outside the…",
+      "first_seen": "2026-11-14T03:20:40.464Z"
+    },
     {
       "source": "netsec",
       "title": "Data4Cyber: Labeled Cyber-Physical Datasets for Distribution-Grid Management Systems Under Representative OT Attacks",
@@ -1720,36 +1752,6 @@
         "wireless"
       ],
       "excerpt": "Bluetooth Low Energy (BLE) pairing establishes the cryptographic foundation for secure device communication.",
-      "first_seen": "2026-10-07T02:25:47.653Z"
-    },
-    {
-      "source": "netsec",
-      "title": "A Deployment-Aware Feasibility Framework for Machine Learning-Based IoT Intrusion Detection Across Edge, Fog, and Cloud Architectures",
-      "url": "https://arxiv.org/abs/2610.08867v1",
-      "date": "2026-10-06",
-      "published_at": "2026-10-06T02:30:20.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "The rapid growth and heterogeneity of Internet of Things (IoT) environments have exposed fundamental limitations in traditional rule-based and signature-based intrusion detection systems.",
-      "first_seen": "2026-10-08T02:42:57.814Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Deep Defence on Wheels: A Dual Intrusion Detection System Architecture for Comprehensive In-Vehicle Network Security",
-      "url": "https://arxiv.org/abs/2610.07489v1",
-      "date": "2026-10-05",
-      "published_at": "2026-10-05T22:52:39.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Increasing connectivity to the outside world and the lack of inbuilt security mechanisms have made legacy intra-vehicular networks vulnerable to cyberattacks.",
       "first_seen": "2026-10-07T02:25:47.653Z"
     },
     {
