@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-17T05:05:55.694Z",
+  "attempted_at": "2026-11-18T04:25:51.358Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-11-17T05:05:55.694Z",
-      "last_success": "2026-11-17T05:05:55.694Z",
+      "attempted_at": "2026-11-18T04:25:51.358Z",
+      "last_success": "2026-11-18T04:25:51.358Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-17T05:05:55.694Z"
+          "last_success": "2026-11-18T04:25:51.358Z"
         }
       ],
       "count": 60
@@ -32,20 +32,160 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-11-17T05:05:55.694Z",
-      "last_success": "2026-11-17T05:05:55.694Z",
+      "attempted_at": "2026-11-18T04:25:51.358Z",
+      "last_success": "2026-11-18T04:25:51.358Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-17T05:05:55.694Z"
+          "last_success": "2026-11-18T04:25:51.358Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "Provable Mixing Properties of Parallel Mixnets Revisited",
+      "url": "https://arxiv.org/abs/2611.22732v1",
+      "date": "2026-11-17",
+      "published_at": "2026-11-17T13:02:51.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "routing",
+        "privacy"
+      ],
+      "excerpt": "A mix-network (mixnet) is a routing network that breaks source-to-destination message trackability by indistinguishably mixing the routes of concurrently transmitted messages, thus providing anonymity to…",
+      "first_seen": "2026-11-18T04:25:51.358Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Hierarchical Personalized Federated Learning for Fine-Grained Intrusion Detection: A Multi-Class Analysis in Heterogeneous Attack Environments",
+      "url": "https://arxiv.org/abs/2611.21970v1",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T22:55:29.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Intrusion Detection Systems (IDS) play a vital role in protecting modern network infrastructures.",
+      "first_seen": "2026-11-18T04:25:51.358Z"
+    },
+    {
+      "source": "wireless",
+      "title": "V2V Communications Using Blockchain-Enabled 6G Technology and Federated Learning",
+      "url": "https://arxiv.org/abs/2611.21932v1",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T21:46:07.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless",
+        "privacy"
+      ],
+      "excerpt": "This study proposes an interesting approach for vehicle-to-vehicle (V2V) communication, which integrates blockchain technology, federated learning (FL), and allocation optimization of latency and resources.",
+      "first_seen": "2026-11-18T04:25:51.358Z"
+    },
+    {
+      "source": "netsec",
+      "title": "TRACE: Topological Representations for Anomaly detection through Contrastive Embeddings",
+      "url": "https://arxiv.org/abs/2611.21548v1",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T18:31:11.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Intrusion detectors must recognize evolving malicious behavior even when confirmed attack labels are scarce or incomplete.",
+      "first_seen": "2026-11-18T04:25:51.358Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Post-Quantum Migration of Wi-Fi Key Establishment: A Hybrid ML-KEM Design for OWE and FILS, Validated on OWE with hostapd",
+      "url": "https://arxiv.org/abs/2611.21528v1",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T18:18:31.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "The key agreements that protect a Wi-Fi connection rely on Diffie-Hellman, which a sufficiently capable quantum computer would break; an adversary can therefore record an…",
+      "first_seen": "2026-11-18T04:25:51.358Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Network Intrusion Detection Adaptability under Spurious Labels: A Noise-Aware Few-Shot Class-Incremental Learning Framework",
+      "url": "https://arxiv.org/abs/2611.21473v1",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T17:49:45.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Network Intrusion Detection Systems (NIDSs) must incrementally adapt to emerging attacks, even when only a limited amount of labeled network traffic is available.",
+      "first_seen": "2026-11-18T04:25:51.358Z"
+    },
+    {
+      "source": "netsec",
+      "title": "PQC Migration: End-to-End Performance Profiling of Post Quantum Cryptographic Algorithms in mTLS",
+      "url": "https://arxiv.org/abs/2611.21206v1",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T14:59:28.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol"
+      ],
+      "excerpt": "Emerging quantum computers threaten to break the classical key exchange algorithms.",
+      "first_seen": "2026-11-18T04:25:51.358Z"
+    },
+    {
+      "source": "wireless",
+      "title": "The Cybersecurity Dataset Observatory: Which Data for AI in Cybersecurity?",
+      "url": "https://arxiv.org/abs/2611.20812v1",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T09:58:03.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "AI is increasingly used for cybersecurity tasks such as intrusion and malware detection, in enterprise, industrial, vehicular and mobile networks.",
+      "first_seen": "2026-11-18T04:25:51.358Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Baryonic Keys and the Inheritance of Crypto-Assets: Revisiting the Tales From the Crypt Protocol",
+      "url": "https://arxiv.org/abs/2611.20782v1",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T09:32:07.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "traffic",
+        "privacy"
+      ],
+      "excerpt": "The inheritance of crypto-assets faces a structural obstacle: ownership is the knowledge of a key, so the key either disappears with its owner or has…",
+      "first_seen": "2026-11-18T04:25:51.358Z"
+    },
     {
       "source": "netsec",
       "title": "Replay-Augmented Regularisation for Class-Incremental Network Intrusion Detection: A Three-Dataset Evaluation of EWC and LwF",
@@ -415,6 +555,21 @@
       ],
       "excerpt": "As integrated sensing and communication (ISAC) lets 5G and 6G base stations detect drones, software agents will soon act on what they sense.",
       "first_seen": "2026-11-09T02:41:56.608Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Physical Sensing Verification for Cognitive ISAC against UAV Spoofing via Digital Twins",
+      "url": "https://arxiv.org/abs/2611.08658v2",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T20:07:33.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "As integrated sensing and communication (ISAC) lets 5G and 6G base stations detect drones, software agents will act on these detections, so a replayed signal…",
+      "first_seen": "2026-11-18T04:25:51.358Z"
     },
     {
       "source": "netsec",
@@ -879,6 +1034,21 @@
       ],
       "excerpt": "Published results in quantum machine learning for intrusion detection (QML-IDS) require joint interpretation of false-positive rate (FPR), attack true-positive rate (TPR), and evaluation provenance.",
       "first_seen": "2026-10-28T02:19:24.715Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Reconstructing False Alarm and Detection Rates in Quantum Machine Learning for Intrusion Detection",
+      "url": "https://arxiv.org/abs/2610.35235v3",
+      "date": "2026-10-26",
+      "published_at": "2026-10-26T11:21:27.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Published results in quantum machine learning for intrusion detection (QML-IDS) require joint interpretation of false-positive rate (FPR), attack true-positive rate (TPR), and evaluation provenance.",
+      "first_seen": "2026-11-18T04:25:51.358Z"
     },
     {
       "source": "netsec",
@@ -1627,36 +1797,6 @@
       "first_seen": "2026-10-15T01:30:50.768Z"
     },
     {
-      "source": "netsec",
-      "title": "Toward Realistic Privacy Risk in FL-Enabled OT Intrusion Detection Systems",
-      "url": "https://arxiv.org/abs/2610.16872v1",
-      "date": "2026-10-12",
-      "published_at": "2026-10-12T14:35:30.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "In Operational Technology (OT) environments, Federated Learning (FL) is increasingly adopted to train Intrusion Detection Systems (IDSs) without sharing raw operational data across facilities.",
-      "first_seen": "2026-10-15T01:30:50.768Z"
-    },
-    {
-      "source": "netsec",
-      "title": "AutoSec-RAN: Specification-Grounded LLM Fine-Tuning for Automated Security Analysis of O-RAN",
-      "url": "https://arxiv.org/abs/2610.15995v1",
-      "date": "2026-10-11",
-      "published_at": "2026-10-11T23:54:13.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless"
-      ],
-      "excerpt": "This paper presents AutoSec-RAN, a specification-grounded large language model (LLM) framework for automated security triage of Open Radio Access Network (O-RAN) testing.",
-      "first_seen": "2026-10-15T01:30:50.768Z"
-    },
-    {
       "source": "wireless",
       "title": "AutoSec-RAN: Specification-Grounded LLM Fine-Tuning for Automated Security Analysis of O-RAN",
       "url": "https://arxiv.org/abs/2610.15995v1",
@@ -1669,22 +1809,6 @@
         "wireless"
       ],
       "excerpt": "This paper presents AutoSec-RAN, a specification-grounded large language model (LLM) framework for automated security triage of Open Radio Access Network (O-RAN) testing.",
-      "first_seen": "2026-10-15T01:30:50.768Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Penetrating the Reality Wall: Long-Range and Through-Wall AR/VR Privacy Eavesdropping via Wireless Power Side Channel",
-      "url": "https://arxiv.org/abs/2610.15865v1",
-      "date": "2026-10-11",
-      "published_at": "2026-10-11T19:37:17.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless",
-        "traffic"
-      ],
-      "excerpt": "Over the past decade, Metaverse technology (AR/VR) has seen widespread adoption in numerous areas, including gaming, social networking, and online collaboration.",
       "first_seen": "2026-10-15T01:30:50.768Z"
     },
     {
@@ -1701,38 +1825,6 @@
         "traffic"
       ],
       "excerpt": "Over the past decade, Metaverse technology (AR/VR) has seen widespread adoption in numerous areas, including gaming, social networking, and online collaboration.",
-      "first_seen": "2026-10-15T01:30:50.768Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Revisited Support Vector Machines: A Unified Joint Optimization Framework with Nyström Approximation for Scalable Adaptive Learning",
-      "url": "https://arxiv.org/abs/2610.15498v1",
-      "date": "2026-10-11",
-      "published_at": "2026-10-11T09:57:36.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "The theoretical elegance of Support Vector Machines (SVMs), grounded in statistical learning theory, establishes them as a reference for robust classification.",
-      "first_seen": "2026-10-15T01:30:50.768Z"
-    },
-    {
-      "source": "netsec",
-      "title": "On the Effectiveness of NetFlow-Based Deanonymization of Tor Onion Services (Extended Version)",
-      "url": "https://arxiv.org/abs/2610.15198v1",
-      "date": "2026-10-10",
-      "published_at": "2026-10-10T22:00:37.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense",
-        "traffic",
-        "privacy"
-      ],
-      "excerpt": "In the context of Tor, deanonymization attacks via traffic correlation have long been studied for both clients and onion services.",
       "first_seen": "2026-10-15T01:30:50.768Z"
     },
     {
@@ -1798,99 +1890,6 @@
         "traffic"
       ],
       "excerpt": "The growing adoption of large language model (LLM) agents creates a need for network administrators and security teams to audit agent behavior within organizational networks…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Line-Rate GTP-U Admission Control at the Edge of a Cloud-Native 5G Core: An XDP-Based Design for Kubernetes-Hosted User Plane Functions",
-      "url": "https://arxiv.org/abs/2610.02296v1",
-      "date": "2026-10-01",
-      "published_at": "2026-10-01T17:32:50.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "wireless"
-      ],
-      "excerpt": "The User Plane Function (UPF) of a 5G Standalone core terminates every GPRS Tunnelling Protocol user-plane (GTP-U) packet arriving from the radio access network, which…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Protocol Integration of Physical Layer Deception into EAP-TEAP Wi-Fi Authentication",
-      "url": "https://arxiv.org/abs/2610.01580v1",
-      "date": "2026-10-01",
-      "published_at": "2026-10-01T12:36:16.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "wireless"
-      ],
-      "excerpt": "Credential-based Extensible Authentication Protocol (EAP) authentication cannot distinguish a legitimate credential holder from an adversary using compromised credentials.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Identity-Bound Governance Under Execution Uncertainty: An Accountability Proof Block for LLM Agent Persistent Halts, with Cryptographic Implementation and Cross-Model Calibration",
-      "url": "https://arxiv.org/abs/2610.00787v1",
-      "date": "2026-09-30",
-      "published_at": "2026-09-30T22:22:33.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol"
-      ],
-      "excerpt": "A correctly governed LLM agent can reach a state in which neither continuing execution nor automatically halting is admissible: the system has detected a persistent…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Privacy-Friendly Cohort Determination: Sealed, CSP-Independent In-Browser ML Inference of Professional Segments for Identity-Less Advertising",
-      "url": "https://arxiv.org/abs/2609.36153v1",
-      "date": "2026-09-28",
-      "published_at": "2026-09-28T19:24:19.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "privacy"
-      ],
-      "excerpt": "B2B advertising targets a viewer's professional attributes (employer size and industry, function, seniority) and has obtained them by matching identities across sites.",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Can Prompt Anonymity Protect Your Identity From LLM Providers?",
-      "url": "https://arxiv.org/abs/2609.33903v1",
-      "date": "2026-09-27",
-      "published_at": "2026-09-27T20:36:09.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "privacy"
-      ],
-      "excerpt": "User conversations with large language models (LLMs) often contain highly sensitive personal information that can be exploited by LLM providers to create detailed user dossiers,…",
-      "first_seen": "2026-10-06T10:38:01.395Z"
-    },
-    {
-      "source": "wireless",
-      "title": "The Cost of Stability: Deanonymizing Onion Services Long-Lived Introduction Circuits",
-      "url": "https://arxiv.org/abs/2609.33831v1",
-      "date": "2026-09-27",
-      "published_at": "2026-09-27T18:29:35.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "routing",
-        "privacy"
-      ],
-      "excerpt": "Tor is a widely used anonymity network that provides network privacy by routing client communications through a sequence of relays to their destinations.",
       "first_seen": "2026-10-06T10:38:01.395Z"
     }
   ]
