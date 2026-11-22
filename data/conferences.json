@@ -5,6 +5,7 @@
     "group": "security",
     "year": 2026,
     "url": "https://sp2026.ieee-security.org/accepted-papers.html",
+    "matched_count": 42,
     "items": [
       {
         "id": "ieee-sp:2026:049e90b0ea13230a",
@@ -63,10 +64,9 @@
         "excerpt": ""
       }
     ],
-    "matched_count": 42,
-    "status": "error",
-    "attempted_at": "2026-11-21T04:00:04.575Z",
-    "last_success": "2026-11-20T03:59:52.820Z"
+    "status": "ok",
+    "attempted_at": "2026-11-22T03:13:30.532Z",
+    "last_success": "2026-11-22T03:13:30.532Z"
   },
   {
     "id": "usenix-security",
@@ -134,8 +134,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-21T04:00:04.575Z",
-    "last_success": "2026-11-21T04:00:04.575Z"
+    "attempted_at": "2026-11-22T03:13:30.532Z",
+    "last_success": "2026-11-22T03:13:30.532Z"
   },
   {
     "id": "acm-ccs",
@@ -203,8 +203,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-21T04:00:04.575Z",
-    "last_success": "2026-11-21T04:00:04.575Z"
+    "attempted_at": "2026-11-22T03:13:30.532Z",
+    "last_success": "2026-11-22T03:13:30.532Z"
   },
   {
     "id": "ndss",
@@ -272,8 +272,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-21T04:00:04.575Z",
-    "last_success": "2026-11-21T04:00:04.575Z"
+    "attempted_at": "2026-11-22T03:13:30.532Z",
+    "last_success": "2026-11-22T03:13:30.532Z"
   },
   {
     "id": "icml",
@@ -342,7 +342,7 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-21T04:00:04.575Z",
-    "last_success": "2026-11-21T04:00:04.575Z"
+    "attempted_at": "2026-11-22T03:13:30.532Z",
+    "last_success": "2026-11-22T03:13:30.532Z"
   }
 ]

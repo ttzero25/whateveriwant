@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-21T04:01:48.429Z",
+  "attempted_at": "2026-11-22T03:13:50.070Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,8 +13,8 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-11-21T04:01:48.429Z",
-      "last_success": "2026-11-21T04:01:48.429Z",
+      "attempted_at": "2026-11-22T03:13:50.070Z",
+      "last_success": "2026-11-22T03:13:50.070Z",
       "status": "ok",
       "count": 150
     },
@@ -29,8 +29,8 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-11-21T04:01:48.429Z",
-      "last_success": "2026-11-21T04:01:48.429Z",
+      "attempted_at": "2026-11-22T03:13:50.070Z",
+      "last_success": "2026-11-22T03:13:50.070Z",
       "status": "ok",
       "count": 150
     },
@@ -44,8 +44,8 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-11-21T04:01:48.429Z",
-      "last_success": "2026-11-21T04:01:48.429Z",
+      "attempted_at": "2026-11-22T03:13:50.070Z",
+      "last_success": "2026-11-22T03:13:50.070Z",
       "status": "ok",
       "count": 150
     },
@@ -60,13 +60,113 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-11-21T04:01:48.429Z",
-      "last_success": "2026-11-21T04:01:48.429Z",
+      "attempted_at": "2026-11-22T03:13:50.070Z",
+      "last_success": "2026-11-22T03:13:50.070Z",
       "status": "ok",
       "count": 87
     }
   ],
   "items": [
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "경기도교육청, 2023년 27만명 성적정보 유출로 과태료…3년 만에 교원 개인정보 또 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209649",
+      "published_at": "2026-11-21T14:22:04.000Z",
+      "date": "2026-11-21",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "경기도교육청에서 교원 158명의 개인정보가 외부 사건 관계인들에게 전달되는 사고가 발생했다.",
+      "first_seen": "2026-11-22T03:13:50.070Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "published_at": "2026-11-21T11:05:53.000Z",
+      "date": "2026-11-21",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to…",
+      "first_seen": "2026-11-22T03:13:50.070Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "published_at": "2026-11-21T11:03:17.000Z",
+      "date": "2026-11-21",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access…",
+      "first_seen": "2026-11-22T03:13:50.070Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "published_at": "2026-11-21T08:49:13.000Z",
+      "date": "2026-11-21",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "The U.S.",
+      "first_seen": "2026-11-22T03:13:50.070Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[전자금융감독규정 일부 개정안] 금융위, 대형 금융사 보안점검 ‘반기 1회’로…업무지원 시스템도 살핀다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209648",
+      "published_at": "2026-11-21T08:26:25.000Z",
+      "date": "2026-11-21",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "금융회사의 업무지원 시스템이 중계 서버를 통해 전자금융기반시설과 연결돼 있다면, 앞으로는 이 업무지원 시스템도 취약점 평가에 포함된다.",
+      "first_seen": "2026-11-22T03:13:50.070Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "미 FBI 범죄정보망 ‘NCIC’ 해킹 정황... “수배·영장 정보 변조 우려”",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147427",
+      "published_at": "2026-11-21T06:15:48.000Z",
+      "date": "2026-11-21",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "미국 연방수사국(FBI)의 전국 범죄정보 데이터베이스(DB)에서 외부 침입 정황이 포착돼 당국이 조사에 착수했다.CNN은 20일(현지시간) 조사 내용을 보고받은 관계자 2명을 인용해 FBI가 최근 며칠 사이 ‘국가범죄정보센터’(NCIC) 시스템의…",
+      "first_seen": "2026-11-22T03:13:50.070Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "블랙다이아몬드 코리아, 외주 ERP 서버 침해사고…고객 개인정보 유출 가능성 공지",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209647",
+      "published_at": "2026-11-21T05:06:14.000Z",
+      "date": "2026-11-21",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "아웃도어 브랜드 블랙다이아몬드 코리아가 주문·배송 업무에 사용하는 외부 통합 ERP(전사적자원관리) 서비스사 서버에서 침해사고 정황이 발견돼 고객 개인정보 유출 가능성을 공지했다.",
+      "first_seen": "2026-11-22T03:13:50.070Z"
+    },
     {
       "source": "dailysecu",
       "region": "kr",
@@ -5893,20 +5993,6 @@
       "first_seen": "2026-11-10T04:38:28.250Z"
     },
     {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "해커 서버까지 선제 접근... 일본, 100억엔 긴급 사이버 대책에 ‘톱건’팀 11월 말 출범",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147089",
-      "published_at": "2026-11-09T05:14:53.000Z",
-      "date": "2026-11-09",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "일본 정부가 대기업과 정부 기관에서 잇따른 해킹과 정보 유출에 맞서 100억엔(약 6300만달러) 규모의 긴급 사이버보안 대책을 발표했다.시큐리티위크에 따르면 다카이치 사나에 일본 총리는 각료 회의에서 AI로…",
-      "first_seen": "2026-11-10T04:38:28.250Z"
-    },
-    {
       "source": "dailysecu",
       "region": "kr",
       "lang": "ko",
@@ -6007,48 +6093,6 @@
         "vulnerability"
       ],
       "excerpt": "글로벌 디지털 인증서 발급기업 디지서트(DigiCert)가 내부 업무 시스템의 보안 설정 오류와 접근권한 관리 취약점으로 해킹 피해를 입었다.",
-      "first_seen": "2026-11-09T02:42:02.268Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "디지털자산 운용사 '하이퍼리즘' 해킹…주민등록번호·은행 계좌정보까지 유출",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209388",
-      "published_at": "2026-11-08T07:52:07.000Z",
-      "date": "2026-11-08",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "디지털자산 운용사 하이퍼리즘(Hyperithm)이 외부 사이버공격을 받아 주민등록번호와 은행 계좌정보를 포함한 개인정보가 유출된 것으로 확인됐다.",
-      "first_seen": "2026-11-09T02:42:02.268Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "SM엔터테인먼트·디어유·드림메이커…업무시스템 해킹에 주민번호·계좌정보까지 노출",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209387",
-      "published_at": "2026-11-08T07:42:42.000Z",
-      "date": "2026-11-08",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "국내 대형 엔터테인먼트 기업 SM엔터테인먼트와 팬 소통 플랫폼 '버블(bubble)' 운영사 디어유, 공연기획사 드림메이커에서 개인정보 유출사고가 발생했다.",
-      "first_seen": "2026-11-09T02:42:02.268Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "한국국제교류재단 해킹 피해 확대 정황…대량메일 이어 일반메일시스템도 개인정보 유출",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209381",
-      "published_at": "2026-11-08T04:03:28.000Z",
-      "date": "2026-11-08",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "한국국제교류재단(KF)이 지난 7월 발생한 해킹 사고와 관련해 일반메일시스템 등에서 추가적인 개인정보 유출 정황을 확인했다.",
       "first_seen": "2026-11-09T02:42:02.268Z"
     },
     {
@@ -7044,49 +7088,6 @@
         "vulnerability"
       ],
       "excerpt": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call,…",
-      "first_seen": "2026-10-30T02:38:19.679Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-      "published_at": "2026-10-29T10:44:46.000Z",
-      "date": "2026-10-29",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software…",
-      "first_seen": "2026-10-30T02:38:19.679Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-      "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-      "published_at": "2026-10-29T09:05:39.000Z",
-      "date": "2026-10-29",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine…",
-      "first_seen": "2026-10-30T02:38:19.679Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-      "published_at": "2026-10-29T08:24:22.000Z",
-      "date": "2026-10-29",
-      "tags": [
-        "vulnerability",
-        "malware"
-      ],
-      "excerpt": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.",
       "first_seen": "2026-10-30T02:38:19.679Z"
     },
     {
