@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-22T03:13:46.672Z",
+  "attempted_at": "2026-11-23T03:44:13.328Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-11-22T03:13:46.672Z",
-      "last_success": "2026-11-22T03:13:46.672Z",
+      "attempted_at": "2026-11-23T03:44:13.328Z",
+      "last_success": "2026-11-23T03:44:13.328Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-22T03:13:46.672Z"
+          "last_success": "2026-11-23T03:44:13.328Z"
         }
       ],
       "count": 60
@@ -32,20 +32,81 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-11-22T03:13:46.672Z",
-      "last_success": "2026-11-22T03:13:46.672Z",
+      "attempted_at": "2026-11-23T03:44:13.328Z",
+      "last_success": "2026-11-23T03:44:13.328Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-22T03:13:46.672Z"
+          "last_success": "2026-11-23T03:44:13.328Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "PepDeTech: Anonymous Occupancy Monitoring on a Battery-Powered 2.3k-Zone dToF LiDAR Node with On-Chip Processing and Bluetooth LE Reporting",
+      "url": "https://arxiv.org/abs/2611.27304v1",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T08:44:31.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "As populations grow, society is increasingly required to shift towards systems of shared resources, which allow space, energy and time to be optimised.",
+      "first_seen": "2026-11-23T03:44:13.328Z"
+    },
+    {
+      "source": "wireless",
+      "title": "PCC: Proof-Carrying Credentials for Enhanced Anonymity and Post-Quantum Delegation",
+      "url": "https://arxiv.org/abs/2611.27250v1",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T07:55:57.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "traffic",
+        "privacy"
+      ],
+      "excerpt": "Delegatable Anonymous Credentials (DACs) support anonymous exercise of authority delegated through intermediaries, as in DeFi credit delegation.",
+      "first_seen": "2026-11-23T03:44:13.328Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Enhancing Metaverse Security using Explainable AI-based Intrusion Detection Framework",
+      "url": "https://arxiv.org/abs/2611.27199v1",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T06:35:08.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "The MoT virtual environment, called the Metaverse of Things (MoT), combines machine learning (ML) and Internet of Things (IoT) to offer significant business opportunities in…",
+      "first_seen": "2026-11-23T03:44:13.328Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+      "url": "https://arxiv.org/abs/2611.27112v1",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T04:35:33.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Teams put a one-page rules file in a repository and call it a control on coding agents.",
+      "first_seen": "2026-11-23T03:44:13.328Z"
+    },
     {
       "source": "netsec",
       "title": "ZoionNET: Low-Power Animal Intrusion Detection Using an Acoustic Deep-Learning Classifier for a Cellular Remote-Sensing System",
@@ -1770,22 +1831,6 @@
       "first_seen": "2026-10-15T01:30:50.768Z"
     },
     {
-      "source": "netsec",
-      "title": "Autonomous Cyber Operations Gym for Training and Evaluating AI Models for Defence",
-      "url": "https://arxiv.org/abs/2610.18594v2",
-      "date": "2026-10-13",
-      "published_at": "2026-10-13T15:52:47.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "defense"
-      ],
-      "excerpt": "This paper proposes an Autonomous Cyber Operations (ACO) gym, a unified framework integrating high-fidelity network emulation, realistic user behaviour modelling for benign network traffic and…",
-      "first_seen": "2026-11-13T03:26:27.644Z"
-    },
-    {
       "source": "wireless",
       "title": "Rethinking Quality in Large Language Model Routing: Security-Conditioned Model-and-Budget Selection",
       "url": "https://arxiv.org/abs/2610.18566v1",
@@ -1814,21 +1859,6 @@
       ],
       "excerpt": "Large language model (LLM) routers reduce serving cost by choosing which model to call and how many output tokens to grant it for each query.",
       "first_seen": "2026-10-19T01:19:00.742Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Tanchun: Robust Flow-Based HTTP(S) DDoS Detection via Behavioral Attribute Guidance",
-      "url": "https://arxiv.org/abs/2610.18406v1",
-      "date": "2026-10-13",
-      "published_at": "2026-10-13T13:50:50.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "HTTP(S) DDoS attacks have surged in frequency and scale, posing a significant threat to network security.",
-      "first_seen": "2026-10-15T01:30:50.768Z"
     },
     {
       "source": "wireless",
@@ -1860,40 +1890,6 @@
       ],
       "excerpt": "Over the past decade, Metaverse technology (AR/VR) has seen widespread adoption in numerous areas, including gaming, social networking, and online collaboration.",
       "first_seen": "2026-10-15T01:30:50.768Z"
-    },
-    {
-      "source": "wireless",
-      "title": "On the Effectiveness of NetFlow-Based Deanonymization of Tor Onion Services (Extended Version)",
-      "url": "https://arxiv.org/abs/2610.15198v1",
-      "date": "2026-10-10",
-      "published_at": "2026-10-10T22:00:37.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense",
-        "traffic",
-        "privacy"
-      ],
-      "excerpt": "In the context of Tor, deanonymization attacks via traffic correlation have long been studied for both clients and onion services.",
-      "first_seen": "2026-10-15T01:30:50.768Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Quantifying the Privacy Posture of Operator-Side 5G/O-RAN Profiles",
-      "url": "https://arxiv.org/abs/2610.07976v1",
-      "date": "2026-10-06",
-      "published_at": "2026-10-06T08:42:07.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless",
-        "traffic",
-        "privacy"
-      ],
-      "excerpt": "Operator-side network profiles derived from 5G/ORAN traffic carry personal data such as ephemeral subscriber identifiers, slice-level KPIs, and control-plane signalling, and must be anonymised before…",
-      "first_seen": "2026-10-07T02:25:47.653Z"
     }
   ]
 }
