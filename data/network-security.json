@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-24T06:58:04.632Z",
+  "attempted_at": "2026-11-25T05:27:35.321Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-11-24T06:58:04.632Z",
-      "last_success": "2026-11-24T06:58:04.632Z",
+      "attempted_at": "2026-11-25T05:27:35.321Z",
+      "last_success": "2026-11-25T05:27:35.321Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-24T06:58:04.632Z"
+          "last_success": "2026-11-25T05:27:35.321Z"
         }
       ],
       "count": 60
@@ -32,20 +32,97 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-11-24T06:58:04.632Z",
-      "last_success": "2026-11-24T06:58:04.632Z",
+      "attempted_at": "2026-11-25T05:27:35.321Z",
+      "last_success": "2026-11-25T05:27:35.321Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-24T06:58:04.632Z"
+          "last_success": "2026-11-25T05:27:35.321Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "netsec",
+      "title": "FOL-Proof: Verifying LLM Text-to-Logic Translations via Deterministic Semantics",
+      "url": "https://arxiv.org/abs/2611.33078v1",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T18:13:28.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense"
+      ],
+      "excerpt": "Large Language Models (LLMs) are increasingly used to translate natural-language statements into first-order logic (FOL) to improve reasoning.",
+      "first_seen": "2026-11-25T05:27:35.321Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Spoofing Wireless Sensing with Metasurfase-based Physical Deepfakes",
+      "url": "https://arxiv.org/abs/2611.32386v1",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T10:50:38.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Wireless communication networks are expanding from mere information transfer to sensing: in the Integrated Sensing and Communication paradigm, existing infrastructure and signals are reused to…",
+      "first_seen": "2026-11-25T05:27:35.321Z"
+    },
+    {
+      "source": "wireless",
+      "title": "An expert consensus on identification likelihood in NeuroImaging data",
+      "url": "https://arxiv.org/abs/2611.32330v1",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T10:18:34.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "Guidelines on the anonymity of neuroimaging data help manage research data, inform institutional legal and governance frameworks, and support data-sharing workflows.",
+      "first_seen": "2026-11-25T05:27:35.321Z"
+    },
+    {
+      "source": "netsec",
+      "title": "Operationalizing Quantum Machine Learning for IoT Network Intrusion Detection",
+      "url": "https://arxiv.org/abs/2611.32314v1",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T10:11:22.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "defense",
+        "traffic"
+      ],
+      "excerpt": "The rapid growth of the Internet of Things (IoT) has increased networked systems' exposure to cyber threats, making Network Intrusion Detection Systems (NIDSs) essential for…",
+      "first_seen": "2026-11-25T05:27:35.321Z"
+    },
+    {
+      "source": "netsec",
+      "title": "CenShaper: Shaping Proxy Traffic for Censorship Circumvention",
+      "url": "https://arxiv.org/abs/2611.31016v1",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T17:00:54.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "traffic"
+      ],
+      "excerpt": "Modern commodity DPI systems are capable of analyzing packet sizes, directions, and timings to detect circumvention tools even when those tools use sophisticated obfuscation.",
+      "first_seen": "2026-11-25T05:27:35.321Z"
+    },
     {
       "source": "wireless",
       "title": "PLATRS: A Lattice-Based Linkable Accountable Ring Signature for Permissioned Blockchains",
@@ -1806,22 +1883,6 @@
       "first_seen": "2026-10-19T01:19:00.742Z"
     },
     {
-      "source": "netsec",
-      "title": "Model-as-a-Trojan: Self-Activating Covert DNS Exfiltration Baked Into the Weights of an LLM Agent",
-      "url": "https://arxiv.org/abs/2610.22578v1",
-      "date": "2026-10-15",
-      "published_at": "2026-10-15T19:26:27.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "defense"
-      ],
-      "excerpt": "Open-weight models are downloaded from public hubs and run inside agent harnesses that grant them tools, most powerfully, a shell, under the assumption that a…",
-      "first_seen": "2026-10-19T01:19:00.742Z"
-    },
-    {
       "source": "wireless",
       "title": "Does Client Diversity Protect the Lightning Network? Evidence from the 2026 Core Lightning Shutdown",
       "url": "https://arxiv.org/abs/2610.20952v1",
@@ -1835,66 +1896,6 @@
       ],
       "excerpt": "Client diversity is often cited as the Lightning Network's defence against a bug in any one implementation, yet LND runs 84% of public nodes and…",
       "first_seen": "2026-10-17T01:20:20.483Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Does Client Diversity Protect the Lightning Network? Evidence from the 2026 Core Lightning Shutdown",
-      "url": "https://arxiv.org/abs/2610.20952v2",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T21:22:53.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "privacy"
-      ],
-      "excerpt": "Client diversity is often cited as the Lightning Network's defence against a bug in any one implementation, yet LND runs 80% of public nodes (84%…",
-      "first_seen": "2026-10-24T01:37:33.895Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Quantifying privacy risks in foundation model representations of brain MRI",
-      "url": "https://arxiv.org/abs/2610.20494v1",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T17:03:42.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "privacy"
-      ],
-      "excerpt": "Pretrained representations are increasingly used to share and reuse information from medical images without exposing the original scans, but it is unclear how much patient-specific…",
-      "first_seen": "2026-10-17T01:20:20.483Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Adaptive and Proximal Federated Optimization for Transferable Network Intrusion Detection",
-      "url": "https://arxiv.org/abs/2610.19808v1",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T08:49:37.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Network Intrusion Detection Systems (NIDS) based on deep learning often fail to detect attack classes that are absent from training data, limiting their robustness against…",
-      "first_seen": "2026-10-15T01:30:50.768Z"
-    },
-    {
-      "source": "netsec",
-      "title": "Analyzing and Mitigating Poisoning Attacks on Flow-Based Intrusion Detection",
-      "url": "https://arxiv.org/abs/2610.19766v1",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T08:17:58.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "defense"
-      ],
-      "excerpt": "Although Artificial Intelligence (AI)-based Intrusion Detection Systems (IDSs) are increasingly deployed in operational networks, their dependence on large-scale training data introduces a critical vulnerability to…",
-      "first_seen": "2026-10-15T01:30:50.768Z"
     }
   ]
 }
