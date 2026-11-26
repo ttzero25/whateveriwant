@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-25T05:27:35.321Z",
+  "attempted_at": "2026-11-26T05:07:52.399Z",
   "sources": [
     {
       "id": "netsec",
@@ -11,14 +11,14 @@
         "TLS·DNS·BGP·DDoS 등 네트워크 보안 프리프린트",
         "Preprints on TLS, DNS, BGP, DDoS and network security"
       ],
-      "attempted_at": "2026-11-25T05:27:35.321Z",
-      "last_success": "2026-11-25T05:27:35.321Z",
+      "attempted_at": "2026-11-26T05:07:52.399Z",
+      "last_success": "2026-11-26T05:07:52.399Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22network+security%22+OR+all%3A%22DNS+security%22+OR+all%3ABGP+OR+all%3ADDoS+OR+all%3A%22traffic+analysis%22+OR+all%3A%22intrusion+detection%22+OR+all%3Afirewall+OR+all%3A%22TLS+protocol%22%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-25T05:27:35.321Z"
+          "last_success": "2026-11-26T05:07:52.399Z"
         }
       ],
       "count": 60
@@ -32,20 +32,51 @@
         "무선·셀룰러·프로토콜·익명 통신 프리프린트",
         "Preprints on wireless, cellular, protocol and anonymity security"
       ],
-      "attempted_at": "2026-11-25T05:27:35.321Z",
-      "last_success": "2026-11-25T05:27:35.321Z",
+      "attempted_at": "2026-11-26T05:07:52.399Z",
+      "last_success": "2026-11-26T05:07:52.399Z",
       "status": "ok",
       "endpoints": [
         {
           "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%225G%22+OR+all%3ALTE+OR+all%3A%22Wi-Fi%22+OR+all%3ABluetooth+OR+all%3A%22wireless+security%22+OR+all%3AQUIC+OR+all%3A%22routing+security%22+OR+all%3ATor+OR+all%3Aanonymity%29+AND+%28all%3Asecurity+OR+all%3Aattack+OR+all%3Aadversarial+OR+all%3Aintrusion+OR+all%3Aspoofing+OR+all%3Avulnerability+OR+all%3Aprivacy%29&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
           "status": "ok",
-          "last_success": "2026-11-25T05:27:35.321Z"
+          "last_success": "2026-11-26T05:07:52.399Z"
         }
       ],
       "count": 60
     }
   ],
   "items": [
+    {
+      "source": "wireless",
+      "title": "Model Weights, Airlocks and Sandboxes: A Call for Technical Validation of Re-identification Tests under the EDPB Anonymisation Guidelines",
+      "url": "https://arxiv.org/abs/2611.34859v1",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T18:28:20.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "privacy"
+      ],
+      "excerpt": "The Guidelines 02/2026 on anonymisation of the European Data Protection Board (EDPB), published for consultation in July 2026, assess anonymity relative to the entities that…",
+      "first_seen": "2026-11-26T05:07:52.399Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Small Leaks Sink Great Ships: Automated Analysis of Protocols That Tolerate Low-Entropy Keys",
+      "url": "https://arxiv.org/abs/2611.33595v1",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T01:13:11.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "protocol",
+        "wireless"
+      ],
+      "excerpt": "Modern cryptographic protocols such as WPA2-PSK, Bluetooth Low Energy (BLE), and Bluetooth Classic (BC) tolerate low-entropy keys for user-friendliness, backward compatibility, or resource-constrained deployment, yet…",
+      "first_seen": "2026-11-26T05:07:52.399Z"
+    },
     {
       "source": "netsec",
       "title": "FOL-Proof: Verifying LLM Text-to-Logic Translations via Deterministic Semantics",
@@ -60,6 +91,21 @@
       ],
       "excerpt": "Large Language Models (LLMs) are increasingly used to translate natural-language statements into first-order logic (FOL) to improve reasoning.",
       "first_seen": "2026-11-25T05:27:35.321Z"
+    },
+    {
+      "source": "wireless",
+      "title": "Spoofing Wireless Sensing with Metasurface-based Physical Deepfakes",
+      "url": "https://arxiv.org/abs/2611.32386v2",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T10:50:38.000Z",
+      "date_kind": "published",
+      "kind": "preprint",
+      "channel": "papers",
+      "tags": [
+        "wireless"
+      ],
+      "excerpt": "Wireless communication networks are expanding from mere information transfer to sensing: in the Integrated Sensing and Communication paradigm, existing infrastructure and signals are reused to…",
+      "first_seen": "2026-11-26T05:07:52.399Z"
     },
     {
       "source": "wireless",
@@ -1822,21 +1868,6 @@
       "first_seen": "2026-10-20T01:51:48.584Z"
     },
     {
-      "source": "wireless",
-      "title": "The Rise of Personal Trackers as the Next Infrastructure for Ubiquitous Positioning",
-      "url": "https://arxiv.org/abs/2610.24249v1",
-      "date": "2026-10-16",
-      "published_at": "2026-10-16T21:21:07.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "wireless"
-      ],
-      "excerpt": "Reliable indoor positioning remains a central unsolved problem in spatial computing.",
-      "first_seen": "2026-10-20T01:51:48.584Z"
-    },
-    {
       "source": "netsec",
       "title": "Recording-Aware Evaluation of Multimodal OT Intrusion Detection",
       "url": "https://arxiv.org/abs/2610.24128v1",
@@ -1852,22 +1883,6 @@
       "first_seen": "2026-10-20T01:51:48.584Z"
     },
     {
-      "source": "wireless",
-      "title": "Fast BSS Transition for Multi-PSK Community Wi-Fi in MDU Networks: Fragmented RADIUS Key Delivery, Server-Derived PMK-R0/PMK-R1 Distribution through a Cloud Management API, and Lease-Driven Key Revocation",
-      "url": "https://arxiv.org/abs/2610.23116v1",
-      "date": "2026-10-16",
-      "published_at": "2026-10-16T08:25:03.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "protocol",
-        "wireless"
-      ],
-      "excerpt": "Multi-dwelling-unit (MDU) properties increasingly deploy one community-wide SSID on which every unit or resident has its own pre-shared key, mapped to its own VLAN so…",
-      "first_seen": "2026-10-19T01:19:00.742Z"
-    },
-    {
       "source": "netsec",
       "title": "ACE: An AI-Orchestrated Intrusion Detection and Compliance Mapping Engine",
       "url": "https://arxiv.org/abs/2610.22702v1",
@@ -1881,21 +1896,6 @@
       ],
       "excerpt": "This study proposes the Automated Compliance Engine (ACE), an AI-orchestrated framework that links intrusion detection, regulatory control mapping, and automated countermeasure deployment for security operations…",
       "first_seen": "2026-10-19T01:19:00.742Z"
-    },
-    {
-      "source": "wireless",
-      "title": "Does Client Diversity Protect the Lightning Network? Evidence from the 2026 Core Lightning Shutdown",
-      "url": "https://arxiv.org/abs/2610.20952v1",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T21:22:53.000Z",
-      "date_kind": "published",
-      "kind": "preprint",
-      "channel": "papers",
-      "tags": [
-        "privacy"
-      ],
-      "excerpt": "Client diversity is often cited as the Lightning Network's defence against a bug in any one implementation, yet LND runs 84% of public nodes and…",
-      "first_seen": "2026-10-17T01:20:20.483Z"
     }
   ]
 }

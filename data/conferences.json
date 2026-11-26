@@ -65,8 +65,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-25T05:27:12.404Z",
-    "last_success": "2026-11-25T05:27:12.404Z"
+    "attempted_at": "2026-11-26T05:07:29.656Z",
+    "last_success": "2026-11-26T05:07:29.656Z"
   },
   {
     "id": "usenix-security",
@@ -134,8 +134,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-25T05:27:12.404Z",
-    "last_success": "2026-11-25T05:27:12.404Z"
+    "attempted_at": "2026-11-26T05:07:29.656Z",
+    "last_success": "2026-11-26T05:07:29.656Z"
   },
   {
     "id": "acm-ccs",
@@ -203,8 +203,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-25T05:27:12.404Z",
-    "last_success": "2026-11-25T05:27:12.404Z"
+    "attempted_at": "2026-11-26T05:07:29.656Z",
+    "last_success": "2026-11-26T05:07:29.656Z"
   },
   {
     "id": "ndss",
@@ -272,8 +272,8 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-25T05:27:12.404Z",
-    "last_success": "2026-11-25T05:27:12.404Z"
+    "attempted_at": "2026-11-26T05:07:29.656Z",
+    "last_success": "2026-11-26T05:07:29.656Z"
   },
   {
     "id": "icml",
@@ -342,7 +342,7 @@
       }
     ],
     "status": "ok",
-    "attempted_at": "2026-11-25T05:27:12.404Z",
-    "last_success": "2026-11-25T05:27:12.404Z"
+    "attempted_at": "2026-11-26T05:07:29.656Z",
+    "last_success": "2026-11-26T05:07:29.656Z"
   }
 ]
