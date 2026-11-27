@@ -1,6 +1,6 @@
 {
   "automation_enabled": true,
-  "attempted_at": "2026-11-26T05:07:55.460Z",
+  "attempted_at": "2026-11-27T05:05:31.917Z",
   "sources": [
     {
       "id": "boannews",
@@ -13,8 +13,8 @@
         "www.boannews.com",
         "boannews.com"
       ],
-      "attempted_at": "2026-11-26T05:07:55.460Z",
-      "last_success": "2026-11-26T05:07:55.460Z",
+      "attempted_at": "2026-11-27T05:05:31.917Z",
+      "last_success": "2026-11-27T05:05:31.917Z",
       "status": "ok",
       "count": 150
     },
@@ -29,8 +29,8 @@
         "www.dailysecu.com",
         "dailysecu.com"
       ],
-      "attempted_at": "2026-11-26T05:07:55.460Z",
-      "last_success": "2026-11-26T05:07:55.460Z",
+      "attempted_at": "2026-11-27T05:05:31.917Z",
+      "last_success": "2026-11-27T05:05:31.917Z",
       "status": "ok",
       "count": 150
     },
@@ -44,8 +44,8 @@
       "hosts": [
         "thehackernews.com"
       ],
-      "attempted_at": "2026-11-26T05:07:55.460Z",
-      "last_success": "2026-11-26T05:07:55.460Z",
+      "attempted_at": "2026-11-27T05:05:31.917Z",
+      "last_success": "2026-11-27T05:05:31.917Z",
       "status": "ok",
       "count": 150
     },
@@ -60,13 +60,660 @@
         "www.cisa.gov",
         "cisa.gov"
       ],
-      "attempted_at": "2026-11-26T05:07:55.460Z",
-      "last_success": "2026-11-26T05:07:55.460Z",
+      "attempted_at": "2026-11-27T05:05:31.917Z",
+      "last_success": "2026-11-27T05:05:31.917Z",
       "status": "ok",
       "count": 93
     }
   ],
   "items": [
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "수협은행도 고객 54명 개인정보 유출, 금융권 침해사고 잇따라",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209789",
+      "published_at": "2026-11-27T04:37:17.000Z",
+      "date": "2026-11-27",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Sh수협은행이 외부 해킹 공격으로 고객 54명의 개인정보가 유출되는 침해사고를 당했다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "과학기술인공제회 해킹…회원정보 21만건 유출, 국가 연구인력 표적공격 우려",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209788",
+      "published_at": "2026-11-27T04:32:25.000Z",
+      "date": "2026-11-27",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "국내 과학기술인의 노후 보장과 생활 안정, 복지 증진을 담당하는 과학기술인공제회(SEMA)가 해킹당해 약 21만 건의 회원정보가 유출됐다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "과학기술인공제회, 서버 보안 취약점 악용 해킹으로 회원 개인정보 유출",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147598",
+      "published_at": "2026-11-27T03:30:00.000Z",
+      "date": "2026-11-27",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "과학기술인공제회(과기공제회)가 외부 사이버 침해사고로 인해 회원들의 개인정보가 유출된 사실을 확인하고 공식 사과와 함께 추가 안내에 나섰다.과기공제회는 최근 홈페이지 공지 및 회원 안내를 통해 지난 11월…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[이슈 칼럼] 쿠오 바디스, 사이버 보안 회복력의 마지막 열쇠는 사람이다",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147597",
+      "published_at": "2026-11-27T02:43:08.000Z",
+      "date": "2026-11-27",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "“쿠오 바디스, 도미네(Quo vadis, Domine).” 주여, 어디로 가시나이까.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[카드뉴스] \"은행 보안 예산 1,000억 넘었는데\"… 내 정보 털려도 배상금은 20년째 '10만 원'인 이유",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147591",
+      "published_at": "2026-11-27T00:25:23.000Z",
+      "date": "2026-11-27",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "주요 시중은행의 보안 예산은 1,000억 원을 돌파했지만, 개인정보 유출 시 피해자가 받는 배상금은 20년째 10만 원 수준에 머물러 있다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[2026 보안 이슈 결산-7] “기본 비밀번호에 열린 원격 포트”...전 세계 기반시설·유통망 흔든 OT 해킹의 민낯",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147493",
+      "published_at": "2026-11-26T23:30:00.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "2026년 3월 미국 미네소타주 지방 상하수도(수처리) 시설에서 제어 시스템을 공격해 운영에 차질이 빚어진 사건이 발생해, 미국 사이버보안·인프라보안국(CISA)이 4월 초 ‘보안권고문’(AA26-097A)을 발령하며 전국 상하수도 부문의 긴급…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "에어프레미아 고객상담 위탁업체 해킹…고객 개인정보·통화 녹음 유출 가능성",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209785",
+      "published_at": "2026-11-26T23:18:25.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "국내 항공사 에어프레미아의 고객상담 업무를 위탁받아 운영하는 메타엠(MetaM)이 해킹당하면서 항공사 고객들의 개인정보와 상담 내용, 통화 녹음파일까지 유출됐을 가능성이 있는 것으로 확인됐다.앞서 가상자산 거래소 코인원과 번개장터,…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "published_at": "2026-11-26T15:13:41.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "malware"
+      ],
+      "excerpt": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 호텔스토리 또 해킹당해…10월 이어 11월도 2차 고객 개인정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209782",
+      "published_at": "2026-11-26T13:23:50.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "국내 숙박 예약관리 솔루션 기업 호텔스토리가 한 달도 안 돼 또다시 해킹을 당했다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "CJ올리브영 해킹, 고객 개인정보 유출…업무시스템 비인가 접근 확인",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209781",
+      "published_at": "2026-11-26T12:58:00.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "CJ올리브영이 외부 해킹 공격으로 고객 개인정보가 유출되는 침해사고를 당했다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "published_at": "2026-11-26T10:57:55.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "phishing"
+      ],
+      "excerpt": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "published_at": "2026-11-26T10:57:25.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information,…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "알약 개발사 이스트시큐리티, 개인정보 유출 가능성 공지",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209780",
+      "published_at": "2026-11-26T10:06:50.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "백신 프로그램 ‘알약(ALYac)’을 개발·공급하는 국내 정보보호 전문기업 이스트시큐리티도 더존비즈온 백업서버 해킹 사고의 영향권에 포함된 것으로 파악됐다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "정부, 개인정보 유출 위험 높은 ‘스크래핑’ 개선 나선다…2027년부터 API 기반 안전한 전송체계 전환",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209779",
+      "published_at": "2026-11-26T09:51:48.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "금융회사와 핀테크, 세무, 건강관리 서비스 사업자들이 국민을 대신해 공공기관 홈페이지에 접속하고 개인정보를 수집하는 이른바 ‘스크래핑(Scraping)’ 관행에 대해 정부가 개선에 나선다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "중국 해킹조직서 포털 계정 800여 개 구매…성형외과 허위 후기 8,400여 건 조작, 서울경찰청 52명 검거",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209778",
+      "published_at": "2026-11-26T09:20:27.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "중국 해킹조직으로부터 국내 포털사이트 계정을 대량으로 구매해 성형외과 관련 허위 후기와 댓글을 작성한 의료기관 및 광고업체 관계자들이 경찰에 무더기로 검거됐다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "코스닥 상장사 팸텍, 랜섬웨어 공격 당해…주주·임직원 개인정보 유출 KISA 신고",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209775",
+      "published_at": "2026-11-26T09:02:20.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "카메라모듈 검사 및 반도체 공정 자동화 장비 전문기업인 코스닥 상장사 팸텍(PAMTEK·271830)이 랜섬웨어 공격을 받은 것으로 확인됐다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "웰컴페이먼츠 해킹, 개인정보 유출 규모 또 수정…1,327명 결제정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209773",
+      "published_at": "2026-11-26T08:55:13.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "웰컴금융그룹 계열 전자지급결제대행(PG) 업체인 웰컴페이먼츠(대표 이상준)가 해킹 사고에 따른 개인정보 유출 규모를 다시 수정했다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "이파피루스, 스트림닥스 보안 강화...소스코드 취약점 점검부터 패치까지 직접 수행",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209770",
+      "published_at": "2026-11-26T08:49:18.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "문서 AI 기업 이파피루스(대표 김정희)가 웹 기반 문서 뷰어 스트림닥스(StreamDocs)와 스트림닥스 뷰!(StreamDocs Vu!)의 보안을 강화하고 고객사 전반에 보안 패치를 제공한다고 26일 밝혔다.여러 경로의 사이버 공격이…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 국민건강보험공단, 또 개인정보 유출…내부 접근권한 관리 실태 점검 필요",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209771",
+      "published_at": "2026-11-26T08:45:44.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "국민건강보험공단에서 직원의 부적절한 업무 처리로 국민의 개인정보가 유출되는 사고가 발생했다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 가상자산 전문매체 토큰포스트 해킹…회원정보·지갑 주소·토큰 거래 내역까지 유출 정황",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209769",
+      "published_at": "2026-11-26T08:39:51.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "국내 블록체인·가상자산 전문매체 토큰포스트가 외부 해킹 공격으로 관리자 계정을 탈취당하고 회원 개인정보가 유출된 것으로 확인됐다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "엠클라우독, 기업 데이터 보호 위한 ‘백업 가이드’와 자가 점검표 공개",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209767",
+      "published_at": "2026-11-26T08:32:27.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "엠클라우독(대표 유상열)이 기업 스스로 데이터 백업 상태를 점검하고 보안 사고에 대비하도록 돕는 백업 가이드를 공식 블로그에 공개했다고 26일 밝혔다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "국무조정실, 잇단 해킹 한국전력 공직복무 점검 검토…“위반사항 일벌백계”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209766",
+      "published_at": "2026-11-26T08:28:58.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "policy"
+      ],
+      "excerpt": "한국전력공사에서 지난 10월과 11월 연이어 개인정보 유출사고가 발생한 가운데 국무조정실이 관련 임직원에 대한 공직복무 점검을 검토하고 나섰다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "가격 비교 플랫폼 ‘다나와’ 해킹 추정 사고... 서비스 일시 중단",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147585",
+      "published_at": "2026-11-26T08:25:18.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "가격 비교 플랫폼 ‘다나와’가 해킹으로 추정되는 보안 사고를 확인하고 서비스를 일시 중단했다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[단독] 다우키움그룹 계열사 이머니 ‘엑스원’ 해킹 정황…고객 개인정보 유출, 환불 사칭 연락으로 정보유출 인지",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209765",
+      "published_at": "2026-11-26T08:17:02.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "phishing"
+      ],
+      "excerpt": "다우키움그룹 계열사인 이머니(대표 조용학)가 운영하는 주식투자 정보 플랫폼 엑스원(X1)에서 전문가 계정 도용과 서버 파일 접근 정황이 확인됐다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "국내 소규모 웹사이트 20여곳 털었던 해커, 또 해킹했다",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147581",
+      "published_at": "2026-11-26T08:06:32.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "지난해 말과 올해 6월경 국내 소규모 웹사이트 20여곳에서 데이터를 탈취해 다크웹 포럼에서 판매했던 해커가 다시 공격 활동을 벌였다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "독자 AI 모델로 해킹 방어대회... 과기정통부, ‘2026 ACDC’ 개최",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147582",
+      "published_at": "2026-11-26T08:04:57.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "국내 독자 AI 모델을 활용한 해킹 방어대회가 열린다.과학기술정보통신부(부총리 겸 장관 배경훈)는 한국인터넷진흥원(KISA, 원장 직무대행 류재철), 한국정보보호산업협회(KISIA, 회장 김진수)와 함께 ‘2026 AI 해킹방어대회(ACDC)를 내달 1-2일 서울…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "랜섬웨어 조직 ‘더 젠틀맨’, 국내 게임 개발사 나딕게임즈 해킹 주장…정보유출 여부 주목",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209764",
+      "published_at": "2026-11-26T07:37:11.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "해외 랜섬웨어 조직 더 젠틀맨(The Gentlemen)이 국내 게임 개발사 나딕게임즈(NADDIC GAMES)를 해킹했다고 주장하며 자체 다크웹 정보유출 사이트에 피해 기업으로 등재했다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "랜섬웨어 조직 에베레스트, 코스닥 상장사 \"고영테크놀러지 해킹\" 주장…28일 데이터 공개 예고",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209763",
+      "published_at": "2026-11-26T07:28:30.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "랜섬웨어 조직 에베레스트(Everest)가 국내 코스닥 상장기업 고영테크놀러지(Koh Young Technology)를 해킹했다고 주장하며 오는 11월 28일 데이터 공개를 예고했다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "[2026 보안 이슈 결산-6] 사람 대신 ‘비인간 신원’(NHI) 노린 해커... API 키 관리 비상",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147450",
+      "published_at": "2026-11-26T07:15:00.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "2026년 기업 보안의 중심이 임직원 계정에서 API 키와 인증 토큰, AI 에이전트 등 ‘비인간 신원’(Non-Human Identity·NHI)으로 옮겨갔다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "다나와, 해킹 사고로 서비스 중단…회원 개인정보 유출 여부 촉각",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209761",
+      "published_at": "2026-11-26T07:10:24.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "국내 가격비교 플랫폼 다나와에서 외부 침해로 추정되는 보안 사고가 발생해 서비스가 중단됐다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "원패스워드 직원 깃허브 계정 해킹…일부 고객 정보·비공개 소스코드 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209760",
+      "published_at": "2026-11-26T07:03:40.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "비밀번호 관리 서비스 원패스워드(1Password)가 직원의 업무용 깃허브 계정 침해로 일부 고객의 계정 정보와 회사 소스코드가 유출됐다고 11월 25일 밝혔다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "published_at": "2026-11-26T07:02:34.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "페스카로, ‘CO-SHOW AutoHack 2026’서 실차 기반 풀체인 해킹 과제 출제",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209759",
+      "published_at": "2026-11-26T07:02:13.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "페스카로(대표 홍석민)가 ‘CO-SHOW AutoHack 2026(자동차 해킹·방어 경진대회)’에서 상용 커넥티비티 제품과 실제 차량의 취약점을 연계한 공격 시나리오를 구현해 대회 과제로 출제했다고 26일 밝혔다.지난 18일부터 20일까지 광주…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "펜타린크, AI 보안 어시스턴트 ‘프롬틱’ 개발해 ACRA Point V3에 탑재",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209758",
+      "published_at": "2026-11-26T06:56:46.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "펜타린크(대표 정주현)는 계열사 펜타시스템테크놀러지의 Lab5고등기술연구소와 함께 생성형 AI 보안 어시스턴트 ‘프롬틱(Promptiq)’을 자체 개발해 자사 시스템 접근제어 솔루션 ‘ACRA Point V3’에 탑재했다고 26일 밝혔다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "관악구, 범죄예방 환경개선 공로로 대통령표창 수상",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147579",
+      "published_at": "2026-11-26T06:48:26.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "서울시 관악구(구청장 박준희)가 25일 정부과천청사에서 열린 ‘2026년 범죄예방대상’에서 범죄예방 환경개선과 지역사회 안전 증진에 기여한 공로로 대통령표창을 받았다.법무부가 주관하는 범죄예방대상은 범죄예방과 법질서 확립에 기여한 공공기관 및…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "thehackernews",
+      "region": "global",
+      "lang": "en",
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "published_at": "2026-11-26T06:44:46.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "vulnerability"
+      ],
+      "excerpt": "The U.S.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "개인정보 유출 뒤 번지는 2차 피싱 위협... ‘디지털 보호’ 필요한 이유",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147541",
+      "published_at": "2026-11-26T06:38:57.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "phishing"
+      ],
+      "excerpt": "최근 금융권 연쇄 침해사고와 더존비즈온·다우기술 등 기업용 소프트웨어(SW) 공급망 해킹이 잇따르며 2차 피해 우려가 커졌다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "에브리존, ‘화이트디펜더 리눅스서버’ 조달 등록",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209755",
+      "published_at": "2026-11-26T06:26:22.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "에브리존(대표 홍승균)은 리눅스 서버용 안티랜섬웨어 솔루션 ‘화이트디펜더 리눅스서버(WhiteDefender Linux Server)’의 조달 등록을 마쳤다고 밝혔다.이번 등록으로 공공기관은 조달 구매 절차를 거쳐 해당 솔루션을 도입할 수 있게…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "이름·주소에 납부 내역까지... 캐나다 통신사 벨, 해킹으로 고객 정보 노출",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147473",
+      "published_at": "2026-11-26T06:10:00.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "캐나다 통신사 벨(Bell)의 내부 시스템이 해킹돼 고객 이름과 주소, 계정 번호, 마지막 납부 내역이 노출됐을 수 있다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "반도체 장비 업체 ‘팸텍’ 랜섬웨어 당했다... 개인정보 유출 가능성 제기",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147577",
+      "published_at": "2026-11-26T06:03:30.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "malware"
+      ],
+      "excerpt": "카메라모듈(CCM) 및 반도체 공정 자동화 장비 전문 코스닥 상장사 ‘팸텍’에서 랜섬웨어 공격으로 인한 주주 및 임직원의 개인정보 유출 가능성이 제기됐다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "그룹아이비, 사이버 범죄 대응과 ESG 성과 발표",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209752",
+      "published_at": "2026-11-26T06:00:00.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "malware",
+        "phishing"
+      ],
+      "excerpt": "그룹아이비(Group-IB, 지사장 김기태)가 ‘2025 지속가능성 보고서’를 발표했다고 26일 밝혔다.이번 보고서는 공격자 중심 접근 방식과 예측 인텔리전스를 바탕으로 거둔 사이버 범죄 대응 성과와 환경·사회·지배구조(ESG) 진전 사항을…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "국토부 산하 공간정보산업진흥원 개인정보 유출 가능성",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147573",
+      "published_at": "2026-11-26T05:57:41.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "국토교통부 산하 공공기관 공간정보산업진흥원에서도 해킹 공격으로 인한 개인정보 유출 가능성이 제기됐다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "dailysecu",
+      "region": "kr",
+      "lang": "ko",
+      "title": "카스퍼스키 “2027년 공급망 공격, 오픈소스·AI 에이전트·빌드 파이프라인 노린다”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209750",
+      "published_at": "2026-11-26T05:44:14.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "카스퍼스키(지사장 이효은)가 연례 보안 보고서인 Kaspersky Security Bulletin을 통해 2027년 공급망 공격의 주요 진입 경로로 오픈소스 구성요소, 빌드 파이프라인, AI 모델, AI 에이전트를 꼽았다고 26일…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "버려 둔 접속 키도 몇 분 만에 찾는다... 영국 NCSC, AI 에이전트 공격 늘자 약점 점검 촉구",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147505",
+      "published_at": "2026-11-26T05:31:17.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident"
+      ],
+      "excerpt": "영국 국가사이버보안센터(NCSC)가 9월 이후 AI 에이전트를 동원한 사이버 공격이 눈에 띄게 늘었다며, 새로운 무기가 아니라 오래 방치된 약점이 문제라고 경고했다.NCSC는 24일(현지시각) 블로그 글에서 여러 분야…",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
+    {
+      "source": "boannews",
+      "region": "kr",
+      "lang": "ko",
+      "title": "유럽 슈퍼마켓 냉장고 해킹 잇따르는데... 댄포스 냉장 제어기에 치명적 결함, 보안 패치는 아직",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147552",
+      "published_at": "2026-11-26T04:00:00.000Z",
+      "date": "2026-11-26",
+      "tags": [
+        "incident",
+        "vulnerability"
+      ],
+      "excerpt": "미국 사이버보안·인프라보안청(CISA)이 슈퍼마켓 냉장고를 관리하는 댄포스(Danfoss) 제어기에 치명적인 보안 결함이 있다고 경고했다.",
+      "first_seen": "2026-11-27T05:05:31.917Z"
+    },
     {
       "source": "thehackernews",
       "region": "global",
@@ -5165,34 +5812,6 @@
       "first_seen": "2026-11-16T02:46:53.770Z"
     },
     {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "한국생산성본부인증원, 이재근 원장 취임 계기로 ISMS-P 심사 역량 강화",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209513",
-      "published_at": "2026-11-15T23:30:00.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "policy"
-      ],
-      "excerpt": "한국생산성본부인증원이 이재근 신임 원장 취임을 계기로 정보보호 및 개인정보보호 관리체계(ISMS-P) 인증심사 역량을 강화한다.",
-      "first_seen": "2026-11-16T02:46:53.770Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[단독] 해커, 전북교육청 해킹 자료 유출 주장…텔레그램선 “수능 응시자 정보 공개” 발언",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209538",
-      "published_at": "2026-11-15T13:49:54.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "“다음은 jbe.go.kr.”해킹 관련 게시물을 올려온 텔레그램 채널에 전북특별자치도교육청의 공식 도메인이 등장했다.",
-      "first_seen": "2026-11-16T02:46:53.770Z"
-    },
-    {
       "source": "boannews",
       "region": "kr",
       "lang": "ko",
@@ -5204,34 +5823,6 @@
         "policy"
       ],
       "excerpt": "세무사 시험 수석 합격자의 AI 부정행위 자수로 시험 공정성 논란이 불거지자, 청와대가 모든 국가자격시험을 대상으로 유사 의심 사례 전수조사에 나서기로 했다.15일 청와대에 따르면 하준경 정책실장은…",
-      "first_seen": "2026-11-16T02:46:53.770Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[단독] 대구한의대 연구행정시스템 해킹…개인정보 1,281건 유출",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209537",
-      "published_at": "2026-11-15T09:42:35.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "대구한의대학교 산학협력단이 운영하는 연구행정통합시스템(RERP)이 외부 해킹 공격을 받아 개인정보 1,281건이 유출된 것으로 확인됐다.",
-      "first_seen": "2026-11-16T02:46:53.770Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "국가안보실, 민·관·군 IT 자산관리 전수 점검…공개 전 취약점 정보 확보 추진",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209535",
-      "published_at": "2026-11-15T08:57:57.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "국가안보실이 민간·공공·국방 분야의 정보기술(IT) 자산 관리 현황을 점검하고, 보안 취약점 정보를 정식 공개 전에 확보해 신속히 공유하는 방안을 추진한다.",
       "first_seen": "2026-11-16T02:46:53.770Z"
     },
     {
@@ -5250,237 +5841,6 @@
       "first_seen": "2026-11-16T02:46:53.770Z"
     },
     {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "“AI 사이버 위협 공동대응”... 청와대, 민·관·군 IT 자산 관리 체계 점검",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147274",
-      "published_at": "2026-11-15T07:16:11.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident",
-        "vulnerability"
-      ],
-      "excerpt": "청와대 국가안보실이 AI을 사이버 공격에 대응한다는 목적으로 민간·공공·국방을 아우르는 IT 인프라 관리 체계 정비에 착수했다.15일 국가안보실은 지난 13일 송기호 3차장 주재로 ‘민·관·군 사이버안보 공동대응 회의’를…",
-      "first_seen": "2026-11-16T02:46:53.770Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "삼성전자, 랜섬웨어 조직 ‘N0n’ 해킹 사이트에 등장…스마트TV 광고 데이터 탈취 주장...삼성 측 \"북미 제3자 벤더 보안 사고...조사 진행중\"",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209534",
-      "published_at": "2026-11-15T07:02:03.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident",
-        "malware"
-      ],
-      "excerpt": "삼성전자가 랜섬웨어 조직 ‘N0n’의 유출 사이트에 피해 기업으로 등록된 사실이 확인됐다.",
-      "first_seen": "2026-11-16T02:46:53.770Z",
-      "updated_at": "2026-11-17T05:06:02.818Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "한국조폐공사 지역사랑상품권 '착' 해킹…이용자 3,083명 개인정보 유출",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209533",
-      "published_at": "2026-11-15T04:54:14.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "한국조폐공사가 운영하는 모바일 지역사랑상품권 플랫폼 '착(chak)'에서 해킹으로 이용자 3,083명의 개인정보가 외부 비인가자에게 무단 조회된 사실이 확인됐다.",
-      "first_seen": "2026-11-16T02:46:53.770Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "코인원 고객센터 수탁사 해킹으로 개인정보 유출…주민번호·계좌번호 등 11개 항목 가능성",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209532",
-      "published_at": "2026-11-15T04:33:16.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "국내 가상자산 거래소 코인원이 고객 상담 업무를 맡긴 수탁업체 메타엠의 서버가 해킹돼 고객 개인정보가 유출됐다고 15일 오전 8시 공지했다.유출 가능 항목에는 고객이 상담 과정에서 남긴…",
-      "first_seen": "2026-11-16T02:46:53.770Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "피터팬의 좋은방 구하기 개인정보 유출... 일부 구매내역도",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147272",
-      "published_at": "2026-11-15T02:25:32.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "부동산 직거래 플랫폼 ‘피터팬의 좋은방 구하기’에서 이용자의 이름과 연락처, 일부 구매내역 등이 유출되는 사고가 발생했다고 회사 측이 공지했다.",
-      "first_seen": "2026-11-16T02:46:53.770Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[CPS 시큐어 AX 서밋 2026] “생산은 멈추면 안 된다”…황인구 CISO, 랜섬웨어 이후 바꾼 OT 보안",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209529",
-      "published_at": "2026-11-15T02:19:24.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "malware"
-      ],
-      "excerpt": "2019년 10월 14일, 랜섬웨어 공격을 받은 고려아연은 업무용 PC와 서버 수백 대에 이어 디스크 백업 서버까지 암호화되면서 복구에 약 한 달이 걸렸다.",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "코인원, 고객 상담 수탁사 ‘메타엠’ 해킹으로 개인정보 유출",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147270",
-      "published_at": "2026-11-15T01:34:03.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "가상자산 거래소 코인원의 고객 상담 업무를 맡은 외부 위탁업체 서버가 해킹당해 이용자 개인정보가 유출되는 사고가 났다.15일 코인원 공지에 따르면 지난 12일 오전 4시경 외부 공격자가…",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[CPS 시큐어 AX 서밋 2026] 송재은 앤앤에스피 본부장, OT 망연계 기술 소개",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209528",
-      "published_at": "2026-11-15T01:33:51.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "산업제어망에서 수집한 설비 데이터를 인공지능(AI) 분석에 활용하려면 외부로 보낼 데이터의 범위를 정해야 한다.",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "인제대, 학생·교직원 개인정보 유출… 교육부 통보로 인지",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147269",
-      "published_at": "2026-11-15T01:08:26.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "경남 김해 소재 인제대학교의 수업 관련 서버가 외부 해킹 공격을 받아 구성원들의 개인정보 2만4000여 건이 유출됐다.인제대는 홈페이지에 ‘개인정보 유출 사실 안내 및 사과문’을 게시하고, 수업…",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[CPS 시큐어 AX 서밋 2026] “산업제어망 보안, 솔루션 도입 전 설비 연결 구조부터 파악해야”",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209526",
-      "published_at": "2026-11-15T01:07:03.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident",
-        "policy"
-      ],
-      "excerpt": "김수득 후디스코리아(h00dies Korea) 법인장은 13일 서울 양재 엘타워에서 열린 ‘CPS(OT/ICS) Secure AX Summit 2026’에서 산업제어망 해킹이 생산 중단과 설비 안전 문제로 번질 수 있다며 운영기술(OT)…",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "한국조폐공사 모바일 상품권 ‘착’, 해킹으로 3083명 개인정보 유출",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147268",
-      "published_at": "2026-11-15T00:47:22.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "한국조폐공사가 운영하는 모바일 지역사랑상품권 앱 ‘착’(chak)에 외부인의 무단 접근이 발생해 이용자 3083명의 개인정보가 조회된 것으로 파악됐다.15일 업계에 따르면 조폐공사는 전날 오전 9시 30분경 ‘착’ 시스템에서…",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "메타엠 고객상담 시스템 해킹…전화번호·상담 내용 등 개인정보 유출 확인",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209525",
-      "published_at": "2026-11-15T00:22:39.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "국내 고객상담 서비스 전문기업 메타엠(MetaM)이 해킹 공격을 받아 일부 고객상담 시스템에 저장된 전화번호와 상담 대화 내용 등 개인정보가 무단 조회되거나 외부로 반출된 정황이 확인됐다.",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[단독] 한국발명진흥회 '아이디어로' 플랫폼 해킹…악성코드 설치 후 62MB 데이터 외부 유출",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209524",
-      "published_at": "2026-11-15T00:06:59.000Z",
-      "date": "2026-11-15",
-      "tags": [
-        "incident",
-        "vulnerability",
-        "malware"
-      ],
-      "excerpt": "한국발명진흥회가 운영하는 '아이디어로(IDEARO)' 플랫폼이 해킹 공격을 받아 약 62MB의 데이터가 외부로 전송된 사실이 확인됐다.",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "전문인력 매칭 '모두의잡스’ 해킹 당해 홈페이지 변조…해커는 웹쉘 판매자",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209523",
-      "published_at": "2026-11-14T23:53:59.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "전문인력 매칭과 생활 서비스 예약을 제공하는 ‘모두의잡스’ 홈페이지에서 메인 화면이 변조된 정황이 확인됐다.",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "알리바바 클라우드에 띄운 AI 해킹 도구... ‘안티폭스’로 AWS 운영 비밀 정보 빼냈다",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147198",
-      "published_at": "2026-11-14T23:25:00.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "incident",
-        "malware"
-      ],
-      "excerpt": "AI 침투 테스트 도구 ‘안티폭스’(AntiFox)가 실제 해킹에 쓰이고 있다.",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[단독] 인제대·경일대 해킹한 해커, 해킹 포럼에 “한국 대학 31곳 데이터 탈취·공개” 주장…수능 앞두고 대학 보안 비상",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209522",
-      "published_at": "2026-11-14T15:39:41.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "대학수학능력시험을 닷새 앞두고 해킹 포럼에 국내 대학 31곳의 데이터를 확보해 공개했다는 주장이 올라왔다.",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
       "source": "thehackernews",
       "region": "global",
       "lang": "en",
@@ -5493,138 +5853,6 @@
       ],
       "excerpt": "The U.S.",
       "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "노란우산 홈페이지 해킹, 고객 주민번호 앞자리·주소 등 개인정보 유출 가능성",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209521",
-      "published_at": "2026-11-14T10:41:14.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "중소기업중앙회가 운영하는 소기업·소상공인 공제제도 '노란우산' 홈페이지에서 외부 비인가자의 접근으로 일부 고객의 개인정보가 제3자에게 조회됐을 가능성이 확인됐다.",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "노란우산 정보 유출 정황... 주소·연락처 등",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147267",
-      "published_at": "2026-11-14T09:16:21.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "기업·소상공인 공제 제도 ‘노란우산’의 일부 고객 정보 유출 정황이 발견됐다.14일 중소기업중앙회는 11일 노란우산 홈페이지에 대한 외부의 비정상적인 접근과 함께 일부 고객 개인정보의 제3자 조회 의심…",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "몸값 500만달러 요구한 랜섬웨어 조직... 해운회사 머스크, 인수 회사 시스템 데이터 도난 인정",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147207",
-      "published_at": "2026-11-14T04:50:00.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "incident",
-        "malware"
-      ],
-      "excerpt": "해운 대기업 머스크(Maersk)가 과거 인수한 회사의 시스템이 뚫려 데이터가 빠져나갔다고 확인했다.",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[디지털 문단속] #10. 지원 끊긴 구형 IP카메라, 사후 점검과 안전 폐기법은?",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147142",
-      "published_at": "2026-11-14T04:39:00.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "incident",
-        "vulnerability"
-      ],
-      "excerpt": "수년 전 반려견이나 아이를 돌보기 위해 설치한 IP 카메라는 시간이 지나면 해커들의 손쉬운 먹잇감으로 전락한다.",
-      "first_seen": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "HTTP/2 켠 서버만 노출... 아파치 웹서버 원격 코드 실행 결함, 앤트로픽·구글이 찾아냈다",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147236",
-      "published_at": "2026-11-14T02:33:49.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "아파치 HTTP 서버에서 로그인하지 않은 공격자가 원격으로 코드를 실행할 수 있는 치명적 결함(CVE-2026-119618)이 고쳐졌다.",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "금보원, 해킹 공격 246개 IP 주소 차단 완료... ‘유동 IP 접속 허용’ 원인 지목",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147263",
-      "published_at": "2026-11-14T00:59:06.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "금융보안원이 최근 해킹 공격을 받아 48개 금융사의 정보 130여 건이 유출된 가운데, 침해사고 대응 과정에서 총 246개의 공격 인터넷 프로토콜(IP) 주소 차단을 완료했다.",
-      "first_seen": "2026-11-14T03:20:59.655Z",
-      "updated_at": "2026-11-15T02:43:32.640Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "美 전역 항공기 운항 마비… “관제통신 오류, 해킹 징후는 발견 안돼”",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147262",
-      "published_at": "2026-11-14T00:37:15.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "미국 전역의 공항에서 항공기 운항이 전면 멈춰 서는 초유의 사태가 벌어졌다.미 연방항공청(FAA)은 현지시간 13일 오후 4시께부터 안전상의 이유와 이례적인 상황을 근거로 미 전역 모든 공항의…",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "모두의 창업 또 개인정보 유출… 이번엔 참여 업체 API 뚫려",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147261",
-      "published_at": "2026-11-14T00:21:33.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "incident",
-        "vulnerability"
-      ],
-      "excerpt": "중소벤처기업부가 주관하는 스타트업 지원 사업 ‘2차 모두의 창업’에서 또다시 개인정보 유출 사태가 빚어졌다.",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "보안 도구가 백도어 통로로... 리눅스 호스팅 서버용 ‘시피가드’ 업데이트 오염",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=146988",
-      "published_at": "2026-11-14T00:20:00.000Z",
-      "date": "2026-11-14",
-      "tags": [
-        "incident",
-        "malware",
-        "policy"
-      ],
-      "excerpt": "리눅스 호스팅 서버를 지키려고 설치하는 보안 도구가 거꾸로 서버에 백도어를 심는 통로가 됐다.",
-      "first_seen": "2026-11-14T03:20:59.655Z"
     },
     {
       "source": "thehackernews",
@@ -5670,48 +5898,6 @@
       "first_seen": "2026-11-14T03:20:59.655Z"
     },
     {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "[단독] 경일대 교직원 전자문서시스템 해킹…다크웹 포럼에 해커 “108GB 탈취” 주장",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209515",
-      "published_at": "2026-11-13T10:37:44.000Z",
-      "date": "2026-11-13",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "경북 경산시에 위치한 경일대학교(KIU)의 교직원 전용 전자문서시스템에 해커로 추정되는 외부 침입이 발생했다.대학은 다른 시스템으로 피해가 확산될 우려가 있다며 주요 정보서비스의 외부 접속을 통제했다.",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "중소벤처기업부 ‘모두의 창업’ 또 개인정보 유출…AI 공급기업 해킹으로 2만28명 피해",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209514",
-      "published_at": "2026-11-13T10:15:08.000Z",
-      "date": "2026-11-13",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "중소벤처기업부가 추진하는 창업 지원사업 ‘모두의 창업’에서 또다시 개인정보 유출 사고가 발생했다.",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "boannews",
-      "region": "kr",
-      "lang": "ko",
-      "title": "쏘카 사내 관리 시스템 침해... 임직원·협력사 일부 개인정보 유출",
-      "url": "https://www.boannews.com/news/articleView.html?idxno=147260",
-      "published_at": "2026-11-13T10:08:05.000Z",
-      "date": "2026-11-13",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "쏘카 사내 관리 시스템에서 전·현직 임직원과 협력사 관계자 일부의 개인정보가 유출됐다.",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
       "source": "thehackernews",
       "region": "global",
       "lang": "en",
@@ -5723,119 +5909,6 @@
         "vulnerability"
       ],
       "excerpt": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously…",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "광주관광공사, 개인정보 유출 가능성 통지...더존비즈온 해킹 여파",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209512",
-      "published_at": "2026-11-13T07:13:43.000Z",
-      "date": "2026-11-13",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "광주광역시 관광공사가 업무에 이용하는 외부 위탁업체 더존비즈온의 시스템에서 침해사고가 발생하면서 개인정보 유출 가능성을 공식 안내했다.",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "TSMC 전·현직 직원 개인정보 무단 공개…외부 클라우드 보관 자료와 일치",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209511",
-      "published_at": "2026-11-13T07:01:03.000Z",
-      "date": "2026-11-13",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "대만 반도체 위탁생산 기업 TSMC가 일부 전·현직 직원의 개인정보가 외부 웹사이트에 무단 공개된 사실이 확인됐다.TSMC는 11월 12일 미국 증권거래위원회(SEC)에 제출한 공시에서 공개된 정보가 외부 클라우드…",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "포티넷 제품군 취약점 98건 공개…방화벽·관리 서버 점검 필요",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209510",
-      "published_at": "2026-11-13T06:57:28.000Z",
-      "date": "2026-11-13",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "포티넷이 방화벽 운영체제 포티OS와 중앙 관리 솔루션 포티매니저 등 여러 제품의 보안 취약점을 공개했다.영국 국민보건서비스는 11월 11일 권고에서 전체 98건 중 19건이 치명적 등급이라고 밝혔다.",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "미, 바이낸스 해킹 탈취 자산 27억 달러 이상 동결…12억 달러 이상 압류·처분 제한 승인",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209509",
-      "published_at": "2026-11-13T06:51:53.000Z",
-      "date": "2026-11-13",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "미국 정부와 민간 가상자산 사업자들이 바이낸스(Binance) 해킹으로 탈취된 가상자산 27억 달러 이상을 동결했다.미 법무부는 11월 12일(현지시간) 이 가운데 12억 달러 이상을 압류하거나 처분을 제한할 수…",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "북한 해커, 가짜 화상회의로 가상자산 4억 달러 이상 탈취…미 FBI, ‘페이스스틸러’ 인프라 압수",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209508",
-      "published_at": "2026-11-13T06:47:57.000Z",
-      "date": "2026-11-13",
-      "tags": [
-        "incident",
-        "phishing"
-      ],
-      "excerpt": "미국 법무부가 북한 해커의 가상자산 탈취 캠페인 ‘페이스스틸러(FaceStealer)’에 쓰인 클라우드 인프라를 압수했다고 11월 12일 밝혔다.미 연방수사국(FBI)에 따르면 공격자들은 최근 18개월 동안 4억 달러 이상의 가상자산을…",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "아파치 HTTP 서버 2.4.71 공개…HTTP/2 원격 코드 실행 취약점 수정",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209506",
-      "published_at": "2026-11-13T06:02:23.000Z",
-      "date": "2026-11-13",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "아파치 HTTP 서버 프로젝트가 11월 11일 보안 취약점 3건을 수정한 2.4.71을 공개했다.",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "레일웨이 해킹으로 고객 AI 서비스 키 탈취…무단 사용액 약 74만 달러",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209505",
-      "published_at": "2026-11-13T05:56:29.000Z",
-      "date": "2026-11-13",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "클라우드 호스팅 업체 레일웨이(Railway)가 지난 10월 발생한 해킹으로 탈취된 고객의 AI 서비스 접근 키가 무단 사용됐다고 밝혔다.",
-      "first_seen": "2026-11-14T03:20:59.655Z"
-    },
-    {
-      "source": "dailysecu",
-      "region": "kr",
-      "lang": "ko",
-      "title": "바라쿠다 내부 클라우드 해킹, 고객 보안 서비스 연동 키 저장 시스템 접근",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209504",
-      "published_at": "2026-11-13T05:44:44.000Z",
-      "date": "2026-11-13",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "보안기업 바라쿠다(Barracuda)의 내부 클라우드가 해킹돼 공격자가 고객 시스템과 보안 서비스를 연결하는 자격증명 저장 시스템에 접근했다.",
       "first_seen": "2026-11-14T03:20:59.655Z"
     },
     {
@@ -7047,78 +7120,6 @@
         "vulnerability"
       ],
       "excerpt": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed.",
-      "first_seen": "2026-11-04T03:01:36.216Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-      "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
-      "published_at": "2026-11-03T11:00:45.000Z",
-      "date": "2026-11-03",
-      "tags": [
-        "vulnerability",
-        "malware"
-      ],
-      "excerpt": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations.",
-      "first_seen": "2026-11-04T03:01:36.216Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
-      "published_at": "2026-11-03T08:31:48.000Z",
-      "date": "2026-11-03",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin…",
-      "first_seen": "2026-11-04T03:01:36.216Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-      "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-      "published_at": "2026-11-03T07:43:07.000Z",
-      "date": "2026-11-03",
-      "tags": [
-        "vulnerability",
-        "malware"
-      ],
-      "excerpt": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks.",
-      "first_seen": "2026-11-04T03:01:36.216Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
-      "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
-      "published_at": "2026-11-03T07:27:07.000Z",
-      "date": "2026-11-03",
-      "tags": [
-        "incident"
-      ],
-      "excerpt": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges…",
-      "first_seen": "2026-11-04T03:01:36.216Z"
-    },
-    {
-      "source": "thehackernews",
-      "region": "global",
-      "lang": "en",
-      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-      "published_at": "2026-11-03T05:34:41.000Z",
-      "date": "2026-11-03",
-      "tags": [
-        "vulnerability"
-      ],
-      "excerpt": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed.",
       "first_seen": "2026-11-04T03:01:36.216Z"
     },
     {
